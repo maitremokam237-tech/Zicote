@@ -1,24 +1,21 @@
-- run:
-          name: Push to GitHub
-          command: |
-            set -e
+#!/bin/bash -eo pipefail
 
-            git config user.name "CircleCI"
-            git config user.email "circleci@users.noreply.github.com"
+git config user.name "CircleCI"
+git config user.email "circleci@users.noreply.github.com"
 
-            if [ -z "$Gh_Token" ]; then
-              echo "Erreur : GH_TOKEN est absent"
-              exit 1
-            fi
+if [ -z "$GH_TOKEN" ]; then
+  echo "Erreur : GH_TOKEN est absent"
+  exit 1
+fi
 
-            git remote set-url origin \
-              "https://maitremokam237-tech:${GH_TOKEN}@github.com/maitremokam237-tech/Zicote.git"
+git remote set-url origin \
+  "https://maitremokam237-tech:${GH_TOKEN}@github.com/maitremokam237-tech/Zicote.git"
 
-            git add docs/
+git add docs/
 
-            if ! git diff --cached --quiet; then
-              git commit -m "Deploy updated site [skip ci]"
-              git push origin HEAD:main
-            else
-              echo "Aucun changement à publier"
-            fi
+if ! git diff --cached --quiet; then
+  git commit -m "Deploy updated site [skip ci]"
+  git push origin HEAD:main
+else
+  echo "Aucun changement à publier"
+fi
