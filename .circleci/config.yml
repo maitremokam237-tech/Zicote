@@ -1,44 +1,24 @@
-version: 2.1
-
-jobs:
-  deploy:
-    docker:
-      - image: cimg/base:stable
-
-    steps:
-      - checkout
-
-      - run:
-          name: Verify project files
+- run:
+          name: Push to GitHub
           command: |
-            test -d docs
-            test -f docs/index.html
-            echo "Project files verified"
+            set -e
 
-      - run:
-          name: Publish JSON data to docs
-          command: |
-            cp -f ./*.json docs/ 2>/dev/null || true
-
-      - run:
-          name: Push deployment files
-          command: |
             git config user.name "CircleCI"
             git config user.email "circleci@users.noreply.github.com"
 
+            if [ -z "$GH_TOKEN" ]; then
+              echo "Erreur : GH_TOKEN est absent"
+              exit 1
+            fi
+
             git remote set-url origin \
-              "https://x-access-token:${CIRCLE_GITHUB_TOKEN}@github.com/maitremokam237-tech/Zicote.git"
+              "https://maitremokam237-tech:${GH_TOKEN}@github.com/maitremokam237-tech/Zicote.git"
 
             git add docs/
 
             if ! git diff --cached --quiet; then
               git commit -m "Deploy updated site [skip ci]"
-              git push origin main
+              git push origin HEAD:main
             else
-              echo "No deployment changes"
+              echo "Aucun changement à publier"
             fi
-
-workflows:
-  deploy_site:
-    jobs:
-      - deploy
