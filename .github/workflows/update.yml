@@ -1,7 +1,8 @@
-name: Zicote - Update Odds
+name: Zicote - Scraper
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "0 */3 * * *"
 
@@ -13,15 +14,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -35,27 +34,39 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run scraper
+      - name: Run Zicote scraper
         env:
           WEBSHARE_HOST: ${{ secrets.WEBSHARE_HOST }}
           WEBSHARE_PORT: ${{ secrets.WEBSHARE_PORT }}
           WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
           WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
-        run: python scraper.py
+        run: |
+          python scraper.py
 
-      - name: Generate comparison and match pages
-        run: python comparateur.py
+      - name: Generate comparison data
+        run: |
+          python comparateur.py
 
-      - name: Commit updated data and website
+      - name: Save scraped data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add *.json docs/
+          git add \
+            1win.json \
+            1xbet.json \
+            africa-bizbet.json \
+            betwinner.json \
+            maj_bookmakers.json \
+            megapari.json \
+            melbet.json \
+            winwin.json \
+            docs/comparison.json
 
-          if ! git diff --cached --quiet; then
-            git commit -m "Update odds and website data"
-            git push origin HEAD:main
-          else
-            echo "No changes to publish"
+          if git diff --cached --quiet; then
+            echo "Aucune nouvelle donnée à enregistrer."
+            exit 0
           fi
+
+          git commit -m "Update scraped sports data"
+          git push origin main
