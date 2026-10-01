@@ -1,0 +1,44 @@
+version: 2.1
+
+jobs:
+  deploy:
+    docker:
+      - image: cimg/base:stable
+
+    steps:
+      - checkout
+
+      - run:
+          name: Verify project files
+          command: |
+            test -d docs
+            test -f docs/index.html
+            echo "Project files verified"
+
+      - run:
+          name: Publish JSON data to docs
+          command: |
+            cp -f ./*.json docs/ 2>/dev/null || true
+
+      - run:
+          name: Push deployment files
+          command: |
+            git config user.name "CircleCI"
+            git config user.email "circleci@users.noreply.github.com"
+
+            git remote set-url origin \
+              "https://x-access-token:${CIRCLE_GITHUB_TOKEN}@github.com/maitremokam237-tech/Zicote.git"
+
+            git add docs/
+
+            if ! git diff --cached --quiet; then
+              git commit -m "Deploy updated site [skip ci]"
+              git push origin main
+            else
+              echo "No deployment changes"
+            fi
+
+workflows:
+  deploy_site:
+    jobs:
+      - deploy
