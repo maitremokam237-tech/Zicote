@@ -1,21 +1,24 @@
-#!/bin/bash -eo pipefail
+- run:
+          name: Publish to GitHub
+          command: |
+            set -euo pipefail
 
-git config user.name "CircleCI"
-git config user.email "circleci@users.noreply.github.com"
+            git config user.name "CircleCI"
+            git config user.email "circleci@users.noreply.github.com"
 
-if [ -z "$GH_TOKEN" ]; then
-  echo "Erreur : GH_TOKEN est absent"
-  exit 1
-fi
+            if [ -z "${GH_TOKEN:-}" ]; then
+              echo "Erreur : GH_TOKEN est absent"
+              exit 1
+            fi
 
-git remote set-url origin \
-  "https://maitremokam237-tech:${GH_TOKEN}@github.com/maitremokam237-tech/Zicote.git"
+            git add docs/
 
-git add docs/
+            if git diff --cached --quiet; then
+              echo "Aucun changement à publier"
+              exit 0
+            fi
 
-if ! git diff --cached --quiet; then
-  git commit -m "Deploy updated site [skip ci]"
-  git push origin HEAD:main
-else
-  echo "Aucun changement à publier"
-fi
+            git commit -m "Deploy updated site [skip ci]"
+
+            git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 | tr -d '\n')" \
+              push https://github.com/maitremokam237-tech/Zicote.git HEAD:main
