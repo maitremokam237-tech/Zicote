@@ -6,7 +6,7 @@
             git config user.name "CircleCI"
             git config user.email "circleci@users.noreply.github.com"
 
-            if [ -z "$GH_TOKEN" ]; then
+            if [ -z "$Gh_Token" ]; then
               echo "Erreur : GH_TOKEN est absent"
               exit 1
             fi
