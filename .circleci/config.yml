@@ -1,26 +1,21 @@
+version: 2.1
+
+jobs:
+  verify:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
       - run:
-          name: Publish to GitHub
+          name: Verify project files
           command: |
-            set -euo pipefail
+            test -f scraper.py
+            test -f comparateur.py
+            test -f requirements.txt
+            test -f docs/index.html
+            echo "Fichiers du projet vérifiés"
 
-            git config user.name "CircleCI"
-            git config user.email "circleci@users.noreply.github.com"
-
-            if [ -z "${GH_TOKEN:-}" ]; then
-              echo "Erreur : GH_TOKEN absent"
-              exit 1
-            fi
-
-            git add docs/
-
-            if git diff --cached --quiet; then
-              echo "Aucun changement à publier"
-              exit 0
-            fi
-
-            git commit -m "Deploy updated site [skip ci]"
-
-            AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 | tr -d '\n')
-
-            git -c http.extraheader="AUTHORIZATION: basic $AUTH" \
-              push https://github.com/maitremokam237-tech/Zicote.git HEAD:main
+workflows:
+  zicote:
+    jobs:
+      - verify
