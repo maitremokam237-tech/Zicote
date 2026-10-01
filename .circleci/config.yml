@@ -1,43 +1,3 @@
-version: 2.1
-
-jobs:
-  deploy:
-    docker:
-      - image: cimg/python:3.11
-
-    steps:
-      - checkout
-
-      - run:
-          name: Inspect project files
-          command: |
-            echo "Structure du projet"
-            pwd
-            ls -la
-            find . -maxdepth 2 -type f | sort
-
-      - run:
-          name: Verify site
-          command: |
-            if [ ! -d docs ]; then
-              echo "Erreur : dossier docs absent"
-              exit 1
-            fi
-
-            if [ ! -f docs/index.html ]; then
-              echo "Erreur : docs/index.html absent"
-              exit 1
-            fi
-
-      - run:
-          name: Copy bookmaker data
-          command: |
-            for file in *.json; do
-              if [ -f "$file" ]; then
-                cp "$file" docs/
-              fi
-            done
-
       - run:
           name: Publish to GitHub
           command: |
@@ -47,7 +7,7 @@ jobs:
             git config user.email "circleci@users.noreply.github.com"
 
             if [ -z "${GH_TOKEN:-}" ]; then
-              echo "Erreur : GH_TOKEN est absent"
+              echo "Erreur : GH_TOKEN absent"
               exit 1
             fi
 
@@ -60,10 +20,7 @@ jobs:
 
             git commit -m "Deploy updated site [skip ci]"
 
-            git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 | tr -d '\n')" \
-              push https://github.com/maitremokam237-tech/Zicote.git HEAD:main
+            AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 | tr -d '\n')
 
-workflows:
-  deploy_site:
-    jobs:
-      - deploy
+            git -c http.extraheader="AUTHORIZATION: basic $AUTH" \
+              push https://github.com/maitremokam237-tech/Zicote.git HEAD:main
