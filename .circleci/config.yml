@@ -1,21 +1,52 @@
 version: 2.1
 
 jobs:
-  verify:
-    docker:
-      - image: cimg/base:stable
-    steps:
-      - checkout
-      - run:
-          name: Verify project files
-          command: |
-            test -f scraper.py
-            test -f comparateur.py
-            test -f requirements.txt
-            test -f docs/index.html
-            echo "Fichiers du projet vérifiés"
+deploy:
+docker:
+- image: cimg/base:stable
+
+steps:
+  - checkout
+
+  - run:
+      name: Verify project files
+      command: |
+        set -e
+        test -f docs/index.html
+        echo "Project files verified"
+
+  - run:
+      name: Publish JSON data to docs
+      command: |
+        set -e
+        mkdir -p docs
+
+        find . -maxdepth 1 -type f -name "*.json" \
+          -exec cp {} docs/ \;
+
+        echo "JSON files copied to docs"
+
+  - run:
+      name: Push deployment files
+      command: |
+        set -e
+
+        git config user.name "CircleCI"
+        git config user.email "circleci@users.noreply.github.com"
+
+        git remote set-url origin git@github.com:maitremokam237-tech/Zicote.git
+
+        git add docs/
+
+        if git diff --cached --quiet; then
+          echo "No changes to publish"
+          exit 0
+        fi
+
+        git commit -m "Update website data [skip ci]"
+        git push origin HEAD:main
 
 workflows:
-  zicote:
-    jobs:
-      - verify
+zicote:
+jobs:
+- deploy
