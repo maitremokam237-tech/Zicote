@@ -20,10 +20,7 @@ steps:
       command: |
         set -e
         mkdir -p docs
-
-        find . -maxdepth 1 -type f -name "*.json" \
-          -exec cp {} docs/ \;
-
+        find . -maxdepth 1 -type f -name "*.json" -exec cp {} docs/ \;
         echo "JSON files copied to docs"
 
   - run:
@@ -36,6 +33,9 @@ steps:
 
         git remote set-url origin git@github.com:maitremokam237-tech/Zicote.git
 
+        echo "Remote configuré :"
+        git remote -v
+
         git add docs/
 
         if git diff --cached --quiet; then
@@ -44,7 +44,7 @@ steps:
         fi
 
         git commit -m "Update website data [skip ci]"
-        git push origin HEAD:main
+        GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new" git push origin HEAD:main
 
 workflows:
 zicote:
