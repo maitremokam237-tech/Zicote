@@ -43,11 +43,25 @@ jobs:
         run: |
           python scraper.py
 
-      - name: Generate comparison data
+      - name: Generate comparison data and match pages
         run: |
           python comparateur.py
 
-      - name: Save scraped data
+      - name: Verify generated files
+        run: |
+          echo "Vérification des fichiers générés..."
+
+          test -f docs/index.html
+          test -f docs/comparison.json
+          test -f docs/sitemap.xml
+          test -f docs/robots.txt
+
+          echo "Nombre de fiches générées :"
+          find docs -mindepth 2 -name index.html | wc -l
+
+          echo "Vérification terminée."
+
+      - name: Save scraped data and generated pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -61,12 +75,12 @@ jobs:
             megapari.json \
             melbet.json \
             winwin.json \
-            docs/comparison.json
+            docs/
 
           if git diff --cached --quiet; then
             echo "Aucune nouvelle donnée à enregistrer."
             exit 0
           fi
 
-          git commit -m "Update scraped sports data"
+          git commit -m "Update scraped sports data and match pages"
           git push origin main
