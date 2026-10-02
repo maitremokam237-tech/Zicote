@@ -3,83 +3,26 @@ version: 2.1
 jobs:
   deploy:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/node:22.0
 
     steps:
       - checkout
 
       - run:
-          name: Verify project files
+          name: Vérifier les fichiers du site
           command: |
-            set -e
-
             test -f docs/index.html
-            test -f comparateur.py
-
-            echo "Project files verified"
+            echo "Fichiers du site trouvés."
 
       - run:
-          name: Publish JSON data to docs
-          command: |
-            set -e
-
-            mkdir -p docs
-
-            for file in \
-              1win.json \
-              1xbet.json \
-              africa-bizbet.json \
-              betwinner.json \
-              maj_bookmakers.json \
-              megapari.json \
-              melbet.json \
-              winwin.json
-            do
-              if [ -f "$file" ]; then
-                cp "$file" "docs/$file"
-                echo "Publié : $file"
-              fi
-            done
-
-            if [ -f "docs/comparison.json" ]; then
-              echo "comparison.json déjà présent"
-            fi
+          name: Installer Wrangler
+          command: npm install --global wrangler
 
       - run:
-          name: Verify deployment data
-          command: |
-            set -e
-
-            echo "Fichiers JSON dans docs :"
-
-            ls -lh docs/*.json
-
-      - run:
-          name: Push deployment files
-          command: |
-            set -e
-
-            git config user.name "CircleCI"
-            git config user.email "circleci@users.noreply.github.com"
-
-            git remote set-url origin git@github.com:maitremokam237-tech/Zicote.git
-
-            echo "Remote utilisé :"
-            git remote -v
-
-            git add docs/
-
-            if git diff --cached --quiet; then
-              echo "Aucun changement à publier."
-              exit 0
-            fi
-
-            git commit -m "Deploy updated site [skip ci]"
-
-            GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new" \
-              git push origin HEAD:main
+          name: Déployer sur Cloudflare
+          command: wrangler deploy --config wrangler.jsonc
 
 workflows:
-  zicote:
+  zicote-deployment:
     jobs:
       - deploy
