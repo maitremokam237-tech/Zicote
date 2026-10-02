@@ -256,11 +256,15 @@ function applyStaticStrings() {
 function render(list) {
     const t = Zicote_i18n.t;
     const cards = list.map(card).filter(Boolean);
+
     $("count").textContent = cards.length;
-    let info = state.generatedAt ? t("updated_at") + " " + dt(state.generatedAt) : "";
-    const old = Object.entries(state.maj).filter(([,d]) => Date.now() - new Date(d) > 3*36e5).map(([b,d]) => (NAMES[b]||b) + " (" + dt(d) + ")");
-    if (old.length) info += "<br>" + t("older_odds") + " : " + esc(old.join(", "));
-    $("upd").innerHTML = info;
+
+    const info = state.generatedAt
+        ? "Mis à jour le " + dt(state.generatedAt)
+        : "";
+
+    $("upd").textContent = info;
+
     $("app").innerHTML = cards.length
         ? `<section class="comp"><h2>${t("comp_title")}</h2>${cards.join("")}</section>`
         : `<p class="msg">${t("no_match_msg")}</p>`;
