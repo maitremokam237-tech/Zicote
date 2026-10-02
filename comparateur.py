@@ -11,7 +11,8 @@ from difflib import SequenceMatcher
 # FICHES PAR MATCH (docs/{slug}/index.html)
 # ============================================================
 
-TEMPLATE_PATH = Path("templates/match_template.html")
+BASE_DIR = Path(__file__).resolve().parent
+TEMPLATE_PATH = BASE_DIR / "match_template.html"
 
 # Fichier qui garde la trace des dossiers générés lors du
 # dernier passage, pour pouvoir supprimer ceux des matchs qui
@@ -57,7 +58,7 @@ def generate_match_pages(matches):
     if not TEMPLATE_PATH.exists():
 
         print(
-            "templates/match_template.html introuvable, "
+            "match_template.html introuvable, "
             "fiches par match ignorées"
         )
         return
