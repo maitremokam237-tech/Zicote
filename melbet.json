@@ -1,6 +1,54 @@
 [
   {
     "bookmaker": "melbet",
+    "equipe_1": "Galatasaray",
+    "equipe_2": "Barcelona",
+    "1X2": {
+      "V1": "8.8",
+      "X": "6.2",
+      "V2": "1.285"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "Double_Chance": {
+      "1X": null,
+      "12": null,
+      "2X": null
+    },
+    "BTTS": {
+      "Oui": null,
+      "Non": null
+    },
+    "Totals": {},
+    "Handicap": {
+      "1 (0)": "6.15",
+      "2 (0)": "1.079",
+      "1 (+1)": "2.9",
+      "2 (-1)": "1.37",
+      "1 (+1.5)": "2.155",
+      "2 (-1.5)": "1.7",
+      "1 (+2)": "1.75",
+      "2 (-2)": "1.99",
+      "1 (+2.5)": "1.5",
+      "2 (-2.5)": "2.38",
+      "1 (+3)": "1.27",
+      "2 (-3)": "3.22",
+      "1 (+3.5)": "1.194",
+      "2 (-3.5)": "3.74",
+      "1 (+4)": "1.071",
+      "2 (-4)": "5.8",
+      "1 (+4.5)": "1.056",
+      "2 (-4.5)": "6.3"
+    },
+    "Score_Exact": {},
+    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368594076-galatasaray-barcelona",
+    "derniere_maj": "2026-10-02T12:27:10.279648+00:00",
+    "statut": "ok"
+  },
+  {
+    "bookmaker": "melbet",
     "equipe_1": "Arsenal",
     "equipe_2": "Lille Osc",
     "1X2": {
@@ -44,17 +92,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368594074-arsenal-lille-osc",
-    "derniere_maj": "2026-10-02T09:35:48.185637+00:00",
+    "derniere_maj": "2026-10-02T12:27:10.237599+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "France",
-    "equipe_2": "Italy",
+    "equipe_1": "Belgium",
+    "equipe_2": "Turkey",
     "1X2": {
-      "V1": "1.46",
-      "X": "4.74",
-      "V2": "6.35"
+      "V1": "1.555",
+      "X": "4.54",
+      "V2": "5.2"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -71,26 +119,28 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "7.2",
-      "2 (+3.5)": "1.034",
-      "1 (-3)": "6.55",
-      "2 (+3)": "1.05",
-      "1 (-2.5)": "3.72",
-      "2 (+2.5)": "1.21",
-      "1 (-2)": "3.125",
-      "2 (+2)": "1.31",
-      "1 (-1.5)": "2.24",
-      "2 (+1.5)": "1.65",
-      "1 (-1)": "1.725",
-      "2 (+1)": "2.11",
-      "1 (0)": "1.15",
-      "2 (0)": "4.8",
+      "1 (-3.5)": "7.8",
+      "2 (+3.5)": "1.023",
+      "1 (-3)": "7.1",
+      "2 (+3)": "1.037",
+      "1 (-2.5)": "4.15",
+      "2 (+2.5)": "1.176",
+      "1 (-2)": "3.48",
+      "2 (+2)": "1.26",
+      "1 (-1.5)": "2.416",
+      "2 (+1.5)": "1.565",
+      "1 (-1)": "1.89",
+      "2 (+1)": "1.909",
+      "1 (0)": "1.22",
+      "2 (0)": "3.92",
       "1 (+1)": "1.01",
-      "2 (-1)": "11.5"
+      "2 (-1)": "9.7",
+      "1 (+1.5)": "1.02",
+      "2 (-1.5)": "10"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/369841820-france-italy",
-    "derniere_maj": "2026-10-02T09:34:37.803830+00:00",
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/369841826-belgium-turkey",
+    "derniere_maj": "2026-10-02T12:27:10.273940+00:00",
     "statut": "ok"
   },
   {
@@ -138,7 +188,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/374644824-briton-ferry-colwyn-bay",
-    "derniere_maj": "2026-10-02T09:35:46.136008+00:00",
+    "derniere_maj": "2026-10-02T12:27:42.368415+00:00",
     "statut": "ok"
   },
   {
@@ -186,7 +236,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/374320374-caernarfon-town-barry-town",
-    "derniere_maj": "2026-10-02T09:34:37.788112+00:00",
+    "derniere_maj": "2026-10-02T12:27:10.433376+00:00",
     "statut": "ok"
   },
   {
@@ -230,7 +280,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/374318148-connahs-quay-nomads-pen-y-bont",
-    "derniere_maj": "2026-10-02T09:36:25.160985+00:00",
+    "derniere_maj": "2026-10-02T12:27:44.730652+00:00",
     "statut": "ok"
   },
   {
@@ -238,9 +288,9 @@
     "equipe_1": "The New",
     "equipe_2": "Saints Cambrian United",
     "1X2": {
-      "V1": "1.023",
+      "V1": "1.024",
       "X": "10.7",
-      "V2": "21"
+      "V2": "20"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -259,10 +309,10 @@
     "Handicap": {
       "1 (-5.5)": "7.4",
       "2 (+5.5)": "1.031",
-      "1 (-5)": "6.7",
-      "2 (+5)": "1.046",
+      "1 (-5)": "6.75",
+      "2 (+5)": "1.045",
       "1 (-4.5)": "4.1",
-      "2 (+4.5)": "1.163",
+      "2 (+4.5)": "1.162",
       "1 (-4)": "3.5",
       "2 (+4)": "1.22",
       "1 (-3.5)": "2.43",
@@ -280,7 +330,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/374318144-the-new-saints-cambrian-united",
-    "derniere_maj": "2026-10-02T09:35:31.519474+00:00",
+    "derniere_maj": "2026-10-02T12:28:10.663884+00:00",
     "statut": "ok"
   },
   {
@@ -324,7 +374,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/374318146-haverfordwest-county-flint-town-united",
-    "derniere_maj": "2026-10-02T09:35:27.473807+00:00",
+    "derniere_maj": "2026-10-02T12:27:44.811532+00:00",
     "statut": "ok"
   },
   {
@@ -351,20 +401,20 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-3.5)": "8.5",
-      "2 (+3.5)": "1.012",
+      "1 (-3.5)": "8.6",
+      "2 (+3.5)": "1.011",
       "1 (-3)": "7.8",
-      "2 (+3)": "1.024",
-      "1 (-2.5)": "4.2",
-      "2 (+2.5)": "1.153",
-      "1 (-2)": "3.48",
-      "2 (+2)": "1.222",
+      "2 (+3)": "1.023",
+      "1 (-2.5)": "4.25",
+      "2 (+2.5)": "1.151",
+      "1 (-2)": "3.5",
+      "2 (+2)": "1.22",
       "1 (-1.5)": "2.3",
       "2 (+1.5)": "1.49",
       "1 (-1)": "1.81",
       "2 (+1)": "1.85",
-      "1 (0)": "1.168",
-      "2 (0)": "4",
+      "1 (0)": "1.17",
+      "2 (0)": "3.98",
       "1 (+1)": "1.01",
       "2 (-1)": "9.6",
       "1 (+1.5)": "1.04",
@@ -372,7 +422,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/13721-wales-premier-league/374648770-airbus-uk-broughton-trefelin",
-    "derniere_maj": "2026-10-02T09:35:19.621367+00:00",
+    "derniere_maj": "2026-10-02T12:28:01.122469+00:00",
     "statut": "ok"
   },
   {
@@ -416,7 +466,7 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/369201280-kazakhstan-moldova",
-    "derniere_maj": "2026-10-02T09:35:29.195189+00:00",
+    "derniere_maj": "2026-10-02T12:27:54.380251+00:00",
     "statut": "ok"
   },
   {
@@ -460,17 +510,17 @@
     },
     "Score_Exact": {},
     "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/369201286-cyprus-armenia",
-    "derniere_maj": "2026-10-02T09:36:01.046968+00:00",
+    "derniere_maj": "2026-10-02T12:28:06.136690+00:00",
     "statut": "ok"
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Rc Lens Sporting",
-    "equipe_2": "Clube De Portugal",
+    "equipe_1": "Latvia",
+    "equipe_2": "Montenegro",
     "1X2": {
-      "V1": "2.435",
+      "V1": "5",
       "X": "3.7",
-      "V2": "2.685"
+      "V2": "1.715"
     },
     "Total_2.5": {
       "Plus de": null,
@@ -487,356 +537,24 @@
     },
     "Totals": {},
     "Handicap": {
-      "1 (-2.5)": "8.3",
-      "2 (+2.5)": "1.015",
-      "1 (-2)": "7.7",
-      "2 (+2)": "1.026",
-      "1 (-1.5)": "4.3",
-      "2 (+1.5)": "1.162",
-      "1 (-1)": "3.56",
-      "2 (+1)": "1.25",
-      "1 (0)": "1.82",
-      "2 (0)": "1.99",
-      "1 (+1)": "1.189",
-      "2 (-1)": "4.2",
-      "1 (+1.5)": "1.127",
-      "2 (-1.5)": "4.9",
-      "1 (+2)": "1.009",
-      "2 (-2)": "8.8",
-      "1 (+2.5)": "1.02",
-      "2 (-2.5)": "10"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590136-rc-lens-sporting-clube-de-portugal",
-    "derniere_maj": "2026-10-02T09:35:54.641897+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Sabah Baku",
-    "equipe_2": "Slavia Prague",
-    "1X2": {
-      "V1": "3.6",
-      "X": "3.72",
-      "V2": "1.975"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "7.6",
-      "2 (+1.5)": "1.04",
-      "1 (-1)": "6.7",
-      "2 (+1)": "1.073",
-      "1 (0)": "2.645",
-      "2 (0)": "1.48",
-      "1 (+1)": "1.4",
-      "2 (-1)": "2.73",
-      "1 (+1.5)": "1.25",
-      "2 (-1.5)": "3.42",
-      "1 (+2)": "1.063",
-      "2 (-2)": "6.1",
-      "1 (+2.5)": "1.04",
-      "2 (-2.5)": "6.95"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590106-sabah-baku-slavia-prague",
-    "derniere_maj": "2026-10-02T09:36:25.038481+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Atletico Madrid",
-    "equipe_2": "Manchester United",
-    "1X2": {
-      "V1": "2.23",
-      "X": "3.8",
-      "V2": "2.925"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "7.1",
-      "2 (+2.5)": "1.038",
-      "1 (-2)": "6.35",
-      "2 (+2)": "1.055",
-      "1 (-1.5)": "3.75",
-      "2 (+1.5)": "1.21",
-      "1 (-1)": "3.1",
-      "2 (+1)": "1.32",
-      "1 (0)": "1.68",
-      "2 (0)": "2.184",
-      "1 (+1)": "1.159",
-      "2 (-1)": "4.6",
-      "1 (+1.5)": "1.108",
-      "2 (-1.5)": "5.25",
-      "1 (+2)": "1.002",
-      "2 (-2)": "9.3",
-      "1 (+2.5)": "1.01",
-      "2 (-2.5)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590142-atletico-madrid-manchester-united",
-    "derniere_maj": "2026-10-02T09:36:10.406436+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Villarreal",
-    "equipe_2": "Napoli",
-    "1X2": {
-      "V1": "2.23",
-      "X": "3.52",
-      "V2": "3.11"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-2.5)": "8.7",
-      "2 (+2.5)": "1.01",
-      "1 (-2)": "7.8",
-      "2 (+2)": "1.024",
-      "1 (-1.5)": "4.1",
-      "2 (+1.5)": "1.179",
-      "1 (-1)": "3.3",
-      "2 (+1)": "1.285",
-      "1 (0)": "1.64",
-      "2 (0)": "2.256",
-      "1 (+1)": "1.114",
-      "2 (-1)": "5.45",
-      "1 (+1.5)": "1.069",
-      "2 (-1.5)": "6.35"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590140-villarreal-napoli",
-    "derniere_maj": "2026-10-02T09:36:01.485513+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Rasenballsport Leipzig",
-    "equipe_2": "Psv Eindhoven",
-    "1X2": {
-      "V1": "2.01",
-      "X": "4",
-      "V2": "3.26"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3.5)": "12",
-      "2 (+3.5)": "1.03",
-      "1 (-3)": "11.5",
-      "2 (+3)": "1.01",
-      "1 (-2.5)": "6.1",
-      "2 (+2.5)": "1.069",
-      "1 (-2)": "5.55",
-      "2 (+2)": "1.104",
-      "1 (-1.5)": "3.34",
-      "2 (+1.5)": "1.29",
-      "1 (-1)": "2.744",
-      "2 (+1)": "1.45",
-      "1 (0)": "1.54",
-      "2 (0)": "2.475",
-      "1 (+1)": "1.103",
-      "2 (-1)": "5.2",
-      "1 (+1.5)": "1.067",
-      "2 (-1.5)": "5.95",
-      "1 (+2)": "1.01",
-      "2 (-2)": "11.5"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590082-rasenballsport-leipzig-psv-eindhoven",
-    "derniere_maj": "2026-10-02T09:36:15.588844+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Lask",
-    "equipe_2": "Linz Liverpool",
-    "1X2": {
-      "V1": "9.5",
-      "X": "6.3",
-      "V2": "1.264"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (0)": "5.95",
-      "2 (0)": "1.071",
-      "1 (+1)": "2.84",
-      "2 (-1)": "1.36",
-      "1 (+1.5)": "2.06",
-      "2 (-1.5)": "1.76",
-      "1 (+2)": "1.656",
-      "2 (-2)": "2.225",
-      "1 (+2.5)": "1.42",
-      "2 (-2.5)": "2.7",
-      "1 (+3)": "1.192",
-      "2 (-3)": "4.05",
-      "1 (+3.5)": "1.136",
-      "2 (-3.5)": "4.6",
-      "1 (+4)": "1.027",
-      "2 (-4)": "7.6",
-      "1 (+4.5)": "1.018",
-      "2 (-4.5)": "8.1"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368599548-lask-linz-liverpool",
-    "derniere_maj": "2026-10-02T09:36:23.008377+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Feyenoord",
-    "equipe_2": "Como",
-    "1X2": {
-      "V1": "3.64",
-      "X": "4.14",
-      "V2": "1.86"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-1.5)": "6.75",
-      "2 (+1.5)": "1.058",
-      "1 (-1)": "6.15",
-      "2 (+1)": "1.089",
-      "1 (0)": "2.784",
-      "2 (0)": "1.44",
-      "1 (+1)": "1.52",
+      "1 (-1.5)": "10",
+      "2 (+1.5)": "1.01",
+      "1 (-1)": "8.9",
+      "2 (+1)": "1.02",
+      "1 (0)": "3.56",
+      "2 (0)": "1.25",
+      "1 (+1)": "1.59",
       "2 (-1)": "2.36",
-      "1 (+1.5)": "1.33",
-      "2 (-1.5)": "2.93",
-      "1 (+2)": "1.124",
-      "2 (-2)": "4.65",
-      "1 (+2.5)": "1.091",
-      "2 (-2.5)": "5.3",
-      "1 (+3)": "1.001",
-      "2 (-3)": "9.7",
-      "1 (+3.5)": "1.01",
-      "2 (-3.5)": "11.5"
+      "1 (+1.5)": "1.34",
+      "2 (-1.5)": "3.26",
+      "1 (+2)": "1.1",
+      "2 (-2)": "5.65",
+      "1 (+2.5)": "1.059",
+      "2 (-2.5)": "6.45"
     },
     "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368594078-feyenoord-como",
-    "derniere_maj": "2026-10-02T09:36:14.070052+00:00",
-    "statut": "ok"
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Aston",
-    "equipe_2": "Villa Fenerbahce",
-    "1X2": {
-      "V1": "1.736",
-      "X": "3.78",
-      "V2": "4.7"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "Double_Chance": {
-      "1X": null,
-      "12": null,
-      "2X": null
-    },
-    "BTTS": {
-      "Oui": null,
-      "Non": null
-    },
-    "Totals": {},
-    "Handicap": {
-      "1 (-3)": "11.5",
-      "2 (+3)": "1.01",
-      "1 (-2.5)": "5.45",
-      "2 (+2.5)": "1.093",
-      "1 (-2)": "4.7",
-      "2 (+2)": "1.144",
-      "1 (-1.5)": "2.97",
-      "2 (+1.5)": "1.395",
-      "1 (-1)": "2.256",
-      "2 (+1)": "1.64",
-      "1 (0)": "1.27",
-      "2 (0)": "3.4",
-      "1 (+1)": "1.006",
-      "2 (-1)": "9.5",
-      "1 (+1.5)": "1.03",
-      "2 (-1.5)": "9.1"
-    },
-    "Score_Exact": {},
-    "url": "https://melbet-cm.com/en/line/football/118587-uefa-champions-league/368590144-aston-villa-fenerbahce",
-    "derniere_maj": "2026-10-02T09:36:14.069193+00:00",
+    "url": "https://melbet-cm.com/en/line/football/1706694-uefa-nations-league/371436690-latvia-montenegro",
+    "derniere_maj": "2026-10-02T12:28:06.208668+00:00",
     "statut": "ok"
   }
 ]
