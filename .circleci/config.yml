@@ -15,12 +15,9 @@ jobs:
             echo "Fichiers du site trouvés."
 
       - run:
-          name: Installer Wrangler
-          command: npm install --global wrangler
-
-      - run:
           name: Déployer sur Cloudflare
-          command: wrangler deploy --config wrangler.jsonc
+          command: |
+            npx --yes wrangler deploy --config wrangler.jsonc
 
 workflows:
   zicote-deployment:
