@@ -308,5 +308,35 @@ fetch("comparison.json", {cache: "no-store"})
     .catch(e => { console.error(e); $("app").innerHTML = `<p class="msg">${Zicote_i18n.t("load_error_msg")}</p>`; });
 
 </script>
+  
+<script>
+function masquerInfosMiseAJour() {
+  const messages = [
+    "Mis à jour le",
+    "Cotes anciennes"
+  ];
+
+  document.querySelectorAll("p, span, div, small, strong, label").forEach(element => {
+    const texte = element.textContent.trim();
+
+    if (
+      messages.some(message => texte.startsWith(message)) &&
+      !Array.from(element.children).some(child =>
+        messages.some(message => child.textContent.trim().startsWith(message))
+      )
+    ) {
+      element.remove();
+    }
+  });
+}
+
+masquerInfosMiseAJour();
+
+const observer = new MutationObserver(masquerInfosMiseAJour);
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
+});
+</script>
 </body>
 </html>
