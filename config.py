@@ -74,7 +74,14 @@ BOOKMAKERS = {
     "africa-bizbet": {
         "url": "https://africa-bizbet.com/en/line/football",
     },
+
+    # BetPawa : lu via son API (module betpawa.py), pas via la
+    # découverte de liens des autres bookmakers.
+    "betpawa": {
+        "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    },
 }
 
 
 BOOKMAKERS_LIST = list(BOOKMAKERS.keys())
+
