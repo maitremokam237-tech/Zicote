@@ -10,6 +10,8 @@ import asyncio
 
 from playwright.async_api import async_playwright
 
+from betpawa import scrape_betpawa
+
 from config import (
     BOOKMAKERS,
     BOOKMAKERS_LIST,
@@ -1375,7 +1377,7 @@ BUDGET_SITE = int(os.getenv("BUDGET_SITE", "1200"))
 
 async def run_bookmakers(browser):
     """Scrape les bookmakers avec un seul proxy Webshare partagé."""
-    sites = [b for b in BOOKMAKERS_LIST if b != "1win"]
+    sites = [b for b in BOOKMAKERS_LIST if b not in ("1win", "betpawa")]
     proxy = webshare_proxy()
 
     for bookmaker in sites:
@@ -1418,6 +1420,16 @@ async def run_bookmakers(browser):
         sauver_resultat(bookmaker, best)
 
 
+async def run_betpawa(browser):
+    """BetPawa : lecture de l'API (voir betpawa.py)."""
+    result = []
+    try:
+        result = await scrape_betpawa(browser, webshare_proxy())
+    except Exception as error:
+        print(f"[betpawa] erreur : {error}")
+    sauver_resultat("betpawa", result)
+
+
 async def main():
 
     async with async_playwright() as playwright:
@@ -1427,6 +1439,7 @@ async def main():
         await asyncio.gather(
             run_bookmakers(browser),
             scrape_1win(playwright),
+            run_betpawa(browser),
         )
 
         await browser.close()
@@ -1437,6 +1450,30 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
