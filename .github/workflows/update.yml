@@ -40,6 +40,7 @@ jobs:
           WEBSHARE_PORT: ${{ secrets.WEBSHARE_PORT }}
           WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
           WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
+          BUDGET_DECOUVERTE: "480"
         run: |
           python scraper.py
 
