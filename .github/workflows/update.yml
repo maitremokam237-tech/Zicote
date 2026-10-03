@@ -44,6 +44,10 @@ jobs:
         run: |
           python scraper.py
 
+      - name: Add BetPawa logo to match template
+        run: |
+          python ajouter_logo_betpawa.py
+
       - name: Generate comparison data and match pages
         run: |
           python comparateur.py
@@ -71,6 +75,7 @@ jobs:
             1win.json \
             1xbet.json \
             africa-bizbet.json \
+            betpawa.json \
             betwinner.json \
             maj_bookmakers.json \
             megapari.json \
