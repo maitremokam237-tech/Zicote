@@ -5,226 +5,92 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Grèce – Allemagne · Cotes en direct | Zicote</title>
 <meta name="description" content="Compare en direct les cotes de Grèce - Allemagne chez plusieurs bookmakers.">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
-<link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
-<link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512">
+<meta name="theme-color" content="#0f2447">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230f2447'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23facc15'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%230f2447'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-
-:root{
-  --bg:#f3f6fb;
-  --surface:#ffffff;
-  --surface2:#f8fafc;
-  --ink:#101828;
-  --muted:#667085;
-  --line:#e4e7ec;
-  --navy:#112b55;
-  --navy-2:#0b1e3a;
-  --green:#16a34a;
-  --green-dark:#0d7a38;
-  --green-soft:#ecfdf3;
-  --yellow:#facc15;
-  --yellow-2:#fff1a8;
-  --yellow-dark:#8a5b00;
-  --blue:#2563eb;
-  --radius:20px;
-  --shadow:0 12px 34px rgba(15,23,42,.08);
-  --font:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
-}
-
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5}
-a{color:inherit}
-button{font:inherit}
-:focus-visible{outline:3px solid rgba(37,99,235,.3);outline-offset:3px}
-@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
-
-.topbar{
-  position:relative;
-  overflow:hidden;
-  color:#fff;
-  background:linear-gradient(135deg,var(--navy-2) 0%,#102b52 52%,#145737 125%);
-}
-.topbar:before{
-  content:"";
-  position:absolute;
-  width:420px;height:420px;
-  right:-170px;top:-250px;
-  border-radius:50%;
-  background:rgba(250,204,21,.10);
-}
-.topbar:after{
-  content:"";
-  position:absolute;inset:0;
-  background:linear-gradient(120deg,transparent 20%,rgba(255,255,255,.03) 20.5%,transparent 21%,transparent 48%,rgba(255,255,255,.02) 48.5%,transparent 49%);
-  background-size:70px 70px;
-  opacity:.65;
-  pointer-events:none;
-}
-.topbar__inner{position:relative;z-index:1;max-width:1120px;margin:auto;padding:16px 18px 26px}
-
-.nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
-.brand-mark{width:39px;height:39px;border-radius:12px;background:linear-gradient(145deg,#facc15,#f59e0b);display:grid;place-items:center;color:#17200f;font-weight:900;box-shadow:0 7px 18px rgba(0,0,0,.2);flex:0 0 auto}
-.brand-mark svg{width:22px;height:22px}
-.brand-name{font-size:25px;font-weight:900;letter-spacing:-.045em}
-.live{display:inline-flex;align-items:center;gap:7px;padding:7px 10px;border:1px solid rgba(255,255,255,.13);border-radius:999px;background:rgba(255,255,255,.08);font-size:11px;font-weight:800;white-space:nowrap}
-.live i{width:7px;height:7px;border-radius:50%;background:#34d399;box-shadow:0 0 0 5px rgba(52,211,153,.11);animation:pulse 2s infinite}
-
-.crumb{margin:18px 0 4px;padding:0;font-size:12px;font-weight:800}
-.crumb a{color:#c7d6e9;text-decoration:none;display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.05);border-radius:999px;transition:.18s}
-.crumb a:hover{color:#fff;background:rgba(255,255,255,.09)}
-.crumb svg{width:13px;height:13px}
-
-.vs-hero{max-width:820px;margin:0 auto;padding:12px 0 2px;text-align:center}
-.vs-hero__teams{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
-.vs-hero__team{font-size:clamp(23px,5vw,37px);font-weight:900;letter-spacing:-.045em;line-height:1.02;max-width:15ch;text-shadow:0 2px 16px rgba(0,0,0,.12)}
-.vs-hero__vs{font-size:12px;font-weight:900;color:#d7e3f3;padding:6px 11px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);border-radius:999px;letter-spacing:.06em}
-
-.hero-teaser{margin-top:20px;min-height:70px}
-.hero-teaser__match{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:18px;padding:18px 19px;border-radius:20px;background:linear-gradient(135deg,#fff9d8 0%,#ffe870 55%,#facc15 100%);color:#352a00;box-shadow:0 18px 38px rgba(0,0,0,.20);border:1px solid rgba(255,255,255,.32);animation:up .4s ease both}
-.hero-teaser__teams{font-size:clamp(17px,4vw,22px);font-weight:900;line-height:1.15;margin:0}
-.hero-teaser__odds{text-align:right;min-width:144px}
-.hero-teaser__market{display:block;font-size:10px;font-weight:800;opacity:.63;text-transform:uppercase;letter-spacing:.06em}
-.hero-teaser__odds-value{display:block;font-family:var(--mono);font-size:34px;font-weight:900;line-height:1.0;margin:3px 0}
-.hero-teaser__odds-label{font-size:11px;opacity:.72}
-.hero-teaser__cta{margin-top:9px}
-.cta-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:11px 14px;border-radius:12px;background:#111827;color:#fff;text-decoration:none;font-size:11px;font-weight:900;box-shadow:0 7px 15px rgba(0,0,0,.15);transition:.18s}
-.cta-button:hover{transform:translateY(-1px);background:#0b1220}
-.hero-teaser .cta-button{padding:9px 12px;font-size:10px}
-
-.fiche-main{max-width:820px;margin:0 auto;padding:20px 18px 44px;display:flex;flex-direction:column;gap:16px}
-.match{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);transition:.18s;overflow:hidden}
-.match:hover{transform:translateY(-2px);box-shadow:0 17px 40px rgba(15,23,42,.11)}
-.market-group__title{display:flex;align-items:center;gap:8px;margin:0 0 11px;font-size:11px;text-transform:uppercase;letter-spacing:.10em;font-weight:900;color:#667085}
-.market-group__title:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(22,163,74,.08);flex:0 0 auto}
-
-.odds-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:15px;background:#fff;scrollbar-width:thin}
-.odds-table{border-collapse:separate;border-spacing:0;width:100%;font-family:var(--mono);font-size:12px;font-variant-numeric:tabular-nums;min-width:420px}
-.odds-table th,.odds-table td{padding:11px 9px;text-align:center;white-space:nowrap;border-bottom:1px solid var(--line)}
-.odds-table tbody tr:last-child th,.odds-table tbody tr:last-child td{border-bottom:0}
-.odds-table thead th{font-family:var(--font);font-size:10px;font-weight:800;color:#667085;background:#f8fafc}
-.odds-table thead th:first-child{border-top-left-radius:14px}
-.odds-table thead th:last-child{border-top-right-radius:14px}
-.odds-table th[scope=row]{font-family:var(--font);font-weight:900;color:#344054;background:#fbfcfe}
-.odds-table th[scope=row],.odds-table thead th:first-child{position:sticky;left:0;z-index:2;min-width:46px}
-.odds-table td{min-width:68px;font-weight:700;color:#344054}
-.odds-table td.best{position:relative;background:linear-gradient(135deg,#fff7cf,#ffd84a);color:#3b2a00;font-weight:950;box-shadow:inset 0 0 0 1px #eab308}
-.odds-table td.best:after{content:"BEST";display:block;font-family:var(--font);font-size:7px;line-height:1;color:var(--yellow-dark);margin-top:3px;font-weight:900;letter-spacing:.06em}
-.best-cell-link{color:inherit;text-decoration:none;display:block;cursor:pointer}
-
-.single-odds__source{font-size:11px;color:var(--muted);margin:0 0 9px}
-.single-odds{display:flex;flex-wrap:wrap;gap:8px}
-.single-odds__chip{display:flex;align-items:center;gap:8px;background:var(--green-soft);border:1px solid #bbf7d0;color:#166534;border-radius:12px;padding:9px 11px;font-family:var(--mono);font-size:13px;font-weight:900}
-.single-odds__label{font-family:var(--font);font-size:10px;font-weight:900;color:#15803d}
-
-.book-link{text-decoration:none;color:inherit;border-bottom:1px dotted #94a3b8}
-.book-link:hover{color:var(--green-dark);border-bottom-style:solid}
-.book-logo{display:inline-flex;align-items:center;justify-content:center;width:64px;height:21px;background:#000;border-radius:6px;overflow:hidden;vertical-align:middle;box-shadow:0 2px 7px rgba(15,23,42,.10)}
-.book-logo img{width:100%;height:100%;object-fit:contain;display:block}
-th .book-logo{width:54px;height:18px}
-
-.share-fab{position:fixed;right:16px;bottom:16px;z-index:30;display:flex;align-items:center;gap:8px;padding:12px 16px;background:#111827;color:#fff;border:none;border-radius:999px;font-family:var(--font);font-weight:900;font-size:12px;box-shadow:0 12px 24px rgba(0,0,0,.25);cursor:pointer;transition:.18s}
-.share-fab:hover{transform:translateY(-1px);background:#0b1220}
-.share-fab svg{width:15px;height:15px}
-.share-toast{position:fixed;right:16px;bottom:65px;z-index:30;background:#111827;color:#fff;font-size:12px;font-weight:700;padding:8px 12px;border-radius:9px;opacity:0;transform:translateY(6px);pointer-events:none;transition:.2s}
-.share-toast.is-visible{opacity:1;transform:translateY(0)}
-
-.site-footer{max-width:820px;margin:auto;padding:18px 18px 52px;color:#98a2b3;font-size:10.5px;text-align:center}
-.site-footer p{margin:0 auto;max-width:760px}
-.site-footer strong{color:#667085}
-
-@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(52,211,153,.28)}50%{box-shadow:0 0 0 6px rgba(52,211,153,0)}}
-@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-
-@media(max-width:700px){
-  .topbar__inner{padding:14px 14px 22px}
-  .vs-hero{padding-top:9px}
-  .hero-teaser__match{grid-template-columns:1fr;align-items:start}
-  .hero-teaser__odds{text-align:left;min-width:0}
-  .hero-teaser .cta-button{width:100%}
-  .fiche-main{padding:15px 14px 38px;gap:13px}
-  .match{padding:15px;border-radius:17px}
-  .match:hover{transform:none}
-}
-
-@media(max-width:520px){
-  .brand-name{font-size:23px}
-  .brand-mark{width:36px;height:36px;border-radius:11px}
-  .live{font-size:10px;padding:6px 9px}
-  .crumb{margin-top:15px}
-  .vs-hero__teams{gap:9px}
-  .vs-hero__team{font-size:clamp(21px,7vw,29px)}
-  .vs-hero__vs{font-size:11px;padding:5px 9px}
-  .hero-teaser{margin-top:16px}
-  .hero-teaser__match{padding:15px;border-radius:17px}
-  .hero-teaser__odds-value{font-size:31px}
-  .fiche-main{padding-left:12px;padding-right:12px}
-  .market-group__title{font-size:10px}
-  .odds-table{font-size:11.5px;min-width:400px}
-  .odds-table th,.odds-table td{padding:10px 8px}
-  .share-fab{right:12px;bottom:12px;padding:11px 14px}
-}
-
+:root{--navy:#0f2447;--blue:#1d9bf0;--bg:#e9eef6;--ink:#0f1b33;--mut:#6b7a90;--line:#e3e9f2}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 Inter,system-ui,sans-serif;padding-bottom:92px}
+a{color:inherit;text-decoration:none}button{font:inherit}
+.top{background:var(--navy);padding:12px 14px;display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:30}
+.logo{flex:1;font-style:italic;font-weight:900;font-size:27px;letter-spacing:-.04em;color:#fff}.logo b{color:#facc15}
+.ib{width:44px;height:44px;border:0;border-radius:50%;background:#0a1a36;color:var(--blue);font-size:19px;cursor:pointer;display:grid;place-items:center}
+.lang{display:flex;gap:2px;padding:2px;border-radius:999px;background:#0a1a36}.lang button{border:0;background:transparent;border-radius:999px;font-size:16px;padding:5px 7px;cursor:pointer;opacity:.5;line-height:1}.lang button.is-active{opacity:1;background:#132a52}
+.sports{background:#fff;padding:12px 14px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line)}
+.chip{padding:10px 16px;border-radius:999px;background:#eef2f8;font-weight:600}
+.chip i{font-style:normal;background:var(--blue);color:#fff;border-radius:999px;font-size:12px;padding:2px 7px;margin-left:6px}
+.upd{margin-left:auto;font-size:12px;color:var(--mut);text-align:right}
+.bar{background:var(--navy);color:#fff;padding:16px 14px;font-size:20px;font-weight:800;font-style:italic;display:flex;justify-content:space-between}
+.bar span{font-size:15px}
+main{max-width:760px;margin:0 auto;padding:14px 12px}
+.comp{background:#fff;border-radius:22px;overflow:hidden;margin-bottom:14px;box-shadow:0 2px 10px rgba(15,36,71,.06)}
+.comp h2{margin:0;padding:16px 18px;background:#f1f4f9;font-size:16px;font-weight:700}
+.m{padding:14px 16px;border-top:1px dashed #cfd8e6}
+.m.first{border-top:0}
+.m small{color:var(--mut);font-size:12px;letter-spacing:.04em}
+.tm{display:flex;align-items:center;gap:12px;font-size:19px;margin:9px 0;font-weight:500}
+.av{width:32px;height:32px;border-radius:50%;flex:none;display:grid;place-items:center;color:#fff;font-size:11px;font-weight:800}
+.odds{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.odds.auto{grid-template-columns:repeat(auto-fit,minmax(92px,1fr));margin-top:0}
+.od label{display:block;text-align:center;font-size:12px;color:#2a3b57;margin-bottom:4px}
+.pill{display:flex;flex-direction:column;align-items:center;gap:5px;border:2px solid var(--line);border-radius:18px;padding:7px 4px;background:#f8fafc}
+.pill.fav{border-color:#34d399;background:#ecfdf5}
+.lg{width:52px;height:17px;border-radius:5px;background:#000;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#fff;font-size:9px;font-weight:700}
+.lg img{width:100%;height:100%;object-fit:contain}
+.pill b{font-size:20px;font-weight:600;color:#8a97ab;font-variant-numeric:tabular-nums}
+.pill.fav b{color:var(--ink);font-weight:800}
+.bd{padding:14px 16px}
+.src{margin:0 0 12px;font-size:12px;color:var(--mut);display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px}
+.src a{font-weight:700;color:var(--blue)}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;padding:10px 6px 12px}
+table.tbl{border-collapse:separate;border-spacing:5px;width:100%}
+.tbl th{padding:0;font-weight:700;text-align:center}
+.tbl th[scope=row],.tbl thead th:first-child{position:sticky;left:0;z-index:2;background:#fff;min-width:38px}
+.tbl th[scope=row]{font-size:15px;font-weight:800;color:#2a3b57}
+.tbl .lg{margin:0 auto}
+.cell{display:block;min-width:54px;text-align:center;border:2px solid var(--line);border-radius:14px;background:#f8fafc;padding:8px 4px;font-size:16px;font-weight:600;color:#8a97ab;font-variant-numeric:tabular-nums}
+.cell.best{border-color:#34d399;background:#ecfdf5;color:var(--ink);font-weight:800}
+.msg{background:#fff;border-radius:18px;padding:40px 16px;text-align:center;color:var(--mut)}
+.bk{background:#fff;border-radius:22px;padding:16px;margin-bottom:14px}
+.bk h2{margin:0 0 12px;font-size:16px}
+.bk a.r{display:flex;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.bk .lg{width:70px;height:22px}.bk .n{flex:1;font-weight:700}
+.bk .go{background:#16a34a;color:#fff;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:800}
+footer{max-width:760px;margin:0 auto;padding:6px 16px 20px;color:#7d8aa0;font-size:11px;text-align:center}
+nav.tab{position:fixed;left:0;right:0;bottom:0;background:#fff;border-radius:22px 22px 0 0;box-shadow:0 -4px 20px rgba(15,36,71,.12);display:flex;justify-content:space-around;padding:10px 6px 14px;z-index:40}
+nav.tab a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;color:#5d7396}
+nav.tab a span{font-size:20px}nav.tab a.on{background:#e6f1fd;color:#1e63c9}
+.toast{position:fixed;left:50%;bottom:100px;z-index:50;background:#0f2447;color:#fff;font-size:12px;font-weight:700;padding:9px 14px;border-radius:999px;opacity:0;transform:translate(-50%,6px);pointer-events:none;transition:.2s}
+.toast.on{opacity:1;transform:translate(-50%,0)}
 </style>
 </head>
 <body>
-
-<header class="topbar">
-  <div class="topbar__inner">
-    <nav class="nav">
-      <a class="brand" href="../" aria-label="Zicote accueil">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-            <path d="M12 3v18M3 12h18"/>
-            <circle cx="12" cy="12" r="8"/>
-          </svg>
-        </span>
-        <span class="brand-name">Zicote</span>
-      </a>
-      <span class="live"><i aria-hidden="true"></i> Cotes actualisées</span>
-    </nav>
-
-    <p class="crumb">
-      <a href="../">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
-        Zicote — tous les matchs
-      </a>
-    </p>
-
-    <section class="vs-hero">
-      <div class="vs-hero__teams">
-        <span class="vs-hero__team" id="teamLeft">—</span>
-        <span class="vs-hero__vs">VS</span>
-        <span class="vs-hero__team" id="teamRight">—</span>
-      </div>
-      <div class="hero-teaser" id="spotlight"></div>
-    </section>
-  </div>
+<header class="top">
+  <a class="logo" href="../">ZICO<b>TE</b></a>
+  <span class="lang" id="langSwitch"></span>
+  <a class="ib" id="backBtn" href="../" aria-label="Retour" title="Retour">←</a>
 </header>
-
-<main class="fiche-main" id="marketCards"></main>
-
-<footer class="site-footer">
-  <p><strong>Zicote</strong> compare les cotes publiques disponibles chez les bookmakers affichés. Les cotes peuvent changer à tout moment : vérifie toujours la cote finale et les conditions chez le bookmaker avant toute décision.</p>
-</footer>
-
-<button class="share-fab" id="shareBtn" type="button">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="10.6" x2="15.4" y2="6.4"/><line x1="8.6" y1="13.4" x2="15.4" y2="17.6"/></svg>
-  Partager
-</button>
-<div class="share-toast" id="shareToast">Lien copié</div>
+<div class="sports"><a class="chip" href="../">⚽ <span id="chipLabel">Football</span><i id="count">0</i></a><span class="upd" id="upd"></span></div>
+<div class="bar"><span id="barTitle">Football</span> <span id="barSubtitle">Toutes les cotes du match</span></div>
+<main>
+  <div id="hero"></div>
+  <div id="marketCards"></div>
+  <section class="bk" id="bonus"></section>
+</main>
+<footer id="footerText"></footer>
+<div class="toast" id="toast"></div>
+<nav class="tab">
+  <a href="../"><span>⚽</span><span id="navMatches">Matchs</span></a>
+  <a href="#hero" class="on"><span>📊</span><span id="navOdds">Cotes</span></a>
+  <a href="#bonus"><span>🎁</span><span id="navBonus">Bonus</span></a>
+  <a href="#" id="tshare"><span>🔗</span><span id="navShare">Partager</span></a>
+</nav>
 
 <script id="match-data" type="application/json">{"equipe_1": "Grèce", "equipe_2": "Allemagne", "bookmakers": ["1win"], "marches": [{"marche": "V1", "type": "1X2", "valeurs": {"1win": 4.08}, "meilleur_site": "1win", "meilleure_cote": 4.08}, {"marche": "X", "type": "1X2", "valeurs": {"1win": 3.91}, "meilleur_site": "1win", "meilleure_cote": 3.91}, {"marche": "V2", "type": "1X2", "valeurs": {"1win": 1.84}, "meilleur_site": "1win", "meilleure_cote": 1.84}]}</script>
 <script>
-
 const NAMES = {
     betwinner: "Betwinner", melbet: "MelBet", megapari: "MegaPari",
     "1win": "1win", winwin: "WinWin", "1xbet": "1xBet",
@@ -251,277 +117,275 @@ const LOGOS = {
     "africa-bizbet": "data:image/jpeg;base64,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",
 };
 
-const ROW_LABELS = {
-    V1: "1", X: "X", V2: "2",
-    "Plus de": "+2,5", "Moins de": "-2,5",
-    "1X": "1X", "12": "12", "2X": "X2",
-    Oui: "Oui", Non: "Non"
+const BOOKMAKERS = ["betwinner", "melbet", "megapari", "1win", "winwin", "1xbet", "africa-bizbet"];
+
+/* i18n — même principe que la page d'accueil (clé localStorage partagée : zicote_lang) */
+const I18N = {
+    fr: {
+        chip_football: "Football",
+        bar_subtitle: "Toutes les cotes du match",
+        bookmakers: "bookmakers",
+        hero_title: "Meilleures cotes 1X2",
+        home_label: "Équipe 1", draw_label: "Nul", away_label: "Équipe 2",
+        best_at: "Meilleure cote chez",
+        same_at: "Cote identique chez",
+        bonus_title: "Offres disponibles",
+        signup_btn: "Voir l'offre",
+        footer_text: "Zicote compare les cotes publiques disponibles chez les bookmakers affichés. Les cotes peuvent changer à tout moment : vérifie toujours la cote finale et les conditions chez le bookmaker avant toute décision.",
+        nav_matches: "Matchs", nav_odds: "Cotes", nav_bonus: "Bonus", nav_share: "Partager",
+        copied: "Lien copié",
+        back_aria: "Retour",
+        yes: "Oui", no: "Non",
+        types: {
+            "1X2": "Résultat (1X2)",
+            "Total_2.5": "Total buts (2,5)",
+            "Double_Chance": "Double chance",
+            "BTTS": "Les deux équipes marquent",
+            "Handicap": "Handicap",
+            "Totals": "Autres totaux de buts",
+            "Score_Exact": "Score exact"
+        }
+    },
+    en: {
+        chip_football: "Football",
+        bar_subtitle: "All odds for this match",
+        bookmakers: "bookmakers",
+        hero_title: "Best 1X2 odds",
+        home_label: "Team 1", draw_label: "Draw", away_label: "Team 2",
+        best_at: "Best odds at",
+        same_at: "Same odds at",
+        bonus_title: "Available offers",
+        signup_btn: "View offer",
+        footer_text: "Zicote compares publicly available odds from the bookmakers shown. Odds can change at any time: always check the final odds and terms with the bookmaker before making any decision.",
+        nav_matches: "Matches", nav_odds: "Odds", nav_bonus: "Offers", nav_share: "Share",
+        copied: "Link copied",
+        back_aria: "Back",
+        yes: "Yes", no: "No",
+        types: {
+            "1X2": "Result (1X2)",
+            "Total_2.5": "Total goals (2.5)",
+            "Double_Chance": "Double chance",
+            "BTTS": "Both teams to score",
+            "Handicap": "Handicap",
+            "Totals": "Other goal totals",
+            "Score_Exact": "Correct score"
+        }
+    }
 };
 
-const TYPE_TITLES = {
-    "1X2": "Résultat (1X2)",
-    "Total_2.5": "Total buts (2,5)",
-    "Double_Chance": "Double chance",
-    "BTTS": "Les deux équipes marquent",
-    "Handicap": "Handicap",
-    "Totals": "Autres totaux de buts",
-    "Score_Exact": "Score exact"
-};
+const Zicote_i18n = (() => {
+    const supported = navigator.language && navigator.language.toLowerCase().startsWith("en") ? "en" : "fr";
+    let lang = "fr";
+    try { lang = localStorage.getItem("zicote_lang") || supported; } catch (e) { lang = supported; }
+    let rerender = () => {};
+    const dict = () => I18N[lang] || I18N.fr;
+    const t = key => dict()[key] ?? key;
 
-// Ordre d'affichage des groupes de marchés sur la fiche.
-const TYPE_ORDER = [
-    "1X2", "Total_2.5", "Double_Chance", "BTTS",
-    "Handicap", "Totals", "Score_Exact"
-];
+    function mount(id, onChange) {
+        rerender = typeof onChange === "function" ? onChange : () => {};
+        const host = document.getElementById(id);
+        if (!host) return;
+        host.innerHTML = `
+            <button type="button" data-lang="fr" title="Français" aria-label="Français">🇫🇷</button>
+            <button type="button" data-lang="en" title="English" aria-label="English">🇬🇧</button>`;
+        const update = () => host.querySelectorAll("button").forEach(btn => btn.classList.toggle("is-active", btn.dataset.lang === lang));
+        host.querySelectorAll("button").forEach(btn => btn.addEventListener("click", () => {
+            if (lang === btn.dataset.lang) return;
+            lang = btn.dataset.lang;
+            try { localStorage.setItem("zicote_lang", lang); } catch (e) {}
+            update();
+            rerender();
+        }));
+        update();
+        rerender();
+    }
 
-// Marchés utilisés pour la mise en avant "meilleure cote" en
-// haut de page : on exclut Handicap/Totals/Score exact, dont les
-// cotes sont naturellement bien plus hautes et fausseraient la
-// mise en avant (toujours le pari le plus improbable en avant).
+    return { t, mount, get lang() { return lang; }, get types() { return dict().types; } };
+})();
+
+const $ = id => document.getElementById(id);
+const match = JSON.parse($("match-data").textContent);
+
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+const hue = s => [...s].reduce((a, c) => a + c.charCodeAt(0), 0) * 47 % 360;
+const init = s => s.split(/\s+/).slice(0, 2).map(w => w[0]).join("").toUpperCase();
+
+const TYPE_ORDER = ["1X2", "Total_2.5", "Double_Chance", "BTTS", "Handicap", "Totals", "Score_Exact"];
 const SPOTLIGHT_TYPES = ["1X2", "Total_2.5", "Double_Chance", "BTTS"];
 
-function rowLabel(market) {
-    if (market.type === "Totals") {
-        const [line, sens] = market.marche.split("|");
-        const prefix = sens === "Plus de" ? "+" : "-";
-        return prefix + line.replace(".", ",");
+function rowLabel(m) {
+    const t = Zicote_i18n.t;
+    if (m.type === "Totals") {
+        const [line, sens] = m.marche.split("|");
+        return (sens === "Plus de" ? "+" : "-") + line.replace(".", ",");
     }
-    return ROW_LABELS[market.marche] || market.marche;
+    const map = {
+        V1: "1", X: "X", V2: "2",
+        "Plus de": "+2,5", "Moins de": "-2,5",
+        "1X": "1X", "12": "12", "2X": "X2",
+        Oui: t("yes"), Non: t("no")
+    };
+    return map[m.marche] || m.marche;
 }
 
-function escapeHTML(value) {
-    return String(value ?? "").replace(/[&<>"']/g, c => ({
-        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;"
-    }[c]));
+function logo(site) {
+    const n = esc(NAMES[site] || site);
+    return `<span class="lg">${LOGOS[site] ? `<img src="${LOGOS[site]}" alt="${n}" loading="lazy">` : n}</span>`;
 }
 
-function marketLabel(match, market) {
-    switch (market.marche) {
-        case "V1": return "Victoire " + match.equipe_1;
-        case "V2": return "Victoire " + match.equipe_2;
-        case "X": return "Match nul";
-        case "Plus de": return "Plus de 2,5 buts";
-        case "Moins de": return "Moins de 2,5 buts";
-        case "1X": return "Double chance 1X";
-        case "12": return "Double chance 12";
-        case "2X": return "Double chance X2";
-        case "Oui": return "Les 2 équipes marquent";
-        case "Non": return "Pas les 2 équipes marquent";
-        default: return `${TYPE_TITLES[market.type] || ""} : ${rowLabel(market)}`.trim();
-    }
+function link(site, inner, cls) {
+    const url = AFFILIATE_LINKS[site];
+    const c = cls ? ` class="${cls}"` : "";
+    return url ? `<a${c} href="${url}" target="_blank" rel="noopener sponsored">${inner}</a>` : `<div${c}>${inner}</div>`;
 }
 
-function bestOverall(match) {
+function team(name) {
+    return `<div class="tm"><span class="av" style="background:hsl(${hue(name)} 55% 45%)">${esc(init(name))}</span>${esc(name)}</div>`;
+}
+
+function pill(site, value, fav) {
+    return link(site, `${logo(site)}<b>${value}</b>`, "pill" + (fav ? " fav" : ""));
+}
+
+function bestOverall() {
     const pool = match.marches.filter(m => SPOTLIGHT_TYPES.includes(m.type));
     let best = null;
     for (const m of pool) {
-        if (AFFILIATE_LINKS[m.meilleur_site] && (!best || m.meilleure_cote > best.meilleure_cote)) {
-            best = m;
-        }
+        if (AFFILIATE_LINKS[m.meilleur_site] && (!best || m.meilleure_cote > best.meilleure_cote)) best = m;
     }
-    if (!best) {
-        for (const m of pool) {
-            if (!best || m.meilleure_cote > best.meilleure_cote) best = m;
-        }
-    }
+    if (!best) for (const m of pool) if (!best || m.meilleure_cote > best.meilleure_cote) best = m;
     return best;
 }
 
-function renderSpotlight(match) {
-    const el = document.getElementById("spotlight");
-    const best = bestOverall(match);
+function renderHero() {
+    const t = Zicote_i18n.t;
+    const get = k => match.marches.find(x => x.type === "1X2" && x.marche === k);
+    const rows = ["V1", "X", "V2"].map(get);
+    let odds = "";
 
-    if (!best) {
-        el.innerHTML = "";
-        return;
+    if (rows.some(Boolean)) {
+        const vals = rows.map(r => r ? r.meilleure_cote : Infinity);
+        const fav = vals.indexOf(Math.min(...vals));
+        const labels = [t("home_label"), t("draw_label"), t("away_label")];
+        odds = `<div class="odds">${rows.map((r, i) => `<div class="od"><label>${labels[i]}</label>${
+            r ? pill(r.meilleur_site, r.meilleure_cote, fav === i)
+              : `<div class="pill"><span class="lg"></span><b>–</b></div>`
+        }</div>`).join("")}</div>`;
+    } else {
+        const b = bestOverall();
+        if (b) {
+            odds = `<div class="odds auto"><div class="od"><label>${esc((Zicote_i18n.types[b.type] || b.type) + " · " + rowLabel(b))}</label>${pill(b.meilleur_site, b.meilleure_cote, true)}</div></div>`;
+        }
     }
 
-    const link = AFFILIATE_LINKS[best.meilleur_site];
-
-    const cta = link
-        ? `<a class="cta-button" href="${link}" target="_blank" rel="noopener sponsored">S'inscrire sur ${escapeHTML(NAMES[best.meilleur_site] || best.meilleur_site)}</a>`
-        : "";
-
-    el.innerHTML = `
-        <div class="hero-teaser__match">
-            <p class="hero-teaser__teams">${escapeHTML(marketLabel(match, best))}</p>
-            <div class="hero-teaser__odds">
-                <span class="hero-teaser__market">Meilleure cote</span>
-                <span class="hero-teaser__odds-value">${best.meilleure_cote}</span>
-                <span class="hero-teaser__odds-label">chez ${escapeHTML(NAMES[best.meilleur_site] || best.meilleur_site)}</span>
-                <div class="hero-teaser__cta">${cta}</div>
-            </div>
-        </div>
-    `;
+    $("hero").innerHTML = `<section class="comp"><h2>${esc(t("hero_title"))}</h2>
+        <div class="m first">${team(match.equipe_1)}${team(match.equipe_2)}${odds}</div></section>`;
 }
 
 function ratesAreIdentical(rows, columns) {
-    if (columns.length < 2) {
-        return false;
-    }
-    return rows.every(market => {
-        const values = columns.map(b => market.valeurs[b]);
-        return values.every(v => Math.abs(v - values[0]) < 0.005);
+    if (columns.length < 2) return false;
+    return rows.every(m => {
+        const v = columns.map(b => m.valeurs[b]);
+        return v.every(x => Math.abs(x - v[0]) < 0.005);
     });
 }
 
-function renderChips(rows, bookmaker) {
-    return rows.map(market => `
-        <div class="single-odds__chip">
-            <span class="single-odds__label">${escapeHTML(rowLabel(market))}</span>
-            <span class="single-odds__value">${market.valeurs[bookmaker] ?? "–"}</span>
-        </div>
-    `).join("");
+function pillsFor(rows, site) {
+    const url = AFFILIATE_LINKS[site];
+    return `<div class="odds auto">${rows.map(m =>
+        `<div class="od"><label>${esc(rowLabel(m))}</label>${url
+            ? pill(site, m.valeurs[site] ?? "–", true)
+            : `<div class="pill fav">${logo(site)}<b>${m.valeurs[site] ?? "–"}</b></div>`}</div>`
+    ).join("")}</div>`;
 }
 
-function renderMarketGroup(match, type) {
-
+function marketGroup(type) {
+    const t = Zicote_i18n.t;
     const rows = match.marches.filter(m => m.type === type);
-    if (!rows.length) {
-        return "";
-    }
+    if (!rows.length) return "";
 
-    const title = TYPE_TITLES[type] || type;
+    const columns = (match.bookmakers || []).filter(b => rows.some(m => m.valeurs[b] !== undefined));
+    if (!columns.length) return "";
 
-    // Un bookmaker entre dans le tableau dès qu'il a au moins une
-    // cote sur ce marché (certaines lignes de Handicap/Totals ne
-    // sont pas proposées partout) ; les cases manquantes affichent
-    // un tiret plutôt que d'exclure toute la colonne.
-    const columns = (match.bookmakers || []).filter(
-        b => rows.some(m => m.valeurs[b] !== undefined)
-    );
-    if (!columns.length) {
-        return "";
-    }
+    const title = Zicote_i18n.types[type] || type;
+    let body;
 
     if (columns.length === 1) {
-
         const b = columns[0];
-        const link = AFFILIATE_LINKS[b];
-        const label = escapeHTML(NAMES[b] || b);
-        const logo = LOGOS[b]
-            ? `<span class="book-logo"><img src="${LOGOS[b]}" alt="${label}" loading="lazy"></span>`
-            : label;
-        const nameMarkup = link
-            ? `<a class="book-link" href="${link}" target="_blank" rel="noopener sponsored" title="${label}">${logo}</a>`
-            : logo;
-
-        return `
-            <div class="match">
-                <p class="market-group__title">${escapeHTML(title)}</p>
-                <p class="single-odds__source">Meilleure cote chez ${nameMarkup}</p>
-                <div class="single-odds">${renderChips(rows, b)}</div>
-            </div>
-        `;
-    }
-
-    if (ratesAreIdentical(rows, columns)) {
-
-        const linked = columns.find(b => AFFILIATE_LINKS[b]);
-        const link = linked ? AFFILIATE_LINKS[linked] : null;
-        const namesList = columns.map(b => NAMES[b] || b).join(", ");
-        const nameMarkup = link
-            ? `<a class="book-link" href="${link}" target="_blank" rel="noopener sponsored">${escapeHTML(namesList)}</a>`
-            : escapeHTML(namesList);
-
-        return `
-            <div class="match">
-                <p class="market-group__title">${escapeHTML(title)}</p>
-                <p class="single-odds__source">Cote identique chez ${nameMarkup}</p>
-                <div class="single-odds">${renderChips(rows, columns[0])}</div>
-            </div>
-        `;
-    }
-
-    const headerCells = columns.map(b => {
-        const link = AFFILIATE_LINKS[b];
-        const label = escapeHTML(NAMES[b] || b);
-        const logo = LOGOS[b]
-            ? `<span class="book-logo"><img src="${LOGOS[b]}" alt="${label}" loading="lazy"></span>`
-            : label;
-        return link
-            ? `<th><a class="book-link" href="${link}" target="_blank" rel="noopener sponsored" title="${label}">${logo}</a></th>`
-            : `<th title="${label}">${logo}</th>`;
-    }).join("");
-
-    const bodyRows = rows.map(market => {
-        const cells = columns.map(b => {
-            const value = market.valeurs[b];
-            const isBest = b === market.meilleur_site;
-            const affLink = AFFILIATE_LINKS[b];
-            const contenu = (isBest && affLink)
-                ? `<a class="best-cell-link" href="${affLink}" target="_blank" rel="noopener sponsored">${value ?? "–"}</a>`
-                : (value ?? "–");
-            return `<td class="${isBest ? "best" : ""}">${contenu}</td>`;
+        body = `<p class="src">${esc(t("best_at"))} ${link(b, logo(b))}</p>${pillsFor(rows, b)}`;
+    } else if (ratesAreIdentical(rows, columns)) {
+        const linked = columns.find(b => AFFILIATE_LINKS[b]) || columns[0];
+        const names = esc(columns.map(b => NAMES[b] || b).join(", "));
+        const nm = AFFILIATE_LINKS[linked]
+            ? `<a href="${AFFILIATE_LINKS[linked]}" target="_blank" rel="noopener sponsored">${names}</a>`
+            : names;
+        body = `<p class="src">${esc(t("same_at"))} ${nm}</p>${pillsFor(rows, linked)}`;
+    } else {
+        const head = columns.map(b => `<th>${link(b, logo(b))}</th>`).join("");
+        const trs = rows.map(m => {
+            const cells = columns.map(b => {
+                const v = m.valeurs[b] ?? "–";
+                const best = b === m.meilleur_site;
+                const cls = "cell" + (best ? " best" : "");
+                return `<td>${best ? link(b, v, cls) : `<span class="${cls}">${v}</span>`}</td>`;
+            }).join("");
+            return `<tr><th scope="row">${esc(rowLabel(m))}</th>${cells}</tr>`;
         }).join("");
-        return `
-            <tr>
-                <th scope="row">${escapeHTML(rowLabel(market))}</th>
-                ${cells}
-            </tr>
-        `;
-    }).join("");
+        body = `<div class="tw"><table class="tbl"><thead><tr><th></th>${head}</tr></thead><tbody>${trs}</tbody></table></div>`;
+        return `<section class="comp"><h2>${esc(title)}</h2>${body}</section>`;
+    }
 
-    return `
-        <div class="match">
-            <p class="market-group__title">${escapeHTML(title)}</p>
-            <div class="odds-scroll">
-                <table class="odds-table">
-                    <thead><tr><th></th>${headerCells}</tr></thead>
-                    <tbody>${bodyRows}</tbody>
-                </table>
-            </div>
-        </div>
-    `;
+    return `<section class="comp"><h2>${esc(title)}</h2><div class="bd">${body}</div></section>`;
 }
 
-function render(match) {
-
-    document.getElementById("teamLeft").textContent = match.equipe_1;
-    document.getElementById("teamRight").textContent = match.equipe_2;
-
-    renderSpotlight(match);
-
-    const typesPresent = new Set(match.marches.map(m => m.type));
-
-    document.getElementById("marketCards").innerHTML = TYPE_ORDER
-        .filter(type => typesPresent.has(type))
-        .map(type => renderMarketGroup(match, type))
-        .join("");
+function bonus() {
+    const t = Zicote_i18n.t;
+    const rows = BOOKMAKERS.filter(b => AFFILIATE_LINKS[b]).map(b =>
+        `<a class="r" href="${AFFILIATE_LINKS[b]}" target="_blank" rel="noopener sponsored">${logo(b)}<span class="n">${esc(NAMES[b])}</span><span class="go">${esc(t("signup_btn"))}</span></a>`).join("");
+    $("bonus").innerHTML = `<h2>${esc(t("bonus_title"))}</h2>${rows}`;
 }
 
-function setupShare(match) {
-
-    const btn = document.getElementById("shareBtn");
-    const toast = document.getElementById("shareToast");
-
-    btn.addEventListener("click", async () => {
-
-        const url = window.location.href;
-        const title = `${match.equipe_1} – ${match.equipe_2} · Cotes en direct`;
-
-        if (navigator.share) {
-            try {
-                await navigator.share({ title, url });
-                return;
-            } catch (e) { /* annulé */ }
-        }
-
-        try {
-            await navigator.clipboard.writeText(url);
-        } catch (e) { /* indisponible */ }
-
-        toast.classList.add("is-visible");
-        setTimeout(() => toast.classList.remove("is-visible"), 1800);
-    });
+function applyStaticStrings() {
+    const t = Zicote_i18n.t;
+    document.documentElement.lang = Zicote_i18n.lang;
+    $("chipLabel").textContent = t("chip_football");
+    $("count").textContent = (match.bookmakers || []).length;
+    $("upd").textContent = (match.bookmakers || []).length + " " + t("bookmakers");
+    $("barTitle").textContent = t("chip_football");
+    $("barSubtitle").textContent = t("bar_subtitle");
+    $("footerText").textContent = t("footer_text");
+    $("navMatches").textContent = t("nav_matches");
+    $("navOdds").textContent = t("nav_odds");
+    $("navBonus").textContent = t("nav_bonus");
+    $("navShare").textContent = t("nav_share");
+    $("backBtn").setAttribute("aria-label", t("back_aria"));
+    $("backBtn").title = t("back_aria");
 }
 
-const match = JSON.parse(document.getElementById("match-data").textContent);
-render(match);
-setupShare(match);
+function rerender() {
+    applyStaticStrings();
+    renderHero();
+    const present = new Set(match.marches.map(m => m.type));
+    $("marketCards").innerHTML = TYPE_ORDER.filter(x => present.has(x)).map(marketGroup).join("");
+    bonus();
+}
 
+$("tshare").addEventListener("click", async e => {
+    e.preventDefault();
+    const url = location.href;
+    const title = `${match.equipe_1} – ${match.equipe_2} · Zicote`;
+    if (navigator.share) {
+        try { await navigator.share({ title, url }); return; } catch (err) { /* annulé */ }
+    }
+    try { await navigator.clipboard.writeText(url); } catch (err) { /* indisponible */ }
+    const toast = $("toast");
+    toast.textContent = Zicote_i18n.t("copied");
+    toast.classList.add("on");
+    setTimeout(() => toast.classList.remove("on"), 1800);
+});
+
+Zicote_i18n.mount("langSwitch", rerender);
 </script>
 </body>
 </html>
-
 
