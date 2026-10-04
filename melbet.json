@@ -1,402 +1,68 @@
 [
   {
     "bookmaker": "melbet",
-    "equipe_1": "VVV-Venlo",
-    "equipe_2": "Roda JC Kerkrade",
-    "1X2": {
-      "V1": "2.18",
-      "V2": "2.921",
-      "X": "3.6"
-    },
-    "Total_2.5": {
-      "Plus de": "1.5",
-      "Moins de": "2.28"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
-    "statut": "ok",
-    "Double_Chance": {
-      "12": "1.24",
-      "1X": "1.35",
-      "2X": "1.61"
-    },
-    "BTTS": {
-      "Oui": "1.46",
-      "Non": "2.533"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.55",
-        "Plus de": "2.33"
-      },
-      "2.5": {
-        "Plus de": "1.5",
-        "Moins de": "2.28"
-      },
-      "3": {
-        "Plus de": "1.81",
-        "Moins de": "1.82"
-      },
-      "4": {
-        "Plus de": "3.3",
-        "Moins de": "1.25"
-      },
-      "4.5": {
-        "Plus de": "3.92",
-        "Moins de": "1.176"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.62",
-      "2 (0)": "2.17",
-      "1 (-1)": "3.08",
-      "2 (-1)": "4.75",
-      "1 (+1)": "1.118",
-      "2 (+1)": "1.28",
-      "1 (-1.5)": "3.82",
-      "2 (-1.5)": "5.55",
-      "1 (+1.5)": "1.08",
-      "2 (+1.5)": "1.186"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Nikola Tesla Hamburg",
-    "equipe_2": "Buchholz 08",
-    "1X2": {
-      "V2": "1.6",
-      "V1": "3.64",
-      "X": "4.76"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
-    "statut": "ok",
-    "Double_Chance": {
-      "2X": "1.19",
-      "1X": "2.04"
-    },
-    "BTTS": {
-      "Oui": "1.22",
-      "Non": "3.7"
-    },
-    "Totals": {
-      "4.5": {
-        "Moins de": "1.57",
-        "Plus de": "2.2"
-      },
-      "3.5": {
-        "Plus de": "1.5",
-        "Moins de": "2.35"
-      },
-      "4": {
-        "Plus de": "1.77",
-        "Moins de": "1.89"
-      },
-      "5": {
-        "Plus de": "3.05",
-        "Moins de": "1.31"
-      },
-      "5.5": {
-        "Plus de": "3.65",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.44",
-      "2 (-1.5)": "2.51",
-      "1 (0)": "2.97",
-      "2 (0)": "1.32",
-      "2 (-1)": "2.01",
-      "1 (+1)": "1.68"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Azerbaïdjan",
-    "equipe_2": "Lituanie",
-    "1X2": {
-      "V1": "2.617",
-      "X": "2.961",
-      "V2": "3.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.64",
-      "Moins de": "1.41"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
-    "statut": "ok",
-    "Double_Chance": {
-      "1X": "1.379",
-      "12": "1.431",
-      "2X": "1.528"
-    },
-    "BTTS": {
-      "Non": "1.634",
-      "Oui": "2.16"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.594",
-        "Moins de": "2.477"
-      },
-      "0.5": {
-        "Plus de": "1.081",
-        "Moins de": "6.15"
-      },
-      "1": {
-        "Plus de": "1.152",
-        "Moins de": "4.8"
-      },
-      "2": {
-        "Plus de": "1.97",
-        "Moins de": "1.76"
-      },
-      "2.5": {
-        "Plus de": "2.64",
-        "Moins de": "1.41"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.766",
-      "2 (0)": "2.152",
-      "1 (-1)": "4.6",
-      "2 (-1)": "6.4",
-      "1 (+1)": "1.082",
-      "2 (+1)": "1.159",
-      "1 (-1.5)": "5.7",
-      "2 (-1.5)": "7.5",
-      "1 (+1.5)": "1.042",
-      "2 (+1.5)": "1.091"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.389",
-      "V2": "3.89",
-      "X": "12.1"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
-    "statut": "ok",
-    "Totals": {
-      "22.5": {
-        "Moins de": "1.864",
-        "Plus de": "1.937"
-      },
-      "20.5": {
-        "Plus de": "1.491",
-        "Moins de": "2.618"
-      },
-      "21.5": {
-        "Plus de": "1.689",
-        "Moins de": "2.171"
-      },
-      "23.5": {
-        "Plus de": "2.268",
-        "Moins de": "1.635"
-      },
-      "24.5": {
-        "Plus de": "2.734",
-        "Moins de": "1.456"
-      }
-    },
-    "Handicap": {
-      "2 (+3.5)": "1.795",
-      "1 (-3.5)": "2.018",
-      "1 (-2.5)": "1.751",
-      "2 (+2.5)": "2.077",
-      "1 (-3)": "1.873",
-      "2 (+3)": "1.927",
-      "1 (-4)": "2.216",
-      "2 (+4)": "1.663",
-      "1 (-4.5)": "2.389",
-      "2 (+4.5)": "1.577"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Archipel des Comores",
-    "equipe_2": "Sénégal",
-    "1X2": {
-      "V2": "1.14",
-      "X": "5.76",
-      "V1": "14.2"
-    },
-    "Total_2.5": {
-      "Plus de": "1.74",
-      "Moins de": "1.93"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
-    "statut": "ok",
-    "Double_Chance": {
-      "2X": "1.001",
-      "12": "1.05",
-      "1X": "4.1"
-    },
-    "BTTS": {
-      "Non": "1.41",
-      "Oui": "2.6"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.74",
-        "Moins de": "1.93"
-      },
-      "1.5": {
-        "Plus de": "1.2",
-        "Moins de": "3.89"
-      },
-      "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.96"
-      },
-      "3": {
-        "Plus de": "2.36",
-        "Moins de": "1.49"
-      },
-      "3.5": {
-        "Plus de": "3.03",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "2 (-1.5)": "1.68",
-      "1 (+1.5)": "2",
-      "2 (-1)": "1.28",
-      "1 (+1)": "3.19",
-      "2 (-2)": "2.27",
-      "1 (+2)": "1.53"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Hambourg",
-    "equipe_2": "Copenhague",
-    "1X2": {
-      "V1": "2.15",
-      "V2": "3.23",
-      "X": "3.985"
-    },
-    "Total_2.5": {
-      "Plus de": "1.45",
-      "Moins de": "2.41"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
-    "statut": "ok",
-    "Double_Chance": {
-      "12": "1.282",
-      "1X": "1.386",
-      "2X": "1.767"
-    },
-    "BTTS": {
-      "Oui": "1.44",
-      "Non": "2.596"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.679",
-        "Plus de": "2.325"
-      },
-      "2.5": {
-        "Plus de": "1.45",
-        "Moins de": "2.41"
-      },
-      "3": {
-        "Plus de": "1.727",
-        "Moins de": "1.92"
-      },
-      "4": {
-        "Plus de": "3.02",
-        "Moins de": "1.3"
-      },
-      "4.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.633",
-      "2 (0)": "2.419",
-      "1 (-1)": "2.74",
-      "2 (-1)": "4.9",
-      "1 (+1)": "1.11",
-      "2 (+1)": "1.35",
-      "1 (-1.5)": "3.42",
-      "2 (-1.5)": "5.65",
-      "1 (+1.5)": "1.077",
-      "2 (+1.5)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "melbet",
     "equipe_1": "Kirghizistan",
     "equipe_2": "Liban",
     "1X2": {
-      "V1": "2.031",
-      "X": "3.465",
-      "V2": "4.17"
+      "V1": "1.944",
+      "X": "3.336",
+      "V2": "4.19"
     },
     "Total_2.5": {
-      "Plus de": "2.54",
-      "Moins de": "1.47"
+      "Plus de": "2.545",
+      "Moins de": "1.53"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Matchs amicaux. Équipes nationales",
+    "competition_en": "Friendlies. National Teams",
+    "competition_id": 125983,
+    "equipe_1_en": "Kyrgyzstan",
+    "equipe_2_en": "Lebanon",
     "Double_Chance": {
-      "1X": "1.272",
-      "12": "1.356",
-      "2X": "1.875"
+      "1X": "1.23",
+      "12": "1.33",
+      "2X": "1.85"
     },
     "BTTS": {
-      "Non": "1.608",
-      "Oui": "2.18"
+      "Non": "1.62",
+      "Oui": "2.33"
     },
     "Totals": {
       "1.5": {
-        "Plus de": "1.57",
-        "Moins de": "2.609"
+        "Plus de": "1.56",
+        "Moins de": "2.464"
       },
       "0.5": {
-        "Plus de": "1.034",
-        "Moins de": "7.2"
+        "Plus de": "1.1",
+        "Moins de": "7.29"
       },
       "1": {
-        "Plus de": "1.08",
-        "Moins de": "5.55"
+        "Plus de": "1.152",
+        "Moins de": "5.54"
       },
       "2": {
-        "Plus de": "1.83",
-        "Moins de": "1.8"
+        "Plus de": "1.96",
+        "Moins de": "1.86"
       },
       "2.5": {
-        "Plus de": "2.54",
-        "Moins de": "1.47"
+        "Plus de": "2.545",
+        "Moins de": "1.53"
       }
     },
     "Handicap": {
-      "1 (0)": "1.396",
-      "2 (0)": "3.285",
-      "1 (-1)": "3.02",
+      "1 (0)": "1.44",
+      "2 (0)": "2.835",
+      "1 (-1)": "3.175",
       "2 (-1)": "9.1",
       "1 (+1)": "1.004",
-      "2 (+1)": "1.34",
-      "1 (-1.5)": "3.92",
-      "2 (+1.5)": "1.175"
+      "2 (+1)": "1.368",
+      "1 (-1.5)": "4.29",
+      "2 (-1.5)": "9.1",
+      "1 (+1.5)": "1.02",
+      "2 (+1.5)": "1.23"
     }
   },
   {
@@ -413,8 +79,14 @@
       "Moins de": "2.505"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Matchs amicaux U19. Équipes nationales",
+    "competition_en": "Friendlies U19. National Teams",
+    "competition_id": 1134147,
+    "equipe_1_en": "Azerbaijan U19",
+    "equipe_2_en": "Republic of Ireland U19",
     "Double_Chance": {
       "2X": "1.007",
       "12": "1.086",
@@ -473,8 +145,14 @@
       "Moins de": "2.14"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Matchs amicaux des clubs",
+    "competition_en": "Club Friendlies",
+    "competition_id": 67559,
+    "equipe_1_en": "Enosis Neon Paralimni",
+    "equipe_2_en": "Anorthosis",
     "Double_Chance": {
       "12": "1.13",
       "1X": "2.31"
@@ -522,8 +200,14 @@
       "Moins de": "3.26"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Matchs amicaux des clubs",
+    "competition_en": "Club Friendlies",
+    "competition_id": 67559,
+    "equipe_1_en": "KF Gjilani",
+    "equipe_2_en": "Bashkimi Kumanovo",
     "Double_Chance": {
       "12": "1.12",
       "1X": "1.22",
@@ -569,55 +253,61 @@
     "equipe_1": "Ludogorets 1945",
     "equipe_2": "Tcherno More Varna",
     "1X2": {
-      "V1": "1.598",
-      "X": "4.345",
-      "V2": "4.555"
+      "V1": "1.515",
+      "X": "4.555",
+      "V2": "5.1"
     },
     "Total_2.5": {
-      "Plus de": "1.587",
-      "Moins de": "2.247"
+      "Plus de": "1.581",
+      "Moins de": "2.346"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Matchs amicaux des clubs",
+    "competition_en": "Club Friendlies",
+    "competition_id": 67559,
+    "equipe_1_en": "Ludogorets 1945",
+    "equipe_2_en": "Cherno More Varna",
     "Double_Chance": {
-      "1X": "1.16",
-      "12": "1.175",
-      "2X": "2.197"
+      "1X": "1.13",
+      "12": "1.16",
+      "2X": "2.375"
     },
     "BTTS": {
-      "Oui": "1.615",
-      "Non": "2.172"
+      "Oui": "1.64",
+      "Non": "2.13"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.587",
-        "Moins de": "2.247"
+        "Plus de": "1.581",
+        "Moins de": "2.346"
       },
       "1.5": {
-        "Plus de": "1.158",
-        "Moins de": "4.525"
+        "Plus de": "1.145",
+        "Moins de": "4.71"
       },
       "3.5": {
-        "Plus de": "2.411",
-        "Moins de": "1.55"
+        "Plus de": "2.307",
+        "Moins de": "1.558"
       },
       "4.5": {
-        "Plus de": "4.155",
-        "Moins de": "1.188"
+        "Plus de": "3.975",
+        "Moins de": "1.206"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.438",
-      "1 (-1.5)": "2.63",
-      "1 (0)": "1.23",
-      "2 (0)": "3.42",
-      "1 (-1)": "2.06",
-      "2 (+1)": "1.7",
-      "1 (-2)": "4.15",
-      "2 (+2)": "1.159",
-      "1 (-2.5)": "4.85",
-      "2 (+2.5)": "1.112"
+      "2 (+1.5)": "1.498",
+      "1 (-1.5)": "2.452",
+      "1 (0)": "1.181",
+      "2 (0)": "3.86",
+      "1 (-1)": "1.9",
+      "2 (+1)": "1.83",
+      "1 (-2)": "3.68",
+      "2 (+2)": "1.2",
+      "1 (-2.5)": "4.4",
+      "2 (+2.5)": "1.14"
     }
   },
   {
@@ -634,8 +324,14 @@
       "Moins de": "1.982"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Espagne. Coupe du Roi",
+    "competition_en": "Spain Copa del Rey",
+    "competition_id": 119243,
+    "equipe_1_en": "SD Noja",
+    "equipe_2_en": "Ribadesella",
     "Double_Chance": {
       "1X": "1.255",
       "12": "1.296",
@@ -694,8 +390,14 @@
       "Moins de": "2.67"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Espagne. Coupe du Roi",
+    "competition_en": "Spain Copa del Rey",
+    "competition_id": 119243,
+    "equipe_1_en": "AE Prat",
+    "equipe_2_en": "San Rafael",
     "Double_Chance": {
       "1X": "1.001",
       "12": "1.06",
@@ -750,8 +452,14 @@
       "Moins de": "1.84"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Espagne. Coupe du Roi",
+    "competition_en": "Spain Copa del Rey",
+    "competition_id": 119243,
+    "equipe_1_en": "CD San Jose de Soria",
+    "equipe_2_en": "Auriense Cented",
     "Double_Chance": {
       "12": "1.19",
       "1X": "1.2",
@@ -792,24 +500,220 @@
   },
   {
     "bookmaker": "melbet",
+    "equipe_1": "Seekirchen 1945 II",
+    "equipe_2": "Strasswalchen",
+    "1X2": {
+      "V2": "1.72",
+      "V1": "3.32",
+      "X": "4.8"
+    },
+    "Total_2.5": {
+      "Plus de": "1.27",
+      "Moins de": "3.4"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
+    "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Autriche. SFV. Landesliga",
+    "competition_en": "Austria. SFV. Landesliga",
+    "competition_id": 3008432,
+    "equipe_1_en": "Seekirchen 1945 II",
+    "equipe_2_en": "Strasswalchen",
+    "Double_Chance": {
+      "12": "1.15",
+      "2X": "1.29",
+      "1X": "2.03"
+    },
+    "BTTS": {
+      "Oui": "1.31",
+      "Non": "3.165"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.72",
+        "Moins de": "2"
+      },
+      "2.5": {
+        "Plus de": "1.27",
+        "Moins de": "3.4"
+      },
+      "3": {
+        "Plus de": "1.38",
+        "Moins de": "2.75"
+      },
+      "4": {
+        "Plus de": "2.1",
+        "Moins de": "1.65"
+      },
+      "4.5": {
+        "Plus de": "2.55",
+        "Moins de": "1.45"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.43",
+      "2 (-1.5)": "2.6",
+      "1 (0)": "2.7",
+      "2 (0)": "1.4",
+      "2 (-1)": "2.1",
+      "1 (+1)": "1.65",
+      "2 (-2)": "3.9",
+      "1 (+2)": "1.2",
+      "2 (-2.5)": "4.6",
+      "1 (+2.5)": "1.14"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Academica de Coimbra (Femmes)",
+    "equipe_2": "Viseu (Femmes)",
+    "1X2": {
+      "V1": "1.296",
+      "X": "6.38",
+      "V2": "8.3"
+    },
+    "Total_2.5": {
+      "Plus de": "1.319",
+      "Moins de": "3.18"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
+    "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Coupe du Portugal. Femmes",
+    "competition_en": "Portugal Cup. Women",
+    "competition_id": 1015515,
+    "equipe_1_en": "Academica de Coimbra (Women)",
+    "equipe_2_en": "Viseu (Women)",
+    "Double_Chance": {
+      "1X": "1.007",
+      "12": "1.063",
+      "2X": "3.25"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.832",
+        "Moins de": "1.973"
+      },
+      "1.5": {
+        "Plus de": "1.041",
+        "Moins de": "7.39"
+      },
+      "2.5": {
+        "Plus de": "1.319",
+        "Moins de": "3.18"
+      },
+      "4.5": {
+        "Plus de": "2.706",
+        "Moins de": "1.436"
+      },
+      "5.5": {
+        "Plus de": "4.595",
+        "Moins de": "1.153"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.72",
+      "2 (+1.5)": "1.909",
+      "1 (0)": "1.055",
+      "2 (0)": "6.35",
+      "1 (-1)": "1.363",
+      "2 (+1)": "2.69",
+      "1 (-2)": "2.19",
+      "2 (+2)": "1.57",
+      "1 (-2.5)": "2.66",
+      "2 (+2.5)": "1.37"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Amora (femmes)",
+    "equipe_2": "Guia (femmes)",
+    "1X2": {
+      "V1": "2.204",
+      "V2": "2.694",
+      "X": "4.47"
+    },
+    "Total_2.5": {
+      "Plus de": "1.319",
+      "Moins de": "3.18"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
+    "statut": "ok",
+    "debut": "2026-10-04T14:00:00+00:00",
+    "competition": "Coupe du Portugal. Femmes",
+    "competition_en": "Portugal Cup. Women",
+    "competition_id": 1015515,
+    "equipe_1_en": "Amora (Women)",
+    "equipe_2_en": "Guia (Women)",
+    "Double_Chance": {
+      "12": "1.162",
+      "1X": "1.37",
+      "2X": "1.54"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.832",
+        "Moins de": "1.973"
+      },
+      "1.5": {
+        "Plus de": "1.041",
+        "Moins de": "7.39"
+      },
+      "2.5": {
+        "Plus de": "1.319",
+        "Moins de": "3.18"
+      },
+      "4.5": {
+        "Plus de": "2.706",
+        "Moins de": "1.436"
+      },
+      "5.5": {
+        "Plus de": "4.595",
+        "Moins de": "1.153"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.67",
+      "2 (0)": "2.02",
+      "1 (-1)": "3.08",
+      "2 (-1)": "4.1",
+      "1 (+1)": "1.162",
+      "2 (+1)": "1.28",
+      "1 (-1.5)": "3.78",
+      "2 (-1.5)": "4.9",
+      "1 (+1.5)": "1.111",
+      "2 (+1.5)": "1.189"
+    }
+  },
+  {
+    "bookmaker": "melbet",
     "equipe_1": "Sporting de Gijon",
     "equipe_2": "Celta Fortuna",
     "1X2": {
-      "V1": "1.733",
-      "X": "3.835",
-      "V2": "4.9"
+      "V1": "1.786",
+      "X": "3.715",
+      "V2": "4.695"
     },
     "Total_2.5": {
-      "Plus de": "1.88",
-      "Moins de": "1.961"
+      "Plus de": "1.91",
+      "Moins de": "1.93"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T14:15:00+00:00",
+    "competition": "Espagne. Division 2",
+    "competition_en": "Spain. Segunda Division",
+    "competition_id": 27687,
+    "equipe_1_en": "Sporting de Gijon",
+    "equipe_2_en": "Celta Fortuna",
     "Double_Chance": {
-      "1X": "1.186",
-      "12": "1.271",
-      "2X": "2.127"
+      "1X": "1.199",
+      "12": "1.285",
+      "2X": "2.052"
     },
     "BTTS": {
       "Oui": "1.78",
@@ -817,37 +721,37 @@
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.88",
-        "Moins de": "1.961"
+        "Plus de": "1.91",
+        "Moins de": "1.93"
       },
       "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
+        "Plus de": "1.24",
+        "Moins de": "3.34"
       },
       "2": {
-        "Plus de": "1.37",
-        "Moins de": "2.7"
+        "Plus de": "1.39",
+        "Moins de": "2.625"
       },
       "3": {
-        "Plus de": "2.36",
-        "Moins de": "1.48"
+        "Plus de": "2.41",
+        "Moins de": "1.46"
       },
       "3.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
+        "Plus de": "2.97",
+        "Moins de": "1.3"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.396",
-      "1 (-1.5)": "3.07",
-      "1 (0)": "1.24",
-      "2 (0)": "3.34",
-      "1 (-1)": "2.17",
-      "2 (+1)": "1.63",
-      "1 (-2)": "4.55",
-      "2 (+2)": "1.131",
-      "1 (-2.5)": "5.25",
-      "2 (+2.5)": "1.093"
+      "2 (+1.5)": "1.363",
+      "1 (-1.5)": "3.245",
+      "1 (0)": "1.26",
+      "2 (0)": "3.2",
+      "1 (-1)": "2.29",
+      "2 (+1)": "1.57",
+      "1 (-2)": "4.8",
+      "2 (+2)": "1.114",
+      "1 (-2.5)": "5.55",
+      "2 (+2.5)": "1.081"
     }
   },
   {
@@ -864,8 +768,14 @@
       "Moins de": "2.37"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T15:30:00+00:00",
+    "competition": "Matchs amicaux des clubs",
+    "competition_en": "Club Friendlies",
+    "competition_id": 67559,
+    "equipe_1_en": "Molde",
+    "equipe_2_en": "Kristiansund BK",
     "Double_Chance": {
       "12": "1.12",
       "2X": "2.36"
@@ -913,8 +823,14 @@
       "Moins de": "2.351"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T15:30:00+00:00",
+    "competition": "Espagne. Coupe du Roi",
+    "competition_en": "Spain Copa del Rey",
+    "competition_id": 119243,
+    "equipe_1_en": "Sporting Alcazar",
+    "equipe_2_en": "CP Talayuela",
     "Double_Chance": {
       "1X": "1.201",
       "12": "1.268",
@@ -947,16 +863,16 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.521",
-      "1 (-1.5)": "2.676",
-      "1 (0)": "1.275",
-      "2 (0)": "3.505",
-      "1 (-1)": "2.05",
-      "2 (+1)": "1.763",
-      "1 (-2)": "4.015",
-      "2 (+2)": "1.22",
-      "1 (-2.5)": "4.5",
-      "2 (+2.5)": "1.15"
+      "2 (+1.5)": "1.49",
+      "1 (-1.5)": "2.78",
+      "1 (0)": "1.294",
+      "2 (0)": "3.46",
+      "1 (-1)": "2.164",
+      "2 (+1)": "1.7",
+      "1 (-2)": "4.445",
+      "2 (+2)": "1.209",
+      "1 (-2.5)": "5.05",
+      "2 (+2.5)": "1.153"
     }
   },
   {
@@ -973,8 +889,14 @@
       "Moins de": "1.857"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:00:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Kosovo",
+    "equipe_2_en": "Austria",
     "Double_Chance": {
       "2X": "1.279",
       "12": "1.335",
@@ -1024,59 +946,65 @@
     "equipe_1": "Malte",
     "equipe_2": "Andorre",
     "1X2": {
-      "V1": "1.669",
-      "X": "3.415",
-      "V2": "7.18"
+      "V1": "1.618",
+      "X": "3.555",
+      "V2": "7.55"
     },
     "Total_2.5": {
-      "Plus de": "2.64",
-      "Moins de": "1.41"
+      "Plus de": "2.61",
+      "Moins de": "1.42"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:00:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Malta",
+    "equipe_2_en": "Andorra",
     "Double_Chance": {
-      "1X": "1.115",
-      "12": "1.344",
-      "2X": "2.288"
+      "1X": "1.106",
+      "12": "1.324",
+      "2X": "2.391"
     },
     "BTTS": {
-      "Non": "1.442",
-      "Oui": "2.62"
+      "Non": "1.432",
+      "Oui": "2.65"
     },
     "Totals": {
       "1.5": {
-        "Plus de": "1.615",
-        "Moins de": "2.428"
+        "Plus de": "1.594",
+        "Moins de": "2.477"
       },
       "0.5": {
-        "Plus de": "1.092",
-        "Moins de": "5.85"
+        "Plus de": "1.083",
+        "Moins de": "6.1"
       },
       "1": {
-        "Plus de": "1.165",
-        "Moins de": "4.6"
+        "Plus de": "1.152",
+        "Moins de": "4.8"
       },
       "2": {
-        "Plus de": "2.02",
-        "Moins de": "1.727"
+        "Plus de": "1.97",
+        "Moins de": "1.76"
       },
       "2.5": {
-        "Plus de": "2.64",
-        "Moins de": "1.41"
+        "Plus de": "2.61",
+        "Moins de": "1.42"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.396",
-      "1 (-1.5)": "3.175",
-      "1 (0)": "1.152",
-      "2 (0)": "4.7",
-      "1 (-1)": "2.23",
-      "2 (+1)": "1.67",
-      "1 (-2)": "5.35",
-      "2 (+2)": "1.112",
-      "1 (-2.5)": "6.15",
-      "2 (+2.5)": "1.068"
+      "2 (+1.5)": "1.443",
+      "1 (-1.5)": "2.959",
+      "1 (0)": "1.135",
+      "2 (0)": "5",
+      "1 (-1)": "2.12",
+      "2 (+1)": "1.74",
+      "1 (-2)": "5",
+      "2 (+2)": "1.127",
+      "1 (-2.5)": "5.8",
+      "2 (+2.5)": "1.079"
     }
   },
   {
@@ -1084,59 +1012,65 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "1.99",
-      "V2": "2.708",
-      "X": "4.635"
+      "V1": "1.958",
+      "V2": "2.765",
+      "X": "4.665"
     },
     "Total_2.5": {
-      "Plus de": "1.135",
-      "Moins de": "5.82"
+      "Plus de": "1.131",
+      "Moins de": "5.92"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:00:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Home (Special bets)",
+    "equipe_2_en": "Away (Special bets)",
     "Double_Chance": {
-      "12": "1.166",
-      "1X": "1.43",
-      "2X": "1.823"
+      "12": "1.164",
+      "1X": "1.413",
+      "2X": "1.856"
     },
     "BTTS": {
-      "Oui": "1.186",
-      "Non": "4.77"
+      "Oui": "1.184",
+      "Non": "4.8"
     },
     "Totals": {
       "4.5": {
-        "Plus de": "1.846",
-        "Moins de": "1.957"
+        "Plus de": "1.831",
+        "Moins de": "1.974"
       },
       "2.5": {
-        "Plus de": "1.135",
-        "Moins de": "5.82"
+        "Plus de": "1.131",
+        "Moins de": "5.92"
       },
       "3.5": {
-        "Plus de": "1.396",
-        "Moins de": "2.973"
+        "Plus de": "1.388",
+        "Moins de": "3.01"
       },
       "5.5": {
-        "Plus de": "2.633",
-        "Moins de": "1.486"
+        "Plus de": "2.601",
+        "Moins de": "1.497"
       },
       "6.5": {
-        "Plus de": "4.23",
-        "Moins de": "1.225"
+        "Plus de": "4.16",
+        "Moins de": "1.231"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.397",
-      "1 (-1.5)": "2.971",
-      "1 (-1)": "2.489",
-      "2 (-1)": "3.995",
-      "1 (+1)": "1.246",
-      "2 (+1)": "1.536",
-      "1 (-2)": "4.575",
-      "2 (+2)": "1.199",
-      "1 (-2.5)": "5.26",
-      "2 (+2.5)": "1.159"
+      "2 (+1.5)": "1.414",
+      "1 (-1.5)": "2.896",
+      "1 (-1)": "2.426",
+      "2 (-1)": "4.12",
+      "1 (+1)": "1.235",
+      "2 (+1)": "1.561",
+      "1 (-2)": "4.4",
+      "2 (+2)": "1.211",
+      "1 (-2.5)": "5.07",
+      "2 (+2.5)": "1.169"
     }
   },
   {
@@ -1153,8 +1087,14 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:00:00+00:00",
+    "competition": "Matchs amicaux de clubs. Top",
+    "competition_en": "Club Friendlies. Top",
+    "competition_id": 2579176,
+    "equipe_1_en": "Zenit Saint Petersburg",
+    "equipe_2_en": "BATE Borisov",
     "Double_Chance": {
       "1X": "1.001",
       "12": "1.047",
@@ -1213,8 +1153,14 @@
       "Moins de": "2.108"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:00:00+00:00",
+    "competition": "Espagne. Coupe du Roi",
+    "competition_en": "Spain Copa del Rey",
+    "competition_id": 119243,
+    "equipe_1_en": "UE Tavernes",
+    "equipe_2_en": "UD Maracena",
     "Double_Chance": {
       "12": "1.333",
       "1X": "1.341",
@@ -1231,18 +1177,18 @@
       },
       "1.5": {
         "Plus de": "1.198",
-        "Moins de": "4.74"
+        "Moins de": "4.86"
       },
       "2": {
         "Plus de": "1.33",
-        "Moins de": "3.47"
+        "Moins de": "3.505"
       },
       "3": {
-        "Plus de": "2.295",
-        "Moins de": "1.668"
+        "Plus de": "2.288",
+        "Moins de": "1.663"
       },
       "3.5": {
-        "Plus de": "3.11",
+        "Plus de": "3.06",
         "Moins de": "1.396"
       }
     },
@@ -1250,12 +1196,12 @@
       "1 (0)": "1.595",
       "2 (0)": "2.476",
       "1 (-1)": "3.29",
-      "2 (-1)": "6.88",
+      "2 (-1)": "8.15",
       "1 (+1)": "1.074",
       "2 (+1)": "1.319",
       "1 (-1.5)": "3.965",
-      "2 (-1.5)": "6.95",
-      "1 (+1.5)": "1.04",
+      "2 (-1.5)": "9.15",
+      "1 (+1.5)": "1.044",
       "2 (+1.5)": "1.207"
     }
   },
@@ -1273,8 +1219,14 @@
       "Moins de": "3.08"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:30:00+00:00",
+    "competition": "Espagne. Division 2",
+    "competition_en": "Spain. Segunda Division",
+    "competition_id": 27687,
+    "equipe_1_en": "Castellon",
+    "equipe_2_en": "AD Ceuta",
     "Double_Chance": {
       "1X": "1.032",
       "12": "1.105",
@@ -1333,8 +1285,14 @@
       "Moins de": "1.86"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T16:30:00+00:00",
+    "competition": "Espagne. Division 2",
+    "competition_en": "Spain. Segunda Division",
+    "competition_id": 27687,
+    "equipe_1_en": "Las Palmas",
+    "equipe_2_en": "Real Valladolid",
     "Double_Chance": {
       "12": "1.343",
       "1X": "1.347",
@@ -1393,8 +1351,14 @@
       "Moins de": "1.535"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T17:45:00+00:00",
+    "competition": "Championnat d'Argentine. Primera Division",
+    "competition_en": "Argentina. Primera Division",
+    "competition_id": 119599,
+    "equipe_1_en": "Club Atletico Huracan",
+    "equipe_2_en": "CA Aldosivi",
     "Double_Chance": {
       "1X": "1.13",
       "12": "1.301",
@@ -1444,55 +1408,61 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.694",
-      "V2": "3.02",
-      "X": "6.57"
+      "V1": "1.7",
+      "V2": "3",
+      "X": "6.58"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T17:45:00+00:00",
+    "competition": "Championnat d'Argentine. Primera Division",
+    "competition_en": "Argentina. Primera Division",
+    "competition_id": 119599,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
     "Double_Chance": {
       "12": "1.09",
-      "1X": "1.343",
-      "2X": "2.254"
+      "1X": "1.348",
+      "2X": "2.242"
     },
     "Totals": {
       "8.5": {
-        "Plus de": "1.883",
-        "Moins de": "1.917"
+        "Plus de": "1.854",
+        "Moins de": "1.948"
       },
       "6.5": {
-        "Plus de": "1.276",
-        "Moins de": "3.72"
+        "Plus de": "1.264",
+        "Moins de": "3.825"
       },
       "7.5": {
-        "Plus de": "1.522",
-        "Moins de": "2.527"
+        "Plus de": "1.503",
+        "Moins de": "2.582"
       },
       "9.5": {
-        "Plus de": "2.436",
-        "Moins de": "1.557"
+        "Plus de": "2.385",
+        "Moins de": "1.579"
       },
       "10.5": {
-        "Plus de": "3.38",
-        "Moins de": "1.321"
+        "Plus de": "3.285",
+        "Moins de": "1.336"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.727",
-      "1 (-1.5)": "2.111",
-      "1 (-1)": "1.864",
-      "2 (-1)": "4.155",
-      "1 (+1)": "1.232",
-      "2 (+1)": "1.937",
-      "1 (-2)": "2.533",
-      "2 (+2)": "1.52",
-      "1 (-2.5)": "2.867",
-      "2 (+2.5)": "1.421"
+      "2 (+1.5)": "1.722",
+      "1 (-1.5)": "2.119",
+      "1 (-1)": "1.872",
+      "2 (-1)": "4.1",
+      "1 (+1)": "1.236",
+      "2 (+1)": "1.929",
+      "1 (-2)": "2.543",
+      "2 (+2)": "1.517",
+      "1 (-2.5)": "2.877",
+      "2 (+2.5)": "1.418"
     }
   },
   {
@@ -1500,59 +1470,65 @@
     "equipe_1": "Égypte",
     "equipe_2": "Afrique du Sud",
     "1X2": {
-      "V1": "1.778",
-      "X": "3.7",
-      "V2": "5.32"
+      "V1": "1.713",
+      "X": "3.805",
+      "V2": "5.74"
     },
     "Total_2.5": {
-      "Plus de": "2.285",
-      "Moins de": "1.716"
+      "Plus de": "2.271",
+      "Moins de": "1.724"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:00:00+00:00",
+    "competition": "Matchs amicaux. Équipes nationales",
+    "competition_en": "Friendlies. National Teams",
+    "competition_id": 125983,
+    "equipe_1_en": "Egypt",
+    "equipe_2_en": "South Africa",
     "Double_Chance": {
-      "1X": "1.194",
-      "12": "1.323",
-      "2X": "2.159"
+      "1X": "1.174",
+      "12": "1.31",
+      "2X": "2.263"
     },
     "BTTS": {
-      "Non": "1.689",
-      "Oui": "2.05"
+      "Non": "1.669",
+      "Oui": "2.08"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.716",
-        "Plus de": "2.285"
+        "Moins de": "1.724",
+        "Plus de": "2.271"
       },
       "1.5": {
-        "Plus de": "1.333",
-        "Moins de": "2.81"
+        "Plus de": "1.33",
+        "Moins de": "2.83"
       },
       "2": {
-        "Plus de": "1.59",
-        "Moins de": "2.11"
+        "Plus de": "1.571",
+        "Moins de": "2.14"
       },
       "3": {
-        "Plus de": "3.16",
-        "Moins de": "1.27"
+        "Plus de": "3.1",
+        "Moins de": "1.28"
       },
       "3.5": {
-        "Plus de": "3.94",
-        "Moins de": "1.174"
+        "Plus de": "3.9",
+        "Moins de": "1.178"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.33",
-      "1 (-1.5)": "3.72",
-      "1 (0)": "1.22",
-      "2 (0)": "3.5",
-      "1 (-1)": "2.31",
-      "2 (+1)": "1.55",
-      "1 (-2)": "5.55",
-      "2 (+2)": "1.08",
-      "1 (-2.5)": "6.55",
-      "2 (+2.5)": "1.05"
+      "2 (+1.5)": "1.363",
+      "1 (-1.5)": "3.485",
+      "1 (0)": "1.18",
+      "2 (0)": "3.88",
+      "1 (-1)": "2.17",
+      "2 (+1)": "1.62",
+      "1 (-2)": "5.1",
+      "2 (+2)": "1.099",
+      "1 (-2.5)": "6.05",
+      "2 (+2.5)": "1.064"
     }
   },
   {
@@ -1569,8 +1545,14 @@
       "Moins de": "1.828"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:00:00+00:00",
+    "competition": "Matchs amicaux. Équipes nationales",
+    "competition_en": "Friendlies. National Teams",
+    "competition_id": 125983,
+    "equipe_1_en": "Morocco",
+    "equipe_2_en": "Mali",
     "Double_Chance": {
       "1X": "1.041",
       "12": "1.185",
@@ -1629,8 +1611,14 @@
       "Moins de": "2.375"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Greece",
+    "equipe_2_en": "Germany",
     "Double_Chance": {
       "2X": "1.248",
       "12": "1.262",
@@ -1689,8 +1677,14 @@
       "Moins de": "1.881"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Republic of Ireland",
+    "equipe_2_en": "Israel",
     "Double_Chance": {
       "1X": "1.324",
       "12": "1.332",
@@ -1749,8 +1743,14 @@
       "Moins de": "1.971"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Wales",
+    "equipe_2_en": "Denmark",
     "Double_Chance": {
       "2X": "1.276",
       "12": "1.315",
@@ -1800,59 +1800,65 @@
     "equipe_1": "Pays-Bas",
     "equipe_2": "Serbie",
     "1X2": {
-      "V1": "1.152",
-      "X": "9",
-      "V2": "19"
+      "V1": "1.191",
+      "X": "8",
+      "V2": "15"
     },
     "Total_2.5": {
-      "Plus de": "1.33",
-      "Moins de": "3.1"
+      "Plus de": "1.31",
+      "Moins de": "3.2"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Netherlands",
+    "equipe_2_en": "Serbia",
     "Double_Chance": {
-      "1X": "1.016",
-      "12": "1.081",
-      "2X": "5.9"
+      "1X": "1.029",
+      "12": "1.097",
+      "2X": "5.05"
     },
     "BTTS": {
-      "Non": "1.708",
-      "Oui": "2.04"
+      "Oui": "1.833",
+      "Non": "1.889"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.91",
-        "Moins de": "1.971"
+        "Plus de": "1.867",
+        "Moins de": "2.019"
       },
       "2.5": {
-        "Plus de": "1.33",
-        "Moins de": "3.1"
+        "Plus de": "1.31",
+        "Moins de": "3.2"
       },
       "3": {
-        "Plus de": "1.48",
-        "Moins de": "2.57"
+        "Plus de": "1.46",
+        "Moins de": "2.64"
       },
       "4": {
-        "Plus de": "2.34",
-        "Moins de": "1.57"
+        "Plus de": "2.28",
+        "Moins de": "1.6"
       },
       "4.5": {
-        "Plus de": "2.81",
-        "Moins de": "1.39"
+        "Plus de": "2.73",
+        "Moins de": "1.41"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.823",
-      "1 (-2.5)": "2.072",
-      "1 (-1.5)": "1.42",
-      "2 (+1.5)": "2.74",
-      "1 (-2)": "1.64",
-      "2 (+2)": "2.26",
-      "1 (-3)": "2.62",
-      "2 (+3)": "1.43",
-      "1 (-3.5)": "3.1",
-      "2 (+3.5)": "1.3"
+      "2 (+2.5)": "1.711",
+      "1 (-2.5)": "2.24",
+      "1 (-1.5)": "1.5",
+      "2 (+1.5)": "2.48",
+      "1 (-2)": "1.77",
+      "2 (+2)": "2.05",
+      "1 (-3)": "2.89",
+      "2 (+3)": "1.36",
+      "1 (-3.5)": "3.42",
+      "2 (+3.5)": "1.25"
     }
   },
   {
@@ -1869,8 +1875,14 @@
       "Moins de": "2.73"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Portugal",
+    "equipe_2_en": "Norway",
     "Double_Chance": {
       "1X": "1.211",
       "12": "1.225",
@@ -1920,50 +1932,56 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "1.406",
-      "V2": "3.98",
-      "X": "10"
+      "V1": "1.437",
+      "V2": "3.785",
+      "X": "9.8"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Home (Special bets)",
+    "equipe_2_en": "Away (Special bets)",
     "Totals": {
       "15.5": {
-        "Moins de": "1.896",
-        "Plus de": "1.904"
+        "Plus de": "1.889",
+        "Moins de": "1.912"
       },
       "13.5": {
-        "Plus de": "1.404",
-        "Moins de": "2.939"
+        "Plus de": "1.396",
+        "Moins de": "2.975"
       },
       "14.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.298"
+        "Plus de": "1.608",
+        "Moins de": "2.321"
       },
       "16.5": {
-        "Plus de": "2.298",
-        "Moins de": "1.619"
+        "Plus de": "2.275",
+        "Moins de": "1.631"
       },
       "17.5": {
-        "Plus de": "2.891",
-        "Moins de": "1.415"
+        "Plus de": "2.855",
+        "Moins de": "1.424"
       }
     },
     "Handicap": {
-      "1 (-2.5)": "1.884",
-      "2 (+2.5)": "1.916",
-      "1 (-1.5)": "1.605",
-      "2 (+1.5)": "2.328",
-      "1 (-2)": "1.719",
-      "2 (+2)": "2.124",
-      "1 (-3)": "2.078",
-      "2 (+3)": "1.75",
-      "1 (-3.5)": "2.277",
-      "2 (+3.5)": "1.63"
+      "2 (+2.5)": "1.863",
+      "1 (-2.5)": "1.938",
+      "1 (-1.5)": "1.646",
+      "2 (+1.5)": "2.246",
+      "1 (-2)": "1.771",
+      "2 (+2)": "2.05",
+      "1 (-3)": "2.153",
+      "2 (+3)": "1.7",
+      "1 (-3.5)": "2.359",
+      "2 (+3.5)": "1.59"
     }
   },
   {
@@ -1980,8 +1998,14 @@
       "Moins de": "1.961"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T19:00:00+00:00",
+    "competition": "Espagne. Division 2",
+    "competition_en": "Spain. Segunda Division",
+    "competition_id": 27687,
+    "equipe_1_en": "Girona",
+    "equipe_2_en": "Mallorca",
     "Double_Chance": {
       "12": "1.333",
       "1X": "1.416",
@@ -2040,8 +2064,14 @@
       "Moins de": "1.651"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T19:00:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Deportivo Pasto",
+    "equipe_2_en": "Fortaleza Zipaquira",
     "Double_Chance": {
       "1X": "1.28",
       "12": "1.32",
@@ -2100,8 +2130,14 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T19:00:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
     "Double_Chance": {
       "12": "1.064",
       "1X": "1.411",
@@ -2147,59 +2183,65 @@
     "equipe_1": "Guyana",
     "equipe_2": "Dominique",
     "1X2": {
-      "V1": "1.087",
-      "X": "8.8",
-      "V2": "18.5"
+      "V1": "1.06",
+      "X": "10.2",
+      "V2": "22"
     },
     "Total_2.5": {
-      "Plus de": "1.27",
-      "Moins de": "3.14"
+      "Plus de": "1.24",
+      "Moins de": "3.34"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T19:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Guyana",
+    "equipe_2_en": "Dominica",
     "Double_Chance": {
-      "1X": "1.018",
-      "12": "1.029",
-      "2X": "6.05"
+      "12": "1.012",
+      "1X": "1.015",
+      "2X": "7.1"
     },
     "BTTS": {
-      "Non": "1.638",
-      "Oui": "2.13"
+      "Non": "1.577",
+      "Oui": "2.24"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.76",
-        "Moins de": "1.98"
+        "Plus de": "1.68",
+        "Moins de": "2.09"
       },
       "2.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.14"
+        "Plus de": "1.24",
+        "Moins de": "3.34"
       },
       "3": {
-        "Plus de": "1.4",
-        "Moins de": "2.57"
+        "Plus de": "1.34",
+        "Moins de": "2.8"
       },
       "4": {
-        "Plus de": "2.13",
-        "Moins de": "1.58"
+        "Plus de": "1.97",
+        "Moins de": "1.68"
       },
       "4.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
+        "Plus de": "2.375",
+        "Moins de": "1.46"
       }
     },
     "Handicap": {
-      "1 (-2.5)": "1.84",
-      "2 (+2.5)": "1.87",
-      "1 (-1.5)": "1.32",
-      "2 (+1.5)": "2.875",
-      "1 (-2)": "1.46",
-      "2 (+2)": "2.375",
-      "1 (-3)": "2.28",
-      "2 (+3)": "1.5",
-      "1 (-3.5)": "2.74",
-      "2 (+3.5)": "1.35"
+      "1 (-2.5)": "1.7",
+      "2 (+2.5)": "2.04",
+      "1 (-1.5)": "1.25",
+      "2 (+1.5)": "3.28",
+      "1 (-2)": "1.36",
+      "2 (+2)": "2.7",
+      "1 (-3)": "2",
+      "2 (+3)": "1.65",
+      "1 (-3.5)": "2.43",
+      "2 (+3.5)": "1.44"
     }
   },
   {
@@ -2207,59 +2249,65 @@
     "equipe_1": "Talleres de Cordoba",
     "equipe_2": "Belgrano",
     "1X2": {
-      "V1": "2.685",
-      "V2": "2.89",
-      "X": "2.992"
+      "V1": "2.706",
+      "V2": "2.849",
+      "X": "3.01"
     },
     "Total_2.5": {
-      "Plus de": "2.56",
-      "Moins de": "1.47"
+      "Plus de": "2.462",
+      "Moins de": "1.547"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T20:00:00+00:00",
+    "competition": "Championnat d'Argentine. Primera Division",
+    "competition_en": "Argentina. Primera Division",
+    "competition_id": 119599,
+    "equipe_1_en": "Talleres de Cordoba",
+    "equipe_2_en": "Belgrano",
     "Double_Chance": {
-      "12": "1.381",
-      "1X": "1.404",
-      "2X": "1.458"
+      "12": "1.377",
+      "1X": "1.414",
+      "2X": "1.452"
     },
     "BTTS": {
-      "Non": "1.669",
-      "Oui": "2.08"
+      "Non": "1.72",
+      "Oui": "2.01"
     },
     "Totals": {
+      "2.5": {
+        "Moins de": "1.547",
+        "Plus de": "2.462"
+      },
       "1.5": {
-        "Plus de": "1.553",
-        "Moins de": "2.446"
-      },
-      "0.5": {
-        "Plus de": "1.069",
-        "Moins de": "5.9"
-      },
-      "1": {
-        "Plus de": "1.12",
-        "Moins de": "4.7"
+        "Plus de": "1.43",
+        "Moins de": "2.46"
       },
       "2": {
-        "Plus de": "1.87",
-        "Moins de": "1.77"
+        "Plus de": "1.78",
+        "Moins de": "1.86"
       },
-      "2.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.47"
+      "3": {
+        "Plus de": "3.65",
+        "Moins de": "1.21"
+      },
+      "3.5": {
+        "Plus de": "4.4",
+        "Moins de": "1.139"
       }
     },
     "Handicap": {
-      "1 (0)": "1.836",
-      "2 (0)": "1.969",
+      "1 (0)": "1.856",
+      "2 (0)": "1.946",
       "1 (-1)": "4.5",
-      "2 (-1)": "5",
-      "1 (+1)": "1.104",
-      "2 (+1)": "1.132",
-      "1 (-1.5)": "5.45",
-      "2 (-1.5)": "6",
-      "1 (+1.5)": "1.065",
-      "2 (+1.5)": "1.084"
+      "2 (-1)": "4.85",
+      "1 (+1)": "1.113",
+      "2 (+1)": "1.133",
+      "1 (-1.5)": "5.4",
+      "2 (-1.5)": "5.75",
+      "1 (+1.5)": "1.073",
+      "2 (+1.5)": "1.086"
     }
   },
   {
@@ -2276,8 +2324,14 @@
       "Moins de": "2.97"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T20:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Bahamas",
+    "equipe_2_en": "United States Virgin Islands",
     "Double_Chance": {
       "2X": "1.162",
       "12": "1.177",
@@ -2327,59 +2381,65 @@
     "equipe_1": "Îles Turques-et-Caïques",
     "equipe_2": "Îles Vierges britanniques",
     "1X2": {
-      "V1": "1.78",
-      "X": "3.82",
-      "V2": "3.905"
+      "V1": "1.73",
+      "X": "3.85",
+      "V2": "4.15"
     },
     "Total_2.5": {
-      "Plus de": "1.64",
-      "Moins de": "2.16"
+      "Plus de": "1.62",
+      "Moins de": "2.19"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T20:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Turks and Caicos Islands",
+    "equipe_2_en": "British Virgin Islands",
     "Double_Chance": {
-      "1X": "1.21",
+      "1X": "1.184",
       "12": "1.22",
-      "2X": "1.94"
+      "2X": "2"
     },
     "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.214"
+      "Oui": "1.6",
+      "Non": "2.194"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.64",
-        "Moins de": "2.16"
+        "Plus de": "1.62",
+        "Moins de": "2.19"
       },
       "1.5": {
-        "Plus de": "1.163",
-        "Moins de": "4.1"
+        "Plus de": "1.159",
+        "Moins de": "4.15"
       },
       "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.22"
+        "Plus de": "1.25",
+        "Moins de": "3.3"
       },
       "3": {
-        "Plus de": "1.98",
-        "Moins de": "1.67"
+        "Plus de": "1.952",
+        "Moins de": "1.69"
       },
       "3.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.42"
+        "Plus de": "2.46",
+        "Moins de": "1.43"
       }
     },
     "Handicap": {
-      "1 (0)": "1.33",
-      "2 (0)": "2.83",
-      "1 (-1)": "2.36",
-      "2 (-1)": "6.95",
-      "1 (+1)": "1.04",
-      "2 (+1)": "1.53",
-      "1 (-1.5)": "2.875",
-      "2 (-1.5)": "7.8",
-      "1 (+1.5)": "1.024",
-      "2 (+1.5)": "1.32"
+      "2 (+1.5)": "1.34",
+      "1 (-1.5)": "2.78",
+      "1 (0)": "1.29",
+      "2 (0)": "3.04",
+      "1 (-1)": "2.23",
+      "2 (+1)": "1.59",
+      "1 (-2)": "4.55",
+      "2 (+2)": "1.13",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.094"
     }
   },
   {
@@ -2396,8 +2456,14 @@
       "Moins de": "1.876"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T21:05:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Cucuta Deportivo",
+    "equipe_2_en": "Deportivo Pereira",
     "Double_Chance": {
       "1X": "1.162",
       "12": "1.26",
@@ -2452,8 +2518,14 @@
       "Moins de": "1.943"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T21:05:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Internacional de Bogota",
+    "equipe_2_en": "Once Caldas",
     "Double_Chance": {
       "12": "1.29",
       "2X": "1.42",
@@ -2508,8 +2580,14 @@
       "Moins de": "3.34"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T22:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Puerto Rico",
+    "equipe_2_en": "Cayman Islands",
     "Double_Chance": {
       "12": "1.004",
       "1X": "1.008",
@@ -2564,41 +2642,47 @@
       "V1": "6.12"
     },
     "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.3"
+      "Plus de": "1.48",
+      "Moins de": "2.33"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T22:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Trinidad and Tobago",
+    "equipe_2_en": "Curacao",
     "Double_Chance": {
       "2X": "1.087",
       "12": "1.159",
       "1X": "2.59"
     },
     "BTTS": {
-      "Oui": "1.666",
-      "Non": "2.08"
+      "Oui": "1.66",
+      "Non": "2.09"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.56",
-        "Plus de": "2.31"
+        "Moins de": "1.57",
+        "Plus de": "2.29"
       },
       "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
+        "Plus de": "1.48",
+        "Moins de": "2.33"
       },
       "3": {
-        "Plus de": "1.79",
-        "Moins de": "1.833"
+        "Plus de": "1.78",
+        "Moins de": "1.85"
       },
       "4": {
         "Plus de": "3.16",
         "Moins de": "1.27"
       },
       "4.5": {
-        "Plus de": "3.78",
-        "Moins de": "1.19"
+        "Plus de": "3.74",
+        "Moins de": "1.193"
       }
     },
     "Handicap": {
@@ -2628,8 +2712,14 @@
       "Moins de": "1.517"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T22:15:00+00:00",
+    "competition": "Championnat d'Argentine. Primera Division",
+    "competition_en": "Argentina. Primera Division",
+    "competition_id": 119599,
+    "equipe_1_en": "Argentinos Juniors",
+    "equipe_2_en": "Club Atletico Tigre",
     "Double_Chance": {
       "1X": "1.171",
       "12": "1.316",
@@ -2677,58 +2767,64 @@
     "equipe_1": "Aruba",
     "equipe_2": "Anguilla",
     "1X2": {
-      "V1": "1.06",
-      "X": "9",
-      "V2": "24"
+      "V1": "1.04",
+      "X": "11",
+      "V2": "30"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T23:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Aruba",
+    "equipe_2_en": "Anguilla",
     "Double_Chance": {
-      "12": "1.03",
-      "2X": "7.3"
+      "12": "1.01",
+      "2X": "8.5"
     },
     "BTTS": {
-      "Non": "1.717",
-      "Oui": "2.03"
+      "Non": "1.637",
+      "Oui": "2.15"
     },
     "Totals": {
       "4.5": {
-        "Moins de": "1.7",
-        "Plus de": "2.02"
+        "Moins de": "1.8",
+        "Plus de": "1.9"
       },
       "3.5": {
-        "Plus de": "1.48",
-        "Moins de": "2.45"
+        "Plus de": "1.45",
+        "Moins de": "2.55"
       },
       "4": {
-        "Plus de": "1.68",
-        "Moins de": "2.05"
+        "Plus de": "1.6",
+        "Moins de": "2.2"
       },
       "5": {
-        "Plus de": "2.55",
-        "Moins de": "1.45"
+        "Plus de": "2.35",
+        "Moins de": "1.52"
       },
       "5.5": {
-        "Plus de": "2.95",
-        "Moins de": "1.35"
+        "Plus de": "2.75",
+        "Moins de": "1.4"
       }
     },
     "Handicap": {
-      "2 (+3.5)": "1.6",
-      "1 (-3.5)": "2.2",
-      "1 (-2.5)": "1.53",
-      "2 (+2.5)": "2.35",
-      "1 (-3)": "1.8",
-      "2 (+3)": "1.9",
-      "1 (-4)": "2.75",
-      "2 (+4)": "1.4",
-      "1 (-4.5)": "3.05",
-      "2 (+4.5)": "1.3"
+      "2 (+3.5)": "1.75",
+      "1 (-3.5)": "1.95",
+      "1 (-2.5)": "1.45",
+      "2 (+2.5)": "2.55",
+      "1 (-3)": "1.63",
+      "2 (+3)": "2.15",
+      "1 (-4)": "2.35",
+      "2 (+4)": "1.53",
+      "1 (-4.5)": "2.65",
+      "2 (+4.5)": "1.42"
     }
   },
   {
@@ -2745,8 +2841,14 @@
       "Moins de": "1.859"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-04T23:10:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Atletico Bucaramanga",
+    "equipe_2_en": "Junior de Barranquilla",
     "Double_Chance": {
       "1X": "1.23",
       "12": "1.28",
@@ -2792,25 +2894,31 @@
     "equipe_1": "Costa Rica",
     "equipe_2": "Haiti",
     "1X2": {
-      "V1": "2.21",
-      "V2": "2.993",
-      "X": "3.42"
+      "V1": "2.32",
+      "V2": "2.794",
+      "X": "3.44"
     },
     "Total_2.5": {
       "Plus de": "1.71",
       "Moins de": "2.05"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-04T12:17:11.848206+00:00",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
     "statut": "ok",
+    "debut": "2026-10-05T00:00:00+00:00",
+    "competition": "Ligue des Nations CONCACAF",
+    "competition_en": "CONCACAF Nations League",
+    "competition_id": 1804188,
+    "equipe_1_en": "Costa Rica",
+    "equipe_2_en": "Haiti",
     "Double_Chance": {
-      "12": "1.27",
-      "1X": "1.34",
-      "2X": "1.59"
+      "12": "1.26",
+      "1X": "1.38",
+      "2X": "1.54"
     },
     "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.234"
+      "Oui": "1.57",
+      "Non": "2.255"
     },
     "Totals": {
       "2.5": {
@@ -2818,8 +2926,8 @@
         "Moins de": "2.05"
       },
       "1.5": {
-        "Plus de": "1.189",
-        "Moins de": "3.78"
+        "Plus de": "1.188",
+        "Moins de": "3.8"
       },
       "2": {
         "Plus de": "1.3",
@@ -2835,16 +2943,200 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.615",
-      "2 (0)": "2.18",
-      "1 (-1)": "3.14",
-      "2 (-1)": "4.9",
-      "1 (+1)": "1.11",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "3.9",
-      "2 (-1.5)": "5.7",
-      "1 (+1.5)": "1.075",
-      "2 (+1.5)": "1.177"
+      "1 (0)": "1.71",
+      "2 (0)": "2.03",
+      "1 (-1)": "3.42",
+      "2 (-1)": "4.45",
+      "1 (+1)": "1.135",
+      "2 (+1)": "1.23",
+      "1 (-1.5)": "4.2",
+      "2 (-1.5)": "5.3",
+      "1 (+1.5)": "1.092",
+      "2 (+1.5)": "1.154"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Estudiantes de Rio Cuarto",
+    "equipe_2": "Racing Club de Avellaneda",
+    "1X2": {
+      "V2": "2.031",
+      "X": "3.08",
+      "V1": "4.235"
+    },
+    "Total_2.5": {
+      "Plus de": "2.59",
+      "Moins de": "1.39"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
+    "statut": "ok",
+    "debut": "2026-10-05T00:30:00+00:00",
+    "competition": "Championnat d'Argentine. Primera Division",
+    "competition_en": "Argentina. Primera Division",
+    "competition_id": 119599,
+    "equipe_1_en": "Estudiantes de Rio Cuarto",
+    "equipe_2_en": "Racing Club de Avellaneda",
+    "Double_Chance": {
+      "2X": "1.216",
+      "12": "1.363",
+      "1X": "1.767"
+    },
+    "BTTS": {
+      "Non": "1.567",
+      "Oui": "2.26"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.576",
+        "Moins de": "2.39"
+      },
+      "0.5": {
+        "Plus de": "1.069",
+        "Moins de": "5.9"
+      },
+      "1": {
+        "Plus de": "1.133",
+        "Moins de": "4.6"
+      },
+      "2": {
+        "Plus de": "1.952",
+        "Moins de": "1.7"
+      },
+      "2.5": {
+        "Plus de": "2.59",
+        "Moins de": "1.39"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.385",
+      "1 (0)": "3.025",
+      "1 (-1)": "9",
+      "2 (-1)": "3.1",
+      "1 (+1)": "1.33",
+      "2 (+1)": "1.005",
+      "1 (-1.5)": "10",
+      "2 (-1.5)": "3.92",
+      "1 (+1.5)": "1.177",
+      "2 (+1.5)": "1.01"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Guadalajara",
+    "equipe_2": "Club America",
+    "1X2": {
+      "V2": "1.95",
+      "V1": "3.045",
+      "X": "3.71"
+    },
+    "Total_2.5": {
+      "Plus de": "1.57",
+      "Moins de": "2.19"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
+    "statut": "ok",
+    "debut": "2026-10-05T01:00:00+00:00",
+    "competition": "Matchs amicaux des clubs",
+    "competition_en": "Club Friendlies",
+    "competition_id": 67559,
+    "equipe_1_en": "Guadalajara",
+    "equipe_2_en": "Club America",
+    "Double_Chance": {
+      "12": "1.17",
+      "2X": "1.27",
+      "1X": "1.65"
+    },
+    "BTTS": {
+      "Oui": "1.52",
+      "Non": "2.3"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.57",
+        "Moins de": "2.19"
+      },
+      "2": {
+        "Plus de": "1.22",
+        "Moins de": "3.63"
+      },
+      "3": {
+        "Plus de": "1.99",
+        "Moins de": "1.69"
+      },
+      "3.5": {
+        "Plus de": "2.57",
+        "Moins de": "1.42"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.51",
+      "1 (0)": "2.32",
+      "2 (-1)": "2.95",
+      "1 (+1)": "1.33"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Club Llaneros",
+    "equipe_2": "America de Cali",
+    "1X2": {
+      "V2": "2.118",
+      "V1": "3.385",
+      "X": "3.56"
+    },
+    "Total_2.5": {
+      "Plus de": "2.087",
+      "Moins de": "1.744"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-04T13:54:18.003385+00:00",
+    "statut": "ok",
+    "debut": "2026-10-05T01:15:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Club Llaneros",
+    "equipe_2_en": "America de Cali",
+    "Double_Chance": {
+      "2X": "1.27",
+      "12": "1.32",
+      "1X": "1.63"
+    },
+    "BTTS": {
+      "Oui": "1.83",
+      "Non": "1.874"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.744",
+        "Plus de": "2.087"
+      },
+      "1.5": {
+        "Plus de": "1.363",
+        "Moins de": "2.971"
+      },
+      "3.5": {
+        "Plus de": "3.625",
+        "Moins de": "1.247"
+      },
+      "4.5": {
+        "Plus de": "7.7",
+        "Moins de": "1.034"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.51",
+      "1 (0)": "2.41",
+      "1 (-1)": "6.25",
+      "2 (-1)": "3.08",
+      "1 (+1)": "1.28",
+      "2 (+1)": "1.058",
+      "1 (-1.5)": "7.1",
+      "2 (-1.5)": "3.9",
+      "1 (+1.5)": "1.178",
+      "2 (+1.5)": "1.036"
     }
   }
 ]
