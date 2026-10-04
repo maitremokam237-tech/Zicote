@@ -31,7 +31,7 @@ MARKET_TOTAL = "5000"
 
 PAGE_SIZE = 100
 MAX_PAGES = int(os.getenv("BETPAWA_MAX_PAGES", "6"))
-MAX_MATCHES = int(os.getenv("BETPAWA_MAX_MATCHES", "40"))
+MAX_MATCHES = int(os.getenv("BETPAWA_MAX_MATCHES", "120"))
 
 # Compétitions de l'URL d'origine (championnats suivis en priorité).
 WANTED_COMPETITIONS = {"12039", "11965", "12110", "12667", "12541"}
@@ -223,6 +223,17 @@ def build_matches(events):
         }
         if totals:
             match["Totals"] = totals
+
+        # Heure de coup d'envoi (UTC) et championnat, pour rapprocher le
+        # meme match chez les autres bookmakers.
+        debut = event.get("startTime")
+        if debut:
+            match["debut"] = str(debut)
+        comp = event.get("competition") or {}
+        if comp.get("name"):
+            match["competition"] = str(comp["name"]).strip()
+        if comp.get("id") is not None:
+            match["competition_id"] = comp["id"]
         result.append(match)
 
     return result
@@ -302,4 +313,6 @@ async def scrape_betpawa(browser, proxy=None):
                 await context.close()
             except Exception:
                 pass
+
+
 
