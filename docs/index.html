@@ -266,9 +266,7 @@ function trier(matchs) {
 }
 
 function badge(m) {
-    const n = m._div ? m._div.profils : 1;
-    if (n < SEUIL_PRIORITE) return "";
-    return `<span class="tag">${Zicote_i18n.lang === "en" ? n + " different odds" : n + " cotes différentes"}</span>`;
+    return "";
 }
 
 function card(m) {
@@ -310,18 +308,8 @@ function render(list) {
 
     $("upd").textContent = info;
 
-    const en = Zicote_i18n.lang === "en";
-    const gardes = list.filter(m => card(m));
-    const top = gardes.filter(m => m._div && m._div.profils >= SEUIL_PRIORITE);
-    const reste = gardes.filter(m => !(m._div && m._div.profils >= SEUIL_PRIORITE));
-    const bloc = (cls, titre, sous, ms) => ms.length
-        ? `<section class="comp ${cls}"><h2>${titre}${sous ? `<small>${sous}</small>` : ""}</h2>${ms.map(card).join("")}</section>`
-        : "";
-
     $("app").innerHTML = cards.length
-        ? bloc("top", en ? "Best deals to compare" : "À comparer en priorité",
-               en ? "Bookmakers with really different odds" : "Des bookmakers aux cotes vraiment différentes", top)
-          + bloc("", top.length ? (en ? "Other matches" : "Autres matchs") : t("comp_title"), "", reste)
+        ? `<section class="comp"><h2>${t("comp_title")}</h2>${cards.join("")}</section>`
         : `<p class="msg">${t("no_match_msg")}</p>`;
 }
 
@@ -395,3 +383,4 @@ observer.observe(document.body, {
 </script>
 </body>
 </html>
+
