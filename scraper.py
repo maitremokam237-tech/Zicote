@@ -1237,6 +1237,73 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
     return precedent
 
 
+async def defiler_1win(page, ws_store, max_tours=40):
+    """
+    Defile la liste de 1win par petits pas. Le site charge les matchs
+    au fur et a mesure : un seul grand saut (ou une souris placee hors
+    de la liste) n'en declenche qu'une partie. On s'arrete quand ni les
+    cartes affichees ni les matchs recus par WebSocket n'augmentent.
+    """
+
+    await page.mouse.move(640, 600)
+
+    prec_cartes, prec_ws, stagnation = -1, -1, 0
+
+    for tour in range(max_tours):
+
+        try:
+
+            cartes = page.locator('[data-qa="match-card"]')
+            nb_cartes = await cartes.count()
+
+            if nb_cartes:
+                try:
+                    await cartes.last.scroll_into_view_if_needed(
+                        timeout=3000
+                    )
+                except Exception:
+                    pass
+
+            boutons = page.locator(
+                'button.ui-nav-link-toggle[aria-label="Maximize"]'
+                '[aria-expanded="false"]'
+            )
+
+            for _ in range(min(await boutons.count(), 10)):
+                try:
+                    await boutons.first.click(timeout=2000, force=True)
+                except Exception:
+                    break
+
+            await page.mouse.wheel(0, 1500)
+            await page.wait_for_timeout(1500)
+
+            nb_cartes = await page.locator(
+                '[data-qa="match-card"]'
+            ).count()
+            nb_ws = len(ws_store)
+
+            if nb_cartes <= prec_cartes and nb_ws <= prec_ws:
+                stagnation += 1
+            else:
+                stagnation = 0
+                print(
+                    f"[1win] défilement {tour + 1} : "
+                    f"{nb_cartes} carte(s), {nb_ws} match(s) WebSocket"
+                )
+
+            prec_cartes, prec_ws = nb_cartes, nb_ws
+
+            if stagnation >= 4:
+                break
+
+        except Exception as error:
+            print(f"[1win] défilement interrompu : {error}")
+            break
+
+    return prec_ws
+
+
 async def scrape_1win(playwright):
 
     result = []
@@ -1245,7 +1312,9 @@ async def scrape_1win(playwright):
 
         browser = await playwright.chromium.launch(headless=True)
 
-        page = await browser.new_page()
+        page = await browser.new_page(
+            viewport={"width": 1280, "height": 2400}
+        )
 
         # Cotes completes via le WebSocket de 1win (1X2, Plus/Moins,
         # double chance, BTTS, handicap) ; repli sur la lecture des cartes.
@@ -1261,6 +1330,8 @@ async def scrape_1win(playwright):
         await page.wait_for_timeout(5000)
 
         await ouvrir_plus_de_matchs_1win(page, max_tours=30)
+
+        await defiler_1win(page, ws_store)
 
         await page.wait_for_timeout(4000)
         print(f"[1win] WebSocket : {len(ws_store)} match(s) avec cotes")
@@ -1493,6 +1564,44 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
