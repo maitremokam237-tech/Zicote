@@ -1544,6 +1544,49 @@ async def run_betpawa(browser):
     sauver_resultat("betpawa", result)
 
 
+def diagnostic_1xbet_vs_betwinner(max_lignes=8):
+    """
+    Compare les cotes 1xBet (Chromium) et BetWinner (API) sur les matchs
+    communs de CE run, pour savoir si 1xBet peut passer en API.
+    """
+    try:
+        a = json.loads((ROOT / "1xbet.json").read_text(encoding="utf-8"))
+        b = json.loads((ROOT / "betwinner.json").read_text(encoding="utf-8"))
+    except Exception as error:
+        print(f"[diag] lecture impossible : {error}")
+        return
+
+    bw = {(m["equipe_1"], m["equipe_2"]): m.get("1X2", {}) for m in b}
+    communs = identiques = plus_hauts = 0
+
+    for m in a:
+        cle = (m["equipe_1"], m["equipe_2"])
+        if cle not in bw or len(bw[cle]) != 3:
+            continue
+        x = m.get("1X2", {})
+        try:
+            ecarts = [
+                float(x[k]) / float(bw[cle][k]) - 1 for k in ("V1", "X", "V2")
+            ]
+        except Exception:
+            continue
+        communs += 1
+        if all(abs(e) < 0.001 for e in ecarts):
+            identiques += 1
+        elif all(e > 0.001 for e in ecarts):
+            plus_hauts += 1
+        if communs <= max_lignes:
+            print(
+                f"[diag] {cle[0]} - {cle[1]} : 1xbet {x} | "
+                f"betwinner {bw[cle]}"
+            )
+
+    print(
+        f"[diag] 1xbet vs betwinner : {communs} match(s) communs, "
+        f"{identiques} identiques, {plus_hauts} avec 1xbet plus haut partout"
+    )
+
+
 async def main():
 
     async with async_playwright() as playwright:
@@ -1561,9 +1604,45 @@ async def main():
     # Le fichier doit toujours exister (le workflow le versionne).
     ecrire_maj(lire_maj())
 
+    diagnostic_1xbet_vs_betwinner()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
