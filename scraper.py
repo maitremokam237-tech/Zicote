@@ -12,6 +12,7 @@ from playwright.async_api import async_playwright
 
 from betpawa import scrape_betpawa
 from onex_api import DOMAINS as ONEX_DOMAINS, scrape_onex
+from win_ws import brancher_websocket, construire_matchs
 
 from config import (
     BOOKMAKERS,
@@ -1246,6 +1247,11 @@ async def scrape_1win(playwright):
 
         page = await browser.new_page()
 
+        # Cotes completes via le WebSocket de 1win (1X2, Plus/Moins,
+        # double chance, BTTS, handicap) ; repli sur la lecture des cartes.
+        ws_store = {}
+        page.on("websocket", lambda ws: brancher_websocket(ws, ws_store))
+
         await page.goto(
             WIN1_LISTING_URL,
             timeout=1200000,
@@ -1256,9 +1262,18 @@ async def scrape_1win(playwright):
 
         await ouvrir_plus_de_matchs_1win(page, max_tours=30)
 
+        await page.wait_for_timeout(4000)
+        print(f"[1win] WebSocket : {len(ws_store)} match(s) avec cotes")
+        ws_result = construire_matchs(
+            ws_store, WIN1_LISTING_URL, MAX_MATCHES_PER_SITE
+        )
+
         cartes = []
 
         for tentative in range(WIN1_MAX_TENTATIVES):
+
+            if len(ws_result) >= 5:
+                break
 
             cartes = await extraire_cartes_1win(page)
 
@@ -1284,12 +1299,17 @@ async def scrape_1win(playwright):
 
         await browser.close()
 
-        for carte in cartes:
+        if len(ws_result) >= 5:
+            result = ws_result
+        else:
+            if ws_store:
+                print("[1win] WebSocket insuffisant, repli sur les cartes")
+            for carte in cartes:
 
-            parsed = parser_carte_1win(carte)
+                parsed = parser_carte_1win(carte)
 
-            if parsed:
-                result.append(parsed)
+                if parsed:
+                    result.append(parsed)
 
     except Exception as error:
 
@@ -1473,6 +1493,52 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
