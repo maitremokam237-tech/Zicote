@@ -11,6 +11,7 @@ import asyncio
 from playwright.async_api import async_playwright
 
 from betpawa import scrape_betpawa
+from onex_api import DOMAINS as ONEX_DOMAINS, scrape_onex
 
 from config import (
     BOOKMAKERS,
@@ -1380,6 +1381,28 @@ async def run_bookmakers(browser):
     sites = [b for b in BOOKMAKERS_LIST if b not in ("1win", "betpawa")]
     proxy = webshare_proxy()
 
+    # Bookmakers de la plateforme 1xBet : lecture directe de l'API (rapide).
+    # Si l'API echoue, on retombe sur le scraping Chromium habituel.
+    proxy_url = None
+    if proxy:
+        auth = ""
+        if proxy.get("username"):
+            auth = f"{proxy['username']}:{proxy.get('password', '')}@"
+        proxy_url = proxy["server"].replace("http://", f"http://{auth}", 1)
+    for bookmaker in list(sites):
+        if bookmaker not in ONEX_DOMAINS or os.getenv("ONEX_NO_API"):
+            continue
+        try:
+            api_result = await scrape_onex(bookmaker, proxy_url)
+        except Exception as error:
+            print(f"[{bookmaker}] API indisponible ({error}), repli sur Chromium")
+            continue
+        if api_result:
+            sauver_resultat(bookmaker, api_result)
+            sites.remove(bookmaker)
+        else:
+            print(f"[{bookmaker}] API sans donnees, repli sur Chromium")
+
     for bookmaker in sites:
         config = BOOKMAKERS[bookmaker]
         loop = asyncio.get_event_loop()
@@ -1450,6 +1473,55 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
