@@ -11,3 +11,4 @@ if "const LOGOS = {\n" not in s:
 s = s.replace("const LOGOS = {\n", "const LOGOS = {\n" + LINE, 1)
 open(p, "w", encoding="utf-8").write(s)
 print("Logo BetPawa ajoute dans", p)
+
