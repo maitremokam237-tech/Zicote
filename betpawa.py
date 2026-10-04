@@ -302,3 +302,4 @@ async def scrape_betpawa(browser, proxy=None):
                 await context.close()
             except Exception:
                 pass
+
