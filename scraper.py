@@ -21,6 +21,10 @@ from config import (
     webshare_proxy,
 )
 
+# Plus de matchs par site => plus de matchs communs entre bookmakers.
+# (la valeur de config.py est relevee a 60 au minimum)
+MAX_MATCHES_PER_SITE = max(MAX_MATCHES_PER_SITE, int(os.getenv("MAX_MATCHES_MIN", "60")))
+
 
 # ============================================================
 # DOSSIER DES DONNEES
@@ -107,6 +111,14 @@ def with_mobile_param(url):
     separator = "&" if "?" in url else "?"
 
     return f"{url}{separator}platform_type=mobile"
+
+
+def competition_from_url(url):
+    """/line/football/<id>-<championnat>/<id>-<match> -> (id, nom lisible)."""
+    found = re.search(r"/line/football/(\d+)-([^/?]+)/", url or "")
+    if not found:
+        return None, None
+    return found.group(1), found.group(2).replace("-", " ").title()
 
 
 def extract_teams_from_slug(href):
@@ -917,6 +929,13 @@ async def scrape_match(
                     ).isoformat(),
 
                 "statut": "ok",
+
+                **{
+                    k: v for k, v in (
+                        ("competition_id", competition_from_url(match["url"])[0]),
+                        ("competition", competition_from_url(match["url"])[1]),
+                    ) if v
+                },
             }
 
         except Exception as error:
@@ -1609,6 +1628,216 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
