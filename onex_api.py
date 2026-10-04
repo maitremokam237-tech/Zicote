@@ -31,7 +31,24 @@ DOMAINS = {
 DIAG = {"1xbet": "https://1xbet.cm"}
 ALL_DOMAINS = {**DOMAINS, **DIAG}
 ENDPOINT = "/service-api/LineFeed/Get1x2_VZip"
-COUNT = int(os.getenv("ONEX_COUNT", "100"))
+COUNT = int(os.getenv("ONEX_COUNT", "300"))
+COUNT_REPLI = 100  # valeur utilisee si l'API refuse la grosse demande
+
+# Championnats gardes en priorite (les memes que BetPawa), pour que les
+# bookmakers listent les memes matchs meme quand le lot est tronque.
+PRIORITY_KEYWORDS = (
+    "champions league", "ligue des champions", "europa league",
+    "ligue europa", "conference league", "premier league", "la liga",
+    "laliga", "liga espagnole", "ligue 1", "serie a", "bundesliga",
+    "league cup", "coupe de la ligue",
+)
+
+
+def _priority(match):
+    noms = " ".join(
+        str(match.get(k, "")) for k in ("competition_en", "competition")
+    ).lower()
+    return 0 if any(k in noms for k in PRIORITY_KEYWORDS) else 1
 UA = ("Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36")
 
@@ -45,6 +62,19 @@ def _fmt_line(p):
 def _signed(p):
     s = _fmt_line(p)
     return s if s.startswith("-") or s == "0" else "+" + s
+
+
+def _iso_utc(ts):
+    """Timestamp Unix (secondes) -> ISO 8601 UTC, ou None."""
+    try:
+        ts = int(ts)
+        if ts <= 0:
+            return None
+        return datetime.datetime.fromtimestamp(
+            ts, datetime.timezone.utc
+        ).isoformat()
+    except (TypeError, ValueError, OverflowError, OSError):
+        return None
 
 
 def parse_event(ev):
@@ -108,6 +138,20 @@ def build_matches(bookmaker, events, base, limit):
             "derniere_maj": now,
             "statut": "ok",
         }
+        # Infos servant a rapprocher le meme match chez les autres bookmakers
+        # (heure de coup d'envoi, championnat, noms anglais des equipes).
+        debut = _iso_utc(ev.get("S"))
+        if debut:
+            match["debut"] = debut
+        if ev.get("L"):
+            match["competition"] = str(ev["L"]).strip()
+        if ev.get("LE"):
+            match["competition_en"] = str(ev["LE"]).strip()
+        if ev.get("LI") is not None:
+            match["competition_id"] = ev["LI"]
+        if ev.get("O1E") and ev.get("O2E"):
+            match["equipe_1_en"] = str(ev["O1E"]).strip()
+            match["equipe_2_en"] = str(ev["O2E"]).strip()
         if double:
             match["Double_Chance"] = double
         if btts:
@@ -116,27 +160,39 @@ def build_matches(bookmaker, events, base, limit):
             match["Totals"] = totals
         if handicap:
             match["Handicap"] = handicap
-        out.append((ev.get("S") or 0, match))
-        # tri par date de debut, les plus proches d'abord
+        out.append(((_priority(match), ev.get("S") or 0), match))
+    # championnats prioritaires d'abord, puis par date de debut
     out.sort(key=lambda x: x[0])
     return [m for _, m in out[:limit]]
 
 
-def fetch_events(bookmaker, proxy=None, count=COUNT):
-    base = ALL_DOMAINS[bookmaker]
+def _get_events(bookmaker, base, proxy, count):
     params = {"sports": 1, "count": count, "lng": "fr", "mode": 4, "getEmpty": "true"}
     for pair in filter(None, os.getenv("ONEX_EXTRA", "").split("&")):  # ex: ONEX_EXTRA="partner=51"
         k, _, v = pair.partition("=")
         params[k] = v
     proxies = {"http": proxy, "https": proxy} if proxy else None
-    r = requests.get(base + ENDPOINT, params=params, proxies=proxies, timeout=40,
+    r = requests.get(base + ENDPOINT, params=params, proxies=proxies, timeout=60,
                      headers={"User-Agent": UA, "Accept": "application/json",
                               "Referer": base + "/fr/line/football"})
-    print(f"[{bookmaker}] API statut {r.status_code}")
+    print(f"[{bookmaker}] API statut {r.status_code} (count={count})")
     if r.status_code != 200:
-        return base, []
-    data = r.json()
-    return base, data.get("Value") or []
+        return []
+    return r.json().get("Value") or []
+
+
+def fetch_events(bookmaker, proxy=None, count=COUNT):
+    base = ALL_DOMAINS[bookmaker]
+    events = []
+    try:
+        events = _get_events(bookmaker, base, proxy, count)
+    except Exception as e:
+        print(f"[{bookmaker}] erreur count={count}: {type(e).__name__}: {str(e)[:80]}")
+    # Si l'API refuse ou ne renvoie rien pour un gros lot, on retente en petit.
+    if not events and count > COUNT_REPLI:
+        events = _get_events(bookmaker, base, proxy, COUNT_REPLI)
+    print(f"[{bookmaker}] {len(events)} evenements recus")
+    return base, events
 
 
 def scrape_onex_sync(bookmaker, proxy=None, limit=COUNT):
@@ -145,6 +201,12 @@ def scrape_onex_sync(bookmaker, proxy=None, limit=COUNT):
     base, events = fetch_events(bookmaker, proxy, limit)
     matches = build_matches(bookmaker, events, base, limit)
     print(f"[{bookmaker}] {len(events)} matchs lus, {len(matches)} gardes")
+    print(
+        f"[{bookmaker}] avec heure: {sum('debut' in m for m in matches)}, "
+        f"championnat: {sum('competition' in m for m in matches)}, "
+        f"noms anglais: {sum('equipe_1_en' in m for m in matches)} "
+        f"(sur {len(matches)})"
+    )
     return matches
 
 
@@ -187,3 +249,4 @@ if __name__ == "__main__":
     if res:
         import json
         print(json.dumps(res[0], ensure_ascii=False, indent=2)[:1800])
+
