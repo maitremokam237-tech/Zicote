@@ -30,6 +30,9 @@ a{color:inherit;text-decoration:none}button{font:inherit}
 main{max-width:760px;margin:0 auto;padding:14px 12px}
 .comp{background:#fff;border-radius:22px;overflow:hidden;margin-bottom:14px;box-shadow:0 2px 10px rgba(15,36,71,.06)}
 .comp h2{margin:0;padding:16px 18px;background:#f1f4f9;font-size:16px;font-weight:700}
+.comp.top h2{background:linear-gradient(90deg,#fff4d6,#fff);color:#7a4b00}
+.comp h2 small{display:block;margin-top:3px;font-size:12px;font-weight:500;color:var(--mut);letter-spacing:0}
+.tag{display:inline-block;margin:0 0 8px;padding:3px 9px;border-radius:999px;background:#fff1c7;color:#7a4b00;font-size:11.5px;font-weight:700}
 .m{padding:14px 16px;border-top:1px dashed #cfd8e6}
 .m small{color:var(--mut);font-size:12px;letter-spacing:.04em}
 .tm{display:flex;align-items:center;gap:12px;font-size:19px;margin:9px 0;font-weight:500}
@@ -230,6 +233,44 @@ function pill(m, key, label, fav) {
     return `<div class="od"><label>${label}</label><a class="pill${fav ? " fav" : ""}" ${href}>${logo(r.meilleur_site)}<b>${r.meilleure_cote}</b></a></div>`;
 }
 
+// Diversite des cotes : combien de profils de cotes 1X2 differents entre
+// les bookmakers (les clones aux cotes identiques comptent pour un seul),
+// et ecart max entre la meilleure et la moins bonne cote.
+function diversite(m) {
+    const lignes = ["V1","X","V2"].map(k => m.marches.find(x => x.type === "1X2" && x.marche === k));
+    const nb = (m.bookmakers || []).length;
+    if (lignes.some(l => !l)) return {profils: 1, ecart: 0, nb};
+    const profils = new Set();
+    (m.bookmakers || []).forEach(b => {
+        const t = lignes.map(l => l.valeurs[b]);
+        if (t.every(v => v != null)) profils.add(t.map(v => Number(v).toFixed(2)).join("|"));
+    });
+    let ecart = 0;
+    lignes.forEach(l => {
+        const v = Object.values(l.valeurs).map(Number).filter(x => x > 0);
+        if (v.length > 1) ecart = Math.max(ecart, Math.max(...v) / Math.min(...v) - 1);
+    });
+    return {profils: profils.size || 1, ecart, nb};
+}
+
+// Un match entre dans "A comparer en priorite" a partir de ce nombre de
+// profils de cotes differents (3 = "plus de deux bookmakers differents").
+const SEUIL_PRIORITE = 2;
+
+function trier(matchs) {
+    matchs.forEach(m => { m._div = diversite(m); });
+    // Plus il y a de cotes differentes, plus le match monte ; a egalite,
+    // le plus gros ecart d'abord, puis le plus de bookmakers.
+    return matchs.slice().sort((a, b) =>
+        b._div.profils - a._div.profils || b._div.ecart - a._div.ecart || b._div.nb - a._div.nb);
+}
+
+function badge(m) {
+    const n = m._div ? m._div.profils : 1;
+    if (n < SEUIL_PRIORITE) return "";
+    return `<span class="tag">${Zicote_i18n.lang === "en" ? n + " different odds" : n + " cotes différentes"}</span>`;
+}
+
 function card(m) {
     const get = k => m.marches.find(x => x.type === "1X2" && x.marche === k);
     const rows = ["V1","X","V2"].map(get);
@@ -238,6 +279,7 @@ function card(m) {
     const fav = vals.indexOf(Math.min(...vals));
     const t = Zicote_i18n.t;
     return `<div class="m">
+        ${badge(m)}
         <a href="${slug(m)}/">${team(m.equipe_1)}${team(m.equipe_2)}</a>
         <div class="odds">${pill(m,"V1",t("home_label"),fav===0)}${pill(m,"X",t("draw_label"),fav===1)}${pill(m,"V2",t("away_label"),fav===2)}</div>
         <a class="more" href="${slug(m)}/">${t("more_link")}</a></div>`;
@@ -268,8 +310,18 @@ function render(list) {
 
     $("upd").textContent = info;
 
+    const en = Zicote_i18n.lang === "en";
+    const gardes = list.filter(m => card(m));
+    const top = gardes.filter(m => m._div && m._div.profils >= SEUIL_PRIORITE);
+    const reste = gardes.filter(m => !(m._div && m._div.profils >= SEUIL_PRIORITE));
+    const bloc = (cls, titre, sous, ms) => ms.length
+        ? `<section class="comp ${cls}"><h2>${titre}${sous ? `<small>${sous}</small>` : ""}</h2>${ms.map(card).join("")}</section>`
+        : "";
+
     $("app").innerHTML = cards.length
-        ? `<section class="comp"><h2>${t("comp_title")}</h2>${cards.join("")}</section>`
+        ? bloc("top", en ? "Best deals to compare" : "À comparer en priorité",
+               en ? "Bookmakers with really different odds" : "Des bookmakers aux cotes vraiment différentes", top)
+          + bloc("", top.length ? (en ? "Other matches" : "Autres matchs") : t("comp_title"), "", reste)
         : `<p class="msg">${t("no_match_msg")}</p>`;
 }
 
@@ -295,13 +347,13 @@ $("q").addEventListener("input", filter);
 $("sbtn").onclick = () => { $("search").classList.toggle("on"); $("q").focus(); };
 $("tsearch").onclick = e => { e.preventDefault(); $("search").classList.add("on"); scrollTo(0,0); $("q").focus(); };
 
-Zicote_i18n.mount("langSwitch", rerender);.
+Zicote_i18n.mount("langSwitch", rerender);
 
 fetch("comparison.json", {cache: "no-store"})
     .then(r => { if (!r.ok) throw new Error("comparison.json introuvable"); return r.json(); })
     .then(d => {
         const p = Array.isArray(d) ? {matchs: d} : d;
-        state.matches = p.matchs || [];
+        state.matches = trier(p.matchs || []);
         state.generatedAt = p.genere_le || null;
         state.maj = p.bookmakers_maj || {};
         applyStaticStrings();
