@@ -1,1634 +1,614 @@
+import zlib
 import datetime
 import json
-import os
 import re
+import unicodedata
 
 from pathlib import Path
-from urllib.parse import urlparse
 
-import asyncio
-
-from playwright.async_api import async_playwright
-
-from betpawa import scrape_betpawa
-from onex_api import DOMAINS as ONEX_DOMAINS, scrape_onex
-from win_ws import brancher_websocket, construire_matchs
-
-from config import (
-    BOOKMAKERS,
-    BOOKMAKERS_LIST,
-    MAX_MATCHES_PER_SITE,
-    webshare_proxy,
-)
-
-# Plus de matchs par site => plus de matchs communs entre bookmakers.
-# (la valeur de config.py est relevee a 60 au minimum)
-MAX_MATCHES_PER_SITE = max(MAX_MATCHES_PER_SITE, int(os.getenv("MAX_MATCHES_MIN", "60")))
+from appariement import premier_de_groupe, regrouper
 
 
 # ============================================================
-# DOSSIER DES DONNEES
+# FICHES PAR MATCH (docs/{slug}/index.html)
 # ============================================================
 
-ROOT = Path(".")
+BASE_DIR = Path(__file__).resolve().parent
+TEMPLATE_PATH = BASE_DIR / "match_template.html"
 
-# ============================================================
-# RESSOURCES A BLOQUER
-# ============================================================
-
-BLOCKED_TYPES = {
-    "image",
-    "media",
-    "font",
-    "manifest",
-    "texttrack",
-}
-
-BLOCKED_DOMAINS = (
-    "google-analytics",
-    "googletagmanager",
-    "doubleclick",
-    "facebook.com/tr",
-    "facebook.net",
-    "hotjar",
-    "clarity.ms",
-    "segment.io",
-    "mixpanel",
-    "amplitude",
-    "sentry.io",
-    "analytics",
-    "telemetry",
-    "tracking",
-    "tracker",
-    "adservice",
-    "adsystem",
-    "pixel",
-)
+# Fichier qui garde la trace des dossiers générés lors du
+# dernier passage, pour pouvoir supprimer ceux des matchs qui
+# ont disparu (terminés / plus suivis) plutôt que de les laisser
+# s'accumuler indéfiniment dans docs/.
+MANIFEST_PATH = Path("docs/.match-slugs.json")
 
 
-def should_block(route):
+def slugify(value):
 
-    request = route.request
-
-    resource_type = request.resource_type
-    url = request.url.lower()
-
-    if resource_type in BLOCKED_TYPES:
-        return True
-
-    for domain in BLOCKED_DOMAINS:
-        if domain in url:
-            return True
-
-    return False
-
-
-MATCH_PATTERN = re.compile(r"/line/football/\d+-[^/]+/\d+-[^/?]+")
-
-# Certains liens ont exactement le format d'un lien de match
-# (/line/football/<id>-<competition>/<id>-<slug>) mais pointent en
-# réalité vers des paris "spéciaux"/"outrights" (ex. "Home Special
-# Bets - Away Special Bets" chez melbet, "Enhanced Daily Specials"
-# chez 1xbet) : jamais de vrai marché 1X2 chiffré, donc échec
-# garanti à chaque tentative de scraping, quel que soit le
-# bookmaker. On les exclut dès la découverte plutôt que de les
-# laisser épuiser des tentatives pour rien.
-EXCLUSION_PATTERN = re.compile(
-    r"special-bets|enhanced-daily|enhanced-specials|outright",
-    re.IGNORECASE
-)
-
-COMPETITION_PATTERN = re.compile(
-    r"/line/football/\d+-[^/?]+/?(?:\?.*)?$"
-)
-
-
-def with_mobile_param(url):
-
-    if "platform_type=mobile" in url:
-        return url
-
-    separator = "&" if "?" in url else "?"
-
-    return f"{url}{separator}platform_type=mobile"
-
-
-def competition_from_url(url):
-    """/line/football/<id>-<championnat>/<id>-<match> -> (id, nom lisible)."""
-    found = re.search(r"/line/football/(\d+)-([^/?]+)/", url or "")
-    if not found:
-        return None, None
-    return found.group(1), found.group(2).replace("-", " ").title()
-
-
-def extract_teams_from_slug(href):
-
-    try:
-
-        match = re.search(r"/\d+-([^/?]+)$", href)
-
-        if match:
-
-            slug = match.group(1)
-            parts = slug.split("-")
-
-            if len(parts) >= 2:
-
-                middle = len(parts) // 2
-
-                team1 = " ".join(parts[:middle]).title()
-                team2 = " ".join(parts[middle:]).title()
-
-                return team1, team2
-
-    except Exception:
-        pass
-
-    return None, None
-
-
-async def expand_accordions(page):
-
-    try:
-
-        return await page.evaluate(
-            """
-            () => {
-                let compte = 0;
-
-                document.querySelectorAll(
-                    '[aria-expanded="false"]'
-                ).forEach(el => {
-                    el.click();
-                    compte++;
-                });
-
-                document.querySelectorAll(
-                    '.ui-accordion-trigger__arrow:not([data-deja-clique])'
-                ).forEach(f => {
-                    f.setAttribute('data-deja-clique', '1');
-                    f.closest('[class*="accordion-trigger"]')?.click();
-                    compte++;
-                });
-
-                document.querySelectorAll(
-                    '[class*="accordion__trigger"]:not([data-deja-ouvert]), ' +
-                    '[class*="accordion-trigger"]:not([data-deja-ouvert])'
-                ).forEach(btn => {
-                    btn.setAttribute('data-deja-ouvert', '1');
-                    btn.click();
-                    compte++;
-                });
-
-                return compte;
-            }
-            """
-        )
-
-    except Exception:
-        return 0
-
-
-async def scroll_page(page):
-
-    try:
-        await page.mouse.wheel(0, 4000)
-    except Exception:
-        pass
-
-    try:
-        await page.keyboard.press("End")
-    except Exception:
-        pass
-
-    try:
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-    except Exception:
-        pass
-
-    try:
-
-        await page.evaluate(
-            """
-            () => {
-                document.querySelectorAll('div').forEach(el => {
-                    if (el.scrollHeight > el.clientHeight + 50) {
-                        el.scrollTop = el.scrollHeight;
-                    }
-                });
-            }
-            """
-        )
-
-    except Exception:
-        pass
-
-
-async def count_match_links(page):
-
-    hrefs = await page.eval_on_selector_all(
-        "a",
-        "els => els.map(e => e.getAttribute('href'))"
+    value = unicodedata.normalize(
+        "NFKD",
+        str(value or "")
     )
 
-    count = sum(
-        1 for h in hrefs
-        if h and MATCH_PATTERN.search(h)
+    value = value.encode(
+        "ascii",
+        "ignore"
+    ).decode("ascii")
+
+    value = value.lower()
+
+    value = re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        value
     )
 
-    return hrefs, count
+    return value.strip("-")
 
 
-# Compétitions clubs qu'on veut TOUJOURS visiter en priorité, même
-# quand elles ont moins de matchs annoncés que les journées de
-# qualifications Coupe du Monde/Euro (qui, elles, gonflent le nombre
-# de matchs avec des dizaines de sélections nationales et finissent
-# par remplir à elles seules les max_competitions premières places
-# du tri par nombre de matchs). Sans ça, ces journées internationales
-# chassent complètement les compétitions de clubs de la sélection,
-# alors que ce sont précisément celles que 1win cible en dur (listing
-# général + Champions League + League Cup + Premier League + LaLiga)
-# — résultat : plus aucun recoupement possible entre 1win et les
-# autres books ce jour-là. Bilingue (FR/EN) car chaque book a sa
-# propre locale d'URL.
-PRIORITY_COMPETITION_KEYWORDS = (
-    "champions league",
-    "ligue des champions",
-    "europa league",
-    "ligue europa",
-    "conference league",
-    "premier league",
-    "la liga", "laliga", "liga espagnole",
-    "ligue 1",
-    "serie a",
-    "bundesliga",
-    "league cup", "coupe de la ligue",
-)
+def match_slug(match):
 
-
-async def find_competition_links(page, base_url):
-
-    try:
-
-        items = await page.eval_on_selector_all(
-            "a",
-            """
-            els => els.map(e => ({
-                href: e.getAttribute('href'),
-                text: e.textContent || ""
-            }))
-            """
-        )
-
-    except Exception:
-        return []
-
-    links = []
-    seen = set()
-
-    for item in items:
-
-        href = item.get("href")
-        text = item.get("text", "")
-
-        if not href:
-            continue
-
-        if MATCH_PATTERN.search(href):
-            continue
-
-        if not COMPETITION_PATTERN.search(href):
-            continue
-
-        full_url = (
-            href if href.startswith("http")
-            else base_url + href
-        )
-
-        # Même championnat avec des paramètres différents
-        # (?platform_type=desktop, ?modal-id=...) : on ne garde que
-        # le chemin, pour ne le visiter qu'une fois.
-        full_url = full_url.split("?")[0]
-
-        # Pages sans matchs à scraper (paris spéciaux, statistiques).
-        if (
-            EXCLUSION_PATTERN.search(full_url)
-            or "statistics" in full_url.lower()
-        ):
-            continue
-
-        if full_url in seen:
-            continue
-
-        seen.add(full_url)
-
-        url_ou_texte = (full_url + " " + text).lower()
-
-        if "team-vs-player" in url_ou_texte or "team vs player" in url_ou_texte:
-            continue
-
-        count_match = re.search(
-            r"(\d+)\s*$",
-            text.strip()
-        )
-
-        count = int(count_match.group(1)) if count_match else 0
-
-        texte_normalise = text.strip().lower()
-
-        est_prioritaire = any(
-            mot in texte_normalise
-            for mot in PRIORITY_COMPETITION_KEYWORDS
-        )
-
-        links.append((full_url, count, est_prioritaire))
-
-    # Les compétitions prioritaires d'abord (entre elles triées par
-    # nombre de matchs), puis le reste trié par nombre de matchs —
-    # ainsi les grandes compétitions de clubs ne sont jamais évincées
-    # par un simple pic ponctuel de matchs de sélections nationales.
-    links.sort(key=lambda triplet: (not triplet[2], -triplet[1]))
-
-    return [url for url, _, _ in links]
-
-
-async def click_maximize_buttons(page, bookmaker="", max_rounds=10):
-
-    selector = (
-        'button.ui-nav-link-toggle[aria-label="Maximize"]'
-        '[aria-expanded="false"]'
-    )
-
-    total_clicked = 0
-
-    for tour in range(max_rounds):
-        clicked_this_round = 0
-
-        try:
-            count = await page.locator(selector).count()
-
-            for i in range(count):
-                try:
-                    btn = page.locator(selector).nth(i)
-
-                    if await btn.is_visible():
-                        await btn.click(timeout=3000, force=True)
-                        clicked_this_round += 1
-                        total_clicked += 1
-                        await page.wait_for_timeout(500)
-
-                except Exception:
-                    pass
-
-            if clicked_this_round:
-                await page.wait_for_timeout(1800)
-
-            await scroll_page(page)
-            await page.wait_for_timeout(800)
-
-            if clicked_this_round:
-                print(
-                    f"[{bookmaker}] Maximize : "
-                    f"{clicked_this_round} bouton(s) ouvert(s) "
-                    f"(tour {tour + 1})"
-                )
-            else:
-                if tour >= 1:
-                    break
-
-        except Exception as error:
-            print(f"[{bookmaker}] erreur Maximize : {error}")
-            break
-
-    return total_clicked
-
-
-async def collect_hrefs_on_page(page, max_matches, max_stagnant=40):
-
-    await expand_accordions(page)
-    await click_maximize_buttons(page, urlparse(page.url).netloc)
-    await page.wait_for_timeout(4000)
-
-    hrefs, found = await count_match_links(page)
-
-    stagnant = 0
-
-    while found < max_matches and stagnant < max_stagnant:
-
-        await scroll_page(page)
-        await expand_accordions(page)
-        await click_maximize_buttons(page, urlparse(page.url).netloc, max_rounds=3)
-
-        await page.wait_for_timeout(3000)
-
-        hrefs, new_found = await count_match_links(page)
-
-        if new_found <= found:
-            stagnant += 1
-        else:
-            stagnant = 0
-
-        found = new_found
-
-    return hrefs
-
-
-def depasse(deadline):
-    # True si le budget de temps (horloge de la boucle asyncio) est écoulé.
     return (
-        deadline is not None
-        and asyncio.get_event_loop().time() > deadline
+        slugify(match.get("equipe_1"))
+        + "-"
+        + slugify(match.get("equipe_2"))
     )
 
 
-async def discover_matches(
-    page,
-    listing_url,
-    max_matches,
-    max_stagnant=40,
-    max_competitions=15,
-    deadline=None
-):
+def generate_match_pages(matches):
 
-    url = with_mobile_param(listing_url)
+    if not TEMPLATE_PATH.exists():
 
-    await page.goto(
-        url,
-        timeout=60000,
-        wait_until="domcontentloaded"
+        print(
+            "match_template.html introuvable, "
+            "fiches par match ignorées"
+        )
+        return
+
+    template = TEMPLATE_PATH.read_text(
+        encoding="utf-8"
     )
 
-    await page.wait_for_timeout(15000)
+    previous_slugs = []
 
-    parsed = urlparse(listing_url)
-    base_url = f"{parsed.scheme}://{parsed.netloc}"
-
-    matches = []
-    seen = set()
-
-    def add_hrefs(hrefs):
-
-        for href in hrefs:
-
-            if not href:
-                continue
-
-            if (
-                MATCH_PATTERN.search(href)
-                and not EXCLUSION_PATTERN.search(href)
-            ):
-
-                full_url = (
-                    href if href.startswith("http")
-                    else base_url + href
-                )
-
-                if full_url not in seen:
-
-                    seen.add(full_url)
-
-                    team1, team2 = extract_teams_from_slug(href)
-
-                    matches.append({
-                        "url": full_url,
-                        "equipe_1": team1,
-                        "equipe_2": team2,
-                    })
-
-            if len(matches) >= max_matches:
-                break
-
-    add_hrefs(
-        await collect_hrefs_on_page(page, max_matches, max_stagnant)
-    )
-
-    if len(matches) < max_matches:
-
-        competition_links = await find_competition_links(page, base_url)
-
-        erreurs_de_suite = 0
-
-        for comp_url in competition_links[:max_competitions]:
-
-            if len(matches) >= max_matches:
-                break
-
-            if depasse(deadline):
-                print("découverte : budget de temps dépassé")
-                break
-
-            # 3 échecs de suite = proxy manifestement mort : inutile
-            # d'attendre le délai complet pour chaque championnat.
-            if erreurs_de_suite >= 3:
-                print("découverte : 3 échecs de suite, abandon du proxy")
-                break
-
-            try:
-
-                await page.goto(
-                    with_mobile_param(comp_url),
-                    timeout=30000,
-                    wait_until="domcontentloaded"
-                )
-                await page.wait_for_timeout(4000)
-
-                add_hrefs(
-                    await collect_hrefs_on_page(
-                        page,
-                        max_matches,
-                        max_stagnant=15
-                    )
-                )
-
-                erreurs_de_suite = 0
-
-            except Exception as error:
-
-                erreurs_de_suite += 1
-
-                print(
-                    f"championnat ignoré ({comp_url}) : {error}"
-                )
-                continue
-
-    return matches
-
-
-def to_lines(text):
-
-    return [
-        line.strip()
-        for line in text.split("\n")
-        if line.strip()
-    ]
-
-
-COTE_PATTERN = re.compile(r"^\d+([.,]\d+)?$")
-
-
-def parse_1x2_block(lines):
-    # lines.index("1X2") s'arrêtait à la PREMIÈRE occurrence du mot
-    # sur toute la page. Or certaines pages (bandeau "marchés
-    # populaires", fil d'ariane, widgets de marchés alternatifs —
-    # fréquent sur les matchs à beaucoup de marchés) répètent "1X2"
-    # avant le vrai tableau de cotes : on lisait alors 3 lignes qui
-    # n'étaient pas de vraies cotes, et selon leur nombre le bloc
-    # sortait soit invalide (silencieusement rejeté), soit accepté à
-    # tort avec des valeurs fausses.
-    #
-    # On essaie donc chaque occurrence de "1X2" dans l'ordre, et on
-    # ne retient un bloc que si ses 3 valeurs ressemblent réellement
-    # à des cotes (nombre décimal).
-    indices = [
-        idx for idx, line in enumerate(lines)
-        if line == "1X2"
-    ]
-
-    for i in indices:
-
-        block = {}
-        pos = i + 1
-
-        for _ in range(3):
-
-            if pos + 1 < len(lines):
-                block[lines[pos]] = lines[pos + 1]
-                pos += 2
-
-        if len(block) != 3:
-            continue
-
-        if all(
-            COTE_PATTERN.match(valeur)
-            for valeur in block.values()
-        ):
-            return block
-
-    return None
-
-
-def parse_total_block(lines):
-
-    try:
-        i_total = lines.index("Total")
-    except ValueError:
-        return {"Plus de": None, "Moins de": None}
-
-    for j in range(i_total, min(i_total + 60, len(lines) - 3)):
-
-        if lines[j] == "2.5 Plus de":
-
-            plus = lines[j + 1]
-
-            moins = (
-                lines[j + 3]
-                if (
-                    j + 2 < len(lines)
-                    and lines[j + 2] == "2.5 Moins de"
-                )
-                else None
-            )
-
-            return {"Plus de": plus, "Moins de": moins}
-
-    return {"Plus de": None, "Moins de": None}
-
-
-TOTAL_LINE_PLUS = re.compile(r"^(\d+(?:\.\d+)?) Plus de$")
-TOTAL_LINE_MOINS = re.compile(r"^(\d+(?:\.\d+)?) Moins de$")
-HANDICAP_LABEL = re.compile(r"^[12] \([+-]?\d+(?:\.\d+)?\)$")
-SCORE_LABEL = re.compile(r"^\d+-\d+$")
-
-
-def parse_double_chance_block(lines):
-
-    try:
-        i = lines.index("Double chance")
-    except ValueError:
-        return {"1X": None, "12": None, "2X": None}
-
-    result = {}
-    pos = i + 1
-
-    for _ in range(3):
-
-        if (
-            pos + 1 < len(lines)
-            and lines[pos] in ("1X", "12", "2X")
-        ):
-            result[lines[pos]] = lines[pos + 1]
-            pos += 2
-        else:
-            break
-
-    return {
-        "1X": result.get("1X"),
-        "12": result.get("12"),
-        "2X": result.get("2X"),
-    }
-
-
-def parse_btts_block(lines):
-
-    try:
-        i = lines.index("Deux équipes vont marquer")
-    except ValueError:
-        return {"Oui": None, "Non": None}
-
-    result = {}
-    pos = i + 1
-
-    for _ in range(2):
-
-        if (
-            pos + 1 < len(lines)
-            and lines[pos] in ("Oui", "Non")
-        ):
-            result[lines[pos]] = lines[pos + 1]
-            pos += 2
-        else:
-            break
-
-    return {
-        "Oui": result.get("Oui"),
-        "Non": result.get("Non"),
-    }
-
-
-def parse_all_totals_block(lines, max_span=60):
-
-    try:
-        i = lines.index("Total")
-    except ValueError:
-        return {}
-
-    result = {}
-    pos = i + 1
-    limit = min(i + max_span, len(lines))
-
-    while pos < limit:
-
-        line = lines[pos]
-
-        m_plus = TOTAL_LINE_PLUS.match(line)
-        m_moins = TOTAL_LINE_MOINS.match(line) if not m_plus else None
-
-        if m_plus and pos + 1 < len(lines):
-            result.setdefault(m_plus.group(1), {})["Plus de"] = lines[pos + 1]
-            pos += 2
-            continue
-
-        if m_moins and pos + 1 < len(lines):
-            result.setdefault(m_moins.group(1), {})["Moins de"] = lines[pos + 1]
-            pos += 2
-            continue
-
-        if result:
-            break
-
-        pos += 1
-
-    return result
-
-
-def parse_handicap_block(lines, max_span=40):
-
-    try:
-        i = lines.index("Handicap")
-    except ValueError:
-        return {}
-
-    result = {}
-    pos = i + 1
-    limit = min(i + max_span, len(lines))
-
-    while pos < limit:
-
-        line = lines[pos]
-
-        if HANDICAP_LABEL.match(line) and pos + 1 < len(lines):
-            result[line] = lines[pos + 1]
-            pos += 2
-            continue
-
-        if result:
-            break
-
-        pos += 1
-
-    return result
-
-
-def parse_correct_score_block(lines, max_span=60):
-
-    try:
-        i = lines.index("Score exact")
-    except ValueError:
-        return {}
-
-    result = {}
-    pos = i + 1
-    limit = min(i + max_span, len(lines))
-
-    while pos < limit:
-
-        line = lines[pos]
-
-        if SCORE_LABEL.match(line) and pos + 1 < len(lines):
-            result[line] = lines[pos + 1]
-            pos += 2
-            continue
-
-        if result:
-            break
-
-        pos += 1
-
-    return result
-
-
-async def scrape_match(
-    page,
-    bookmaker,
-    match,
-    max_wait_cycles,
-    nb_essais=2,
-    echecs=None,
-    deadline=None
-):
-
-    # melbet rebondit fréquemment entre domaines miroirs
-    # (melbet-cm.com <-> melbetjp.com) au moment de la navigation :
-    # on lui laisse plus de tentatives.
-    if bookmaker == "melbet":
-        nb_essais = 4
-
-    # Raison du dernier échec en date, pour pouvoir la logguer dans
-    # debug_echecs_{bookmaker}.txt si toutes les tentatives échouent.
-    derniere_raison = None
-
-    for attempt in range(nb_essais):
-
-        if depasse(deadline):
-            derniere_raison = "budget de temps dépassé"
-            break
+    if MANIFEST_PATH.exists():
 
         try:
 
-            await page.goto(
-                match["url"],
-                timeout=45000,
-                wait_until="domcontentloaded"
+            previous_slugs = json.loads(
+                MANIFEST_PATH.read_text(
+                    encoding="utf-8"
+                )
             )
 
-            text = ""
-            found = False
+        except Exception:
 
-            for _ in range(max_wait_cycles):
+            previous_slugs = []
 
-                text = await page.inner_text("body")
+    current_slugs = []
 
-                if "1X2" in text:
-                    found = True
-                    break
+    for match in matches:
 
-                await page.wait_for_timeout(2000)
+        slug = match_slug(match)
 
-            if not found:
-                derniere_raison = '"1X2" jamais trouvé sur la page'
-                continue
-
-            lines = to_lines(text)
-
-            block = parse_1x2_block(lines)
-
-            if not block:
-                derniere_raison = (
-                    '"1X2" trouvé sur la page mais le bloc de cotes '
-                    "qui suit n'a pas pu être reconnu"
-                )
-                continue
-
-            noms_bloc = list(block.keys())
-            values = list(block.values())
-
-            odds = {
-                "V1": values[0],
-                "X": values[1],
-                "V2": values[2],
-            }
-
-            # extract_teams_from_slug (utilisé à la découverte) coupe
-            # le slug de l'URL "en deux au milieu du nombre de mots" :
-            # ça casse dès qu'une équipe a un nom plus long que
-            # l'autre (ex. "barcelona-racing-de-santander" devient
-            # "Barcelona Racing" / "De Santander" au lieu de
-            # "Barcelona" / "Racing De Santander"). Les libellés
-            # affichés juste sous "1X2" sur la page sont les vrais
-            # noms d'équipe : on leur fait confiance quand ils sont
-            # disponibles, plutôt qu'au découpage du slug.
-            #
-            # Garde-fou : sur certaines pages atypiques (paris
-            # "vainqueur du championnat", outrights...), ce qui suit
-            # "1X2" n'est pas un vrai nom d'équipe mais un fragment de
-            # cote mal étiqueté (ex. "W12.39" vu en prod). On rejette
-            # tout candidat contenant un motif décimal (chiffre(s) +
-            # point + chiffre(s)), caractéristique d'une cote et
-            # quasi absent des vrais noms d'équipe.
-            MOTIF_COTE_DANS_NOM = re.compile(r"\d+\.\d+")
-
-            def ressemble_a_une_equipe(candidat):
-                return (
-                    len(candidat) > 2
-                    and candidat.lower() not in ("1", "x", "2", "draw", "nul")
-                    and not MOTIF_COTE_DANS_NOM.search(candidat)
-                )
-
-            equipe_1 = match.get("equipe_1")
-            equipe_2 = match.get("equipe_2")
-
-            if len(noms_bloc) == 3:
-
-                candidat_1, candidat_2 = noms_bloc[0], noms_bloc[2]
-
-                if ressemble_a_une_equipe(candidat_1):
-                    equipe_1 = candidat_1
-
-                if ressemble_a_une_equipe(candidat_2):
-                    equipe_2 = candidat_2
-
-            total = parse_total_block(lines)
-
-            return {
-
-                "bookmaker": bookmaker,
-
-                "equipe_1": equipe_1,
-
-                "equipe_2": equipe_2,
-
-                "1X2": odds,
-
-                "Total_2.5": total,
-
-                "Double_Chance": parse_double_chance_block(lines),
-
-                "BTTS": parse_btts_block(lines),
-
-                "Totals": parse_all_totals_block(lines),
-
-                "Handicap": parse_handicap_block(lines),
-
-                "Score_Exact": parse_correct_score_block(lines),
-
-                "url": match["url"],
-
-                "derniere_maj":
-                    datetime.datetime.now(
-                        datetime.timezone.utc
-                    ).isoformat(),
-
-                "statut": "ok",
-
-                **{
-                    k: v for k, v in (
-                        ("competition_id", competition_from_url(match["url"])[0]),
-                        ("competition", competition_from_url(match["url"])[1]),
-                    ) if v
-                },
-            }
-
-        except Exception as error:
-            derniere_raison = f"erreur pendant le scraping ({error})"
-            # Pause avant de retenter, plus longue à chaque échec
-            # successif : sur melbet en particulier, retenter
-            # immédiatement retombe souvent dans la même redirection
-            # en boucle qu'à l'essai précédent.
-            await page.wait_for_timeout(4000 + attempt * 3000)
+        if not slug:
             continue
 
-    if echecs is not None and derniere_raison:
+        current_slugs.append(slug)
 
-        equipe_1 = match.get("equipe_1") or "?"
-        equipe_2 = match.get("equipe_2") or "?"
-
-        echecs.append(
-            f"{equipe_1} - {equipe_2} — {derniere_raison} "
-            f"(après {nb_essais} tentative(s)) — {match['url']}"
+        folder = Path("docs") / slug
+        folder.mkdir(
+            parents=True,
+            exist_ok=True
         )
 
-    return None
+        equipe_1 = match.get("equipe_1", "?")
+        equipe_2 = match.get("equipe_2", "?")
 
+        title = (
+            f"{equipe_1} – {equipe_2} · "
+            "Cotes en direct | Zicote"
+        )
 
-MATCH_CONCURRENCY = 8
+        description = (
+            f"Compare en direct les cotes de {equipe_1} - "
+            f"{equipe_2} chez plusieurs bookmakers."
+        )
 
+        # Les balises </script> dans les données (peu probable
+        # mais possible dans un nom d'équipe) casseraient le
+        # bloc JSON embarqué : on les neutralise.
+        match_json = json.dumps(
+            match,
+            ensure_ascii=False
+        ).replace("</", "<\\/")
 
-async def decouvrir_bookmaker(
-    context,
-    bookmaker,
-    config,
-    max_matches,
-    deadline=None
-):
-    """Étape 1 : trouve les liens de matchs avec UN proxy (un contexte)."""
+        html = (
+            template
+            .replace("__TITLE__", title)
+            .replace("__DESCRIPTION__", description)
+            .replace("__MATCH_JSON__", match_json)
+        )
 
-    listing_url = config["url"]
+        (folder / "index.html").write_text(
+            html,
+            encoding="utf-8"
+        )
 
-    matches = []
+    # Nettoyage des fiches qui ne correspondent plus à un match
+    # actuel.
+    for slug in previous_slugs:
 
-    try:
+        if slug in current_slugs:
+            continue
 
-        discovery_page = await context.new_page()
+        folder = Path("docs") / slug
+        index_file = folder / "index.html"
 
-        try:
+        if index_file.exists():
 
-            for attempt in range(2):
-
-                if depasse(deadline):
-                    break
-
-                try:
-
-                    matches = await discover_matches(
-                        discovery_page,
-                        listing_url,
-                        max_matches,
-                        deadline=deadline
-                    )
-
-                    break
-
-                except Exception as error:
-
-                    print(
-                        f"[{bookmaker}] "
-                        f"erreur découverte (essai {attempt + 1}/2) : "
-                        f"{error}"
-                    )
-
-                    await discovery_page.wait_for_timeout(3000)
-
-        finally:
-            await discovery_page.close()
-
-    except Exception as error:
-
-        print(f"[{bookmaker}] ERREUR découverte : {error}")
-
-    print(
-        f"[{bookmaker}] "
-        f"{len(matches)} match(s) découvert(s)"
-    )
-
-    return matches
-
-
-async def scraper_matchs(
-    contexts,
-    bookmaker,
-    matches,
-    max_wait_cycles,
-    concurrency=MATCH_CONCURRENCY,
-    deadline=None
-):
-    """Étape 2 : ouvre les pages de match dans le contexte fourni. Un seul proxy est utilisé."""
-
-    semaphore = asyncio.Semaphore(concurrency)
-
-    nb = len(contexts)
-
-    async def scrape_one(match, context, echecs):
-        async with semaphore:
-            if depasse(deadline):
-                return None
-            match_page = await context.new_page()
             try:
-                return await scrape_match(
-                    match_page,
-                    bookmaker,
-                    match,
-                    max_wait_cycles,
-                    echecs=echecs,
-                    deadline=deadline
-                )
-            except Exception as error:
-                echecs.append(f"{match.get('url', '?')} — {error}")
-                return None
-            finally:
-                await match_page.close()
 
-    # Scraping avec le contexte unique.
-    echecs = []
+                index_file.unlink()
+                folder.rmdir()
 
-    scraped = list(await asyncio.gather(*(
-        scrape_one(match, contexts[i % nb], echecs)
-        for i, match in enumerate(matches)
-    )))
+            except Exception:
 
+                pass
 
-    result = [data for data in scraped if data]
-
-    # Toujours réécrire le fichier (même vide) pour ne pas laisser un
-    # diagnostic d'un ancien run laisser croire à un problème qui
-    # n'existe plus. Il ne contient que les matchs finalement ratés.
-    debug_path = ROOT / f"debug_echecs_{bookmaker}.txt"
-
-    debug_path.write_text(
-        ("\n".join(echecs) + "\n") if echecs else "",
+    MANIFEST_PATH.write_text(
+        json.dumps(
+            current_slugs,
+            ensure_ascii=False
+        ),
         encoding="utf-8"
     )
 
     print(
-        f"[{bookmaker}] "
-        f"{len(result)} matchs enregistrés "
-        f"(sur {len(matches)} découverts, contexte unique)"
+        f"{len(current_slugs)} fiches de match générées"
     )
 
-    return result
+    write_sitemap_and_robots(current_slugs)
 
 
-WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
-WIN1_MAX_TENTATIVES = 300
-
-WIN1_MOTIF_COTE = re.compile(r"\d.\d")
+SITE_URL = "https://zicote.site"
 
 
-async def extraire_cartes_1win(page):
+def write_sitemap_and_robots(slugs):
+    """Génère docs/sitemap.xml (page d'accueil + une entrée par fiche
+    de match) et docs/robots.txt, pour aider Google à découvrir et
+    indexer le site plus vite."""
 
-    return await page.evaluate(
-        """
-        () => {
-            const cartes = document.querySelectorAll('[data-qa="match-card"]');
-            const resultat = [];
-            cartes.forEach(carte => {
-                const teamsEl = carte.querySelector('[data-scope="TeamNames"]');
-                const oddsEl = carte.querySelector('[data-qa="matchCardBaseOdds"]');
-                resultat.push({
-                    teamsText: teamsEl ? teamsEl.innerText : "",
-                    oddsText: oddsEl ? oddsEl.innerText : ""
-                });
-            });
-            return resultat;
-        }
-        """
+    today = datetime.date.today().isoformat()
+
+    urls = [
+        f"    <url>\n"
+        f"        <loc>{SITE_URL}/</loc>\n"
+        f"        <lastmod>{today}</lastmod>\n"
+        f"        <changefreq>hourly</changefreq>\n"
+        f"        <priority>1.0</priority>\n"
+        f"    </url>"
+    ]
+
+    for slug in slugs:
+        urls.append(
+            f"    <url>\n"
+            f"        <loc>{SITE_URL}/{slug}/</loc>\n"
+            f"        <lastmod>{today}</lastmod>\n"
+            f"        <changefreq>hourly</changefreq>\n"
+            f"        <priority>0.8</priority>\n"
+            f"    </url>"
+        )
+
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(urls) +
+        "\n</urlset>\n"
+    )
+
+    Path("docs/sitemap.xml").write_text(
+        sitemap,
+        encoding="utf-8"
+    )
+
+    robots = (
+        "User-agent: *\n"
+        "Allow: /\n\n"
+        f"Sitemap: {SITE_URL}/sitemap.xml\n"
+    )
+
+    Path("docs/robots.txt").write_text(
+        robots,
+        encoding="utf-8"
+    )
+
+    print(
+        f"sitemap.xml généré ({len(slugs) + 1} URL) + robots.txt"
     )
 
 
-def parser_carte_1win(carte):
+# Ordre de traitement : les bookmakers aux cotes propres d'abord, puis les
+# cinq sites de la famille 1xBet (cotes identiques entre eux). Aucun site
+# n'est favorise : l'ordre sert seulement a former les groupes de matchs.
+BOOKMAKERS = [
+    "betpawa",
+    "1win",
+    "1xbet",
+    "betwinner",
+    "melbet",
+    "megapari",
+    "winwin",
+    "africa-bizbet",
+]
 
-    lignes_equipes = [
-        l.strip() for l in carte["teamsText"].split("\n") if l.strip()
-    ]
+# Sites qui affichent exactement les memes cotes : a egalite, ils passent
+# apres les bookmakers independants.
+FAMILLE_1XBET = {"betwinner", "melbet", "megapari", "winwin", "africa-bizbet"}
 
-    if len(lignes_equipes) < 2:
-        return None
 
-    equipe_1, equipe_2 = lignes_equipes[0], lignes_equipes[1]
+def choisir_meilleur(values, cle=""):
+    """Bookmaker de la meilleure cote. A egalite : un bookmaker independant
+    (BetPawa, 1win, 1xBet) l'emporte ; entre sites de la famille 1xBet, le
+    choix varie selon le marche (jamais toujours le meme)."""
+    top = max(values.values())
+    ex_aequo = [b for b, v in values.items() if v == top]
+    independants = [b for b in ex_aequo if b not in FAMILLE_1XBET]
+    candidats = independants or ex_aequo
+    return min(candidats, key=lambda b: zlib.crc32(f"{cle}|{b}".encode()))
 
-    lignes_cotes = [
-        l.strip() for l in carte["oddsText"].split("\n") if l.strip()
-    ]
 
-    resultat_1x2 = {}
+# ============================================================
+# CHARGEMENT
+# ============================================================
+
+def load_maj():
+    # Date du dernier scraping réussi par bookmaker (écrite par
+    # scraper.py) : sert à signaler les cotes plus anciennes.
 
     try:
 
-        i = next(
-            idx for idx, l in enumerate(lignes_cotes)
-            if "résultat du temps réglementaire" in l.lower()
+        return json.loads(
+            Path("maj_bookmakers.json").read_text(encoding="utf-8")
         )
 
-        pos = i + 1
-        cles_ordre = ["V1", "X", "V2"]
+    except Exception:
 
-        for cle in cles_ordre:
+        return {}
 
-            if pos + 1 >= len(lignes_cotes):
-                break
 
-            valeur = lignes_cotes[pos + 1].strip()
+def load_bookmaker(name):
 
-            resultat_1x2[cle] = valeur
-            pos += 2
+    file = Path(
+        f"{name}.json"
+    )
 
-    except StopIteration:
-        pass
+    if not file.exists():
 
-    if not resultat_1x2:
-        return None
+        return []
 
-    return {
+    try:
 
-        "bookmaker": "1win",
+        data = json.loads(
+            file.read_text(
+                encoding="utf-8"
+            )
+        )
 
-        "equipe_1": equipe_1,
+        return [
+            x for x in data
+            if x.get("statut") == "ok"
+        ]
 
-        "equipe_2": equipe_2,
+    except Exception:
 
-        "1X2": resultat_1x2,
+        return []
 
-        "Total_2.5": {
-            "Plus de": None,
-            "Moins de": None,
-        },
 
-        "url": WIN1_LISTING_URL,
+# ============================================================
+# COMPARAISON
+# ============================================================
 
-        "derniere_maj":
+def compare_market(
+    group,
+    market,
+    keys=None,
+    type_label=None
+):
+    # Si aucune liste de clés n'est fournie, on les découvre en
+    # regardant ce que chaque bookmaker a effectivement renvoyé
+    # pour ce marché (utile pour Handicap / Score exact, dont les
+    # libellés varient d'un match à l'autre).
+    if keys is None:
+
+        keys = []
+
+        for match in group.values():
+
+            for key in (match.get(market) or {}).keys():
+
+                if key not in keys:
+                    keys.append(key)
+
+    rows = []
+
+    for key in keys:
+
+        values = {}
+
+        for bookmaker, match in group.items():
+
+            try:
+
+                value = match.get(
+                    market,
+                    {}
+                ).get(
+                    key
+                )
+
+                if value is not None:
+
+                    values[
+                        bookmaker
+                    ] = float(
+                        str(value).replace(
+                            ",",
+                            "."
+                        )
+                    )
+
+            except Exception:
+
+                continue
+
+        if not values:
+
+            continue
+
+        best_bookmaker = choisir_meilleur(values, str(key))
+
+        rows.append({
+
+            "marche": key,
+
+            "type": type_label or market,
+
+            "valeurs": values,
+
+            "meilleur_site":
+                best_bookmaker,
+
+            "meilleure_cote":
+                values[
+                    best_bookmaker
+                ],
+        })
+
+    return rows
+
+
+def compare_totals_dynamic(group):
+    """Cas particulier de 'Totals' : structure à deux niveaux
+    ({"1.5": {"Plus de": .., "Moins de": ..}, "2": {...}, ...}).
+    On aplatit en une ligne par (ligne de total, sens)."""
+
+    lines = []
+
+    for match in group.values():
+
+        for line in (match.get("Totals") or {}).keys():
+
+            if line not in lines:
+                lines.append(line)
+
+    rows = []
+
+    for line in lines:
+
+        for sens in ("Plus de", "Moins de"):
+
+            values = {}
+
+            for bookmaker, match in group.items():
+
+                try:
+
+                    value = (
+                        match.get("Totals", {})
+                        .get(line, {})
+                        .get(sens)
+                    )
+
+                    if value is not None:
+
+                        values[bookmaker] = float(
+                            str(value).replace(",", ".")
+                        )
+
+                except Exception:
+
+                    continue
+
+            if not values:
+                continue
+
+            best_bookmaker = choisir_meilleur(values, f"{line}|{sens}")
+
+            rows.append({
+
+                "marche": f"{line}|{sens}",
+
+                "type": "Totals",
+
+                "valeurs": values,
+
+                "meilleur_site": best_bookmaker,
+
+                "meilleure_cote": values[best_bookmaker],
+            })
+
+    return rows
+
+
+# ============================================================
+# GENERATION
+# ============================================================
+
+def build():
+
+    # Défensif : si docs/ n'existe pas encore dans le dépôt (upload
+    # partiel, premier run après création du dépôt...), on le crée
+    # plutôt que de planter à la première écriture.
+    Path("docs").mkdir(parents=True, exist_ok=True)
+
+    data = {}
+
+    for bookmaker in BOOKMAKERS:
+
+        data[
+            bookmaker
+        ] = load_bookmaker(
+            bookmaker
+        )
+
+    groups, stats = regrouper(
+        data,
+        BOOKMAKERS
+    )
+
+    print(
+        f"regroupement : {stats['total']} matchs lus, "
+        f"{stats['faux_matchs']} faux matchs ignorés, "
+        f"{stats['retournes']} remis dans le bon sens, "
+        f"{stats['avec_heure']} avec heure de début"
+    )
+
+    output = []
+
+    for group in groups:
+
+        markets = []
+
+        markets.extend(
+            compare_market(
+                group,
+                "1X2",
+                ["V1", "X", "V2"],
+                "1X2"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Total_2.5",
+                ["Plus de", "Moins de"],
+                "Total_2.5"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Double_Chance",
+                ["1X", "12", "2X"],
+                "Double_Chance"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "BTTS",
+                ["Oui", "Non"],
+                "BTTS"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Handicap",
+                None,
+                "Handicap"
+            )
+        )
+
+        markets.extend(
+            compare_market(
+                group,
+                "Score_Exact",
+                None,
+                "Score_Exact"
+            )
+        )
+
+        markets.extend(
+            compare_totals_dynamic(group)
+        )
+
+        if not markets:
+
+            continue
+
+        output.append({
+
+            "equipe_1":
+                premier_de_groupe(group, "equipe_1") or "?",
+
+            "equipe_2":
+                premier_de_groupe(group, "equipe_2") or "?",
+
+            "competition":
+                premier_de_groupe(group, "competition"),
+
+            "debut":
+                premier_de_groupe(group, "debut"),
+
+            "bookmakers":
+                list(group.keys()),
+
+            "marches":
+                markets,
+        })
+
+    payload = {
+
+        "genere_le":
             datetime.datetime.now(
                 datetime.timezone.utc
             ).isoformat(),
 
-        "statut": "ok",
+        "bookmakers_maj": load_maj(),
+
+        "matchs": output,
     }
 
-
-async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
-
-    precedent = -1
-    sans_nouveau = 0
-
-    for tour in range(max_tours):
-        try:
-            cliques = await page.locator(
-                'button.ui-nav-link-toggle[aria-label="Maximize"]'
-                '[aria-expanded="false"]'
-            ).count()
-
-            if cliques:
-                for i in range(cliques):
-                    try:
-                        await page.locator(
-                            'button.ui-nav-link-toggle[aria-label="Maximize"]'
-                            '[aria-expanded="false"]'
-                        ).nth(i).click(
-                            timeout=3000,
-                            force=True
-                        )
-                    except Exception:
-                        pass
-
-                await page.wait_for_timeout(1800)
-
-            await page.mouse.wheel(0, 5000)
-            await page.keyboard.press("End")
-            await page.wait_for_timeout(1200)
-
-            nb_cartes = await page.locator(
-                '[data-qa="match-card"]'
-            ).count()
-
-            # Ne compter un tour comme "stagnant" que s'il ne reste
-            # PLUS aucune section repliée à ouvrir. Sans ce garde-fou,
-            # une section lente à charger (ex. une compétition tout
-            # en bas de la page comme la Championship anglaise) peut
-            # ne pas encore avoir affiché son bouton "Maximize" au
-            # moment du comptage : le nombre de cartes stagne 3 tours
-            # de suite par pur hasard de timing, la boucle s'arrête
-            # trop tôt, et cette section — donc ses matchs — n'est
-            # jamais chargée ce run-là. C'est cette course contre la
-            # montre, différente à chaque exécution (charge du
-            # runner, latence réseau), qui fait qu'un même match
-            # présent chez 1win apparaît sur le site un run et
-            # disparaît le suivant.
-            boutons_restants = await page.locator(
-                'button.ui-nav-link-toggle[aria-label="Maximize"]'
-                '[aria-expanded="false"]'
-            ).count()
-
-            if nb_cartes <= precedent and boutons_restants == 0:
-                sans_nouveau += 1
-            else:
-                sans_nouveau = 0
-                if nb_cartes > precedent:
-                    print(
-                        f"[1win] déploiement : {nb_cartes} carte(s)"
-                    )
-
-            precedent = nb_cartes
-
-            if sans_nouveau >= 3:
-                break
-
-        except Exception:
-            break
-
-    return precedent
-
-
-async def defiler_1win(page, ws_store, max_tours=40):
-    """
-    Defile la liste de 1win par petits pas. Le site charge les matchs
-    au fur et a mesure : un seul grand saut (ou une souris placee hors
-    de la liste) n'en declenche qu'une partie. On s'arrete quand ni les
-    cartes affichees ni les matchs recus par WebSocket n'augmentent.
-    """
-
-    await page.mouse.move(640, 600)
-
-    prec_cartes, prec_ws, stagnation = -1, -1, 0
-
-    for tour in range(max_tours):
-
-        try:
-
-            cartes = page.locator('[data-qa="match-card"]')
-            nb_cartes = await cartes.count()
-
-            if nb_cartes:
-                try:
-                    await cartes.last.scroll_into_view_if_needed(
-                        timeout=3000
-                    )
-                except Exception:
-                    pass
-
-            boutons = page.locator(
-                'button.ui-nav-link-toggle[aria-label="Maximize"]'
-                '[aria-expanded="false"]'
+    Path(
+        "docs/comparison.json"
+    ).write_text(
+        json.dumps(
+            payload,
+            ensure_ascii=False,
+            separators=(
+                ",",
+                ":"
             )
-
-            for _ in range(min(await boutons.count(), 10)):
-                try:
-                    await boutons.first.click(timeout=2000, force=True)
-                except Exception:
-                    break
-
-            await page.mouse.wheel(0, 1500)
-            await page.wait_for_timeout(1500)
-
-            nb_cartes = await page.locator(
-                '[data-qa="match-card"]'
-            ).count()
-            nb_ws = len(ws_store)
-
-            if nb_cartes <= prec_cartes and nb_ws <= prec_ws:
-                stagnation += 1
-            else:
-                stagnation = 0
-                print(
-                    f"[1win] défilement {tour + 1} : "
-                    f"{nb_cartes} carte(s), {nb_ws} match(s) WebSocket"
-                )
-
-            prec_cartes, prec_ws = nb_cartes, nb_ws
-
-            if stagnation >= 4:
-                break
-
-        except Exception as error:
-            print(f"[1win] défilement interrompu : {error}")
-            break
-
-    return prec_ws
-
-
-async def scrape_1win(playwright):
-
-    result = []
-
-    try:
-
-        browser = await playwright.chromium.launch(headless=True)
-
-        page = await browser.new_page(
-            viewport={"width": 1280, "height": 2400}
-        )
-
-        # Cotes completes via le WebSocket de 1win (1X2, Plus/Moins,
-        # double chance, BTTS, handicap) ; repli sur la lecture des cartes.
-        ws_store = {}
-        page.on("websocket", lambda ws: brancher_websocket(ws, ws_store))
-
-        await page.goto(
-            WIN1_LISTING_URL,
-            timeout=1200000,
-            wait_until="domcontentloaded"
-        )
-
-        await page.wait_for_timeout(5000)
-
-        await ouvrir_plus_de_matchs_1win(page, max_tours=30)
-
-        await defiler_1win(page, ws_store)
-
-        await page.wait_for_timeout(4000)
-        print(f"[1win] WebSocket : {len(ws_store)} match(s) avec cotes")
-        ws_result = construire_matchs(
-            ws_store, WIN1_LISTING_URL, MAX_MATCHES_PER_SITE
-        )
-
-        cartes = []
-
-        for tentative in range(WIN1_MAX_TENTATIVES):
-
-            if len(ws_result) >= 5:
-                break
-
-            cartes = await extraire_cartes_1win(page)
-
-            nb_avec_cotes = sum(
-                1 for c in cartes
-                if WIN1_MOTIF_COTE.search(c["oddsText"])
-            )
-
-            if (
-                len(cartes) > 0
-                and nb_avec_cotes >= len(cartes) * 0.5
-            ):
-
-                print(
-                    f"[1win] {len(cartes)} carte(s) détectée(s), "
-                    f"{nb_avec_cotes} avec cotes, "
-                    f"après {tentative * 2}s"
-                )
-
-                break
-
-            await page.wait_for_timeout(2000)
-
-        await browser.close()
-
-        if len(ws_result) >= 5:
-            result = ws_result
-        else:
-            if ws_store:
-                print("[1win] WebSocket insuffisant, repli sur les cartes")
-            for carte in cartes:
-
-                parsed = parser_carte_1win(carte)
-
-                if parsed:
-                    result.append(parsed)
-
-    except Exception as error:
-
-        print(f"[1win] ERREUR : {error}")
-
-    sauver_resultat("1win", result)
-
-    print(
-        f"[1win] "
-        f"{len(result)} matchs enregistrés"
-    )
-
-
-MAX_WAIT_CYCLES = 20
-
-
-async def route_handler(route):
-    if should_block(route):
-        await route.abort()
-    else:
-        await route.continue_()
-
-
-# Date du dernier scraping RÉUSSI de chaque bookmaker. Quand un
-# bookmaker échoue, on garde son ancien fichier de cotes (plutôt que
-# de l'écraser par une liste vide) : cette date permet au site
-# d'afficher que ces cotes sont plus anciennes.
-MAJ_PATH = ROOT / "maj_bookmakers.json"
-
-
-def lire_maj():
-
-    try:
-
-        return json.loads(MAJ_PATH.read_text(encoding="utf-8"))
-
-    except Exception:
-
-        return {}
-
-
-def ecrire_maj(maj):
-
-    MAJ_PATH.write_text(
-        json.dumps(maj, ensure_ascii=False, indent=2),
+        ),
         encoding="utf-8"
     )
 
-
-def sauver_resultat(bookmaker, result):
-    """Écrit <bookmaker>.json seulement s'il y a des données. Sinon
-    conserve le fichier du dernier run réussi."""
-
-    output = ROOT / f"{bookmaker}.json"
-
-    if not result:
-
-        if output.exists():
-            print(
-                f"[{bookmaker}] aucune donnée ce run : "
-                f"cotes du dernier run réussi conservées"
-            )
-        else:
-            output.write_text("[]", encoding="utf-8")
-
-        return
-
-    output.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
-
-    maj = lire_maj()
-
-    maj[bookmaker] = datetime.datetime.now(
-        datetime.timezone.utc
-    ).isoformat()
-
-    ecrire_maj(maj)
-
-
-# Budgets de temps pour limiter la durée de chaque bookmaker.
-BUDGET_DECOUVERTE = int(os.getenv("BUDGET_DECOUVERTE", "240"))
-BUDGET_SITE = int(os.getenv("BUDGET_SITE", "1200"))
-
-
-async def run_bookmakers(browser):
-    """Scrape les bookmakers avec un seul proxy Webshare partagé."""
-    sites = [b for b in BOOKMAKERS_LIST if b not in ("1win", "betpawa")]
-    proxy = webshare_proxy()
-
-    # Bookmakers de la plateforme 1xBet : lecture directe de l'API (rapide).
-    # Si l'API echoue, on retombe sur le scraping Chromium habituel.
-    proxy_url = None
-    if proxy:
-        auth = ""
-        if proxy.get("username"):
-            auth = f"{proxy['username']}:{proxy.get('password', '')}@"
-        proxy_url = proxy["server"].replace("http://", f"http://{auth}", 1)
-    for bookmaker in list(sites):
-        if bookmaker not in ONEX_DOMAINS or os.getenv("ONEX_NO_API"):
-            continue
-        try:
-            api_result = await scrape_onex(bookmaker, proxy_url)
-        except Exception as error:
-            print(f"[{bookmaker}] API indisponible ({error}), repli sur Chromium")
-            continue
-        if api_result:
-            sauver_resultat(bookmaker, api_result)
-            sites.remove(bookmaker)
-        else:
-            print(f"[{bookmaker}] API sans donnees, repli sur Chromium")
-
-    for bookmaker in sites:
-        config = BOOKMAKERS[bookmaker]
-        loop = asyncio.get_event_loop()
-        fin_site = loop.time() + BUDGET_SITE
-        context = None
-        best = []
-        try:
-            context = await browser.new_context(
-                viewport={"width": 390, "height": 844},
-                java_script_enabled=True,
-                service_workers="block",
-                locale="fr-FR",
-                **({"proxy": proxy} if proxy else {})
-            )
-            await context.route("**/*", route_handler)
-            print(f"[{bookmaker}] contexte créé (proxy Webshare: {'actif' if proxy else 'désactivé'})")
-
-            matches = await decouvrir_bookmaker(
-                context,
-                bookmaker,
-                config,
-                MAX_MATCHES_PER_SITE,
-                deadline=min(fin_site, loop.time() + BUDGET_DECOUVERTE)
-            )
-            if matches:
-                best = await scraper_matchs(
-                    [context], bookmaker, matches, MAX_WAIT_CYCLES,
-                    deadline=fin_site
-                )
-        except Exception as error:
-            print(f"[{bookmaker}] erreur : {error}")
-        finally:
-            if context:
-                try:
-                    await context.close()
-                except Exception:
-                    pass
-        sauver_resultat(bookmaker, best)
-
-
-async def run_betpawa(browser):
-    """BetPawa : lecture de l'API (voir betpawa.py)."""
-    result = []
-    try:
-        result = await scrape_betpawa(browser, webshare_proxy())
-    except Exception as error:
-        print(f"[betpawa] erreur : {error}")
-    sauver_resultat("betpawa", result)
-
-
-def diagnostic_1xbet_vs_betwinner(max_lignes=8):
-    """
-    Compare les cotes 1xBet (Chromium) et BetWinner (API) sur les matchs
-    communs de CE run, pour savoir si 1xBet peut passer en API.
-    """
-    try:
-        a = json.loads((ROOT / "1xbet.json").read_text(encoding="utf-8"))
-        b = json.loads((ROOT / "betwinner.json").read_text(encoding="utf-8"))
-    except Exception as error:
-        print(f"[diag] lecture impossible : {error}")
-        return
-
-    bw = {(m["equipe_1"], m["equipe_2"]): m.get("1X2", {}) for m in b}
-    communs = identiques = plus_hauts = 0
-
-    for m in a:
-        cle = (m["equipe_1"], m["equipe_2"])
-        if cle not in bw or len(bw[cle]) != 3:
-            continue
-        x = m.get("1X2", {})
-        try:
-            ecarts = [
-                float(x[k]) / float(bw[cle][k]) - 1 for k in ("V1", "X", "V2")
-            ]
-        except Exception:
-            continue
-        communs += 1
-        if all(abs(e) < 0.001 for e in ecarts):
-            identiques += 1
-        elif all(e > 0.001 for e in ecarts):
-            plus_hauts += 1
-        if communs <= max_lignes:
-            print(
-                f"[diag] {cle[0]} - {cle[1]} : 1xbet {x} | "
-                f"betwinner {bw[cle]}"
-            )
-
     print(
-        f"[diag] 1xbet vs betwinner : {communs} match(s) communs, "
-        f"{identiques} identiques, {plus_hauts} avec 1xbet plus haut partout"
+        f"{len(output)} matchs comparés"
     )
 
-
-async def main():
-
-    async with async_playwright() as playwright:
-
-        browser = await playwright.chromium.launch(headless=True)
-
-        await asyncio.gather(
-            run_bookmakers(browser),
-            scrape_1win(playwright),
-            run_betpawa(browser),
-        )
-
-        await browser.close()
-
-    # Le fichier doit toujours exister (le workflow le versionne).
-    ecrire_maj(lire_maj())
-
-    diagnostic_1xbet_vs_betwinner()
+    generate_match_pages(output)
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
 
+    build()
 
 
 
