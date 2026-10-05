@@ -28,7 +28,7 @@ def webshare_proxy():
 # ============================================================
 
 MAX_MATCHES_PER_SITE = int(
-    os.getenv("MAX_MATCHES_PER_SITE", "25")
+    os.getenv("MAX_MATCHES_PER_SITE", "50")
 )
 
 

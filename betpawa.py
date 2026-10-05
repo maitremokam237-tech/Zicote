@@ -29,9 +29,11 @@ MOBILE_UA = (
 MARKET_1X2 = "3743"
 MARKET_TOTAL = "5000"
 
+from championnats import priorite
+
 PAGE_SIZE = 100
 MAX_PAGES = int(os.getenv("BETPAWA_MAX_PAGES", "6"))
-MAX_MATCHES = int(os.getenv("BETPAWA_MAX_MATCHES", "120"))
+MAX_MATCHES = int(os.getenv("BETPAWA_MAX_MATCHES", "80"))
 
 # Compétitions de l'URL d'origine (championnats suivis en priorité).
 WANTED_COMPETITIONS = {"12039", "11965", "12110", "12667", "12541"}
@@ -182,10 +184,10 @@ def parse_totals(event):
 
 def _priority(event):
     comp = event.get("competition") or {}
-    name = str(comp.get("name", "")).lower()
     if str(comp.get("id")) in WANTED_COMPETITIONS:
         return 0
-    if any(k in name for k in PRIORITY_KEYWORDS):
+    # Liste partagee avec les autres bookmakers (championnats.py).
+    if priorite(comp.get("name", "")) == 0:
         return 1
     return 2
 
@@ -313,6 +315,4 @@ async def scrape_betpawa(browser, proxy=None):
                 await context.close()
             except Exception:
                 pass
-
-
 
