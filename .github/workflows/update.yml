@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */3 * * *"
 
 permissions:
   contents: write
@@ -41,6 +41,10 @@ jobs:
           WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
           WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
           BUDGET_DECOUVERTE: "480"
+          ONEX_COUNT: "300"
+          ONEX_MAX_MATCHES: "120"
+          MAX_MATCHES_PER_SITE: "50"
+          BETPAWA_MAX_MATCHES: "80"
         run: |
           python scraper.py
 
