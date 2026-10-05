@@ -11,7 +11,7 @@ import asyncio
 from playwright.async_api import async_playwright
 
 from betpawa import scrape_betpawa
-from onex_api import DOMAINS as ONEX_DOMAINS, scrape_onex
+from onex_api import DOMAINS as ONEX_DOMAINS, enrichir_1xbet, scrape_onex
 from win_ws import brancher_websocket, construire_matchs
 
 from config import (
@@ -20,10 +20,6 @@ from config import (
     MAX_MATCHES_PER_SITE,
     webshare_proxy,
 )
-
-# Plus de matchs par site => plus de matchs communs entre bookmakers.
-# (la valeur de config.py est relevee a 60 au minimum)
-MAX_MATCHES_PER_SITE = max(MAX_MATCHES_PER_SITE, int(os.getenv("MAX_MATCHES_MIN", "60")))
 
 
 # ============================================================
@@ -251,19 +247,7 @@ async def count_match_links(page):
 # — résultat : plus aucun recoupement possible entre 1win et les
 # autres books ce jour-là. Bilingue (FR/EN) car chaque book a sa
 # propre locale d'URL.
-PRIORITY_COMPETITION_KEYWORDS = (
-    "champions league",
-    "ligue des champions",
-    "europa league",
-    "ligue europa",
-    "conference league",
-    "premier league",
-    "la liga", "laliga", "liga espagnole",
-    "ligue 1",
-    "serie a",
-    "bundesliga",
-    "league cup", "coupe de la ligue",
-)
+from championnats import PRIORITY_KEYWORDS as PRIORITY_COMPETITION_KEYWORDS
 
 
 async def find_competition_links(page, base_url):
@@ -1238,7 +1222,6 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
 
             if nb_cartes <= precedent and boutons_restants == 0:
                 sans_nouveau += 1
-                await page.wait_for_timeout(1500)
             else:
                 sans_nouveau = 0
                 if nb_cartes > precedent:
@@ -1248,7 +1231,7 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
 
             precedent = nb_cartes
 
-            if sans_nouveau >= 6:
+            if sans_nouveau >= 3:
                 break
 
         except Exception:
@@ -1257,7 +1240,7 @@ async def ouvrir_plus_de_matchs_1win(page, max_tours=20):
     return precedent
 
 
-async def defiler_1win(page, ws_store, max_tours=80):
+async def defiler_1win(page, ws_store, max_tours=40):
     """
     Defile la liste de 1win par petits pas. Le site charge les matchs
     au fur et a mesure : un seul grand saut (ou une souris placee hors
@@ -1296,7 +1279,43 @@ async def defiler_1win(page, ws_store, max_tours=80):
                     break
 
             await page.mouse.wheel(0, 1500)
-            await page.wait_for_timeout(1500)
+
+            # La liste de 1win est dans un conteneur qui defile
+            # separement de la page : on fait defiler le parent
+            # "scrollable" de la derniere carte, et on clique sur un
+            # eventuel bouton "Voir plus / Show more".
+            try:
+                info = await page.evaluate(
+                    """
+                    () => {
+                        const cartes = document.querySelectorAll('[data-qa="match-card"]');
+                        let n = cartes.length ? cartes[cartes.length - 1] : null;
+                        let trouve = false;
+                        while (n && n !== document.body) {
+                            const st = getComputedStyle(n);
+                            if (/(auto|scroll)/.test(st.overflowY)
+                                && n.scrollHeight > n.clientHeight + 20) {
+                                n.scrollTop = n.scrollHeight;
+                                trouve = true;
+                                break;
+                            }
+                            n = n.parentElement;
+                        }
+                        window.scrollTo(0, document.body.scrollHeight);
+                        const plus = Array.from(document.querySelectorAll('button, a'))
+                            .find(b => /^(voir plus|afficher plus|show more|load more|plus de matchs)/i
+                                .test((b.innerText || '').trim()));
+                        if (plus) plus.click();
+                        return {conteneur: trouve, bouton_plus: !!plus};
+                    }
+                    """
+                )
+                if tour == 0:
+                    print(f"[1win] diagnostic défilement : {info}")
+            except Exception:
+                pass
+
+            await page.wait_for_timeout(2500)
 
             nb_cartes = await page.locator(
                 '[data-qa="match-card"]'
@@ -1314,7 +1333,7 @@ async def defiler_1win(page, ws_store, max_tours=80):
 
             prec_cartes, prec_ws = nb_cartes, nb_ws
 
-            if stagnation >= 8:
+            if stagnation >= 6:
                 break
 
         except Exception as error:
@@ -1349,11 +1368,39 @@ async def scrape_1win(playwright):
 
         await page.wait_for_timeout(5000)
 
-        await ouvrir_plus_de_matchs_1win(page, max_tours=60)
+        await ouvrir_plus_de_matchs_1win(page, max_tours=30)
 
         await defiler_1win(page, ws_store)
 
         await page.wait_for_timeout(4000)
+
+        # Diagnostic : montre ce que contient une carte (heure ? championnat ?)
+        # et les en-tetes de sections / liens de championnats, pour pouvoir
+        # ensuite lire l'heure et charger plus de championnats.
+        try:
+            diag = await page.evaluate(
+                """
+                () => {
+                    const c = document.querySelectorAll('[data-qa="match-card"]');
+                    const cartes = Array.from(c).slice(0, 3).map(x => {
+                        let h = x.parentElement, titre = "";
+                        for (let i = 0; i < 6 && h; i++, h = h.parentElement) {
+                            const e = h.querySelector('h2, h3, [class*="title"], [class*="header"]');
+                            if (e && !x.contains(e)) { titre = e.innerText.slice(0, 80); break; }
+                        }
+                        return {texte: x.innerText.replace(/\\n+/g, ' | ').slice(0, 160), section: titre};
+                    });
+                    const liens = Array.from(document.querySelectorAll('a[href*="football"]'))
+                        .map(a => a.getAttribute('href')).slice(0, 15);
+                    return {cartes, liens, nb_sections_repliees: document.querySelectorAll(
+                        'button.ui-nav-link-toggle[aria-expanded="false"]').length};
+                }
+                """
+            )
+            print(f"[1win] diagnostic cartes : {diag}")
+        except Exception as error:
+            print(f"[1win] diagnostic impossible : {error}")
+
         print(f"[1win] WebSocket : {len(ws_store)} match(s) avec cotes")
         ws_result = construire_matchs(
             ws_store, WIN1_LISTING_URL, MAX_MATCHES_PER_SITE
@@ -1551,6 +1598,11 @@ async def run_bookmakers(browser):
                     await context.close()
                 except Exception:
                     pass
+        if bookmaker == "1xbet" and best:
+            try:
+                best = await enrichir_1xbet(best, proxy_url)
+            except Exception as error:
+                print(f"[1xbet] enrichissement ignore : {error}")
         sauver_resultat(bookmaker, best)
 
 
@@ -1629,569 +1681,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
