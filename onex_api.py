@@ -17,6 +17,8 @@ import sys
 
 import requests
 
+from championnats import priorite
+
 DOMAINS = {
     "betwinner": "https://betwinner.cm",
     "melbet": "https://melbet-cm.com",
@@ -31,24 +33,9 @@ DOMAINS = {
 DIAG = {"1xbet": "https://1xbet.cm"}
 ALL_DOMAINS = {**DOMAINS, **DIAG}
 ENDPOINT = "/service-api/LineFeed/Get1x2_VZip"
+# Nombre d'evenements demandes a l'API, puis nombre de matchs gardes par bookmaker.
 COUNT = int(os.getenv("ONEX_COUNT", "300"))
-COUNT_REPLI = 100  # valeur utilisee si l'API refuse la grosse demande
-
-# Championnats gardes en priorite (les memes que BetPawa), pour que les
-# bookmakers listent les memes matchs meme quand le lot est tronque.
-PRIORITY_KEYWORDS = (
-    "champions league", "ligue des champions", "europa league",
-    "ligue europa", "conference league", "premier league", "la liga",
-    "laliga", "liga espagnole", "ligue 1", "serie a", "bundesliga",
-    "league cup", "coupe de la ligue",
-)
-
-
-def _priority(match):
-    noms = " ".join(
-        str(match.get(k, "")) for k in ("competition_en", "competition")
-    ).lower()
-    return 0 if any(k in noms for k in PRIORITY_KEYWORDS) else 1
+MAX_GARDES = int(os.getenv("ONEX_MAX_MATCHES", "150"))
 UA = ("Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36")
 
@@ -160,39 +147,130 @@ def build_matches(bookmaker, events, base, limit):
             match["Totals"] = totals
         if handicap:
             match["Handicap"] = handicap
-        out.append(((_priority(match), ev.get("S") or 0), match))
-    # championnats prioritaires d'abord, puis par date de debut
+        # Championnats prioritaires d'abord (les memes chez tous les bookmakers,
+        # pour qu'ils se recoupent), puis par date de debut.
+        out.append(((priorite(ev.get("LE"), ev.get("L")), ev.get("S") or 0), match))
     out.sort(key=lambda x: x[0])
-    return [m for _, m in out[:limit]]
+    return [m for _, m in out[:min(limit, MAX_GARDES)]]
 
 
-def _get_events(bookmaker, base, proxy, count):
+def _get(base, endpoint, params, proxy, nom):
+    proxies = {"http": proxy, "https": proxy} if proxy else None
+    r = requests.get(base + endpoint, params=params, proxies=proxies, timeout=40,
+                     headers={"User-Agent": UA, "Accept": "application/json",
+                              "Referer": base + "/fr/line/football"})
+    if r.status_code != 200:
+        print(f"[{nom}] API {endpoint.rsplit('/', 1)[-1]} statut {r.status_code}")
+        return None
+    return r.json().get("Value") or []
+
+
+def _params(count, **extra):
     params = {"sports": 1, "count": count, "lng": "fr", "mode": 4, "getEmpty": "true"}
     for pair in filter(None, os.getenv("ONEX_EXTRA", "").split("&")):  # ex: ONEX_EXTRA="partner=51"
         k, _, v = pair.partition("=")
         params[k] = v
-    proxies = {"http": proxy, "https": proxy} if proxy else None
-    r = requests.get(base + ENDPOINT, params=params, proxies=proxies, timeout=60,
-                     headers={"User-Agent": UA, "Accept": "application/json",
-                              "Referer": base + "/fr/line/football"})
-    print(f"[{bookmaker}] API statut {r.status_code} (count={count})")
-    if r.status_code != 200:
+    params.update(extra)
+    return params
+
+
+def lister_championnats(base, proxy, nom):
+    """Liste des championnats de football (id LI, noms L / LE). [] si indisponible."""
+    try:
+        valeur = _get(base, "/service-api/LineFeed/GetChampsZip",
+                      {"sport": 1, "lng": "en", "mode": 4}, proxy, nom)
+    except Exception as e:
+        print(f"[{nom}] liste des championnats impossible : {type(e).__name__}")
         return []
-    return r.json().get("Value") or []
+    champs = []
+    for c in valeur or []:
+        # Certains flux regroupent les championnats par pays dans "SC".
+        for sous in (c.get("SC") or [c]):
+            if sous.get("LI") is not None:
+                champs.append({"LI": sous["LI"], "L": sous.get("L"), "LE": sous.get("LE") or sous.get("L")})
+    return champs
 
 
 def fetch_events(bookmaker, proxy=None, count=COUNT):
     base = ALL_DOMAINS[bookmaker]
-    events = []
+    evenements = _get(base, ENDPOINT, _params(count), proxy, bookmaker)
+    print(f"[{bookmaker}] API statut {'200' if evenements is not None else 'KO'} (count={count})")
+    if evenements is None:
+        return base, []
+    vus = {e.get("I") for e in evenements if e.get("I") is not None}
+
+    # L'API plafonne a ~50 evenements par appel : on va chercher, championnat
+    # par championnat, ceux de la liste prioritaire commune (championnats.py).
     try:
-        events = _get_events(bookmaker, base, proxy, count)
+        champs = [c for c in lister_championnats(base, proxy, bookmaker)
+                  if priorite(c["LE"], c["L"]) == 0]
+        deja = {e.get("LI") for e in evenements}
+        ids = [str(c["LI"]) for c in champs if c["LI"] not in deja]
+        print(f"[{bookmaker}] {len(champs)} championnats prioritaires, {len(ids)} a charger en plus")
+        for i in range(0, len(ids), 8):
+            lot = _get(base, ENDPOINT, _params(100, champs=",".join(ids[i:i + 8])), proxy, bookmaker)
+            for e in lot or []:
+                if e.get("I") not in vus:
+                    vus.add(e.get("I"))
+                    evenements.append(e)
     except Exception as e:
-        print(f"[{bookmaker}] erreur count={count}: {type(e).__name__}: {str(e)[:80]}")
-    # Si l'API refuse ou ne renvoie rien pour un gros lot, on retente en petit.
-    if not events and count > COUNT_REPLI:
-        events = _get_events(bookmaker, base, proxy, COUNT_REPLI)
-    print(f"[{bookmaker}] {len(events)} evenements recus")
-    return base, events
+        print(f"[{bookmaker}] pagination par championnat ignoree : {type(e).__name__}: {e}")
+    return base, evenements
+
+
+def index_evenements(events):
+    """{id evenement 1xBet: infos d'identification} pour corriger des noms."""
+    out = {}
+    for ev in events:
+        if ev.get("I") is None or not ev.get("O1") or not ev.get("O2"):
+            continue
+        out[str(ev["I"])] = {
+            "equipe_1": str(ev["O1"]).strip(), "equipe_2": str(ev["O2"]).strip(),
+            "equipe_1_en": str(ev["O1E"]).strip() if ev.get("O1E") else None,
+            "equipe_2_en": str(ev["O2E"]).strip() if ev.get("O2E") else None,
+            "debut": _iso_utc(ev.get("S")),
+            "competition": str(ev["L"]).strip() if ev.get("L") else None,
+            "competition_en": str(ev["LE"]).strip() if ev.get("LE") else None,
+            "competition_id": ev.get("LI"),
+        }
+    return out
+
+
+def enrichir_1xbet_sync(matches, proxy=None):
+    """Garde les cotes Chromium de 1xBet (marge propre) mais corrige noms,
+    heure et championnat via l'API, en reliant par l'id d'evenement de l'URL."""
+    import re
+    base = DIAG["1xbet"]
+    try:
+        evenements = _get(base, ENDPOINT, _params(300), proxy, "1xbet") or []
+        try:
+            champs = [c for c in lister_championnats(base, proxy, "1xbet") if priorite(c["LE"], c["L"]) == 0]
+            ids = [str(c["LI"]) for c in champs]
+            for i in range(0, len(ids), 8):
+                evenements += _get(base, ENDPOINT, _params(100, champs=",".join(ids[i:i + 8])), proxy, "1xbet") or []
+        except Exception:
+            pass
+        idx = index_evenements(evenements)
+    except Exception as e:
+        print(f"[1xbet] enrichissement API impossible : {type(e).__name__}: {e}")
+        return matches
+    corriges = 0
+    for m in matches:
+        r = re.search(r"/(\d+)-[^/]*/?$", (m.get("url") or "").split("?")[0])
+        info = idx.get(r.group(1)) if r else None
+        if not info:
+            continue
+        corriges += 1
+        for k, v in info.items():
+            if v is not None:
+                m[k] = v
+    print(f"[1xbet] {corriges}/{len(matches)} matchs corriges via l'API "
+          f"({len(idx)} evenements connus)")
+    return matches
+
+
+async def enrichir_1xbet(matches, proxy=None):
+    return await asyncio.to_thread(enrichir_1xbet_sync, matches, proxy)
 
 
 def scrape_onex_sync(bookmaker, proxy=None, limit=COUNT):
@@ -249,4 +327,3 @@ if __name__ == "__main__":
     if res:
         import json
         print(json.dumps(res[0], ensure_ascii=False, indent=2)[:1800])
-
