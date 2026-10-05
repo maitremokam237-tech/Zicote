@@ -174,6 +174,16 @@ def _params(count, **extra):
     return params
 
 
+# Identifiants (LI) des grands championnats sur la plateforme 1xBet. Sert quand
+# la liste des championnats est refusee par l'API (statut 406). Modifiable via
+# ONEX_CHAMPS="id1,id2,..." sans toucher au code.
+CHAMPS_CONNUS = [
+    ("118587", "Champions League"), ("118593", "Europa League"),
+    ("88637", "Premier League"), ("127733", "La Liga"), ("12821", "Ligue 1"),
+    ("110163", "Serie A"), ("96463", "Bundesliga"),
+]
+
+
 def lister_championnats(base, proxy, nom):
     """Liste des championnats de football (id LI, noms L / LE). [] si indisponible."""
     try:
@@ -183,6 +193,11 @@ def lister_championnats(base, proxy, nom):
         print(f"[{nom}] liste des championnats impossible : {type(e).__name__}")
         return []
     champs = []
+    if not valeur:
+        env = [x.strip() for x in os.getenv("ONEX_CHAMPS", "").split(",") if x.strip()]
+        connus = [(i, "?") for i in env] if env else CHAMPS_CONNUS
+        print(f"[{nom}] liste indisponible : utilisation de {len(connus)} championnats connus")
+        return [{"LI": int(i), "L": n, "LE": "Champions League"} for i, n in connus]
     for c in valeur or []:
         # Certains flux regroupent les championnats par pays dans "SC".
         for sous in (c.get("SC") or [c]):
@@ -209,10 +224,14 @@ def fetch_events(bookmaker, proxy=None, count=COUNT):
         print(f"[{bookmaker}] {len(champs)} championnats prioritaires, {len(ids)} a charger en plus")
         for i in range(0, len(ids), 8):
             lot = _get(base, ENDPOINT, _params(100, champs=",".join(ids[i:i + 8])), proxy, bookmaker)
+            nouveaux = 0
             for e in lot or []:
                 if e.get("I") not in vus:
                     vus.add(e.get("I"))
                     evenements.append(e)
+                    nouveaux += 1
+            print(f"[{bookmaker}] lot {i // 8 + 1} : {len(lot or [])} recus, {nouveaux} nouveaux, "
+                  f"championnats: {sorted({str(e.get('LE')) for e in (lot or [])})[:6]}")
     except Exception as e:
         print(f"[{bookmaker}] pagination par championnat ignoree : {type(e).__name__}: {e}")
     return base, evenements
@@ -264,6 +283,9 @@ def enrichir_1xbet_sync(matches, proxy=None):
         for k, v in info.items():
             if v is not None:
                 m[k] = v
+    if not corriges:
+        ex = [m.get("url", "")[-50:] for m in matches[:2]]
+        print(f"[1xbet] diagnostic : urls {ex} ; ids API {list(idx)[:3]}")
     print(f"[1xbet] {corriges}/{len(matches)} matchs corriges via l'API "
           f"({len(idx)} evenements connus)")
     return matches

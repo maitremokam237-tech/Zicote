@@ -7,12 +7,14 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import asyncio
+import datetime
 
 from playwright.async_api import async_playwright
 
 from betpawa import scrape_betpawa
 from onex_api import DOMAINS as ONEX_DOMAINS, enrichir_1xbet, scrape_onex
-from win_ws import brancher_websocket, construire_matchs
+from win_api import sonder as sonder_api_1win
+from win_ws import brancher_websocket, collecter_reponse_api, construire_matchs
 
 from config import (
     BOOKMAKERS,
@@ -1072,6 +1074,17 @@ async def scraper_matchs(
 
 
 WIN1_LISTING_URL = "https://1win.com/fr-CI/betting/prematch/football-18?p=mvh5"
+# Pages de championnats 1win parcourues en plus de la liste generale
+# (modifiable via WIN1_URLS, separees par des virgules).
+WIN1_URLS_CHAMPIONNATS = [
+    "https://1win.com/fr-CI/betting/prematch/football-18/uefa-champions-league-39437?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/uefa-nations-league-39440?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/premier-league-919?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/laliga-1232?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/league-1-1128?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/bundesliga-1130?p=mvh5",
+    "https://1win.com/fr-CI/betting/prematch/football-18/serie-a-1000?p=mvh5",
+]
 WIN1_MAX_TENTATIVES = 300
 
 WIN1_MOTIF_COTE = re.compile(r"\d.\d")
@@ -1087,9 +1100,16 @@ async def extraire_cartes_1win(page):
             cartes.forEach(carte => {
                 const teamsEl = carte.querySelector('[data-scope="TeamNames"]');
                 const oddsEl = carte.querySelector('[data-qa="matchCardBaseOdds"]');
+                let h = carte.parentElement, section = "";
+                for (let i = 0; i < 6 && h; i++, h = h.parentElement) {
+                    const e = h.querySelector('h2, h3, [class*="title"], [class*="header"]');
+                    if (e && !carte.contains(e)) { section = e.innerText.split("\\n")[0].slice(0, 80); break; }
+                }
                 resultat.push({
                     teamsText: teamsEl ? teamsEl.innerText : "",
-                    oddsText: oddsEl ? oddsEl.innerText : ""
+                    oddsText: oddsEl ? oddsEl.innerText : "",
+                    fullText: carte.innerText || "",
+                    section: section
                 });
             });
             return resultat;
@@ -1343,16 +1363,62 @@ async def defiler_1win(page, ws_store, max_tours=40):
     return prec_ws
 
 
+def enrichir_depuis_cartes_1win(matchs, cartes):
+    """Ajoute 'debut' (UTC) et 'competition' aux matchs 1win en reliant
+    chaque match a sa carte par les noms d'equipes."""
+    from appariement import normalize
+
+    par_noms = {}
+    for c in cartes:
+        lignes = [l.strip() for l in c.get("teamsText", "").split("\n") if l.strip()]
+        if len(lignes) >= 2:
+            par_noms[(normalize(lignes[0]), normalize(lignes[1]))] = c
+    ok = 0
+    for m in matchs:
+        c = par_noms.get((normalize(m["equipe_1"]), normalize(m["equipe_2"])))
+        if not c:
+            continue
+        t = re.search(r"(\d{1,2}):(\d{2})", c.get("fullText", ""))
+        d = re.search(r"(\d{2})/(\d{2})/(\d{4})", c.get("fullText", ""))
+        if t and d and "debut" not in m:
+            try:
+                m["debut"] = datetime.datetime(
+                    int(d.group(3)), int(d.group(2)), int(d.group(1)),
+                    int(t.group(1)), int(t.group(2)),
+                    tzinfo=datetime.timezone.utc
+                ).isoformat()
+            except ValueError:
+                pass
+        if c.get("section") and "competition" not in m:
+            m["competition"] = c["section"].strip()
+        ok += 1
+    print(f"[1win] heure/championnat ajoutes a {ok}/{len(matchs)} matchs "
+          f"(avec heure: {sum('debut' in m for m in matchs)})")
+
+
 async def scrape_1win(playwright):
 
     result = []
+
+    # Diagnostic de l'API directe de 1win (n'influence pas les resultats).
+    try:
+        proxy = webshare_proxy()
+        purl = None
+        if proxy:
+            auth = f"{proxy['username']}:{proxy.get('password', '')}@" if proxy.get("username") else ""
+            purl = proxy["server"].replace("http://", f"http://{auth}", 1)
+        await asyncio.to_thread(sonder_api_1win, purl)
+    except Exception as error:
+        print(f"[1win-api] sonde ignoree : {error}")
 
     try:
 
         browser = await playwright.chromium.launch(headless=True)
 
+        # Fuseau UTC : les heures affichees sur les cartes sont alors en UTC.
         page = await browser.new_page(
-            viewport={"width": 1280, "height": 2400}
+            viewport={"width": 1280, "height": 2400},
+            timezone_id="UTC"
         )
 
         # Cotes completes via le WebSocket de 1win (1X2, Plus/Moins,
@@ -1360,19 +1426,51 @@ async def scrape_1win(playwright):
         ws_store = {}
         page.on("websocket", lambda ws: brancher_websocket(ws, ws_store))
 
-        await page.goto(
-            WIN1_LISTING_URL,
-            timeout=1200000,
-            wait_until="domcontentloaded"
+        # La page appelle l'API liste des matchs de 1win (api-gateway.top-parser.com) :
+        # on en garde l'heure exacte et le championnat de chaque match.
+        meta_api = {}
+
+        async def _lire_reponse(reponse):
+            try:
+                if "top-parser" not in reponse.url:
+                    return
+                collecter_reponse_api(await reponse.json(), meta_api)
+            except Exception:
+                pass
+
+        page.on(
+            "response",
+            lambda reponse: asyncio.ensure_future(_lire_reponse(reponse))
         )
 
-        await page.wait_for_timeout(5000)
+        urls = [WIN1_LISTING_URL] + (
+            [u.strip() for u in os.getenv("WIN1_URLS", "").split(",") if u.strip()]
+            or WIN1_URLS_CHAMPIONNATS
+        )
+        toutes_cartes = []
 
-        await ouvrir_plus_de_matchs_1win(page, max_tours=30)
+        for numero, page_url in enumerate(urls):
+            try:
+                await page.goto(
+                    page_url,
+                    timeout=300000 if numero else 1200000,
+                    wait_until="domcontentloaded"
+                )
+                await page.wait_for_timeout(5000)
+                avant = len(ws_store)
+                await ouvrir_plus_de_matchs_1win(page, max_tours=30)
+                await defiler_1win(page, ws_store)
+                await page.wait_for_timeout(2500)
+                toutes_cartes += await extraire_cartes_1win(page)
+                print(
+                    f"[1win] page {numero + 1}/{len(urls)} "
+                    f"({page_url.split('/')[-1][:40]}) : "
+                    f"+{len(ws_store) - avant} match(s), total {len(ws_store)}"
+                )
+            except Exception as error:
+                print(f"[1win] page {numero + 1} ignoree : {error}")
 
-        await defiler_1win(page, ws_store)
-
-        await page.wait_for_timeout(4000)
+        await page.wait_for_timeout(2000)
 
         # Diagnostic : montre ce que contient une carte (heure ? championnat ?)
         # et les en-tetes de sections / liens de championnats, pour pouvoir
@@ -1402,9 +1500,17 @@ async def scrape_1win(playwright):
             print(f"[1win] diagnostic impossible : {error}")
 
         print(f"[1win] WebSocket : {len(ws_store)} match(s) avec cotes")
+        print(f"[1win] API liste des matchs : {len(meta_api)} match(s) avec heure/championnat")
         ws_result = construire_matchs(
-            ws_store, WIN1_LISTING_URL, MAX_MATCHES_PER_SITE
+            ws_store, WIN1_LISTING_URL, max(MAX_MATCHES_PER_SITE, 150),
+            meta=meta_api
         )
+
+        # Heure + championnat lus sur les cartes (absents du WebSocket).
+        try:
+            enrichir_depuis_cartes_1win(ws_result, toutes_cartes)
+        except Exception as error:
+            print(f"[1win] lecture heure/championnat impossible : {error}")
 
         cartes = []
 

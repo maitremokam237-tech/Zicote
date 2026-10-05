@@ -1,0 +1,96 @@
+name: Zicote - Scraper
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zicote-scraper
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run Zicote scraper
+        env:
+          WEBSHARE_HOST: ${{ secrets.WEBSHARE_HOST }}
+          WEBSHARE_PORT: ${{ secrets.WEBSHARE_PORT }}
+          WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
+          WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
+          BUDGET_DECOUVERTE: "480"
+          ONEX_COUNT: "300"
+          ONEX_MAX_MATCHES: "120"
+          MAX_MATCHES_PER_SITE: "50"
+          BETPAWA_MAX_MATCHES: "80"
+        run: |
+          python scraper.py
+
+      - name: Add BetPawa logo to match template
+        run: |
+          python ajouter_logo_betpawa.py
+
+      - name: Generate comparison data and match pages
+        run: |
+          python comparateur.py
+
+      - name: Verify generated files
+        run: |
+          echo "Vérification des fichiers générés..."
+
+          test -f docs/index.html
+          test -f docs/comparison.json
+          test -f docs/sitemap.xml
+          test -f docs/robots.txt
+
+          echo "Nombre de fiches générées :"
+          find docs -mindepth 2 -name index.html | wc -l
+
+          echo "Vérification terminée."
+
+      - name: Save scraped data and generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            1win.json \
+            1xbet.json \
+            africa-bizbet.json \
+            betpawa.json \
+            betwinner.json \
+            maj_bookmakers.json \
+            megapari.json \
+            melbet.json \
+            winwin.json \
+            docs/
+
+          if git diff --cached --quiet; then
+            echo "Aucune nouvelle donnée à enregistrer."
+            exit 0
+          fi
+
+          git commit -m "Update scraped sports data and match pages"
+          git push origin main

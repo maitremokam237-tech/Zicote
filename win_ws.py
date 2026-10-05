@@ -57,6 +57,32 @@ def collecter_frame(payload, store):
         store[data["matchId"]] = data
 
 
+def collecter_reponse_api(corps, meta):
+    """Range dans meta[matchId] les infos d'une reponse JSON de l'API liste des
+    matchs de 1win ({"result": {"items": [{id, startAt, tournament, ...}]}})."""
+    if not isinstance(corps, dict):
+        return 0
+    items = (corps.get("result") or {}).get("items")
+    if not isinstance(items, list):
+        return 0
+    n = 0
+    for it in items:
+        if not isinstance(it, dict) or it.get("id") is None:
+            continue
+        if not (it.get("homeTeam") and it.get("awayTeam") and it.get("startAt")):
+            continue
+        tournoi = it.get("tournament") or {}
+        meta[str(it["id"])] = {
+            "debut": _debut_iso(it.get("startAt")),
+            "competition": str(tournoi.get("slug") or "").replace("-", " ").strip() or None,
+            "competition_id": it.get("tournamentId"),
+            "equipe_1": (it["homeTeam"] or {}).get("name"),
+            "equipe_2": (it["awayTeam"] or {}).get("name"),
+        }
+        n += 1
+    return n
+
+
 def brancher_websocket(ws, store):
     """A appeler depuis page.on('websocket', ...)."""
     if "push-server" not in (ws.url or ""):
@@ -145,12 +171,15 @@ def _debut_iso(valeur):
     return dt.astimezone(datetime.timezone.utc).isoformat()
 
 
-def construire_matchs(store, url, limit=100):
+def construire_matchs(store, url, limit=100, meta=None):
+    meta = meta or {}
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
     out = []
     # Championnats prioritaires d'abord (liste commune a tous les bookmakers).
     def _ordre(mid):
-        return (priorite(_chercher(store[mid], CLES_CHAMPIONNAT)), str(mid))
+        info = meta.get(str(mid)) or {}
+        return (priorite(info.get("competition") or _chercher(store[mid], CLES_CHAMPIONNAT)),
+                info.get("debut") or "", str(mid))
 
     for mid in sorted(store, key=_ordre):
         e1, e2, x12, double, btts, totals, handicap = parser_snapshot(store[mid])
@@ -173,6 +202,15 @@ def construire_matchs(store, url, limit=100):
         championnat = _chercher(store[mid], CLES_CHAMPIONNAT)
         if championnat:
             m["competition"] = str(championnat).strip()
+        info = meta.get(str(mid))
+        if info:
+            # L'API liste des matchs (heure exacte, championnat) fait foi.
+            if info.get("debut"):
+                m["debut"] = info["debut"]
+            if info.get("competition"):
+                m["competition"] = info["competition"]
+            if info.get("competition_id") is not None:
+                m["competition_id_1win"] = info["competition_id"]
         if double:
             m["Double_Chance"] = double
         if btts:
