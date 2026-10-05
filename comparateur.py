@@ -1,10 +1,12 @@
+import zlib
 import datetime
 import json
 import re
 import unicodedata
 
 from pathlib import Path
-from difflib import SequenceMatcher
+
+from appariement import premier_de_groupe, regrouper
 
 
 # ============================================================
@@ -226,123 +228,34 @@ def write_sitemap_and_robots(slugs):
     )
 
 
+# Ordre de traitement : les bookmakers aux cotes propres d'abord, puis les
+# cinq sites de la famille 1xBet (cotes identiques entre eux). Aucun site
+# n'est favorise : l'ordre sert seulement a former les groupes de matchs.
 BOOKMAKERS = [
+    "betpawa",
+    "1win",
+    "1xbet",
     "betwinner",
     "melbet",
     "megapari",
-    "1win",
     "winwin",
-    "1xbet",
     "africa-bizbet",
-    "betpawa",
 ]
 
-
-# ============================================================
-# NORMALISATION
-# ============================================================
-
-def normalize(value):
-
-    value = str(
-        value or ""
-    ).lower()
-
-    replacements = {
-
-        "é": "e",
-        "è": "e",
-        "ê": "e",
-        "ë": "e",
-
-        "à": "a",
-        "â": "a",
-
-        "î": "i",
-        "ï": "i",
-
-        "ô": "o",
-        "ö": "o",
-
-        "ù": "u",
-        "û": "u",
-        "ü": "u",
-
-        "ç": "c",
-    }
-
-    for old, new in replacements.items():
-
-        value = value.replace(
-            old,
-            new
-        )
-
-    value = re.sub(
-        r"[^a-z0-9]+",
-        " ",
-        value
-    )
-
-    return " ".join(
-        value.split()
-    )
+# Sites qui affichent exactement les memes cotes : a egalite, ils passent
+# apres les bookmakers independants.
+FAMILLE_1XBET = {"betwinner", "melbet", "megapari", "winwin", "africa-bizbet"}
 
 
-# ============================================================
-# SIMILARITE
-# ============================================================
-
-def similarity(a, b):
-
-    a1 = normalize(
-        a.get("equipe_1")
-    )
-
-    a2 = normalize(
-        a.get("equipe_2")
-    )
-
-    b1 = normalize(
-        b.get("equipe_1")
-    )
-
-    b2 = normalize(
-        b.get("equipe_2")
-    )
-
-    direct = (
-        SequenceMatcher(
-            None,
-            a1,
-            b1
-        ).ratio()
-        +
-        SequenceMatcher(
-            None,
-            a2,
-            b2
-        ).ratio()
-    ) / 2
-
-    inverse = (
-        SequenceMatcher(
-            None,
-            a1,
-            b2
-        ).ratio()
-        +
-        SequenceMatcher(
-            None,
-            a2,
-            b1
-        ).ratio()
-    ) / 2
-
-    return max(
-        direct,
-        inverse
-    )
+def choisir_meilleur(values, cle=""):
+    """Bookmaker de la meilleure cote. A egalite : un bookmaker independant
+    (BetPawa, 1win, 1xBet) l'emporte ; entre sites de la famille 1xBet, le
+    choix varie selon le marche (jamais toujours le meme)."""
+    top = max(values.values())
+    ex_aequo = [b for b, v in values.items() if v == top]
+    independants = [b for b in ex_aequo if b not in FAMILLE_1XBET]
+    candidats = independants or ex_aequo
+    return min(candidats, key=lambda b: zlib.crc32(f"{cle}|{b}".encode()))
 
 
 # ============================================================
@@ -390,57 +303,6 @@ def load_bookmaker(name):
     except Exception:
 
         return []
-
-
-# ============================================================
-# REGROUPEMENT DES MATCHS
-# ============================================================
-
-def group_matches(data):
-
-    groups = []
-
-    for bookmaker in BOOKMAKERS:
-
-        for match in data.get(
-            bookmaker,
-            []
-        ):
-
-            best_group = None
-
-            best_score = 0
-
-            for group in groups:
-
-                for existing in group.values():
-
-                    score = similarity(
-                        match,
-                        existing
-                    )
-
-                    if score > best_score:
-
-                        best_score = score
-
-                        best_group = group
-
-            if best_group is not None and best_score >= 0.82:
-
-                best_group[
-                    bookmaker
-                ] = match
-
-            else:
-
-                groups.append(
-                    {
-                        bookmaker: match
-                    }
-                )
-
-    return groups
 
 
 # ============================================================
@@ -504,10 +366,7 @@ def compare_market(
 
             continue
 
-        best_bookmaker = max(
-            values,
-            key=values.get
-        )
+        best_bookmaker = choisir_meilleur(values, str(key))
 
         rows.append({
 
@@ -574,7 +433,7 @@ def compare_totals_dynamic(group):
             if not values:
                 continue
 
-            best_bookmaker = max(values, key=values.get)
+            best_bookmaker = choisir_meilleur(values, f"{line}|{sens}")
 
             rows.append({
 
@@ -613,17 +472,21 @@ def build():
             bookmaker
         )
 
-    groups = group_matches(
-        data
+    groups, stats = regrouper(
+        data,
+        BOOKMAKERS
+    )
+
+    print(
+        f"regroupement : {stats['total']} matchs lus, "
+        f"{stats['faux_matchs']} faux matchs ignorés, "
+        f"{stats['retournes']} remis dans le bon sens, "
+        f"{stats['avec_heure']} avec heure de début"
     )
 
     output = []
 
     for group in groups:
-
-        first = next(
-            iter(group.values())
-        )
 
         markets = []
 
@@ -692,16 +555,16 @@ def build():
         output.append({
 
             "equipe_1":
-                first.get(
-                    "equipe_1",
-                    "?"
-                ),
+                premier_de_groupe(group, "equipe_1") or "?",
 
             "equipe_2":
-                first.get(
-                    "equipe_2",
-                    "?"
-                ),
+                premier_de_groupe(group, "equipe_2") or "?",
+
+            "competition":
+                premier_de_groupe(group, "competition"),
+
+            "debut":
+                premier_de_groupe(group, "debut"),
 
             "bookmakers":
                 list(group.keys()),
@@ -746,5 +609,7 @@ def build():
 if __name__ == "__main__":
 
     build()
+
+
 
 
