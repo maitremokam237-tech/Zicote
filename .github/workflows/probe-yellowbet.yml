@@ -1,4 +1,4 @@
-# A placer dans .github/workflows/probe-yellowbet.yml
+#A placer dans .github/workflows/probe-yellowbet.yml
 # Lancement manuel : onglet Actions > "Probe Yellowbet" > Run workflow.
 name: Probe Yellowbet
 on:
@@ -7,26 +7,30 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Installer Playwright
+          cache: pip
+      - name: Installer les dependances
         run: |
-          pip install playwright requests
-          playwright install --with-deps chromium
-      - name: Tester Yellowbet
-        # Par defaut : SANS proxy (serveurs GitHub aux Etats-Unis).
-        # Pour un 2e essai AVEC le proxy Webshare : mets YB_USE_PROXY: "1"
-        # et copie ici le bloc "env:" (secrets) de ton update.yml.
-        # env:
-        #   YB_USE_PROXY: "1"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Tester Yellowbet avec le proxy Webshare
+        env:
+          YB_USE_PROXY: "1"
+          WEBSHARE_HOST: ${{ secrets.WEBSHARE_HOST }}
+          WEBSHARE_PORT: ${{ secrets.WEBSHARE_PORT }}
+          WEBSHARE_USERNAME: ${{ secrets.WEBSHARE_USERNAME }}
+          WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
         run: python probe_yellowbet_pw.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: yellowbet-probe
+          name: yellowbet-probe-proxy
           path: |
             yellowbet_pw_result.txt
             yellowbet_pw.png
