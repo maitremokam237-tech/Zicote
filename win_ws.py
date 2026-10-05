@@ -97,6 +97,52 @@ def parser_snapshot(data):
     return equipes.get("1"), equipes.get("2"), x12, double, btts, totals, handicap
 
 
+CLES_DEBUT = ("startTime", "startDate", "matchStartTime", "startAt",
+              "start_time", "kickoff", "date", "time")
+CLES_CHAMPIONNAT = ("tournamentName", "leagueName", "competitionName",
+                    "tournament", "league", "competition", "categoryName")
+
+
+def _scalaire(valeur):
+    if isinstance(valeur, dict):
+        valeur = valeur.get("name") or valeur.get("title")
+    return valeur if isinstance(valeur, (str, int, float)) and valeur != "" else None
+
+
+def _chercher(data, cles):
+    """Premiere valeur trouvee parmi `cles`, au premier niveau du snapshot
+    ou dans un sous-objet (match / event / tournament...)."""
+    for niveau in [data] + [v for v in data.values() if isinstance(v, dict)]:
+        for cle in cles:
+            valeur = _scalaire(niveau.get(cle))
+            if valeur is not None:
+                return valeur
+    return None
+
+
+def _debut_iso(valeur):
+    """Nombre (secondes ou millisecondes) ou texte ISO -> ISO UTC, sinon None."""
+    if valeur is None:
+        return None
+    try:
+        nombre = float(valeur)
+        if nombre > 1e11:          # millisecondes
+            nombre /= 1000
+        return datetime.datetime.fromtimestamp(
+            nombre, datetime.timezone.utc
+        ).isoformat()
+    except (TypeError, ValueError, OverflowError, OSError):
+        pass
+    texte = str(valeur).replace("Z", "+00:00")
+    try:
+        dt = datetime.datetime.fromisoformat(texte)
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    return dt.astimezone(datetime.timezone.utc).isoformat()
+
+
 def construire_matchs(store, url, limit=100):
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
     out = []
@@ -115,6 +161,12 @@ def construire_matchs(store, url, limit=100):
             "derniere_maj": now,
             "statut": "ok",
         }
+        debut = _debut_iso(_chercher(store[mid], CLES_DEBUT))
+        if debut:
+            m["debut"] = debut
+        championnat = _chercher(store[mid], CLES_CHAMPIONNAT)
+        if championnat:
+            m["competition"] = str(championnat).strip()
         if double:
             m["Double_Chance"] = double
         if btts:
@@ -124,4 +176,12 @@ def construire_matchs(store, url, limit=100):
         if handicap:
             m["Handicap"] = handicap
         out.append(m)
+    if store:
+        exemple = store[next(iter(store))]
+        print(
+            f"[1win] avec heure: {sum('debut' in m for m in out)}, "
+            f"championnat: {sum('competition' in m for m in out)} "
+            f"(sur {len(out)}) ; champs d'un snapshot: {sorted(exemple.keys())}"
+        )
     return out[:limit]
+
