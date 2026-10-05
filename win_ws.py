@@ -11,6 +11,8 @@ Usage dans scraper.py (Playwright) :
 import datetime
 import json
 
+from championnats import priorite
+
 # Groupes de marches 1win (champ "id" de oddsGroups)
 G_1X2 = "6257"
 G_BTTS = "6280"
@@ -146,7 +148,11 @@ def _debut_iso(valeur):
 def construire_matchs(store, url, limit=100):
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
     out = []
-    for mid in sorted(store):
+    # Championnats prioritaires d'abord (liste commune a tous les bookmakers).
+    def _ordre(mid):
+        return (priorite(_chercher(store[mid], CLES_CHAMPIONNAT)), str(mid))
+
+    for mid in sorted(store, key=_ordre):
         e1, e2, x12, double, btts, totals, handicap = parser_snapshot(store[mid])
         if not e1 or not e2 or len(x12) != 3:
             continue
@@ -184,4 +190,3 @@ def construire_matchs(store, url, limit=100):
             f"(sur {len(out)}) ; champs d'un snapshot: {sorted(exemple.keys())}"
         )
     return out[:limit]
-
