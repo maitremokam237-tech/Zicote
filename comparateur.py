@@ -1,4 +1,3 @@
-import zlib
 import datetime
 import json
 import re
@@ -228,34 +227,16 @@ def write_sitemap_and_robots(slugs):
     )
 
 
-# Ordre de traitement : les bookmakers aux cotes propres d'abord, puis les
-# cinq sites de la famille 1xBet (cotes identiques entre eux). Aucun site
-# n'est favorise : l'ordre sert seulement a former les groupes de matchs.
 BOOKMAKERS = [
-    "betpawa",
-    "1win",
-    "1xbet",
     "betwinner",
     "melbet",
     "megapari",
+    "1win",
     "winwin",
+    "1xbet",
     "africa-bizbet",
+    "betpawa",
 ]
-
-# Sites qui affichent exactement les memes cotes : a egalite, ils passent
-# apres les bookmakers independants.
-FAMILLE_1XBET = {"betwinner", "melbet", "megapari", "winwin", "africa-bizbet"}
-
-
-def choisir_meilleur(values, cle=""):
-    """Bookmaker de la meilleure cote. A egalite : un bookmaker independant
-    (BetPawa, 1win, 1xBet) l'emporte ; entre sites de la famille 1xBet, le
-    choix varie selon le marche (jamais toujours le meme)."""
-    top = max(values.values())
-    ex_aequo = [b for b, v in values.items() if v == top]
-    independants = [b for b in ex_aequo if b not in FAMILLE_1XBET]
-    candidats = independants or ex_aequo
-    return min(candidats, key=lambda b: zlib.crc32(f"{cle}|{b}".encode()))
 
 
 # ============================================================
@@ -366,7 +347,10 @@ def compare_market(
 
             continue
 
-        best_bookmaker = choisir_meilleur(values, str(key))
+        best_bookmaker = max(
+            values,
+            key=values.get
+        )
 
         rows.append({
 
@@ -433,7 +417,7 @@ def compare_totals_dynamic(group):
             if not values:
                 continue
 
-            best_bookmaker = choisir_meilleur(values, f"{line}|{sens}")
+            best_bookmaker = max(values, key=values.get)
 
             rows.append({
 
@@ -609,7 +593,5 @@ def build():
 if __name__ == "__main__":
 
     build()
-
-
 
 
