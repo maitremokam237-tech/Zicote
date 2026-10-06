@@ -1,24 +1,26 @@
-"""Remplit logos_clubs.json avec les logos de clubs de l'API Sportmonks.
+"""Remplit logos_clubs.json avec les logos de clubs depuis TheSportsDB.
 
-Usage (dans le workflow, avant comparateur.py) :
-    SPORTMONKS_TOKEN=... python maj_logos_clubs.py
+TheSportsDB : base communautaire gratuite, cle publique de test "3" (limitee a
+environ 30 requetes par minute). Aucune inscription necessaire.
+Usage (workflow, avant comparateur.py) :  python maj_logos_clubs.py
 
-- Lit les noms d'equipes dans les JSON des bookmakers.
+- Lit les noms anglais d'equipes dans les JSON des bookmakers.
 - Ignore les equipes qui ont deja un logo (drapeau ou entree de logos_clubs.json).
-- Cherche chaque club par nom (teams/search), n'accepte qu'une correspondance
-  sure (nom identique ou tres proche), telecharge l'image dans docs/logos/clubs/.
-- Les clubs non trouves sont notes dans logos_clubs_introuvables.json et ne sont
-  re-essayes qu'apres RETRY_JOURS jours (economise le quota de l'API).
+- Cherche chaque club (searchteams.php), compare avec le nom officiel ET les noms
+  alternatifs, n'accepte qu'une correspondance sure, telecharge l'image (version
+  reduite si disponible) dans docs/logos/clubs/.
+- Les clubs non trouves vont dans logos_clubs_introuvables.json (re-essai apres
+  RETRY_JOURS jours).
 
-Variables : SPORTMONKS_TOKEN (obligatoire), MAX_LOGOS_PAR_RUN (defaut 40),
-LOGOS_TELECHARGER (1 = copie locale, defaut ; 0 = garde l'URL Sportmonks),
-RETRY_JOURS (defaut 30).
+Variables : THESPORTSDB_KEY (defaut "3"), MAX_LOGOS_PAR_RUN (defaut 60),
+LOGOS_TELECHARGER (1 = copie locale, defaut), RETRY_JOURS (defaut 30).
 """
 import datetime
 import difflib
 import glob
 import json
 import os
+import re
 import time
 from pathlib import Path
 from urllib.parse import quote
@@ -27,13 +29,15 @@ import requests
 
 from logos import CLUBS_PATH, logo_equipe, normaliser
 
-API = "https://api.sportmonks.com/v3/football/teams/search/"
+CLE = os.getenv("THESPORTSDB_KEY", "3").strip() or "3"
+API = f"https://www.thesportsdb.com/api/v1/json/{CLE}/searchteams.php"
 INTROUVABLES = Path("logos_clubs_introuvables.json")
 DOSSIER_IMG = Path("docs/logos/clubs")
-TOKEN = os.getenv("SPORTMONKS_TOKEN", "").strip()
-MAX_PAR_RUN = int(os.getenv("MAX_LOGOS_PAR_RUN", "40"))
+LIBELLES = {"home", "away", "draw", "x", "domicile", "exterieur", "a domicile", "a l exterieur"}
+MAX_PAR_RUN = int(os.getenv("MAX_LOGOS_PAR_RUN", "60"))
 TELECHARGER = os.getenv("LOGOS_TELECHARGER", "1") != "0"
 RETRY_JOURS = int(os.getenv("RETRY_JOURS", "30"))
+PAUSE = 2.2   # secondes entre deux requetes (limite gratuite ~30/min)
 
 
 def _lire(chemin):
@@ -59,42 +63,66 @@ def equipes_a_traiter():
             if not isinstance(m, dict):
                 continue
             for i in (1, 2):
+                # Uniquement les noms anglais fournis par les API des bookmakers
+                # (les noms issus des liens de page sont coupes au hasard).
                 en, fr = m.get(f"equipe_{i}_en"), m.get(f"equipe_{i}")
-                if not (en or fr) or logo_equipe(en, fr):
+                if not en or logo_equipe(en, fr):
                     continue
-                nom = (en or fr).strip()
+                nom = en.strip()
+                if normaliser(nom) in LIBELLES or len(normaliser(nom)) < 3:
+                    continue
                 trouvees.setdefault(normaliser(nom), nom)
     return trouvees
 
 
-def choisir(nom, resultats):
+def _noms_equipe(e):
+    """Nom officiel + noms alternatifs d'une equipe TheSportsDB (normalises)."""
+    noms = {normaliser(e.get("strTeam"))}
+    for alt in re.split(r"[,;/]", e.get("strTeamAlternate") or ""):
+        noms.add(normaliser(alt))
+    noms.discard("")
+    return noms
+
+
+def _sans_prefixe(n):
+    """'fc bayern munich' -> 'bayern munich' (retire fc/cf/afc/sc... en tete et en fin)."""
+    return re.sub(r"^(fc|cf|afc|sc|ac|as|ssc|rc|us|sv|vfb|vfl|1 fc)\s+|\s+(fc|cf|afc|sc)$", "", n).strip()
+
+
+def choisir(nom, equipes, seuil=0.88):
     """Meilleure correspondance sure parmi les resultats, ou None."""
     cible = normaliser(nom)
-    candidats = [r for r in resultats
-                 if isinstance(r, dict) and r.get("image_path")
-                 and r.get("gender", "male") == "male" and not r.get("placeholder")]
-    for r in candidats:
-        if normaliser(r.get("name")) == cible:
-            return r
+    cible2 = _sans_prefixe(cible)
+    foot = [e for e in equipes
+            if isinstance(e, dict) and e.get("strBadge")
+            and (e.get("strSport") or "Soccer") == "Soccer"]
+    for e in foot:
+        noms = _noms_equipe(e)
+        if cible in noms or cible2 in {_sans_prefixe(n) for n in noms}:
+            return e
     meilleur, score = None, 0.0
-    for r in candidats:
-        s = difflib.SequenceMatcher(None, cible, normaliser(r.get("name"))).ratio()
-        if s > score:
-            meilleur, score = r, s
-    return meilleur if score >= 0.9 else None
+    for e in foot:
+        for n in _noms_equipe(e):
+            s = difflib.SequenceMatcher(None, cible2, _sans_prefixe(n)).ratio()
+            if s > score:
+                meilleur, score = e, s
+    return meilleur if score >= seuil else None
 
 
 def telecharger(equipe):
-    url = equipe["image_path"]
+    url = equipe["strBadge"]
     if not TELECHARGER:
         return url
     try:
-        r = requests.get(url, timeout=20)
+        # Version reduite si le service la propose (pages plus legeres), sinon l'originale.
+        r = requests.get(url + "/small", timeout=20)
+        if r.status_code != 200 or not r.content:
+            r = requests.get(url, timeout=20)
         r.raise_for_status()
         ext = Path(url.split("?")[0]).suffix or ".png"
         DOSSIER_IMG.mkdir(parents=True, exist_ok=True)
-        (DOSSIER_IMG / f"{equipe['id']}{ext}").write_bytes(r.content)
-        return f"/logos/clubs/{equipe['id']}{ext}"
+        (DOSSIER_IMG / f"{equipe['idTeam']}{ext}").write_bytes(r.content)
+        return f"/logos/clubs/{equipe['idTeam']}{ext}"
     except Exception as e:
         print(f"[logos] telechargement impossible ({e}), URL distante conservee")
         return url
@@ -105,9 +133,7 @@ def main():
     for chemin in (CLUBS_PATH, INTROUVABLES):
         if not chemin.exists():
             chemin.write_text("{}", encoding="utf-8")
-    if not TOKEN:
-        print("[logos] SPORTMONKS_TOKEN absent : etape ignoree.")
-        return
+
     clubs = _lire(CLUBS_PATH)
     introuvables = _lire(INTROUVABLES)
     aujourdhui = datetime.date.today()
@@ -121,31 +147,41 @@ def main():
         a_faire.append((cle, nom))
     print(f"[logos] {len(a_faire)} club(s) a chercher (max {MAX_PAR_RUN} par run)")
 
-    ajoutes = 0
+    ajoutes, rates = 0, []
     for cle, nom in a_faire[:MAX_PAR_RUN]:
         try:
-            r = requests.get(API + quote(nom), params={"api_token": TOKEN}, timeout=20)
+            r = requests.get(API, params={"t": nom}, timeout=20)
         except requests.RequestException as e:
             print(f"[logos] reseau : {e}")
-            break
-        if r.status_code in (401, 403):
-            print(f"[logos] acces refuse ({r.status_code}) : verifie le token et ton plan Sportmonks.")
             break
         if r.status_code == 429:
             print("[logos] limite de requetes atteinte : on reprendra au prochain run.")
             break
         if r.status_code != 200:
             print(f"[logos] {nom} : statut {r.status_code}")
+            time.sleep(PAUSE)
             continue
-        equipe = choisir(nom, r.json().get("data") or [])
+        try:
+            equipes = r.json().get("teams") or []
+        except ValueError:
+            print(f"[logos] {nom} : reponse non JSON (limite atteinte ?)")
+            break
+        equipe = choisir(nom, equipes)
         if equipe:
             clubs[cle] = telecharger(equipe)
             ajoutes += 1
-            print(f"[logos] OK : {nom} -> {equipe.get('name')}")
+            print(f"[logos] OK : {nom} -> {equipe.get('strTeam')}")
         else:
-            introuvables[cle] = aujourdhui.isoformat()
+            rates.append(cle)
             print(f"[logos] introuvable : {nom}")
-        time.sleep(0.4)
+        time.sleep(PAUSE)
+
+    # Rien n'a marche : probablement un probleme d'acces, pas des clubs inexistants.
+    if ajoutes == 0 and len(rates) >= 5:
+        print("[logos] AUCUN resultat : acces API ou limite probable ; clubs non mis de cote.")
+    else:
+        for cle in rates:
+            introuvables[cle] = aujourdhui.isoformat()
 
     CLUBS_PATH.write_text(json.dumps(clubs, ensure_ascii=False, indent=1, sort_keys=True),
                           encoding="utf-8")
@@ -156,3 +192,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
