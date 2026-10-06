@@ -34,7 +34,6 @@ def sonder(proxy_url=None):
                "Origin": "https://1win.com", "Referer": "https://1win.com/"}
     appels = [("tournaments/get", {"tournamentId": t, "l": "fr-CI", "p": PARTENAIRE})
               for t in TOURNOIS_SONDE]
-    appels.append(("tournaments/get", {"sportId": "18", "l": "fr-CI", "p": PARTENAIRE}))
     for chemin, params in appels:
         try:
             r = requests.get(f"{BASE}/{chemin}", params=params, headers=headers,
