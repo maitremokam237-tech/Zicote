@@ -25,7 +25,19 @@ a{color:inherit;text-decoration:none}button{font:inherit}
 .upd{margin-left:auto;font-size:12px;color:var(--mut);text-align:right}
 .bar{background:var(--navy);color:#fff;padding:16px 14px;font-size:20px;font-weight:800;font-style:italic;display:flex;justify-content:space-between}
 .bar span{font-size:15px}
-.search{display:none;background:#fff;padding:10px 14px;border-bottom:1px solid var(--line)}.search.on{display:block}
+.search{display:none;position:relative;background:#fff;padding:10px 14px;border-bottom:1px solid var(--line)}.search.on{display:block}
+#sugg{display:none;position:absolute;left:14px;right:14px;top:58px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 10px 30px rgba(15,36,71,.18);z-index:50;max-height:62vh;overflow:auto}
+#sugg.on{display:block}
+.sg{display:flex;align-items:center;gap:8px;padding:10px 12px;border-top:1px solid #eef2f8;color:inherit;text-decoration:none}
+.sg:first-child{border-top:0}.sg:active{background:#f1f4f9}
+.mini{width:28px;height:28px;border-radius:50%;flex:none;display:grid;place-items:center;color:#fff;font-size:10px;font-weight:800;overflow:hidden}
+.mini.has-img{background:#fff;border:1px solid var(--line)}.mini img{width:100%;height:100%;object-fit:cover;display:block}
+.mini+.mini{margin-left:-14px}
+.sgt{display:flex;flex-direction:column;min-width:0;margin-left:4px}
+.sgt b{font-weight:700;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sgt small{color:var(--mut);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sgn{margin:0;padding:14px;color:var(--mut);font-size:13px;text-align:center}
+.av-img{background:#fff;border:1px solid var(--line);overflow:hidden}.av-img img{width:100%;height:100%;object-fit:cover;display:block}
 .search input{width:100%;height:44px;border:1px solid var(--line);border-radius:12px;padding:0 14px;font:inherit}
 main{max-width:760px;margin:0 auto;padding:14px 12px}
 .comp{background:#fff;border-radius:22px;overflow:hidden;margin-bottom:14px;box-shadow:0 2px 10px rgba(15,36,71,.06)}
@@ -64,7 +76,7 @@ nav.tab a span{font-size:20px}nav.tab a.on{background:#e6f1fd;color:#1e63c9}
   <span class="lang" id="langSwitch"></span>
   <button class="ib" id="sbtn" aria-label="Rechercher" title="Rechercher">🔍</button>
 </header>
-<div class="search" id="search"><input id="q" type="search" placeholder="" autocomplete="off"></div>
+<div class="search on" id="search"><input id="q" type="search" placeholder="" autocomplete="off" autocapitalize="off" enterkeyhint="search"><div id="sugg"></div></div>
 <div class="sports"><span class="chip">⚽ <span id="chipLabel">Football</span><i id="count">0</i></span><span class="upd" id="upd"></span></div>
 <div class="bar"><span id="barTitle">Football</span> <span id="barSubtitle">Meilleures cotes 1X2</span></div>
 <main>
@@ -84,7 +96,7 @@ window.Zicote_i18n = (() => {
     const FR = {
         chip_football: "Football",
         bar_subtitle: "Meilleures cotes 1X2",
-        search_placeholder: "Rechercher une équipe…",
+        search_placeholder: "Rechercher une équipe, un pays…",
         footer_text: "Zicote — comparaison des cotes de football",
         nav_matches: "Matchs",
         nav_odds: "Cotes",
@@ -106,7 +118,7 @@ window.Zicote_i18n = (() => {
     const EN = {
         chip_football: "Football",
         bar_subtitle: "Best 1X2 odds",
-        search_placeholder: "Search a team…",
+        search_placeholder: "Search a team or country…",
         footer_text: "Zicote — football odds comparison",
         nav_matches: "Matches",
         nav_odds: "Odds",
@@ -221,8 +233,15 @@ function logo(site) {
     return `<span class="lg">${LOGOS[site] ? `<img src="${LOGOS[site]}" alt="${n}" loading="lazy">` : n}</span>`;
 }
 
-function team(name) {
-    return `<div class="tm"><span class="av" style="background:hsl(${hue(name)} 55% 45%)">${esc(init(name))}</span>${esc(name)}</div>`;
+function avatar(name, logo, cls, clsImg) {
+    const ini = `<span class="${cls}" style="background:hsl(${hue(name)} 55% 45%)">${esc(init(name))}</span>`;
+    if (!logo) return ini;
+    const repli = ini.replace(/"/g, "&quot;");
+    return `<span class="${cls} ${clsImg}"><img src="${esc(logo)}" alt="" loading="lazy" onerror="this.parentNode.outerHTML='${repli}'"></span>`;
+}
+
+function team(name, logo) {
+    return `<div class="tm">${avatar(name, logo, "av", "av-img")}${esc(name)}</div>`;
 }
 
 function pill(m, key, label, fav) {
@@ -278,7 +297,7 @@ function card(m) {
     const t = Zicote_i18n.t;
     return `<div class="m">
         ${badge(m)}
-        <a href="${slug(m)}/">${team(m.equipe_1)}${team(m.equipe_2)}</a>
+        <a href="${slug(m)}/">${team(m.equipe_1, m.logo_1)}${team(m.equipe_2, m.logo_2)}</a>
         <div class="odds">${pill(m,"V1",t("home_label"),fav===0)}${pill(m,"X",t("draw_label"),fav===1)}${pill(m,"V2",t("away_label"),fav===2)}</div>
         <a class="more" href="${slug(m)}/">${t("more_link")}</a></div>`;
 }
@@ -326,13 +345,68 @@ function rerender() {
     bonus();
 }
 
+// Recherche : insensible aux accents et a la casse, cherche dans les noms
+// francais ET anglais des equipes (Espagne / Spain) et dans le championnat.
+// Chaque mot tape doit commencer un mot du match ("real mad" -> Real Madrid).
+const norm = s => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+function hay(m) {
+    if (!m._hay) {
+        m._hay = " " + norm([m.equipe_1, m.equipe_2, m.equipe_1_en, m.equipe_2_en,
+                             m.competition, m.competition_en].filter(Boolean).join(" ")) + " ";
+    }
+    return m._hay;
+}
+
+function rechercher(q) {
+    const mots = norm(q).split(" ").filter(Boolean);
+    if (!mots.length) return state.matches;
+    let trouves = state.matches.filter(m => mots.every(w => hay(m).includes(" " + w)));
+    // Repli : si rien ne commence par ces lettres, on cherche n'importe ou dans le mot
+    // ("liga" retrouve "LaLiga").
+    if (!trouves.length && mots.join("").length >= 3) {
+        trouves = state.matches.filter(m => mots.every(w => hay(m).includes(w)));
+    }
+    // Les matchs dont une equipe commence par la recherche passent en premier.
+    const debut = m => [m.equipe_1, m.equipe_2, m.equipe_1_en, m.equipe_2_en]
+        .some(n => n && norm(n).startsWith(mots[0])) ? 0 : 1;
+    return trouves.map((m, i) => [m, i])
+        .sort((a, b) => debut(a[0]) - debut(b[0]) || a[1] - b[1]).map(x => x[0]);
+}
+
+function suggestions(q, liste) {
+    const box = $("sugg");
+    if (!norm(q)) { box.innerHTML = ""; box.classList.remove("on"); return; }
+    const t = Zicote_i18n.t;
+    const lignes = liste.slice(0, 8).map(m => {
+        const heure = m.debut ? dt(m.debut) : "";
+        const detail = [heure, m.competition].filter(Boolean).join(" · ");
+        return `<a class="sg" href="${slug(m)}/">${avatar(m.equipe_1, m.logo_1, "mini", "has-img")}${avatar(m.equipe_2, m.logo_2, "mini", "has-img")}`
+             + `<span class="sgt"><b>${esc(m.equipe_1)} – ${esc(m.equipe_2)}</b><small>${esc(detail)}</small></span></a>`;
+    }).join("");
+    const reste = liste.length > 8 ? `<p class="sgn">+ ${liste.length - 8}</p>` : "";
+    box.innerHTML = lignes ? lignes + reste : `<p class="sgn">${esc(t("no_match_msg"))}</p>`;
+    box.classList.add("on");
+}
+
 function filter() {
-    const q = $("q").value.toLowerCase().trim();
-    render(q ? state.matches.filter(m => (m.equipe_1 + " " + m.equipe_2).toLowerCase().includes(q)) : state.matches);
+    const q = $("q").value;
+    const liste = rechercher(q);
+    suggestions(q, liste);
+    render(liste);
 }
 
 $("q").addEventListener("input", filter);
-$("sbtn").onclick = () => { $("search").classList.toggle("on"); $("q").focus(); };
+$("q").addEventListener("focus", () => { if (norm($("q").value)) $("sugg").classList.add("on"); });
+$("q").addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+        const premier = document.querySelector("#sugg .sg");
+        if (premier) location.href = premier.getAttribute("href");
+    }
+});
+document.addEventListener("click", e => { if (!e.target.closest("#search")) $("sugg").classList.remove("on"); });
+$("sbtn").onclick = () => { $("search").classList.add("on"); $("q").focus(); };
 $("tsearch").onclick = e => { e.preventDefault(); $("search").classList.add("on"); scrollTo(0,0); $("q").focus(); };
 
 Zicote_i18n.mount("langSwitch", rerender);
@@ -383,4 +457,5 @@ observer.observe(document.body, {
 </script>
 </body>
 </html>
+
 
