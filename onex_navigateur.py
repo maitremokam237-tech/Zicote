@@ -43,6 +43,8 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
     ids = ids_a_charger(api_result)
     recus = {}   # id championnat -> liste de matchs (format v3)
     vus_api = {}  # DIAGNOSTIC : (fragment d'URL, statut) -> nombre d'appels
+    courant = {"liga": None}   # championnat dont la page est en cours de chargement
+    diag = {"fait": False}     # un seul exemple de reponse est decrit dans le log
 
     context = await browser.new_context(
         viewport={"width": 390, "height": 844}, locale="fr-FR",
@@ -66,13 +68,31 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
                 if any(k in reponse.url for k in ("line-feed", "LineFeed", "games1x2", "/service-api/")):
                     cle = (reponse.url.split("?")[0].split("/service-api/")[-1][:60], reponse.status)
                     vus_api[cle] = vus_api.get(cle, 0) + 1
-                if "games1x2" not in reponse.url:
+                if "games1x2" not in reponse.url or "topgames" in reponse.url.lower():
                     return
-                liga = id_depuis_url(reponse.url)
-                if liga is None or reponse.status != 200:
+                if reponse.status != 200:
                     return
+                # CORRECTION : si l'URL ne contient plus selectedMs=2.1.<id>, on se
+                # rabat sur le championnat dont la page est en cours de chargement.
+                liga = id_depuis_url(reponse.url) or courant["liga"]
                 corps = await reponse.json()
-                if isinstance(corps, list):
+                if not diag["fait"]:
+                    diag["fait"] = True
+                    requete = reponse.url.split("?", 1)[1][:160] if "?" in reponse.url else ""
+                    forme = (f"liste de {len(corps)}" if isinstance(corps, list)
+                             else f"dict cles={list(corps)[:8]}" if isinstance(corps, dict)
+                             else type(corps).__name__)
+                    print(f"[{bookmaker}] navigateur diag games1x2 : requete={requete} | corps={forme} | liga={liga}")
+                # CORRECTION : accepte aussi une reponse enveloppee dans un dict.
+                if isinstance(corps, dict):
+                    for cle in ("Value", "value", "items", "games", "data", "result"):
+                        interne = corps.get(cle)
+                        if isinstance(interne, dict):
+                            interne = interne.get("items") or interne.get("games") or interne.get("data")
+                        if isinstance(interne, list):
+                            corps = interne
+                            break
+                if liga is not None and isinstance(corps, list):
                     recus.setdefault(liga, []).extend(corps)
             except Exception:
                 pass
@@ -80,6 +100,7 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
         page.on("response", lambda r: asyncio.ensure_future(lire(r)))
 
         for liga in ids:
+            courant["liga"] = liga
             for chemin in (f"/fr/line/football/{liga}", f"/fr/line/football/{liga}-x"):
                 try:
                     await page.goto(base + chemin, timeout=45000, wait_until="domcontentloaded")
