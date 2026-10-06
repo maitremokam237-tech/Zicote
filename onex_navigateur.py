@@ -34,7 +34,9 @@ def id_depuis_url(url):
         ms = parse_qs(urlparse(url).query).get("selectedMs", [""])[0]
     except Exception:
         return None
-    m = re.match(r"^\d+\.\d+\.(\d+)$", ms)
+    # CORRECTION : selectedMs peut contenir plusieurs entrees separees par des
+    # virgules ("1.1.<id>,2.1.<id>,10.1.<id>") : on lit l'id de la premiere.
+    m = re.match(r"^\d+\.\d+\.(\d+)(?:,|$)", ms)
     return m.group(1) if m else None
 
 
