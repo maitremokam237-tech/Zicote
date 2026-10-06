@@ -12,6 +12,7 @@ Test en ligne de commande (Termux) :
 """
 import asyncio
 import datetime
+import time
 import os
 import sys
 
@@ -159,8 +160,18 @@ def _get(base, endpoint, params, proxy, nom, extra_headers=None):
     headers = {"User-Agent": UA, "Accept": "application/json",
                "Referer": base + "/fr/line/football"}
     headers.update(extra_headers or {})
-    r = requests.get(base + endpoint, params=params, proxies=proxies, timeout=25,
-                     headers=headers)
+    # CORRECTION : 3 tentatives sur erreur reseau/SSL transitoire (ex. SSLEOFError via
+    # le proxy), pour eviter le repli lent sur Chromium (jusqu'a 4 minutes).
+    r = None
+    for tentative in range(3):
+        try:
+            r = requests.get(base + endpoint, params=params, proxies=proxies,
+                             timeout=25, headers=headers)
+            break
+        except requests.exceptions.RequestException:
+            if tentative == 2:
+                raise
+            time.sleep(2 * (tentative + 1))
     if r.status_code != 200:
         print(f"[{nom}] API {endpoint.rsplit('/', 1)[-1]} statut {r.status_code} "
               f"(params: {sorted(params)}) corps: {r.text[:150]!r}")
@@ -498,3 +509,4 @@ if __name__ == "__main__":
     if res:
         import json
         print(json.dumps(res[0], ensure_ascii=False, indent=2)[:1800])
+
