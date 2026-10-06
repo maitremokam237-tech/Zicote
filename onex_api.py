@@ -160,7 +160,8 @@ def _get(base, endpoint, params, proxy, nom):
                      headers={"User-Agent": UA, "Accept": "application/json",
                               "Referer": base + "/fr/line/football"})
     if r.status_code != 200:
-        print(f"[{nom}] API {endpoint.rsplit('/', 1)[-1]} statut {r.status_code}")
+        print(f"[{nom}] API {endpoint.rsplit('/', 1)[-1]} statut {r.status_code} "
+              f"(params: {sorted(params)}) corps: {r.text[:150]!r}")
         return None
     return r.json().get("Value") or []
 
@@ -206,6 +207,38 @@ def lister_championnats(base, proxy, nom):
     return champs
 
 
+def _evenements_championnats(base, proxy, nom, ids):
+    """Evenements des championnats `ids`. L'API refuse (406) certaines
+    combinaisons de parametres : on essaie plusieurs variantes sur le premier
+    lot et on garde celle qui repond 200."""
+    variantes = [
+        lambda lot: _params(100, champs=lot),
+        lambda lot: {"sports": 1, "champs": lot, "count": 100, "lng": "fr"},
+        lambda lot: {"sports": 1, "champs": lot, "count": 100, "lng": "fr", "mode": 4,
+                     "tf": 2200000, "tz": 1},
+        lambda lot: {"sport": 1, "champs": lot, "count": 100, "lng": "fr", "mode": 4},
+        lambda lot: {"sports": 1, "champ": lot, "count": 100, "lng": "fr", "mode": 4},
+    ]
+    choix = None
+    sortie = []
+    for i in range(0, len(ids), 8):
+        lot = ",".join(ids[i:i + 8])
+        essais = [choix] if choix is not None else range(len(variantes))
+        for v in essais:
+            try:
+                res = _get(base, ENDPOINT, variantes[v](lot), proxy, nom)
+            except Exception as e:
+                print(f"[{nom}] variante {v} : {type(e).__name__}")
+                res = None
+            if res is not None:
+                if choix is None:
+                    print(f"[{nom}] variante de requete retenue pour les championnats : {v}")
+                choix = v
+                sortie += res
+                break
+    return sortie
+
+
 def fetch_events(bookmaker, proxy=None, count=COUNT):
     base = ALL_DOMAINS[bookmaker]
     evenements = _get(base, ENDPOINT, _params(count), proxy, bookmaker)
@@ -222,28 +255,26 @@ def fetch_events(bookmaker, proxy=None, count=COUNT):
         deja = {e.get("LI") for e in evenements}
         ids = [str(c["LI"]) for c in champs if c["LI"] not in deja]
         print(f"[{bookmaker}] {len(champs)} championnats prioritaires, {len(ids)} a charger en plus")
-        for i in range(0, len(ids), 8):
-            lot = _get(base, ENDPOINT, _params(100, champs=",".join(ids[i:i + 8])), proxy, bookmaker)
-            nouveaux = 0
-            for e in lot or []:
-                if e.get("I") not in vus:
-                    vus.add(e.get("I"))
-                    evenements.append(e)
-                    nouveaux += 1
-            print(f"[{bookmaker}] lot {i // 8 + 1} : {len(lot or [])} recus, {nouveaux} nouveaux, "
-                  f"championnats: {sorted({str(e.get('LE')) for e in (lot or [])})[:6]}")
+        nouveaux = 0
+        for e in _evenements_championnats(base, proxy, bookmaker, ids):
+            if e.get("I") not in vus:
+                vus.add(e.get("I"))
+                evenements.append(e)
+                nouveaux += 1
+        print(f"[{bookmaker}] {nouveaux} evenements ajoutes par championnat")
     except Exception as e:
         print(f"[{bookmaker}] pagination par championnat ignoree : {type(e).__name__}: {e}")
     return base, evenements
 
 
 def index_evenements(events):
-    """{id evenement 1xBet: infos d'identification} pour corriger des noms."""
+    """{identifiant: infos} pour corriger des noms. On indexe TOUS les champs
+    numeriques d'un evenement (l'id de l'URL du site n'est pas forcement 'I')."""
     out = {}
     for ev in events:
-        if ev.get("I") is None or not ev.get("O1") or not ev.get("O2"):
+        if not ev.get("O1") or not ev.get("O2"):
             continue
-        out[str(ev["I"])] = {
+        info = {
             "equipe_1": str(ev["O1"]).strip(), "equipe_2": str(ev["O2"]).strip(),
             "equipe_1_en": str(ev["O1E"]).strip() if ev.get("O1E") else None,
             "equipe_2_en": str(ev["O2E"]).strip() if ev.get("O2E") else None,
@@ -252,7 +283,43 @@ def index_evenements(events):
             "competition_en": str(ev["LE"]).strip() if ev.get("LE") else None,
             "competition_id": ev.get("LI"),
         }
+        for cle, val in ev.items():
+            if isinstance(val, int) and not isinstance(val, bool) and val >= 1_000_000 \
+                    and cle not in ("S", "LI"):
+                out.setdefault(str(val), info)
     return out
+
+
+def _mots(texte):
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", str(texte or "")).lower()
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return " ".join(re.findall(r"[a-z0-9]+", t))
+
+
+def trouver_par_nom(url, evenements):
+    """Repli : relie un match 1xBet a l'API par le slug de l'URL
+    (ex. 'galatasaray-barcelona') et les noms anglais O1E/O2E."""
+    import difflib
+    import re
+    r = re.search(r"/(\d+)-[^/]*/(\d+)-([^/?]+)/?$", url or "")
+    if not r:
+        return None
+    slug = _mots(r.group(3).replace("-", " "))
+    meilleur, score = None, 0.0
+    for ev in evenements:
+        o1 = ev.get("O1E") or ev.get("O1") or ""
+        o2 = ev.get("O2E") or ev.get("O2") or ""
+        cible = _mots(f"{o1} {o2}")
+        sc = difflib.SequenceMatcher(None, slug, cible).ratio()
+        if sc > score:
+            meilleur, score = ev, sc
+    if meilleur is not None and score >= 0.8:
+        return index_evenements([meilleur]).get(next(
+            (str(v) for k, v in meilleur.items() if isinstance(v, int) and v >= 1_000_000
+             and k not in ("S", "LI")), ""))
+    return None
 
 
 def enrichir_1xbet_sync(matches, proxy=None):
@@ -265,18 +332,22 @@ def enrichir_1xbet_sync(matches, proxy=None):
         try:
             champs = [c for c in lister_championnats(base, proxy, "1xbet") if priorite(c["LE"], c["L"]) == 0]
             ids = [str(c["LI"]) for c in champs]
-            for i in range(0, len(ids), 8):
-                evenements += _get(base, ENDPOINT, _params(100, champs=",".join(ids[i:i + 8])), proxy, "1xbet") or []
+            evenements += _evenements_championnats(base, proxy, "1xbet", ids)
         except Exception:
             pass
         idx = index_evenements(evenements)
+        brut = evenements
     except Exception as e:
         print(f"[1xbet] enrichissement API impossible : {type(e).__name__}: {e}")
         return matches
-    corriges = 0
+    corriges = par_nom = 0
     for m in matches:
         r = re.search(r"/(\d+)-[^/]*/?$", (m.get("url") or "").split("?")[0])
         info = idx.get(r.group(1)) if r else None
+        if not info:
+            info = trouver_par_nom(m.get("url"), brut)
+            if info:
+                par_nom += 1
         if not info:
             continue
         corriges += 1
@@ -286,7 +357,11 @@ def enrichir_1xbet_sync(matches, proxy=None):
     if not corriges:
         ex = [m.get("url", "")[-50:] for m in matches[:2]]
         print(f"[1xbet] diagnostic : urls {ex} ; ids API {list(idx)[:3]}")
+        if brut:
+            print(f"[1xbet] champs d'un evenement API : "
+                  f"{ {k: v for k, v in brut[0].items() if not isinstance(v, (list, dict))} }")
     print(f"[1xbet] {corriges}/{len(matches)} matchs corriges via l'API "
+          f"(dont {par_nom} par le nom) "
           f"({len(idx)} evenements connus)")
     return matches
 

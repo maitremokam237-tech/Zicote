@@ -110,6 +110,21 @@ ALIAS_EN = {
     "turkiye": "turkey", "czechia": "czech republic", "cabo verde": "cape verde",
     "korea republic": "south korea", "usa": "united states",
     "ir iran": "iran", "cote divoire": "ivory coast",
+    # Noms de clubs traduits mot a mot en francais (1win...) -> nom usuel anglais
+    "ville d ipswich": "ipswich town", "ville dipswich": "ipswich town",
+    "ville de hull": "hull city", "ville de coventry": "coventry city",
+    "ville de leicester": "leicester city", "ville de norwich": "norwich city",
+    "ville de cardiff": "cardiff city", "ville de stoke": "stoke city",
+    "ville de swansea": "swansea city", "ville de bristol": "bristol city",
+    "ville de birmingham": "birmingham city", "ville de derby": "derby county",
+    "ville de manchester": "manchester city", "ville de sheffield": "sheffield",
+    "palais de cristal": "crystal palace", "foret de nottingham": "nottingham forest",
+    "espagnol": "espanyol", "naples": "napoli", "genes": "genoa", "come": "como",
+    "bologne": "bologna", "turin": "torino", "parme": "parma", "milan": "milan",
+    "francfort": "frankfurt", "cologne": "koln", "barcelone": "barcelona",
+    "seville": "sevilla", "cadix": "cadiz", "la corogne": "la coruna",
+    "deportivo la corogne": "deportivo la coruna", "bale": "basel",
+    "moenchengladbach": "monchengladbach", "munich": "munich",
 }
 
 _PAYS_TRIES = sorted(PAYS_FR_EN, key=len, reverse=True)
