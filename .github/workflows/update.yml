@@ -48,6 +48,12 @@ jobs:
         run: |
           python scraper.py
 
+      - name: Update club logos (Sportmonks)
+        env:
+          SPORTMONKS_TOKEN: ${{ secrets.SPORTMONKS_TOKEN }}
+        run: |
+          python maj_logos_clubs.py
+
       - name: Add BetPawa logo to match template
         run: |
           python ajouter_logo_betpawa.py
@@ -85,6 +91,8 @@ jobs:
             megapari.json \
             melbet.json \
             winwin.json \
+            logos_clubs.json \
+            logos_clubs_introuvables.json \
             docs/
 
           if git diff --cached --quiet; then
