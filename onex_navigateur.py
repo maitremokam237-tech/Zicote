@@ -42,6 +42,7 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
     base = DOMAINS[bookmaker]
     ids = ids_a_charger(api_result)
     recus = {}   # id championnat -> liste de matchs (format v3)
+    vus_api = {}  # DIAGNOSTIC : (fragment d'URL, statut) -> nombre d'appels
 
     context = await browser.new_context(
         viewport={"width": 390, "height": 844}, locale="fr-FR",
@@ -60,6 +61,11 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
 
         async def lire(reponse):
             try:
+                # DIAGNOSTIC : on note les appels de donnees vus, pour savoir si le
+                # site a change d'URL quand "0 match(s)" revient pour tous les championnats.
+                if any(k in reponse.url for k in ("line-feed", "LineFeed", "games1x2", "/service-api/")):
+                    cle = (reponse.url.split("?")[0].split("/service-api/")[-1][:60], reponse.status)
+                    vus_api[cle] = vus_api.get(cle, 0) + 1
                 if "games1x2" not in reponse.url:
                     return
                 liga = id_depuis_url(reponse.url)
@@ -90,6 +96,12 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
                   f"{len(recus.get(liga, []))} match(s)")
     finally:
         await context.close()
+        if vus_api and not recus:
+            print(f"[{bookmaker}] navigateur : aucun games1x2 exploitable. Appels vus : "
+                  + "; ".join(f"{k[0]} -> {k[1]} x{v}" for k, v in list(vus_api.items())[:12]))
+        elif not vus_api:
+            print(f"[{bookmaker}] navigateur : aucun appel de donnees detecte "
+                  "(page bloquee ? proxy ? Cloudflare ?)")
 
     evenements = []
     for jeux in recus.values():
@@ -102,3 +114,4 @@ def fusionner(api_result, extra):
     deja = {(m["equipe_1"], m["equipe_2"]) for m in api_result}
     ajout = [m for m in extra if (m["equipe_1"], m["equipe_2"]) not in deja]
     return api_result + ajout, len(ajout)
+
