@@ -42,7 +42,7 @@ jobs:
           WEBSHARE_PASSWORD: ${{ secrets.WEBSHARE_PASSWORD }}
           BUDGET_DECOUVERTE: "480"
           ONEX_COUNT: "300"
-          ONEX_MAX_MATCHES: "120"
+          ONEX_MAX_MATCHES: "250"
           MAX_MATCHES_PER_SITE: "50"
           BETPAWA_MAX_MATCHES: "80"
         run: |
