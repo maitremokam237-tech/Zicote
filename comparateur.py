@@ -6,6 +6,7 @@ import unicodedata
 from pathlib import Path
 
 from appariement import premier_de_groupe, regrouper
+from logos import logo_equipe
 
 
 # ============================================================
@@ -547,6 +548,24 @@ def build():
             "competition":
                 premier_de_groupe(group, "competition"),
 
+            "equipe_1_en":
+                premier_de_groupe(group, "equipe_1_en"),
+
+            "equipe_2_en":
+                premier_de_groupe(group, "equipe_2_en"),
+
+            "logo_1":
+                logo_equipe(
+                    premier_de_groupe(group, "equipe_1_en"),
+                    premier_de_groupe(group, "equipe_1"),
+                ),
+
+            "logo_2":
+                logo_equipe(
+                    premier_de_groupe(group, "equipe_2_en"),
+                    premier_de_groupe(group, "equipe_2"),
+                ),
+
             "debut":
                 premier_de_groupe(group, "debut"),
 
@@ -593,5 +612,6 @@ def build():
 if __name__ == "__main__":
 
     build()
+
 
 
