@@ -124,15 +124,32 @@ async def scrape_onex_navigateur(browser, proxy, bookmaker, api_result, limit=25
             print(f"[{bookmaker}] navigateur : aucun appel de donnees detecte "
                   "(page bloquee ? proxy ? Cloudflare ?)")
 
-    evenements = []
+    # CORRECTION : une meme reponse peut etre captee plusieurs fois (rechargement,
+    # reponse tardive attribuee au championnat suivant) -> on dedoublonne par
+    # identifiant d'evenement avant de construire les matchs.
+    evenements, vus = [], set()
     for jeux in recus.values():
-        evenements += [convertir_jeu_v3(g) for g in jeux if isinstance(g, dict)]
+        for g in jeux:
+            if not isinstance(g, dict):
+                continue
+            cle = g.get("id")
+            if cle is not None:
+                if cle in vus:
+                    continue
+                vus.add(cle)
+            evenements.append(convertir_jeu_v3(g))
     return build_matches(bookmaker, evenements, base, limit)
 
 
 def fusionner(api_result, extra):
     """Ajoute les matchs de `extra` absents de `api_result` (meme affiche)."""
     deja = {(m["equipe_1"], m["equipe_2"]) for m in api_result}
-    ajout = [m for m in extra if (m["equipe_1"], m["equipe_2"]) not in deja]
+    ajout = []
+    for m in extra:
+        cle = (m["equipe_1"], m["equipe_2"])
+        if cle in deja:      # CORRECTION : dedoublonne aussi `extra` lui-meme
+            continue
+        deja.add(cle)
+        ajout.append(m)
     return api_result + ajout, len(ajout)
 
