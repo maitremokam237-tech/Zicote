@@ -14,6 +14,7 @@ from playwright.async_api import async_playwright
 from betpawa import scrape_betpawa
 from onex_api import DOMAINS as ONEX_DOMAINS, enrichir_1xbet, scrape_onex
 from win_api import sonder as sonder_api_1win
+from onex_navigateur import fusionner, scrape_onex_navigateur
 from win_ws import brancher_websocket, collecter_reponse_api, construire_matchs
 
 from config import (
@@ -1640,6 +1641,9 @@ BUDGET_DECOUVERTE = int(os.getenv("BUDGET_DECOUVERTE", "240"))
 BUDGET_SITE = int(os.getenv("BUDGET_SITE", "1200"))
 
 
+ONEX_SITE_NAVIGATEUR = os.getenv("ONEX_SITE_NAVIGATEUR", "melbet")
+
+
 async def run_bookmakers(browser):
     """Scrape les bookmakers avec un seul proxy Webshare partagé."""
     sites = [b for b in BOOKMAKERS_LIST if b not in ("1win", "betpawa")]
@@ -1661,6 +1665,15 @@ async def run_bookmakers(browser):
         except Exception as error:
             print(f"[{bookmaker}] API indisponible ({error}), repli sur Chromium")
             continue
+        if api_result and bookmaker == ONEX_SITE_NAVIGATEUR and not os.getenv("ONEX_NO_BROWSER"):
+            # Matchs des grands championnats : l'API par championnat n'est accessible
+            # que depuis le navigateur (en-tete x-hd). Un seul site suffit : meme plateforme.
+            try:
+                extra = await scrape_onex_navigateur(browser, proxy, bookmaker, api_result)
+                api_result, n = fusionner(api_result, extra)
+                print(f"[{bookmaker}] +{n} match(s) via le navigateur ({len(api_result)} au total)")
+            except Exception as error:
+                print(f"[{bookmaker}] lecture navigateur impossible : {type(error).__name__}: {error}")
         if api_result:
             sauver_resultat(bookmaker, api_result)
             sites.remove(bookmaker)

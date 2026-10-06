@@ -154,11 +154,13 @@ def build_matches(bookmaker, events, base, limit):
     return [m for _, m in out[:min(limit, MAX_GARDES)]]
 
 
-def _get(base, endpoint, params, proxy, nom):
+def _get(base, endpoint, params, proxy, nom, extra_headers=None):
     proxies = {"http": proxy, "https": proxy} if proxy else None
-    r = requests.get(base + endpoint, params=params, proxies=proxies, timeout=40,
-                     headers={"User-Agent": UA, "Accept": "application/json",
-                              "Referer": base + "/fr/line/football"})
+    headers = {"User-Agent": UA, "Accept": "application/json",
+               "Referer": base + "/fr/line/football"}
+    headers.update(extra_headers or {})
+    r = requests.get(base + endpoint, params=params, proxies=proxies, timeout=25,
+                     headers=headers)
     if r.status_code != 200:
         print(f"[{nom}] API {endpoint.rsplit('/', 1)[-1]} statut {r.status_code} "
               f"(params: {sorted(params)}) corps: {r.text[:150]!r}")
@@ -247,19 +249,37 @@ def convertir_jeu_v3(g):
     return ev
 
 
+# En-tetes que le site envoie depuis le navigateur. Ajustables sans toucher au
+# code via ONEX_HEADERS='{"nom": "valeur"}' (copies depuis "Copy as cURL").
+EN_TETES_NAVIGATEUR = {
+    "Accept": "*/*", "Accept-Language": "fr-FR,fr;q=0.9",
+    "X-Requested-With": "XMLHttpRequest",
+    "x-app-n": "__BETTING_APP__", "x-svc-source": "__BETTING_APP__",
+}
+
+
 def _evenements_championnat_v3(base, proxy, nom, liga_id, etat):
     """Matchs d'UN championnat par l'API officielle du site (selectedMs=2.1.<id>)."""
+    import json as _json
     commun = {"cfView": 3, "countryFirst": "true", "grMode": 4, "lng": "fr",
               "selectedMs": f"2.1.{liga_id}"}
+    avec_ref = {**commun, "count": 50, "gr": 2364, "ref": 192, "fcountry": 84}
+    perso = {}
+    try:
+        perso = _json.loads(os.getenv("ONEX_HEADERS", "") or "{}")
+    except ValueError:
+        pass
     variantes = [
-        {**commun, "count": 100},
-        {**commun, "count": 50},
-        {**commun, "count": 50, "gr": 2364, "ref": 192, "fcountry": 84},
+        ({**commun, "count": 50}, None),
+        (avec_ref, None),
+        ({**commun, "count": 50}, {**EN_TETES_NAVIGATEUR, **perso}),
+        (avec_ref, {**EN_TETES_NAVIGATEUR, **perso}),
     ]
     essais = [etat["v"]] if etat.get("v") is not None else range(len(variantes))
     for v in essais:
+        params, entetes = variantes[v]
         try:
-            res = _get(base, ENDPOINT_V3, variantes[v], proxy, nom)
+            res = _get(base, ENDPOINT_V3, params, proxy, nom, entetes)
         except Exception as e:
             print(f"[{nom}] championnat {liga_id} variante {v} : {type(e).__name__}")
             res = None
@@ -274,6 +294,10 @@ def _evenements_championnats(base, proxy, nom, ids):
     sortie = []
     for liga_id in ids:
         sortie += _evenements_championnat_v3(base, proxy, nom, liga_id, etat)
+        if etat.get("v") is None:
+            # Aucune variante n'est acceptee : inutile d'insister sur les autres championnats.
+            print(f"[{nom}] API par championnat refusee, abandon (voir messages ci-dessus)")
+            break
     if etat.get("v") is not None:
         print(f"[{nom}] API par championnat : variante {etat['v']} retenue, {len(sortie)} matchs")
     return sortie
@@ -290,6 +314,8 @@ def fetch_events(bookmaker, proxy=None, count=COUNT):
     # L'API plafonne a ~50 evenements par appel : on va chercher, championnat
     # par championnat, ceux de la liste prioritaire commune (championnats.py).
     try:
+        if not os.getenv("ONEX_HTTP_CHAMPS"):
+            return base, evenements   # refusee sans l'en-tete x-hd : voir onex_navigateur.py
         champs = [c for c in lister_championnats(base, proxy, bookmaker)
                   if priorite(c["LE"], c["L"]) == 0]
         deja = {e.get("LI") for e in evenements}
@@ -376,6 +402,8 @@ def enrichir_1xbet_sync(matches, proxy=None):
     try:
         evenements = _get(base, ENDPOINT, _params(300), proxy, "1xbet") or []
         try:
+            if not os.getenv("ONEX_HTTP_CHAMPS"):
+                raise RuntimeError("API par championnat reservee au navigateur")
             champs = [c for c in lister_championnats(base, proxy, "1xbet") if priorite(c["LE"], c["L"]) == 0]
             ids = [str(c["LI"]) for c in champs]
             evenements += _evenements_championnats(base, proxy, "1xbet", ids)
