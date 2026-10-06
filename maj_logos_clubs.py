@@ -48,7 +48,7 @@ def _lire(chemin):
 
 
 # Equipes de jeunes, feminines ou reserves : rarement dans TheSportsDB, on ne gaspille pas le quota.
-HORS_CIBLE = re.compile(r"\bu ?(1[5-9]|2[0-3])\b|\bwomen\b|\(w\)|\bw$|\bii$|\biii$|\bres$|reserves?", re.I)
+HORS_CIBLE = re.compile(r"\bu ?(1[5-9]|2[0-3])\b|\bwomen\b|\byouth\b|\bjuniors?\b|\(w\)|\bw$|\bii$|\biii$|\bres$|reserves?", re.I)
 
 
 def equipes_a_traiter():
@@ -217,4 +217,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
