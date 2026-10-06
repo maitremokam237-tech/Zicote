@@ -1,3 +1,4 @@
+
 """BetPawa Cameroun — lecture de l'API sportsbook (pas de scraping d'écran).
 
 La page betpawa.cm est une application Next.js : les matchs viennent de
@@ -130,10 +131,36 @@ def parse_1x2(event):
 LINE_KEYS = ("handicap", "line", "total", "value", "specialValue", "points")
 
 
+def _ligne_valide(line):
+    return 0.5 <= line <= 12 and (line * 4) == int(line * 4)
+
+
 def _line_of(row, price):
     """Ligne (ex. 2.5) d'une cote Plus/Moins. Renvoie None si elle ne
-    peut pas être identifiée avec certitude : mieux vaut ne rien
-    afficher que d'attribuer une cote à la mauvaise ligne."""
+    peut pas etre identifiee avec certitude : mieux vaut ne rien
+    afficher que d'attribuer une cote a la mauvaise ligne.
+
+    CORRECTION : l'API betpawa donne la valeur numerique en QUARTS de but
+    (2 -> 0.5, 6 -> 1.5, 10 -> 2.5, 14 -> 3.5). L'ancienne version la
+    prenait telle quelle, d'ou des lignes fausses (2, 6, 10) et l'absence
+    de la ligne 2.5. On lit donc d'abord le libelle (\"Plus de 2.5\"),
+    puis, a defaut, la valeur numerique divisee par 4.
+    """
+    # 1) Libelle du type "Plus de 2.5"
+    for holder in (price, row):
+        if not isinstance(holder, dict):
+            continue
+        for cle in ("displayName", "name", "label", "title"):
+            texte = holder.get(cle)
+            if not isinstance(texte, str):
+                continue
+            trouve = re.search(r"(\d+(?:[.,]\d+)?)", texte)
+            if trouve:
+                line = float(trouve.group(1).replace(",", "."))
+                if _ligne_valide(line):
+                    return line
+
+    # 2) Valeur numerique (en quarts de but)
     sources = []
     for holder in (price.get("additionalInfo"), row.get("additionalInfo"), row, price):
         if isinstance(holder, dict):
@@ -142,20 +169,13 @@ def _line_of(row, price):
         for key in LINE_KEYS:
             if key in src and isinstance(src[key], (str, int, float)):
                 try:
-                    line = float(str(src[key]).replace(",", "."))
+                    brut = float(str(src[key]).replace(",", "."))
                 except ValueError:
                     continue
-                if line > 20:        # ex. 250 pour 2.5
-                    line /= 100
-                if 0.5 <= line <= 12 and (line * 4) == int(line * 4):
-                    return line
-    # Libellé du type "Plus de 2.5"
-    label = f"{price.get('displayName', '')} {price.get('name', '')}"
-    found = re.search(r"(\d+(?:[.,]\d+)?)", label)
-    if found:
-        line = float(found.group(1).replace(",", "."))
-        if 0.5 <= line <= 12 and (line * 4) == int(line * 4):
-            return line
+                if brut == int(brut) and brut > 0:
+                    line = brut / 4
+                    if _ligne_valide(line):
+                        return line
     return None
 
 
@@ -315,4 +335,5 @@ async def scrape_betpawa(browser, proxy=None):
                 await context.close()
             except Exception:
                 pass
+
 
