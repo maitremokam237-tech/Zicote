@@ -1,547 +1,19 @@
 [
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Russie",
-    "equipe_2": "Nigeria",
-    "1X2": {
-      "V1": "1.616",
-      "X": "4.15",
-      "V2": "6.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.014",
-      "Moins de": "1.909"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:00:00+00:00",
-    "competition": "Matchs amicaux. Équipes nationales",
-    "competition_en": "Friendlies. National Teams",
-    "competition_id": 125983,
-    "equipe_1_en": "Russia",
-    "equipe_2_en": "Nigeria",
-    "Double_Chance": {
-      "1X": "1.147",
-      "12": "1.274",
-      "2X": "2.458"
-    },
-    "BTTS": {
-      "Non": "1.75",
-      "Oui": "1.97"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.909",
-        "Plus de": "2.014"
-      },
-      "1.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.2"
-      },
-      "2": {
-        "Plus de": "1.43",
-        "Moins de": "2.5"
-      },
-      "3": {
-        "Plus de": "2.59",
-        "Moins de": "1.4"
-      },
-      "3.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.547",
-      "1 (-1.5)": "2.673",
-      "1 (0)": "1.149",
-      "2 (0)": "4.25",
-      "1 (-1)": "1.93",
-      "2 (+1)": "1.8",
-      "1 (-2)": "4.05",
-      "2 (+2)": "1.165",
-      "1 (-2.5)": "4.85",
-      "2 (+2.5)": "1.113"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Allemagne U21",
-    "equipe_2": "Géorgie U21",
-    "1X2": {
-      "V1": "1.031",
-      "X": "12.2",
-      "V2": "30"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:00:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Germany U21",
-    "equipe_2_en": "Georgia U21",
-    "Double_Chance": {
-      "1X": "1.008",
-      "12": "1.03",
-      "2X": "8.7"
-    },
-    "BTTS": {
-      "Non": "1.608",
-      "Oui": "2.18"
-    },
-    "Totals": {
-      "4.5": {
-        "Moins de": "1.54",
-        "Plus de": "2.19"
-      },
-      "3.5": {
-        "Plus de": "1.56",
-        "Moins de": "2.31"
-      },
-      "4": {
-        "Plus de": "1.8",
-        "Moins de": "1.83"
-      },
-      "5": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
-      },
-      "5.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (-2.5)": "1.56",
-      "2 (+2.5)": "2.15",
-      "1 (-1.5)": "1.193",
-      "2 (+1.5)": "3.74",
-      "1 (-2)": "1.28",
-      "2 (+2)": "3.08",
-      "1 (-3)": "1.89",
-      "2 (+3)": "1.82",
-      "1 (-3.5)": "2.26",
-      "2 (+3.5)": "1.51"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Irlande du Nord U21",
-    "equipe_2": "Grèce U21",
-    "1X2": {
-      "V2": "1.23",
-      "X": "5.8",
-      "V1": "10.7"
-    },
-    "Total_2.5": {
-      "Plus de": "1.56",
-      "Moins de": "2.31"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:00:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Northern Ireland U21",
-    "equipe_2_en": "Greece U21",
-    "Double_Chance": {
-      "2X": "1.008",
-      "12": "1.095",
-      "1X": "3.78"
-    },
-    "BTTS": {
-      "Non": "1.7",
-      "Oui": "2.03"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.56",
-        "Moins de": "2.31"
-      },
-      "1.5": {
-        "Plus de": "1.125",
-        "Moins de": "4.65"
-      },
-      "2": {
-        "Plus de": "1.2",
-        "Moins de": "3.7"
-      },
-      "3": {
-        "Plus de": "1.86",
-        "Moins de": "1.77"
-      },
-      "3.5": {
-        "Plus de": "2.375",
-        "Moins de": "1.46"
-      }
-    },
-    "Handicap": {
-      "2 (-1.5)": "1.71",
-      "1 (+1.5)": "1.92",
-      "1 (0)": "8.4",
-      "2 (0)": "1.014",
-      "2 (-1)": "1.35",
-      "1 (+1)": "2.96",
-      "2 (-2)": "2.24",
-      "1 (+2)": "1.52",
-      "2 (-2.5)": "2.81",
-      "1 (+2.5)": "1.333"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Lettonie Moins de 21 ans",
-    "equipe_2": "Malte U21",
-    "1X2": {
-      "V1": "1.29",
-      "X": "5.1",
-      "V2": "9.25"
-    },
-    "Total_2.5": {
-      "Plus de": "1.56",
-      "Moins de": "2.15"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:00:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Latvia U21",
-    "equipe_2_en": "Malta U21",
-    "Double_Chance": {
-      "1X": "1.024",
-      "12": "1.125",
-      "2X": "3.3"
-    },
-    "BTTS": {
-      "Non": "1.761",
-      "Oui": "1.95"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.56",
-        "Moins de": "2.15"
-      },
-      "1.5": {
-        "Plus de": "1.141",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
-      },
-      "3": {
-        "Plus de": "1.94",
-        "Moins de": "1.7"
-      },
-      "3.5": {
-        "Plus de": "2.54",
-        "Moins de": "1.47"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.83",
-      "1 (-1.5)": "1.88",
-      "1 (0)": "1.037",
-      "2 (0)": "7.1",
-      "1 (-1)": "1.42",
-      "2 (+1)": "2.49",
-      "1 (-2)": "2.49",
-      "2 (+2)": "1.42",
-      "1 (-2.5)": "3.14",
-      "2 (+2.5)": "1.27"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Bulgarie U21",
-    "equipe_2": "Ecosse U21",
-    "1X2": {
-      "V1": "2.48",
-      "V2": "2.71",
-      "X": "3.18"
-    },
-    "Total_2.5": {
-      "Plus de": "2.06",
-      "Moins de": "1.7"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:30:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Bulgaria U21",
-    "equipe_2_en": "Scotland U21",
-    "Double_Chance": {
-      "12": "1.3",
-      "1X": "1.4",
-      "2X": "1.47"
-    },
-    "BTTS": {
-      "Oui": "1.79",
-      "Non": "1.916"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.7",
-        "Plus de": "2.06"
-      },
-      "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
-      },
-      "2": {
-        "Plus de": "1.51",
-        "Moins de": "2.27"
-      },
-      "3": {
-        "Plus de": "2.89",
-        "Moins de": "1.32"
-      },
-      "3.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.78",
-      "2 (0)": "1.94",
-      "1 (-1)": "4.2",
-      "2 (-1)": "4.85",
-      "1 (+1)": "1.113",
-      "2 (+1)": "1.153",
-      "1 (-1.5)": "5.25",
-      "2 (-1.5)": "5.9",
-      "1 (+1.5)": "1.068",
-      "2 (+1.5)": "1.094"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Danemark U21",
-    "equipe_2": "Belgique U21",
-    "1X2": {
-      "V2": "2.55",
-      "V1": "2.6",
-      "X": "3.24"
-    },
-    "Total_2.5": {
-      "Plus de": "2.05",
-      "Moins de": "1.71"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:30:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Denmark U21",
-    "equipe_2_en": "Belgium U21",
-    "Double_Chance": {
-      "12": "1.29",
-      "2X": "1.43",
-      "1X": "1.444"
-    },
-    "BTTS": {
-      "Oui": "1.79",
-      "Non": "1.916"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.71",
-        "Plus de": "2.05"
-      },
-      "1.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "2": {
-        "Plus de": "1.5",
-        "Moins de": "2.29"
-      },
-      "3": {
-        "Plus de": "2.89",
-        "Moins de": "1.32"
-      },
-      "3.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.84",
-      "1 (0)": "1.87",
-      "1 (-1)": "4.55",
-      "2 (-1)": "4.4",
-      "1 (+1)": "1.139",
-      "2 (+1)": "1.129",
-      "1 (-1.5)": "5.6",
-      "2 (-1.5)": "5.45",
-      "1 (+1.5)": "1.085",
-      "2 (+1.5)": "1.079"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Pays de Galles U21",
-    "equipe_2": "Autriche U21",
-    "1X2": {
-      "V2": "1.79",
-      "X": "3.64",
-      "V1": "4.06"
-    },
-    "Total_2.5": {
-      "Plus de": "1.82",
-      "Moins de": "1.909"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:30:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Wales U21",
-    "equipe_2_en": "Austria U21",
-    "Double_Chance": {
-      "2X": "1.193",
-      "12": "1.24",
-      "1X": "1.93"
-    },
-    "BTTS": {
-      "Oui": "1.73",
-      "Non": "1.996"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.82",
-        "Moins de": "1.909"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
-      },
-      "2": {
-        "Plus de": "1.36",
-        "Moins de": "2.71"
-      },
-      "3": {
-        "Plus de": "2.34",
-        "Moins de": "1.48"
-      },
-      "3.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.31",
-      "1 (0)": "2.92",
-      "1 (-1)": "7.5",
-      "2 (-1)": "2.41",
-      "1 (+1)": "1.51",
-      "2 (+1)": "1.028",
-      "1 (-1.5)": "8.4",
-      "2 (-1.5)": "2.97",
-      "1 (+1.5)": "1.3",
-      "2 (+1.5)": "1.014"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Portugal U21",
-    "equipe_2": "République tchèque U21",
-    "1X2": {
-      "V1": "1.36",
-      "X": "4.75",
-      "V2": "7.47"
-    },
-    "Total_2.5": {
-      "Plus de": "1.66",
-      "Moins de": "2.12"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:30:00+00:00",
-    "competition": "Matchs de qualification pour le Championnat d'Europe U21",
-    "competition_en": "UEFA European U21 Championship Qualification",
-    "competition_id": 2286988,
-    "equipe_1_en": "Portugal U21",
-    "equipe_2_en": "Czech Republic U21",
-    "Double_Chance": {
-      "1X": "1.052",
-      "12": "1.143",
-      "2X": "2.9"
-    },
-    "BTTS": {
-      "Non": "1.803",
-      "Oui": "1.9"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.12"
-      },
-      "1.5": {
-        "Plus de": "1.172",
-        "Moins de": "3.96"
-      },
-      "2": {
-        "Plus de": "1.27",
-        "Moins de": "3.16"
-      },
-      "3": {
-        "Plus de": "2.03",
-        "Moins de": "1.64"
-      },
-      "3.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.66",
-      "1 (-1.5)": "1.99",
-      "1 (0)": "1.083",
-      "2 (0)": "5.5",
-      "1 (-1)": "1.56",
-      "2 (+1)": "2.29",
-      "1 (-2)": "2.81",
-      "2 (+2)": "1.333",
-      "1 (-2.5)": "3.42",
-      "2 (+2.5)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
     "equipe_1": "Norvège  U21",
     "equipe_2": "Israёl U21",
     "1X2": {
-      "V1": "1.58",
-      "X": "4.05",
-      "V2": "5.01"
+      "V1": "1.63",
+      "X": "4.23",
+      "V2": "4.53"
     },
     "Total_2.5": {
-      "Plus de": "1.666",
-      "Moins de": "2.11"
+      "Plus de": "1.65",
+      "Moins de": "2.155"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T16:45:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -550,47 +22,47 @@
     "equipe_1_en": "Norway U21",
     "equipe_2_en": "Israel U21",
     "Double_Chance": {
-      "1X": "1.127",
-      "12": "1.193",
-      "2X": "2.25"
+      "1X": "1.184",
+      "12": "1.205",
+      "2X": "2.2"
     },
     "BTTS": {
-      "Oui": "1.7",
-      "Non": "2.038"
+      "Oui": "1.655",
+      "Non": "2.152"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.666",
-        "Moins de": "2.11"
+        "Plus de": "1.65",
+        "Moins de": "2.155"
       },
       "1.5": {
-        "Plus de": "1.161",
-        "Moins de": "4.1"
+        "Plus de": "1.19",
+        "Moins de": "4.34"
       },
       "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.22"
+        "Plus de": "1.285",
+        "Moins de": "3.44"
       },
       "3": {
-        "Plus de": "2.07",
-        "Moins de": "1.615"
+        "Plus de": "2.056",
+        "Moins de": "1.768"
       },
       "3.5": {
-        "Plus de": "2.625",
-        "Moins de": "1.38"
+        "Plus de": "2.525",
+        "Moins de": "1.485"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.41",
-      "1 (-1.5)": "2.52",
-      "1 (0)": "1.188",
-      "2 (0)": "3.8",
-      "1 (-1)": "1.98",
-      "2 (+1)": "1.75",
-      "1 (-2)": "4.1",
-      "2 (+2)": "1.16",
-      "1 (-2.5)": "4.9",
-      "2 (+2.5)": "1.109"
+      "2 (+1.5)": "1.456",
+      "1 (-1.5)": "2.61",
+      "1 (0)": "1.304",
+      "2 (0)": "3.31",
+      "1 (-1)": "2.085",
+      "2 (+1)": "1.744",
+      "1 (-2)": "4.09",
+      "2 (+2)": "1.21",
+      "1 (-2.5)": "4.84",
+      "2 (+2.5)": "1.16"
     }
   },
   {
@@ -598,16 +70,16 @@
     "equipe_1": "Pays-Bas U21",
     "equipe_2": "Bosnie-Herzégovine U21",
     "1X2": {
-      "V1": "1.086",
-      "X": "8.4",
-      "V2": "22"
+      "V1": "1.12",
+      "X": "8.14",
+      "V2": "18.3"
     },
     "Total_2.5": {
-      "Plus de": "1.33",
-      "Moins de": "2.83"
+      "Plus de": "1.365",
+      "Moins de": "2.98"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T16:45:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -617,46 +89,46 @@
     "equipe_2_en": "Bosnia and Herzegovina U21",
     "Double_Chance": {
       "1X": "1.013",
-      "12": "1.035",
-      "2X": "6.1"
+      "12": "1.06",
+      "2X": "5.66"
     },
     "BTTS": {
-      "Non": "1.557",
+      "Non": "1.584",
       "Oui": "2.28"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.79",
-        "Plus de": "1.94"
+        "Moins de": "1.87",
+        "Plus de": "1.93"
       },
       "2.5": {
-        "Plus de": "1.33",
-        "Moins de": "2.83"
+        "Plus de": "1.365",
+        "Moins de": "2.98"
       },
       "3": {
-        "Plus de": "1.51",
-        "Moins de": "2.27"
+        "Plus de": "1.52",
+        "Moins de": "2.43"
       },
       "4": {
-        "Plus de": "2.47",
-        "Moins de": "1.43"
+        "Plus de": "2.43",
+        "Moins de": "1.52"
       },
       "4.5": {
-        "Plus de": "3.04",
-        "Moins de": "1.29"
+        "Plus de": "2.98",
+        "Moins de": "1.365"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.71",
-      "1 (-2.5)": "1.92",
-      "1 (-1.5)": "1.35",
-      "2 (+1.5)": "2.74",
-      "1 (-2)": "1.571",
-      "2 (+2)": "2.27",
-      "1 (-3)": "2.56",
-      "2 (+3)": "1.4",
-      "1 (-3.5)": "3.08",
-      "2 (+3.5)": "1.28"
+      "2 (+2.5)": "1.805",
+      "1 (-2.5)": "2.01",
+      "1 (-1.5)": "1.395",
+      "2 (+1.5)": "2.83",
+      "1 (-2)": "1.565",
+      "2 (+2)": "2.32",
+      "1 (-3)": "2.485",
+      "2 (+3)": "1.5",
+      "1 (-3.5)": "2.944",
+      "2 (+3.5)": "1.37"
     }
   },
   {
@@ -673,7 +145,7 @@
       "Moins de": "2.367"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales",
@@ -716,7 +188,7 @@
       "1 (-1.5)": "1.776",
       "2 (+1.5)": "2.187",
       "1 (0)": "1.025",
-      "2 (0)": "9.3",
+      "2 (0)": "9",
       "1 (-1)": "1.3",
       "2 (+1)": "2.97",
       "1 (-2)": "2.1",
@@ -730,16 +202,16 @@
     "equipe_1": "Jordanie",
     "equipe_2": "Venezuela",
     "1X2": {
-      "V1": "2.182",
-      "X": "3.445",
-      "V2": "3.67"
+      "V1": "2.34",
+      "V2": "3.34",
+      "X": "3.4"
     },
     "Total_2.5": {
-      "Plus de": "2.315",
-      "Moins de": "1.699"
+      "Plus de": "2.325",
+      "Moins de": "1.694"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales",
@@ -748,26 +220,26 @@
     "equipe_1_en": "Jordan",
     "equipe_2_en": "Venezuela",
     "Double_Chance": {
-      "1X": "1.327",
-      "12": "1.359",
-      "2X": "1.762"
+      "12": "1.366",
+      "1X": "1.377",
+      "2X": "1.671"
     },
     "BTTS": {
-      "Non": "1.791",
-      "Oui": "1.92"
+      "Non": "1.813",
+      "Oui": "1.89"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.699",
-        "Plus de": "2.315"
+        "Moins de": "1.694",
+        "Plus de": "2.325"
       },
       "1.5": {
         "Plus de": "1.34",
         "Moins de": "2.78"
       },
       "2": {
-        "Plus de": "1.6",
-        "Moins de": "2.09"
+        "Plus de": "1.61",
+        "Moins de": "2.07"
       },
       "3": {
         "Plus de": "3.22",
@@ -779,16 +251,16 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.562",
-      "2 (0)": "2.629",
-      "1 (-1)": "3.14",
-      "2 (-1)": "7.1",
-      "1 (+1)": "1.036",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "4.1",
-      "2 (-1.5)": "8.4",
-      "1 (+1.5)": "1.014",
-      "2 (+1.5)": "1.16"
+      "1 (0)": "1.679",
+      "2 (0)": "2.354",
+      "1 (-1)": "3.5",
+      "2 (-1)": "6.2",
+      "1 (+1)": "1.059",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.55",
+      "2 (-1.5)": "7.4",
+      "1 (+1.5)": "1.031",
+      "2 (+1.5)": "1.129"
     }
   },
   {
@@ -805,7 +277,7 @@
       "Moins de": "2.28"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -862,16 +334,16 @@
     "equipe_1": "Chypre U21",
     "equipe_2": "Saint-Marin U21",
     "1X2": {
-      "V1": "1.007",
-      "X": "14.2",
-      "V2": "46"
+      "V1": "1.025",
+      "X": "17",
+      "V2": "65"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -881,45 +353,45 @@
     "equipe_2_en": "San Marino U21",
     "Double_Chance": {
       "12": "1.01",
-      "2X": "11"
+      "2X": "17"
     },
     "BTTS": {
-      "Non": "1.292",
-      "Oui": "3.26"
+      "Non": "1.241",
+      "Oui": "3.64"
     },
     "Totals": {
       "4.5": {
-        "Moins de": "1.55",
-        "Plus de": "2.17"
+        "Moins de": "1.66",
+        "Plus de": "1.99"
       },
       "3.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.27"
+        "Plus de": "1.49",
+        "Moins de": "2.48"
       },
       "4": {
-        "Plus de": "1.81",
-        "Moins de": "1.82"
+        "Plus de": "1.66",
+        "Moins de": "2"
       },
       "5": {
-        "Plus de": "2.875",
-        "Moins de": "1.32"
+        "Plus de": "2.56",
+        "Moins de": "1.4"
       },
       "5.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.24"
+        "Plus de": "2.97",
+        "Moins de": "1.3"
       }
     },
     "Handicap": {
-      "2 (+3.5)": "1.78",
-      "1 (-3.5)": "1.94",
-      "1 (-2.5)": "1.39",
-      "2 (+2.5)": "2.59",
-      "1 (-3)": "1.56",
-      "2 (+3)": "2.15",
-      "1 (-4)": "2.41",
-      "2 (+4)": "1.45",
-      "1 (-4.5)": "2.83",
-      "2 (+4.5)": "1.33"
+      "1 (-3.5)": "1.75",
+      "2 (+3.5)": "1.98",
+      "1 (-2.5)": "1.3",
+      "2 (+2.5)": "2.97",
+      "1 (-3)": "1.42",
+      "2 (+3)": "2.49",
+      "1 (-4)": "2.06",
+      "2 (+4)": "1.615",
+      "1 (-4.5)": "2.46",
+      "2 (+4.5)": "1.43"
     }
   },
   {
@@ -936,7 +408,7 @@
       "Moins de": "3.28"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1002,7 +474,7 @@
       "Moins de": "2.3"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1068,7 +540,7 @@
       "Moins de": "2.03"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1125,16 +597,16 @@
     "equipe_1": "Irlande U21",
     "equipe_2": "Angleterre U21",
     "1X2": {
-      "V2": "1.59",
-      "X": "4.05",
-      "V1": "4.92"
+      "V2": "1.66",
+      "X": "3.9",
+      "V1": "4.535"
     },
     "Total_2.5": {
-      "Plus de": "1.62",
-      "Moins de": "2.19"
+      "Plus de": "1.64",
+      "Moins de": "2.16"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1143,47 +615,47 @@
     "equipe_1_en": "Republic of Ireland U21",
     "equipe_2_en": "England U21",
     "Double_Chance": {
-      "2X": "1.132",
-      "12": "1.193",
-      "1X": "2.23"
+      "2X": "1.155",
+      "12": "1.21",
+      "1X": "2.11"
     },
     "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.11"
+      "Oui": "1.63",
+      "Non": "2.142"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.19"
+        "Plus de": "1.64",
+        "Moins de": "2.16"
       },
       "1.5": {
-        "Plus de": "1.145",
-        "Moins de": "4.3"
+        "Plus de": "1.151",
+        "Moins de": "4.25"
       },
       "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.36"
+        "Plus de": "1.25",
+        "Moins de": "3.3"
       },
       "3": {
-        "Plus de": "1.97",
-        "Moins de": "1.68"
+        "Plus de": "2",
+        "Moins de": "1.66"
       },
       "3.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.42"
+        "Plus de": "2.52",
+        "Moins de": "1.41"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.41",
-      "2 (-1.5)": "2.52",
-      "1 (0)": "3.74",
-      "2 (0)": "1.194",
-      "2 (-1)": "1.99",
-      "1 (+1)": "1.74",
-      "2 (-2)": "4.05",
-      "1 (+2)": "1.165",
-      "2 (-2.5)": "4.85",
-      "1 (+2.5)": "1.113"
+      "1 (+1.5)": "1.36",
+      "2 (-1.5)": "2.7",
+      "1 (0)": "3.34",
+      "2 (0)": "1.24",
+      "2 (-1)": "2.12",
+      "1 (+1)": "1.65",
+      "2 (-2)": "4.5",
+      "1 (+2)": "1.134",
+      "2 (-2.5)": "5.3",
+      "1 (+2.5)": "1.092"
     }
   },
   {
@@ -1191,16 +663,16 @@
     "equipe_1": "Kosovo U21",
     "equipe_2": "Finlande U21",
     "1X2": {
-      "V2": "1.75",
-      "X": "3.58",
-      "V1": "4.4"
+      "V2": "1.7",
+      "X": "3.64",
+      "V1": "4.64"
     },
     "Total_2.5": {
-      "Plus de": "1.98",
-      "Moins de": "1.76"
+      "Plus de": "1.94",
+      "Moins de": "1.79"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1209,9 +681,9 @@
     "equipe_1_en": "Kosovo U21",
     "equipe_2_en": "Finland U21",
     "Double_Chance": {
-      "2X": "1.165",
-      "12": "1.25",
-      "1X": "1.98"
+      "2X": "1.149",
+      "12": "1.24",
+      "1X": "2.04"
     },
     "BTTS": {
       "Non": "1.843",
@@ -1219,37 +691,37 @@
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.76",
-        "Plus de": "1.98"
+        "Moins de": "1.79",
+        "Plus de": "1.94"
       },
       "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
+        "Plus de": "1.27",
+        "Moins de": "3.14"
       },
       "2": {
-        "Plus de": "1.46",
-        "Moins de": "2.39"
+        "Plus de": "1.44",
+        "Moins de": "2.44"
       },
       "3": {
-        "Plus de": "2.71",
-        "Moins de": "1.36"
+        "Plus de": "2.64",
+        "Moins de": "1.38"
       },
       "3.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.24"
+        "Plus de": "3.28",
+        "Moins de": "1.25"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.285",
-      "2 (-1.5)": "3.05",
-      "1 (0)": "3.14",
-      "2 (0)": "1.27",
-      "2 (-1)": "2.38",
-      "1 (+1)": "1.52",
-      "2 (-2)": "5.45",
-      "1 (+2)": "1.084",
-      "2 (-2.5)": "6.3",
-      "1 (+2.5)": "1.056"
+      "1 (+1.5)": "1.32",
+      "2 (-1.5)": "2.875",
+      "1 (0)": "3.34",
+      "2 (0)": "1.24",
+      "2 (-1)": "2.27",
+      "1 (+1)": "1.57",
+      "2 (-2)": "5.1",
+      "1 (+2)": "1.101",
+      "2 (-2.5)": "5.9",
+      "1 (+2.5)": "1.068"
     }
   },
   {
@@ -1257,16 +729,16 @@
     "equipe_1": "Lituanie U21",
     "equipe_2": "Croatie U21",
     "1X2": {
-      "V2": "1.206",
-      "X": "6",
-      "V1": "11.9"
+      "V2": "1.25",
+      "X": "5.5",
+      "V1": "10.2"
     },
     "Total_2.5": {
-      "Plus de": "1.47",
-      "Moins de": "2.35"
+      "Plus de": "1.57",
+      "Moins de": "2.29"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1275,47 +747,47 @@
     "equipe_1_en": "Lithuania U21",
     "equipe_2_en": "Croatia U21",
     "Double_Chance": {
-      "2X": "1.004",
-      "12": "1.089",
-      "1X": "4.05"
+      "2X": "1.012",
+      "12": "1.107",
+      "1X": "3.6"
     },
     "BTTS": {
-      "Non": "1.689",
-      "Oui": "2.05"
+      "Non": "1.71",
+      "Oui": "2.02"
     },
     "Totals": {
-      "3.5": {
-        "Moins de": "1.58",
-        "Plus de": "2.27"
-      },
       "2.5": {
-        "Plus de": "1.47",
-        "Moins de": "2.35"
+        "Plus de": "1.57",
+        "Moins de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.137",
+        "Moins de": "4.45"
+      },
+      "2": {
+        "Plus de": "1.22",
+        "Moins de": "3.52"
       },
       "3": {
-        "Plus de": "1.76",
-        "Moins de": "1.87"
+        "Plus de": "1.87",
+        "Moins de": "1.76"
       },
-      "4": {
-        "Plus de": "3.1",
-        "Moins de": "1.28"
-      },
-      "4.5": {
-        "Plus de": "3.74",
-        "Moins de": "1.193"
+      "3.5": {
+        "Plus de": "2.35",
+        "Moins de": "1.47"
       }
     },
     "Handicap": {
-      "2 (-1.5)": "1.66",
-      "1 (+1.5)": "2.1",
-      "1 (0)": "9",
-      "2 (0)": "1.006",
-      "2 (-1)": "1.27",
-      "1 (+1)": "3.14",
-      "2 (-2)": "2.02",
-      "1 (+2)": "1.64",
-      "2 (-2.5)": "2.52",
-      "1 (+2.5)": "1.41"
+      "2 (-1.5)": "1.77",
+      "1 (+1.5)": "1.95",
+      "1 (0)": "7.8",
+      "2 (0)": "1.024",
+      "2 (-1)": "1.34",
+      "1 (+1)": "2.78",
+      "2 (-2)": "2.24",
+      "1 (+2)": "1.52",
+      "2 (-2.5)": "2.81",
+      "1 (+2.5)": "1.333"
     }
   },
   {
@@ -1332,7 +804,7 @@
       "Moins de": "2.13"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1389,16 +861,16 @@
     "equipe_1": "Turquie U21",
     "equipe_2": "Hongrie U21",
     "1X2": {
-      "V1": "1.4",
-      "X": "4.45",
-      "V2": "7.17"
+      "V1": "1.43",
+      "X": "4.3",
+      "V2": "6.78"
     },
     "Total_2.5": {
-      "Plus de": "1.63",
-      "Moins de": "2.17"
+      "Plus de": "1.65",
+      "Moins de": "2.14"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1407,47 +879,47 @@
     "equipe_1_en": "Turkey U21",
     "equipe_2_en": "Hungary U21",
     "Double_Chance": {
-      "1X": "1.059",
-      "12": "1.162",
-      "2X": "2.74"
+      "1X": "1.068",
+      "12": "1.173",
+      "2X": "2.625"
     },
     "BTTS": {
-      "Oui": "1.82",
-      "Non": "1.884"
+      "Oui": "1.8",
+      "Non": "1.905"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.17"
+        "Plus de": "1.65",
+        "Moins de": "2.14"
       },
       "1.5": {
-        "Plus de": "1.151",
-        "Moins de": "4.25"
+        "Plus de": "1.158",
+        "Moins de": "4.15"
       },
       "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.3"
+        "Plus de": "1.26",
+        "Moins de": "3.22"
       },
       "3": {
-        "Plus de": "1.99",
-        "Moins de": "1.666"
+        "Plus de": "2.03",
+        "Moins de": "1.64"
       },
       "3.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.42"
+        "Plus de": "2.56",
+        "Moins de": "1.4"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.64",
-      "1 (-1.5)": "2.14",
-      "1 (0)": "1.085",
-      "2 (0)": "5.45",
-      "1 (-1)": "1.6",
-      "2 (+1)": "2.08",
-      "1 (-2)": "2.97",
-      "2 (+2)": "1.3",
-      "1 (-2.5)": "3.72",
-      "2 (+2.5)": "1.196"
+      "2 (+1.5)": "1.59",
+      "1 (-1.5)": "2.23",
+      "1 (0)": "1.102",
+      "2 (0)": "5.05",
+      "1 (-1)": "1.666",
+      "2 (+1)": "1.98",
+      "1 (-2)": "3.2",
+      "2 (+2)": "1.26",
+      "1 (-2.5)": "3.92",
+      "2 (+2.5)": "1.175"
     }
   },
   {
@@ -1455,16 +927,16 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "1.49",
-      "V2": "3.185",
-      "X": "13.3"
+      "V1": "1.426",
+      "V2": "3.525",
+      "X": "13.9"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:00:00+00:00",
     "competition": "Matchs de qualification pour le Championnat d'Europe U21",
@@ -1474,37 +946,37 @@
     "equipe_2_en": "Away (Special bets)",
     "Totals": {
       "32.5": {
-        "Moins de": "1.857",
-        "Plus de": "1.945"
+        "Moins de": "1.881",
+        "Plus de": "1.92"
       },
       "30.5": {
-        "Plus de": "1.558",
-        "Moins de": "2.435"
+        "Plus de": "1.541",
+        "Moins de": "2.476"
       },
       "31.5": {
-        "Plus de": "1.733",
-        "Moins de": "2.102"
+        "Plus de": "1.713",
+        "Moins de": "2.133"
       },
       "33.5": {
-        "Plus de": "2.215",
-        "Moins de": "1.663"
+        "Plus de": "2.182",
+        "Moins de": "1.683"
       },
       "34.5": {
-        "Plus de": "2.576",
-        "Moins de": "1.505"
+        "Plus de": "2.53",
+        "Moins de": "1.521"
       }
     },
     "Handicap": {
-      "1 (-2.5)": "1.828",
-      "2 (+2.5)": "1.978",
-      "1 (-1.5)": "1.637",
-      "2 (+1.5)": "2.264",
-      "1 (-2)": "1.716",
-      "2 (+2)": "2.128",
-      "1 (-3)": "1.941",
-      "2 (+3)": "1.861",
-      "1 (-3.5)": "2.064",
-      "2 (+3.5)": "1.76"
+      "2 (+3.5)": "1.86",
+      "1 (-3.5)": "1.941",
+      "1 (-2.5)": "1.731",
+      "2 (+2.5)": "2.106",
+      "1 (-3)": "1.826",
+      "2 (+3)": "1.98",
+      "1 (-4)": "2.081",
+      "2 (+4)": "1.748",
+      "1 (-4.5)": "2.214",
+      "2 (+4.5)": "1.664"
     }
   },
   {
@@ -1512,16 +984,16 @@
     "equipe_1": "Talavera",
     "equipe_2": "Albacete Balompie",
     "1X2": {
-      "V2": "1.374",
-      "X": "5.13",
-      "V1": "6.54"
+      "V2": "1.33",
+      "X": "5.45",
+      "V1": "7.14"
     },
     "Total_2.5": {
-      "Plus de": "1.675",
-      "Moins de": "2.091"
+      "Plus de": "1.633",
+      "Moins de": "2.16"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T17:30:00+00:00",
     "competition": "Matchs amicaux des clubs",
@@ -1530,47 +1002,47 @@
     "equipe_1_en": "Talavera",
     "equipe_2_en": "Albacete Balompie",
     "Double_Chance": {
-      "2X": "1.077",
-      "12": "1.128",
-      "1X": "2.831"
+      "2X": "1.063",
+      "12": "1.114",
+      "1X": "3.035"
     },
     "BTTS": {
-      "Non": "1.829",
-      "Oui": "1.84"
+      "Non": "1.819",
+      "Oui": "1.85"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.675",
-        "Moins de": "2.091"
+        "Plus de": "1.633",
+        "Moins de": "2.16"
       },
       "1.5": {
-        "Plus de": "1.176",
-        "Moins de": "3.92"
+        "Plus de": "1.161",
+        "Moins de": "4.1"
       },
       "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
+        "Plus de": "1.25",
+        "Moins de": "3.28"
       },
       "3": {
-        "Plus de": "2.08",
-        "Moins de": "1.6"
+        "Plus de": "2",
+        "Moins de": "1.65"
       },
       "3.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
+        "Plus de": "2.56",
+        "Moins de": "1.4"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.628",
-      "2 (-1.5)": "2.168",
-      "1 (0)": "4.8",
-      "2 (0)": "1.115",
-      "2 (-1)": "1.6",
-      "1 (+1)": "2.08",
-      "2 (-2)": "3.14",
-      "1 (+2)": "1.27",
-      "2 (-2.5)": "3.84",
-      "1 (+2.5)": "1.183"
+      "1 (+1.5)": "1.699",
+      "2 (-1.5)": "2.055",
+      "1 (0)": "5.25",
+      "2 (0)": "1.094",
+      "2 (-1)": "1.52",
+      "1 (+1)": "2.24",
+      "2 (-2)": "2.875",
+      "1 (+2)": "1.32",
+      "2 (-2.5)": "3.5",
+      "1 (+2.5)": "1.22"
     }
   },
   {
@@ -1578,16 +1050,16 @@
     "equipe_1": "Albanie",
     "equipe_2": "Saint-Marin",
     "1X2": {
-      "V1": "1.03",
-      "X": "23",
+      "V1": "1.027",
+      "X": "24",
       "V2": "55"
     },
     "Total_2.5": {
-      "Plus de": "1.24",
-      "Moins de": "3.34"
+      "Plus de": "1.21",
+      "Moins de": "3.84"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -1601,42 +1073,42 @@
       "2X": "15"
     },
     "BTTS": {
-      "Non": "1.082",
-      "Oui": "7.1"
+      "Non": "1.121",
+      "Oui": "5.45"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.739",
-        "Moins de": "2.193"
+        "Plus de": "1.644",
+        "Moins de": "2.365"
       },
       "2.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
+        "Plus de": "1.21",
+        "Moins de": "3.84"
       },
       "3": {
-        "Plus de": "1.35",
-        "Moins de": "2.79"
+        "Plus de": "1.3",
+        "Moins de": "3.26"
       },
       "4": {
-        "Plus de": "2",
-        "Moins de": "1.74"
+        "Plus de": "1.86",
+        "Moins de": "1.86"
       },
       "4.5": {
-        "Plus de": "2.51",
-        "Moins de": "1.54"
+        "Plus de": "2.24",
+        "Moins de": "1.56"
       }
     },
     "Handicap": {
-      "1 (-3.5)": "1.808",
-      "2 (+3.5)": "2.092",
-      "1 (-2.5)": "1.29",
-      "2 (+2.5)": "3.22",
-      "1 (-3)": "1.42",
-      "2 (+3)": "2.7",
-      "1 (-4)": "2.12",
-      "2 (+4)": "1.66",
-      "1 (-4.5)": "2.52",
-      "2 (+4.5)": "1.45"
+      "1 (-3.5)": "1.839",
+      "2 (+3.5)": "2.052",
+      "1 (-2.5)": "1.3",
+      "2 (+2.5)": "3.15",
+      "1 (-3)": "1.44",
+      "2 (+3)": "2.625",
+      "1 (-4)": "2.17",
+      "2 (+4)": "1.63",
+      "1 (-4.5)": "2.58",
+      "2 (+4.5)": "1.43"
     }
   },
   {
@@ -1653,7 +1125,7 @@
       "Moins de": "3.2"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -1719,7 +1191,7 @@
       "Moins de": "1.5"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -1776,16 +1248,16 @@
     "equipe_1": "Croatie",
     "equipe_2": "Espagne",
     "1X2": {
-      "V2": "1.308",
-      "X": "6.18",
-      "V1": "10"
+      "V2": "1.286",
+      "X": "6.27",
+      "V1": "11.2"
     },
     "Total_2.5": {
-      "Plus de": "1.4",
-      "Moins de": "2.7"
+      "Plus de": "1.44",
+      "Moins de": "2.56"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -1794,47 +1266,47 @@
     "equipe_1_en": "Croatia",
     "equipe_2_en": "Spain",
     "Double_Chance": {
-      "2X": "1.068",
-      "12": "1.15",
-      "1X": "3.74"
+      "2X": "1.056",
+      "12": "1.147",
+      "1X": "3.94"
     },
     "BTTS": {
-      "Oui": "1.74",
-      "Non": "1.999"
+      "Oui": "1.84",
+      "Non": "1.881"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.792",
-        "Plus de": "2.138"
+        "Moins de": "1.72",
+        "Plus de": "2.25"
       },
       "2.5": {
-        "Plus de": "1.4",
-        "Moins de": "2.7"
+        "Plus de": "1.44",
+        "Moins de": "2.56"
       },
       "3": {
-        "Plus de": "1.62",
-        "Moins de": "2.19"
+        "Plus de": "1.7",
+        "Moins de": "2.06"
       },
       "4": {
-        "Plus de": "2.75",
-        "Moins de": "1.41"
+        "Plus de": "2.96",
+        "Moins de": "1.36"
       },
       "4.5": {
-        "Plus de": "3.3",
-        "Moins de": "1.28"
+        "Plus de": "3.5",
+        "Moins de": "1.25"
       }
     },
     "Handicap": {
-      "2 (-1.5)": "1.84",
-      "1 (+1.5)": "2.074",
-      "1 (0)": "6.5",
-      "2 (0)": "1.07",
-      "2 (-1)": "1.38",
-      "1 (+1)": "2.88",
-      "2 (-2)": "2.26",
-      "1 (+2)": "1.59",
-      "2 (-2.5)": "2.75",
-      "1 (+2.5)": "1.39"
+      "2 (-1.5)": "1.809",
+      "1 (+1.5)": "2.114",
+      "1 (0)": "7",
+      "2 (0)": "1.057",
+      "2 (-1)": "1.35",
+      "1 (+1)": "3.02",
+      "2 (-2)": "2.22",
+      "1 (+2)": "1.61",
+      "2 (-2.5)": "2.71",
+      "1 (+2.5)": "1.4"
     }
   },
   {
@@ -1851,7 +1323,7 @@
       "Moins de": "1.47"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -1894,10 +1366,12 @@
       "1 (0)": "1.27",
       "2 (0)": "3.4",
       "1 (-1)": "2.66",
-      "2 (-1)": "11.5",
-      "1 (+1)": "1.01",
+      "2 (-1)": "11",
+      "1 (+1)": "1.02",
       "2 (+1)": "1.49",
       "1 (-1.5)": "3.75",
+      "2 (-1.5)": "12.5",
+      "1 (+1.5)": "1.01",
       "2 (+1.5)": "1.308"
     }
   },
@@ -1915,7 +1389,7 @@
       "Moins de": "1.799"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -1981,7 +1455,7 @@
       "Moins de": "1.47"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -2038,16 +1512,16 @@
     "equipe_1": "Moldavie",
     "equipe_2": "Slovaquie",
     "1X2": {
-      "V2": "1.376",
-      "X": "5.11",
-      "V1": "9.2"
+      "V2": "1.396",
+      "X": "4.905",
+      "V1": "9"
     },
     "Total_2.5": {
-      "Plus de": "1.83",
-      "Moins de": "2.064"
+      "Plus de": "1.839",
+      "Moins de": "2.052"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -2057,29 +1531,29 @@
     "equipe_2_en": "Slovakia",
     "Double_Chance": {
       "2X": "1.073",
-      "12": "1.19",
-      "1X": "3.22"
+      "12": "1.201",
+      "1X": "3.12"
     },
     "BTTS": {
-      "Non": "1.664",
-      "Oui": "2.11"
+      "Non": "1.696",
+      "Oui": "2.06"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.83",
-        "Moins de": "2.064"
+        "Plus de": "1.839",
+        "Moins de": "2.052"
       },
       "1.5": {
-        "Plus de": "1.21",
-        "Moins de": "3.84"
+        "Plus de": "1.22",
+        "Moins de": "3.74"
       },
       "2": {
-        "Plus de": "1.35",
-        "Moins de": "2.98"
+        "Plus de": "1.36",
+        "Moins de": "2.94"
       },
       "3": {
-        "Plus de": "2.3",
-        "Moins de": "1.56"
+        "Plus de": "2.32",
+        "Moins de": "1.55"
       },
       "3.5": {
         "Plus de": "2.88",
@@ -2087,16 +1561,16 @@
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.805",
-      "2 (-1.5)": "2.097",
-      "1 (0)": "6.7",
-      "2 (0)": "1.074",
-      "2 (-1)": "1.56",
-      "1 (+1)": "2.46",
-      "2 (-2)": "2.84",
-      "1 (+2)": "1.36",
-      "2 (-2.5)": "3.5",
-      "1 (+2.5)": "1.23"
+      "1 (+1.5)": "1.762",
+      "2 (-1.5)": "2.158",
+      "1 (0)": "6.6",
+      "2 (0)": "1.076",
+      "2 (-1)": "1.61",
+      "1 (+1)": "2.35",
+      "2 (-2)": "2.98",
+      "1 (+2)": "1.33",
+      "2 (-2.5)": "3.68",
+      "1 (+2.5)": "1.21"
     }
   },
   {
@@ -2113,7 +1587,7 @@
       "Moins de": "2.46"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -2179,7 +1653,7 @@
       "Moins de": "2.02"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T20:00:00+00:00",
     "competition": "Ligue des Nations CONCACAF",
@@ -2245,7 +1719,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T20:00:00+00:00",
     "competition": "Ligue des Nations CONCACAF",
@@ -2258,42 +1732,42 @@
       "2X": "9.9"
     },
     "BTTS": {
-      "Non": "1.383",
-      "Oui": "2.8"
+      "Non": "1.434",
+      "Oui": "2.61"
     },
     "Totals": {
+      "5.5": {
+        "Moins de": "1.69",
+        "Plus de": "2.08"
+      },
       "4.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.17"
-      },
-      "3.5": {
-        "Plus de": "1.25",
-        "Moins de": "3.28"
-      },
-      "4": {
-        "Plus de": "1.34",
-        "Moins de": "2.8"
+        "Plus de": "1.51",
+        "Moins de": "2.26"
       },
       "5": {
-        "Plus de": "1.83",
-        "Moins de": "1.8"
+        "Plus de": "1.71",
+        "Moins de": "1.93"
       },
-      "5.5": {
-        "Plus de": "2.15",
-        "Moins de": "1.56"
+      "6": {
+        "Plus de": "2.5",
+        "Moins de": "1.42"
+      },
+      "6.5": {
+        "Plus de": "2.92",
+        "Moins de": "1.31"
       }
     },
     "Handicap": {
-      "2 (+4.5)": "1.666",
-      "1 (-4.5)": "1.98",
-      "1 (-3.5)": "1.48",
-      "2 (+3.5)": "2.33",
-      "1 (-4)": "1.72",
-      "2 (+4)": "2.02",
-      "1 (-5)": "2.46",
-      "2 (+5)": "1.43",
-      "1 (-5.5)": "2.875",
-      "2 (+5.5)": "1.32"
+      "2 (+4.5)": "1.727",
+      "1 (-4.5)": "1.9",
+      "1 (-3.5)": "1.44",
+      "2 (+3.5)": "2.43",
+      "1 (-4)": "1.65",
+      "2 (+4)": "2.12",
+      "1 (-5)": "2.33",
+      "2 (+5)": "1.48",
+      "1 (-5.5)": "2.7",
+      "2 (+5.5)": "1.36"
     }
   },
   {
@@ -2310,7 +1784,7 @@
       "Moins de": "2.375"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T21:00:00+00:00",
     "competition": "Ligue des Nations CONCACAF",
@@ -2376,7 +1850,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T23:00:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales",
@@ -2390,42 +1864,42 @@
       "2X": "28"
     },
     "BTTS": {
-      "Non": "1.241",
-      "Oui": "3.64"
+      "Non": "1.281",
+      "Oui": "3.34"
     },
     "Totals": {
       "5.5": {
-        "Moins de": "1.788",
-        "Plus de": "2.168"
+        "Moins de": "1.853",
+        "Plus de": "2.08"
       },
       "4.5": {
-        "Plus de": "1.55",
-        "Moins de": "2.35"
+        "Plus de": "1.5",
+        "Moins de": "2.48"
       },
       "5": {
-        "Plus de": "1.71",
-        "Moins de": "1.94"
+        "Plus de": "1.64",
+        "Moins de": "2.04"
       },
       "6": {
-        "Plus de": "2.52",
-        "Moins de": "1.41"
+        "Plus de": "2.375",
+        "Moins de": "1.46"
       },
       "6.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
+        "Plus de": "2.74",
+        "Moins de": "1.35"
       }
     },
     "Handicap": {
-      "1 (-4.5)": "1.892",
-      "2 (+4.5)": "2.033",
-      "1 (-3.5)": "1.35",
-      "2 (+3.5)": "2.75",
-      "1 (-4)": "1.51",
+      "1 (-4.5)": "1.842",
+      "2 (+4.5)": "2.094",
+      "1 (-3.5)": "1.33",
+      "2 (+3.5)": "2.83",
+      "1 (-4)": "1.444",
       "2 (+4)": "2.43",
-      "1 (-5)": "2.08",
-      "2 (+5)": "1.6",
-      "1 (-5.5)": "2.46",
-      "2 (+5.5)": "1.43"
+      "1 (-5)": "2.02",
+      "2 (+5)": "1.64",
+      "1 (-5.5)": "2.375",
+      "2 (+5.5)": "1.46"
     }
   },
   {
@@ -2442,7 +1916,7 @@
       "Moins de": "1.75"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T23:00:00+00:00",
     "competition": "Ligue des Nations CONCACAF",
@@ -2508,7 +1982,7 @@
       "Moins de": "1.842"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T23:45:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales",
@@ -2565,16 +2039,16 @@
     "equipe_1": "États-Unis",
     "equipe_2": "Canada",
     "1X2": {
-      "V1": "1.746",
-      "X": "4.065",
-      "V2": "4.95"
+      "V1": "1.756",
+      "X": "4.125",
+      "V2": "4.785"
     },
     "Total_2.5": {
-      "Plus de": "1.716",
-      "Moins de": "2.285"
+      "Plus de": "1.632",
+      "Moins de": "2.453"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-07T00:00:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales",
@@ -2583,47 +2057,47 @@
     "equipe_1_en": "USA",
     "equipe_2_en": "Canada",
     "Double_Chance": {
-      "1X": "1.214",
-      "12": "1.282",
-      "2X": "2.207"
+      "1X": "1.224",
+      "12": "1.276",
+      "2X": "2.192"
     },
     "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.142"
+      "Oui": "1.56",
+      "Non": "2.276"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.716",
-        "Moins de": "2.285"
+        "Plus de": "1.632",
+        "Moins de": "2.453"
       },
       "1.5": {
-        "Plus de": "1.163",
-        "Moins de": "4.1"
+        "Plus de": "1.136",
+        "Moins de": "4.45"
       },
       "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.3"
+        "Plus de": "1.21",
+        "Moins de": "3.6"
       },
       "3": {
-        "Plus de": "1.952",
-        "Moins de": "1.69"
+        "Plus de": "1.82",
+        "Moins de": "1.81"
       },
       "3.5": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
+        "Plus de": "2.28",
+        "Moins de": "1.5"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.479",
-      "1 (-1.5)": "2.904",
-      "1 (0)": "1.24",
-      "2 (0)": "3.34",
+      "2 (+1.5)": "1.489",
+      "1 (-1.5)": "2.866",
+      "1 (0)": "1.25",
+      "2 (0)": "3.28",
       "1 (-1)": "2.09",
       "2 (+1)": "1.67",
-      "1 (-2)": "4.1",
-      "2 (+2)": "1.162",
-      "1 (-2.5)": "4.75",
-      "2 (+2.5)": "1.117"
+      "1 (-2)": "4",
+      "2 (+2)": "1.168",
+      "1 (-2.5)": "4.7",
+      "2 (+2.5)": "1.122"
     }
   },
   {
@@ -2640,7 +2114,7 @@
       "Moins de": "1.63"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-07T02:00:00+00:00",
     "competition": "Ligue des Nations CONCACAF",
@@ -2706,7 +2180,7 @@
       "Moins de": "2.071"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-07T02:30:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales",
@@ -2760,81 +2234,19 @@
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Karsıyaka",
-    "equipe_2": "1923 Afyonkarahisar",
-    "1X2": {
-      "V1": "1.001",
-      "X": "10",
-      "V2": "17"
-    },
-    "Total_2.5": {
-      "Plus de": "1.29",
-      "Moins de": "3.14"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T16:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Karsıyaka",
-    "equipe_2_en": "1923 Afyonkarahisar",
-    "Double_Chance": {
-      "1X": "1.001",
-      "12": "1.001",
-      "2X": "6.54"
-    },
-    "BTTS": {
-      "Non": "1.46",
-      "Oui": "2.44"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.82",
-        "Plus de": "1.84"
-      },
-      "2.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.14"
-      },
-      "3": {
-        "Plus de": "1.45",
-        "Moins de": "2.48"
-      },
-      "4": {
-        "Plus de": "2.44",
-        "Moins de": "1.47"
-      },
-      "4.5": {
-        "Plus de": "3.02",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "1 (-2.5)": "1.79",
-      "2 (+2.5)": "1.87",
-      "1 (-2)": "1.41",
-      "2 (+2)": "2.6",
-      "1 (-3)": "2.36",
-      "2 (+3)": "1.49"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
     "equipe_1": "Arabie saoudite",
     "equipe_2": "Émirats arabes unis",
     "1X2": {
-      "V1": "2.508",
-      "X": "2.976",
-      "V2": "3.145"
+      "V1": "2.486",
+      "X": "2.953",
+      "V2": "3.205"
     },
     "Total_2.5": {
-      "Plus de": "2.625",
-      "Moins de": "1.38"
+      "Plus de": "2.66",
+      "Moins de": "1.37"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:00:00+00:00",
     "competition": "Coupe du Golfe des nations",
@@ -2843,47 +2255,47 @@
     "equipe_1_en": "Saudi Arabia",
     "equipe_2_en": "United Arab Emirates",
     "Double_Chance": {
-      "1X": "1.351",
-      "12": "1.385",
-      "2X": "1.516"
+      "1X": "1.34",
+      "12": "1.39",
+      "2X": "1.525"
     },
     "BTTS": {
-      "Non": "1.611",
-      "Oui": "2.15"
+      "Non": "1.6",
+      "Oui": "2.17"
     },
     "Totals": {
       "1.5": {
-        "Plus de": "1.575",
-        "Moins de": "2.394"
+        "Plus de": "1.589",
+        "Moins de": "2.363"
       },
       "0.5": {
-        "Plus de": "1.062",
-        "Moins de": "6.1"
+        "Plus de": "1.065",
+        "Moins de": "6"
       },
       "1": {
-        "Plus de": "1.121",
-        "Moins de": "4.7"
+        "Plus de": "1.126",
+        "Moins de": "4.6"
       },
       "2": {
-        "Plus de": "1.95",
-        "Moins de": "1.69"
+        "Plus de": "1.98",
+        "Moins de": "1.666"
       },
       "2.5": {
-        "Plus de": "2.625",
-        "Moins de": "1.38"
+        "Plus de": "2.66",
+        "Moins de": "1.37"
       }
     },
     "Handicap": {
-      "1 (0)": "1.706",
-      "2 (0)": "2.143",
-      "1 (-1)": "4.33",
-      "2 (-1)": "6.25",
-      "1 (+1)": "1.057",
-      "2 (+1)": "1.143",
-      "1 (-1.5)": "5.45",
-      "2 (-1.5)": "7.5",
-      "1 (+1.5)": "1.028",
-      "2 (+1.5)": "1.084"
+      "1 (0)": "1.683",
+      "2 (0)": "2.181",
+      "1 (-1)": "4.3",
+      "2 (-1)": "6.45",
+      "1 (+1)": "1.052",
+      "2 (+1)": "1.147",
+      "1 (-1.5)": "5.4",
+      "2 (-1.5)": "7.8",
+      "1 (+1.5)": "1.024",
+      "2 (+1.5)": "1.086"
     }
   },
   {
@@ -2900,7 +2312,7 @@
       "Moins de": "2.27"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:00:00+00:00",
     "competition": "Angleterre. Football League Trophy",
@@ -2957,16 +2369,16 @@
     "equipe_1": "Blackpool",
     "equipe_2": "Crewe Alexandra",
     "1X2": {
-      "V1": "1.61",
-      "V2": "4.155",
-      "X": "4.2"
+      "V1": "1.24",
+      "X": "5.65",
+      "V2": "8.6"
     },
     "Total_2.5": {
-      "Plus de": "1.46",
-      "Moins de": "2.375"
+      "Plus de": "1.33",
+      "Moins de": "2.83"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:00:00+00:00",
     "competition": "Angleterre. Football League Trophy",
@@ -2975,47 +2387,113 @@
     "equipe_1_en": "Blackpool",
     "equipe_2_en": "Crewe Alexandra",
     "Double_Chance": {
-      "12": "1.148",
-      "1X": "1.155",
-      "2X": "2.09"
+      "1X": "1.011",
+      "12": "1.073",
+      "2X": "3.38"
     },
     "BTTS": {
-      "Oui": "1.51",
-      "Non": "2.364"
+      "Oui": "1.64",
+      "Non": "2.104"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.55",
-        "Plus de": "2.29"
+        "Moins de": "1.76",
+        "Plus de": "1.95"
       },
       "2.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
+        "Plus de": "1.33",
+        "Moins de": "2.83"
       },
       "3": {
-        "Plus de": "1.75",
-        "Moins de": "1.88"
+        "Plus de": "1.52",
+        "Moins de": "2.24"
       },
       "4": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
+        "Plus de": "2.52",
+        "Moins de": "1.41"
       },
       "4.5": {
-        "Plus de": "3.9",
-        "Moins de": "1.178"
+        "Plus de": "3.08",
+        "Moins de": "1.28"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.38",
-      "1 (-1.5)": "2.625",
-      "1 (0)": "1.27",
-      "2 (0)": "3.14",
-      "1 (-1)": "2.06",
-      "2 (+1)": "1.65",
-      "1 (-2)": "4.35",
-      "2 (+2)": "1.142",
-      "1 (-2.5)": "5.15",
-      "2 (+2.5)": "1.097"
+      "1 (-1.5)": "1.76",
+      "2 (+1.5)": "1.92",
+      "1 (0)": "1.045",
+      "2 (0)": "6.75",
+      "1 (-1)": "1.363",
+      "2 (+1)": "2.69",
+      "1 (-2)": "2.24",
+      "2 (+2)": "1.52",
+      "1 (-2.5)": "2.78",
+      "2 (+2.5)": "1.34"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Cambridge United",
+    "equipe_2": "Northampton Town",
+    "1X2": {
+      "V1": "1.74",
+      "X": "3.62",
+      "V2": "4.015"
+    },
+    "Total_2.5": {
+      "Plus de": "1.66",
+      "Moins de": "2.09"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Cambridge United",
+    "equipe_2_en": "Northampton Town",
+    "Double_Chance": {
+      "1X": "1.168",
+      "12": "1.2",
+      "2X": "1.9"
+    },
+    "BTTS": {
+      "Oui": "1.61",
+      "Non": "2.156"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.66",
+        "Moins de": "2.09"
+      },
+      "1.5": {
+        "Plus de": "1.168",
+        "Moins de": "4"
+      },
+      "2": {
+        "Plus de": "1.27",
+        "Moins de": "3.14"
+      },
+      "3": {
+        "Plus de": "2.03",
+        "Moins de": "1.63"
+      },
+      "3.5": {
+        "Plus de": "2.56",
+        "Moins de": "1.4"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.31",
+      "2 (0)": "2.92",
+      "1 (-1)": "2.31",
+      "2 (-1)": "7.7",
+      "1 (+1)": "1.026",
+      "2 (+1)": "1.52",
+      "1 (-1.5)": "2.92",
+      "2 (-1.5)": "8.6",
+      "1 (+1.5)": "1.011",
+      "2 (+1.5)": "1.31"
     }
   },
   {
@@ -3032,7 +2510,7 @@
       "Moins de": "3.2"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:00:00+00:00",
     "competition": "Angleterre. Football League Trophy",
@@ -3098,7 +2576,7 @@
       "Moins de": "2.23"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-06T15:14:56.928074+00:00",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
     "statut": "ok",
     "debut": "2026-10-06T18:00:00+00:00",
     "competition": "Angleterre. Football League Trophy",
@@ -3148,6 +2626,534 @@
       "2 (-1.5)": "4.85",
       "1 (+1.5)": "1.112",
       "2 (+1.5)": "1.151"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Milton Keynes Dons",
+    "equipe_2": "Brentford U21",
+    "1X2": {
+      "V1": "1.65",
+      "X": "4",
+      "V2": "4.105"
+    },
+    "Total_2.5": {
+      "Plus de": "1.39",
+      "Moins de": "2.59"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Milton Keynes Dons",
+    "equipe_2_en": "Brentford U21",
+    "Double_Chance": {
+      "1X": "1.159",
+      "12": "1.164",
+      "2X": "2.02"
+    },
+    "BTTS": {
+      "Oui": "1.44",
+      "Non": "2.561"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.69",
+        "Plus de": "2.04"
+      },
+      "2.5": {
+        "Plus de": "1.39",
+        "Moins de": "2.59"
+      },
+      "3": {
+        "Plus de": "1.6",
+        "Moins de": "2.08"
+      },
+      "4": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      },
+      "4.5": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.4",
+      "1 (-1.5)": "2.56",
+      "1 (0)": "1.285",
+      "2 (0)": "3.05",
+      "1 (-1)": "2.06",
+      "2 (+1)": "1.65",
+      "1 (-2)": "3.96",
+      "2 (+2)": "1.172",
+      "1 (-2.5)": "4.65",
+      "2 (+2.5)": "1.125"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Newport County",
+    "equipe_2": "Plymouth Argyle",
+    "1X2": {
+      "V2": "1.55",
+      "X": "4.05",
+      "V1": "4.81"
+    },
+    "Total_2.5": {
+      "Plus de": "1.46",
+      "Moins de": "2.375"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Newport County",
+    "equipe_2_en": "Plymouth Argyle",
+    "Double_Chance": {
+      "2X": "1.113",
+      "12": "1.159",
+      "1X": "2.2"
+    },
+    "BTTS": {
+      "Oui": "1.55",
+      "Non": "2.27"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.59",
+        "Plus de": "2.21"
+      },
+      "2.5": {
+        "Plus de": "1.46",
+        "Moins de": "2.375"
+      },
+      "3": {
+        "Plus de": "1.727",
+        "Moins de": "1.9"
+      },
+      "4": {
+        "Plus de": "3.04",
+        "Moins de": "1.29"
+      },
+      "4.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.47",
+      "2 (-1.5)": "2.35",
+      "1 (0)": "3.58",
+      "2 (0)": "1.21",
+      "2 (-1)": "1.88",
+      "1 (+1)": "1.79",
+      "2 (-2)": "3.5",
+      "1 (+2)": "1.22",
+      "2 (-2.5)": "4.15",
+      "1 (+2.5)": "1.156"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Peterborough United",
+    "equipe_2": "Ipswich Town U21",
+    "1X2": {
+      "V1": "1.104",
+      "X": "7.7",
+      "V2": "13.5"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Peterborough United",
+    "equipe_2_en": "Ipswich Town U21",
+    "Double_Chance": {
+      "12": "1.021",
+      "1X": "1.03",
+      "2X": "4.95"
+    },
+    "BTTS": {
+      "Oui": "1.65",
+      "Non": "2.084"
+    },
+    "Totals": {
+      "4.5": {
+        "Moins de": "1.64",
+        "Plus de": "2.12"
+      },
+      "3.5": {
+        "Plus de": "1.48",
+        "Moins de": "2.33"
+      },
+      "4": {
+        "Plus de": "1.71",
+        "Moins de": "1.92"
+      },
+      "5": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      },
+      "5.5": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.79",
+      "1 (-2.5)": "1.83",
+      "1 (-1.5)": "1.36",
+      "2 (+1.5)": "2.7",
+      "1 (-2)": "1.533",
+      "2 (+2)": "2.28",
+      "1 (-3)": "2.3",
+      "2 (+3)": "1.49",
+      "1 (-3.5)": "2.74",
+      "2 (+3.5)": "1.35"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Port Vale",
+    "equipe_2": "Mansfield Town",
+    "1X2": {
+      "V2": "2.33",
+      "V1": "2.44",
+      "X": "3.68"
+    },
+    "Total_2.5": {
+      "Plus de": "1.43",
+      "Moins de": "2.46"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Port Vale",
+    "equipe_2_en": "Mansfield Town",
+    "Double_Chance": {
+      "12": "1.194",
+      "2X": "1.43",
+      "1X": "1.47"
+    },
+    "BTTS": {
+      "Oui": "1.4",
+      "Non": "2.696"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.62",
+        "Plus de": "2.16"
+      },
+      "2.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "3": {
+        "Plus de": "1.68",
+        "Moins de": "1.96"
+      },
+      "4": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      },
+      "4.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.8",
+      "1 (0)": "1.87",
+      "1 (-1)": "3.72",
+      "2 (-1)": "3.42",
+      "1 (+1)": "1.23",
+      "2 (+1)": "1.196",
+      "1 (-1.5)": "4.45",
+      "2 (-1.5)": "4.2",
+      "1 (+1.5)": "1.154",
+      "2 (+1.5)": "1.136"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Rotherham United",
+    "equipe_2": "Bradford City",
+    "1X2": {
+      "V2": "1.96",
+      "V1": "3.3",
+      "X": "3.5"
+    },
+    "Total_2.5": {
+      "Plus de": "1.63",
+      "Moins de": "2.14"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Rotherham United",
+    "equipe_2_en": "Bradford City",
+    "Double_Chance": {
+      "12": "1.22",
+      "2X": "1.25",
+      "1X": "1.69"
+    },
+    "BTTS": {
+      "Oui": "1.54",
+      "Non": "2.291"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.63",
+        "Moins de": "2.14"
+      },
+      "1.5": {
+        "Plus de": "1.159",
+        "Moins de": "4.15"
+      },
+      "2": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "3": {
+        "Plus de": "1.99",
+        "Moins de": "1.66"
+      },
+      "3.5": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.48",
+      "1 (0)": "2.41",
+      "1 (-1)": "5.8",
+      "2 (-1)": "2.74",
+      "1 (+1)": "1.35",
+      "2 (+1)": "1.071",
+      "1 (-1.5)": "6.7",
+      "2 (-1.5)": "3.42",
+      "1 (+1.5)": "1.23",
+      "2 (+1.5)": "1.046"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Stevenage",
+    "equipe_2": "Leicester City",
+    "1X2": {
+      "V2": "2.1",
+      "V1": "2.976",
+      "X": "3.48"
+    },
+    "Total_2.5": {
+      "Plus de": "1.53",
+      "Moins de": "2.34"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Stevenage",
+    "equipe_2_en": "Leicester City",
+    "Double_Chance": {
+      "12": "1.22",
+      "2X": "1.31",
+      "1X": "1.59"
+    },
+    "BTTS": {
+      "Oui": "1.45",
+      "Non": "2.529"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.52",
+        "Plus de": "2.24"
+      },
+      "2.5": {
+        "Plus de": "1.53",
+        "Moins de": "2.34"
+      },
+      "3": {
+        "Plus de": "1.79",
+        "Moins de": "1.83"
+      },
+      "4": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      },
+      "4.5": {
+        "Plus de": "3.86",
+        "Moins de": "1.181"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.571",
+      "1 (0)": "2.2",
+      "1 (-1)": "4.95",
+      "2 (-1)": "2.97",
+      "1 (+1)": "1.3",
+      "2 (+1)": "1.108",
+      "1 (-1.5)": "5.75",
+      "2 (-1.5)": "3.7",
+      "1 (+1.5)": "1.197",
+      "2 (+1.5)": "1.073"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Tournoi de Wimbledon",
+    "equipe_2": "Barnet",
+    "1X2": {
+      "V1": "2.27",
+      "V2": "2.64",
+      "X": "3.44"
+    },
+    "Total_2.5": {
+      "Plus de": "1.59",
+      "Moins de": "2.1"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Wimbledon",
+    "equipe_2_en": "Barnet",
+    "Double_Chance": {
+      "12": "1.222",
+      "1X": "1.37",
+      "2X": "1.5"
+    },
+    "BTTS": {
+      "Oui": "1.51",
+      "Non": "2.364"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.59",
+        "Moins de": "2.1"
+      },
+      "1.5": {
+        "Plus de": "1.155",
+        "Moins de": "4.2"
+      },
+      "2": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "3": {
+        "Plus de": "1.98",
+        "Moins de": "1.666"
+      },
+      "3.5": {
+        "Plus de": "2.57",
+        "Moins de": "1.444"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.71",
+      "2 (0)": "1.98",
+      "1 (-1)": "3.5",
+      "2 (-1)": "4.35",
+      "1 (+1)": "1.142",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.3",
+      "2 (-1.5)": "5.2",
+      "1 (+1.5)": "1.095",
+      "2 (+1.5)": "1.146"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Wycombe Wanderers",
+    "equipe_2": "Bristol Rovers",
+    "1X2": {
+      "V1": "1.71",
+      "X": "3.84",
+      "V2": "3.94"
+    },
+    "Total_2.5": {
+      "Plus de": "1.46",
+      "Moins de": "2.375"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-06T16:36:48.007499+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:00:00+00:00",
+    "competition": "Angleterre. Football League Trophy",
+    "competition_en": "England. Football League Trophy",
+    "competition_id": 98293,
+    "equipe_1_en": "Wycombe Wanderers",
+    "equipe_2_en": "Bristol Rovers",
+    "Double_Chance": {
+      "1X": "1.174",
+      "12": "1.178",
+      "2X": "1.94"
+    },
+    "BTTS": {
+      "Oui": "1.48",
+      "Non": "2.446"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.58",
+        "Plus de": "2.23"
+      },
+      "2.5": {
+        "Plus de": "1.46",
+        "Moins de": "2.375"
+      },
+      "3": {
+        "Plus de": "1.74",
+        "Moins de": "1.89"
+      },
+      "4": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      },
+      "4.5": {
+        "Plus de": "3.72",
+        "Moins de": "1.195"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.34",
+      "1 (-1.5)": "2.78",
+      "1 (0)": "1.31",
+      "2 (0)": "2.92",
+      "1 (-1)": "2.2",
+      "2 (+1)": "1.57",
+      "1 (-2)": "4.5",
+      "2 (+2)": "1.132",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.094"
     }
   }
 ]
