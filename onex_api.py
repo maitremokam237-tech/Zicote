@@ -35,7 +35,7 @@ ALL_DOMAINS = {**DOMAINS, **DIAG}
 ENDPOINT = "/service-api/LineFeed/Get1x2_VZip"
 # Nombre d'evenements demandes a l'API, puis nombre de matchs gardes par bookmaker.
 COUNT = int(os.getenv("ONEX_COUNT", "300"))
-MAX_GARDES = int(os.getenv("ONEX_MAX_MATCHES", "150"))
+MAX_GARDES = int(os.getenv("ONEX_MAX_MATCHES", "250"))
 UA = ("Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36")
 
@@ -179,6 +179,7 @@ def _params(count, **extra):
 # la liste des championnats est refusee par l'API (statut 406). Modifiable via
 # ONEX_CHAMPS="id1,id2,..." sans toucher au code.
 CHAMPS_CONNUS = [
+    ("1706694", "Nations League"),
     ("118587", "Champions League"), ("118593", "Europa League"),
     ("88637", "Premier League"), ("127733", "La Liga"), ("12821", "Ligue 1"),
     ("110163", "Serie A"), ("96463", "Bundesliga"),
@@ -207,35 +208,74 @@ def lister_championnats(base, proxy, nom):
     return champs
 
 
-def _evenements_championnats(base, proxy, nom, ids):
-    """Evenements des championnats `ids`. L'API refuse (406) certaines
-    combinaisons de parametres : on essaie plusieurs variantes sur le premier
-    lot et on garde celle qui repond 200."""
+ENDPOINT_V3 = "/service-api/main-line-feed/v3/games1x2"
+
+
+def _num(valeur):
+    import re
+    m = re.search(r"-?\d+(?:\.\d+)?", str(valeur or ""))
+    return float(m.group()) if m else None
+
+
+def convertir_jeu_v3(g):
+    """Un match du nouveau format (liga / opponent1 / eventGroups) -> evenement au
+    format LineFeed (O1, O2, S, E=[{G,T,C,P}]) que build_matches sait lire."""
+    lignes = []
+    for bloc in (g.get("eventGroups") or []) + (g.get("centralBlockEventGroups") or []):
+        gid = bloc.get("groupId")
+        for colonne in bloc.get("events") or []:
+            for e in colonne:
+                if e.get("cf") is None or e.get("blocked"):
+                    continue
+                p = e.get("parameter")
+                if p is None:
+                    prm = (e.get("eventParams") or {}).get("params") or []
+                    p = _num(prm[0]) if prm else None
+                lignes.append({"G": gid, "T": e.get("type"), "C": e.get("cfView") or e.get("cf"), "P": p})
+    o1, o2 = g.get("opponent1") or {}, g.get("opponent2") or {}
+    liga = g.get("liga") or {}
+    ev = {
+        "I": g.get("id"), "S": g.get("startTs"),
+        "O1": o1.get("fullName"), "O2": o2.get("fullName"),
+        "O1E": o1.get("fullNameEng"), "O2E": o2.get("fullNameEng"),
+        "L": liga.get("name"), "LE": liga.get("nameEng"), "LI": liga.get("id"),
+        "E": lignes,
+    }
+    for cle in ("constId", "mainConstId", "num", "mainGameId"):
+        if g.get(cle) is not None:
+            ev[cle] = g[cle]
+    return ev
+
+
+def _evenements_championnat_v3(base, proxy, nom, liga_id, etat):
+    """Matchs d'UN championnat par l'API officielle du site (selectedMs=2.1.<id>)."""
+    commun = {"cfView": 3, "countryFirst": "true", "grMode": 4, "lng": "fr",
+              "selectedMs": f"2.1.{liga_id}"}
     variantes = [
-        lambda lot: _params(100, champs=lot),
-        lambda lot: {"sports": 1, "champs": lot, "count": 100, "lng": "fr"},
-        lambda lot: {"sports": 1, "champs": lot, "count": 100, "lng": "fr", "mode": 4,
-                     "tf": 2200000, "tz": 1},
-        lambda lot: {"sport": 1, "champs": lot, "count": 100, "lng": "fr", "mode": 4},
-        lambda lot: {"sports": 1, "champ": lot, "count": 100, "lng": "fr", "mode": 4},
+        {**commun, "count": 100},
+        {**commun, "count": 50},
+        {**commun, "count": 50, "gr": 2364, "ref": 192, "fcountry": 84},
     ]
-    choix = None
+    essais = [etat["v"]] if etat.get("v") is not None else range(len(variantes))
+    for v in essais:
+        try:
+            res = _get(base, ENDPOINT_V3, variantes[v], proxy, nom)
+        except Exception as e:
+            print(f"[{nom}] championnat {liga_id} variante {v} : {type(e).__name__}")
+            res = None
+        if res is not None:
+            etat["v"] = v
+            return [convertir_jeu_v3(g) for g in res if isinstance(g, dict)]
+    return []
+
+
+def _evenements_championnats(base, proxy, nom, ids):
+    etat = {}
     sortie = []
-    for i in range(0, len(ids), 8):
-        lot = ",".join(ids[i:i + 8])
-        essais = [choix] if choix is not None else range(len(variantes))
-        for v in essais:
-            try:
-                res = _get(base, ENDPOINT, variantes[v](lot), proxy, nom)
-            except Exception as e:
-                print(f"[{nom}] variante {v} : {type(e).__name__}")
-                res = None
-            if res is not None:
-                if choix is None:
-                    print(f"[{nom}] variante de requete retenue pour les championnats : {v}")
-                choix = v
-                sortie += res
-                break
+    for liga_id in ids:
+        sortie += _evenements_championnat_v3(base, proxy, nom, liga_id, etat)
+    if etat.get("v") is not None:
+        print(f"[{nom}] API par championnat : variante {etat['v']} retenue, {len(sortie)} matchs")
     return sortie
 
 
@@ -254,6 +294,12 @@ def fetch_events(bookmaker, proxy=None, count=COUNT):
                   if priorite(c["LE"], c["L"]) == 0]
         deja = {e.get("LI") for e in evenements}
         ids = [str(c["LI"]) for c in champs if c["LI"] not in deja]
+        # Championnats prioritaires vus dans les evenements de base : on les complete aussi
+        # (la requete de base est plafonnee a ~50 matchs).
+        for e in list(evenements):
+            if e.get("LI") is not None and str(e["LI"]) not in ids \
+                    and priorite(e.get("LE"), e.get("L")) == 0:
+                ids.append(str(e["LI"]))
         print(f"[{bookmaker}] {len(champs)} championnats prioritaires, {len(ids)} a charger en plus")
         nouveaux = 0
         for e in _evenements_championnats(base, proxy, bookmaker, ids):
