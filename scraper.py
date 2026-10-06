@@ -864,10 +864,22 @@ async def scrape_match(
             # quasi absent des vrais noms d'équipe.
             MOTIF_COTE_DANS_NOM = re.compile(r"\d+\.\d+")
 
+            # CORRECTION : 1xbet affiche parfois, sous "1X2", les libelles
+            # "à domicile" / "à l'extérieur" au lieu des noms d'equipes (le log
+            # montrait « à domicile - à l'extérieur » pour 50 matchs). Ces
+            # libelles ne sont pas des equipes : on garde alors les noms du slug.
+            LIBELLES_NON_EQUIPE = {
+                "1", "x", "2", "draw", "nul", "match nul", "egalite",
+                "a domicile", "a l exterieur", "domicile", "exterieur",
+                "home", "away", "equipe a domicile", "equipe a l exterieur",
+                "victoire", "victoire 1", "victoire 2", "resultat",
+            }
+
             def ressemble_a_une_equipe(candidat):
+                from appariement import normalize
                 return (
                     len(candidat) > 2
-                    and candidat.lower() not in ("1", "x", "2", "draw", "nul")
+                    and normalize(candidat) not in LIBELLES_NON_EQUIPE
                     and not MOTIF_COTE_DANS_NOM.search(candidat)
                 )
 
@@ -1735,6 +1747,64 @@ async def run_betpawa(browser):
     sauver_resultat("betpawa", result)
 
 
+def enrichir_1xbet_depuis_autres_sites():
+    """Complete les matchs 1xbet qui n'ont pas de noms anglais / heure / championnat.
+
+    1xbet, melbet, betwinner... partagent la meme plateforme. L'API 1xbet ne renvoie
+    qu'une cinquantaine d'evenements (souvent des matchs en cours), donc la plupart
+    des matchs lus sur la page n'etaient pas corriges (0/50 dans le log), et ne se
+    regroupaient plus avec les autres bookmakers. On relie ici chaque match 1xbet a
+    un match deja lu chez un autre site, par le slug de l'URL (ex. 'arsenal-lille-osc')
+    comparé aux noms anglais."""
+    import difflib
+    import re
+    try:
+        a = json.loads((ROOT / "1xbet.json").read_text(encoding="utf-8"))
+    except Exception as error:
+        print(f"[1xbet] enrichissement croise impossible : {error}")
+        return
+    candidats = []
+    for nom in ("melbet", "betwinner", "megapari", "winwin", "africa-bizbet", "betpawa", "1win"):
+        try:
+            for m in json.loads((ROOT / f"{nom}.json").read_text(encoding="utf-8")):
+                if m.get("equipe_1_en") and m.get("equipe_2_en"):
+                    candidats.append(m)
+        except Exception:
+            continue
+
+    def mots(texte):
+        import unicodedata
+        t = unicodedata.normalize("NFKD", str(texte or "")).lower()
+        t = "".join(c for c in t if not unicodedata.combining(c))
+        return " ".join(re.findall(r"[a-z0-9]+", t))
+
+    index = [(mots(f"{m['equipe_1_en']} {m['equipe_2_en']}"), m) for m in candidats]
+    complete = 0
+    for m in a:
+        if m.get("equipe_1_en") and m.get("equipe_2_en"):
+            continue
+        r = re.search(r"/(\d+)-([^/?]+)/?$", (m.get("url") or "").split("?")[0])
+        if not r:
+            continue
+        slug = mots(r.group(2).replace("-", " "))
+        meilleur, score = None, 0.0
+        for cible, c in index:
+            sc = difflib.SequenceMatcher(None, slug, cible).ratio()
+            if sc > score:
+                meilleur, score = c, sc
+        if meilleur is None or score < 0.8:
+            continue
+        for k in ("equipe_1", "equipe_2", "equipe_1_en", "equipe_2_en", "debut",
+                  "competition", "competition_en", "competition_id"):
+            if meilleur.get(k) is not None:
+                m[k] = meilleur[k]
+        complete += 1
+    if complete:
+        (ROOT / "1xbet.json").write_text(
+            json.dumps(a, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[1xbet] {complete}/{len(a)} matchs completes depuis les autres sites")
+
+
 def diagnostic_1xbet_vs_betwinner(max_lignes=8):
     """
     Compare les cotes 1xBet (Chromium) et BetWinner (API) sur les matchs
@@ -1795,11 +1865,217 @@ async def main():
     # Le fichier doit toujours exister (le workflow le versionne).
     ecrire_maj(lire_maj())
 
+    enrichir_1xbet_depuis_autres_sites()
     diagnostic_1xbet_vs_betwinner()
 
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
