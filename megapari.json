@@ -1,2208 +1,134 @@
 [
   {
     "bookmaker": "megapari",
-    "equipe_1": "Bosnie-Herzégovine",
-    "equipe_2": "Pologne",
+    "equipe_1": "Arnett Gardens",
+    "equipe_2": "Portmore United",
     "1X2": {
-      "V2": "2.337",
-      "V1": "3.255",
-      "X": "3.375"
-    },
-    "Total_2.5": {
-      "Plus de": "2.023",
-      "Moins de": "1.863"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Bosnia and Herzegovina",
-    "equipe_2_en": "Poland",
-    "Double_Chance": {
-      "12": "1.351",
-      "2X": "1.371",
-      "1X": "1.644"
-    },
-    "BTTS": {
-      "Oui": "1.74",
-      "Non": "1.999"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.863",
-        "Plus de": "2.023"
-      },
-      "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.26"
-      },
-      "2": {
-        "Plus de": "1.47",
-        "Moins de": "2.53"
-      },
-      "3": {
-        "Plus de": "2.69",
-        "Moins de": "1.42"
-      },
-      "3.5": {
-        "Plus de": "3.26",
-        "Moins de": "1.28"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.675",
-      "1 (0)": "2.304",
-      "1 (-1)": "5.75",
-      "2 (-1)": "3.48",
-      "1 (+1)": "1.26",
-      "2 (+1)": "1.102",
-      "1 (-1.5)": "6.65",
-      "2 (-1.5)": "4.3",
-      "1 (+1.5)": "1.162",
-      "2 (+1.5)": "1.061"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "France",
-    "equipe_2": "Belgique",
-    "1X2": {
-      "V1": "1.53",
-      "X": "4.65",
-      "V2": "6.15"
-    },
-    "Total_2.5": {
-      "Plus de": "1.52",
-      "Moins de": "2.34"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "France",
-    "equipe_2_en": "Belgium",
-    "Double_Chance": {
-      "1X": "1.144",
-      "12": "1.218",
-      "2X": "2.612"
-    },
-    "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.148"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.601",
-        "Plus de": "2.462"
-      },
-      "2.5": {
-        "Plus de": "1.52",
-        "Moins de": "2.34"
-      },
-      "3": {
-        "Plus de": "1.86",
-        "Moins de": "1.87"
-      },
-      "4": {
-        "Plus de": "3.42",
-        "Moins de": "1.28"
-      },
-      "4.5": {
-        "Plus de": "4.1",
-        "Moins de": "1.188"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.632",
-      "1 (-1.5)": "2.391",
-      "1 (0)": "1.166",
-      "2 (0)": "4.55",
-      "1 (-1)": "1.83",
-      "2 (+1)": "2.01",
-      "1 (-2)": "3.38",
-      "2 (+2)": "1.27",
-      "1 (-2.5)": "4.1",
-      "2 (+2.5)": "1.174"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Irlande du Nord",
-    "equipe_2": "Géorgie",
-    "1X2": {
-      "V1": "2.467",
-      "X": "2.973",
-      "V2": "3.455"
-    },
-    "Total_2.5": {
-      "Plus de": "2.82",
-      "Moins de": "1.444"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Northern Ireland",
-    "equipe_2_en": "Georgia",
-    "Double_Chance": {
-      "1X": "1.338",
-      "12": "1.429",
-      "2X": "1.585"
-    },
-    "BTTS": {
-      "Non": "1.616",
-      "Oui": "2.19"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.635",
-        "Moins de": "2.384"
-      },
-      "0.5": {
-        "Plus de": "1.086",
-        "Moins de": "5.4"
-      },
-      "1": {
-        "Plus de": "1.153",
-        "Moins de": "4.3"
-      },
-      "2": {
-        "Plus de": "2.03",
-        "Moins de": "1.72"
-      },
-      "2.5": {
-        "Plus de": "2.82",
-        "Moins de": "1.444"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.665",
-      "2 (0)": "2.324",
-      "1 (-1)": "4.05",
-      "2 (-1)": "6.65",
-      "1 (+1)": "1.075",
-      "2 (+1)": "1.2",
-      "1 (-1.5)": "4.95",
-      "2 (-1.5)": "7.5",
-      "1 (+1.5)": "1.042",
-      "2 (+1.5)": "1.122"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Italie",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V1": "1.471",
-      "X": "4.75",
-      "V2": "7.1"
-    },
-    "Total_2.5": {
-      "Plus de": "1.628",
-      "Moins de": "2.4"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Italy",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "1X": "1.117",
-      "12": "1.211",
-      "2X": "2.805"
-    },
-    "BTTS": {
-      "Oui": "1.71",
-      "Non": "2.04"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.628",
-        "Moins de": "2.4"
-      },
-      "1.5": {
-        "Plus de": "1.145",
-        "Moins de": "4.45"
-      },
-      "2": {
-        "Plus de": "1.23",
-        "Moins de": "3.64"
-      },
-      "3": {
-        "Plus de": "1.92",
-        "Moins de": "1.84"
-      },
-      "3.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.56"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.695",
-      "1 (-1.5)": "2.267",
-      "1 (0)": "1.13",
-      "2 (0)": "4.95",
-      "1 (-1)": "1.69",
-      "2 (+1)": "2.1",
-      "1 (-2)": "3.2",
-      "2 (+2)": "1.32",
-      "1 (-2.5)": "3.82",
-      "2 (+2.5)": "1.22"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Monténégro",
-    "equipe_2": "Arménie",
-    "1X2": {
-      "V1": "1.455",
-      "X": "4.8",
-      "V2": "7.37"
-    },
-    "Total_2.5": {
-      "Plus de": "1.738",
-      "Moins de": "2.195"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Montenegro",
-    "equipe_2_en": "Armenia",
-    "Double_Chance": {
-      "1X": "1.11",
-      "12": "1.208",
-      "2X": "2.864"
-    },
-    "BTTS": {
-      "Non": "1.851",
-      "Oui": "1.87"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.738",
-        "Moins de": "2.195"
-      },
-      "1.5": {
-        "Plus de": "1.192",
-        "Moins de": "4.05"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "3.2"
-      },
-      "3": {
-        "Plus de": "2.11",
-        "Moins de": "1.66"
-      },
-      "3.5": {
-        "Plus de": "2.61",
-        "Moins de": "1.42"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.71",
-      "1 (-1.5)": "2.242",
-      "1 (0)": "1.122",
-      "2 (0)": "5.3",
-      "1 (-1)": "1.69",
-      "2 (+1)": "2.2",
-      "1 (-2)": "3.1",
-      "2 (+2)": "1.31",
-      "1 (-2.5)": "3.68",
-      "2 (+2.5)": "1.21"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Suède",
-    "1X2": {
-      "V2": "1.953",
-      "V1": "3.845",
-      "X": "3.865"
-    },
-    "Total_2.5": {
-      "Plus de": "1.677",
-      "Moins de": "2.3"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Sweden",
-    "Double_Chance": {
-      "12": "1.286",
-      "2X": "1.288",
-      "1X": "1.908"
-    },
-    "BTTS": {
-      "Oui": "1.56",
-      "Non": "2.302"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.677",
-        "Moins de": "2.3"
-      },
-      "1.5": {
-        "Plus de": "1.155",
-        "Moins de": "4.2"
-      },
-      "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.34"
-      },
-      "3": {
-        "Plus de": "1.97",
-        "Moins de": "1.76"
-      },
-      "3.5": {
-        "Plus de": "2.57",
-        "Moins de": "1.52"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.478",
-      "1 (0)": "2.82",
-      "1 (-1)": "6.3",
-      "2 (-1)": "2.625",
-      "1 (+1)": "1.5",
-      "2 (+1)": "1.063",
-      "1 (-1.5)": "7.1",
-      "2 (-1.5)": "3.22",
-      "1 (+1.5)": "1.31",
-      "2 (+1.5)": "1.038"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Ukraine",
-    "equipe_2": "Hongrie",
-    "1X2": {
-      "V2": "2.793",
-      "V1": "2.874",
-      "X": "3.075"
-    },
-    "Total_2.5": {
-      "Plus de": "2.428",
-      "Moins de": "1.615"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Ukraine",
-    "equipe_2_en": "Hungary",
-    "Double_Chance": {
-      "12": "1.406",
-      "2X": "1.453",
-      "1X": "1.474"
-    },
-    "BTTS": {
-      "Non": "1.787",
-      "Oui": "1.94"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.615",
-        "Plus de": "2.428"
-      },
-      "1.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.64"
-      },
-      "2": {
-        "Plus de": "1.73",
-        "Moins de": "2.01"
-      },
-      "3": {
-        "Plus de": "3.62",
-        "Moins de": "1.25"
-      },
-      "3.5": {
-        "Plus de": "4.4",
-        "Moins de": "1.164"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.92",
-      "1 (0)": "1.96",
-      "1 (-1)": "5.15",
-      "2 (-1)": "4.9",
-      "1 (+1)": "1.141",
-      "2 (+1)": "1.128",
-      "1 (-1.5)": "6.2",
-      "2 (-1.5)": "5.95",
-      "1 (+1.5)": "1.082",
-      "2 (+1.5)": "1.074"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Domicile (Paris spéciaux)",
-    "equipe_2": "Extérieur (Paris spéciaux)",
-    "1X2": {
-      "V1": "1.358",
-      "V2": "4.22",
-      "X": "11.6"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des nations de l'UEFA",
-    "competition_en": "UEFA Nations League",
-    "competition_id": 1706694,
-    "equipe_1_en": "Home (Special bets)",
-    "equipe_2_en": "Away (Special bets)",
-    "Totals": {
-      "19.5": {
-        "Moins de": "1.784",
-        "Plus de": "2.032"
-      },
-      "17.5": {
-        "Plus de": "1.519",
-        "Moins de": "2.536"
-      },
-      "18.5": {
-        "Plus de": "1.744",
-        "Moins de": "2.087"
-      },
-      "20.5": {
-        "Plus de": "2.437",
-        "Moins de": "1.557"
-      },
-      "21.5": {
-        "Plus de": "3.025",
-        "Moins de": "1.385"
-      }
-    },
-    "Handicap": {
-      "2 (+3.5)": "1.788",
-      "1 (-3.5)": "2.027",
-      "1 (-2.5)": "1.739",
-      "2 (+2.5)": "2.094",
-      "1 (-3)": "1.87",
-      "2 (+3)": "1.931",
-      "1 (-4)": "2.248",
-      "2 (+4)": "1.645",
-      "1 (-4.5)": "2.44",
-      "2 (+4.5)": "1.556"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Liechtenstein",
-    "equipe_2": "Gibraltar",
-    "1X2": {
-      "V2": "2.428",
-      "X": "3.12",
-      "V1": "3.47"
-    },
-    "Total_2.5": {
-      "Plus de": "2.97",
-      "Moins de": "1.3"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Matchs amicaux. Équipes nationales",
-    "competition_en": "Friendlies. National Teams",
-    "competition_id": 125983,
-    "equipe_1_en": "Liechtenstein",
-    "equipe_2_en": "Gibraltar",
-    "Double_Chance": {
-      "2X": "1.356",
-      "12": "1.418",
-      "1X": "1.629"
-    },
-    "BTTS": {
-      "Non": "1.506",
-      "Oui": "2.4"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.768",
-        "Moins de": "2.199"
-      },
-      "0.5": {
-        "Plus de": "1.082",
-        "Moins de": "5.5"
-      },
-      "1": {
-        "Plus de": "1.164",
-        "Moins de": "4.1"
-      },
-      "2": {
-        "Plus de": "2.24",
-        "Moins de": "1.52"
-      },
-      "2.5": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.668",
-      "1 (0)": "2.375",
-      "1 (-1)": "7.1",
-      "2 (-1)": "4",
-      "1 (+1)": "1.168",
-      "2 (+1)": "1.037",
-      "1 (-1.5)": "8.3",
-      "2 (-1.5)": "5.15",
-      "1 (+1.5)": "1.097",
-      "2 (+1.5)": "1.015"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Antonio Vergara",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V2": "1.92",
-      "X": "2.32",
-      "V1": "6.36"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Antonio Vergara",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "12": "1.44",
-      "1X": "1.68"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.43",
-        "Plus de": "2.53"
-      },
-      "0.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.21"
-      },
-      "1": {
-        "Plus de": "1.63",
-        "Moins de": "2.09"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Bosnie-Herzégovine",
-    "equipe_2": "Robert Lewandowski",
-    "1X2": {
-      "V1": "1.76",
-      "X": "2.86",
-      "V2": "5.19"
-    },
-    "Total_2.5": {
-      "Plus de": "3.56",
-      "Moins de": "1.23"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Bosnia and Herzegovina",
-    "equipe_2_en": "Robert Lewandowski",
-    "Double_Chance": {
-      "12": "1.29",
-      "2X": "1.82"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.74",
-        "Moins de": "1.93"
-      },
-      "1": {
-        "Plus de": "1.21",
-        "Moins de": "3.73"
-      },
-      "2": {
-        "Plus de": "2.6",
-        "Moins de": "1.41"
-      },
-      "2.5": {
-        "Plus de": "3.56",
-        "Moins de": "1.23"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Bosnie-Herzégovine",
-    "equipe_2": "Mateusz Zukowski",
-    "1X2": {
-      "V1": "1.56",
-      "X": "2.84",
-      "V2": "8.45"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Bosnia and Herzegovina",
-    "equipe_2_en": "Mateusz Zukowski",
-    "Double_Chance": {
-      "12": "1.3",
-      "2X": "2.1"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.69",
-        "Plus de": "2"
-      },
-      "1": {
-        "Plus de": "1.34",
-        "Moins de": "2.88"
-      },
-      "2": {
-        "Plus de": "3.39",
-        "Moins de": "1.25"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Bradley Barcola",
-    "equipe_2": "Belgique",
-    "1X2": {
-      "V2": "1.83",
-      "X": "2.44",
-      "V1": "6.47"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Bradley Barcola",
-    "equipe_2_en": "Belgium",
-    "Double_Chance": {
-      "12": "1.4",
-      "1X": "1.75"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.34"
-      },
-      "0.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "1": {
-        "Plus de": "1.52",
-        "Moins de": "2.31"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Daniel Maldini",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V2": "1.92",
-      "X": "2.32",
-      "V1": "6.36"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Daniel Maldini",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "12": "1.44",
-      "1X": "1.68"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.43",
-        "Plus de": "2.53"
-      },
-      "0.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.21"
-      },
-      "1": {
-        "Plus de": "1.63",
-        "Moins de": "2.09"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Desire Doue",
-    "equipe_2": "Belgique",
-    "1X2": {
-      "V2": "1.84",
-      "X": "2.44",
-      "V1": "6.33"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Desire Doue",
-    "equipe_2_en": "Belgium",
-    "Double_Chance": {
-      "12": "1.4",
-      "1X": "1.74"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.51",
-        "Plus de": "2.32"
-      },
-      "0.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.53"
-      },
-      "1": {
-        "Plus de": "1.51",
-        "Moins de": "2.33"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Gianluca Scamacca",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V2": "2.18",
-      "X": "2.44",
-      "V1": "4.14"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Gianluca Scamacca",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "2X": "1.15",
-      "12": "1.4",
-      "1X": "1.51"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.61",
-        "Plus de": "2.11"
-      },
-      "0.5": {
-        "Plus de": "1.17",
-        "Moins de": "3.94"
-      },
-      "1": {
-        "Plus de": "1.4",
-        "Moins de": "2.65"
-      },
-      "2": {
-        "Plus de": "3.76",
-        "Moins de": "1.21"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Michael Olise",
-    "equipe_2": "Belgique",
-    "1X2": {
-      "V2": "1.84",
-      "X": "2.44",
-      "V1": "6.33"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Michael Olise",
-    "equipe_2_en": "Belgium",
-    "Double_Chance": {
-      "12": "1.4",
-      "1X": "1.74"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.51",
-        "Plus de": "2.32"
-      },
-      "0.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.53"
-      },
-      "1": {
-        "Plus de": "1.51",
-        "Moins de": "2.33"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Milutin Osmajic",
-    "equipe_2": "Arménie",
-    "1X2": {
-      "V2": "2.01",
-      "X": "2.36",
-      "V1": "5.3"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Milutin Osmajic",
-    "equipe_2_en": "Armenia",
-    "Double_Chance": {
-      "12": "1.43",
-      "1X": "1.61"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.36"
-      },
-      "0.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.46"
-      },
-      "1": {
-        "Plus de": "1.53",
-        "Moins de": "2.28"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Mohamed Ali Zoma",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V2": "2.02",
-      "X": "2.37",
-      "V1": "5.17"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Mohamed Ali Zoma",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "12": "1.43",
-      "1X": "1.6"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.51",
-        "Plus de": "2.33"
-      },
-      "0.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "1": {
-        "Plus de": "1.52",
-        "Moins de": "2.31"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Moise Kean",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V2": "2.24",
-      "X": "2.46",
-      "V1": "3.89"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Moise Kean",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "2X": "1.17",
-      "12": "1.39",
-      "1X": "1.49"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.65",
-        "Plus de": "2.05"
-      },
-      "1": {
-        "Plus de": "1.36",
-        "Moins de": "2.77"
-      },
-      "2": {
-        "Plus de": "3.56",
-        "Moins de": "1.23"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Nikola Krstovic",
-    "equipe_2": "Arménie",
-    "1X2": {
-      "V2": "2.01",
-      "X": "2.36",
-      "V1": "5.3"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Nikola Krstovic",
-    "equipe_2_en": "Armenia",
-    "Double_Chance": {
-      "12": "1.43",
-      "1X": "1.61"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.36"
-      },
-      "0.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.46"
-      },
-      "1": {
-        "Plus de": "1.53",
-        "Moins de": "2.28"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Rayan Cherki",
-    "equipe_2": "Belgique",
-    "1X2": {
-      "V2": "1.77",
-      "X": "2.42",
-      "V1": "7.55"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Rayan Cherki",
-    "equipe_2_en": "Belgium",
-    "Double_Chance": {
-      "12": "1.41",
-      "1X": "1.81"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.46",
-        "Plus de": "2.46"
-      },
-      "0.5": {
-        "Plus de": "1.25",
-        "Moins de": "3.3"
-      },
-      "1": {
-        "Plus de": "1.59",
-        "Moins de": "2.16"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Viktor Gyokeres",
-    "1X2": {
-      "V1": "1.78",
-      "X": "2.77",
-      "V2": "5.29"
-    },
-    "Total_2.5": {
-      "Plus de": "3.86",
-      "Moins de": "1.2"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Viktor Gyokeres",
-    "Double_Chance": {
-      "12": "1.31",
-      "2X": "1.79"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.82",
-        "Moins de": "1.84"
-      },
-      "1": {
-        "Plus de": "1.25",
-        "Moins de": "3.4"
-      },
-      "2": {
-        "Plus de": "2.84",
-        "Moins de": "1.35"
-      },
-      "2.5": {
-        "Plus de": "3.86",
-        "Moins de": "1.2"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Paulos Abraham",
-    "1X2": {
-      "V1": "1.74",
-      "X": "2.76",
-      "V2": "5.78"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Paulos Abraham",
-    "Double_Chance": {
-      "12": "1.31",
-      "2X": "1.85"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.79",
-        "Plus de": "1.88"
-      },
-      "1": {
-        "Plus de": "1.28",
-        "Moins de": "3.22"
-      },
-      "2": {
-        "Plus de": "3",
-        "Moins de": "1.32"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Williot Swedberg",
-    "1X2": {
-      "V1": "1.61",
-      "X": "2.74",
-      "V2": "8.1"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Williot Swedberg",
-    "Double_Chance": {
-      "12": "1.32",
-      "2X": "2.03"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.64",
-        "Plus de": "2.07"
-      },
-      "1": {
-        "Plus de": "1.38",
-        "Moins de": "2.72"
-      },
-      "2": {
-        "Plus de": "3.62",
-        "Moins de": "1.22"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Sebastian Nanasi",
-    "1X2": {
-      "V1": "1.6",
-      "X": "2.74",
-      "V2": "8.4"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Sebastian Nanasi",
-    "Double_Chance": {
-      "12": "1.32",
-      "2X": "2.05"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.62",
-        "Plus de": "2.1"
-      },
-      "0.5": {
-        "Plus de": "1.17",
-        "Moins de": "3.98"
-      },
-      "1": {
-        "Plus de": "1.39",
-        "Moins de": "2.68"
-      },
-      "2": {
-        "Plus de": "3.7",
-        "Moins de": "1.22"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Benjamin Nygren",
-    "1X2": {
-      "V1": "1.6",
-      "X": "2.74",
-      "V2": "8.4"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Benjamin Nygren",
-    "Double_Chance": {
-      "12": "1.32",
-      "2X": "2.05"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.62",
-        "Plus de": "2.1"
-      },
-      "0.5": {
-        "Plus de": "1.17",
-        "Moins de": "3.98"
-      },
-      "1": {
-        "Plus de": "1.39",
-        "Moins de": "2.68"
-      },
-      "2": {
-        "Plus de": "3.7",
-        "Moins de": "1.22"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Roumanie",
-    "equipe_2": "Hugo Bolin",
-    "1X2": {
-      "V1": "1.58",
-      "X": "2.74",
-      "V2": "8.8"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Romania",
-    "equipe_2_en": "Hugo Bolin",
-    "Double_Chance": {
-      "12": "1.32",
-      "2X": "2.07"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.61",
-        "Plus de": "2.12"
-      },
-      "0.5": {
-        "Plus de": "1.18",
-        "Moins de": "3.93"
-      },
-      "1": {
-        "Plus de": "1.4",
-        "Moins de": "2.64"
-      },
-      "2": {
-        "Plus de": "3.77",
-        "Moins de": "1.21"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Sebastiano Esposito",
-    "equipe_2": "Turquie",
-    "1X2": {
-      "V2": "2.04",
-      "X": "2.37",
-      "V1": "5.04"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "Ligue des Nations de l'UEFA. Équipe vs joueur",
-    "competition_en": "UEFA Nations League. Team vs Player",
-    "competition_id": 2819162,
-    "equipe_1_en": "Sebastiano Esposito",
-    "equipe_2_en": "Turkey",
-    "Double_Chance": {
-      "12": "1.42",
-      "1X": "1.59"
-    },
-    "Totals": {
-      "1.5": {
-        "Moins de": "1.52",
-        "Plus de": "2.31"
-      },
-      "0.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.54"
-      },
-      "1": {
-        "Plus de": "1.5",
-        "Moins de": "2.34"
-      }
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Guadeloupe",
-    "equipe_2": "Saint Lucia",
-    "1X2": {
-      "V2": "1.62",
-      "X": "4.1",
-      "V1": "4.58"
-    },
-    "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.27"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T19:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Guadeloupe",
-    "equipe_2_en": "Saint Lucia",
-    "Double_Chance": {
-      "2X": "1.152",
-      "12": "1.188",
-      "1X": "2.18"
-    },
-    "BTTS": {
-      "Oui": "1.6",
-      "Non": "2.194"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.138",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.22",
-        "Moins de": "3.52"
-      },
-      "3": {
-        "Plus de": "1.88",
-        "Moins de": "1.75"
-      },
-      "3.5": {
-        "Plus de": "2.375",
-        "Moins de": "1.46"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.4",
-      "2 (-1.5)": "2.56",
-      "1 (0)": "3.42",
-      "2 (0)": "1.23",
-      "2 (-1)": "2.03",
-      "1 (+1)": "1.71",
-      "2 (-2)": "4.05",
-      "1 (+2)": "1.165",
-      "2 (-2.5)": "4.8",
-      "1 (+2.5)": "1.116"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.733",
-      "V2": "2.563",
-      "X": "9.85"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T19:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Totals": {
-      "20.5": {
-        "Plus de": "1.799",
-        "Moins de": "2.013"
-      },
-      "18.5": {
-        "Plus de": "1.393",
-        "Moins de": "2.986"
-      },
-      "19.5": {
-        "Plus de": "1.571",
-        "Moins de": "2.402"
-      },
-      "21.5": {
-        "Plus de": "2.09",
-        "Moins de": "1.741"
-      },
-      "22.5": {
-        "Plus de": "2.499",
-        "Moins de": "1.533"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.828",
-      "1 (-1.5)": "1.978",
-      "1 (-1)": "1.832",
-      "2 (-1)": "2.994",
-      "1 (+1)": "1.391",
-      "2 (+1)": "1.973",
-      "1 (-2)": "2.172",
-      "2 (+2)": "1.689",
-      "1 (-2.5)": "2.348",
-      "2 (+2.5)": "1.595"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Deportivo Riesta",
-    "equipe_2": "Central Cordoba de Santiago",
-    "1X2": {
-      "V1": "1.918",
-      "X": "3.14",
-      "V2": "4.69"
-    },
-    "Total_2.5": {
-      "Plus de": "2.49",
-      "Moins de": "1.42"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T19:45:00+00:00",
-    "competition": "Championnat d'Argentine. Primera Division",
-    "competition_en": "Argentina. Primera Division",
-    "competition_id": 119599,
-    "equipe_1_en": "Deportivo Riestra",
-    "equipe_2_en": "Central Cordoba de Santiago",
-    "Double_Chance": {
-      "1X": "1.183",
-      "12": "1.351",
-      "2X": "1.863"
-    },
-    "BTTS": {
-      "Non": "1.577",
-      "Oui": "2.24"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.556",
-        "Moins de": "2.44"
-      },
-      "0.5": {
-        "Plus de": "1.073",
-        "Moins de": "5.75"
-      },
-      "1": {
-        "Plus de": "1.131",
-        "Moins de": "4.65"
-      },
-      "2": {
-        "Plus de": "1.88",
-        "Moins de": "1.76"
-      },
-      "2.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.42"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.319",
-      "2 (0)": "3.395",
-      "1 (-1)": "2.78",
-      "2 (-1)": "9.3",
-      "1 (+1)": "1.002",
-      "2 (+1)": "1.4",
-      "1 (-1.5)": "3.5",
-      "2 (+1.5)": "1.222"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.582",
-      "V2": "3.39",
-      "X": "7.02"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T19:45:00+00:00",
-    "competition": "Championnat d'Argentine. Primera Division",
-    "competition_en": "Argentina. Primera Division",
-    "competition_id": 119599,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Double_Chance": {
-      "12": "1.08",
-      "1X": "1.277",
-      "2X": "2.524"
-    },
-    "Totals": {
-      "8.5": {
-        "Plus de": "1.727",
-        "Moins de": "2.112"
-      },
-      "6.5": {
-        "Plus de": "1.213",
-        "Moins de": "4.38"
-      },
-      "7.5": {
-        "Plus de": "1.42",
-        "Moins de": "2.872"
-      },
-      "9.5": {
-        "Plus de": "2.172",
-        "Moins de": "1.689"
-      },
-      "10.5": {
-        "Plus de": "2.906",
-        "Moins de": "1.411"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.871",
-      "1 (-1.5)": "1.93",
-      "1 (-1)": "1.707",
-      "2 (-1)": "4.84",
-      "1 (+1)": "1.182",
-      "2 (+1)": "2.142",
-      "1 (-2)": "2.231",
-      "2 (+2)": "1.654",
-      "1 (-2.5)": "2.524",
-      "2 (+2.5)": "1.524"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Cuba",
-    "equipe_2": "Saint Kitts et Nevis",
-    "1X2": {
-      "V1": "1.59",
-      "X": "4.3",
-      "V2": "4.575"
-    },
-    "Total_2.5": {
-      "Plus de": "1.42",
-      "Moins de": "2.49"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T21:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Cuba",
-    "equipe_2_en": "Saint Kitts and Nevis",
-    "Double_Chance": {
-      "1X": "1.152",
-      "12": "1.173",
-      "2X": "2.23"
-    },
-    "BTTS": {
-      "Oui": "1.5",
-      "Non": "2.415"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.65",
-        "Plus de": "2.14"
-      },
-      "2.5": {
-        "Plus de": "1.42",
-        "Moins de": "2.49"
-      },
-      "3": {
-        "Plus de": "1.66",
-        "Moins de": "2"
-      },
-      "4": {
-        "Plus de": "2.89",
-        "Moins de": "1.32"
-      },
-      "4.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.444",
-      "1 (-1.5)": "2.42",
-      "1 (0)": "1.22",
-      "2 (0)": "3.5",
-      "1 (-1)": "1.94",
-      "2 (+1)": "1.78",
-      "1 (-2)": "3.7",
-      "2 (+2)": "1.198",
-      "1 (-2.5)": "4.4",
-      "2 (+2.5)": "1.14"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Estudiantes de La Plata",
-    "equipe_2": "Gimnasia y Esgrima de Mendoza",
-    "1X2": {
-      "V1": "1.716",
-      "X": "3.595",
-      "V2": "5.21"
-    },
-    "Total_2.5": {
-      "Plus de": "2.175",
-      "Moins de": "1.687"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T22:00:00+00:00",
-    "competition": "Championnat d'Argentine. Primera Division",
-    "competition_en": "Argentina. Primera Division",
-    "competition_id": 119599,
-    "equipe_1_en": "Estudiantes de La Plata",
-    "equipe_2_en": "Club Atletico Gimnasia y Esgrima",
-    "Double_Chance": {
-      "1X": "1.154",
-      "12": "1.282",
-      "2X": "2.103"
-    },
-    "BTTS": {
-      "Non": "1.71",
-      "Oui": "2.02"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.687",
-        "Plus de": "2.175"
-      },
-      "1.5": {
-        "Plus de": "1.33",
-        "Moins de": "2.83"
-      },
-      "2": {
-        "Plus de": "1.57",
-        "Moins de": "2.16"
-      },
-      "3": {
-        "Plus de": "3.02",
-        "Moins de": "1.3"
-      },
-      "3.5": {
-        "Plus de": "3.75",
-        "Moins de": "1.192"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.352",
-      "1 (-1.5)": "3.195",
-      "1 (0)": "1.22",
-      "2 (0)": "3.5",
-      "1 (-1)": "2.27",
-      "2 (+1)": "1.58",
-      "1 (-2)": "5.15",
-      "2 (+2)": "1.097",
-      "1 (-2.5)": "6",
-      "2 (+2.5)": "1.065"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Velez Sarsfield",
-    "equipe_2": "Platense",
-    "1X2": {
-      "V1": "1.927",
-      "X": "3.14",
-      "V2": "4.64"
-    },
-    "Total_2.5": {
-      "Plus de": "2.66",
-      "Moins de": "1.37"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T22:00:00+00:00",
-    "competition": "Championnat d'Argentine. Primera Division",
-    "competition_en": "Argentina. Primera Division",
-    "competition_id": 119599,
-    "equipe_1_en": "Velez Sarsfield",
-    "equipe_2_en": "Platense",
-    "Double_Chance": {
-      "1X": "1.187",
-      "12": "1.352",
-      "2X": "1.854"
-    },
-    "BTTS": {
-      "Non": "1.516",
-      "Oui": "2.375"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.615",
-        "Moins de": "2.306"
-      },
-      "0.5": {
-        "Plus de": "1.082",
-        "Moins de": "5.5"
-      },
-      "1": {
-        "Plus de": "1.15",
-        "Moins de": "4.33"
-      },
-      "2": {
-        "Plus de": "2.03",
-        "Moins de": "1.65"
-      },
-      "2.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.33",
-      "2 (0)": "3.325",
-      "1 (-1)": "2.82",
-      "2 (-1)": "9.2",
-      "1 (+1)": "1.02",
-      "2 (+1)": "1.39",
-      "1 (-1.5)": "3.6",
-      "2 (+1.5)": "1.21"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Martinique",
-    "equipe_2": "El Salvador",
-    "1X2": {
-      "V1": "2.43",
-      "V2": "2.66",
+      "V2": "2.08",
+      "V1": "3.045",
       "X": "3.34"
     },
     "Total_2.5": {
-      "Plus de": "1.82",
-      "Moins de": "1.909"
+      "Plus de": "1.72",
+      "Moins de": "1.96"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
-    "debut": "2026-10-05T22:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Martinique",
-    "equipe_2_en": "El Salvador",
+    "debut": "2026-10-06T01:00:00+00:00",
+    "competition": "Jamaique. Première Ligue",
+    "competition_en": "Jamaica. National Premier League",
+    "competition_id": 118745,
+    "equipe_1_en": "Arnett Gardens",
+    "equipe_2_en": "Portmore United",
     "Double_Chance": {
-      "12": "1.28",
-      "1X": "1.41",
-      "2X": "1.49"
+      "12": "1.22",
+      "2X": "1.28",
+      "1X": "1.58"
     },
     "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.13"
+      "Oui": "1.59",
+      "Non": "2.171"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.82",
-        "Moins de": "1.909"
+        "Plus de": "1.72",
+        "Moins de": "1.96"
       },
       "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
+        "Plus de": "1.2",
+        "Moins de": "3.68"
       },
       "2": {
-        "Plus de": "1.363",
-        "Moins de": "2.7"
+        "Plus de": "1.32",
+        "Moins de": "2.875"
       },
       "3": {
-        "Plus de": "2.34",
-        "Moins de": "1.48"
+        "Plus de": "2.17",
+        "Moins de": "1.55"
       },
       "3.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
+        "Plus de": "2.7",
+        "Moins de": "1.36"
       }
     },
     "Handicap": {
-      "1 (0)": "1.78",
-      "2 (0)": "1.94",
-      "1 (-1)": "3.78",
-      "2 (-1)": "4.3",
-      "1 (+1)": "1.147",
-      "2 (+1)": "1.19",
-      "1 (-1.5)": "4.6",
-      "2 (-1.5)": "5.1",
-      "1 (+1.5)": "1.099",
-      "2 (+1.5)": "1.127"
+      "2 (0)": "1.55",
+      "1 (0)": "2.23",
+      "1 (-1)": "5.2",
+      "2 (-1)": "3.04",
+      "1 (+1)": "1.29",
+      "2 (+1)": "1.096",
+      "1 (-1.5)": "6.05",
+      "2 (-1.5)": "3.78",
+      "1 (+1.5)": "1.189",
+      "2 (+1.5)": "1.064"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Bermudes",
-    "equipe_2": "Barbade",
+    "equipe_1": "Navua",
+    "equipe_2": "Nadi",
     "1X2": {
-      "V2": "1.62",
-      "V1": "4.315",
-      "X": "4.33"
+      "V1": "2.43",
+      "V2": "2.72",
+      "X": "2.91"
     },
     "Total_2.5": {
-      "Plus de": "1.33",
-      "Moins de": "2.83"
+      "Plus de": "2.41",
+      "Moins de": "1.48"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
-    "debut": "2026-10-06T00:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Bermuda",
-    "equipe_2_en": "Barbados",
+    "debut": "2026-10-06T01:30:00+00:00",
+    "competition": "Fidji. Championnat interdistrict",
+    "competition_en": "Fiji. Inter District Championship",
+    "competition_id": 2014658,
+    "equipe_1_en": "Navua",
+    "equipe_2_en": "Nadi",
     "Double_Chance": {
-      "12": "1.17",
-      "2X": "1.17",
-      "1X": "2.18"
+      "12": "1.29",
+      "1X": "1.33",
+      "2X": "1.41"
     },
     "BTTS": {
-      "Oui": "1.4",
-      "Non": "2.731"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.79",
-        "Plus de": "1.94"
-      },
-      "2.5": {
-        "Plus de": "1.33",
-        "Moins de": "2.83"
-      },
-      "3": {
-        "Plus de": "1.51",
-        "Moins de": "2.27"
-      },
-      "4": {
-        "Plus de": "2.5",
-        "Moins de": "1.42"
-      },
-      "4.5": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.43",
-      "2 (-1.5)": "2.46",
-      "1 (0)": "3.28",
-      "2 (0)": "1.25",
-      "2 (-1)": "2.01",
-      "1 (+1)": "1.727",
-      "2 (-2)": "3.82",
-      "1 (+2)": "1.186",
-      "2 (-2.5)": "4.55",
-      "1 (+2.5)": "1.131"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Grenade",
-    "equipe_2": "Bonaire",
-    "1X2": {
-      "V1": "1.47",
-      "X": "4.33",
-      "V2": "5.92"
-    },
-    "Total_2.5": {
-      "Plus de": "1.62",
-      "Moins de": "2.19"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T00:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Grenada",
-    "equipe_2_en": "Bonaire",
-    "Double_Chance": {
-      "1X": "1.094",
-      "12": "1.17",
-      "2X": "2.5"
-    },
-    "BTTS": {
-      "Oui": "1.74",
-      "Non": "1.977"
+      "Non": "1.685",
+      "Oui": "2.01"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.19"
+        "Moins de": "1.48",
+        "Plus de": "2.41"
       },
       "1.5": {
-        "Plus de": "1.16",
-        "Moins de": "4.1"
+        "Plus de": "1.44",
+        "Moins de": "2.43"
       },
       "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.3"
+        "Plus de": "1.79",
+        "Moins de": "1.83"
       },
       "3": {
-        "Plus de": "1.952",
-        "Moins de": "1.69"
+        "Plus de": "3.86",
+        "Moins de": "1.181"
       },
       "3.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.43"
+        "Plus de": "4.7",
+        "Moins de": "1.122"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.57",
-      "1 (-1.5)": "2.27",
-      "1 (0)": "1.141",
-      "2 (0)": "4.4",
-      "1 (-1)": "1.71",
-      "2 (+1)": "1.92",
-      "1 (-2)": "3.28",
-      "2 (+2)": "1.25",
-      "1 (-2.5)": "3.94",
-      "2 (+2.5)": "1.174"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Guatemala",
-    "equipe_2": "Suriname",
-    "1X2": {
-      "V1": "2.06",
-      "V2": "3.3",
-      "X": "3.44"
-    },
-    "Total_2.5": {
-      "Plus de": "1.87",
-      "Moins de": "1.86"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T00:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "Guatemala",
-    "equipe_2_en": "Suriname",
-    "Double_Chance": {
-      "12": "1.26",
-      "1X": "1.285",
-      "2X": "1.68"
-    },
-    "BTTS": {
-      "Oui": "1.71",
-      "Non": "2.018"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.86",
-        "Plus de": "1.87"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
-      },
-      "2": {
-        "Plus de": "1.39",
-        "Moins de": "2.6"
-      },
-      "3": {
-        "Plus de": "2.47",
-        "Moins de": "1.43"
-      },
-      "3.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.51",
-      "2 (0)": "2.41",
-      "1 (-1)": "3.04",
-      "2 (-1)": "6.3",
-      "1 (+1)": "1.056",
-      "2 (+1)": "1.29",
-      "1 (-1.5)": "3.88",
-      "2 (-1.5)": "7.4",
-      "1 (+1.5)": "1.031",
-      "2 (+1.5)": "1.18"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Club Atlético Banfield",
-    "equipe_2": "Rosario Central",
-    "1X2": {
-      "V2": "1.93",
-      "X": "3.315",
-      "V1": "4.285"
-    },
-    "Total_2.5": {
-      "Plus de": "2.226",
-      "Moins de": "1.657"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T00:15:00+00:00",
-    "competition": "Championnat d'Argentine. Primera Division",
-    "competition_en": "Argentina. Primera Division",
-    "competition_id": 119599,
-    "equipe_1_en": "Club Atletico Banfield",
-    "equipe_2_en": "Rosario Central",
-    "Double_Chance": {
-      "2X": "1.212",
-      "12": "1.321",
-      "1X": "1.852"
-    },
-    "BTTS": {
-      "Non": "1.761",
-      "Oui": "1.95"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.657",
-        "Plus de": "2.226"
-      },
-      "1.5": {
-        "Plus de": "1.34",
-        "Moins de": "2.78"
-      },
-      "2": {
-        "Plus de": "1.6",
-        "Moins de": "2.11"
-      },
-      "3": {
-        "Plus de": "3.2",
-        "Moins de": "1.27"
-      },
-      "3.5": {
-        "Plus de": "3.95",
-        "Moins de": "1.173"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.388",
-      "1 (0)": "3.01",
-      "1 (-1)": "9.1",
-      "2 (-1)": "2.69",
-      "1 (+1)": "1.363",
-      "2 (+1)": "1.004",
-      "1 (-1.5)": "8.9",
-      "2 (-1.5)": "3.5",
-      "1 (+1.5)": "1.22",
-      "2 (+1.5)": "1.02"
+      "1 (0)": "1.74",
+      "2 (0)": "1.93",
+      "1 (-1)": "4.4",
+      "2 (-1)": "5.25",
+      "1 (+1)": "1.094",
+      "2 (+1)": "1.14",
+      "1 (-1.5)": "5.45",
+      "2 (-1.5)": "6.3",
+      "1 (+1.5)": "1.056",
+      "2 (+1.5)": "1.085"
     }
   },
   {
@@ -2210,16 +136,16 @@
     "equipe_1": "Australie U23",
     "equipe_2": "Corée du Sud U23",
     "1X2": {
-      "V1": "2.39",
-      "V2": "2.39",
-      "X": "3.48"
+      "V2": "2.17",
+      "V1": "2.875",
+      "X": "3.32"
     },
     "Total_2.5": {
-      "Plus de": "1.74",
-      "Moins de": "1.93"
+      "Plus de": "1.97",
+      "Moins de": "1.71"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
     "debut": "2026-10-06T02:00:00+00:00",
     "competition": "Matchs amicaux U23. Equipes nationales",
@@ -2228,39 +154,41 @@
     "equipe_1_en": "Australia U23",
     "equipe_2_en": "South Korea U23",
     "Double_Chance": {
-      "12": "1.2",
-      "1X": "1.42",
-      "2X": "1.42"
+      "12": "1.22",
+      "2X": "1.31",
+      "1X": "1.52"
     },
     "BTTS": {
-      "Oui": "1.62",
-      "Non": "2.11"
+      "Oui": "1.77",
+      "Non": "1.89"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.74",
-        "Moins de": "1.93"
+        "Moins de": "1.71",
+        "Plus de": "1.97"
       },
       "1.5": {
-        "Plus de": "1.2",
-        "Moins de": "3.89"
+        "Plus de": "1.27",
+        "Moins de": "3.27"
       },
       "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.96"
+        "Plus de": "1.46",
+        "Moins de": "2.44"
       },
       "3": {
-        "Plus de": "2.37",
-        "Moins de": "1.49"
+        "Plus de": "2.9",
+        "Moins de": "1.34"
       },
       "3.5": {
-        "Plus de": "3.04",
-        "Moins de": "1.31"
+        "Plus de": "3.69",
+        "Moins de": "1.22"
       }
     },
     "Handicap": {
-      "1 (0)": "1.83",
-      "2 (0)": "1.83"
+      "2 (0)": "1.62",
+      "1 (0)": "2.11",
+      "2 (-1)": "3.7",
+      "1 (+1)": "1.22"
     }
   },
   {
@@ -2277,7 +205,7 @@
       "Moins de": "1.615"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
     "debut": "2026-10-06T02:00:00+00:00",
     "competition": "Ligue des Nations CONCACAF",
@@ -2331,19 +259,531 @@
   },
   {
     "bookmaker": "megapari",
+    "equipe_1": "Nasinu",
+    "equipe_2": "Rewa",
+    "1X2": {
+      "V2": "1.26",
+      "X": "5.5",
+      "V1": "8.25"
+    },
+    "Total_2.5": {
+      "Plus de": "1.35",
+      "Moins de": "2.9"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T03:30:00+00:00",
+    "competition": "Fidji. Championnat interdistrict",
+    "competition_en": "Fiji. Inter District Championship",
+    "competition_id": 2014658,
+    "equipe_1_en": "Nasinu",
+    "equipe_2_en": "Rewa",
+    "Double_Chance": {
+      "2X": "1.05",
+      "12": "1.111",
+      "1X": "3.9"
+    },
+    "BTTS": {
+      "Oui": "1.75",
+      "Non": "1.975"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.75",
+        "Plus de": "1.909"
+      },
+      "2.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.9"
+      },
+      "3": {
+        "Plus de": "1.61",
+        "Moins de": "2.18"
+      },
+      "4.5": {
+        "Plus de": "3",
+        "Moins de": "1.333"
+      },
+      "5.5": {
+        "Plus de": "5",
+        "Moins de": "1.125"
+      }
+    },
+    "Handicap": {
+      "2 (-1.5)": "1.77",
+      "1 (+1.5)": "1.94",
+      "2 (-1)": "1.4",
+      "1 (+1)": "2.7",
+      "2 (-2)": "2.3",
+      "1 (+2)": "1.55"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Ba",
+    "equipe_2": "Lautoka FC",
+    "1X2": {
+      "V1": "1.26",
+      "X": "6",
+      "V2": "7.22"
+    },
+    "Total_2.5": {
+      "Plus de": "1.286",
+      "Moins de": "3.25"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T05:30:00+00:00",
+    "competition": "Fidji. Championnat interdistrict",
+    "competition_en": "Fiji. Inter District Championship",
+    "competition_id": 2014658,
+    "equipe_1_en": "Ba",
+    "equipe_2_en": "Lautoka",
+    "Double_Chance": {
+      "1X": "1.05",
+      "12": "1.111",
+      "2X": "3.9"
+    },
+    "BTTS": {
+      "Oui": "1.615",
+      "Non": "2.181"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.727",
+        "Moins de": "1.95"
+      },
+      "1.5": {
+        "Plus de": "1.071",
+        "Moins de": "7"
+      },
+      "2.5": {
+        "Plus de": "1.286",
+        "Moins de": "3.25"
+      },
+      "4": {
+        "Plus de": "2.26",
+        "Moins de": "1.57"
+      },
+      "4.5": {
+        "Plus de": "2.625",
+        "Moins de": "1.4"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.73",
+      "2 (+1.5)": "2",
+      "1 (-2)": "2.2",
+      "2 (+2)": "1.59",
+      "1 (-2.5)": "2.75",
+      "2 (+2.5)": "1.39"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Labasa",
+    "equipe_2": "Suva",
+    "1X2": {
+      "V1": "1.553",
+      "X": "4",
+      "V2": "4.82"
+    },
+    "Total_2.5": {
+      "Plus de": "1.286",
+      "Moins de": "3.25"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T08:00:00+00:00",
+    "competition": "Fidji. Championnat interdistrict",
+    "competition_en": "Fiji. Inter District Championship",
+    "competition_id": 2014658,
+    "equipe_1_en": "Labasa",
+    "equipe_2_en": "Suva",
+    "Double_Chance": {
+      "1X": "1.167",
+      "12": "1.167",
+      "2X": "2.375"
+    },
+    "BTTS": {
+      "Oui": "1.364",
+      "Non": "2.816"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.75",
+        "Moins de": "1.95"
+      },
+      "2.5": {
+        "Plus de": "1.286",
+        "Moins de": "3.25"
+      },
+      "3": {
+        "Plus de": "1.44",
+        "Moins de": "2.6"
+      },
+      "4": {
+        "Plus de": "2.22",
+        "Moins de": "1.59"
+      },
+      "4.5": {
+        "Plus de": "2.625",
+        "Moins de": "1.4"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.62",
+      "1 (-1.5)": "2.16",
+      "1 (-1)": "1.76",
+      "2 (+1)": "1.95",
+      "1 (-2)": "3",
+      "2 (+2)": "1.34"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Arabie saoudite U20",
+    "equipe_2": "Arménie U20",
+    "1X2": {
+      "V1": "1.41",
+      "X": "4.15",
+      "V2": "6.31"
+    },
+    "Total_2.5": {
+      "Plus de": "1.69",
+      "Moins de": "2.01"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T09:00:00+00:00",
+    "competition": "Matchs amicaux U20. Équipes nationales",
+    "competition_en": "Friendlies U20. National Teams",
+    "competition_id": 1136839,
+    "equipe_1_en": "Saudi Arabia U20",
+    "equipe_2_en": "Armenia U20",
+    "Double_Chance": {
+      "1X": "1.048",
+      "12": "1.136",
+      "2X": "2.46"
+    },
+    "BTTS": {
+      "Oui": "1.82",
+      "Non": "1.85"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.69",
+        "Moins de": "2.01"
+      },
+      "1.5": {
+        "Plus de": "1.185",
+        "Moins de": "3.82"
+      },
+      "2": {
+        "Plus de": "1.3",
+        "Moins de": "2.97"
+      },
+      "3": {
+        "Plus de": "2.15",
+        "Moins de": "1.56"
+      },
+      "3.5": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.53",
+      "1 (-1.5)": "2.21",
+      "1 (0)": "1.118",
+      "2 (0)": "4.75",
+      "1 (-1)": "1.71",
+      "2 (+1)": "1.96",
+      "1 (-2)": "3.34",
+      "2 (+2)": "1.24",
+      "1 (-2.5)": "4.1",
+      "2 (+2.5)": "1.162"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Corée du Sud",
+    "equipe_2": "Ouzbékistan",
+    "1X2": {
+      "V1": "1.799",
+      "X": "3.875",
+      "V2": "4.84"
+    },
+    "Total_2.5": {
+      "Plus de": "1.997",
+      "Moins de": "1.924"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T11:00:00+00:00",
+    "competition": "Matchs amicaux. Équipes nationales",
+    "competition_en": "Friendlies. National Teams",
+    "competition_id": 125983,
+    "equipe_1_en": "South Korea",
+    "equipe_2_en": "Uzbekistan",
+    "Double_Chance": {
+      "1X": "1.221",
+      "12": "1.303",
+      "2X": "2.129"
+    },
+    "BTTS": {
+      "Oui": "1.82",
+      "Non": "1.884"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.924",
+        "Plus de": "1.997"
+      },
+      "1.5": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "2": {
+        "Plus de": "1.41",
+        "Moins de": "2.54"
+      },
+      "3": {
+        "Plus de": "2.54",
+        "Moins de": "1.41"
+      },
+      "3.5": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.341",
+      "1 (-1.5)": "3.64",
+      "1 (0)": "1.25",
+      "2 (0)": "3.28",
+      "1 (-1)": "2.29",
+      "2 (+1)": "1.56",
+      "1 (-2)": "5.3",
+      "2 (+2)": "1.092",
+      "1 (-2.5)": "6.15",
+      "2 (+2.5)": "1.06"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Danemark U19",
+    "equipe_2": "Pays-Bas U19",
+    "1X2": {
+      "V1": "2.25",
+      "V2": "2.63",
+      "X": "3.36"
+    },
+    "Total_2.5": {
+      "Plus de": "1.6",
+      "Moins de": "2.15"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T11:00:00+00:00",
+    "competition": "Matchs amicaux U19. Équipes nationales",
+    "competition_en": "Friendlies U19. National Teams",
+    "competition_id": 1134147,
+    "equipe_1_en": "Denmark U19",
+    "equipe_2_en": "Netherlands U19",
+    "Double_Chance": {
+      "12": "1.22",
+      "1X": "1.35",
+      "2X": "1.48"
+    },
+    "BTTS": {
+      "Oui": "1.5",
+      "Non": "2.359"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.15"
+      },
+      "1.5": {
+        "Plus de": "1.151",
+        "Moins de": "4.25"
+      },
+      "2": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "3": {
+        "Plus de": "1.95",
+        "Moins de": "1.69"
+      },
+      "3.5": {
+        "Plus de": "2.46",
+        "Moins de": "1.43"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.7",
+      "2 (0)": "1.98",
+      "1 (-1)": "3.48",
+      "2 (-1)": "4.4",
+      "1 (+1)": "1.139",
+      "2 (+1)": "1.222",
+      "1 (-1.5)": "4.25",
+      "2 (-1.5)": "5.25",
+      "1 (+1.5)": "1.094",
+      "2 (+1.5)": "1.149"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "IFK Norrköping",
+    "equipe_2": "Kalmar",
+    "1X2": {
+      "V2": "2.17",
+      "V1": "2.4",
+      "X": "4.08"
+    },
+    "Total_2.5": {
+      "Plus de": "1.29",
+      "Moins de": "3.16"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T11:00:00+00:00",
+    "competition": "Matchs amicaux des clubs",
+    "competition_en": "Club Friendlies",
+    "competition_id": 67559,
+    "equipe_1_en": "IFK Norrkoping",
+    "equipe_2_en": "Kalmar",
+    "Double_Chance": {
+      "12": "1.14",
+      "2X": "1.42",
+      "1X": "1.51"
+    },
+    "BTTS": {
+      "Oui": "1.29",
+      "Non": "3.14"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.83",
+        "Moins de": "1.83"
+      },
+      "2.5": {
+        "Plus de": "1.29",
+        "Moins de": "3.16"
+      },
+      "3": {
+        "Plus de": "1.44",
+        "Moins de": "2.5"
+      },
+      "4": {
+        "Plus de": "2.41",
+        "Moins de": "1.47"
+      },
+      "4.5": {
+        "Plus de": "2.99",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.74",
+      "1 (0)": "1.93",
+      "1 (-1)": "3.9",
+      "2 (-1)": "3.35",
+      "1 (+1)": "1.26",
+      "2 (+1)": "1.2"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Сhine",
+    "equipe_2": "Tadjikistan",
+    "1X2": {
+      "V1": "1.692",
+      "X": "3.99",
+      "V2": "5.58"
+    },
+    "Total_2.5": {
+      "Plus de": "2.126",
+      "Moins de": "1.818"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T11:35:00+00:00",
+    "competition": "Matchs amicaux. Équipes nationales",
+    "competition_en": "Friendlies. National Teams",
+    "competition_id": 125983,
+    "equipe_1_en": "China",
+    "equipe_2_en": "Tajikistan",
+    "Double_Chance": {
+      "1X": "1.181",
+      "12": "1.29",
+      "2X": "2.3"
+    },
+    "BTTS": {
+      "Non": "1.731",
+      "Oui": "1.99"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.818",
+        "Plus de": "2.126"
+      },
+      "1.5": {
+        "Plus de": "1.3",
+        "Moins de": "2.97"
+      },
+      "2": {
+        "Plus de": "1.5",
+        "Moins de": "2.29"
+      },
+      "3": {
+        "Plus de": "2.8",
+        "Moins de": "1.34"
+      },
+      "3.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.458",
+      "1 (-1.5)": "2.988",
+      "1 (0)": "1.19",
+      "2 (0)": "3.78",
+      "1 (-1)": "2.06",
+      "2 (+1)": "1.69",
+      "1 (-2)": "4.5",
+      "2 (+2)": "1.133",
+      "1 (-2.5)": "5.3",
+      "2 (+2.5)": "1.092"
+    }
+  },
+  {
+    "bookmaker": "megapari",
     "equipe_1": "Kazakhstan",
     "equipe_2": "Îles Féroé",
     "1X2": {
-      "V1": "2.404",
-      "X": "3.095",
-      "V2": "3.42"
+      "V1": "2.519",
+      "X": "3.075",
+      "V2": "3.235"
     },
     "Total_2.5": {
-      "Plus de": "2.528",
-      "Moins de": "1.574"
+      "Plus de": "2.551",
+      "Moins de": "1.565"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
     "debut": "2026-10-06T14:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -2352,18 +792,18 @@
     "equipe_1_en": "Kazakhstan",
     "equipe_2_en": "Faroe Islands",
     "Double_Chance": {
-      "1X": "1.344",
-      "12": "1.401",
-      "2X": "1.612"
+      "1X": "1.375",
+      "12": "1.406",
+      "2X": "1.564"
     },
     "BTTS": {
-      "Non": "1.717",
-      "Oui": "2.03"
+      "Non": "1.724",
+      "Oui": "2.02"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.574",
-        "Plus de": "2.528"
+        "Moins de": "1.565",
+        "Plus de": "2.551"
       },
       "1.5": {
         "Plus de": "1.44",
@@ -2379,323 +819,1497 @@
       },
       "3.5": {
         "Plus de": "4.7",
-        "Moins de": "1.144"
+        "Moins de": "1.143"
       }
     },
     "Handicap": {
-      "1 (0)": "1.654",
-      "2 (0)": "2.345",
-      "1 (-1)": "3.82",
-      "2 (-1)": "6.85",
-      "1 (+1)": "1.069",
-      "2 (+1)": "1.22",
-      "1 (-1.5)": "4.9",
-      "2 (-1.5)": "8",
-      "1 (+1.5)": "1.033",
-      "2 (+1.5)": "1.126"
+      "1 (0)": "1.726",
+      "2 (0)": "2.214",
+      "1 (-1)": "4.25",
+      "2 (-1)": "6.3",
+      "1 (+1)": "1.084",
+      "2 (+1)": "1.185",
+      "1 (-1.5)": "5.25",
+      "2 (-1.5)": "7.4",
+      "1 (+1.5)": "1.044",
+      "2 (+1.5)": "1.109"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Cordoue",
-    "equipe_2": "Ténérife",
+    "equipe_1": "Albanie",
+    "equipe_2": "Saint-Marin",
     "1X2": {
-      "V1": "1.899",
-      "X": "3.715",
-      "V2": "4.065"
+      "V1": "1.033",
+      "X": "21",
+      "V2": "55"
     },
     "Total_2.5": {
-      "Plus de": "1.765",
-      "Moins de": "2.104"
+      "Plus de": null,
+      "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
-    "debut": "2026-10-05T18:30:00+00:00",
-    "competition": "Espagne. Division 2",
-    "competition_en": "Spain. Segunda Division",
-    "competition_id": 27687,
-    "equipe_1_en": "Cordoba",
-    "equipe_2_en": "Tenerife",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Albania",
+    "equipe_2_en": "San Marino",
     "Double_Chance": {
-      "1X": "1.248",
-      "12": "1.285",
-      "2X": "1.921"
+      "1X": "1.001",
+      "12": "1.009",
+      "2X": "14.5"
     },
     "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.13"
+      "Non": "1.321",
+      "Oui": "3.14"
     },
     "Totals": {
-      "2.5": {
-        "Plus de": "1.765",
-        "Moins de": "2.104"
-      },
-      "1.5": {
-        "Plus de": "1.192",
-        "Moins de": "3.75"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "2.97"
-      },
-      "3": {
-        "Plus de": "2.12",
-        "Moins de": "1.59"
+      "4.5": {
+        "Moins de": "1.799",
+        "Plus de": "2.104"
       },
       "3.5": {
-        "Plus de": "2.625",
+        "Plus de": "1.46",
+        "Moins de": "2.49"
+      },
+      "4": {
+        "Plus de": "1.68",
+        "Moins de": "2.08"
+      },
+      "5": {
+        "Plus de": "2.59",
+        "Moins de": "1.45"
+      },
+      "5.5": {
+        "Plus de": "2.98",
+        "Moins de": "1.33"
+      }
+    },
+    "Handicap": {
+      "1 (-3.5)": "1.876",
+      "2 (+3.5)": "2.008",
+      "1 (-2.5)": "1.34",
+      "2 (+2.5)": "2.94",
+      "1 (-3)": "1.49",
+      "2 (+3)": "2.48",
+      "1 (-4)": "2.2",
+      "2 (+4)": "1.61",
+      "1 (-4.5)": "2.58",
+      "2 (+4.5)": "1.43"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Angleterre",
+    "equipe_2": "République tchèque",
+    "1X2": {
+      "V1": "1.127",
+      "X": "9.6",
+      "V2": "25"
+    },
+    "Total_2.5": {
+      "Plus de": "1.33",
+      "Moins de": "3.1"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "England",
+    "equipe_2_en": "Czech Republic",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.073",
+      "2X": "6.65"
+    },
+    "BTTS": {
+      "Non": "1.575",
+      "Oui": "2.27"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.93",
+        "Moins de": "1.95"
+      },
+      "2.5": {
+        "Plus de": "1.33",
+        "Moins de": "3.1"
+      },
+      "3": {
+        "Plus de": "1.5",
+        "Moins de": "2.52"
+      },
+      "4": {
+        "Plus de": "2.39",
+        "Moins de": "1.55"
+      },
+      "4.5": {
+        "Plus de": "2.85",
         "Moins de": "1.38"
       }
     },
     "Handicap": {
-      "1 (0)": "1.374",
-      "2 (0)": "3.185",
-      "1 (-1)": "2.48",
-      "2 (-1)": "6.95",
-      "1 (+1)": "1.04",
-      "2 (+1)": "1.49",
-      "1 (-1.5)": "3.08",
-      "2 (-1.5)": "7.8",
-      "1 (+1.5)": "1.024",
-      "2 (+1.5)": "1.285"
+      "2 (+2.5)": "1.919",
+      "1 (-2.5)": "1.961",
+      "1 (-1.5)": "1.36",
+      "2 (+1.5)": "2.99",
+      "1 (-2)": "1.55",
+      "2 (+2)": "2.46",
+      "1 (-3)": "2.41",
+      "2 (+3)": "1.5",
+      "1 (-3.5)": "2.92",
+      "2 (+3.5)": "1.333"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Sao Luiz 1953 U20",
-    "equipe_2": "Goiania U20",
+    "equipe_1": "Bélarus",
+    "equipe_2": "Finlande",
     "1X2": {
-      "V2": "1.86",
-      "X": "3.16",
-      "V1": "3.93"
+      "V2": "2.065",
+      "X": "3.38",
+      "V1": "3.985"
     },
     "Total_2.5": {
-      "Plus de": "1.952",
-      "Moins de": "1.727"
+      "Plus de": "2.477",
+      "Moins de": "1.594"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
-    "debut": "2026-10-05T18:30:00+00:00",
-    "competition": "Brésil. Coupe Goiano U20",
-    "competition_en": "Brazil. Goiano Cup U20",
-    "competition_id": 2003739,
-    "equipe_1_en": "Sao Luiz 1953 U20",
-    "equipe_2_en": "Goiania U20",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Belarus",
+    "equipe_2_en": "Finland",
     "Double_Chance": {
-      "2X": "1.164",
-      "12": "1.25",
-      "1X": "1.73"
+      "2X": "1.273",
+      "12": "1.35",
+      "1X": "1.812"
     },
     "BTTS": {
-      "Oui": "1.8",
-      "Non": "1.871"
+      "Non": "1.696",
+      "Oui": "2.06"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.727",
-        "Plus de": "1.952"
+        "Moins de": "1.594",
+        "Plus de": "2.477"
+      },
+      "1.5": {
+        "Plus de": "1.42",
+        "Moins de": "2.61"
+      },
+      "2": {
+        "Plus de": "1.77",
+        "Moins de": "1.96"
+      },
+      "3": {
+        "Plus de": "3.8",
+        "Moins de": "1.23"
+      },
+      "3.5": {
+        "Plus de": "4.65",
+        "Moins de": "1.147"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.472",
+      "1 (0)": "2.843",
+      "1 (-1)": "8.8",
+      "2 (-1)": "3.1",
+      "1 (+1)": "1.32",
+      "2 (+1)": "1.034",
+      "1 (-1.5)": "9.9",
+      "2 (-1.5)": "4",
+      "1 (+1.5)": "1.186",
+      "2 (+1.5)": "1.008"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Croatie",
+    "equipe_2": "Espagne",
+    "1X2": {
+      "V2": "1.259",
+      "X": "6.59",
+      "V1": "11.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.4",
+      "Moins de": "2.7"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Croatia",
+    "equipe_2_en": "Spain",
+    "Double_Chance": {
+      "2X": "1.051",
+      "12": "1.13",
+      "1X": "4.12"
+    },
+    "BTTS": {
+      "Oui": "1.81",
+      "Non": "1.912"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.774",
+        "Plus de": "2.139"
+      },
+      "2.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.7"
+      },
+      "3": {
+        "Plus de": "1.63",
+        "Moins de": "2.18"
+      },
+      "4": {
+        "Plus de": "2.78",
+        "Moins de": "1.4"
+      },
+      "4.5": {
+        "Plus de": "3.3",
+        "Moins de": "1.28"
+      }
+    },
+    "Handicap": {
+      "2 (-1.5)": "1.75",
+      "1 (+1.5)": "2.175",
+      "1 (0)": "7.2",
+      "2 (0)": "1.053",
+      "2 (-1)": "1.33",
+      "1 (+1)": "3.125",
+      "2 (-2)": "2.12",
+      "1 (+2)": "1.666",
+      "2 (-2.5)": "2.6",
+      "1 (+2.5)": "1.43"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Écosse",
+    "equipe_2": "Slovénie",
+    "1X2": {
+      "V1": "1.819",
+      "X": "3.635",
+      "V2": "4.85"
+    },
+    "Total_2.5": {
+      "Plus de": "2.324",
+      "Moins de": "1.665"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Scotland",
+    "equipe_2_en": "Slovenia",
+    "Double_Chance": {
+      "1X": "1.205",
+      "12": "1.313",
+      "2X": "2.056"
+    },
+    "BTTS": {
+      "Non": "1.687",
+      "Oui": "2.07"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.665",
+        "Plus de": "2.324"
+      },
+      "1.5": {
+        "Plus de": "1.39",
+        "Moins de": "2.72"
+      },
+      "2": {
+        "Plus de": "1.68",
+        "Moins de": "2.08"
+      },
+      "3": {
+        "Plus de": "3.4",
+        "Moins de": "1.28"
+      },
+      "3.5": {
+        "Plus de": "4.1",
+        "Moins de": "1.186"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.341",
+      "1 (-1.5)": "3.505",
+      "1 (0)": "1.285",
+      "2 (0)": "3.3",
+      "1 (-1)": "2.52",
+      "2 (+1)": "1.54",
+      "1 (-2)": "5.9",
+      "2 (+2)": "1.09",
+      "1 (-2.5)": "6.6",
+      "2 (+2.5)": "1.056"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Estonie",
+    "equipe_2": "Islande",
+    "1X2": {
+      "V2": "1.618",
+      "X": "4.145",
+      "V1": "5.81"
+    },
+    "Total_2.5": {
+      "Plus de": "1.94",
+      "Moins de": "1.94"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Estonia",
+    "equipe_2_en": "Iceland",
+    "Double_Chance": {
+      "2X": "1.157",
+      "12": "1.258",
+      "1X": "2.39"
+    },
+    "BTTS": {
+      "Non": "1.82",
+      "Oui": "1.9"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.94",
+        "Moins de": "1.94"
+      },
+      "1.5": {
+        "Plus de": "1.27",
+        "Moins de": "3.34"
+      },
+      "2": {
+        "Plus de": "1.43",
+        "Moins de": "2.66"
+      },
+      "3": {
+        "Plus de": "2.53",
+        "Moins de": "1.47"
+      },
+      "3.5": {
+        "Plus de": "3.08",
+        "Moins de": "1.31"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.513",
+      "2 (-1.5)": "2.703",
+      "1 (0)": "4.1",
+      "2 (0)": "1.196",
+      "2 (-1)": "2.02",
+      "1 (+1)": "1.81",
+      "2 (-2)": "4.2",
+      "1 (+2)": "1.18",
+      "2 (-2.5)": "4.85",
+      "1 (+2.5)": "1.121"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Luxembourg",
+    "equipe_2": "Bulgarie",
+    "1X2": {
+      "V1": "2.134",
+      "X": "3.385",
+      "V2": "3.74"
+    },
+    "Total_2.5": {
+      "Plus de": "2.5",
+      "Moins de": "1.585"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Luxembourg",
+    "equipe_2_en": "Bulgaria",
+    "Double_Chance": {
+      "1X": "1.3",
+      "12": "1.349",
+      "2X": "1.761"
+    },
+    "BTTS": {
+      "Non": "1.687",
+      "Oui": "2.07"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.585",
+        "Plus de": "2.5"
+      },
+      "1.5": {
+        "Plus de": "1.44",
+        "Moins de": "2.55"
+      },
+      "2": {
+        "Plus de": "1.8",
+        "Moins de": "1.92"
+      },
+      "3": {
+        "Plus de": "3.9",
+        "Moins de": "1.22"
+      },
+      "3.5": {
+        "Plus de": "4.7",
+        "Moins de": "1.145"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.53",
+      "2 (0)": "2.651",
+      "1 (-1)": "3.4",
+      "2 (-1)": "7.4",
+      "1 (+1)": "1.037",
+      "2 (+1)": "1.33",
+      "1 (-1.5)": "4.3",
+      "2 (-1.5)": "8.5",
+      "1 (+1.5)": "1.013",
+      "2 (+1.5)": "1.189"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Moldavie",
+    "equipe_2": "Slovaquie",
+    "1X2": {
+      "V2": "1.406",
+      "X": "4.955",
+      "V1": "8.45"
+    },
+    "Total_2.5": {
+      "Plus de": "1.817",
+      "Moins de": "2.081"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Moldova",
+    "equipe_2_en": "Slovakia",
+    "Double_Chance": {
+      "2X": "1.081",
+      "12": "1.198",
+      "1X": "3.075"
+    },
+    "BTTS": {
+      "Non": "1.717",
+      "Oui": "2.03"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.817",
+        "Moins de": "2.081"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.84"
+      },
+      "2": {
+        "Plus de": "1.34",
+        "Moins de": "3.04"
+      },
+      "3": {
+        "Plus de": "2.3",
+        "Moins de": "1.56"
+      },
+      "3.5": {
+        "Plus de": "2.88",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.762",
+      "2 (-1.5)": "2.158",
+      "1 (0)": "6.35",
+      "2 (0)": "1.084",
+      "2 (-1)": "1.61",
+      "1 (+1)": "2.35",
+      "2 (-2)": "2.98",
+      "1 (+2)": "1.33",
+      "2 (-2.5)": "3.68",
+      "1 (+2.5)": "1.21"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Suisse",
+    "equipe_2": "Macédoine du Nord",
+    "1X2": {
+      "V1": "1.112",
+      "X": "10.2",
+      "V2": "29"
+    },
+    "Total_2.5": {
+      "Plus de": "1.39",
+      "Moins de": "2.72"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Ligue des nations de l'UEFA",
+    "competition_en": "UEFA Nations League",
+    "competition_id": 1706694,
+    "equipe_1_en": "Switzerland",
+    "equipe_2_en": "Republic of North Macedonia",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.066",
+      "2X": "7.2"
+    },
+    "BTTS": {
+      "Non": "1.422",
+      "Oui": "2.69"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.817",
+        "Plus de": "2.081"
+      },
+      "2.5": {
+        "Plus de": "1.39",
+        "Moins de": "2.72"
+      },
+      "3": {
+        "Plus de": "1.6",
+        "Moins de": "2.22"
+      },
+      "4": {
+        "Plus de": "2.62",
+        "Moins de": "1.44"
+      },
+      "4.5": {
+        "Plus de": "3.14",
+        "Moins de": "1.3"
+      }
+    },
+    "Handicap": {
+      "1 (-2.5)": "1.94",
+      "2 (+2.5)": "1.94",
+      "1 (-1.5)": "1.33",
+      "2 (+1.5)": "3.1",
+      "1 (-2)": "1.52",
+      "2 (+2)": "2.57",
+      "1 (-3)": "2.38",
+      "2 (+3)": "1.5",
+      "1 (-3.5)": "2.84",
+      "2 (+3.5)": "1.34"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Orsomarso",
+    "equipe_2": "Deportes Quindío",
+    "1X2": {
+      "V1": "2.43",
+      "V2": "2.82",
+      "X": "2.84"
+    },
+    "Total_2.5": {
+      "Plus de": "2.22",
+      "Moins de": "1.56"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T00:30:00+00:00",
+    "competition": "Colombie. Torneo Aguila",
+    "competition_en": "Colombia. Categoria Primera B",
+    "competition_id": 214149,
+    "equipe_1_en": "Orsomarso",
+    "equipe_2_en": "Deportes Quindío",
+    "Double_Chance": {
+      "12": "1.31",
+      "1X": "1.32",
+      "2X": "1.42"
+    },
+    "BTTS": {
+      "Non": "1.796",
+      "Oui": "1.89"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.22"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "2": {
+        "Plus de": "1.66",
+        "Moins de": "1.99"
+      },
+      "3": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      },
+      "3.5": {
+        "Plus de": "3.95",
+        "Moins de": "1.173"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.71",
+      "2 (0)": "1.96",
+      "1 (-1)": "4.1",
+      "2 (-1)": "5.05",
+      "1 (+1)": "1.102",
+      "2 (+1)": "1.163",
+      "1 (-1.5)": "4.95",
+      "2 (-1.5)": "5.95",
+      "1 (+1.5)": "1.066",
+      "2 (+1.5)": "1.107"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Sporting San Miguelito",
+    "equipe_2": "Union Cocle",
+    "1X2": {
+      "V1": "1.89",
+      "X": "3.16",
+      "V2": "3.905"
+    },
+    "Total_2.5": {
+      "Plus de": "2.15",
+      "Moins de": "1.6"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T01:00:00+00:00",
+    "competition": "Panama. League Panameña de Fútbol",
+    "competition_en": "Panama. Liga Panamena de Futbol",
+    "competition_id": 28427,
+    "equipe_1_en": "AF Sporting San Miguelito",
+    "equipe_2_en": "Union Cocle",
+    "Double_Chance": {
+      "1X": "1.164",
+      "12": "1.25",
+      "2X": "1.71"
+    },
+    "BTTS": {
+      "Non": "1.757",
+      "Oui": "1.92"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.6",
+        "Plus de": "2.15"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "2": {
+        "Plus de": "1.6",
+        "Moins de": "2.08"
+      },
+      "3": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      },
+      "3.5": {
+        "Plus de": "3.9",
+        "Moins de": "1.178"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.38",
+      "2 (0)": "2.7",
+      "1 (-1)": "2.78",
+      "2 (-1)": "7.8",
+      "1 (+1)": "1.024",
+      "2 (+1)": "1.34",
+      "1 (-1.5)": "3.58",
+      "2 (-1.5)": "8.8",
+      "1 (+1.5)": "1.008",
+      "2 (+1.5)": "1.21"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Celaya CF",
+    "equipe_2": "Jaguares de Chiapas",
+    "1X2": {
+      "V1": "1.87",
+      "X": "3.44",
+      "V2": "3.53"
+    },
+    "Total_2.5": {
+      "Plus de": "1.75",
+      "Moins de": "1.93"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T02:05:00+00:00",
+    "competition": "Mexico. Liga Premier. Primera",
+    "competition_en": "Mexico. Liga Premier. Primera",
+    "competition_id": 3076753,
+    "equipe_1_en": "Club Celaya",
+    "equipe_2_en": "Jaguares de Chiapas",
+    "Double_Chance": {
+      "1X": "1.21",
+      "12": "1.21",
+      "2X": "1.727"
+    },
+    "BTTS": {
+      "Oui": "1.64",
+      "Non": "2.078"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.75",
+        "Moins de": "1.93"
+      },
+      "1.5": {
+        "Plus de": "1.196",
+        "Moins de": "3.72"
+      },
+      "2": {
+        "Plus de": "1.32",
+        "Moins de": "2.875"
+      },
+      "3": {
+        "Plus de": "2.28",
+        "Moins de": "1.5"
+      },
+      "3.5": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.41",
+      "2 (0)": "2.6",
+      "1 (-1)": "2.69",
+      "2 (-1)": "6.9",
+      "1 (+1)": "1.041",
+      "2 (+1)": "1.363",
+      "1 (-1.5)": "3.42",
+      "2 (-1.5)": "8",
+      "1 (+1.5)": "1.02",
+      "2 (+1.5)": "1.23"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Bombay YMCA",
+    "equipe_2": "Anstrengung United",
+    "1X2": {
+      "V2": "1.72",
+      "V1": "3.665",
+      "X": "4"
+    },
+    "Total_2.5": {
+      "Plus de": "1.2",
+      "Moins de": "4"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T03:30:00+00:00",
+    "competition": "Inde. Mumbai. Super League",
+    "competition_en": "India. Mumbai. Super League",
+    "competition_id": 1738729,
+    "equipe_1_en": "Bombay YMCA",
+    "equipe_2_en": "Anstrengung United",
+    "Double_Chance": {
+      "12": "1.17",
+      "2X": "1.22",
+      "1X": "2"
+    },
+    "BTTS": {
+      "Oui": "1.25",
+      "Non": "3.635"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.2"
+      },
+      "1.5": {
+        "Plus de": "1.05",
+        "Moins de": "8"
+      },
+      "2.5": {
+        "Plus de": "1.2",
+        "Moins de": "4"
+      },
+      "4.5": {
+        "Plus de": "2.4",
+        "Moins de": "1.5"
+      },
+      "5.5": {
+        "Plus de": "4",
+        "Moins de": "1.2"
+      }
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Bangalore Dream United",
+    "equipe_2": "HAL",
+    "1X2": {
+      "V2": "2.29",
+      "V1": "2.53",
+      "X": "3.44"
+    },
+    "Total_2.5": {
+      "Plus de": "1.58",
+      "Moins de": "2.18"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T05:30:00+00:00",
+    "competition": "Championnat d'Inde. Bangalore. Super Division",
+    "competition_en": "India. Bangalore. Super Division",
+    "competition_id": 330475,
+    "equipe_1_en": "Bangalore Dream United",
+    "equipe_2_en": "HAL",
+    "Double_Chance": {
+      "12": "1.21",
+      "2X": "1.38",
+      "1X": "1.47"
+    },
+    "BTTS": {
+      "Oui": "1.49",
+      "Non": "2.389"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.58",
+        "Moins de": "2.18"
+      },
+      "1.5": {
+        "Plus de": "1.153",
+        "Moins de": "4.2"
+      },
+      "2": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "3": {
+        "Plus de": "1.92",
+        "Moins de": "1.71"
+      },
+      "3.5": {
+        "Plus de": "2.42",
+        "Moins de": "1.444"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.74",
+      "1 (0)": "1.93",
+      "1 (-1)": "4.1",
+      "2 (-1)": "3.5",
+      "1 (+1)": "1.22",
+      "2 (+1)": "1.163",
+      "1 (-1.5)": "4.85",
+      "2 (-1.5)": "4.25",
+      "1 (+1.5)": "1.149",
+      "2 (+1.5)": "1.112"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Nongkrem",
+    "equipe_2": "Nongthymai",
+    "1X2": {
+      "V2": "2.3",
+      "V1": "2.44",
+      "X": "3.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.53",
+      "Moins de": "2.29"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T06:45:00+00:00",
+    "competition": "Inde. Shillong. Division 1",
+    "competition_en": "India. Shillong. Division 1",
+    "competition_id": 2766937,
+    "equipe_1_en": "Nongkrem",
+    "equipe_2_en": "Nongthymai",
+    "Double_Chance": {
+      "12": "1.186",
+      "2X": "1.41",
+      "1X": "1.46"
+    },
+    "BTTS": {
+      "Oui": "1.46",
+      "Non": "2.464"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.53",
+        "Moins de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.128",
+        "Moins de": "4.6"
+      },
+      "2": {
+        "Plus de": "1.197",
+        "Moins de": "3.7"
+      },
+      "3": {
+        "Plus de": "1.84",
+        "Moins de": "1.78"
+      },
+      "3.5": {
+        "Plus de": "2.33",
+        "Moins de": "1.48"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.78",
+      "1 (0)": "1.88",
+      "1 (-1)": "3.95",
+      "2 (-1)": "3.58",
+      "1 (+1)": "1.21",
+      "2 (+1)": "1.173",
+      "1 (-1.5)": "4.8",
+      "2 (-1.5)": "4.4",
+      "1 (+1.5)": "1.139",
+      "2 (+1.5)": "1.116"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Changchun Xidu",
+    "equipe_2": "Guangzhou Dandelion",
+    "1X2": {
+      "V1": "2.66",
+      "V2": "2.67",
+      "X": "2.69"
+    },
+    "Total_2.5": {
+      "Plus de": "2.59",
+      "Moins de": "1.39"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T07:00:00+00:00",
+    "competition": "Championnat de Chine. Ligue 2",
+    "competition_en": "China. Second League",
+    "competition_id": 209499,
+    "equipe_1_en": "Changchun Xidu",
+    "equipe_2_en": "Guangzhou Dandelion",
+    "Double_Chance": {
+      "1X": "1.34",
+      "12": "1.34",
+      "2X": "1.35"
+    },
+    "BTTS": {
+      "Non": "1.623",
+      "Oui": "2.11"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.53",
+        "Moins de": "2.29"
+      },
+      "0.5": {
+        "Plus de": "1.076",
+        "Moins de": "5.7"
+      },
+      "1": {
+        "Plus de": "1.136",
+        "Moins de": "4.45"
+      },
+      "2": {
+        "Plus de": "1.95",
+        "Moins de": "1.69"
+      },
+      "2.5": {
+        "Plus de": "2.59",
+        "Moins de": "1.39"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.83",
+      "2 (0)": "1.83",
+      "1 (-1)": "5.05",
+      "2 (-1)": "5.05",
+      "1 (+1)": "1.102",
+      "2 (+1)": "1.102",
+      "1 (-1.5)": "6.15",
+      "2 (-1.5)": "6.15",
+      "1 (+1.5)": "1.061",
+      "2 (+1.5)": "1.061"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Qingdao Red Lions",
+    "equipe_2": "Wuhan Three Towns II",
+    "1X2": {
+      "V1": "2.26",
+      "X": "2.72",
+      "V2": "3.34"
+    },
+    "Total_2.5": {
+      "Plus de": "2.59",
+      "Moins de": "1.42"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T07:30:00+00:00",
+    "competition": "Championnat de Chine. Ligue 2",
+    "competition_en": "China. Second League",
+    "competition_id": 209499,
+    "equipe_1_en": "Qingdao Red Lions",
+    "equipe_2_en": "Wuhan Three Towns II",
+    "Double_Chance": {
+      "1X": "1.24",
+      "12": "1.33",
+      "2X": "1.49"
+    },
+    "BTTS": {
+      "Non": "1.623",
+      "Oui": "2.11"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.5",
+        "Moins de": "2.28"
+      },
+      "0.5": {
+        "Plus de": "1.085",
+        "Moins de": "5.45"
+      },
+      "1": {
+        "Plus de": "1.143",
+        "Moins de": "4.33"
+      },
+      "2": {
+        "Plus de": "1.909",
+        "Moins de": "1.72"
+      },
+      "2.5": {
+        "Plus de": "2.59",
+        "Moins de": "1.42"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.55",
+      "2 (0)": "2.23",
+      "1 (-1)": "3.74",
+      "2 (-1)": "6.4",
+      "1 (+1)": "1.053",
+      "2 (+1)": "1.193",
+      "1 (-1.5)": "4.65",
+      "2 (-1.5)": "7.4",
+      "1 (+1.5)": "1.03",
+      "2 (+1.5)": "1.123"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Shanghai Segenda",
+    "equipe_2": "Wenzhou",
+    "1X2": {
+      "V1": "2.14",
+      "X": "2.79",
+      "V2": "3.525"
+    },
+    "Total_2.5": {
+      "Plus de": "2.52",
+      "Moins de": "1.44"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T07:30:00+00:00",
+    "competition": "Championnat de Chine. Ligue 2",
+    "competition_en": "China. Second League",
+    "competition_id": 209499,
+    "equipe_1_en": "Shanghai Segenda",
+    "equipe_2_en": "Wenzhou",
+    "Double_Chance": {
+      "1X": "1.21",
+      "12": "1.32",
+      "2X": "1.54"
+    },
+    "BTTS": {
+      "Non": "1.623",
+      "Oui": "2.11"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.3"
+      },
+      "0.5": {
+        "Plus de": "1.077",
+        "Moins de": "5.65"
+      },
+      "1": {
+        "Plus de": "1.132",
+        "Moins de": "4.5"
+      },
+      "2": {
+        "Plus de": "1.88",
+        "Moins de": "1.75"
+      },
+      "2.5": {
+        "Plus de": "2.52",
+        "Moins de": "1.44"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.49",
+      "2 (0)": "2.36",
+      "1 (-1)": "3.42",
+      "2 (-1)": "6.9",
+      "1 (+1)": "1.041",
+      "2 (+1)": "1.23",
+      "1 (-1.5)": "4.33",
+      "2 (-1.5)": "7.9",
+      "1 (+1.5)": "1.022",
+      "2 (+1.5)": "1.143"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Université de technologie de Pékin",
+    "equipe_2": "Chengdu Rongcheng II",
+    "1X2": {
+      "V2": "1.6",
+      "X": "3.32",
+      "V1": "5.46"
+    },
+    "Total_2.5": {
+      "Plus de": "2.01",
+      "Moins de": "1.69"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T07:30:00+00:00",
+    "competition": "Championnat de Chine. Ligue 2",
+    "competition_en": "China. Second League",
+    "competition_id": 209499,
+    "equipe_1_en": "Beijing Institute of Technology",
+    "equipe_2_en": "Chengdu Rongcheng II",
+    "Double_Chance": {
+      "2X": "1.072",
+      "12": "1.22",
+      "1X": "2.05"
+    },
+    "BTTS": {
+      "Non": "1.726",
+      "Oui": "1.96"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.69",
+        "Plus de": "2.01"
       },
       "1.5": {
         "Plus de": "1.29",
         "Moins de": "3.04"
       },
       "2": {
-        "Plus de": "1.48",
-        "Moins de": "2.33"
+        "Plus de": "1.5",
+        "Moins de": "2.28"
       },
       "3": {
-        "Plus de": "2.69",
-        "Moins de": "1.363"
+        "Plus de": "2.81",
+        "Moins de": "1.333"
       },
       "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
+        "Plus de": "3.48",
+        "Moins de": "1.222"
       }
     },
     "Handicap": {
-      "2 (0)": "1.36",
-      "1 (0)": "2.78",
-      "1 (-1)": "7.4",
-      "2 (-1)": "2.59",
-      "1 (+1)": "1.39",
-      "2 (+1)": "1.031",
-      "1 (-1.5)": "8.3",
-      "2 (-1.5)": "3.28",
-      "1 (+1.5)": "1.25",
-      "2 (+1.5)": "1.016"
+      "1 (+1.5)": "1.35",
+      "2 (-1.5)": "2.74",
+      "1 (0)": "3.95",
+      "2 (0)": "1.173",
+      "2 (-1)": "2.11",
+      "1 (+1)": "1.61",
+      "2 (-2)": "4.75",
+      "1 (+2)": "1.119",
+      "2 (-2.5)": "5.6",
+      "1 (+2.5)": "1.079"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Cheadle Heath Nomads",
-    "equipe_2": "Wolverhampton Casuals",
+    "equipe_1": "Trostianets",
+    "equipe_2": "Tchernigov",
     "1X2": {
-      "V2": "1.57",
-      "V1": "3.905",
-      "X": "4.62"
+      "V2": "2.08",
+      "X": "3.32",
+      "V1": "3.405"
     },
     "Total_2.5": {
-      "Plus de": "1.23",
-      "Moins de": "3.58"
+      "Plus de": "1.83",
+      "Moins de": "1.84"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
     "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "England. Edward Case Cup",
-    "competition_en": "England. Edward Case Cup",
-    "competition_id": 3101272,
-    "equipe_1_en": "Cheadle Heath Nomads",
-    "equipe_2_en": "Wolverhampton Casuals",
+    "debut": "2026-10-06T08:00:00+00:00",
+    "competition": "Coupe d'Ukraine",
+    "competition_en": "Ukraine Cup",
+    "competition_id": 120009,
+    "equipe_1_en": "Trostianets",
+    "equipe_2_en": "Chernigov",
     "Double_Chance": {
-      "12": "1.1",
-      "2X": "1.16",
-      "1X": "2.09"
+      "2X": "1.27",
+      "12": "1.28",
+      "1X": "1.68"
     },
     "BTTS": {
-      "Oui": "1.3",
-      "Non": "3.11"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.68",
-        "Moins de": "2.01"
-      },
-      "2.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.58"
-      },
-      "3": {
-        "Plus de": "1.34",
-        "Moins de": "2.87"
-      },
-      "4": {
-        "Plus de": "2.11",
-        "Moins de": "1.61"
-      },
-      "4.5": {
-        "Plus de": "2.62",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.45",
-      "2 (-1.5)": "2.49",
-      "1 (0)": "3.17",
-      "2 (0)": "1.29",
-      "2 (-1)": "1.98",
-      "1 (+1)": "1.7"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Maine Road",
-    "equipe_2": "Holker Old Boys",
-    "1X2": {
-      "V2": "1.99",
-      "V1": "2.658",
-      "X": "4.33"
-    },
-    "Total_2.5": {
-      "Plus de": "1.19",
-      "Moins de": "3.99"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-05T18:45:00+00:00",
-    "competition": "England. Edward Case Cup",
-    "competition_en": "England. Edward Case Cup",
-    "competition_id": 3101272,
-    "equipe_1_en": "Maine Road",
-    "equipe_2_en": "Holker Old Boys",
-    "Double_Chance": {
-      "12": "1.12",
-      "2X": "1.35",
-      "1X": "1.63"
-    },
-    "BTTS": {
-      "Oui": "1.21",
-      "Non": "3.72"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.17"
-      },
-      "2.5": {
-        "Plus de": "1.19",
-        "Moins de": "3.99"
-      },
-      "3": {
-        "Plus de": "1.28",
-        "Moins de": "3.23"
-      },
-      "4": {
-        "Plus de": "1.93",
-        "Moins de": "1.74"
-      },
-      "4.5": {
-        "Plus de": "2.41",
-        "Moins de": "1.48"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.61",
-      "1 (0)": "2.13",
-      "2 (-1)": "2.82",
-      "1 (+1)": "1.35"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Independiente Medellín",
-    "equipe_2": "Club Independiente Santa Fe",
-    "1X2": {
-      "V1": "1.96",
-      "X": "3.28",
-      "V2": "3.78"
-    },
-    "Total_2.5": {
-      "Plus de": "1.97",
-      "Moins de": "1.77"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-05T18:23:51.326953+00:00",
-    "statut": "ok",
-    "debut": "2026-10-06T00:00:00+00:00",
-    "competition": "Championnat de Colombie. Categoria Primera A",
-    "competition_en": "Colombia. Categoria Primera A",
-    "competition_id": 214147,
-    "equipe_1_en": "Independiente Medellin",
-    "equipe_2_en": "Club Independiente Santa Fe",
-    "Double_Chance": {
-      "1X": "1.22",
-      "12": "1.285",
-      "2X": "1.76"
-    },
-    "BTTS": {
-      "Oui": "1.79",
-      "Non": "1.916"
+      "Oui": "1.68",
+      "Non": "2.084"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.77",
-        "Plus de": "1.97"
+        "Plus de": "1.83",
+        "Moins de": "1.84"
       },
       "1.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.14"
+        "Plus de": "1.23",
+        "Moins de": "3.42"
       },
       "2": {
-        "Plus de": "1.45",
-        "Moins de": "2.42"
+        "Plus de": "1.38",
+        "Moins de": "2.625"
       },
       "3": {
-        "Plus de": "2.68",
-        "Moins de": "1.37"
+        "Plus de": "2.43",
+        "Moins de": "1.44"
+      },
+      "3.5": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.47",
+      "1 (0)": "2.41",
+      "1 (-1)": "6.4",
+      "2 (-1)": "2.97",
+      "1 (+1)": "1.3",
+      "2 (+1)": "1.053",
+      "1 (-1.5)": "7.5",
+      "2 (-1.5)": "3.82",
+      "1 (+1.5)": "1.186",
+      "2 (+1.5)": "1.028"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Bengaluru United",
+    "equipe_2": "Rebels Bangalore",
+    "1X2": {
+      "V1": "1.044",
+      "X": "8",
+      "V2": "25"
+    },
+    "Total_2.5": {
+      "Plus de": "1.29",
+      "Moins de": "3.04"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T08:00:00+00:00",
+    "competition": "Championnat d'Inde. Bangalore. Super Division",
+    "competition_en": "India. Bangalore. Super Division",
+    "competition_id": 330475,
+    "equipe_1_en": "Bengaluru United",
+    "equipe_2_en": "Rebels Bangalore",
+    "Double_Chance": {
+      "12": "1.004",
+      "1X": "1.015",
+      "2X": "6.15"
+    },
+    "BTTS": {
+      "Non": "1.489",
+      "Oui": "2.39"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.77",
+        "Moins de": "1.9"
+      },
+      "2.5": {
+        "Plus de": "1.29",
+        "Moins de": "3.04"
+      },
+      "3": {
+        "Plus de": "1.42",
+        "Moins de": "2.49"
+      },
+      "4": {
+        "Plus de": "2.15",
+        "Moins de": "1.56"
+      },
+      "4.5": {
+        "Plus de": "2.625",
+        "Moins de": "1.38"
+      }
+    },
+    "Handicap": {
+      "1 (-2.5)": "1.74",
+      "2 (+2.5)": "1.93",
+      "1 (-1.5)": "1.28",
+      "2 (+1.5)": "3.08",
+      "1 (-2)": "1.41",
+      "2 (+2)": "2.52",
+      "1 (-3)": "2.13",
+      "2 (+3)": "1.571",
+      "1 (-3.5)": "2.59",
+      "2 (+3.5)": "1.39"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Prishtina U19",
+    "equipe_2": "KF Drita U19",
+    "1X2": {
+      "V1": "1.55",
+      "V2": "4.01",
+      "X": "5.1"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T08:00:00+00:00",
+    "competition": "Kosovo. Superligue U19",
+    "competition_en": "Kosovo. Superleague U19",
+    "competition_id": 2792081,
+    "equipe_1_en": "Prishtina U19",
+    "equipe_2_en": "KF Drita U19",
+    "Double_Chance": {
+      "12": "1.13",
+      "1X": "1.2",
+      "2X": "2.34"
+    },
+    "BTTS": {
+      "Oui": "1.529",
+      "Non": "2.457"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.72",
+        "Plus de": "2"
+      },
+      "3": {
+        "Plus de": "1.59",
+        "Moins de": "2.22"
+      },
+      "4": {
+        "Plus de": "2.6",
+        "Moins de": "1.43"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.53",
+      "1 (-1.5)": "2.34",
+      "1 (0)": "1.28",
+      "2 (0)": "3.3",
+      "1 (-1)": "1.85",
+      "2 (+1)": "1.85"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Lam Dong",
+    "equipe_2": "Song Lam Nghe An",
+    "1X2": {
+      "V2": "1.56",
+      "X": "3.45",
+      "V1": "5.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.98",
+      "Moins de": "1.71"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T08:30:00+00:00",
+    "competition": "Coupe du Viêt Nam",
+    "competition_en": "Vietnamese National Cup",
+    "competition_id": 140257,
+    "equipe_1_en": "Lam Dong",
+    "equipe_2_en": "Song Lam Nghe An",
+    "Double_Chance": {
+      "2X": "1.066",
+      "12": "1.21",
+      "1X": "2.12"
+    },
+    "BTTS": {
+      "Non": "1.705",
+      "Oui": "1.99"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.71",
+        "Plus de": "1.98"
+      },
+      "1.5": {
+        "Plus de": "1.3",
+        "Moins de": "2.97"
+      },
+      "2": {
+        "Plus de": "1.49",
+        "Moins de": "2.3"
+      },
+      "3": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
       },
       "3.5": {
         "Plus de": "3.34",
@@ -2703,16 +2317,808 @@
       }
     },
     "Handicap": {
+      "1 (+1.5)": "1.39",
+      "2 (-1.5)": "2.59",
+      "1 (0)": "4",
+      "2 (0)": "1.168",
+      "2 (-1)": "1.99",
+      "1 (+1)": "1.69",
+      "2 (-2)": "4.25",
+      "1 (+2)": "1.151",
+      "2 (-2.5)": "4.95",
+      "1 (+2.5)": "1.106"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Bangladesh Police",
+    "equipe_2": "City Club Dhaka",
+    "1X2": {
+      "V2": "2.42",
+      "V1": "2.48",
+      "X": "3.28"
+    },
+    "Total_2.5": {
+      "Plus de": "1.64",
+      "Moins de": "2.08"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T09:00:00+00:00",
+    "competition": "Coupe du Bangladesh de football",
+    "competition_en": "Bangladesh. Federation Cup",
+    "competition_id": 957641,
+    "equipe_1_en": "Bangladesh Police",
+    "equipe_2_en": "City Club Dhaka",
+    "Double_Chance": {
+      "12": "1.23",
+      "2X": "1.4",
+      "1X": "1.42"
+    },
+    "BTTS": {
+      "Oui": "1.52",
+      "Non": "2.316"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.64",
+        "Moins de": "2.08"
+      },
+      "1.5": {
+        "Plus de": "1.172",
+        "Moins de": "3.96"
+      },
+      "2": {
+        "Plus de": "1.27",
+        "Moins de": "3.14"
+      },
+      "3": {
+        "Plus de": "2.02",
+        "Moins de": "1.64"
+      },
+      "3.5": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.81",
+      "1 (0)": "1.85",
+      "1 (-1)": "3.94",
+      "2 (-1)": "3.8",
+      "1 (+1)": "1.188",
+      "2 (+1)": "1.174",
+      "1 (-1.5)": "4.7",
+      "2 (-1.5)": "4.6",
+      "1 (+1.5)": "1.128",
+      "2 (+1.5)": "1.12"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Dhaka Wanderers",
+    "equipe_2": "Bashundhara Kings",
+    "1X2": {
+      "V2": "1.04",
+      "X": "8.2",
+      "V1": "27"
+    },
+    "Total_2.5": {
+      "Plus de": "1.35",
+      "Moins de": "2.74"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T09:00:00+00:00",
+    "competition": "Coupe du Bangladesh de football",
+    "competition_en": "Bangladesh. Federation Cup",
+    "competition_id": 957641,
+    "equipe_1_en": "Dhaka Wanderers",
+    "equipe_2_en": "Bashundhara Kings",
+    "Double_Chance": {
+      "2X": "1.008",
+      "12": "1.05",
+      "1X": "6.3"
+    },
+    "BTTS": {
+      "Non": "1.377",
+      "Oui": "2.75"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.79",
+        "Plus de": "1.88"
+      },
+      "2.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "3": {
+        "Plus de": "1.52",
+        "Moins de": "2.24"
+      },
+      "4": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
+      },
+      "4.5": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "2 (-2.5)": "1.74",
+      "1 (+2.5)": "1.93",
+      "2 (-1.5)": "1.28",
+      "1 (+1.5)": "3.08",
+      "2 (-2)": "1.4",
+      "1 (+2)": "2.56",
+      "2 (-3)": "2.14",
+      "1 (+3)": "1.57",
+      "2 (-3.5)": "2.59",
+      "1 (+3.5)": "1.39"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Mohammedan Dhaka",
+    "equipe_2": "Arambagh KS",
+    "1X2": {
+      "V1": "1.056",
+      "X": "7.2",
+      "V2": "27"
+    },
+    "Total_2.5": {
+      "Plus de": "1.5",
+      "Moins de": "2.28"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T09:00:00+00:00",
+    "competition": "Coupe du Bangladesh de football",
+    "competition_en": "Bangladesh. Federation Cup",
+    "competition_id": 957641,
+    "equipe_1_en": "Mohammedan Dhaka",
+    "equipe_2_en": "Arambagh KS",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.018",
+      "2X": "5.75"
+    },
+    "BTTS": {
+      "Non": "1.243",
+      "Oui": "3.5"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.22"
+      },
+      "2.5": {
+        "Plus de": "1.5",
+        "Moins de": "2.28"
+      },
+      "3": {
+        "Plus de": "1.78",
+        "Moins de": "1.84"
+      },
+      "4": {
+        "Plus de": "3.05",
+        "Moins de": "1.285"
+      },
+      "4.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.79",
+      "1 (-2.5)": "1.87",
+      "1 (-1.5)": "1.33",
+      "2 (+1.5)": "2.83",
+      "1 (-2)": "1.49",
+      "2 (+2)": "2.3",
+      "1 (-3)": "2.41",
+      "2 (+3)": "1.45",
+      "1 (-3.5)": "2.92",
+      "2 (+3.5)": "1.31"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Bristol City U21",
+    "equipe_2": "Charlton Athletic U21",
+    "1X2": {
+      "V1": "1.78",
+      "V2": "3.29",
+      "X": "4.1"
+    },
+    "Total_2.5": {
+      "Plus de": "1.23",
+      "Moins de": "3.42"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T12:00:00+00:00",
+    "competition": "Angleterre U21. Development League",
+    "competition_en": "England. Development League U21",
+    "competition_id": 928187,
+    "equipe_1_en": "Bristol City U21",
+    "equipe_2_en": "Charlton Athletic U21",
+    "Double_Chance": {
+      "12": "1.14",
+      "1X": "1.24",
+      "2X": "1.81"
+    },
+    "BTTS": {
+      "Oui": "1.27",
+      "Non": "3.295"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.68",
+        "Moins de": "2.02"
+      },
+      "2.5": {
+        "Plus de": "1.23",
+        "Moins de": "3.42"
+      },
+      "3": {
+        "Plus de": "1.34",
+        "Moins de": "2.78"
+      },
+      "4": {
+        "Plus de": "2.03",
+        "Moins de": "1.63"
+      },
+      "4.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.42"
+      }
+    },
+    "Handicap": {
       "1 (0)": "1.41",
-      "2 (0)": "2.71",
-      "1 (-1)": "2.78",
-      "2 (-1)": "7.7",
-      "1 (+1)": "1.025",
-      "2 (+1)": "1.34",
-      "1 (-1.5)": "3.58",
-      "2 (-1.5)": "8.9",
-      "1 (+1.5)": "1.007",
-      "2 (+1.5)": "1.21"
+      "2 (0)": "2.52",
+      "1 (-1)": "2.31",
+      "2 (-1)": "5.35",
+      "1 (+1)": "1.089",
+      "2 (+1)": "1.51",
+      "1 (-1.5)": "2.83",
+      "2 (-1.5)": "6.1",
+      "1 (+1.5)": "1.062",
+      "2 (+1.5)": "1.33"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Hull City U21",
+    "equipe_2": "Wigan Athletic U21",
+    "1X2": {
+      "V1": "2.04",
+      "V2": "2.69",
+      "X": "4.05"
+    },
+    "Total_2.5": {
+      "Plus de": "1.185",
+      "Moins de": "3.82"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T12:00:00+00:00",
+    "competition": "Angleterre U21. Development League",
+    "competition_en": "England. Development League U21",
+    "competition_id": 928187,
+    "equipe_1_en": "Hull City U21",
+    "equipe_2_en": "Wigan Athletic U21",
+    "Double_Chance": {
+      "12": "1.144",
+      "1X": "1.35",
+      "2X": "1.6"
+    },
+    "BTTS": {
+      "Oui": "1.21",
+      "Non": "3.785"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.57",
+        "Moins de": "2.2"
+      },
+      "2.5": {
+        "Plus de": "1.185",
+        "Moins de": "3.82"
+      },
+      "3": {
+        "Plus de": "1.27",
+        "Moins de": "3.14"
+      },
+      "4": {
+        "Plus de": "1.84",
+        "Moins de": "1.78"
+      },
+      "4.5": {
+        "Plus de": "2.26",
+        "Moins de": "1.51"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.62",
+      "2 (0)": "2.1",
+      "1 (-1)": "2.74",
+      "2 (-1)": "4",
+      "1 (+1)": "1.168",
+      "2 (+1)": "1.35",
+      "1 (-1.5)": "3.34",
+      "2 (-1.5)": "4.7",
+      "1 (+1.5)": "1.12",
+      "2 (+1.5)": "1.24"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Queens Park Rangers U21",
+    "equipe_2": "Coventry City U21",
+    "1X2": {
+      "V1": "1.89",
+      "V2": "2.976",
+      "X": "4.1"
+    },
+    "Total_2.5": {
+      "Plus de": "1.21",
+      "Moins de": "3.58"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T12:00:00+00:00",
+    "competition": "Angleterre U21. Development League",
+    "competition_en": "England. Development League U21",
+    "competition_id": 928187,
+    "equipe_1_en": "Queens Park Rangers U21",
+    "equipe_2_en": "Coventry City U21",
+    "Double_Chance": {
+      "12": "1.14",
+      "1X": "1.29",
+      "2X": "1.71"
+    },
+    "BTTS": {
+      "Oui": "1.24",
+      "Non": "3.525"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.15"
+      },
+      "2.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
+      },
+      "3": {
+        "Plus de": "1.29",
+        "Moins de": "3.04"
+      },
+      "4": {
+        "Plus de": "1.89",
+        "Moins de": "1.74"
+      },
+      "4.5": {
+        "Plus de": "2.3",
+        "Moins de": "1.49"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.51",
+      "2 (0)": "2.31",
+      "1 (-1)": "2.43",
+      "2 (-1)": "4.55",
+      "1 (+1)": "1.131",
+      "2 (+1)": "1.44",
+      "1 (-1.5)": "2.97",
+      "2 (-1.5)": "5.2",
+      "1 (+1.5)": "1.096",
+      "2 (+1.5)": "1.3"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Atherton Collieries",
+    "equipe_2": "Trafford",
+    "1X2": {
+      "V1": "1.89",
+      "V2": "3.19",
+      "X": "3.9"
+    },
+    "Total_2.5": {
+      "Plus de": "1.57",
+      "Moins de": "2.2"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Coupe d'Angleterre",
+    "competition_en": "England. FA Cup",
+    "competition_id": 108319,
+    "equipe_1_en": "Atherton Collieries",
+    "equipe_2_en": "Trafford",
+    "Double_Chance": {
+      "12": "1.161",
+      "1X": "1.26",
+      "2X": "1.72"
+    },
+    "BTTS": {
+      "Oui": "1.53",
+      "Non": "2.321"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.57",
+        "Moins de": "2.2"
+      },
+      "1.5": {
+        "Plus de": "1.142",
+        "Moins de": "4.35"
+      },
+      "2": {
+        "Plus de": "1.22",
+        "Moins de": "3.5"
+      },
+      "3": {
+        "Plus de": "1.92",
+        "Moins de": "1.71"
+      },
+      "3.5": {
+        "Plus de": "2.43",
+        "Moins de": "1.44"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.47",
+      "2 (0)": "2.41",
+      "1 (-1)": "2.625",
+      "2 (-1)": "5.7",
+      "1 (+1)": "1.076",
+      "2 (+1)": "1.38",
+      "1 (-1.5)": "3.34",
+      "2 (-1.5)": "6.6",
+      "1 (+1.5)": "1.048",
+      "2 (+1.5)": "1.24"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Halesowen Town",
+    "equipe_2": "Stafford Rangers",
+    "1X2": {
+      "V1": "1.66",
+      "X": "3.92",
+      "V2": "4.02"
+    },
+    "Total_2.5": {
+      "Plus de": "1.6",
+      "Moins de": "2.15"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Coupe d'Angleterre",
+    "competition_en": "England. FA Cup",
+    "competition_id": 108319,
+    "equipe_1_en": "Halesowen Town",
+    "equipe_2_en": "Stafford Rangers",
+    "Double_Chance": {
+      "1X": "1.158",
+      "12": "1.16",
+      "2X": "1.97"
+    },
+    "BTTS": {
+      "Oui": "1.6",
+      "Non": "2.176"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.15"
+      },
+      "1.5": {
+        "Plus de": "1.151",
+        "Moins de": "4.25"
+      },
+      "2": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "3": {
+        "Plus de": "1.98",
+        "Moins de": "1.67"
+      },
+      "3.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.42"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.333",
+      "1 (-1.5)": "2.81",
+      "1 (0)": "1.29",
+      "2 (0)": "3.04",
+      "1 (-1)": "2.19",
+      "2 (+1)": "1.57",
+      "1 (-2)": "4.75",
+      "2 (+2)": "1.118",
+      "1 (-2.5)": "5.5",
+      "2 (+2.5)": "1.082"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Scarborough Athletic",
+    "equipe_2": "Macclesfield Town",
+    "1X2": {
+      "V2": "2.25",
+      "V1": "2.6",
+      "X": "3.45"
+    },
+    "Total_2.5": {
+      "Plus de": "1.952",
+      "Moins de": "1.727"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Coupe d'Angleterre",
+    "competition_en": "England. FA Cup",
+    "competition_id": 108319,
+    "equipe_1_en": "Scarborough Athletic",
+    "equipe_2_en": "Macclesfield Town",
+    "Double_Chance": {
+      "12": "1.21",
+      "2X": "1.37",
+      "1X": "1.49"
+    },
+    "BTTS": {
+      "Oui": "1.77",
+      "Non": "1.919"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.727",
+        "Plus de": "1.952"
+      },
+      "1.5": {
+        "Plus de": "1.285",
+        "Moins de": "3.05"
+      },
+      "2": {
+        "Plus de": "1.47",
+        "Moins de": "2.35"
+      },
+      "3": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      },
+      "3.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.71",
+      "1 (0)": "1.96",
+      "1 (-1)": "4.6",
+      "2 (-1)": "3.68",
+      "1 (+1)": "1.2",
+      "2 (+1)": "1.126",
+      "1 (-1.5)": "5.5",
+      "2 (-1.5)": "4.6",
+      "1 (+1.5)": "1.128",
+      "2 (+1.5)": "1.082"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Spalding United",
+    "equipe_2": "Bury Town",
+    "1X2": {
+      "V1": "1.66",
+      "X": "3.9",
+      "V2": "4.04"
+    },
+    "Total_2.5": {
+      "Plus de": "1.75",
+      "Moins de": "1.93"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Coupe d'Angleterre",
+    "competition_en": "England. FA Cup",
+    "competition_id": 108319,
+    "equipe_1_en": "Spalding United",
+    "equipe_2_en": "Bury Town",
+    "Double_Chance": {
+      "1X": "1.156",
+      "12": "1.161",
+      "2X": "1.97"
+    },
+    "BTTS": {
+      "Oui": "1.72",
+      "Non": "1.983"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.75",
+        "Moins de": "1.93"
+      },
+      "1.5": {
+        "Plus de": "1.197",
+        "Moins de": "3.7"
+      },
+      "2": {
+        "Plus de": "1.32",
+        "Moins de": "2.875"
+      },
+      "3": {
+        "Plus de": "2.3",
+        "Moins de": "1.49"
+      },
+      "3.5": {
+        "Plus de": "2.92",
+        "Moins de": "1.31"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.3",
+      "1 (-1.5)": "2.97",
+      "1 (0)": "1.285",
+      "2 (0)": "3.05",
+      "1 (-1)": "2.27",
+      "2 (+1)": "1.53",
+      "1 (-2)": "5.35",
+      "2 (+2)": "1.088",
+      "1 (-2.5)": "6.3",
+      "2 (+2.5)": "1.056"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Wingate & Finchley F.C.",
+    "equipe_2": "Bedford Town",
+    "1X2": {
+      "V2": "2.11",
+      "V1": "2.928",
+      "X": "3.44"
+    },
+    "Total_2.5": {
+      "Plus de": "1.75",
+      "Moins de": "1.93"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T18:45:00+00:00",
+    "competition": "Coupe d'Angleterre",
+    "competition_en": "England. FA Cup",
+    "competition_id": 108319,
+    "equipe_1_en": "Wingate & Finchley",
+    "equipe_2_en": "Bedford Town",
+    "Double_Chance": {
+      "12": "1.21",
+      "2X": "1.31",
+      "1X": "1.57"
+    },
+    "BTTS": {
+      "Oui": "1.62",
+      "Non": "2.136"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.75",
+        "Moins de": "1.93"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
+      },
+      "2": {
+        "Plus de": "1.33",
+        "Moins de": "2.83"
+      },
+      "3": {
+        "Plus de": "2.28",
+        "Moins de": "1.5"
+      },
+      "3.5": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.59",
+      "1 (0)": "2.15",
+      "1 (-1)": "5.15",
+      "2 (-1)": "3.2",
+      "1 (+1)": "1.26",
+      "2 (+1)": "1.098",
+      "1 (-1.5)": "6.05",
+      "2 (-1.5)": "4.05",
+      "1 (+1.5)": "1.166",
+      "2 (+1.5)": "1.063"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Angola",
+    "equipe_2": "Malawi",
+    "1X2": {
+      "V1": "1.36",
+      "X": "4.2",
+      "V2": "9.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.29",
+      "Moins de": "1.57"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-06T00:20:43.261365+00:00",
+    "statut": "ok",
+    "debut": "2026-10-06T19:00:00+00:00",
+    "competition": "Coupe d'Afrique des nations",
+    "competition_en": "Africa Cup of Nations",
+    "competition_id": 21317,
+    "equipe_1_en": "Angola",
+    "equipe_2_en": "Malawi",
+    "Double_Chance": {
+      "1X": "1.023",
+      "12": "1.18",
+      "2X": "2.9"
+    },
+    "BTTS": {
+      "Non": "1.393",
+      "Oui": "2.76"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.57",
+        "Plus de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.39",
+        "Moins de": "2.59"
+      },
+      "2": {
+        "Plus de": "1.68",
+        "Moins de": "1.97"
+      },
+      "3": {
+        "Plus de": "3.36",
+        "Moins de": "1.24"
+      },
+      "3.5": {
+        "Plus de": "4.15",
+        "Moins de": "1.159"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.61",
+      "1 (-1.5)": "2.19",
+      "1 (0)": "1.048",
+      "2 (0)": "6.6",
+      "1 (-1)": "1.57",
+      "2 (+1)": "2.14",
+      "1 (-2)": "3.28",
+      "2 (+2)": "1.25",
+      "1 (-2.5)": "4.05",
+      "2 (+2.5)": "1.166"
     }
   }
 ]
