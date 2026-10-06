@@ -68,6 +68,17 @@ PAYS = {
     "uae": "ae", "united states": "us", "usa": "us", "uruguay": "uy", "uzbekistan": "uz",
     "vanuatu": "vu", "venezuela": "ve", "vietnam": "vn", "wales": "gb-wls", "yemen": "ye",
     "zambia": "zm", "zimbabwe": "zw",
+    # variantes de noms et petits territoires (noms vus dans les donnees des bookmakers)
+    "republic of north macedonia": "mk", "macedonia fyr": "mk", "ir iran": "ir",
+    "united states of america": "us", "st kitts and nevis": "kn", "saint kitts and nevis": "kn",
+    "st lucia": "lc", "saint lucia": "lc", "st vincent and the grenadines": "vc",
+    "saint vincent and the grenadines": "vc", "sint maarten": "sx", "st maarten": "sx",
+    "aruba": "aw", "french guiana": "gf", "guadeloupe": "gp", "martinique": "mq",
+    "new caledonia": "nc", "cook islands": "ck", "american samoa": "as", "samoa": "ws",
+    "tonga": "to", "guam": "gu", "cayman islands": "ky", "montserrat": "ms",
+    "turks and caicos islands": "tc", "us virgin islands": "vi",
+    "british virgin islands": "vg", "anguilla": "ai", "bonaire": "bq", "reunion": "re",
+    "northern mariana islands": "mp", "mayotte": "yt", "bosnia": "ba",
 }
 
 _SUFFIXES = re.compile(r"\b(u ?1[5-9]|u ?2[0-3]|women|w|olympic|b team|ii)$")
@@ -107,3 +118,4 @@ def logo_equipe(nom_en=None, nom_fr=None):
         if code:
             return f"https://flagcdn.com/w80/{code}.png"
     return None
+
