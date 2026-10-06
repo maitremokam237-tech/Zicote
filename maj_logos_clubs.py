@@ -47,10 +47,17 @@ def _lire(chemin):
         return {}
 
 
+# Equipes de jeunes, feminines ou reserves : rarement dans TheSportsDB, on ne gaspille pas le quota.
+HORS_CIBLE = re.compile(r"\bu ?(1[5-9]|2[0-3])\b|\bwomen\b|\(w\)|\bw$|\bii$|\biii$|\bres$|reserves?", re.I)
+
+
 def equipes_a_traiter():
-    """{nom_normalise: nom_a_chercher} des equipes sans logo."""
-    trouvees = {}
-    for fichier in glob.glob("*.json"):
+    """{nom_normalise: nom_a_chercher} des equipes sans logo, les plus presentes d'abord.
+
+    Une equipe listee par beaucoup de bookmakers est celle d'un match important
+    (donc affiche sur le site) : on la traite avant les petits championnats."""
+    trouvees, compte = {}, {}
+    for fichier in sorted(glob.glob("*.json")):
         if fichier.startswith(("logos_", "maj_")):
             continue
         try:
@@ -59,6 +66,7 @@ def equipes_a_traiter():
             continue
         if not isinstance(data, list):
             continue
+        vus_ici = set()
         for m in data:
             if not isinstance(m, dict):
                 continue
@@ -69,10 +77,15 @@ def equipes_a_traiter():
                 if not en or logo_equipe(en, fr):
                     continue
                 nom = en.strip()
-                if normaliser(nom) in LIBELLES or len(normaliser(nom)) < 3:
+                cle = normaliser(nom)
+                if cle in LIBELLES or len(cle) < 3 or HORS_CIBLE.search(nom):
                     continue
-                trouvees.setdefault(normaliser(nom), nom)
-    return trouvees
+                trouvees.setdefault(cle, nom)
+                if cle not in vus_ici:
+                    vus_ici.add(cle)
+                    compte[cle] = compte.get(cle, 0) + 1
+    ordre = sorted(trouvees, key=lambda c: (-compte[c], c))
+    return {c: trouvees[c] for c in ordre}
 
 
 def _noms_equipe(e):
@@ -167,6 +180,18 @@ def main():
             print(f"[logos] {nom} : reponse non JSON (limite atteinte ?)")
             break
         equipe = choisir(nom, equipes)
+        if not equipe:
+            variante = re.sub(r"\s+", " ", re.sub(r"[-.]", " ", nom)).strip()
+            variante = re.sub(r"^(club|fc|cf|ca|cd|sc|ac|as|esporte clube|associacao atletica)\s+", "",
+                              variante, flags=re.I)
+            if variante and variante.lower() != nom.lower():
+                time.sleep(PAUSE)
+                try:
+                    r2 = requests.get(API, params={"t": variante}, timeout=20)
+                    if r2.status_code == 200:
+                        equipe = choisir(nom, r2.json().get("teams") or [])
+                except (requests.RequestException, ValueError):
+                    pass
         if equipe:
             clubs[cle] = telecharger(equipe)
             ajoutes += 1
