@@ -1805,14 +1805,14 @@ def enrichir_1xbet_depuis_autres_sites():
     print(f"[1xbet] {complete}/{len(a)} matchs completes depuis les autres sites")
 
 
-def diagnostic_1xbet_vs_betwinner(max_lignes=8):
+def diagnostic_1xbet_vs_betwinner(max_lignes=8, autre="betwinner"):
     """
     Compare les cotes 1xBet (Chromium) et BetWinner (API) sur les matchs
     communs de CE run, pour savoir si 1xBet peut passer en API.
     """
     try:
         a = json.loads((ROOT / "1xbet.json").read_text(encoding="utf-8"))
-        b = json.loads((ROOT / "betwinner.json").read_text(encoding="utf-8"))
+        b = json.loads((ROOT / f"{autre}.json").read_text(encoding="utf-8"))
     except Exception as error:
         print(f"[diag] lecture impossible : {error}")
         return
@@ -1839,11 +1839,11 @@ def diagnostic_1xbet_vs_betwinner(max_lignes=8):
         if communs <= max_lignes:
             print(
                 f"[diag] {cle[0]} - {cle[1]} : 1xbet {x} | "
-                f"betwinner {bw[cle]}"
+                f"{autre} {bw[cle]}"
             )
 
     print(
-        f"[diag] 1xbet vs betwinner : {communs} match(s) communs, "
+        f"[diag] 1xbet vs {autre} : {communs} match(s) communs, "
         f"{identiques} identiques, {plus_hauts} avec 1xbet plus haut partout"
     )
 
@@ -1867,10 +1867,218 @@ async def main():
 
     enrichir_1xbet_depuis_autres_sites()
     diagnostic_1xbet_vs_betwinner()
+    # betwinner n'a qu'une cinquantaine d'evenements : melbet (lu aussi par le
+    # navigateur) recoupe bien mieux les matchs de 1xbet.
+    diagnostic_1xbet_vs_betwinner(autre="melbet")
 
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
