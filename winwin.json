@@ -1,601 +1,113 @@
 [
   {
     "bookmaker": "winwin",
-    "equipe_1": "Rangdajied United",
-    "equipe_2": "Mawlai",
+    "equipe_1": "Kowloon City U22",
+    "equipe_2": "Tai Po U22",
     "1X2": {
-      "V2": "1.51",
-      "X": "4",
-      "V1": "5.07"
+      "V2": "1.39",
+      "X": "4.5",
+      "V1": "5.97"
     },
     "Total_2.5": {
-      "Plus de": "1.44",
-      "Moins de": "2.43"
+      "Plus de": "1.24",
+      "Moins de": "3.34"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T09:30:00+00:00",
-    "competition": "Inde. Première Ligue. Shillong",
-    "competition_en": "India. Premier League. Shillong",
-    "competition_id": 907143,
-    "equipe_1_en": "Rangdajied United",
-    "equipe_2_en": "Mawlai",
-    "Double_Chance": {
-      "2X": "1.093",
-      "12": "1.148",
-      "1X": "2.2"
-    },
-    "BTTS": {
-      "Oui": "1.52",
-      "Non": "2.316"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.15"
-      },
-      "2.5": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
-      },
-      "3": {
-        "Plus de": "1.7",
-        "Moins de": "1.94"
-      },
-      "4": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
-      },
-      "4.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.48",
-      "2 (-1.5)": "2.33",
-      "1 (0)": "3.8",
-      "2 (0)": "1.188",
-      "2 (-1)": "1.86",
-      "1 (+1)": "1.8",
-      "2 (-2)": "3.5",
-      "1 (+2)": "1.22",
-      "2 (-2.5)": "4.2",
-      "1 (+2.5)": "1.155"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Kolos Kovalivka U19",
-    "equipe_2": "Dynamo Kyiv U19",
-    "1X2": {
-      "V2": "1.22",
-      "X": "5.79",
-      "V1": "8.35"
-    },
-    "Total_2.5": {
-      "Plus de": "1.29",
-      "Moins de": "3.16"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat d'Ukraine U19",
-    "competition_en": "Ukraine Championship U19",
-    "competition_id": 1181941,
-    "equipe_1_en": "Kolos Kovalivka U19",
-    "equipe_2_en": "Dynamo Kyiv U19",
-    "Double_Chance": {
-      "2X": "1.001",
-      "12": "1.05",
-      "1X": "3.34"
-    },
-    "BTTS": {
-      "Oui": "1.56",
-      "Non": "2.22"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.83",
-        "Moins de": "1.83"
-      },
-      "2.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.16"
-      },
-      "3": {
-        "Plus de": "1.44",
-        "Moins de": "2.5"
-      },
-      "4": {
-        "Plus de": "2.4",
-        "Moins de": "1.48"
-      },
-      "4.5": {
-        "Plus de": "2.98",
-        "Moins de": "1.32"
-      }
-    },
-    "Handicap": {
-      "2 (-1.5)": "1.75",
-      "1 (+1.5)": "1.92",
-      "2 (-1)": "1.38",
-      "1 (+1)": "2.71",
-      "2 (-2)": "2.29",
-      "1 (+2)": "1.53"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Obolon Kyiv U19",
-    "equipe_2": "Shakhtar Donetsk U19",
-    "1X2": {
-      "V2": "1.91",
-      "V1": "3.055",
-      "X": "3.84"
-    },
-    "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.38"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat d'Ukraine U19",
-    "competition_en": "Ukraine Championship U19",
-    "competition_id": 1181941,
-    "equipe_1_en": "Obolon Kyiv U19",
-    "equipe_2_en": "Shakhtar Donetsk U19",
-    "Double_Chance": {
-      "12": "1.16",
-      "2X": "1.27",
-      "1X": "1.68"
-    },
-    "BTTS": {
-      "Oui": "1.46",
-      "Non": "2.45"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.34"
-      },
-      "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.38"
-      },
-      "3": {
-        "Plus de": "1.81",
-        "Moins de": "1.85"
-      },
-      "4": {
-        "Plus de": "3.53",
-        "Moins de": "1.24"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.5",
-      "1 (0)": "2.36",
-      "2 (-1)": "2.82",
-      "1 (+1)": "1.35"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Oleksandriïa U19",
-    "equipe_2": "Levyy Bereg Kyiv U19",
-    "1X2": {
-      "V2": "1.91",
-      "V1": "3.055",
-      "X": "3.84"
-    },
-    "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.38"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat d'Ukraine U19",
-    "competition_en": "Ukraine Championship U19",
-    "competition_id": 1181941,
-    "equipe_1_en": "Oleksandriya U19",
-    "equipe_2_en": "Levyy Bereg Kyiv U19",
-    "Double_Chance": {
-      "12": "1.16",
-      "2X": "1.27",
-      "1X": "1.68"
-    },
-    "BTTS": {
-      "Oui": "1.46",
-      "Non": "2.45"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.34"
-      },
-      "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.38"
-      },
-      "3": {
-        "Plus de": "1.81",
-        "Moins de": "1.85"
-      },
-      "4": {
-        "Plus de": "3.53",
-        "Moins de": "1.24"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.5",
-      "1 (0)": "2.36",
-      "2 (-1)": "2.82",
-      "1 (+1)": "1.35"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Kasetsart U21",
-    "equipe_2": "Khon Kaen United U21",
-    "1X2": {
-      "V1": "1.64",
-      "X": "3.92",
-      "V2": "4.095"
-    },
-    "Total_2.5": {
-      "Plus de": "1.71",
-      "Moins de": "1.98"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat de Thaïlande U21",
-    "competition_en": "Thailand Championship U21",
-    "competition_id": 2908287,
-    "equipe_1_en": "Kasetsart U21",
-    "equipe_2_en": "Khon Kaen United U21",
-    "Double_Chance": {
-      "1X": "1.148",
-      "12": "1.155",
-      "2X": "1.99"
-    },
-    "BTTS": {
-      "Oui": "1.69",
-      "Non": "2.005"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.71",
-        "Moins de": "1.98"
-      },
-      "1.5": {
-        "Plus de": "1.19",
-        "Moins de": "3.78"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "3": {
-        "Plus de": "2.21",
-        "Moins de": "1.53"
-      },
-      "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.33",
-      "1 (-1.5)": "2.83",
-      "1 (0)": "1.28",
-      "2 (0)": "3.08",
-      "1 (-1)": "2.19",
-      "2 (+1)": "1.57",
-      "1 (-2)": "4.95",
-      "2 (+2)": "1.107",
-      "1 (-2.5)": "5.75",
-      "2 (+2.5)": "1.073"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Kitchee U22",
-    "equipe_2": "Hong Kong Football Club U22",
-    "1X2": {
-      "V1": "2.31",
-      "V2": "2.48",
-      "X": "3.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.54",
-      "Moins de": "2.27"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:30:00+00:00",
+    "debut": "2026-10-07T12:30:00+00:00",
     "competition": "Hong Kong. Premier League U22",
     "competition_en": "Hong Kong. Premier League U22",
     "competition_id": 2765014,
-    "equipe_1_en": "Kitchee U22",
-    "equipe_2_en": "Hong Kong Football Club U22",
+    "equipe_1_en": "Kowloon City U22",
+    "equipe_2_en": "Tai Po U22",
     "Double_Chance": {
-      "12": "1.197",
-      "1X": "1.4",
-      "2X": "1.46"
+      "2X": "1.057",
+      "12": "1.112",
+      "1X": "2.53"
     },
     "BTTS": {
-      "Oui": "1.46",
-      "Non": "2.464"
+      "Oui": "1.37",
+      "Non": "2.777"
     },
     "Totals": {
+      "3.5": {
+        "Plus de": "1.65",
+        "Moins de": "2.06"
+      },
       "2.5": {
-        "Plus de": "1.54",
-        "Moins de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.137",
-        "Moins de": "4.45"
-      },
-      "2": {
-        "Plus de": "1.21",
-        "Moins de": "3.58"
+        "Plus de": "1.24",
+        "Moins de": "3.34"
       },
       "3": {
-        "Plus de": "1.83",
-        "Moins de": "1.79"
+        "Plus de": "1.333",
+        "Moins de": "2.81"
       },
-      "3.5": {
-        "Plus de": "2.3",
-        "Moins de": "1.49"
+      "4": {
+        "Plus de": "1.96",
+        "Moins de": "1.68"
+      },
+      "4.5": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
       }
     },
     "Handicap": {
-      "1 (0)": "1.77",
-      "2 (0)": "1.89",
-      "1 (-1)": "3.5",
-      "2 (-1)": "3.9",
-      "1 (+1)": "1.177",
-      "2 (+1)": "1.22",
-      "1 (-1.5)": "4.3",
-      "2 (-1.5)": "4.7",
-      "1 (+1.5)": "1.122",
-      "2 (+1.5)": "1.147"
+      "1 (+1.5)": "1.71",
+      "2 (-1.5)": "1.96",
+      "1 (0)": "4.5",
+      "2 (0)": "1.133",
+      "2 (-1)": "1.58",
+      "1 (+1)": "2.12",
+      "2 (-2)": "2.52",
+      "1 (+2)": "1.41",
+      "2 (-2.5)": "3.04",
+      "1 (+2.5)": "1.29"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Southern District U22",
-    "equipe_2": "Eastern District U22",
+    "equipe_1": "Lee Man U22",
+    "equipe_2": "Hong Kong Rangers U22",
     "1X2": {
-      "V2": "2.34",
-      "V1": "2.43",
-      "X": "3.54"
-    },
-    "Total_2.5": {
-      "Plus de": "1.533",
-      "Moins de": "2.28"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:45:00+00:00",
-    "competition": "Hong Kong. Premier League U22",
-    "competition_en": "Hong Kong. Premier League U22",
-    "competition_id": 2765014,
-    "equipe_1_en": "Southern District U22",
-    "equipe_2_en": "Eastern District U22",
-    "Double_Chance": {
-      "12": "1.192",
-      "2X": "1.41",
-      "1X": "1.444"
-    },
-    "BTTS": {
-      "Oui": "1.46",
-      "Non": "2.464"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.533",
-        "Moins de": "2.28"
-      },
-      "1.5": {
-        "Plus de": "1.137",
-        "Moins de": "4.45"
-      },
-      "2": {
-        "Plus de": "1.21",
-        "Moins de": "3.58"
-      },
-      "3": {
-        "Plus de": "1.84",
-        "Moins de": "1.78"
-      },
-      "3.5": {
-        "Plus de": "2.3",
-        "Moins de": "1.49"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.8",
-      "1 (0)": "1.86",
-      "1 (-1)": "3.8",
-      "2 (-1)": "3.58",
-      "1 (+1)": "1.21",
-      "2 (+1)": "1.188",
-      "1 (-1.5)": "4.6",
-      "2 (-1.5)": "4.35",
-      "1 (+1.5)": "1.142",
-      "2 (+1.5)": "1.128"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Abu Muslim Farah",
-    "equipe_2": "Toofan Herat",
-    "1X2": {
-      "V1": "1.12",
-      "X": "5.98",
-      "V2": "14.9"
-    },
-    "Total_2.5": {
-      "Plus de": "1.7",
-      "Moins de": "1.99"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Afghanistan. Ligue des champions",
-    "competition_en": "Afghanistan. Champions League",
-    "competition_id": 2689522,
-    "equipe_1_en": "Abu Muslim Farah",
-    "equipe_2_en": "Toofan Herat",
-    "Double_Chance": {
-      "1X": "1.001",
-      "12": "1.05",
-      "2X": "4.27"
-    },
-    "BTTS": {
-      "Non": "1.42",
-      "Oui": "2.59"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.7",
-        "Moins de": "1.99"
-      },
-      "2": {
-        "Plus de": "1.3",
-        "Moins de": "3.1"
-      },
-      "3": {
-        "Plus de": "2.26",
-        "Moins de": "1.54"
-      },
-      "3.5": {
-        "Plus de": "2.9",
-        "Moins de": "1.34"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.64",
-      "2 (+1.5)": "2.07",
-      "1 (-1)": "1.26",
-      "2 (+1)": "3.35",
-      "1 (-2)": "2.17",
-      "2 (+2)": "1.58"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Angleterre U19 (Femmes)",
-    "equipe_2": "Danemark U19 (Femmes)",
-    "1X2": {
-      "V1": "1.83",
-      "V2": "3.485",
-      "X": "3.62"
-    },
-    "Total_2.5": {
-      "Plus de": "1.55",
-      "Moins de": "2.24"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Championnat d'Europe U19 de l'UEFA. Qualification. Femmes",
-    "competition_en": "UEFA European U19 Championship. Qualification. Women",
-    "competition_id": 2618772,
-    "equipe_1_en": "England U19 (Women)",
-    "equipe_2_en": "Denmark U19 (Women)",
-    "Double_Chance": {
-      "12": "1.183",
-      "1X": "1.21",
-      "2X": "1.76"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.55",
-        "Moins de": "2.24"
-      },
-      "1.5": {
-        "Plus de": "1.142",
-        "Moins de": "4.35"
-      },
-      "2": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "3": {
-        "Plus de": "1.86",
-        "Moins de": "1.76"
-      },
-      "3.5": {
-        "Plus de": "2.33",
-        "Moins de": "1.48"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.4",
-      "2 (0)": "2.56",
-      "1 (-1)": "2.49",
-      "2 (-1)": "6",
-      "1 (+1)": "1.065",
-      "2 (+1)": "1.444",
-      "1 (-1.5)": "3.08",
-      "2 (-1.5)": "6.8",
-      "1 (+1.5)": "1.043",
-      "2 (+1.5)": "1.28"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Suisse U19 (Femmes)",
-    "equipe_2": "Bosnie-Herzégovine U19 (Femmes)",
-    "1X2": {
-      "V1": "1.04",
-      "X": "10",
-      "V2": "21"
+      "V2": "1.083",
+      "X": "7.3",
+      "V1": "16"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Championnat d'Europe U19 de l'UEFA. Qualification. Femmes",
-    "competition_en": "UEFA European U19 Championship. Qualification. Women",
-    "competition_id": 2618772,
-    "equipe_1_en": "Switzerland U19 (Women)",
-    "equipe_2_en": "Bosnia and Herzegovina U19 (Women)",
+    "debut": "2026-10-07T12:45:00+00:00",
+    "competition": "Hong Kong. Premier League U22",
+    "competition_en": "Hong Kong. Premier League U22",
+    "competition_id": 2765014,
+    "equipe_1_en": "Lee Man U22",
+    "equipe_2_en": "Hong Kong Rangers U22",
     "Double_Chance": {
-      "1X": "1.007",
-      "12": "1.03",
-      "2X": "8"
+      "12": "1.016",
+      "2X": "1.025",
+      "1X": "5.05"
+    },
+    "BTTS": {
+      "Oui": "1.56",
+      "Non": "2.224"
     },
     "Totals": {
       "4.5": {
-        "Moins de": "1.81",
-        "Plus de": "1.86"
+        "Moins de": "1.79",
+        "Plus de": "1.88"
       },
       "3.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
+        "Plus de": "1.38",
+        "Moins de": "2.625"
       },
       "4": {
-        "Plus de": "1.51",
-        "Moins de": "2.26"
+        "Plus de": "1.55",
+        "Moins de": "2.17"
       },
       "5": {
         "Plus de": "2.3",
@@ -607,16 +119,82 @@
       }
     },
     "Handicap": {
-      "1 (-3.5)": "1.68",
-      "2 (+3.5)": "2",
-      "1 (-2.5)": "1.26",
-      "2 (+2.5)": "3.2",
-      "1 (-3)": "1.37",
-      "2 (+3)": "2.66",
-      "1 (-4)": "2",
-      "2 (+4)": "1.65",
-      "1 (-4.5)": "2.43",
-      "2 (+4.5)": "1.44"
+      "2 (-2.5)": "1.76",
+      "1 (+2.5)": "1.9",
+      "2 (-1.5)": "1.33",
+      "1 (+1.5)": "2.83",
+      "2 (-2)": "1.46",
+      "1 (+2)": "2.375",
+      "2 (-3)": "2.12",
+      "1 (+3)": "1.58",
+      "2 (-3.5)": "2.52",
+      "1 (+3.5)": "1.41"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Kuching",
+    "equipe_2": "Tampines Rovers",
+    "1X2": {
+      "V1": "1.6",
+      "X": "3.75",
+      "V2": "4.61"
+    },
+    "Total_2.5": {
+      "Plus de": "1.615",
+      "Moins de": "2.12"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "ASEAN Club Championship",
+    "competition_en": "ASEAN Club Championship",
+    "competition_id": 2727489,
+    "equipe_1_en": "Kuching",
+    "equipe_2_en": "Tampines Rovers",
+    "Double_Chance": {
+      "1X": "1.112",
+      "12": "1.17",
+      "2X": "2.05"
+    },
+    "BTTS": {
+      "Oui": "1.615",
+      "Non": "2.12"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.615",
+        "Moins de": "2.12"
+      },
+      "1.5": {
+        "Plus de": "1.152",
+        "Moins de": "4.2"
+      },
+      "2": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "3": {
+        "Plus de": "2",
+        "Moins de": "1.65"
+      },
+      "3.5": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.37",
+      "1 (-1.5)": "2.66",
+      "1 (0)": "1.23",
+      "2 (0)": "3.42",
+      "1 (-1)": "2.08",
+      "2 (+1)": "1.63",
+      "1 (-2)": "4.4",
+      "2 (+2)": "1.138",
+      "1 (-2.5)": "5.2",
+      "2 (+2.5)": "1.095"
     }
   },
   {
@@ -633,7 +211,7 @@
       "Moins de": "2.13"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
     "debut": "2026-10-07T15:00:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales. Femmes",
@@ -669,1369 +247,119 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.53",
-      "1 (-1.5)": "2.21",
-      "1 (0)": "1.144",
-      "2 (0)": "4.33",
-      "1 (-1)": "1.74",
-      "2 (+1)": "1.93",
-      "1 (-2)": "3.28",
-      "2 (+2)": "1.25",
-      "1 (-2.5)": "3.98",
-      "2 (+2.5)": "1.17"
+      "2 (+1.5)": "1.52",
+      "1 (-1.5)": "2.24",
+      "1 (0)": "1.147",
+      "2 (0)": "4.3",
+      "1 (-1)": "1.75",
+      "2 (+1)": "1.909",
+      "1 (-2)": "3.34",
+      "2 (+2)": "1.24",
+      "1 (-2.5)": "4",
+      "2 (+2.5)": "1.168"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Avispa Fukuoka",
-    "equipe_2": "Yokohama",
+    "equipe_1": "Clube do Remo",
+    "equipe_2": "Grêmio Porto Alegrense",
     "1X2": {
-      "V1": "2.25",
-      "X": "3.02",
-      "V2": "3.29"
+      "V1": "2.023",
+      "X": "3.59",
+      "V2": "3.715"
     },
     "Total_2.5": {
-      "Plus de": "2.375",
-      "Moins de": "1.46"
+      "Plus de": "1.88",
+      "Moins de": "1.961"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T09:30:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Avispa Fukuoka",
-    "equipe_2_en": "Yokohama",
+    "debut": "2026-10-07T22:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Clube do Remo",
+    "equipe_2_en": "Gremio Porto Alegrense",
     "Double_Chance": {
       "1X": "1.285",
-      "12": "1.33",
-      "2X": "1.57"
-    },
-    "BTTS": {
-      "Non": "1.68",
-      "Oui": "2.06"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.46",
-        "Plus de": "2.375"
-      },
-      "1.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.48"
-      },
-      "2": {
-        "Plus de": "1.81",
-        "Moins de": "1.82"
-      },
-      "3": {
-        "Plus de": "3.82",
-        "Moins de": "1.186"
-      },
-      "3.5": {
-        "Plus de": "4.55",
-        "Moins de": "1.129"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.57",
-      "2 (0)": "2.27",
-      "1 (-1)": "3.5",
-      "2 (-1)": "6.2",
-      "1 (+1)": "1.059",
-      "2 (+1)": "1.22",
-      "1 (-1.5)": "4.5",
-      "2 (-1.5)": "7.2",
-      "1 (+1.5)": "1.035",
-      "2 (+1.5)": "1.134"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Cerezo Osaka",
-    "equipe_2": "Kagoshima United",
-    "1X2": {
-      "V1": "1.41",
-      "X": "4.6",
-      "V2": "6.52"
-    },
-    "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.27"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:30:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Cerezo Osaka",
-    "equipe_2_en": "Kagoshima United",
-    "Double_Chance": {
-      "1X": "1.075",
-      "12": "1.152",
-      "2X": "2.7"
-    },
-    "BTTS": {
-      "Oui": "1.75",
-      "Non": "1.966"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.139",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.22",
-        "Moins de": "3.52"
-      },
-      "3": {
-        "Plus de": "1.89",
-        "Moins de": "1.74"
-      },
-      "3.5": {
-        "Plus de": "2.375",
-        "Moins de": "1.46"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.6",
-      "1 (-1.5)": "2.08",
-      "1 (0)": "1.107",
-      "2 (0)": "4.95",
-      "1 (-1)": "1.65",
-      "2 (+1)": "2.12",
-      "1 (-2)": "2.97",
-      "2 (+2)": "1.3",
-      "1 (-2.5)": "3.68",
-      "2 (+2.5)": "1.2"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Sanfrecce Hiroshima",
-    "equipe_2": "Iwaki",
-    "1X2": {
-      "V1": "1.194",
-      "X": "6.45",
-      "V2": "11.4"
-    },
-    "Total_2.5": {
-      "Plus de": "1.35",
-      "Moins de": "2.74"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:30:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Sanfrecce Hiroshima",
-    "equipe_2_en": "Iwaki",
-    "Double_Chance": {
-      "1X": "1.002",
-      "12": "1.075",
-      "2X": "4.2"
-    },
-    "BTTS": {
-      "Oui": "1.84",
-      "Non": "1.864"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.77",
-        "Plus de": "1.97"
-      },
-      "2.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "3": {
-        "Plus de": "1.533",
-        "Moins de": "2.22"
-      },
-      "4": {
-        "Plus de": "2.54",
-        "Moins de": "1.41"
-      },
-      "4.5": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.6",
-      "2 (+1.5)": "2.21",
-      "1 (0)": "1.009",
-      "2 (0)": "8.7",
-      "1 (-1)": "1.25",
-      "2 (+1)": "3.28",
-      "1 (-2)": "1.9",
-      "2 (+2)": "1.727",
-      "1 (-2.5)": "2.35",
-      "2 (+2.5)": "1.47"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Fagiano Okayama",
-    "equipe_2": "JEF United Ichihara Chiba",
-    "1X2": {
-      "V1": "1.96",
-      "X": "3.32",
-      "V2": "3.72"
-    },
-    "Total_2.5": {
-      "Plus de": "1.94",
-      "Moins de": "1.79"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Fagiano Okayama",
-    "equipe_2_en": "JEF United Ichihara Chiba",
-    "Double_Chance": {
-      "1X": "1.23",
-      "12": "1.28",
-      "2X": "1.76"
-    },
-    "BTTS": {
-      "Oui": "1.78",
-      "Non": "1.926"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.79",
-        "Plus de": "1.94"
-      },
-      "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "2": {
-        "Plus de": "1.45",
-        "Moins de": "2.42"
-      },
-      "3": {
-        "Plus de": "2.6",
-        "Moins de": "1.39"
-      },
-      "3.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.39",
-      "2 (0)": "2.59",
-      "1 (-1)": "2.79",
-      "2 (-1)": "6.85",
-      "1 (+1)": "1.042",
-      "2 (+1)": "1.39",
-      "1 (-1.5)": "3.42",
-      "2 (-1.5)": "7.7",
-      "1 (+1.5)": "1.025",
-      "2 (+1.5)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Gainare Tottori",
-    "equipe_2": "Tokyo Verdy",
-    "1X2": {
-      "V2": "1.41",
-      "X": "4.55",
-      "V1": "6.63"
-    },
-    "Total_2.5": {
-      "Plus de": "1.66",
-      "Moins de": "2.12"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Gainare Tottori",
-    "equipe_2_en": "Tokyo Verdy",
-    "Double_Chance": {
-      "2X": "1.072",
-      "12": "1.155",
-      "1X": "2.7"
-    },
-    "BTTS": {
-      "Oui": "1.83",
-      "Non": "1.874"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.12"
-      },
-      "1.5": {
-        "Plus de": "1.164",
-        "Moins de": "4.05"
-      },
-      "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.22"
-      },
-      "3": {
-        "Plus de": "2.04",
-        "Moins de": "1.63"
-      },
-      "3.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.58",
-      "2 (-1.5)": "2.12",
-      "1 (0)": "4.95",
-      "2 (0)": "1.106",
-      "2 (-1)": "1.666",
-      "1 (+1)": "2.09",
-      "2 (-2)": "3.14",
-      "1 (+2)": "1.27",
-      "2 (-2.5)": "3.84",
-      "1 (+2.5)": "1.184"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Kawasaki Frontale",
-    "equipe_2": "Tegevajaro Miyazaki",
-    "1X2": {
-      "V1": "1.32",
-      "X": "5.1",
-      "V2": "7.95"
-    },
-    "Total_2.5": {
-      "Plus de": "1.41",
-      "Moins de": "2.52"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Kawasaki Frontale",
-    "equipe_2_en": "Tegevajaro Miyazaki",
-    "Double_Chance": {
-      "1X": "1.043",
-      "12": "1.125",
-      "2X": "3.125"
+      "12": "1.301",
+      "2X": "1.809"
     },
     "BTTS": {
       "Oui": "1.69",
       "Non": "2.049"
     },
     "Totals": {
-      "3.5": {
-        "Moins de": "1.666",
-        "Plus de": "2.11"
-      },
       "2.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.52"
-      },
-      "3": {
-        "Plus de": "1.64",
-        "Moins de": "2.03"
-      },
-      "4": {
-        "Plus de": "2.83",
-        "Moins de": "1.333"
-      },
-      "4.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.24"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.78",
-      "1 (-1.5)": "1.84",
-      "1 (0)": "1.065",
-      "2 (0)": "6",
-      "1 (-1)": "1.48",
-      "2 (+1)": "2.49",
-      "1 (-2)": "2.43",
-      "2 (+2)": "1.44",
-      "1 (-2.5)": "2.97",
-      "2 (+2.5)": "1.3"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Shimizu S-Pulse",
-    "equipe_2": "V-Varen Nagasaki",
-    "1X2": {
-      "V1": "2.17",
-      "X": "3.125",
-      "V2": "3.345"
-    },
-    "Total_2.5": {
-      "Plus de": "2.21",
-      "Moins de": "1.61"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Shimizu S-Pulse",
-    "equipe_2_en": "V-Varen Nagasaki",
-    "Double_Chance": {
-      "1X": "1.28",
-      "12": "1.31",
-      "2X": "1.615"
-    },
-    "BTTS": {
-      "Non": "1.803",
-      "Oui": "1.9"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.61",
-        "Plus de": "2.21"
+        "Plus de": "1.88",
+        "Moins de": "1.961"
       },
       "1.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "2": {
-        "Plus de": "1.61",
-        "Moins de": "2.07"
-      },
-      "3": {
-        "Plus de": "3.16",
-        "Moins de": "1.27"
-      },
-      "3.5": {
-        "Plus de": "3.94",
-        "Moins de": "1.174"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.53",
-      "2 (0)": "2.36",
-      "1 (-1)": "3.28",
-      "2 (-1)": "6.4",
-      "1 (+1)": "1.053",
-      "2 (+1)": "1.25",
-      "1 (-1.5)": "4.2",
-      "2 (-1.5)": "7.5",
-      "1 (+1.5)": "1.029",
-      "2 (+1.5)": "1.152"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Tokyo",
-    "equipe_2": "Shonan Bellmare",
-    "1X2": {
-      "V1": "1.41",
-      "X": "4.33",
-      "V2": "7.18"
-    },
-    "Total_2.5": {
-      "Plus de": "1.79",
-      "Moins de": "1.94"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Tokyo",
-    "equipe_2_en": "Shonan Bellmare",
-    "Double_Chance": {
-      "1X": "1.059",
-      "12": "1.17",
-      "2X": "2.7"
-    },
-    "BTTS": {
-      "Non": "1.74",
-      "Oui": "1.98"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.79",
-        "Moins de": "1.94"
-      },
-      "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "2": {
-        "Plus de": "1.35",
-        "Moins de": "2.76"
-      },
-      "3": {
-        "Plus de": "2.27",
-        "Moins de": "1.51"
-      },
-      "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.58",
-      "1 (-1.5)": "2.12",
-      "1 (0)": "1.095",
-      "2 (0)": "5.2",
-      "1 (-1)": "1.66",
-      "2 (+1)": "2.1",
-      "1 (-2)": "3.08",
-      "2 (+2)": "1.28",
-      "1 (-2.5)": "3.78",
-      "2 (+2.5)": "1.189"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Real Madrid III",
-    "equipe_2": "Guadalajara S.A.D.",
-    "1X2": {
-      "V2": "2.55",
-      "V1": "2.64",
-      "X": "2.875"
-    },
-    "Total_2.5": {
-      "Plus de": "1.85",
-      "Moins de": "1.82"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat d'Espagne. Deuxième division RFEF. Groupe 5",
-    "competition_en": "Spain. Segunda Division RFEF. Group 5",
-    "competition_id": 2286181,
-    "equipe_1_en": "Real Madrid III",
-    "equipe_2_en": "Guadalajara S.A.D.",
-    "Double_Chance": {
-      "12": "1.3",
-      "2X": "1.36",
-      "1X": "1.38"
-    },
-    "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.104"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.82",
-        "Plus de": "1.85"
-      },
-      "1.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "2": {
-        "Plus de": "1.4",
-        "Moins de": "2.56"
-      },
-      "3": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
-      },
-      "3.5": {
-        "Plus de": "3.04",
-        "Moins de": "1.29"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.8",
-      "1 (0)": "1.86",
-      "1 (-1)": "4.55",
-      "2 (-1)": "4.3",
-      "1 (+1)": "1.145",
-      "2 (+1)": "1.129",
-      "1 (-1.5)": "5.5",
-      "2 (-1.5)": "5.25",
-      "1 (+1.5)": "1.094",
-      "2 (+1.5)": "1.083"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Gangjin Swans (Femmes)",
-    "equipe_2": "Suwon (Femmes)",
-    "1X2": {
-      "V2": "1.37",
-      "X": "4.59",
-      "V1": "6.22"
-    },
-    "Total_2.5": {
-      "Plus de": "1.51",
-      "Moins de": "2.31"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat de Corée du Sud. Femmes",
-    "competition_en": "South Korea. WK-League",
-    "competition_id": 38937,
-    "equipe_1_en": "Gangjin Swans (Women)",
-    "equipe_2_en": "Suwon (Women)",
-    "Double_Chance": {
-      "2X": "1.05",
-      "12": "1.1",
-      "1X": "2.59"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.51",
-        "Moins de": "2.31"
-      },
-      "2": {
-        "Plus de": "1.19",
-        "Moins de": "3.95"
-      },
-      "3": {
-        "Plus de": "1.87",
-        "Moins de": "1.79"
-      },
-      "3.5": {
-        "Plus de": "2.42",
-        "Moins de": "1.47"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.57",
-      "2 (-1.5)": "2.18",
-      "2 (-1)": "1.67",
-      "1 (+1)": "2.03"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Gyeongju (Femmes)",
-    "equipe_2": "Hwacheon KSPO (Femmes)",
-    "1X2": {
-      "V2": "1.86",
-      "X": "3.32",
-      "V1": "3.705"
-    },
-    "Total_2.5": {
-      "Plus de": "2.15",
-      "Moins de": "1.59"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat de Corée du Sud. Femmes",
-    "competition_en": "South Korea. WK-League",
-    "competition_id": 38937,
-    "equipe_1_en": "Gyeongju (Women)",
-    "equipe_2_en": "Hwacheon KSPO (Women)",
-    "Double_Chance": {
-      "2X": "1.18",
-      "12": "1.22",
-      "1X": "1.73"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.59",
-        "Plus de": "2.15"
-      },
-      "1.5": {
-        "Plus de": "1.33",
-        "Moins de": "2.93"
-      },
-      "2": {
-        "Plus de": "1.59",
-        "Moins de": "2.16"
-      },
-      "3": {
-        "Plus de": "3.36",
-        "Moins de": "1.26"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.38",
-      "1 (0)": "2.71",
-      "2 (-1)": "2.89",
-      "1 (+1)": "1.34"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Sejong Sportstoto (Femmes)",
-    "equipe_2": "Hyundai Steel Red Angels (Femmes)",
-    "1X2": {
-      "V1": "2.03",
-      "X": "3.2",
-      "V2": "3.285"
-    },
-    "Total_2.5": {
-      "Plus de": "1.99",
-      "Moins de": "1.7"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat de Corée du Sud. Femmes",
-    "competition_en": "South Korea. WK-League",
-    "competition_id": 38937,
-    "equipe_1_en": "Sejong Sportstoto (Women)",
-    "equipe_2_en": "Hyundai Steel Red Angels (Women)",
-    "Double_Chance": {
-      "1X": "1.24",
-      "12": "1.24",
-      "2X": "1.61"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.7",
-        "Plus de": "1.99"
-      },
-      "1.5": {
-        "Plus de": "1.285",
-        "Moins de": "3.05"
-      },
-      "2": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
-      },
-      "3": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      },
-      "3.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.49",
-      "2 (0)": "2.36",
-      "1 (-1)": "3.14",
-      "2 (-1)": "6.55",
-      "1 (+1)": "1.05",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "4.1",
-      "2 (-1.5)": "7.7",
-      "1 (+1.5)": "1.025",
-      "2 (+1.5)": "1.163"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Séoul (Femmes)",
-    "equipe_2": "Mungyeong Sangmu (Femmes)",
-    "1X2": {
-      "V1": "2.19",
-      "V2": "2.874",
-      "X": "3.28"
-    },
-    "Total_2.5": {
-      "Plus de": "1.83",
-      "Moins de": "1.84"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Championnat de Corée du Sud. Femmes",
-    "competition_en": "South Korea. WK-League",
-    "competition_id": 38937,
-    "equipe_1_en": "Seoul (Women)",
-    "equipe_2_en": "Mungyeong Sangmu (Women)",
-    "Double_Chance": {
-      "12": "1.23",
-      "1X": "1.31",
-      "2X": "1.52"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.83",
-        "Moins de": "1.84"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
+        "Plus de": "1.222",
+        "Moins de": "3.48"
       },
       "2": {
         "Plus de": "1.37",
-        "Moins de": "2.66"
+        "Moins de": "2.7"
       },
       "3": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
-      },
-      "3.5": {
-        "Plus de": "3.08",
-        "Moins de": "1.28"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.63",
-      "2 (0)": "2.08",
-      "1 (-1)": "3.5",
-      "2 (-1)": "5.2",
-      "1 (+1)": "1.095",
-      "2 (+1)": "1.22",
-      "1 (-1.5)": "4.45",
-      "2 (-1.5)": "6.25",
-      "1 (+1.5)": "1.058",
-      "2 (+1.5)": "1.137"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Ordabasy Chymkent II",
-    "equipe_2": "Jas Qyran",
-    "1X2": {
-      "V2": "2.22",
-      "V1": "2.34",
-      "X": "4.05"
-    },
-    "Total_2.5": {
-      "Plus de": "1.3",
-      "Moins de": "3.07"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Kazakhstan. Ligue 2",
-    "competition_en": "Kazakhstan. League 2",
-    "competition_id": 1217107,
-    "equipe_1_en": "Ordabasy II",
-    "equipe_2_en": "Jas Qyran",
-    "Double_Chance": {
-      "12": "1.14",
-      "2X": "1.44",
-      "1X": "1.48"
-    },
-    "BTTS": {
-      "Oui": "1.3",
-      "Non": "3.07"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.8",
-        "Plus de": "1.87"
-      },
-      "2.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.07"
-      },
-      "3": {
-        "Plus de": "1.47",
-        "Moins de": "2.43"
-      },
-      "4": {
-        "Plus de": "2.49",
-        "Moins de": "1.45"
-      },
-      "4.5": {
-        "Plus de": "3.08",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.79",
-      "1 (0)": "1.88",
-      "1 (-1)": "3.78",
-      "2 (-1)": "3.5",
-      "1 (+1)": "1.24",
-      "2 (+1)": "1.21"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Ulytau II",
-    "equipe_2": "Zhetysu II",
-    "1X2": {
-      "V2": "1.41",
-      "X": "4.99",
-      "V1": "5.03"
-    },
-    "Total_2.5": {
-      "Plus de": "1.21",
-      "Moins de": "3.76"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:00:00+00:00",
-    "competition": "Kazakhstan. Ligue 2",
-    "competition_en": "Kazakhstan. League 2",
-    "competition_id": 1217107,
-    "equipe_1_en": "Ulytau II",
-    "equipe_2_en": "Zhetysu II",
-    "Double_Chance": {
-      "1X": "2.46"
-    },
-    "BTTS": {
-      "Oui": "1.32",
-      "Non": "3"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.64",
-        "Moins de": "2.08"
-      },
-      "2.5": {
-        "Plus de": "1.21",
-        "Moins de": "3.76"
-      },
-      "3": {
-        "Plus de": "1.31",
-        "Moins de": "3.02"
-      },
-      "4": {
-        "Plus de": "2.03",
-        "Moins de": "1.67"
-      },
-      "4.5": {
-        "Plus de": "2.53",
-        "Moins de": "1.43"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.6",
-      "2 (-1.5)": "2.13",
-      "2 (-1)": "1.69",
-      "1 (+1)": "2"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Stride Sports",
-    "equipe_2": "SC Bengaluru",
-    "1X2": {
-      "V2": "2.04",
-      "V1": "2.92",
-      "X": "3.62"
-    },
-    "Total_2.5": {
-      "Plus de": "1.54",
-      "Moins de": "2.27"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T10:30:00+00:00",
-    "competition": "Championnat d'Inde. Bangalore. Super Division",
-    "competition_en": "India. Bangalore. Super Division",
-    "competition_id": 330475,
-    "equipe_1_en": "Stride Sports",
-    "equipe_2_en": "SC Bengaluru",
-    "Double_Chance": {
-      "12": "1.183",
-      "2X": "1.3",
-      "1X": "1.6"
-    },
-    "BTTS": {
-      "Oui": "1.48",
-      "Non": "2.411"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.54",
-        "Moins de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.139",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.21",
-        "Moins de": "3.58"
-      },
-      "3": {
-        "Plus de": "1.85",
-        "Moins de": "1.77"
-      },
-      "3.5": {
-        "Plus de": "2.33",
+        "Plus de": "2.36",
         "Moins de": "1.48"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.57",
-      "1 (0)": "2.19",
-      "1 (-1)": "4.8",
-      "2 (-1)": "2.92",
-      "1 (+1)": "1.31",
-      "2 (+1)": "1.115",
-      "1 (-1.5)": "5.55",
-      "2 (-1.5)": "3.58",
-      "1 (+1.5)": "1.21",
-      "2 (+1.5)": "1.08"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Adanaspor",
-    "equipe_2": "Adana Adaletgucu",
-    "1X2": {
-      "V2": "1.76",
-      "V1": "3.23",
-      "X": "4.3"
-    },
-    "Total_2.5": {
-      "Plus de": "1.26",
-      "Moins de": "3.34"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Adanaspor",
-    "equipe_2_en": "Adana Adaletgucu",
-    "Double_Chance": {
-      "12": "1.12",
-      "2X": "1.24",
-      "1X": "1.82"
-    },
-    "BTTS": {
-      "Oui": "1.29",
-      "Non": "3.14"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.76",
-        "Moins de": "1.91"
-      },
-      "2.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.34"
-      },
-      "3": {
-        "Plus de": "1.4",
-        "Moins de": "2.66"
-      },
-      "4": {
-        "Plus de": "2.28",
-        "Moins de": "1.53"
-      },
-      "4.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.42",
-      "1 (0)": "2.57",
-      "2 (-1)": "2.39",
-      "1 (+1)": "1.48",
-      "2 (-1.5)": "3",
-      "1 (+1.5)": "1.32"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Hatayspor",
-    "equipe_2": "Karakopru Belediyespor",
-    "1X2": {
-      "V2": "1.67",
-      "X": "4.05",
-      "V1": "4.29"
-    },
-    "Total_2.5": {
-      "Plus de": "1.71",
-      "Moins de": "2.05"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Hatayspor",
-    "equipe_2_en": "Karakopru Belediyespor",
-    "Double_Chance": {
-      "2X": "1.173",
-      "12": "1.193",
-      "1X": "2.09"
-    },
-    "BTTS": {
-      "Oui": "1.69",
-      "Non": "2.049"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.71",
-        "Moins de": "2.05"
-      },
-      "1.5": {
-        "Plus de": "1.174",
-        "Moins de": "3.94"
-      },
-      "2": {
-        "Plus de": "1.285",
-        "Moins de": "3.08"
-      },
-      "3": {
-        "Plus de": "2.16",
-        "Moins de": "1.56"
       },
       "3.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
+        "Plus de": "2.92",
+        "Moins de": "1.31"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.333",
-      "2 (-1.5)": "2.81",
-      "1 (0)": "3.2",
-      "2 (0)": "1.26",
-      "2 (-1)": "2.19",
-      "1 (+1)": "1.61",
-      "2 (-2)": "4.9",
-      "1 (+2)": "1.111",
-      "2 (-2.5)": "5.75",
-      "1 (+2.5)": "1.073"
+      "1 (0)": "1.486",
+      "2 (0)": "2.713",
+      "1 (-1)": "2.7",
+      "2 (-1)": "6.65",
+      "1 (+1)": "1.047",
+      "2 (+1)": "1.36",
+      "1 (-1.5)": "3.48",
+      "2 (-1.5)": "7.6",
+      "1 (+1.5)": "1.027",
+      "2 (+1.5)": "1.222"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Kars 36 Spor",
-    "equipe_2": "Fatsa Belediyespor",
+    "equipe_1": "Red Bull Bragantino",
+    "equipe_2": "Mirassol",
     "1X2": {
-      "V2": "1.17",
-      "X": "5.91",
-      "V1": "11.8"
+      "V1": "1.733",
+      "X": "3.94",
+      "V2": "4.745"
     },
     "Total_2.5": {
-      "Plus de": "1.48",
-      "Moins de": "2.39"
+      "Plus de": "1.736",
+      "Moins de": "2.147"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Kars 36 Spor",
-    "equipe_2_en": "Fatsa Belediyespor",
+    "debut": "2026-10-07T22:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Red Bull Bragantino",
+    "equipe_2_en": "Mirassol",
     "Double_Chance": {
-      "2X": "1.001",
-      "12": "1.05",
-      "1X": "3.85"
-    },
-    "BTTS": {
-      "Non": "1.69",
-      "Oui": "1.99"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.51",
-        "Plus de": "2.33"
-      },
-      "2.5": {
-        "Plus de": "1.48",
-        "Moins de": "2.39"
-      },
-      "3": {
-        "Plus de": "1.81",
-        "Moins de": "1.85"
-      },
-      "4": {
-        "Plus de": "3.51",
-        "Moins de": "1.24"
-      }
-    },
-    "Handicap": {
-      "2 (-1.5)": "1.68",
-      "1 (+1.5)": "2.02",
-      "2 (-1)": "1.3",
-      "1 (+1)": "3.07",
-      "2 (-2)": "2.19",
-      "1 (+2)": "1.57"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Mazidagi Fosfat Spor",
-    "equipe_2": "Kirsehirspor",
-    "1X2": {
-      "V1": "2.01",
-      "V2": "2.985",
-      "X": "3.6"
-    },
-    "Total_2.5": {
-      "Plus de": "1.67",
-      "Moins de": "2.03"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Mazidagi Fosfat Spor",
-    "equipe_2_en": "Kirsehirspor",
-    "Double_Chance": {
-      "12": "1.18",
-      "1X": "1.28",
-      "2X": "1.61"
-    },
-    "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.17"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.67",
-        "Moins de": "2.03"
-      },
-      "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.21"
-      },
-      "3": {
-        "Plus de": "2.2",
-        "Moins de": "1.57"
-      },
-      "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.54",
-      "2 (0)": "2.25",
-      "1 (-1)": "3.13",
-      "2 (+1)": "1.29"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Nigde Beledi̇ye Spor",
-    "equipe_2": "Agri 1970 Spor",
-    "1X2": {
-      "V1": "1.77",
-      "X": "3.44",
-      "V2": "4.46"
-    },
-    "Total_2.5": {
-      "Plus de": "1.909",
-      "Moins de": "1.82"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Nigde Beledi̇ye Spor",
-    "equipe_2_en": "Agri 1970 Spor",
-    "Double_Chance": {
-      "1X": "1.162",
+      "1X": "1.196",
       "12": "1.26",
-      "2X": "1.95"
+      "2X": "2.127"
     },
     "BTTS": {
-      "Oui": "1.81",
-      "Non": "1.895"
+      "Oui": "1.66",
+      "Non": "2.09"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.82",
-        "Plus de": "1.909"
-      },
-      "1.5": {
-        "Plus de": "1.25",
-        "Moins de": "3.28"
-      },
-      "2": {
-        "Plus de": "1.41",
-        "Moins de": "2.54"
-      },
-      "3": {
-        "Plus de": "2.54",
-        "Moins de": "1.41"
-      },
-      "3.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.285",
-      "1 (-1.5)": "3.05",
-      "1 (0)": "1.27",
-      "2 (0)": "3.14",
-      "1 (-1)": "2.41",
-      "2 (+1)": "1.51",
-      "1 (-2)": "5.45",
-      "2 (+2)": "1.084",
-      "1 (-2.5)": "6.4",
-      "2 (+2.5)": "1.054"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Pazarspor",
-    "equipe_2": "Erbaaspor",
-    "1X2": {
-      "V2": "2.07",
-      "V1": "3.1",
-      "X": "3.65"
-    },
-    "Total_2.5": {
-      "Plus de": "1.69",
-      "Moins de": "2.08"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Pazarspor",
-    "equipe_2_en": "Erbaaspor",
-    "Double_Chance": {
-      "12": "1.24",
-      "2X": "1.32",
-      "1X": "1.68"
-    },
-    "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.234"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.69",
-        "Moins de": "2.08"
+        "Plus de": "1.736",
+        "Moins de": "2.147"
       },
       "1.5": {
         "Plus de": "1.168",
@@ -2039,324 +367,10 @@
       },
       "2": {
         "Plus de": "1.28",
-        "Moins de": "3.1"
+        "Moins de": "3.14"
       },
       "3": {
-        "Plus de": "2.13",
-        "Moins de": "1.58"
-      },
-      "3.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.55",
-      "1 (0)": "2.31",
-      "1 (-1)": "5.55",
-      "2 (-1)": "2.97",
-      "1 (+1)": "1.3",
-      "2 (+1)": "1.08",
-      "1 (-1.5)": "6.55",
-      "2 (-1.5)": "3.82",
-      "1 (+1.5)": "1.185",
-      "2 (+1.5)": "1.049"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Somaspor",
-    "equipe_2": "Alanya 1221",
-    "1X2": {
-      "V1": "1.232",
-      "X": "5",
-      "V2": "10.1"
-    },
-    "Total_2.5": {
-      "Plus de": "1.7",
-      "Moins de": "2.02"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Somaspor",
-    "equipe_2_en": "Alanya 1221",
-    "Double_Chance": {
-      "1X": "1.028",
-      "12": "1.125",
-      "2X": "3.75"
-    },
-    "BTTS": {
-      "Non": "1.667",
-      "Oui": "2.15"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.7",
-        "Moins de": "2.02"
-      },
-      "1.5": {
-        "Plus de": "1.2",
-        "Moins de": "4"
-      },
-      "2": {
-        "Plus de": "1.3",
-        "Moins de": "3.15"
-      },
-      "3": {
-        "Plus de": "2.15",
-        "Moins de": "1.62"
-      },
-      "3.5": {
-        "Plus de": "2.65",
-        "Moins de": "1.42"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.75",
-      "2 (+1.5)": "1.96",
-      "1 (0)": "1.03",
-      "2 (0)": "8.2",
-      "1 (-1)": "1.33",
-      "2 (+1)": "3",
-      "1 (-2)": "2.34",
-      "2 (+2)": "1.53",
-      "1 (-2.5)": "3",
-      "2 (+2.5)": "1.32"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Tokat Belediyespor",
-    "equipe_2": "Etimesgutspor",
-    "1X2": {
-      "V2": "2.19",
-      "V1": "2.74",
-      "X": "3.46"
-    },
-    "Total_2.5": {
-      "Plus de": "1.78",
-      "Moins de": "1.88"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Tokat Belediyespor",
-    "equipe_2_en": "Etimesgutspor",
-    "Double_Chance": {
-      "12": "1.2",
-      "2X": "1.34",
-      "1X": "1.51"
-    },
-    "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.05"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.78",
-        "Moins de": "1.88"
-      },
-      "1.5": {
-        "Plus de": "1.21",
-        "Moins de": "3.75"
-      },
-      "2": {
-        "Plus de": "1.35",
-        "Moins de": "2.85"
-      },
-      "3": {
-        "Plus de": "2.45",
-        "Moins de": "1.46"
-      },
-      "3.5": {
-        "Plus de": "3.15",
-        "Moins de": "1.29"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.66",
-      "1 (0)": "2.04",
-      "2 (-1)": "3.67",
-      "1 (+1)": "1.22"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Zonguldak Komurspor",
-    "equipe_2": "Düzcespor",
-    "1X2": {
-      "V1": "2.1",
-      "X": "3.15",
-      "V2": "3.505"
-    },
-    "Total_2.5": {
-      "Plus de": "2.08",
-      "Moins de": "1.69"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Zonguldak Komurspor",
-    "equipe_2_en": "Duzcespor",
-    "Double_Chance": {
-      "1X": "1.26",
-      "12": "1.31",
-      "2X": "1.66"
-    },
-    "BTTS": {
-      "Oui": "1.83",
-      "Non": "1.874"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.69",
-        "Plus de": "2.08"
-      },
-      "1.5": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "2": {
-        "Plus de": "1.52",
-        "Moins de": "2.24"
-      },
-      "3": {
-        "Plus de": "2.89",
-        "Moins de": "1.32"
-      },
-      "3.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.49",
-      "2 (0)": "2.46",
-      "1 (-1)": "3.08",
-      "2 (-1)": "6.65",
-      "1 (+1)": "1.047",
-      "2 (+1)": "1.28",
-      "1 (-1.5)": "3.92",
-      "2 (-1.5)": "7.7",
-      "1 (+1.5)": "1.026",
-      "2 (+1.5)": "1.176"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Hakkari Zap",
-    "equipe_2": "Adana Demirspor",
-    "1X2": {
-      "V2": "1.38",
-      "X": "4.43",
-      "V1": "6.22"
-    },
-    "Total_2.5": {
-      "Plus de": "1.6",
-      "Moins de": "2.14"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Hakkari Zap",
-    "equipe_2_en": "Adana Demirspor",
-    "Double_Chance": {
-      "2X": "1.05",
-      "12": "1.11",
-      "1X": "2.53"
-    },
-    "BTTS": {
-      "Oui": "1.76",
-      "Non": "1.9"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.6",
-        "Moins de": "2.14"
-      },
-      "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.49"
-      },
-      "3": {
-        "Plus de": "2.05",
-        "Moins de": "1.65"
-      },
-      "3.5": {
-        "Plus de": "2.65",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.54",
-      "2 (-1.5)": "2.25",
-      "2 (-1)": "1.71",
-      "1 (+1)": "1.97"
-    }
-  },
-  {
-    "bookmaker": "winwin",
-    "equipe_1": "Osmaniyespor",
-    "equipe_2": "Mersin İdmanyurdu",
-    "1X2": {
-      "V1": "1.747",
-      "X": "3.72",
-      "V2": "4.2"
-    },
-    "Total_2.5": {
-      "Plus de": "1.69",
-      "Moins de": "2.08"
-    },
-    "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T11:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Osmaniyespor",
-    "equipe_2_en": "Mersin İdmanyurdu",
-    "Double_Chance": {
-      "1X": "1.18",
-      "12": "1.23",
-      "2X": "1.98"
-    },
-    "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.13"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.69",
-        "Moins de": "2.08"
-      },
-      "1.5": {
-        "Plus de": "1.175",
-        "Moins de": "3.92"
-      },
-      "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.1"
-      },
-      "3": {
-        "Plus de": "2.09",
+        "Plus de": "2.11",
         "Moins de": "1.6"
       },
       "3.5": {
@@ -2365,328 +379,1042 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.32",
-      "1 (-1.5)": "2.875",
-      "1 (0)": "1.32",
-      "2 (0)": "3.125",
-      "1 (-1)": "2.24",
-      "2 (+1)": "1.52",
-      "1 (-2)": "4.85",
-      "2 (+2)": "1.112",
-      "1 (-2.5)": "5.65",
-      "2 (+2.5)": "1.078"
+      "2 (+1.5)": "1.385",
+      "1 (-1.5)": "3.125",
+      "1 (0)": "1.24",
+      "2 (0)": "3.34",
+      "1 (-1)": "2.19",
+      "2 (+1)": "1.62",
+      "1 (-2)": "4.65",
+      "2 (+2)": "1.123",
+      "1 (-2.5)": "5.45",
+      "2 (+2.5)": "1.084"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Bigaspor",
-    "equipe_2": "Balıkesirspor",
+    "equipe_1": "Sport Club Internacional",
+    "equipe_2": "Corinthians Paulista",
     "1X2": {
-      "V2": "2.21",
-      "V1": "2.801",
-      "X": "3.7"
+      "V1": "2.344",
+      "X": "3.18",
+      "V2": "3.325"
     },
     "Total_2.5": {
-      "Plus de": "1.43",
-      "Moins de": "2.46"
+      "Plus de": "2.28",
+      "Moins de": "1.658"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Bigaspor",
-    "equipe_2_en": "Balikesirspor",
+    "debut": "2026-10-07T22:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Sport Club Internacional",
+    "equipe_2_en": "Corinthians Paulista",
     "Double_Chance": {
-      "12": "1.23",
-      "2X": "1.38",
-      "1X": "1.59"
+      "1X": "1.34",
+      "12": "1.365",
+      "2X": "1.611"
     },
     "BTTS": {
-      "Oui": "1.41",
-      "Non": "2.69"
+      "Non": "1.823",
+      "Oui": "1.88"
     },
     "Totals": {
-      "3.5": {
-        "Moins de": "1.615",
-        "Plus de": "2.2"
-      },
       "2.5": {
-        "Plus de": "1.43",
-        "Moins de": "2.46"
+        "Moins de": "1.658",
+        "Plus de": "2.28"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "2": {
+        "Plus de": "1.615",
+        "Moins de": "2.08"
       },
       "3": {
+        "Plus de": "3.2",
+        "Moins de": "1.27"
+      },
+      "3.5": {
+        "Plus de": "3.88",
+        "Moins de": "1.179"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.638",
+      "2 (0)": "2.318",
+      "1 (-1)": "3.5",
+      "2 (-1)": "6.05",
+      "1 (+1)": "1.064",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.45",
+      "2 (-1.5)": "7.1",
+      "1 (+1.5)": "1.037",
+      "2 (+1.5)": "1.137"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "à domicile",
+    "equipe_2": "à l'extérieur",
+    "1X2": {
+      "V1": "1.344",
+      "V2": "4.545",
+      "X": "10.9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T22:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
+    "Double_Chance": {
+      "12": "1.06",
+      "1X": "1.15",
+      "2X": "3.1"
+    },
+    "Totals": {
+      "16.5": {
+        "Moins de": "1.814",
+        "Plus de": "1.995"
+      },
+      "14.5": {
+        "Plus de": "1.465",
+        "Moins de": "2.703"
+      },
+      "15.5": {
+        "Plus de": "1.695",
+        "Moins de": "2.161"
+      },
+      "17.5": {
+        "Plus de": "2.423",
+        "Moins de": "1.563"
+      },
+      "18.5": {
+        "Plus de": "3.06",
+        "Moins de": "1.377"
+      }
+    },
+    "Handicap": {
+      "1 (-2.5)": "1.757",
+      "2 (+2.5)": "2.068",
+      "1 (-1.5)": "1.514",
+      "2 (+1.5)": "2.549",
+      "1 (-2)": "1.603",
+      "2 (+2)": "2.331",
+      "1 (-3)": "1.907",
+      "2 (+3)": "1.893",
+      "1 (-3.5)": "2.083",
+      "2 (+3.5)": "1.747"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "EC Vitoria Salvador",
+    "equipe_2": "Chapecoense",
+    "1X2": {
+      "V1": "1.57",
+      "X": "4.18",
+      "V2": "6.04"
+    },
+    "Total_2.5": {
+      "Plus de": "1.84",
+      "Moins de": "2.007"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T23:00:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "EC Vitoria Salvador",
+    "equipe_2_en": "Chapecoense",
+    "Double_Chance": {
+      "1X": "1.134",
+      "12": "1.237",
+      "2X": "2.439"
+    },
+    "BTTS": {
+      "Oui": "1.85",
+      "Non": "1.854"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.84",
+        "Moins de": "2.007"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
+      },
+      "2": {
+        "Plus de": "1.35",
+        "Moins de": "2.78"
+      },
+      "3": {
+        "Plus de": "2.29",
+        "Moins de": "1.51"
+      },
+      "3.5": {
+        "Plus de": "2.83",
+        "Moins de": "1.33"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.546",
+      "1 (-1.5)": "2.531",
+      "1 (0)": "1.144",
+      "2 (0)": "4.33",
+      "1 (-1)": "1.87",
+      "2 (+1)": "1.86",
+      "1 (-2)": "3.74",
+      "2 (+2)": "1.193",
+      "1 (-2.5)": "4.5",
+      "2 (+2.5)": "1.133"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Botafogo de Futebol e Regatas",
+    "equipe_2": "Club de Regatas Vasco da Gama",
+    "1X2": {
+      "V2": "2.269",
+      "V1": "3.135",
+      "X": "3.545"
+    },
+    "Total_2.5": {
+      "Plus de": "1.745",
+      "Moins de": "2.134"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T23:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Botafogo de Futebol e Regatas",
+    "equipe_2_en": "CR Vasco da Gama",
+    "Double_Chance": {
+      "12": "1.307",
+      "2X": "1.373",
+      "1X": "1.649"
+    },
+    "BTTS": {
+      "Oui": "1.56",
+      "Non": "2.276"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.745",
+        "Moins de": "2.134"
+      },
+      "1.5": {
+        "Plus de": "1.168",
+        "Moins de": "4"
+      },
+      "2": {
+        "Plus de": "1.28",
+        "Moins de": "3.14"
+      },
+      "3": {
+        "Plus de": "2.09",
+        "Moins de": "1.61"
+      },
+      "3.5": {
+        "Plus de": "2.625",
+        "Moins de": "1.38"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.659",
+      "1 (0)": "2.278",
+      "1 (-1)": "5.25",
+      "2 (-1)": "3.2",
+      "1 (+1)": "1.26",
+      "2 (+1)": "1.093",
+      "1 (-1.5)": "6.25",
+      "2 (-1.5)": "4.05",
+      "1 (+1.5)": "1.164",
+      "2 (+1.5)": "1.058"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Al Aluminium",
+    "equipe_2": "Al Madina Al Monawara",
+    "1X2": {
+      "V1": "1.5",
+      "X": "3.5",
+      "V2": "6.39"
+    },
+    "Total_2.5": {
+      "Plus de": "2.29",
+      "Moins de": "1.53"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Al Aluminium",
+    "equipe_2_en": "Al Madina Al Monawara",
+    "Double_Chance": {
+      "1X": "1.046",
+      "12": "1.197",
+      "2X": "2.23"
+    },
+    "BTTS": {
+      "Non": "1.522",
+      "Oui": "2.45"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.53",
+        "Plus de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.45",
+        "Moins de": "2.55"
+      },
+      "2": {
+        "Plus de": "1.78",
+        "Moins de": "1.93"
+      },
+      "3": {
+        "Plus de": "3.5",
+        "Moins de": "1.24"
+      },
+      "3.5": {
+        "Plus de": "4.3",
+        "Moins de": "1.17"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.45",
+      "1 (-1.5)": "2.55",
+      "1 (0)": "1.13",
+      "2 (0)": "5",
+      "1 (-1)": "1.94",
+      "2 (+1)": "1.73",
+      "1 (-2)": "4.3",
+      "2 (+2)": "1.17",
+      "1 (-2.5)": "5.2",
+      "2 (+2.5)": "1.11"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Alexandria Petroleum",
+    "equipe_2": "Badr",
+    "1X2": {
+      "V1": "1.6",
+      "X": "3.24",
+      "V2": "5.71"
+    },
+    "Total_2.5": {
+      "Plus de": "2.36",
+      "Moins de": "1.5"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Alexandria Petroleum",
+    "equipe_2_en": "Badr",
+    "Double_Chance": {
+      "1X": "1.063",
+      "12": "1.24",
+      "2X": "2.05"
+    },
+    "BTTS": {
+      "Non": "1.551",
+      "Oui": "2.24"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.5",
+        "Plus de": "2.36"
+      },
+      "1.5": {
+        "Plus de": "1.41",
+        "Moins de": "2.52"
+      },
+      "2": {
+        "Plus de": "1.74",
+        "Moins de": "1.89"
+      },
+      "3": {
+        "Plus de": "3.72",
+        "Moins de": "1.196"
+      },
+      "3.5": {
+        "Plus de": "4.55",
+        "Moins de": "1.13"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.31",
+      "1 (-1.5)": "2.92",
+      "1 (0)": "1.166",
+      "2 (0)": "4.05",
+      "1 (-1)": "2.19",
+      "2 (+1)": "1.57",
+      "1 (-2)": "5.4",
+      "2 (+2)": "1.086",
+      "1 (-2.5)": "6.4",
+      "2 (+2.5)": "1.054"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Banha",
+    "equipe_2": "Gezira",
+    "1X2": {
+      "V1": "1.65",
+      "X": "3.24",
+      "V2": "5.15"
+    },
+    "Total_2.5": {
+      "Plus de": "2.29",
+      "Moins de": "1.53"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Banha",
+    "equipe_2_en": "Gezira",
+    "Double_Chance": {
+      "1X": "1.086",
+      "12": "1.24",
+      "2X": "1.97"
+    },
+    "BTTS": {
+      "Non": "1.593",
+      "Oui": "2.16"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.53",
+        "Plus de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.56"
+      },
+      "2": {
         "Plus de": "1.7",
         "Moins de": "1.94"
       },
-      "4": {
-        "Plus de": "2.99",
-        "Moins de": "1.3"
+      "3": {
+        "Plus de": "3.5",
+        "Moins de": "1.22"
       },
-      "4.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
+      "3.5": {
+        "Plus de": "4.3",
+        "Moins de": "1.147"
       }
     },
     "Handicap": {
-      "2 (0)": "1.66",
-      "1 (0)": "2.1",
-      "1 (-1)": "4.55",
-      "2 (-1)": "3.14",
-      "1 (+1)": "1.27",
-      "2 (+1)": "1.129",
-      "1 (-1.5)": "5.4",
-      "2 (-1.5)": "3.92",
-      "1 (+1.5)": "1.175",
-      "2 (+1.5)": "1.086"
+      "2 (+1.5)": "1.3",
+      "1 (-1.5)": "2.97",
+      "1 (0)": "1.21",
+      "2 (0)": "3.58",
+      "1 (-1)": "2.27",
+      "2 (+1)": "1.53",
+      "1 (-2)": "5.5",
+      "2 (+2)": "1.083",
+      "1 (-2.5)": "6.4",
+      "2 (+2.5)": "1.054"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Bursa Yildirimspor",
-    "equipe_2": "Amasyaspor",
+    "equipe_1": "Cascada",
+    "equipe_2": "Misr Insurance",
     "1X2": {
-      "V1": "1.58",
-      "X": "3.58",
-      "V2": "6"
+      "V2": "2.48",
+      "V1": "2.61",
+      "X": "2.98"
     },
     "Total_2.5": {
-      "Plus de": "2.09",
-      "Moins de": "1.68"
+      "Plus de": "2.29",
+      "Moins de": "1.53"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Bursa Yildirimspor",
-    "equipe_2_en": "Amasyaspor",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Cascada",
+    "equipe_2_en": "Misr Insurance",
     "Double_Chance": {
-      "1X": "1.087",
-      "12": "1.25",
-      "2X": "2.25"
+      "12": "1.28",
+      "2X": "1.36",
+      "1X": "1.4"
     },
     "BTTS": {
-      "Non": "1.658",
-      "Oui": "2.1"
+      "Non": "1.754",
+      "Oui": "1.92"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.68",
-        "Plus de": "2.09"
+        "Moins de": "1.53",
+        "Plus de": "2.29"
       },
       "1.5": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
+        "Plus de": "1.39",
+        "Moins de": "2.59"
       },
       "2": {
-        "Plus de": "1.54",
+        "Plus de": "1.69",
+        "Moins de": "1.95"
+      },
+      "3": {
+        "Plus de": "3.5",
+        "Moins de": "1.22"
+      },
+      "3.5": {
+        "Plus de": "4.3",
+        "Moins de": "1.147"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.79",
+      "1 (0)": "1.87",
+      "1 (-1)": "4.8",
+      "2 (-1)": "4.45",
+      "1 (+1)": "1.135",
+      "2 (+1)": "1.114",
+      "1 (-1.5)": "5.85",
+      "2 (-1.5)": "5.5",
+      "1 (+1.5)": "1.083",
+      "2 (+1.5)": "1.07"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "El Olympi",
+    "equipe_2": "Koom Hamada",
+    "1X2": {
+      "V1": "1.87",
+      "X": "2.84",
+      "V2": "4.495"
+    },
+    "Total_2.5": {
+      "Plus de": "2.83",
+      "Moins de": "1.33"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "El Olympi",
+    "equipe_2_en": "Koom Hamada",
+    "Double_Chance": {
+      "1X": "1.122",
+      "12": "1.3",
+      "2X": "1.727"
+    },
+    "BTTS": {
+      "Non": "1.469",
+      "Oui": "2.44"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.61",
+        "Moins de": "2.13"
+      },
+      "0.5": {
+        "Plus de": "1.098",
+        "Moins de": "5.15"
+      },
+      "1": {
+        "Plus de": "1.173",
+        "Moins de": "3.95"
+      },
+      "2": {
+        "Plus de": "2.14",
+        "Moins de": "1.57"
+      },
+      "2.5": {
+        "Plus de": "2.83",
+        "Moins de": "1.33"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.29",
+      "2 (0)": "3.04",
+      "1 (-1)": "2.83",
+      "2 (+1)": "1.35",
+      "1 (-1.5)": "3.72",
+      "2 (+1.5)": "1.195"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Golden Gate",
+    "equipe_2": "Egypt Stars",
+    "1X2": {
+      "V1": "1.84",
+      "X": "3.05",
+      "V2": "4.22"
+    },
+    "Total_2.5": {
+      "Plus de": "2.44",
+      "Moins de": "1.47"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Golden Gate",
+    "equipe_2_en": "Egypt Stars",
+    "Double_Chance": {
+      "1X": "1.14",
+      "12": "1.26",
+      "2X": "1.75"
+    },
+    "BTTS": {
+      "Non": "1.613",
+      "Oui": "2.13"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.47",
+        "Plus de": "2.44"
+      },
+      "1.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "2": {
+        "Plus de": "1.79",
+        "Moins de": "1.83"
+      },
+      "3": {
+        "Plus de": "3.92",
+        "Moins de": "1.176"
+      },
+      "3.5": {
+        "Plus de": "4.75",
+        "Moins de": "1.117"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.32",
+      "2 (0)": "2.97",
+      "1 (-1)": "2.74",
+      "2 (+1)": "1.35",
+      "1 (-1.5)": "3.7",
+      "2 (+1.5)": "1.198"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ittihad El-Shorta",
+    "equipe_2": "Orange Sport FSI",
+    "1X2": {
+      "V1": "1.63",
+      "X": "3.32",
+      "V2": "5.14"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.61"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Ittihad El-Shorta",
+    "equipe_2_en": "Orange Sport FSI",
+    "Double_Chance": {
+      "1X": "1.086",
+      "12": "1.22",
+      "2X": "2"
+    },
+    "BTTS": {
+      "Non": "1.674",
+      "Oui": "2.03"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.61",
+        "Plus de": "2.13"
+      },
+      "1.5": {
+        "Plus de": "1.33",
+        "Moins de": "2.83"
+      },
+      "2": {
+        "Plus de": "1.58",
+        "Moins de": "2.12"
+      },
+      "3": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      },
+      "3.5": {
+        "Plus de": "3.9",
+        "Moins de": "1.178"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.31",
+      "1 (-1.5)": "2.92",
+      "1 (0)": "1.198",
+      "2 (0)": "3.7",
+      "1 (-1)": "2.23",
+      "2 (+1)": "1.55",
+      "1 (-2)": "5.35",
+      "2 (+2)": "1.089",
+      "1 (-2.5)": "6.25",
+      "2 (+2.5)": "1.057"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Ra Sporting",
+    "equipe_2": "G Cairo",
+    "1X2": {
+      "V1": "1.42",
+      "X": "3.54",
+      "V2": "8.2"
+    },
+    "Total_2.5": {
+      "Plus de": "2.13",
+      "Moins de": "1.61"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Ra Sporting",
+    "equipe_2_en": "G Cairo",
+    "Double_Chance": {
+      "1X": "1.009",
+      "12": "1.192",
+      "2X": "2.43"
+    },
+    "BTTS": {
+      "Non": "1.51",
+      "Oui": "2.34"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.61",
+        "Plus de": "2.13"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "2": {
+        "Plus de": "1.6",
+        "Moins de": "2.08"
+      },
+      "3": {
+        "Plus de": "3.05",
+        "Moins de": "1.285"
+      },
+      "3.5": {
+        "Plus de": "3.76",
+        "Moins de": "1.191"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.5",
+      "1 (-1.5)": "2.28",
+      "1 (0)": "1.074",
+      "2 (0)": "5.75",
+      "1 (-1)": "1.75",
+      "2 (+1)": "1.909",
+      "1 (-2)": "3.58",
+      "2 (+2)": "1.21",
+      "1 (-2.5)": "4.35",
+      "2 (+2.5)": "1.142"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Rabat-Lights",
+    "equipe_2": "Dekernes",
+    "1X2": {
+      "V2": "2.6",
+      "V1": "2.65",
+      "X": "3"
+    },
+    "Total_2.5": {
+      "Plus de": "2.12",
+      "Moins de": "1.64"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Rabat-Lights",
+    "equipe_2_en": "Dekernes",
+    "Double_Chance": {
+      "12": "1.34",
+      "2X": "1.42",
+      "1X": "1.44"
+    },
+    "BTTS": {
+      "Oui": "1.85",
+      "Non": "1.907"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.64",
+        "Plus de": "2.12"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.8"
+      },
+      "2": {
+        "Plus de": "1.6",
         "Moins de": "2.2"
       },
       "3": {
-        "Plus de": "2.94",
-        "Moins de": "1.31"
+        "Plus de": "3",
+        "Moins de": "1.33"
       },
       "3.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
+        "Plus de": "3.7",
+        "Moins de": "1.23"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.39",
-      "1 (-1.5)": "2.59",
-      "1 (0)": "1.147",
-      "2 (0)": "4.3",
-      "1 (-1)": "2.01",
-      "2 (+1)": "1.727",
-      "1 (-2)": "4.33",
-      "2 (+2)": "1.144",
-      "1 (-2.5)": "5.15",
-      "2 (+2.5)": "1.098"
+      "2 (0)": "1.84",
+      "1 (0)": "1.86",
+      "1 (-1)": "4.3",
+      "2 (-1)": "4.3",
+      "1 (+1)": "1.17",
+      "2 (+1)": "1.16",
+      "1 (-1.5)": "5.3",
+      "2 (-1.5)": "5.2",
+      "1 (+1.5)": "1.11",
+      "2 (+1.5)": "1.11"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Eskisehir Anadolu SF",
-    "equipe_2": "Kepez",
+    "equipe_1": "Samanoud",
+    "equipe_2": "Sherbeen",
     "1X2": {
-      "V1": "1.63",
-      "X": "3.75",
-      "V2": "5.02"
+      "V1": "2.7",
+      "V2": "2.7",
+      "X": "2.8"
     },
     "Total_2.5": {
-      "Plus de": "1.86",
-      "Moins de": "1.87"
+      "Plus de": "2.45",
+      "Moins de": "1.48"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Eskisehir Anadolu SF",
-    "equipe_2_en": "Kepez",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Samanoud",
+    "equipe_2_en": "Sherbeen",
     "Double_Chance": {
-      "1X": "1.127",
-      "12": "1.222",
-      "2X": "2.16"
+      "12": "1.38",
+      "1X": "1.41",
+      "2X": "1.41"
     },
     "BTTS": {
-      "Oui": "1.84",
-      "Non": "1.864"
+      "Non": "1.698",
+      "Oui": "2.1"
     },
     "Totals": {
-      "2.5": {
-        "Plus de": "1.86",
-        "Moins de": "1.87"
-      },
       "1.5": {
-        "Plus de": "1.25",
-        "Moins de": "3.28"
+        "Plus de": "1.5",
+        "Moins de": "2.4"
+      },
+      "0.5": {
+        "Plus de": "1.09",
+        "Moins de": "5.6"
+      },
+      "1": {
+        "Plus de": "1.15",
+        "Moins de": "4.5"
       },
       "2": {
-        "Plus de": "1.39",
-        "Moins de": "2.6"
+        "Plus de": "1.85",
+        "Moins de": "1.85"
       },
-      "3": {
-        "Plus de": "2.43",
-        "Moins de": "1.444"
-      },
-      "3.5": {
-        "Plus de": "3.04",
-        "Moins de": "1.29"
+      "2.5": {
+        "Plus de": "2.45",
+        "Moins de": "1.48"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.38",
-      "1 (-1.5)": "2.625",
-      "1 (0)": "1.21",
-      "2 (0)": "3.58",
-      "1 (-1)": "2.07",
-      "2 (+1)": "1.68",
-      "1 (-2)": "4.33",
-      "2 (+2)": "1.143",
-      "1 (-2.5)": "5.1",
-      "2 (+2.5)": "1.101"
+      "1 (0)": "1.85",
+      "2 (0)": "1.85",
+      "1 (-1)": "4.6",
+      "2 (-1)": "4.6",
+      "1 (+1)": "1.15",
+      "2 (+1)": "1.15",
+      "1 (-1.5)": "5.6",
+      "2 (-1.5)": "5.6",
+      "1 (+1.5)": "1.1",
+      "2 (+1.5)": "1.1"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Karacabey Belediyespor",
-    "equipe_2": "Galata",
+    "equipe_1": "Luxor",
+    "equipe_2": "Tahta Sporting Club",
     "1X2": {
-      "V1": "1.58",
-      "X": "4.05",
-      "V2": "5.01"
+      "V1": "2.51",
+      "V2": "2.65",
+      "X": "2.89"
     },
     "Total_2.5": {
-      "Plus de": "1.71",
-      "Moins de": "2.05"
+      "Plus de": "2.15",
+      "Moins de": "1.56"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Karacabey Belediyespor",
-    "equipe_2_en": "Galata",
+    "debut": "2026-10-07T12:30:00+00:00",
+    "competition": "Championnat d'Egypte. Deuxième Ligue B",
+    "competition_en": "Egypt. Second Division B",
+    "competition_id": 2614189,
+    "equipe_1_en": "Luxor",
+    "equipe_2_en": "Tahta Sporting Club",
     "Double_Chance": {
-      "1X": "1.127",
-      "12": "1.193",
-      "2X": "2.25"
+      "12": "1.29",
+      "1X": "1.35",
+      "2X": "1.39"
     },
     "BTTS": {
-      "Oui": "1.74",
-      "Non": "1.977"
+      "Non": "1.819",
+      "Oui": "1.85"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.71",
-        "Moins de": "2.05"
+        "Moins de": "1.56",
+        "Plus de": "2.15"
       },
       "1.5": {
-        "Plus de": "1.189",
-        "Moins de": "3.78"
+        "Plus de": "1.363",
+        "Moins de": "2.8"
       },
       "2": {
-        "Plus de": "1.3",
-        "Moins de": "2.99"
+        "Plus de": "1.615",
+        "Moins de": "2.06"
       },
       "3": {
-        "Plus de": "2.13",
-        "Moins de": "1.58"
+        "Plus de": "3.2",
+        "Moins de": "1.26"
       },
       "3.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
+        "Plus de": "4",
+        "Moins de": "1.168"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.43",
-      "1 (-1.5)": "2.46",
-      "1 (0)": "1.194",
-      "2 (0)": "3.74",
-      "1 (-1)": "1.96",
-      "2 (+1)": "1.76",
-      "1 (-2)": "3.9",
-      "2 (+2)": "1.177",
-      "1 (-2.5)": "4.65",
-      "2 (+2.5)": "1.125"
+      "1 (0)": "1.78",
+      "2 (0)": "1.88",
+      "1 (-1)": "4.55",
+      "2 (-1)": "4.95",
+      "1 (+1)": "1.108",
+      "2 (+1)": "1.13",
+      "1 (-1.5)": "5.55",
+      "2 (-1.5)": "6",
+      "1 (+1.5)": "1.065",
+      "2 (+1.5)": "1.08"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Kucukcekmece Sinopspor",
-    "equipe_2": "Buyukcekmecegucu",
+    "equipe_1": "Defensores de BelgranoII",
+    "equipe_2": "Acassuso II",
     "1X2": {
-      "V1": "1.57",
-      "X": "3.72",
-      "V2": "5.75"
+      "V1": "1.96",
+      "X": "3.18",
+      "V2": "3.515"
     },
     "Total_2.5": {
-      "Plus de": "2.06",
-      "Moins de": "1.7"
+      "Plus de": "2.01",
+      "Moins de": "1.69"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Kucukcekmece Sinopspor",
-    "equipe_2_en": "Buyukcekmecegucu",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Argentine. Primera B Nacional. Ligue de réserve",
+    "competition_en": "Argentina. Primera B Nacional. Reserve League",
+    "competition_id": 2993401,
+    "equipe_1_en": "Defensores de Belgrano II",
+    "equipe_2_en": "Acassuso II",
     "Double_Chance": {
-      "1X": "1.095",
-      "12": "1.23",
-      "2X": "2.28"
+      "1X": "1.21",
+      "12": "1.24",
+      "2X": "1.65"
     },
     "BTTS": {
-      "Non": "1.669",
-      "Oui": "2.08"
+      "Oui": "1.81",
+      "Non": "1.86"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.7",
-        "Plus de": "2.06"
+        "Moins de": "1.69",
+        "Plus de": "2.01"
       },
       "1.5": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
+        "Plus de": "1.29",
+        "Moins de": "3.04"
       },
       "2": {
-        "Plus de": "1.53",
-        "Moins de": "2.22"
+        "Plus de": "1.5",
+        "Moins de": "2.28"
       },
       "3": {
-        "Plus de": "2.84",
+        "Plus de": "2.83",
         "Moins de": "1.33"
       },
       "3.5": {
@@ -2695,131 +1423,131 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.4",
-      "1 (-1.5)": "2.56",
-      "1 (0)": "1.159",
-      "2 (0)": "4.15",
-      "1 (-1)": "1.99",
-      "2 (+1)": "1.74",
-      "1 (-2)": "4.25",
-      "2 (+2)": "1.15",
-      "1 (-2.5)": "5",
-      "2 (+2.5)": "1.104"
+      "1 (0)": "1.43",
+      "2 (0)": "2.53",
+      "1 (-1)": "2.97",
+      "2 (-1)": "7.2",
+      "1 (+1)": "1.034",
+      "2 (+1)": "1.3",
+      "1 (-1.5)": "3.84",
+      "2 (-1.5)": "8.4",
+      "1 (+1.5)": "1.014",
+      "2 (+1.5)": "1.184"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Silivrispor",
-    "equipe_2": "Kartal Bulvarspor",
+    "equipe_1": "Sportivo Barracas II",
+    "equipe_2": "Club Atletico Argentino Rosario II",
     "1X2": {
-      "V1": "2.39",
-      "V2": "2.67",
-      "X": "3.42"
+      "V1": "1.49",
+      "X": "4.15",
+      "V2": "5.06"
     },
     "Total_2.5": {
-      "Plus de": "1.98",
-      "Moins de": "1.76"
+      "Plus de": "1.38",
+      "Moins de": "2.625"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Silivrispor",
-    "equipe_2_en": "Kartal Bulvarspor",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Championnat d'Argentine. Primera C. Métropolitaina. Ligue Réserve",
+    "competition_en": "Argentina. Primera C Metropolitana. Reserve League",
+    "competition_id": 2275649,
+    "equipe_1_en": "Sportivo Barracas II",
+    "equipe_2_en": "Club Atletico Argentino Rosario II",
     "Double_Chance": {
-      "12": "1.27",
-      "1X": "1.41",
-      "2X": "1.5"
+      "1X": "1.093",
+      "12": "1.136",
+      "2X": "2.25"
     },
     "BTTS": {
-      "Oui": "1.76",
-      "Non": "1.956"
+      "Oui": "1.51",
+      "Non": "2.338"
     },
     "Totals": {
+      "3.5": {
+        "Moins de": "1.74",
+        "Plus de": "1.94"
+      },
       "2.5": {
-        "Moins de": "1.76",
-        "Plus de": "1.98"
-      },
-      "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "2": {
-        "Plus de": "1.47",
-        "Moins de": "2.36"
+        "Plus de": "1.38",
+        "Moins de": "2.625"
       },
       "3": {
-        "Plus de": "2.76",
-        "Moins de": "1.35"
+        "Plus de": "1.56",
+        "Moins de": "2.15"
       },
-      "3.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
+      "4": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      },
+      "4.5": {
+        "Plus de": "3.04",
+        "Moins de": "1.29"
       }
     },
     "Handicap": {
-      "1 (0)": "1.849",
-      "2 (0)": "1.86",
-      "1 (-1)": "3.9",
-      "2 (-1)": "4.65",
-      "1 (+1)": "1.124",
-      "2 (+1)": "1.177",
-      "1 (-1.5)": "4.85",
-      "2 (-1.5)": "5.65",
-      "1 (+1.5)": "1.078",
-      "2 (+1.5)": "1.112"
+      "2 (+1.5)": "1.57",
+      "1 (-1.5)": "2.14",
+      "1 (0)": "1.188",
+      "2 (0)": "3.8",
+      "1 (-1)": "1.76",
+      "2 (+1)": "1.9",
+      "1 (-2)": "2.92",
+      "2 (+2)": "1.31",
+      "1 (-2.5)": "3.42",
+      "2 (+2.5)": "1.23"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Soke 1970",
-    "equipe_2": "Ayvalıkgucu Belediyespor",
+    "equipe_1": "A.S.D. Flaminia Civita Castellana",
+    "equipe_2": "Siena",
     "1X2": {
-      "V2": "1.87",
-      "V1": "3.41",
-      "X": "3.98"
+      "V2": "1.86",
+      "V1": "3.36",
+      "X": "3.65"
     },
     "Total_2.5": {
       "Plus de": "1.69",
-      "Moins de": "2.08"
+      "Moins de": "2.01"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T11:30:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Soke 1970",
-    "equipe_2_en": "Ayvalıkgucu Belediyespor",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "A.S.D. Flaminia Civita Castellana",
+    "equipe_2_en": "Siena",
     "Double_Chance": {
-      "12": "1.2",
-      "2X": "1.27",
-      "1X": "1.84"
+      "12": "1.18",
+      "2X": "1.23",
+      "1X": "1.73"
     },
     "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.142"
+      "Oui": "1.61",
+      "Non": "2.13"
     },
     "Totals": {
       "2.5": {
         "Plus de": "1.69",
-        "Moins de": "2.08"
+        "Moins de": "2.01"
       },
       "1.5": {
-        "Plus de": "1.183",
-        "Moins de": "3.84"
+        "Plus de": "1.191",
+        "Moins de": "3.76"
       },
       "2": {
-        "Plus de": "1.285",
-        "Moins de": "3.08"
+        "Plus de": "1.3",
+        "Moins de": "2.97"
       },
       "3": {
-        "Plus de": "2.13",
-        "Moins de": "1.58"
+        "Plus de": "2.15",
+        "Moins de": "1.56"
       },
       "3.5": {
         "Plus de": "2.7",
@@ -2828,147 +1556,1081 @@
     },
     "Handicap": {
       "2 (0)": "1.44",
-      "1 (0)": "2.61",
-      "1 (-1)": "6.05",
-      "2 (-1)": "2.52",
-      "1 (+1)": "1.41",
-      "2 (+1)": "1.064",
-      "1 (-1.5)": "6.9",
-      "2 (-1.5)": "3.2",
-      "1 (+1.5)": "1.26",
-      "2 (+1.5)": "1.041"
+      "1 (0)": "2.5",
+      "1 (-1)": "5.95",
+      "2 (-1)": "2.59",
+      "1 (+1)": "1.39",
+      "2 (+1)": "1.066",
+      "1 (-1.5)": "6.85",
+      "2 (-1.5)": "3.28",
+      "1 (+1.5)": "1.25",
+      "2 (+1.5)": "1.042"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Gaziemir GOG Spor",
-    "equipe_2": "Fethiyespor",
+    "equipe_1": "Ancona",
+    "equipe_2": "Fossombrone",
     "1X2": {
-      "V2": "1.53",
+      "V1": "1.47",
       "X": "4.05",
-      "V1": "5.59"
+      "V2": "5.5"
+    },
+    "Total_2.5": {
+      "Plus de": "1.84",
+      "Moins de": "1.83"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Ancona",
+    "equipe_2_en": "Fossombrone",
+    "Double_Chance": {
+      "1X": "1.074",
+      "12": "1.144",
+      "2X": "2.3"
+    },
+    "BTTS": {
+      "Non": "1.777",
+      "Oui": "1.9"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.83",
+        "Plus de": "1.84"
+      },
+      "1.5": {
+        "Plus de": "1.23",
+        "Moins de": "3.42"
+      },
+      "2": {
+        "Plus de": "1.39",
+        "Moins de": "2.59"
+      },
+      "3": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      },
+      "3.5": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.41",
+      "1 (-1.5)": "2.52",
+      "1 (0)": "1.157",
+      "2 (0)": "4.15",
+      "1 (-1)": "1.89",
+      "2 (+1)": "1.77",
+      "1 (-2)": "4.25",
+      "2 (+2)": "1.149",
+      "1 (-2.5)": "5.15",
+      "2 (+2.5)": "1.098"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "ASD Brusaporto",
+    "equipe_2": "ChievoVerona",
+    "1X2": {
+      "V2": "1.76",
+      "X": "3.52",
+      "V1": "3.9"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "1.87"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "ASD Brusaporto",
+    "equipe_2_en": "ChievoVerona",
+    "Double_Chance": {
+      "2X": "1.165",
+      "12": "1.194",
+      "1X": "1.83"
+    },
+    "BTTS": {
+      "Oui": "1.71",
+      "Non": "1.983"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "1.87"
+      },
+      "1.5": {
+        "Plus de": "1.22",
+        "Moins de": "3.5"
+      },
+      "2": {
+        "Plus de": "1.36",
+        "Moins de": "2.7"
+      },
+      "3": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
+      },
+      "3.5": {
+        "Plus de": "3.04",
+        "Moins de": "1.29"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.333",
+      "1 (0)": "2.9",
+      "1 (-1)": "8.1",
+      "2 (-1)": "2.46",
+      "1 (+1)": "1.43",
+      "2 (+1)": "1.018",
+      "1 (-1.5)": "9.3",
+      "2 (-1.5)": "3.2",
+      "1 (+1.5)": "1.26",
+      "2 (+1.5)": "1.002"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "ASD Sasso Marconi",
+    "equipe_2": "Cittadella Vis Modena",
+    "1X2": {
+      "V2": "2.1",
+      "X": "3.14",
+      "V1": "3.185"
+    },
+    "Total_2.5": {
+      "Plus de": "2.11",
+      "Moins de": "1.62"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "ASD Sasso Marconi",
+    "equipe_2_en": "Cittadella Vis Modena",
+    "Double_Chance": {
+      "12": "1.25",
+      "2X": "1.26",
+      "1X": "1.57"
+    },
+    "BTTS": {
+      "Non": "1.819",
+      "Oui": "1.85"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.62",
+        "Plus de": "2.11"
+      },
+      "1.5": {
+        "Plus de": "1.33",
+        "Moins de": "2.83"
+      },
+      "2": {
+        "Plus de": "1.57",
+        "Moins de": "2.14"
+      },
+      "3": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      },
+      "3.5": {
+        "Plus de": "3.84",
+        "Moins de": "1.184"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.52",
+      "1 (0)": "2.24",
+      "1 (-1)": "6.05",
+      "2 (-1)": "3.32",
+      "1 (+1)": "1.26",
+      "2 (+1)": "1.063",
+      "1 (-1.5)": "7.1",
+      "2 (-1.5)": "4.25",
+      "1 (+1.5)": "1.15",
+      "2 (+1.5)": "1.036"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "L'Aquila Calcio 1927",
+    "equipe_2": "A.S.D. Termoli Calcio 1920",
+    "1X2": {
+      "V1": "1.55",
+      "X": "4.2",
+      "V2": "5.14"
     },
     "Total_2.5": {
       "Plus de": "1.76",
-      "Moins de": "1.98"
+      "Moins de": "1.95"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T12:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Gaziemir GOG Spor",
-    "equipe_2_en": "Fethiyespor",
-    "Double_Chance": {
-      "2X": "1.101",
-      "12": "1.193",
-      "1X": "2.375"
-    },
-    "BTTS": {
-      "Oui": "1.81",
-      "Non": "1.895"
-    },
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "L'Aquila Calcio 1927",
+    "equipe_2_en": "A.S.D. Termoli Calcio 1920",
     "Totals": {
       "2.5": {
         "Plus de": "1.76",
-        "Moins de": "1.98"
+        "Moins de": "1.95"
       },
       "1.5": {
-        "Plus de": "1.191",
-        "Moins de": "3.76"
-      },
-      "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.89"
-      },
-      "3": {
-        "Plus de": "2.24",
-        "Moins de": "1.52"
+        "Plus de": "1.24",
+        "Moins de": "3.5"
       },
       "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
+        "Plus de": "2.78",
+        "Moins de": "1.35"
+      },
+      "4.5": {
+        "Plus de": "4.85",
+        "Moins de": "1.13"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.44",
-      "2 (-1.5)": "2.43",
-      "1 (0)": "4.2",
-      "2 (0)": "1.152",
-      "2 (-1)": "1.89",
-      "1 (+1)": "1.82",
-      "2 (-2)": "3.92",
-      "1 (+2)": "1.175",
-      "2 (-2.5)": "4.75",
-      "1 (+2.5)": "1.118"
+      "2 (+1.5)": "1.47",
+      "1 (-1.5)": "2.38",
+      "1 (0)": "1.21",
+      "2 (0)": "3.8",
+      "1 (-2.5)": "4.4",
+      "2 (+2.5)": "1.16"
     }
   },
   {
     "bookmaker": "winwin",
-    "equipe_1": "Karabuk Idman Yurdu",
-    "equipe_2": "Beykoz Anadoluspor",
+    "equipe_1": "Nuova Igea Virtus",
+    "equipe_2": "AS Reggina 1914",
     "1X2": {
-      "V2": "2.34",
-      "V1": "2.916",
-      "X": "3.24"
+      "V2": "1.88",
+      "X": "3.35",
+      "V1": "3.595"
     },
     "Total_2.5": {
-      "Plus de": "1.98",
-      "Moins de": "1.76"
+      "Plus de": "1.88",
+      "Moins de": "1.79"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T12:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Karabuk Idman Yurdu",
-    "equipe_2_en": "Beykoz Anadoluspor",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Nuova Igea Virtus",
+    "equipe_2_en": "AS Reggina 1914",
     "Double_Chance": {
-      "12": "1.29",
-      "2X": "1.36",
-      "1X": "1.53"
+      "2X": "1.197",
+      "12": "1.22",
+      "1X": "1.72"
     },
     "BTTS": {
-      "Oui": "1.76",
-      "Non": "1.956"
+      "Oui": "1.74",
+      "Non": "1.942"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.76",
-        "Plus de": "1.98"
+        "Moins de": "1.79",
+        "Plus de": "1.88"
       },
       "1.5": {
-        "Plus de": "1.285",
-        "Moins de": "3.05"
+        "Plus de": "1.26",
+        "Moins de": "3.2"
       },
       "2": {
-        "Plus de": "1.47",
-        "Moins de": "2.36"
+        "Plus de": "1.42",
+        "Moins de": "2.49"
       },
       "3": {
-        "Plus de": "2.7",
-        "Moins de": "1.363"
+        "Plus de": "2.56",
+        "Moins de": "1.4"
       },
       "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
+        "Plus de": "3.2",
+        "Moins de": "1.26"
       }
     },
     "Handicap": {
-      "2 (0)": "1.68",
-      "1 (0)": "2.07",
-      "1 (-1)": "4.95",
-      "2 (-1)": "3.58",
-      "1 (+1)": "1.21",
-      "2 (+1)": "1.108",
-      "1 (-1.5)": "5.8",
-      "2 (-1.5)": "4.45",
-      "1 (+1.5)": "1.137",
-      "2 (+1.5)": "1.071"
+      "2 (0)": "1.41",
+      "1 (0)": "2.6",
+      "1 (-1)": "6.95",
+      "2 (-1)": "2.7",
+      "1 (+1)": "1.36",
+      "2 (+1)": "1.04",
+      "1 (-1.5)": "7.9",
+      "2 (-1.5)": "3.5",
+      "1 (+1.5)": "1.22",
+      "2 (+1.5)": "1.021"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Polisportiva Lentigione Calcio",
+    "equipe_2": "Piacenza Calcio 1919",
+    "1X2": {
+      "V2": "2.41",
+      "V1": "2.43",
+      "X": "3.38"
+    },
+    "Total_2.5": {
+      "Plus de": "1.7",
+      "Moins de": "1.99"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Polisportiva Lentigione Calcio",
+    "equipe_2_en": "Piacenza Calcio 1919",
+    "Double_Chance": {
+      "12": "1.22",
+      "2X": "1.41",
+      "1X": "1.42"
+    },
+    "BTTS": {
+      "Oui": "1.57",
+      "Non": "2.203"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.7",
+        "Moins de": "1.99"
+      },
+      "1.5": {
+        "Plus de": "1.188",
+        "Moins de": "3.8"
+      },
+      "2": {
+        "Plus de": "1.3",
+        "Moins de": "2.97"
+      },
+      "3": {
+        "Plus de": "2.17",
+        "Moins de": "1.55"
+      },
+      "3.5": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.83",
+      "2 (0)": "1.83",
+      "1 (-1)": "4",
+      "2 (-1)": "3.96",
+      "1 (+1)": "1.172",
+      "2 (+1)": "1.168",
+      "1 (-1.5)": "4.9",
+      "2 (-1.5)": "4.85",
+      "1 (+1.5)": "1.113",
+      "2 (+1.5)": "1.11"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Real Calepina",
+    "equipe_2": "Leon Monza Brianza",
+    "1X2": {
+      "V1": "2.4",
+      "V2": "2.44",
+      "X": "3.38"
+    },
+    "Total_2.5": {
+      "Plus de": "1.54",
+      "Moins de": "2.27"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Real Calepina",
+    "equipe_2_en": "Leon Monza Brianza",
+    "Double_Chance": {
+      "12": "1.22",
+      "1X": "1.41",
+      "2X": "1.42"
+    },
+    "BTTS": {
+      "Oui": "1.444",
+      "Non": "2.515"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.54",
+        "Moins de": "2.27"
+      },
+      "1.5": {
+        "Plus de": "1.124",
+        "Moins de": "4.65"
+      },
+      "2": {
+        "Plus de": "1.197",
+        "Moins de": "3.7"
+      },
+      "3": {
+        "Plus de": "1.84",
+        "Moins de": "1.78"
+      },
+      "3.5": {
+        "Plus de": "2.33",
+        "Moins de": "1.48"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.81",
+      "2 (0)": "1.85",
+      "1 (-1)": "3.86",
+      "2 (-1)": "3.98",
+      "1 (+1)": "1.17",
+      "2 (+1)": "1.181",
+      "1 (-1.5)": "4.7",
+      "2 (-1.5)": "4.85",
+      "1 (+1.5)": "1.113",
+      "2 (+1.5)": "1.12"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Trapani Calcio",
+    "equipe_2": "A.S.D. Licata 1931",
+    "1X2": {
+      "V1": "1.591",
+      "X": "3.4",
+      "V2": "5.39"
+    },
+    "Total_2.5": {
+      "Plus de": "1.833",
+      "Moins de": "1.833"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Trapani Calcio",
+    "equipe_2_en": "A.S.D. Licata 1931",
+    "Double_Chance": {
+      "1X": "1.074",
+      "12": "1.21",
+      "2X": "2.07"
+    },
+    "BTTS": {
+      "Oui": "1.82",
+      "Non": "1.85"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.833",
+        "Moins de": "1.833"
+      },
+      "1.5": {
+        "Plus de": "1.23",
+        "Moins de": "3.42"
+      },
+      "2": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "3": {
+        "Plus de": "2.42",
+        "Moins de": "1.444"
+      },
+      "3.5": {
+        "Plus de": "3.04",
+        "Moins de": "1.29"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.37",
+      "1 (-1.5)": "2.66",
+      "1 (0)": "1.18",
+      "2 (0)": "3.88",
+      "1 (-1)": "2.06",
+      "2 (+1)": "1.64",
+      "1 (-2)": "4.45",
+      "2 (+2)": "1.136",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.093"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Unipomezia",
+    "equipe_2": "Teramo",
+    "1X2": {
+      "V1": "2.6",
+      "V2": "2.6",
+      "X": "3.25"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Unipomezia",
+    "equipe_2_en": "Teramo",
+    "Handicap": {
+      "1 (0)": "1.85",
+      "2 (0)": "1.85"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "US Sestri Levante 1919",
+    "equipe_2": "Pistoiese",
+    "1X2": {
+      "V2": "1.39",
+      "X": "4.15",
+      "V1": "6.74"
+    },
+    "Total_2.5": {
+      "Plus de": "1.66",
+      "Moins de": "2.05"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "U.S.D. Sestri Levante 1919",
+    "equipe_2_en": "Pistoiese",
+    "Double_Chance": {
+      "2X": "1.036",
+      "12": "1.136",
+      "1X": "2.52"
+    },
+    "BTTS": {
+      "Oui": "1.83",
+      "Non": "1.84"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.66",
+        "Moins de": "2.05"
+      },
+      "1.5": {
+        "Plus de": "1.182",
+        "Moins de": "3.85"
+      },
+      "2": {
+        "Plus de": "1.285",
+        "Moins de": "3.05"
+      },
+      "3": {
+        "Plus de": "2.07",
+        "Moins de": "1.61"
+      },
+      "3.5": {
+        "Plus de": "2.59",
+        "Moins de": "1.39"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.58",
+      "2 (-1.5)": "2.12",
+      "1 (0)": "4.95",
+      "2 (0)": "1.108",
+      "2 (-1)": "1.65",
+      "1 (+1)": "2.05",
+      "2 (-2)": "3.08",
+      "1 (+2)": "1.28",
+      "2 (-2.5)": "3.74",
+      "1 (+2.5)": "1.194"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Valenzana",
+    "equipe_2": "Saluzzo",
+    "1X2": {
+      "V1": "2.49",
+      "V2": "2.53",
+      "X": "3.08"
+    },
+    "Total_2.5": {
+      "Plus de": "1.85",
+      "Moins de": "1.82"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Valenzana",
+    "equipe_2_en": "Saluzzo",
+    "Double_Chance": {
+      "12": "1.26",
+      "1X": "1.38",
+      "2X": "1.39"
+    },
+    "BTTS": {
+      "Oui": "1.66",
+      "Non": "2.047"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.82",
+        "Plus de": "1.85"
+      },
+      "1.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "2": {
+        "Plus de": "1.4",
+        "Moins de": "2.56"
+      },
+      "3": {
+        "Plus de": "2.46",
+        "Moins de": "1.43"
+      },
+      "3.5": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.82",
+      "2 (0)": "1.833",
+      "1 (-1)": "4.2",
+      "2 (-1)": "4.3",
+      "1 (+1)": "1.147",
+      "2 (+1)": "1.155",
+      "1 (-1.5)": "5.05",
+      "2 (-1.5)": "5.2",
+      "1 (+1.5)": "1.096",
+      "2 (+1.5)": "1.102"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Varese",
+    "equipe_2": "Aurora Pro Patria 1919",
+    "1X2": {
+      "V2": "1.88",
+      "X": "3.05",
+      "V1": "4.015"
+    },
+    "Total_2.5": {
+      "Plus de": "2.22",
+      "Moins de": "1.56"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Varese",
+    "equipe_2_en": "Aurora Pro Patria 1919",
+    "Double_Chance": {
+      "2X": "1.156",
+      "12": "1.26",
+      "1X": "1.72"
+    },
+    "BTTS": {
+      "Non": "1.705",
+      "Oui": "1.99"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.22"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "2": {
+        "Plus de": "1.66",
+        "Moins de": "1.99"
+      },
+      "3": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      },
+      "3.5": {
+        "Plus de": "4.1",
+        "Moins de": "1.162"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.34",
+      "1 (0)": "2.78",
+      "1 (-1)": "8.5",
+      "2 (-1)": "2.78",
+      "1 (+1)": "1.36",
+      "2 (+1)": "1.013",
+      "1 (-1.5)": "7.7",
+      "2 (-1.5)": "3.58",
+      "1 (+1.5)": "1.21",
+      "2 (+1.5)": "1.04"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Vigor Campagnano",
+    "equipe_2": "Albalonga",
+    "1X2": {
+      "V1": "1.46",
+      "X": "3.62",
+      "V2": "6.77"
+    },
+    "Total_2.5": {
+      "Plus de": "1.69",
+      "Moins de": "2.01"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Vigor Campagnano",
+    "equipe_2_en": "Albalonga",
+    "Double_Chance": {
+      "1X": "1.036",
+      "12": "1.183",
+      "2X": "2.32"
+    },
+    "BTTS": {
+      "Oui": "1.78",
+      "Non": "1.892"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.69",
+        "Moins de": "2.01"
+      },
+      "1.5": {
+        "Plus de": "1.182",
+        "Moins de": "3.85"
+      },
+      "2": {
+        "Plus de": "1.3",
+        "Moins de": "2.97"
+      },
+      "3": {
+        "Plus de": "2.1",
+        "Moins de": "1.59"
+      },
+      "3.5": {
+        "Plus de": "2.625",
+        "Moins de": "1.38"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.5",
+      "1 (-1.5)": "2.28",
+      "1 (0)": "1.113",
+      "2 (0)": "4.85",
+      "1 (-1)": "1.8",
+      "2 (+1)": "1.86",
+      "1 (-2)": "3.42",
+      "2 (+2)": "1.23",
+      "1 (-2.5)": "4.15",
+      "2 (+2.5)": "1.157"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Agia Paraskevi",
+    "equipe_2": "Koukaki",
+    "1X2": {
+      "V1": "2.46",
+      "V2": "2.46",
+      "X": "3.24"
+    },
+    "Total_2.5": {
+      "Plus de": "2.38",
+      "Moins de": "1.49"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Grèce. Regional Cup",
+    "competition_en": "Greece. Regional Cup",
+    "competition_id": 1109529,
+    "equipe_1_en": "Agia Paraskevi",
+    "equipe_2_en": "Koukaki",
+    "Double_Chance": {
+      "12": "1.24",
+      "1X": "1.4",
+      "2X": "1.4"
+    },
+    "BTTS": {
+      "Non": "1.685",
+      "Oui": "2.01"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.49",
+        "Plus de": "2.38"
+      },
+      "1.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "2": {
+        "Plus de": "1.78",
+        "Moins de": "1.84"
+      },
+      "3": {
+        "Plus de": "3.92",
+        "Moins de": "1.176"
+      },
+      "3.5": {
+        "Plus de": "4.8",
+        "Moins de": "1.116"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.83",
+      "2 (0)": "1.83",
+      "1 (-1)": "4.65",
+      "2 (-1)": "4.65",
+      "1 (+1)": "1.124",
+      "2 (+1)": "1.124",
+      "1 (-1.5)": "5.75",
+      "2 (-1.5)": "5.75",
+      "1 (+1.5)": "1.073",
+      "2 (+1.5)": "1.073"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Atromitos Metamorfosis",
+    "equipe_2": "Asteras Zografou",
+    "1X2": {
+      "V1": "1.78",
+      "X": "3.3",
+      "V2": "4.09"
+    },
+    "Total_2.5": {
+      "Plus de": "2.22",
+      "Moins de": "1.56"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Grèce. Regional Cup",
+    "competition_en": "Greece. Regional Cup",
+    "competition_id": 1109529,
+    "equipe_1_en": "Atromitos Metamorfosis",
+    "equipe_2_en": "Asteras Zografou",
+    "Double_Chance": {
+      "1X": "1.15",
+      "12": "1.222",
+      "2X": "1.81"
+    },
+    "BTTS": {
+      "Non": "1.685",
+      "Oui": "2.01"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.22"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "2": {
+        "Plus de": "1.66",
+        "Moins de": "1.99"
+      },
+      "3": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      },
+      "3.5": {
+        "Plus de": "4.1",
+        "Moins de": "1.163"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.31",
+      "2 (0)": "2.92",
+      "1 (-1)": "2.56",
+      "2 (-1)": "8.3",
+      "1 (+1)": "1.015",
+      "2 (+1)": "1.42",
+      "1 (-1.5)": "3.34",
+      "2 (-1.5)": "9.2",
+      "1 (+1.5)": "1.003",
+      "2 (+1.5)": "1.24"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Hephaestus of Peristeri",
+    "equipe_2": "Kamatero",
+    "1X2": {
+      "V1": "1.55",
+      "X": "3.74",
+      "V2": "5.11"
+    },
+    "Total_2.5": {
+      "Plus de": "1.71",
+      "Moins de": "1.98"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Grèce. Regional Cup",
+    "competition_en": "Greece. Regional Cup",
+    "competition_id": 1109529,
+    "equipe_1_en": "Hephaestus of Peristeri",
+    "equipe_2_en": "Kamatero",
+    "Double_Chance": {
+      "1X": "1.086",
+      "12": "1.171",
+      "2X": "2.14"
+    },
+    "BTTS": {
+      "Oui": "1.74",
+      "Non": "1.942"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.71",
+        "Moins de": "1.98"
+      },
+      "1.5": {
+        "Plus de": "1.198",
+        "Moins de": "3.7"
+      },
+      "2": {
+        "Plus de": "1.31",
+        "Moins de": "2.92"
+      },
+      "3": {
+        "Plus de": "2.15",
+        "Moins de": "1.56"
+      },
+      "3.5": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.43",
+      "1 (-1.5)": "2.46",
+      "1 (0)": "1.188",
+      "2 (0)": "3.8",
+      "1 (-1)": "1.94",
+      "2 (+1)": "1.73",
+      "1 (-2)": "3.9",
+      "2 (+2)": "1.178",
+      "1 (-2.5)": "4.6",
+      "2 (+2.5)": "1.127"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Peukis",
+    "equipe_2": "Olympiakos Neon Liosion",
+    "1X2": {
+      "V2": "2.01",
+      "X": "3.18",
+      "V1": "3.37"
+    },
+    "Total_2.5": {
+      "Plus de": "2.31",
+      "Moins de": "1.52"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T13:00:00+00:00",
+    "competition": "Grèce. Regional Cup",
+    "competition_en": "Greece. Regional Cup",
+    "competition_id": 1109529,
+    "equipe_1_en": "Peukis",
+    "equipe_2_en": "Olympiakos Neon Liosion",
+    "Double_Chance": {
+      "2X": "1.23",
+      "12": "1.24",
+      "1X": "1.62"
+    },
+    "BTTS": {
+      "Non": "1.685",
+      "Oui": "2.01"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.52",
+        "Plus de": "2.31"
+      },
+      "1.5": {
+        "Plus de": "1.41",
+        "Moins de": "2.52"
+      },
+      "2": {
+        "Plus de": "1.727",
+        "Moins de": "1.9"
+      },
+      "3": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      },
+      "3.5": {
+        "Plus de": "4.4",
+        "Moins de": "1.14"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.47",
+      "1 (0)": "2.41",
+      "1 (-1)": "6.65",
+      "2 (-1)": "3.14",
+      "1 (+1)": "1.27",
+      "2 (+1)": "1.047",
+      "1 (-1.5)": "7.7",
+      "2 (-1.5)": "4.05",
+      "1 (+1.5)": "1.165",
+      "2 (+1.5)": "1.026"
     }
   },
   {
@@ -2985,7 +2647,7 @@
       "Moins de": null
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
     "debut": "2026-10-07T14:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3034,16 +2696,16 @@
     "equipe_1": "Gnistan",
     "equipe_2": "Inter Turku",
     "1X2": {
-      "V2": "1.71",
-      "X": "3.94",
-      "V1": "4.315"
+      "V2": "1.66",
+      "X": "4.05",
+      "V1": "4.55"
     },
     "Total_2.5": {
-      "Plus de": "1.65",
-      "Moins de": "2.15"
+      "Plus de": "1.62",
+      "Moins de": "2.21"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
     "debut": "2026-10-07T16:00:00+00:00",
     "competition": "Championnat de Finlande. Veikkausliiga",
@@ -3052,47 +2714,47 @@
     "equipe_1_en": "Gnistan",
     "equipe_2_en": "Inter Turku",
     "Double_Chance": {
-      "2X": "1.184",
-      "12": "1.22",
-      "1X": "2.08"
+      "2X": "1.168",
+      "12": "1.21",
+      "1X": "2.16"
     },
     "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.142"
+      "Oui": "1.62",
+      "Non": "2.162"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.65",
-        "Moins de": "2.15"
+        "Plus de": "1.62",
+        "Moins de": "2.21"
       },
       "1.5": {
-        "Plus de": "1.166",
-        "Moins de": "4.05"
+        "Plus de": "1.157",
+        "Moins de": "4.15"
       },
       "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.26"
+        "Plus de": "1.25",
+        "Moins de": "3.34"
       },
       "3": {
-        "Plus de": "2",
-        "Moins de": "1.666"
+        "Plus de": "1.952",
+        "Moins de": "1.7"
       },
       "3.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.42"
+        "Plus de": "2.43",
+        "Moins de": "1.44"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.36",
-      "2 (-1.5)": "2.71",
-      "1 (0)": "3.14",
-      "2 (0)": "1.27",
-      "2 (-1)": "2.17",
-      "1 (+1)": "1.63",
-      "2 (-2)": "4.4",
-      "1 (+2)": "1.139",
-      "2 (-2.5)": "5.1",
-      "1 (+2.5)": "1.099"
+      "1 (+1.5)": "1.39",
+      "2 (-1.5)": "2.6",
+      "1 (0)": "3.28",
+      "2 (0)": "1.25",
+      "2 (-1)": "2.07",
+      "1 (+1)": "1.69",
+      "2 (-2)": "4.15",
+      "1 (+2)": "1.159",
+      "2 (-2.5)": "4.8",
+      "1 (+2.5)": "1.114"
     }
   },
   {
@@ -3100,16 +2762,16 @@
     "equipe_1": "Eskisehirspor",
     "equipe_2": "Aksehirspor",
     "1X2": {
-      "V1": "1.067",
-      "X": "8.6",
+      "V1": "1.065",
+      "X": "8.7",
       "V2": "31"
     },
     "Total_2.5": {
-      "Plus de": "1.47",
-      "Moins de": "2.35"
+      "Plus de": "1.46",
+      "Moins de": "2.375"
     },
     "url": "https://winwin.bet/fr/line/football",
-    "derniere_maj": "2026-10-07T09:16:52.107852+00:00",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
     "statut": "ok",
     "debut": "2026-10-07T17:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3118,47 +2780,377 @@
     "equipe_1_en": "Eskisehirspor",
     "equipe_2_en": "Aksehirspor",
     "Double_Chance": {
-      "1X": "1.01",
-      "12": "1.032",
-      "2X": "6.75"
+      "1X": "1.008",
+      "12": "1.031",
+      "2X": "6.85"
     },
     "BTTS": {
-      "Non": "1.296",
-      "Oui": "3.24"
+      "Non": "1.302",
+      "Oui": "3.2"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.58",
-        "Plus de": "2.27"
+        "Moins de": "1.59",
+        "Plus de": "2.25"
       },
       "2.5": {
-        "Plus de": "1.47",
-        "Moins de": "2.35"
+        "Plus de": "1.46",
+        "Moins de": "2.375"
       },
       "3": {
-        "Plus de": "1.76",
-        "Moins de": "1.87"
+        "Plus de": "1.74",
+        "Moins de": "1.89"
       },
       "4": {
         "Plus de": "3.1",
         "Moins de": "1.28"
       },
       "4.5": {
-        "Plus de": "3.76",
-        "Moins de": "1.191"
+        "Plus de": "3.7",
+        "Moins de": "1.197"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.727",
-      "1 (-2.5)": "1.9",
-      "1 (-1.5)": "1.33",
-      "2 (+1.5)": "2.83",
-      "1 (-2)": "1.54",
-      "2 (+2)": "2.33",
-      "1 (-3)": "2.56",
-      "2 (+3)": "1.4",
+      "2 (+2.5)": "1.74",
+      "1 (-2.5)": "1.89",
+      "1 (-1.5)": "1.32",
+      "2 (+1.5)": "2.875",
+      "1 (-2)": "1.53",
+      "2 (+2)": "2.36",
+      "1 (-3)": "2.52",
+      "2 (+3)": "1.41",
       "1 (-3.5)": "3.08",
       "2 (+3.5)": "1.28"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Avai",
+    "equipe_2": "Londrina",
+    "1X2": {
+      "V1": "2.05",
+      "X": "3.25",
+      "V2": "3.525"
+    },
+    "Total_2.5": {
+      "Plus de": "2.19",
+      "Moins de": "1.62"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T22:30:00+00:00",
+    "competition": "Brazil. Campeonato Brasileiro B",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie B",
+    "competition_id": 57265,
+    "equipe_1_en": "Avai",
+    "equipe_2_en": "Londrina",
+    "Double_Chance": {
+      "1X": "1.26",
+      "12": "1.29",
+      "2X": "1.69"
+    },
+    "BTTS": {
+      "Non": "1.791",
+      "Oui": "1.92"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.62",
+        "Plus de": "2.19"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "2": {
+        "Plus de": "1.61",
+        "Moins de": "2.07"
+      },
+      "3": {
+        "Plus de": "3.16",
+        "Moins de": "1.27"
+      },
+      "3.5": {
+        "Plus de": "3.94",
+        "Moins de": "1.174"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.47",
+      "2 (0)": "2.51",
+      "1 (-1)": "3.05",
+      "2 (-1)": "6.95",
+      "1 (+1)": "1.04",
+      "2 (+1)": "1.285",
+      "1 (-1.5)": "3.94",
+      "2 (-1.5)": "8",
+      "1 (+1.5)": "1.02",
+      "2 (+1.5)": "1.174"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Operário Ferroviário Esporte Clube",
+    "equipe_2": "Botafogo Futebol Clube (Ribeirão Preto)",
+    "1X2": {
+      "V1": "1.9",
+      "X": "3.28",
+      "V2": "4.02"
+    },
+    "Total_2.5": {
+      "Plus de": "2.29",
+      "Moins de": "1.57"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T22:30:00+00:00",
+    "competition": "Brazil. Campeonato Brasileiro B",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie B",
+    "competition_id": 57265,
+    "equipe_1_en": "Operario Ferroviario",
+    "equipe_2_en": "Botafogo Ribeirao Preto",
+    "Double_Chance": {
+      "1X": "1.197",
+      "12": "1.285",
+      "2X": "1.81"
+    },
+    "BTTS": {
+      "Non": "1.71",
+      "Oui": "2.02"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.57",
+        "Plus de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.37",
+        "Moins de": "2.66"
+      },
+      "2": {
+        "Plus de": "1.66",
+        "Moins de": "2"
+      },
+      "3": {
+        "Plus de": "3.44",
+        "Moins de": "1.23"
+      },
+      "3.5": {
+        "Plus de": "4.3",
+        "Moins de": "1.148"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.333",
+      "2 (0)": "2.81",
+      "1 (-1)": "2.83",
+      "2 (-1)": "9",
+      "1 (+1)": "1.006",
+      "2 (+1)": "1.38",
+      "1 (-1.5)": "3.58",
+      "2 (-1.5)": "8.6",
+      "1 (+1.5)": "1.03",
+      "2 (+1.5)": "1.21"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "América Mineiro",
+    "equipe_2": "Fortaleza EC",
+    "1X2": {
+      "V2": "1.86",
+      "X": "3.46",
+      "V1": "3.955"
+    },
+    "Total_2.5": {
+      "Plus de": "1.99",
+      "Moins de": "1.75"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T23:30:00+00:00",
+    "competition": "Brazil. Campeonato Brasileiro B",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie B",
+    "competition_id": 57265,
+    "equipe_1_en": "America Minas Gerais",
+    "equipe_2_en": "Fortaleza EC",
+    "Double_Chance": {
+      "2X": "1.21",
+      "12": "1.26",
+      "1X": "1.85"
+    },
+    "BTTS": {
+      "Oui": "1.84",
+      "Non": "1.864"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.75",
+        "Plus de": "1.99"
+      },
+      "1.5": {
+        "Plus de": "1.29",
+        "Moins de": "3.04"
+      },
+      "2": {
+        "Plus de": "1.48",
+        "Moins de": "2.34"
+      },
+      "3": {
+        "Plus de": "2.71",
+        "Moins de": "1.36"
+      },
+      "3.5": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.37",
+      "1 (0)": "2.875",
+      "1 (-1)": "7.5",
+      "2 (-1)": "2.52",
+      "1 (+1)": "1.41",
+      "2 (+1)": "1.029",
+      "1 (-1.5)": "8.3",
+      "2 (-1.5)": "3.28",
+      "1 (+1.5)": "1.25",
+      "2 (+1.5)": "1.015"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "CRB Maceio",
+    "equipe_2": "Atlético Clube Goianiense",
+    "1X2": {
+      "V1": "1.77",
+      "X": "3.62",
+      "V2": "4.205"
+    },
+    "Total_2.5": {
+      "Plus de": "1.9",
+      "Moins de": "1.83"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T23:30:00+00:00",
+    "competition": "Brazil. Campeonato Brasileiro B",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie B",
+    "competition_id": 57265,
+    "equipe_1_en": "CRB Maceio",
+    "equipe_2_en": "Atletico Clube Goianiense",
+    "Double_Chance": {
+      "1X": "1.18",
+      "12": "1.24",
+      "2X": "1.95"
+    },
+    "BTTS": {
+      "Oui": "1.8",
+      "Non": "1.905"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.83",
+        "Plus de": "1.9"
+      },
+      "1.5": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "2": {
+        "Plus de": "1.41",
+        "Moins de": "2.54"
+      },
+      "3": {
+        "Plus de": "2.57",
+        "Moins de": "1.4"
+      },
+      "3.5": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.32",
+      "2 (0)": "3.125",
+      "1 (-1)": "2.375",
+      "2 (-1)": "9",
+      "1 (+1)": "1.006",
+      "2 (+1)": "1.46",
+      "1 (-1.5)": "3.08",
+      "2 (-1.5)": "8.4",
+      "1 (+1.5)": "1.03",
+      "2 (+1.5)": "1.28"
+    }
+  },
+  {
+    "bookmaker": "winwin",
+    "equipe_1": "Vila Nova",
+    "equipe_2": "Cuiabá",
+    "1X2": {
+      "V1": "2.1",
+      "X": "3.1",
+      "V2": "3.565"
+    },
+    "Total_2.5": {
+      "Plus de": "2.46",
+      "Moins de": "1.5"
+    },
+    "url": "https://winwin.bet/fr/line/football",
+    "derniere_maj": "2026-10-07T12:21:32.296744+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T23:30:00+00:00",
+    "competition": "Brazil. Campeonato Brasileiro B",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie B",
+    "competition_id": 57265,
+    "equipe_1_en": "Vila Nova",
+    "equipe_2_en": "Cuiaba",
+    "Double_Chance": {
+      "1X": "1.25",
+      "12": "1.32",
+      "2X": "1.66"
+    },
+    "BTTS": {
+      "Non": "1.669",
+      "Oui": "2.08"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.5",
+        "Plus de": "2.46"
+      },
+      "1.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "2": {
+        "Plus de": "1.79",
+        "Moins de": "1.833"
+      },
+      "3": {
+        "Plus de": "3.84",
+        "Moins de": "1.186"
+      },
+      "3.5": {
+        "Plus de": "4.65",
+        "Moins de": "1.124"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.48",
+      "2 (0)": "2.49",
+      "1 (-1)": "3.2",
+      "2 (-1)": "7.3",
+      "1 (+1)": "1.033",
+      "2 (+1)": "1.26",
+      "1 (-1.5)": "4.2",
+      "2 (-1.5)": "8.4",
+      "1 (+1.5)": "1.014",
+      "2 (+1.5)": "1.154"
     }
   }
 ]
