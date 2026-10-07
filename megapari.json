@@ -1,395 +1,19 @@
 [
   {
     "bookmaker": "megapari",
-    "equipe_1": "Labasa",
-    "equipe_2": "Rewa",
-    "1X2": {
-      "V2": "2.33",
-      "V1": "2.59",
-      "X": "3.26"
-    },
-    "Total_2.5": {
-      "Plus de": "1.727",
-      "Moins de": "1.952"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T07:30:00+00:00",
-    "competition": "Fidji. Championnat interdistrict",
-    "competition_en": "Fiji. Inter District Championship",
-    "competition_id": 2014658,
-    "equipe_1_en": "Labasa",
-    "equipe_2_en": "Rewa",
-    "Double_Chance": {
-      "12": "1.23",
-      "2X": "1.36",
-      "1X": "1.45"
-    },
-    "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.191"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.727",
-        "Moins de": "1.952"
-      },
-      "1.5": {
-        "Plus de": "1.196",
-        "Moins de": "3.72"
-      },
-      "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
-      },
-      "3": {
-        "Plus de": "2.21",
-        "Moins de": "1.533"
-      },
-      "3.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.74",
-      "1 (0)": "1.93",
-      "1 (-1)": "4.4",
-      "2 (-1)": "3.75",
-      "1 (+1)": "1.192",
-      "2 (+1)": "1.139",
-      "1 (-1.5)": "5.3",
-      "2 (-1.5)": "4.6",
-      "1 (+1.5)": "1.127",
-      "2 (+1.5)": "1.092"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Géorgie U19 (Femmes)",
-    "equipe_2": "Bulgarie U19 (Femmes)",
-    "1X2": {
-      "V2": "1.077",
-      "X": "7.9",
-      "V1": "14.7"
-    },
-    "Total_2.5": {
-      "Plus de": "1.28",
-      "Moins de": "3.08"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T08:00:00+00:00",
-    "competition": "Championnat d'Europe U19 de l'UEFA. Qualification. Femmes",
-    "competition_en": "UEFA European U19 Championship. Qualification. Women",
-    "competition_id": 2618772,
-    "equipe_1_en": "Georgia U19 (Women)",
-    "equipe_2_en": "Bulgaria U19 (Women)",
-    "Double_Chance": {
-      "12": "1.005",
-      "2X": "1.02",
-      "1X": "5.2"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.78",
-        "Moins de": "1.89"
-      },
-      "2.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "3": {
-        "Plus de": "1.42",
-        "Moins de": "2.49"
-      },
-      "4": {
-        "Plus de": "2.21",
-        "Moins de": "1.53"
-      },
-      "4.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
-      }
-    },
-    "Handicap": {
-      "1 (+2.5)": "1.73",
-      "2 (-2.5)": "1.94",
-      "2 (-1.5)": "1.363",
-      "1 (+1.5)": "2.69",
-      "2 (-2)": "1.55",
-      "1 (+2)": "2.17",
-      "2 (-3)": "2.52",
-      "1 (+3)": "1.41",
-      "2 (-3.5)": "3.04",
-      "1 (+3.5)": "1.29"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Kharkiv U19",
-    "equipe_2": "Lviv U19",
-    "1X2": {
-      "V1": "2.11",
-      "V2": "2.694",
-      "X": "3.78"
-    },
-    "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.38"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T08:00:00+00:00",
-    "competition": "Championnat d'Ukraine U19",
-    "competition_en": "Ukraine Championship U19",
-    "competition_id": 1181941,
-    "equipe_1_en": "Kharkiv U19",
-    "equipe_2_en": "Lviv U19",
-    "Double_Chance": {
-      "12": "1.16",
-      "1X": "1.34",
-      "2X": "1.55"
-    },
-    "BTTS": {
-      "Oui": "1.44",
-      "Non": "2.49"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.34"
-      },
-      "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.38"
-      },
-      "3": {
-        "Plus de": "1.81",
-        "Moins de": "1.85"
-      },
-      "4": {
-        "Plus de": "3.53",
-        "Moins de": "1.23"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.64",
-      "2 (0)": "2.07",
-      "1 (-1)": "3.28",
-      "2 (+1)": "1.27"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Karpaty Lviv U19",
-    "equipe_2": "Polissya Zhytomyr U19",
-    "1X2": {
-      "V1": "1.87",
-      "V2": "3.08",
-      "X": "4.01"
-    },
-    "Total_2.5": {
-      "Plus de": "1.38",
-      "Moins de": "2.73"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Championnat d'Ukraine U19",
-    "competition_en": "Ukraine Championship U19",
-    "competition_id": 1181941,
-    "equipe_1_en": "Karpaty Lviv U19",
-    "equipe_2_en": "Polissya Zhytomyr U19",
-    "Double_Chance": {
-      "12": "1.14",
-      "1X": "1.26",
-      "2X": "1.72"
-    },
-    "BTTS": {
-      "Oui": "1.38",
-      "Non": "2.73"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.65",
-        "Plus de": "2.06"
-      },
-      "2.5": {
-        "Plus de": "1.38",
-        "Moins de": "2.73"
-      },
-      "3": {
-        "Plus de": "1.6",
-        "Moins de": "2.13"
-      },
-      "4": {
-        "Plus de": "2.9",
-        "Moins de": "1.34"
-      },
-      "4.5": {
-        "Plus de": "3.56",
-        "Moins de": "1.23"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.48",
-      "2 (0)": "2.41",
-      "1 (-1)": "2.66",
-      "2 (+1)": "1.39"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Dagon Star United U20",
-    "equipe_2": "Ispe U20",
-    "1X2": {
-      "V2": "2.18",
-      "V1": "2.652",
-      "X": "3.66"
-    },
-    "Total_2.5": {
-      "Plus de": "1.46",
-      "Moins de": "2.375"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Championnat du Myanmar U20",
-    "competition_en": "Myanmar Championship U20",
-    "competition_id": 1878263,
-    "equipe_1_en": "Dagon Star United U20",
-    "equipe_2_en": "Ispe U20",
-    "Double_Chance": {
-      "12": "1.179",
-      "2X": "1.36",
-      "1X": "1.52"
-    },
-    "BTTS": {
-      "Oui": "1.42",
-      "Non": "2.589"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.57",
-        "Plus de": "2.2"
-      },
-      "2.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
-      },
-      "3": {
-        "Plus de": "1.727",
-        "Moins de": "1.9"
-      },
-      "4": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
-      },
-      "4.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.68",
-      "1 (0)": "2",
-      "1 (-1)": "4.15",
-      "2 (-1)": "3.14",
-      "1 (+1)": "1.27",
-      "2 (+1)": "1.158",
-      "1 (-1.5)": "4.9",
-      "2 (-1.5)": "3.88",
-      "1 (+1.5)": "1.179",
-      "2 (+1.5)": "1.11"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Thitsar Arman U20",
-    "equipe_2": "Shan United U20",
-    "1X2": {
-      "V2": "1.92",
-      "V1": "3.28",
-      "X": "3.52"
-    },
-    "Total_2.5": {
-      "Plus de": "1.7",
-      "Moins de": "1.99"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Championnat du Myanmar U20",
-    "competition_en": "Myanmar Championship U20",
-    "competition_id": 1878263,
-    "equipe_1_en": "Thitsar Arman U20",
-    "equipe_2_en": "Shan United U20",
-    "Double_Chance": {
-      "12": "1.195",
-      "2X": "1.24",
-      "1X": "1.68"
-    },
-    "BTTS": {
-      "Oui": "1.6",
-      "Non": "2.15"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.7",
-        "Moins de": "1.99"
-      },
-      "1.5": {
-        "Plus de": "1.188",
-        "Moins de": "3.8"
-      },
-      "2": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
-      },
-      "3": {
-        "Plus de": "2.17",
-        "Moins de": "1.55"
-      },
-      "3.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.47",
-      "1 (0)": "2.41",
-      "1 (-1)": "5.95",
-      "2 (-1)": "2.74",
-      "1 (+1)": "1.35",
-      "2 (+1)": "1.066",
-      "1 (-1.5)": "6.9",
-      "2 (-1.5)": "3.5",
-      "1 (+1.5)": "1.22",
-      "2 (+1.5)": "1.041"
-    }
-  },
-  {
-    "bookmaker": "megapari",
     "equipe_1": "Rangdajied United",
     "equipe_2": "Mawlai",
     "1X2": {
-      "V2": "1.6",
-      "X": "4.1",
-      "V1": "4.185"
+      "V2": "1.51",
+      "X": "4",
+      "V1": "5.07"
     },
     "Total_2.5": {
       "Plus de": "1.44",
       "Moins de": "2.43"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:30:00+00:00",
     "competition": "Inde. Première Ligue. Shillong",
@@ -398,47 +22,47 @@
     "equipe_1_en": "Rangdajied United",
     "equipe_2_en": "Mawlai",
     "Double_Chance": {
-      "12": "1.14",
-      "2X": "1.14",
-      "1X": "2.05"
+      "2X": "1.093",
+      "12": "1.148",
+      "1X": "2.2"
     },
     "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.389"
+      "Oui": "1.52",
+      "Non": "2.316"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.58",
-        "Plus de": "2.18"
+        "Moins de": "1.6",
+        "Plus de": "2.15"
       },
       "2.5": {
         "Plus de": "1.44",
         "Moins de": "2.43"
       },
       "3": {
-        "Plus de": "1.71",
-        "Moins de": "1.92"
+        "Plus de": "1.7",
+        "Moins de": "1.94"
       },
       "4": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
+        "Plus de": "2.97",
+        "Moins de": "1.3"
       },
       "4.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
+        "Plus de": "3.5",
+        "Moins de": "1.22"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.4",
-      "2 (-1.5)": "2.56",
-      "1 (0)": "3.2",
-      "2 (0)": "1.26",
-      "2 (-1)": "2.03",
-      "1 (+1)": "1.666",
-      "2 (-2)": "4.1",
-      "1 (+2)": "1.163",
-      "2 (-2.5)": "4.8",
-      "1 (+2.5)": "1.115"
+      "1 (+1.5)": "1.48",
+      "2 (-1.5)": "2.33",
+      "1 (0)": "3.8",
+      "2 (0)": "1.188",
+      "2 (-1)": "1.86",
+      "1 (+1)": "1.8",
+      "2 (-2)": "3.5",
+      "1 (+2)": "1.22",
+      "2 (-2.5)": "4.2",
+      "1 (+2.5)": "1.155"
     }
   },
   {
@@ -455,7 +79,7 @@
       "Moins de": "3.16"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat d'Ukraine U19",
@@ -517,7 +141,7 @@
       "Moins de": "2.38"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat d'Ukraine U19",
@@ -573,7 +197,7 @@
       "Moins de": "2.38"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat d'Ukraine U19",
@@ -620,16 +244,16 @@
     "equipe_1": "Kasetsart U21",
     "equipe_2": "Khon Kaen United U21",
     "1X2": {
-      "V1": "1.6",
-      "X": "3.94",
-      "V2": "4.345"
+      "V1": "1.64",
+      "X": "3.92",
+      "V2": "4.095"
     },
     "Total_2.5": {
-      "Plus de": "1.67",
-      "Moins de": "2.03"
+      "Plus de": "1.71",
+      "Moins de": "1.98"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat de Thaïlande U21",
@@ -638,47 +262,47 @@
     "equipe_1_en": "Kasetsart U21",
     "equipe_2_en": "Khon Kaen United U21",
     "Double_Chance": {
-      "1X": "1.129",
-      "12": "1.153",
-      "2X": "2.05"
+      "1X": "1.148",
+      "12": "1.155",
+      "2X": "1.99"
     },
     "BTTS": {
-      "Oui": "1.68",
-      "Non": "2.025"
+      "Oui": "1.69",
+      "Non": "2.005"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.67",
-        "Moins de": "2.03"
+        "Plus de": "1.71",
+        "Moins de": "1.98"
       },
       "1.5": {
-        "Plus de": "1.178",
-        "Moins de": "3.9"
+        "Plus de": "1.19",
+        "Moins de": "3.78"
       },
       "2": {
-        "Plus de": "1.285",
-        "Moins de": "3.05"
+        "Plus de": "1.31",
+        "Moins de": "2.92"
       },
       "3": {
-        "Plus de": "2.14",
-        "Moins de": "1.57"
+        "Plus de": "2.21",
+        "Moins de": "1.53"
       },
       "3.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.36",
-      "1 (-1.5)": "2.7",
-      "1 (0)": "1.25",
-      "2 (0)": "3.28",
-      "1 (-1)": "2.1",
-      "2 (+1)": "1.62",
-      "1 (-2)": "4.6",
-      "2 (+2)": "1.128",
-      "1 (-2.5)": "5.35",
-      "2 (+2.5)": "1.088"
+      "2 (+1.5)": "1.33",
+      "1 (-1.5)": "2.83",
+      "1 (0)": "1.28",
+      "2 (0)": "3.08",
+      "1 (-1)": "2.19",
+      "2 (+1)": "1.57",
+      "1 (-2)": "4.95",
+      "2 (+2)": "1.107",
+      "1 (-2.5)": "5.75",
+      "2 (+2.5)": "1.073"
     }
   },
   {
@@ -695,7 +319,7 @@
       "Moins de": "2.27"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:30:00+00:00",
     "competition": "Hong Kong. Premier League U22",
@@ -718,8 +342,74 @@
         "Moins de": "2.27"
       },
       "1.5": {
-        "Plus de": "1.138",
-        "Moins de": "4.4"
+        "Plus de": "1.137",
+        "Moins de": "4.45"
+      },
+      "2": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
+      },
+      "3": {
+        "Plus de": "1.83",
+        "Moins de": "1.79"
+      },
+      "3.5": {
+        "Plus de": "2.3",
+        "Moins de": "1.49"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.77",
+      "2 (0)": "1.89",
+      "1 (-1)": "3.5",
+      "2 (-1)": "3.9",
+      "1 (+1)": "1.177",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.3",
+      "2 (-1.5)": "4.7",
+      "1 (+1.5)": "1.122",
+      "2 (+1.5)": "1.147"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Southern District U22",
+    "equipe_2": "Eastern District U22",
+    "1X2": {
+      "V2": "2.34",
+      "V1": "2.43",
+      "X": "3.54"
+    },
+    "Total_2.5": {
+      "Plus de": "1.533",
+      "Moins de": "2.28"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:45:00+00:00",
+    "competition": "Hong Kong. Premier League U22",
+    "competition_en": "Hong Kong. Premier League U22",
+    "competition_id": 2765014,
+    "equipe_1_en": "Southern District U22",
+    "equipe_2_en": "Eastern District U22",
+    "Double_Chance": {
+      "12": "1.192",
+      "2X": "1.41",
+      "1X": "1.444"
+    },
+    "BTTS": {
+      "Oui": "1.46",
+      "Non": "2.464"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.533",
+        "Moins de": "2.28"
+      },
+      "1.5": {
+        "Plus de": "1.137",
+        "Moins de": "4.45"
       },
       "2": {
         "Plus de": "1.21",
@@ -735,16 +425,198 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.77",
-      "2 (0)": "1.89",
-      "1 (-1)": "3.5",
-      "2 (-1)": "3.92",
-      "1 (+1)": "1.176",
-      "2 (+1)": "1.22",
-      "1 (-1.5)": "4.3",
-      "2 (-1.5)": "4.7",
-      "1 (+1.5)": "1.122",
-      "2 (+1.5)": "1.147"
+      "2 (0)": "1.8",
+      "1 (0)": "1.86",
+      "1 (-1)": "3.8",
+      "2 (-1)": "3.58",
+      "1 (+1)": "1.21",
+      "2 (+1)": "1.188",
+      "1 (-1.5)": "4.6",
+      "2 (-1.5)": "4.35",
+      "1 (+1.5)": "1.142",
+      "2 (+1.5)": "1.128"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Abu Muslim Farah",
+    "equipe_2": "Toofan Herat",
+    "1X2": {
+      "V1": "1.12",
+      "X": "5.98",
+      "V2": "14.9"
+    },
+    "Total_2.5": {
+      "Plus de": "1.7",
+      "Moins de": "1.99"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Afghanistan. Ligue des champions",
+    "competition_en": "Afghanistan. Champions League",
+    "competition_id": 2689522,
+    "equipe_1_en": "Abu Muslim Farah",
+    "equipe_2_en": "Toofan Herat",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.05",
+      "2X": "4.27"
+    },
+    "BTTS": {
+      "Non": "1.42",
+      "Oui": "2.59"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.7",
+        "Moins de": "1.99"
+      },
+      "2": {
+        "Plus de": "1.3",
+        "Moins de": "3.1"
+      },
+      "3": {
+        "Plus de": "2.26",
+        "Moins de": "1.54"
+      },
+      "3.5": {
+        "Plus de": "2.9",
+        "Moins de": "1.34"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.64",
+      "2 (+1.5)": "2.07",
+      "1 (-1)": "1.26",
+      "2 (+1)": "3.35",
+      "1 (-2)": "2.17",
+      "2 (+2)": "1.58"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Angleterre U19 (Femmes)",
+    "equipe_2": "Danemark U19 (Femmes)",
+    "1X2": {
+      "V1": "1.83",
+      "V2": "3.485",
+      "X": "3.62"
+    },
+    "Total_2.5": {
+      "Plus de": "1.55",
+      "Moins de": "2.24"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Championnat d'Europe U19 de l'UEFA. Qualification. Femmes",
+    "competition_en": "UEFA European U19 Championship. Qualification. Women",
+    "competition_id": 2618772,
+    "equipe_1_en": "England U19 (Women)",
+    "equipe_2_en": "Denmark U19 (Women)",
+    "Double_Chance": {
+      "12": "1.183",
+      "1X": "1.21",
+      "2X": "1.76"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.24"
+      },
+      "1.5": {
+        "Plus de": "1.142",
+        "Moins de": "4.35"
+      },
+      "2": {
+        "Plus de": "1.22",
+        "Moins de": "3.5"
+      },
+      "3": {
+        "Plus de": "1.86",
+        "Moins de": "1.76"
+      },
+      "3.5": {
+        "Plus de": "2.33",
+        "Moins de": "1.48"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.4",
+      "2 (0)": "2.56",
+      "1 (-1)": "2.49",
+      "2 (-1)": "6",
+      "1 (+1)": "1.065",
+      "2 (+1)": "1.444",
+      "1 (-1.5)": "3.08",
+      "2 (-1.5)": "6.8",
+      "1 (+1.5)": "1.043",
+      "2 (+1.5)": "1.28"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Suisse U19 (Femmes)",
+    "equipe_2": "Bosnie-Herzégovine U19 (Femmes)",
+    "1X2": {
+      "V1": "1.04",
+      "X": "10",
+      "V2": "21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Championnat d'Europe U19 de l'UEFA. Qualification. Femmes",
+    "competition_en": "UEFA European U19 Championship. Qualification. Women",
+    "competition_id": 2618772,
+    "equipe_1_en": "Switzerland U19 (Women)",
+    "equipe_2_en": "Bosnia and Herzegovina U19 (Women)",
+    "Double_Chance": {
+      "1X": "1.007",
+      "12": "1.03",
+      "2X": "8"
+    },
+    "Totals": {
+      "4.5": {
+        "Moins de": "1.81",
+        "Plus de": "1.86"
+      },
+      "3.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "4": {
+        "Plus de": "1.51",
+        "Moins de": "2.26"
+      },
+      "5": {
+        "Plus de": "2.3",
+        "Moins de": "1.49"
+      },
+      "5.5": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "1 (-3.5)": "1.68",
+      "2 (+3.5)": "2",
+      "1 (-2.5)": "1.26",
+      "2 (+2.5)": "3.2",
+      "1 (-3)": "1.37",
+      "2 (+3)": "2.66",
+      "1 (-4)": "2",
+      "2 (+4)": "1.65",
+      "1 (-4.5)": "2.43",
+      "2 (+4.5)": "1.44"
     }
   },
   {
@@ -752,16 +624,16 @@
     "equipe_1": "Jordan (Femmes)",
     "equipe_2": "Arménie (Femmes)",
     "1X2": {
-      "V1": "1.39",
-      "X": "4.3",
-      "V2": "6.36"
+      "V1": "1.44",
+      "X": "4.15",
+      "V2": "5.76"
     },
     "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.18"
+      "Plus de": "1.61",
+      "Moins de": "2.13"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T15:00:00+00:00",
     "competition": "Matchs amicaux. Équipes nationales. Femmes",
@@ -770,741 +642,39 @@
     "equipe_1_en": "Jordan (Women)",
     "equipe_2_en": "Armenia (Women)",
     "Double_Chance": {
-      "1X": "1.046",
-      "12": "1.125",
-      "2X": "2.52"
+      "1X": "1.065",
+      "12": "1.136",
+      "2X": "2.375"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.18"
+        "Plus de": "1.61",
+        "Moins de": "2.13"
       },
       "1.5": {
-        "Plus de": "1.153",
-        "Moins de": "4.2"
+        "Plus de": "1.164",
+        "Moins de": "4.05"
       },
       "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "3": {
-        "Plus de": "1.92",
-        "Moins de": "1.71"
-      },
-      "3.5": {
-        "Plus de": "2.42",
-        "Moins de": "1.444"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.59",
-      "1 (-1.5)": "2.1",
-      "1 (0)": "1.118",
-      "2 (0)": "4.75",
-      "1 (-1)": "1.65",
-      "2 (+1)": "2.05",
-      "1 (-2)": "3.04",
-      "2 (+2)": "1.29",
-      "1 (-2.5)": "3.68",
-      "2 (+2.5)": "1.2"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "MEG & Centre",
-    "equipe_2": "Bengaluru II",
-    "1X2": {
-      "V2": "1.98",
-      "V1": "2.971",
-      "X": "3.74"
-    },
-    "Total_2.5": {
-      "Plus de": "1.35",
-      "Moins de": "2.74"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T08:00:00+00:00",
-    "competition": "Championnat d'Inde. Bangalore. Super Division",
-    "competition_en": "India. Bangalore. Super Division",
-    "competition_id": 330475,
-    "equipe_1_en": "MEG & Centre",
-    "equipe_2_en": "Bengaluru II",
-    "Double_Chance": {
-      "12": "1.171",
-      "2X": "1.29",
-      "1X": "1.64"
-    },
-    "BTTS": {
-      "Oui": "1.34",
-      "Non": "2.904"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.72",
-        "Plus de": "1.96"
-      },
-      "2.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "3": {
-        "Plus de": "1.54",
-        "Moins de": "2.19"
-      },
-      "4": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
-      },
-      "4.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.533",
-      "1 (0)": "2.26",
-      "1 (-1)": "4.95",
-      "2 (-1)": "2.74",
-      "1 (+1)": "1.35",
-      "2 (+1)": "1.106",
-      "1 (-1.5)": "5.85",
-      "2 (-1.5)": "3.42",
-      "1 (+1.5)": "1.23",
-      "2 (+1.5)": "1.07"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Taian Tiankuang",
-    "equipe_2": "Ganzhou Ruishi",
-    "1X2": {
-      "V1": "1.4",
-      "X": "3.7",
-      "V2": "8.05"
-    },
-    "Total_2.5": {
-      "Plus de": "1.99",
-      "Moins de": "1.7"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T08:00:00+00:00",
-    "competition": "Championnat de Chine. Ligue 2",
-    "competition_en": "China. Second League",
-    "competition_id": 209499,
-    "equipe_1_en": "Taian Tiankuang",
-    "equipe_2_en": "Ganzhou Ruishi",
-    "Double_Chance": {
-      "1X": "1.01",
-      "12": "1.175",
-      "2X": "2.49"
-    },
-    "BTTS": {
-      "Non": "1.582",
-      "Oui": "2.18"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.7",
-        "Plus de": "1.99"
-      },
-      "1.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "2": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
-      },
-      "3": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      },
-      "3.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.51",
-      "1 (-1.5)": "2.26",
-      "1 (0)": "1.073",
-      "2 (0)": "5.75",
-      "1 (-1)": "1.72",
-      "2 (+1)": "1.95",
-      "1 (-2)": "3.5",
-      "2 (+2)": "1.22",
-      "1 (-2.5)": "4.3",
-      "2 (+2.5)": "1.146"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Altay II",
-    "equipe_2": "Okzhetpes II",
-    "1X2": {
-      "V2": "1.75",
-      "V1": "3.29",
-      "X": "4.28"
-    },
-    "Total_2.5": {
-      "Plus de": "1.28",
-      "Moins de": "3.23"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T08:00:00+00:00",
-    "competition": "Kazakhstan. Ligue 2",
-    "competition_en": "Kazakhstan. League 2",
-    "competition_id": 1217107,
-    "equipe_1_en": "Altay II",
-    "equipe_2_en": "Okzhetpes II",
-    "Double_Chance": {
-      "12": "1.12",
-      "2X": "1.23",
-      "1X": "1.84"
-    },
-    "BTTS": {
-      "Oui": "1.31",
-      "Non": "3.04"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.8",
-        "Moins de": "1.86"
-      },
-      "2.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.23"
-      },
-      "3": {
-        "Plus de": "1.42",
-        "Moins de": "2.56"
-      },
-      "4": {
-        "Plus de": "2.36",
-        "Moins de": "1.49"
-      },
-      "4.5": {
-        "Plus de": "2.93",
-        "Moins de": "1.33"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.41",
-      "1 (0)": "2.62",
-      "2 (-1)": "2.36",
-      "1 (+1)": "1.49",
-      "2 (-1.5)": "2.98",
-      "1 (+1.5)": "1.32"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Kuala Lumpur (jeunesse)",
-    "equipe_2": "Terenganu (Jeunesse)",
-    "1X2": {
-      "V2": "2.18",
-      "V1": "2.768",
-      "X": "3.46"
-    },
-    "Total_2.5": {
-      "Plus de": "1.952",
-      "Moins de": "1.727"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T08:45:00+00:00",
-    "competition": "Malaisie. Coupe du Président",
-    "competition_en": "Malaysian President's Cup",
-    "competition_id": 254925,
-    "equipe_1_en": "Kuala Lumpur (Youth)",
-    "equipe_2_en": "Terenganu (Youth)",
-    "Double_Chance": {
-      "12": "1.21",
-      "2X": "1.333",
-      "1X": "1.52"
-    },
-    "BTTS": {
-      "Oui": "1.77",
-      "Non": "1.902"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.727",
-        "Plus de": "1.952"
-      },
-      "1.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "2": {
-        "Plus de": "1.48",
-        "Moins de": "2.33"
-      },
-      "3": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
-      },
-      "3.5": {
-        "Plus de": "3.48",
-        "Moins de": "1.222"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.65",
-      "1 (0)": "2.05",
-      "1 (-1)": "4.9",
-      "2 (-1)": "3.48",
-      "1 (+1)": "1.222",
-      "2 (+1)": "1.11",
-      "1 (-1.5)": "5.8",
-      "2 (-1.5)": "4.4",
-      "1 (+1.5)": "1.14",
-      "2 (+1.5)": "1.071"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Urawa Red Diamonds",
-    "equipe_2": "RB Omiya Ardija",
-    "1X2": {
-      "V1": "1.72",
-      "X": "3.68",
-      "V2": "4.445"
-    },
-    "Total_2.5": {
-      "Plus de": "1.72",
-      "Moins de": "2.03"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Urawa Red Diamonds",
-    "equipe_2_en": "RB Omiya Ardija",
-    "Double_Chance": {
-      "1X": "1.162",
-      "12": "1.23",
-      "2X": "2.02"
-    },
-    "BTTS": {
-      "Oui": "1.666",
-      "Non": "2.08"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.72",
-        "Moins de": "2.03"
-      },
-      "1.5": {
-        "Plus de": "1.178",
-        "Moins de": "3.9"
-      },
-      "2": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "3": {
-        "Plus de": "2.14",
-        "Moins de": "1.57"
-      },
-      "3.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.33",
-      "1 (-1.5)": "2.83",
-      "1 (0)": "1.285",
-      "2 (0)": "3.34",
-      "1 (-1)": "2.21",
-      "2 (+1)": "1.533",
-      "1 (-2)": "4.9",
-      "2 (+2)": "1.11",
-      "1 (-2.5)": "5.75",
-      "2 (+2.5)": "1.074"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Mlada Boleslav II",
-    "equipe_2": "Varnsdorf",
-    "1X2": {
-      "V1": "1.82",
-      "V2": "3.325",
-      "X": "3.86"
-    },
-    "Total_2.5": {
-      "Plus de": "1.38",
-      "Moins de": "2.625"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Championnat de République tchèque. 3 Liga",
-    "competition_en": "Czech Republic. 3 Liga",
-    "competition_id": 40783,
-    "equipe_1_en": "Mlada Boleslav II",
-    "equipe_2_en": "Varnsdorf",
-    "Double_Chance": {
-      "12": "1.16",
-      "1X": "1.23",
-      "2X": "1.77"
-    },
-    "BTTS": {
-      "Oui": "1.39",
-      "Non": "2.694"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.68",
-        "Plus de": "2.02"
-      },
-      "2.5": {
-        "Plus de": "1.38",
-        "Moins de": "2.625"
-      },
-      "3": {
-        "Plus de": "1.59",
-        "Moins de": "2.1"
-      },
-      "4": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      },
-      "4.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.43",
-      "2 (0)": "2.53",
-      "1 (-1)": "2.42",
-      "2 (-1)": "5.7",
-      "1 (+1)": "1.075",
-      "2 (+1)": "1.444",
-      "1 (-1.5)": "3.04",
-      "2 (-1.5)": "6.55",
-      "1 (+1.5)": "1.05",
-      "2 (+1.5)": "1.29"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Kyzylzhar II",
-    "equipe_2": "Irtysh Pavlodar II",
-    "1X2": {
-      "V1": "1.95",
-      "V2": "2.825",
-      "X": "4.11"
-    },
-    "Total_2.5": {
-      "Plus de": "1.3",
-      "Moins de": "3.07"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Kazakhstan. Ligue 2",
-    "competition_en": "Kazakhstan. League 2",
-    "competition_id": 1217107,
-    "equipe_1_en": "Kyzylzhar II",
-    "equipe_2_en": "Irtysh Pavlodar II",
-    "Double_Chance": {
-      "12": "1.14",
-      "1X": "1.31",
-      "2X": "1.65"
-    },
-    "BTTS": {
-      "Oui": "1.31",
-      "Non": "3.02"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.79",
-        "Plus de": "1.87"
-      },
-      "2.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.07"
-      },
-      "3": {
-        "Plus de": "1.47",
-        "Moins de": "2.42"
-      },
-      "4": {
-        "Plus de": "2.49",
-        "Moins de": "1.45"
-      },
-      "4.5": {
-        "Plus de": "3.08",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.56",
-      "2 (0)": "2.22",
-      "1 (-1)": "2.82",
-      "2 (+1)": "1.35"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Talas Karatau",
-    "equipe_2": "Hromtau",
-    "1X2": {
-      "V2": "1.64",
-      "V1": "3.975",
-      "X": "4.01"
-    },
-    "Total_2.5": {
-      "Plus de": "1.51",
-      "Moins de": "2.31"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Kazakhstan. Ligue 2",
-    "competition_en": "Kazakhstan. League 2",
-    "competition_id": 1217107,
-    "equipe_1_en": "Talas Karatau",
-    "equipe_2_en": "Hromtau",
-    "Double_Chance": {
-      "12": "1.14",
-      "2X": "1.15",
-      "1X": "1.97"
-    },
-    "BTTS": {
-      "Oui": "1.53",
-      "Non": "2.27"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.51",
-        "Moins de": "2.31"
-      },
-      "2": {
-        "Plus de": "1.19",
-        "Moins de": "3.96"
-      },
-      "3": {
-        "Plus de": "1.87",
-        "Moins de": "1.79"
-      },
-      "3.5": {
-        "Plus de": "2.42",
-        "Moins de": "1.47"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.34",
-      "2 (-1.5)": "2.87",
-      "1 (0)": "3.09",
-      "2 (0)": "1.3",
-      "2 (-1)": "2.21",
-      "1 (+1)": "1.56"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "VPR Astana",
-    "equipe_2": "Ansat",
-    "1X2": {
-      "V1": "1.42",
-      "X": "4.85",
-      "V2": "4.97"
-    },
-    "Total_2.5": {
-      "Plus de": "1.25",
-      "Moins de": "3.44"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:00:00+00:00",
-    "competition": "Kazakhstan. Ligue 2",
-    "competition_en": "Kazakhstan. League 2",
-    "competition_id": 1217107,
-    "equipe_1_en": "VPR Astana",
-    "equipe_2_en": "Ansat",
-    "Double_Chance": {
-      "2X": "2.4"
-    },
-    "BTTS": {
-      "Oui": "1.35",
-      "Non": "2.84"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.73",
-        "Moins de": "1.95"
-      },
-      "2.5": {
         "Plus de": "1.25",
-        "Moins de": "3.44"
+        "Moins de": "3.28"
       },
       "3": {
-        "Plus de": "1.37",
-        "Moins de": "2.74"
-      },
-      "4": {
-        "Plus de": "2.21",
-        "Moins de": "1.56"
-      },
-      "4.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.37"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.57",
-      "1 (-1.5)": "2.2",
-      "1 (0)": "1.19",
-      "2 (0)": "3.97",
-      "1 (-1)": "1.73",
-      "2 (+1)": "1.94"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Avispa Fukuoka",
-    "equipe_2": "Yokohama",
-    "1X2": {
-      "V1": "2.21",
-      "X": "3.04",
-      "V2": "3.35"
-    },
-    "Total_2.5": {
-      "Plus de": "2.46",
-      "Moins de": "1.43"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:30:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Avispa Fukuoka",
-    "equipe_2_en": "Yokohama",
-    "Double_Chance": {
-      "1X": "1.28",
-      "12": "1.33",
-      "2X": "1.59"
-    },
-    "BTTS": {
-      "Non": "1.649",
-      "Oui": "2.11"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.51",
-        "Moins de": "2.43"
-      },
-      "0.5": {
-        "Plus de": "1.062",
-        "Moins de": "6.1"
-      },
-      "1": {
-        "Plus de": "1.113",
-        "Moins de": "4.9"
-      },
-      "2": {
-        "Plus de": "1.85",
-        "Moins de": "1.78"
-      },
-      "2.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.43"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.54",
-      "2 (0)": "2.33",
-      "1 (-1)": "3.48",
-      "2 (-1)": "6.5",
-      "1 (+1)": "1.051",
-      "2 (+1)": "1.222",
-      "1 (-1.5)": "4.45",
-      "2 (-1.5)": "7.5",
-      "1 (+1.5)": "1.029",
-      "2 (+1.5)": "1.137"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Cerezo Osaka",
-    "equipe_2": "Kagoshima United",
-    "1X2": {
-      "V1": "1.44",
-      "X": "4.4",
-      "V2": "6.33"
-    },
-    "Total_2.5": {
-      "Plus de": "1.67",
-      "Moins de": "2.11"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T09:30:00+00:00",
-    "competition": "Japon. Coupe de l'Empereur",
-    "competition_en": "Japan. Emperors Cup",
-    "competition_id": 102647,
-    "equipe_1_en": "Cerezo Osaka",
-    "equipe_2_en": "Kagoshima United",
-    "Double_Chance": {
-      "1X": "1.081",
-      "12": "1.165",
-      "2X": "2.59"
-    },
-    "BTTS": {
-      "Oui": "1.82",
-      "Non": "1.884"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.67",
-        "Moins de": "2.11"
-      },
-      "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "3.98"
-      },
-      "2": {
-        "Plus de": "1.27",
-        "Moins de": "3.16"
-      },
-      "3": {
-        "Plus de": "2.07",
-        "Moins de": "1.61"
+        "Plus de": "1.98",
+        "Moins de": "1.666"
       },
       "3.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
+        "Plus de": "2.49",
+        "Moins de": "1.42"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.54",
-      "1 (-1.5)": "2.19",
-      "1 (0)": "1.118",
-      "2 (0)": "4.75",
-      "1 (-1)": "1.72",
-      "2 (+1)": "2.02",
+      "2 (+1.5)": "1.53",
+      "1 (-1.5)": "2.21",
+      "1 (0)": "1.144",
+      "2 (0)": "4.33",
+      "1 (-1)": "1.74",
+      "2 (+1)": "1.93",
       "1 (-2)": "3.28",
       "2 (+2)": "1.25",
       "1 (-2.5)": "3.98",
@@ -1513,19 +683,151 @@
   },
   {
     "bookmaker": "megapari",
+    "equipe_1": "Avispa Fukuoka",
+    "equipe_2": "Yokohama",
+    "1X2": {
+      "V1": "2.25",
+      "X": "3.02",
+      "V2": "3.29"
+    },
+    "Total_2.5": {
+      "Plus de": "2.375",
+      "Moins de": "1.46"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T09:30:00+00:00",
+    "competition": "Japon. Coupe de l'Empereur",
+    "competition_en": "Japan. Emperors Cup",
+    "competition_id": 102647,
+    "equipe_1_en": "Avispa Fukuoka",
+    "equipe_2_en": "Yokohama",
+    "Double_Chance": {
+      "1X": "1.285",
+      "12": "1.33",
+      "2X": "1.57"
+    },
+    "BTTS": {
+      "Non": "1.68",
+      "Oui": "2.06"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.46",
+        "Plus de": "2.375"
+      },
+      "1.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.48"
+      },
+      "2": {
+        "Plus de": "1.81",
+        "Moins de": "1.82"
+      },
+      "3": {
+        "Plus de": "3.82",
+        "Moins de": "1.186"
+      },
+      "3.5": {
+        "Plus de": "4.55",
+        "Moins de": "1.129"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.57",
+      "2 (0)": "2.27",
+      "1 (-1)": "3.5",
+      "2 (-1)": "6.2",
+      "1 (+1)": "1.059",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.5",
+      "2 (-1.5)": "7.2",
+      "1 (+1.5)": "1.035",
+      "2 (+1.5)": "1.134"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Cerezo Osaka",
+    "equipe_2": "Kagoshima United",
+    "1X2": {
+      "V1": "1.41",
+      "X": "4.6",
+      "V2": "6.52"
+    },
+    "Total_2.5": {
+      "Plus de": "1.58",
+      "Moins de": "2.27"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T09:30:00+00:00",
+    "competition": "Japon. Coupe de l'Empereur",
+    "competition_en": "Japan. Emperors Cup",
+    "competition_id": 102647,
+    "equipe_1_en": "Cerezo Osaka",
+    "equipe_2_en": "Kagoshima United",
+    "Double_Chance": {
+      "1X": "1.075",
+      "12": "1.152",
+      "2X": "2.7"
+    },
+    "BTTS": {
+      "Oui": "1.75",
+      "Non": "1.966"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.58",
+        "Moins de": "2.27"
+      },
+      "1.5": {
+        "Plus de": "1.139",
+        "Moins de": "4.4"
+      },
+      "2": {
+        "Plus de": "1.22",
+        "Moins de": "3.52"
+      },
+      "3": {
+        "Plus de": "1.89",
+        "Moins de": "1.74"
+      },
+      "3.5": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.6",
+      "1 (-1.5)": "2.08",
+      "1 (0)": "1.107",
+      "2 (0)": "4.95",
+      "1 (-1)": "1.65",
+      "2 (+1)": "2.12",
+      "1 (-2)": "2.97",
+      "2 (+2)": "1.3",
+      "1 (-2.5)": "3.68",
+      "2 (+2.5)": "1.2"
+    }
+  },
+  {
+    "bookmaker": "megapari",
     "equipe_1": "Sanfrecce Hiroshima",
     "equipe_2": "Iwaki",
     "1X2": {
-      "V1": "1.25",
-      "X": "5.55",
-      "V2": "10"
+      "V1": "1.194",
+      "X": "6.45",
+      "V2": "11.4"
     },
     "Total_2.5": {
-      "Plus de": "1.43",
-      "Moins de": "2.46"
+      "Plus de": "1.35",
+      "Moins de": "2.74"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:30:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1534,47 +836,47 @@
     "equipe_1_en": "Sanfrecce Hiroshima",
     "equipe_2_en": "Iwaki",
     "Double_Chance": {
-      "1X": "1.015",
-      "12": "1.105",
-      "2X": "3.6"
+      "1X": "1.002",
+      "12": "1.075",
+      "2X": "4.2"
     },
     "BTTS": {
-      "Oui": "1.85",
-      "Non": "1.854"
+      "Oui": "1.84",
+      "Non": "1.864"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.64",
-        "Plus de": "2.16"
+        "Moins de": "1.77",
+        "Plus de": "1.97"
       },
       "2.5": {
-        "Plus de": "1.43",
-        "Moins de": "2.46"
+        "Plus de": "1.35",
+        "Moins de": "2.74"
       },
       "3": {
-        "Plus de": "1.67",
-        "Moins de": "1.98"
+        "Plus de": "1.533",
+        "Moins de": "2.22"
       },
       "4": {
-        "Plus de": "2.89",
-        "Moins de": "1.32"
+        "Plus de": "2.54",
+        "Moins de": "1.41"
       },
       "4.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
+        "Plus de": "3.05",
+        "Moins de": "1.285"
       }
     },
     "Handicap": {
-      "1 (-1.5)": "1.727",
-      "2 (+1.5)": "2.01",
-      "1 (0)": "1.026",
-      "2 (0)": "7.7",
-      "1 (-1)": "1.33",
-      "2 (+1)": "2.83",
-      "1 (-2)": "2.14",
-      "2 (+2)": "1.57",
-      "1 (-2.5)": "2.625",
-      "2 (+2.5)": "1.38"
+      "1 (-1.5)": "1.6",
+      "2 (+1.5)": "2.21",
+      "1 (0)": "1.009",
+      "2 (0)": "8.7",
+      "1 (-1)": "1.25",
+      "2 (+1)": "3.28",
+      "1 (-2)": "1.9",
+      "2 (+2)": "1.727",
+      "1 (-2.5)": "2.35",
+      "2 (+2.5)": "1.47"
     }
   },
   {
@@ -1582,16 +884,16 @@
     "equipe_1": "Fagiano Okayama",
     "equipe_2": "JEF United Ichihara Chiba",
     "1X2": {
-      "V1": "1.66",
-      "X": "3.76",
-      "V2": "4.735"
+      "V1": "1.96",
+      "X": "3.32",
+      "V2": "3.72"
     },
     "Total_2.5": {
-      "Plus de": "1.89",
-      "Moins de": "1.833"
+      "Plus de": "1.94",
+      "Moins de": "1.79"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1600,47 +902,47 @@
     "equipe_1_en": "Fagiano Okayama",
     "equipe_2_en": "JEF United Ichihara Chiba",
     "Double_Chance": {
-      "1X": "1.143",
-      "12": "1.22",
-      "2X": "2.11"
+      "1X": "1.23",
+      "12": "1.28",
+      "2X": "1.76"
     },
     "BTTS": {
-      "Oui": "1.85",
-      "Non": "1.854"
+      "Oui": "1.78",
+      "Non": "1.926"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.833",
-        "Plus de": "1.89"
+        "Moins de": "1.79",
+        "Plus de": "1.94"
       },
       "1.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.2"
+        "Plus de": "1.28",
+        "Moins de": "3.08"
       },
       "2": {
-        "Plus de": "1.41",
-        "Moins de": "2.54"
+        "Plus de": "1.45",
+        "Moins de": "2.42"
       },
       "3": {
-        "Plus de": "2.5",
-        "Moins de": "1.42"
+        "Plus de": "2.6",
+        "Moins de": "1.39"
       },
       "3.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
+        "Plus de": "3.2",
+        "Moins de": "1.26"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.35",
-      "1 (-1.5)": "2.74",
-      "1 (0)": "1.23",
-      "2 (0)": "3.42",
-      "1 (-1)": "2.15",
-      "2 (+1)": "1.63",
-      "1 (-2)": "4.65",
-      "2 (+2)": "1.125",
-      "1 (-2.5)": "5.35",
-      "2 (+2.5)": "1.088"
+      "1 (0)": "1.39",
+      "2 (0)": "2.59",
+      "1 (-1)": "2.79",
+      "2 (-1)": "6.85",
+      "1 (+1)": "1.042",
+      "2 (+1)": "1.39",
+      "1 (-1.5)": "3.42",
+      "2 (-1.5)": "7.7",
+      "1 (+1.5)": "1.025",
+      "2 (+1.5)": "1.23"
     }
   },
   {
@@ -1648,16 +950,16 @@
     "equipe_1": "Gainare Tottori",
     "equipe_2": "Tokyo Verdy",
     "1X2": {
-      "V2": "1.4",
-      "X": "4.6",
-      "V1": "6.77"
+      "V2": "1.41",
+      "X": "4.55",
+      "V1": "6.63"
     },
     "Total_2.5": {
-      "Plus de": "1.666",
-      "Moins de": "2.11"
+      "Plus de": "1.66",
+      "Moins de": "2.12"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1666,47 +968,47 @@
     "equipe_1_en": "Gainare Tottori",
     "equipe_2_en": "Tokyo Verdy",
     "Double_Chance": {
-      "2X": "1.068",
-      "12": "1.152",
-      "1X": "2.74"
+      "2X": "1.072",
+      "12": "1.155",
+      "1X": "2.7"
     },
     "BTTS": {
-      "Oui": "1.85",
-      "Non": "1.854"
+      "Oui": "1.83",
+      "Non": "1.874"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.666",
-        "Moins de": "2.11"
+        "Plus de": "1.66",
+        "Moins de": "2.12"
       },
       "1.5": {
-        "Plus de": "1.168",
-        "Moins de": "4"
+        "Plus de": "1.164",
+        "Moins de": "4.05"
       },
       "2": {
-        "Plus de": "1.27",
-        "Moins de": "3.16"
+        "Plus de": "1.26",
+        "Moins de": "3.22"
       },
       "3": {
-        "Plus de": "2.07",
-        "Moins de": "1.615"
+        "Plus de": "2.04",
+        "Moins de": "1.63"
       },
       "3.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
+        "Plus de": "2.56",
+        "Moins de": "1.4"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.59",
-      "2 (-1.5)": "2.1",
-      "1 (0)": "5.15",
-      "2 (0)": "1.098",
-      "2 (-1)": "1.64",
-      "1 (+1)": "2.14",
-      "2 (-2)": "3.08",
-      "1 (+2)": "1.28",
-      "2 (-2.5)": "3.78",
-      "1 (+2.5)": "1.189"
+      "1 (+1.5)": "1.58",
+      "2 (-1.5)": "2.12",
+      "1 (0)": "4.95",
+      "2 (0)": "1.106",
+      "2 (-1)": "1.666",
+      "1 (+1)": "2.09",
+      "2 (-2)": "3.14",
+      "1 (+2)": "1.27",
+      "2 (-2.5)": "3.84",
+      "1 (+2.5)": "1.184"
     }
   },
   {
@@ -1714,16 +1016,16 @@
     "equipe_1": "Kawasaki Frontale",
     "equipe_2": "Tegevajaro Miyazaki",
     "1X2": {
-      "V1": "1.57",
-      "X": "4.05",
-      "V2": "5.11"
+      "V1": "1.32",
+      "X": "5.1",
+      "V2": "7.95"
     },
     "Total_2.5": {
-      "Plus de": "1.61",
-      "Moins de": "2.21"
+      "Plus de": "1.41",
+      "Moins de": "2.52"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1732,47 +1034,47 @@
     "equipe_1_en": "Kawasaki Frontale",
     "equipe_2_en": "Tegevajaro Miyazaki",
     "Double_Chance": {
-      "1X": "1.122",
-      "12": "1.193",
-      "2X": "2.28"
+      "1X": "1.043",
+      "12": "1.125",
+      "2X": "3.125"
     },
     "BTTS": {
-      "Oui": "1.66",
-      "Non": "2.09"
+      "Oui": "1.69",
+      "Non": "2.049"
     },
     "Totals": {
+      "3.5": {
+        "Moins de": "1.666",
+        "Plus de": "2.11"
+      },
       "2.5": {
-        "Plus de": "1.61",
-        "Moins de": "2.21"
-      },
-      "1.5": {
-        "Plus de": "1.149",
-        "Moins de": "4.25"
-      },
-      "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.36"
+        "Plus de": "1.41",
+        "Moins de": "2.52"
       },
       "3": {
-        "Plus de": "1.94",
-        "Moins de": "1.7"
+        "Plus de": "1.64",
+        "Moins de": "2.03"
       },
-      "3.5": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
+      "4": {
+        "Plus de": "2.83",
+        "Moins de": "1.333"
+      },
+      "4.5": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.444",
-      "1 (-1.5)": "2.42",
-      "1 (0)": "1.182",
-      "2 (0)": "3.85",
-      "1 (-1)": "1.92",
-      "2 (+1)": "1.8",
-      "1 (-2)": "3.75",
-      "2 (+2)": "1.192",
-      "1 (-2.5)": "4.45",
-      "2 (+2.5)": "1.135"
+      "2 (+1.5)": "1.78",
+      "1 (-1.5)": "1.84",
+      "1 (0)": "1.065",
+      "2 (0)": "6",
+      "1 (-1)": "1.48",
+      "2 (+1)": "2.49",
+      "1 (-2)": "2.43",
+      "2 (+2)": "1.44",
+      "1 (-2.5)": "2.97",
+      "2 (+2.5)": "1.3"
     }
   },
   {
@@ -1780,16 +1082,16 @@
     "equipe_1": "Shimizu S-Pulse",
     "equipe_2": "V-Varen Nagasaki",
     "1X2": {
-      "V1": "2.1",
-      "X": "3.28",
+      "V1": "2.17",
+      "X": "3.125",
       "V2": "3.345"
     },
     "Total_2.5": {
-      "Plus de": "1.99",
-      "Moins de": "1.75"
+      "Plus de": "2.21",
+      "Moins de": "1.61"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1799,46 +1101,46 @@
     "equipe_2_en": "V-Varen Nagasaki",
     "Double_Chance": {
       "1X": "1.28",
-      "12": "1.285",
-      "2X": "1.66"
+      "12": "1.31",
+      "2X": "1.615"
     },
     "BTTS": {
-      "Oui": "1.79",
-      "Non": "1.916"
+      "Non": "1.803",
+      "Oui": "1.9"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.75",
-        "Plus de": "1.99"
+        "Moins de": "1.61",
+        "Plus de": "2.21"
       },
       "1.5": {
-        "Plus de": "1.285",
-        "Moins de": "3.05"
+        "Plus de": "1.35",
+        "Moins de": "2.74"
       },
       "2": {
-        "Plus de": "1.48",
-        "Moins de": "2.34"
+        "Plus de": "1.61",
+        "Moins de": "2.07"
       },
       "3": {
-        "Plus de": "2.76",
-        "Moins de": "1.35"
+        "Plus de": "3.16",
+        "Moins de": "1.27"
       },
       "3.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.24"
+        "Plus de": "3.94",
+        "Moins de": "1.174"
       }
     },
     "Handicap": {
-      "1 (0)": "1.51",
-      "2 (0)": "2.41",
-      "1 (-1)": "3.08",
-      "2 (-1)": "6.25",
-      "1 (+1)": "1.057",
-      "2 (+1)": "1.28",
-      "1 (-1.5)": "3.92",
-      "2 (-1.5)": "7.3",
-      "1 (+1.5)": "1.033",
-      "2 (+1.5)": "1.175"
+      "1 (0)": "1.53",
+      "2 (0)": "2.36",
+      "1 (-1)": "3.28",
+      "2 (-1)": "6.4",
+      "1 (+1)": "1.053",
+      "2 (+1)": "1.25",
+      "1 (-1.5)": "4.2",
+      "2 (-1.5)": "7.5",
+      "1 (+1.5)": "1.029",
+      "2 (+1.5)": "1.152"
     }
   },
   {
@@ -1846,16 +1148,16 @@
     "equipe_1": "Tokyo",
     "equipe_2": "Shonan Bellmare",
     "1X2": {
-      "V1": "1.48",
-      "X": "4.15",
-      "V2": "6.13"
+      "V1": "1.41",
+      "X": "4.33",
+      "V2": "7.18"
     },
     "Total_2.5": {
-      "Plus de": "1.77",
-      "Moins de": "1.97"
+      "Plus de": "1.79",
+      "Moins de": "1.94"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1864,47 +1166,47 @@
     "equipe_1_en": "Tokyo",
     "equipe_2_en": "Shonan Bellmare",
     "Double_Chance": {
-      "1X": "1.087",
-      "12": "1.184",
-      "2X": "2.47"
+      "1X": "1.059",
+      "12": "1.17",
+      "2X": "2.7"
     },
     "BTTS": {
-      "Non": "1.843",
-      "Oui": "1.86"
+      "Non": "1.74",
+      "Oui": "1.98"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.77",
-        "Moins de": "1.97"
+        "Plus de": "1.79",
+        "Moins de": "1.94"
       },
       "1.5": {
-        "Plus de": "1.21",
-        "Moins de": "3.58"
+        "Plus de": "1.22",
+        "Moins de": "3.5"
       },
       "2": {
-        "Plus de": "1.33",
-        "Moins de": "2.84"
+        "Plus de": "1.35",
+        "Moins de": "2.76"
       },
       "3": {
-        "Plus de": "2.22",
-        "Moins de": "1.53"
+        "Plus de": "2.27",
+        "Moins de": "1.51"
       },
       "3.5": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.5",
-      "1 (-1.5)": "2.28",
-      "1 (0)": "1.135",
-      "2 (0)": "4.45",
-      "1 (-1)": "1.79",
-      "2 (+1)": "1.93",
-      "1 (-2)": "3.42",
-      "2 (+2)": "1.23",
-      "1 (-2.5)": "4.15",
-      "2 (+2.5)": "1.156"
+      "2 (+1.5)": "1.58",
+      "1 (-1.5)": "2.12",
+      "1 (0)": "1.095",
+      "2 (0)": "5.2",
+      "1 (-1)": "1.66",
+      "2 (+1)": "2.1",
+      "1 (-2)": "3.08",
+      "2 (+2)": "1.28",
+      "1 (-2.5)": "3.78",
+      "2 (+2.5)": "1.189"
     }
   },
   {
@@ -1921,7 +1223,7 @@
       "Moins de": "1.82"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat d'Espagne. Deuxième division RFEF. Groupe 5",
@@ -1975,19 +1277,123 @@
   },
   {
     "bookmaker": "megapari",
+    "equipe_1": "Gangjin Swans (Femmes)",
+    "equipe_2": "Suwon (Femmes)",
+    "1X2": {
+      "V2": "1.37",
+      "X": "4.59",
+      "V1": "6.22"
+    },
+    "Total_2.5": {
+      "Plus de": "1.51",
+      "Moins de": "2.31"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat de Corée du Sud. Femmes",
+    "competition_en": "South Korea. WK-League",
+    "competition_id": 38937,
+    "equipe_1_en": "Gangjin Swans (Women)",
+    "equipe_2_en": "Suwon (Women)",
+    "Double_Chance": {
+      "2X": "1.05",
+      "12": "1.1",
+      "1X": "2.59"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.51",
+        "Moins de": "2.31"
+      },
+      "2": {
+        "Plus de": "1.19",
+        "Moins de": "3.95"
+      },
+      "3": {
+        "Plus de": "1.87",
+        "Moins de": "1.79"
+      },
+      "3.5": {
+        "Plus de": "2.42",
+        "Moins de": "1.47"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.57",
+      "2 (-1.5)": "2.18",
+      "2 (-1)": "1.67",
+      "1 (+1)": "2.03"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Gyeongju (Femmes)",
+    "equipe_2": "Hwacheon KSPO (Femmes)",
+    "1X2": {
+      "V2": "1.86",
+      "X": "3.32",
+      "V1": "3.705"
+    },
+    "Total_2.5": {
+      "Plus de": "2.15",
+      "Moins de": "1.59"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat de Corée du Sud. Femmes",
+    "competition_en": "South Korea. WK-League",
+    "competition_id": 38937,
+    "equipe_1_en": "Gyeongju (Women)",
+    "equipe_2_en": "Hwacheon KSPO (Women)",
+    "Double_Chance": {
+      "2X": "1.18",
+      "12": "1.22",
+      "1X": "1.73"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.59",
+        "Plus de": "2.15"
+      },
+      "1.5": {
+        "Plus de": "1.33",
+        "Moins de": "2.93"
+      },
+      "2": {
+        "Plus de": "1.59",
+        "Moins de": "2.16"
+      },
+      "3": {
+        "Plus de": "3.36",
+        "Moins de": "1.26"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.38",
+      "1 (0)": "2.71",
+      "2 (-1)": "2.89",
+      "1 (+1)": "1.34"
+    }
+  },
+  {
+    "bookmaker": "megapari",
     "equipe_1": "Sejong Sportstoto (Femmes)",
     "equipe_2": "Hyundai Steel Red Angels (Femmes)",
     "1X2": {
-      "V1": "2.26",
-      "V2": "2.954",
-      "X": "3.05"
+      "V1": "2.03",
+      "X": "3.2",
+      "V2": "3.285"
     },
     "Total_2.5": {
-      "Plus de": "2.18",
-      "Moins de": "1.58"
+      "Plus de": "1.99",
+      "Moins de": "1.7"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat de Corée du Sud. Femmes",
@@ -1996,43 +1402,43 @@
     "equipe_1_en": "Sejong Sportstoto (Women)",
     "equipe_2_en": "Hyundai Steel Red Angels (Women)",
     "Double_Chance": {
-      "12": "1.26",
-      "1X": "1.3",
-      "2X": "1.49"
+      "1X": "1.24",
+      "12": "1.24",
+      "2X": "1.61"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.58",
-        "Plus de": "2.18"
+        "Moins de": "1.7",
+        "Plus de": "1.99"
       },
       "1.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
+        "Plus de": "1.285",
+        "Moins de": "3.05"
       },
       "2": {
-        "Plus de": "1.61",
-        "Moins de": "2.07"
+        "Plus de": "1.49",
+        "Moins de": "2.3"
       },
       "3": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       },
       "3.5": {
-        "Plus de": "4.1",
-        "Moins de": "1.162"
+        "Plus de": "3.5",
+        "Moins de": "1.22"
       }
     },
     "Handicap": {
-      "1 (0)": "1.63",
-      "2 (0)": "2.08",
-      "1 (-1)": "3.86",
-      "2 (-1)": "5.7",
-      "1 (+1)": "1.076",
-      "2 (+1)": "1.181",
-      "1 (-1.5)": "4.9",
-      "2 (-1.5)": "6.85",
-      "1 (+1.5)": "1.042",
-      "2 (+1.5)": "1.11"
+      "1 (0)": "1.49",
+      "2 (0)": "2.36",
+      "1 (-1)": "3.14",
+      "2 (-1)": "6.55",
+      "1 (+1)": "1.05",
+      "2 (+1)": "1.27",
+      "1 (-1.5)": "4.1",
+      "2 (-1.5)": "7.7",
+      "1 (+1.5)": "1.025",
+      "2 (+1.5)": "1.163"
     }
   },
   {
@@ -2049,7 +1455,7 @@
       "Moins de": "1.84"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat de Corée du Sud. Femmes",
@@ -2111,7 +1517,7 @@
       "Moins de": "3.07"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -2173,7 +1579,7 @@
       "Moins de": "3.76"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -2219,19 +1625,147 @@
   },
   {
     "bookmaker": "megapari",
+    "equipe_1": "Stride Sports",
+    "equipe_2": "SC Bengaluru",
+    "1X2": {
+      "V2": "2.04",
+      "V1": "2.92",
+      "X": "3.62"
+    },
+    "Total_2.5": {
+      "Plus de": "1.54",
+      "Moins de": "2.27"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:30:00+00:00",
+    "competition": "Championnat d'Inde. Bangalore. Super Division",
+    "competition_en": "India. Bangalore. Super Division",
+    "competition_id": 330475,
+    "equipe_1_en": "Stride Sports",
+    "equipe_2_en": "SC Bengaluru",
+    "Double_Chance": {
+      "12": "1.183",
+      "2X": "1.3",
+      "1X": "1.6"
+    },
+    "BTTS": {
+      "Oui": "1.48",
+      "Non": "2.411"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.54",
+        "Moins de": "2.27"
+      },
+      "1.5": {
+        "Plus de": "1.139",
+        "Moins de": "4.4"
+      },
+      "2": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
+      },
+      "3": {
+        "Plus de": "1.85",
+        "Moins de": "1.77"
+      },
+      "3.5": {
+        "Plus de": "2.33",
+        "Moins de": "1.48"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.57",
+      "1 (0)": "2.19",
+      "1 (-1)": "4.8",
+      "2 (-1)": "2.92",
+      "1 (+1)": "1.31",
+      "2 (+1)": "1.115",
+      "1 (-1.5)": "5.55",
+      "2 (-1.5)": "3.58",
+      "1 (+1.5)": "1.21",
+      "2 (+1.5)": "1.08"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Adanaspor",
+    "equipe_2": "Adana Adaletgucu",
+    "1X2": {
+      "V2": "1.76",
+      "V1": "3.23",
+      "X": "4.3"
+    },
+    "Total_2.5": {
+      "Plus de": "1.26",
+      "Moins de": "3.34"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Adanaspor",
+    "equipe_2_en": "Adana Adaletgucu",
+    "Double_Chance": {
+      "12": "1.12",
+      "2X": "1.24",
+      "1X": "1.82"
+    },
+    "BTTS": {
+      "Oui": "1.29",
+      "Non": "3.14"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.76",
+        "Moins de": "1.91"
+      },
+      "2.5": {
+        "Plus de": "1.26",
+        "Moins de": "3.34"
+      },
+      "3": {
+        "Plus de": "1.4",
+        "Moins de": "2.66"
+      },
+      "4": {
+        "Plus de": "2.28",
+        "Moins de": "1.53"
+      },
+      "4.5": {
+        "Plus de": "2.83",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.42",
+      "1 (0)": "2.57",
+      "2 (-1)": "2.39",
+      "1 (+1)": "1.48",
+      "2 (-1.5)": "3",
+      "1 (+1.5)": "1.32"
+    }
+  },
+  {
+    "bookmaker": "megapari",
     "equipe_1": "Hatayspor",
     "equipe_2": "Karakopru Belediyespor",
     "1X2": {
-      "V2": "1.64",
-      "X": "3.98",
-      "V1": "4.585"
+      "V2": "1.67",
+      "X": "4.05",
+      "V1": "4.29"
     },
     "Total_2.5": {
-      "Plus de": "1.7",
-      "Moins de": "2.06"
+      "Plus de": "1.71",
+      "Moins de": "2.05"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2240,9 +1774,9 @@
     "equipe_1_en": "Hatayspor",
     "equipe_2_en": "Karakopru Belediyespor",
     "Double_Chance": {
-      "2X": "1.152",
-      "12": "1.2",
-      "1X": "2.14"
+      "2X": "1.173",
+      "12": "1.193",
+      "1X": "2.09"
     },
     "BTTS": {
       "Oui": "1.69",
@@ -2250,37 +1784,151 @@
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.7",
-        "Moins de": "2.06"
+        "Plus de": "1.71",
+        "Moins de": "2.05"
       },
       "1.5": {
-        "Plus de": "1.173",
-        "Moins de": "3.95"
+        "Plus de": "1.174",
+        "Moins de": "3.94"
       },
       "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.1"
+        "Plus de": "1.285",
+        "Moins de": "3.08"
       },
       "3": {
-        "Plus de": "2.14",
-        "Moins de": "1.57"
+        "Plus de": "2.16",
+        "Moins de": "1.56"
       },
       "3.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
+        "Plus de": "2.74",
+        "Moins de": "1.35"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.36",
-      "2 (-1.5)": "2.7",
-      "1 (0)": "3.42",
-      "2 (0)": "1.23",
-      "2 (-1)": "2.12",
-      "1 (+1)": "1.65",
-      "2 (-2)": "4.6",
-      "1 (+2)": "1.126",
-      "2 (-2.5)": "5.45",
-      "1 (+2.5)": "1.085"
+      "1 (+1.5)": "1.333",
+      "2 (-1.5)": "2.81",
+      "1 (0)": "3.2",
+      "2 (0)": "1.26",
+      "2 (-1)": "2.19",
+      "1 (+1)": "1.61",
+      "2 (-2)": "4.9",
+      "1 (+2)": "1.111",
+      "2 (-2.5)": "5.75",
+      "1 (+2.5)": "1.073"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Kars 36 Spor",
+    "equipe_2": "Fatsa Belediyespor",
+    "1X2": {
+      "V2": "1.17",
+      "X": "5.91",
+      "V1": "11.8"
+    },
+    "Total_2.5": {
+      "Plus de": "1.48",
+      "Moins de": "2.39"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Kars 36 Spor",
+    "equipe_2_en": "Fatsa Belediyespor",
+    "Double_Chance": {
+      "2X": "1.001",
+      "12": "1.05",
+      "1X": "3.85"
+    },
+    "BTTS": {
+      "Non": "1.69",
+      "Oui": "1.99"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.51",
+        "Plus de": "2.33"
+      },
+      "2.5": {
+        "Plus de": "1.48",
+        "Moins de": "2.39"
+      },
+      "3": {
+        "Plus de": "1.81",
+        "Moins de": "1.85"
+      },
+      "4": {
+        "Plus de": "3.51",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (-1.5)": "1.68",
+      "1 (+1.5)": "2.02",
+      "2 (-1)": "1.3",
+      "1 (+1)": "3.07",
+      "2 (-2)": "2.19",
+      "1 (+2)": "1.57"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Mazidagi Fosfat Spor",
+    "equipe_2": "Kirsehirspor",
+    "1X2": {
+      "V1": "2.01",
+      "V2": "2.985",
+      "X": "3.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.67",
+      "Moins de": "2.03"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Mazidagi Fosfat Spor",
+    "equipe_2_en": "Kirsehirspor",
+    "Double_Chance": {
+      "12": "1.18",
+      "1X": "1.28",
+      "2X": "1.61"
+    },
+    "BTTS": {
+      "Oui": "1.58",
+      "Non": "2.17"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.67",
+        "Moins de": "2.03"
+      },
+      "2": {
+        "Plus de": "1.28",
+        "Moins de": "3.21"
+      },
+      "3": {
+        "Plus de": "2.2",
+        "Moins de": "1.57"
+      },
+      "3.5": {
+        "Plus de": "2.83",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.54",
+      "2 (0)": "2.25",
+      "1 (-1)": "3.13",
+      "2 (+1)": "1.29"
     }
   },
   {
@@ -2288,16 +1936,16 @@
     "equipe_1": "Nigde Beledi̇ye Spor",
     "equipe_2": "Agri 1970 Spor",
     "1X2": {
-      "V1": "1.82",
-      "X": "3.28",
+      "V1": "1.77",
+      "X": "3.44",
       "V2": "4.46"
     },
     "Total_2.5": {
-      "Plus de": "2.11",
-      "Moins de": "1.666"
+      "Plus de": "1.909",
+      "Moins de": "1.82"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2307,46 +1955,46 @@
     "equipe_2_en": "Agri 1970 Spor",
     "Double_Chance": {
       "1X": "1.162",
-      "12": "1.285",
-      "2X": "1.89"
+      "12": "1.26",
+      "2X": "1.95"
     },
     "BTTS": {
-      "Non": "1.781",
-      "Oui": "1.93"
+      "Oui": "1.81",
+      "Non": "1.895"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.666",
-        "Plus de": "2.11"
+        "Moins de": "1.82",
+        "Plus de": "1.909"
       },
       "1.5": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
+        "Plus de": "1.25",
+        "Moins de": "3.28"
       },
       "2": {
-        "Plus de": "1.54",
-        "Moins de": "2.2"
+        "Plus de": "1.41",
+        "Moins de": "2.54"
       },
       "3": {
-        "Plus de": "2.99",
-        "Moins de": "1.3"
+        "Plus de": "2.54",
+        "Moins de": "1.41"
       },
       "3.5": {
-        "Plus de": "3.72",
-        "Moins de": "1.196"
+        "Plus de": "3.14",
+        "Moins de": "1.27"
       }
     },
     "Handicap": {
-      "1 (0)": "1.28",
-      "2 (0)": "3.08",
-      "1 (-1)": "2.54",
-      "2 (-1)": "8.2",
-      "1 (+1)": "1.03",
-      "2 (+1)": "1.46",
-      "1 (-1.5)": "3.2",
-      "2 (-1.5)": "9.3",
-      "1 (+1.5)": "1.02",
-      "2 (+1.5)": "1.26"
+      "2 (+1.5)": "1.285",
+      "1 (-1.5)": "3.05",
+      "1 (0)": "1.27",
+      "2 (0)": "3.14",
+      "1 (-1)": "2.41",
+      "2 (+1)": "1.51",
+      "1 (-2)": "5.45",
+      "2 (+2)": "1.084",
+      "1 (-2.5)": "6.4",
+      "2 (+2.5)": "1.054"
     }
   },
   {
@@ -2354,16 +2002,16 @@
     "equipe_1": "Pazarspor",
     "equipe_2": "Erbaaspor",
     "1X2": {
-      "V2": "2.05",
-      "V1": "3.055",
-      "X": "3.78"
+      "V2": "2.07",
+      "V1": "3.1",
+      "X": "3.65"
     },
     "Total_2.5": {
-      "Plus de": "1.63",
-      "Moins de": "2.17"
+      "Plus de": "1.69",
+      "Moins de": "2.08"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2372,47 +2020,47 @@
     "equipe_1_en": "Pazarspor",
     "equipe_2_en": "Erbaaspor",
     "Double_Chance": {
-      "12": "1.22",
-      "2X": "1.33",
-      "1X": "1.69"
+      "12": "1.24",
+      "2X": "1.32",
+      "1X": "1.68"
     },
     "BTTS": {
-      "Oui": "1.54",
-      "Non": "2.317"
+      "Oui": "1.58",
+      "Non": "2.234"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.17"
+        "Plus de": "1.69",
+        "Moins de": "2.08"
       },
       "1.5": {
-        "Plus de": "1.148",
-        "Moins de": "4.3"
+        "Plus de": "1.168",
+        "Moins de": "4"
       },
       "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.36"
+        "Plus de": "1.28",
+        "Moins de": "3.1"
       },
       "3": {
-        "Plus de": "2",
-        "Moins de": "1.66"
+        "Plus de": "2.13",
+        "Moins de": "1.58"
       },
       "3.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
+        "Plus de": "2.7",
+        "Moins de": "1.36"
       }
     },
     "Handicap": {
       "2 (0)": "1.55",
       "1 (0)": "2.31",
-      "1 (-1)": "5.45",
-      "2 (-1)": "2.92",
-      "1 (+1)": "1.31",
-      "2 (+1)": "1.084",
-      "1 (-1.5)": "6.5",
-      "2 (-1.5)": "3.74",
-      "1 (+1.5)": "1.194",
-      "2 (+1.5)": "1.051"
+      "1 (-1)": "5.55",
+      "2 (-1)": "2.97",
+      "1 (+1)": "1.3",
+      "2 (+1)": "1.08",
+      "1 (-1.5)": "6.55",
+      "2 (-1.5)": "3.82",
+      "1 (+1.5)": "1.185",
+      "2 (+1.5)": "1.049"
     }
   },
   {
@@ -2420,16 +2068,16 @@
     "equipe_1": "Somaspor",
     "equipe_2": "Alanya 1221",
     "1X2": {
-      "V1": "1.26",
+      "V1": "1.232",
       "X": "5",
-      "V2": "9.4"
+      "V2": "10.1"
     },
     "Total_2.5": {
-      "Plus de": "1.6",
-      "Moins de": "2.2"
+      "Plus de": "1.7",
+      "Moins de": "2.02"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2438,47 +2086,107 @@
     "equipe_1_en": "Somaspor",
     "equipe_2_en": "Alanya 1221",
     "Double_Chance": {
-      "1X": "1.045",
-      "12": "1.143",
-      "2X": "3.5"
+      "1X": "1.028",
+      "12": "1.125",
+      "2X": "3.75"
     },
     "BTTS": {
-      "Non": "1.77",
-      "Oui": "2"
+      "Non": "1.667",
+      "Oui": "2.15"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.6",
-        "Moins de": "2.2"
+        "Plus de": "1.7",
+        "Moins de": "2.02"
       },
       "1.5": {
-        "Plus de": "1.16",
-        "Moins de": "4.3"
+        "Plus de": "1.2",
+        "Moins de": "4"
       },
       "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.55"
+        "Plus de": "1.3",
+        "Moins de": "3.15"
       },
       "3": {
-        "Plus de": "1.95",
-        "Moins de": "1.75"
+        "Plus de": "2.15",
+        "Moins de": "1.62"
       },
       "3.5": {
-        "Plus de": "2.45",
-        "Moins de": "1.48"
+        "Plus de": "2.65",
+        "Moins de": "1.42"
       }
     },
     "Handicap": {
-      "1 (-1.5)": "1.76",
-      "2 (+1.5)": "1.95",
-      "1 (0)": "1.046",
-      "2 (0)": "7.6",
-      "1 (-1)": "1.37",
-      "2 (+1)": "2.8",
-      "1 (-2)": "2.32",
-      "2 (+2)": "1.54",
-      "1 (-2.5)": "2.9",
-      "2 (+2.5)": "1.34"
+      "1 (-1.5)": "1.75",
+      "2 (+1.5)": "1.96",
+      "1 (0)": "1.03",
+      "2 (0)": "8.2",
+      "1 (-1)": "1.33",
+      "2 (+1)": "3",
+      "1 (-2)": "2.34",
+      "2 (+2)": "1.53",
+      "1 (-2.5)": "3",
+      "2 (+2.5)": "1.32"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Tokat Belediyespor",
+    "equipe_2": "Etimesgutspor",
+    "1X2": {
+      "V2": "2.19",
+      "V1": "2.74",
+      "X": "3.46"
+    },
+    "Total_2.5": {
+      "Plus de": "1.78",
+      "Moins de": "1.88"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Tokat Belediyespor",
+    "equipe_2_en": "Etimesgutspor",
+    "Double_Chance": {
+      "12": "1.2",
+      "2X": "1.34",
+      "1X": "1.51"
+    },
+    "BTTS": {
+      "Oui": "1.65",
+      "Non": "2.05"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.78",
+        "Moins de": "1.88"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.75"
+      },
+      "2": {
+        "Plus de": "1.35",
+        "Moins de": "2.85"
+      },
+      "3": {
+        "Plus de": "2.45",
+        "Moins de": "1.46"
+      },
+      "3.5": {
+        "Plus de": "3.15",
+        "Moins de": "1.29"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.66",
+      "1 (0)": "2.04",
+      "2 (-1)": "3.67",
+      "1 (+1)": "1.22"
     }
   },
   {
@@ -2495,7 +2203,7 @@
       "Moins de": "1.69"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2549,19 +2257,75 @@
   },
   {
     "bookmaker": "megapari",
+    "equipe_1": "Hakkari Zap",
+    "equipe_2": "Adana Demirspor",
+    "1X2": {
+      "V2": "1.38",
+      "X": "4.43",
+      "V1": "6.22"
+    },
+    "Total_2.5": {
+      "Plus de": "1.6",
+      "Moins de": "2.14"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:00:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Hakkari Zap",
+    "equipe_2_en": "Adana Demirspor",
+    "Double_Chance": {
+      "2X": "1.05",
+      "12": "1.11",
+      "1X": "2.53"
+    },
+    "BTTS": {
+      "Oui": "1.76",
+      "Non": "1.9"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.14"
+      },
+      "2": {
+        "Plus de": "1.24",
+        "Moins de": "3.49"
+      },
+      "3": {
+        "Plus de": "2.05",
+        "Moins de": "1.65"
+      },
+      "3.5": {
+        "Plus de": "2.65",
+        "Moins de": "1.4"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.54",
+      "2 (-1.5)": "2.25",
+      "2 (-1)": "1.71",
+      "1 (+1)": "1.97"
+    }
+  },
+  {
+    "bookmaker": "megapari",
     "equipe_1": "Osmaniyespor",
     "equipe_2": "Mersin İdmanyurdu",
     "1X2": {
-      "V1": "1.92",
-      "X": "3.54",
-      "V2": "3.615"
+      "V1": "1.747",
+      "X": "3.72",
+      "V2": "4.2"
     },
     "Total_2.5": {
-      "Plus de": "1.73",
-      "Moins de": "2.02"
+      "Plus de": "1.69",
+      "Moins de": "2.08"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2570,47 +2334,113 @@
     "equipe_1_en": "Osmaniyespor",
     "equipe_2_en": "Mersin İdmanyurdu",
     "Double_Chance": {
-      "1X": "1.24",
-      "12": "1.25",
-      "2X": "1.79"
+      "1X": "1.18",
+      "12": "1.23",
+      "2X": "1.98"
     },
     "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.142"
+      "Oui": "1.64",
+      "Non": "2.13"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.73",
-        "Moins de": "2.02"
+        "Plus de": "1.69",
+        "Moins de": "2.08"
       },
       "1.5": {
-        "Plus de": "1.189",
-        "Moins de": "3.78"
+        "Plus de": "1.175",
+        "Moins de": "3.92"
       },
       "2": {
-        "Plus de": "1.31",
-        "Moins de": "2.94"
+        "Plus de": "1.28",
+        "Moins de": "3.1"
       },
       "3": {
-        "Plus de": "2.16",
-        "Moins de": "1.56"
+        "Plus de": "2.09",
+        "Moins de": "1.6"
       },
       "3.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
+        "Plus de": "2.625",
+        "Moins de": "1.38"
       }
     },
     "Handicap": {
-      "1 (0)": "1.42",
-      "2 (0)": "2.68",
-      "1 (-1)": "2.59",
-      "2 (-1)": "6.65",
-      "1 (+1)": "1.047",
-      "2 (+1)": "1.39",
-      "1 (-1.5)": "3.28",
-      "2 (-1.5)": "7.6",
-      "1 (+1.5)": "1.027",
-      "2 (+1.5)": "1.25"
+      "2 (+1.5)": "1.32",
+      "1 (-1.5)": "2.875",
+      "1 (0)": "1.32",
+      "2 (0)": "3.125",
+      "1 (-1)": "2.24",
+      "2 (+1)": "1.52",
+      "1 (-2)": "4.85",
+      "2 (+2)": "1.112",
+      "1 (-2.5)": "5.65",
+      "2 (+2.5)": "1.078"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Bigaspor",
+    "equipe_2": "Balıkesirspor",
+    "1X2": {
+      "V2": "2.21",
+      "V1": "2.801",
+      "X": "3.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.43",
+      "Moins de": "2.46"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:30:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Bigaspor",
+    "equipe_2_en": "Balikesirspor",
+    "Double_Chance": {
+      "12": "1.23",
+      "2X": "1.38",
+      "1X": "1.59"
+    },
+    "BTTS": {
+      "Oui": "1.41",
+      "Non": "2.69"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.615",
+        "Plus de": "2.2"
+      },
+      "2.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "3": {
+        "Plus de": "1.7",
+        "Moins de": "1.94"
+      },
+      "4": {
+        "Plus de": "2.99",
+        "Moins de": "1.3"
+      },
+      "4.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.66",
+      "1 (0)": "2.1",
+      "1 (-1)": "4.55",
+      "2 (-1)": "3.14",
+      "1 (+1)": "1.27",
+      "2 (+1)": "1.129",
+      "1 (-1.5)": "5.4",
+      "2 (-1.5)": "3.92",
+      "1 (+1.5)": "1.175",
+      "2 (+1.5)": "1.086"
     }
   },
   {
@@ -2618,16 +2448,16 @@
     "equipe_1": "Bursa Yildirimspor",
     "equipe_2": "Amasyaspor",
     "1X2": {
-      "V1": "1.6",
-      "X": "3.54",
-      "V2": "5.81"
+      "V1": "1.58",
+      "X": "3.58",
+      "V2": "6"
     },
     "Total_2.5": {
-      "Plus de": "2.11",
-      "Moins de": "1.67"
+      "Plus de": "2.09",
+      "Moins de": "1.68"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2636,26 +2466,26 @@
     "equipe_1_en": "Bursa Yildirimspor",
     "equipe_2_en": "Amasyaspor",
     "Double_Chance": {
-      "1X": "1.094",
+      "1X": "1.087",
       "12": "1.25",
-      "2X": "2.21"
+      "2X": "2.25"
     },
     "BTTS": {
-      "Non": "1.669",
-      "Oui": "2.08"
+      "Non": "1.658",
+      "Oui": "2.1"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.67",
-        "Plus de": "2.11"
+        "Moins de": "1.68",
+        "Plus de": "2.09"
       },
       "1.5": {
         "Plus de": "1.32",
         "Moins de": "2.875"
       },
       "2": {
-        "Plus de": "1.55",
-        "Moins de": "2.18"
+        "Plus de": "1.54",
+        "Moins de": "2.2"
       },
       "3": {
         "Plus de": "2.94",
@@ -2667,16 +2497,16 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.38",
-      "1 (-1.5)": "2.625",
-      "1 (0)": "1.154",
-      "2 (0)": "4.2",
-      "1 (-1)": "2.04",
-      "2 (+1)": "1.7",
-      "1 (-2)": "4.45",
-      "2 (+2)": "1.136",
-      "1 (-2.5)": "5.25",
-      "2 (+2.5)": "1.093"
+      "2 (+1.5)": "1.39",
+      "1 (-1.5)": "2.59",
+      "1 (0)": "1.147",
+      "2 (0)": "4.3",
+      "1 (-1)": "2.01",
+      "2 (+1)": "1.727",
+      "1 (-2)": "4.33",
+      "2 (+2)": "1.144",
+      "1 (-2.5)": "5.15",
+      "2 (+2.5)": "1.098"
     }
   },
   {
@@ -2684,16 +2514,16 @@
     "equipe_1": "Eskisehir Anadolu SF",
     "equipe_2": "Kepez",
     "1X2": {
-      "V1": "1.65",
-      "X": "3.64",
-      "V2": "5.03"
+      "V1": "1.63",
+      "X": "3.75",
+      "V2": "5.02"
     },
     "Total_2.5": {
-      "Plus de": "1.97",
-      "Moins de": "1.77"
+      "Plus de": "1.86",
+      "Moins de": "1.87"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2703,46 +2533,112 @@
     "equipe_2_en": "Kepez",
     "Double_Chance": {
       "1X": "1.127",
-      "12": "1.24",
-      "2X": "2.12"
+      "12": "1.222",
+      "2X": "2.16"
     },
     "BTTS": {
-      "Non": "1.791",
-      "Oui": "1.92"
+      "Oui": "1.84",
+      "Non": "1.864"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.77",
-        "Plus de": "1.97"
+        "Plus de": "1.86",
+        "Moins de": "1.87"
       },
       "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
+        "Plus de": "1.25",
+        "Moins de": "3.28"
       },
       "2": {
-        "Plus de": "1.46",
-        "Moins de": "2.39"
+        "Plus de": "1.39",
+        "Moins de": "2.6"
       },
       "3": {
-        "Plus de": "2.68",
-        "Moins de": "1.37"
+        "Plus de": "2.43",
+        "Moins de": "1.444"
       },
       "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
+        "Plus de": "3.04",
+        "Moins de": "1.29"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.36",
-      "1 (-1.5)": "2.7",
+      "2 (+1.5)": "1.38",
+      "1 (-1.5)": "2.625",
       "1 (0)": "1.21",
       "2 (0)": "3.58",
-      "1 (-1)": "2.14",
-      "2 (+1)": "1.64",
-      "1 (-2)": "4.6",
-      "2 (+2)": "1.127",
-      "1 (-2.5)": "5.35",
-      "2 (+2.5)": "1.089"
+      "1 (-1)": "2.07",
+      "2 (+1)": "1.68",
+      "1 (-2)": "4.33",
+      "2 (+2)": "1.143",
+      "1 (-2.5)": "5.1",
+      "2 (+2.5)": "1.101"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Karacabey Belediyespor",
+    "equipe_2": "Galata",
+    "1X2": {
+      "V1": "1.58",
+      "X": "4.05",
+      "V2": "5.01"
+    },
+    "Total_2.5": {
+      "Plus de": "1.71",
+      "Moins de": "2.05"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T11:30:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Karacabey Belediyespor",
+    "equipe_2_en": "Galata",
+    "Double_Chance": {
+      "1X": "1.127",
+      "12": "1.193",
+      "2X": "2.25"
+    },
+    "BTTS": {
+      "Oui": "1.74",
+      "Non": "1.977"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.71",
+        "Moins de": "2.05"
+      },
+      "1.5": {
+        "Plus de": "1.189",
+        "Moins de": "3.78"
+      },
+      "2": {
+        "Plus de": "1.3",
+        "Moins de": "2.99"
+      },
+      "3": {
+        "Plus de": "2.13",
+        "Moins de": "1.58"
+      },
+      "3.5": {
+        "Plus de": "2.66",
+        "Moins de": "1.37"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.43",
+      "1 (-1.5)": "2.46",
+      "1 (0)": "1.194",
+      "2 (0)": "3.74",
+      "1 (-1)": "1.96",
+      "2 (+1)": "1.76",
+      "1 (-2)": "3.9",
+      "2 (+2)": "1.177",
+      "1 (-2.5)": "4.65",
+      "2 (+2.5)": "1.125"
     }
   },
   {
@@ -2759,7 +2655,7 @@
       "Moins de": "1.7"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2825,7 +2721,7 @@
       "Moins de": "1.76"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2891,7 +2787,7 @@
       "Moins de": "2.08"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2948,16 +2844,16 @@
     "equipe_1": "Gaziemir GOG Spor",
     "equipe_2": "Fethiyespor",
     "1X2": {
-      "V2": "1.54",
-      "X": "4",
-      "V1": "5.54"
+      "V2": "1.53",
+      "X": "4.05",
+      "V1": "5.59"
     },
     "Total_2.5": {
       "Plus de": "1.76",
       "Moins de": "1.98"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T12:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2966,13 +2862,13 @@
     "equipe_1_en": "Gaziemir GOG Spor",
     "equipe_2_en": "Fethiyespor",
     "Double_Chance": {
-      "2X": "1.103",
-      "12": "1.197",
-      "1X": "2.34"
+      "2X": "1.101",
+      "12": "1.193",
+      "1X": "2.375"
     },
     "BTTS": {
-      "Oui": "1.82",
-      "Non": "1.884"
+      "Oui": "1.81",
+      "Non": "1.895"
     },
     "Totals": {
       "2.5": {
@@ -2980,8 +2876,8 @@
         "Moins de": "1.98"
       },
       "1.5": {
-        "Plus de": "1.193",
-        "Moins de": "3.74"
+        "Plus de": "1.191",
+        "Moins de": "3.76"
       },
       "2": {
         "Plus de": "1.32",
@@ -3000,13 +2896,13 @@
       "1 (+1.5)": "1.44",
       "2 (-1.5)": "2.43",
       "1 (0)": "4.2",
-      "2 (0)": "1.153",
-      "2 (-1)": "1.909",
-      "1 (+1)": "1.81",
-      "2 (-2)": "3.94",
-      "1 (+2)": "1.174",
+      "2 (0)": "1.152",
+      "2 (-1)": "1.89",
+      "1 (+1)": "1.82",
+      "2 (-2)": "3.92",
+      "1 (+2)": "1.175",
       "2 (-2.5)": "4.75",
-      "1 (+2.5)": "1.117"
+      "1 (+2.5)": "1.118"
     }
   },
   {
@@ -3023,7 +2919,7 @@
       "Moins de": "1.76"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T12:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3077,19 +2973,77 @@
   },
   {
     "bookmaker": "megapari",
+    "equipe_1": "Malatya Yesilyurt",
+    "equipe_2": "Siirtspor",
+    "1X2": {
+      "V1": "1.001",
+      "X": "10",
+      "V2": "17"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T14:00:00+00:00",
+    "competition": "Coupe de Turquie",
+    "competition_en": "Turkish Cup",
+    "competition_id": 109839,
+    "equipe_1_en": "Malatya Yesilyurt",
+    "equipe_2_en": "Siirtspor",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.001",
+      "2X": "8.5"
+    },
+    "BTTS": {
+      "Non": "1.64",
+      "Oui": "2.07"
+    },
+    "Totals": {
+      "4.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.14"
+      },
+      "4": {
+        "Plus de": "1.32",
+        "Moins de": "2.97"
+      },
+      "5": {
+        "Plus de": "1.91",
+        "Moins de": "1.76"
+      },
+      "5.5": {
+        "Plus de": "2.31",
+        "Moins de": "1.51"
+      }
+    },
+    "Handicap": {
+      "1 (-3.5)": "1.67",
+      "2 (+3.5)": "2.03",
+      "1 (-4)": "2.02",
+      "2 (+4)": "1.67",
+      "1 (-4.5)": "2.46",
+      "2 (+4.5)": "1.46"
+    }
+  },
+  {
+    "bookmaker": "megapari",
     "equipe_1": "Gnistan",
     "equipe_2": "Inter Turku",
     "1X2": {
-      "V2": "1.92",
-      "V1": "3.635",
-      "X": "3.65"
+      "V2": "1.71",
+      "X": "3.94",
+      "V1": "4.315"
     },
     "Total_2.5": {
-      "Plus de": "1.75",
-      "Moins de": "2.01"
+      "Plus de": "1.65",
+      "Moins de": "2.15"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T16:00:00+00:00",
     "competition": "Championnat de Finlande. Veikkausliiga",
@@ -3098,47 +3052,47 @@
     "equipe_1_en": "Gnistan",
     "equipe_2_en": "Inter Turku",
     "Double_Chance": {
-      "12": "1.25",
-      "2X": "1.26",
-      "1X": "1.83"
+      "2X": "1.184",
+      "12": "1.22",
+      "1X": "2.08"
     },
     "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.11"
+      "Oui": "1.63",
+      "Non": "2.142"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.75",
-        "Moins de": "2.01"
+        "Plus de": "1.65",
+        "Moins de": "2.15"
       },
       "1.5": {
-        "Plus de": "1.2",
-        "Moins de": "3.68"
+        "Plus de": "1.166",
+        "Moins de": "4.05"
       },
       "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.92"
+        "Plus de": "1.26",
+        "Moins de": "3.26"
       },
       "3": {
-        "Plus de": "2.2",
-        "Moins de": "1.55"
+        "Plus de": "2",
+        "Moins de": "1.666"
       },
       "3.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
+        "Plus de": "2.49",
+        "Moins de": "1.42"
       }
     },
     "Handicap": {
-      "2 (0)": "1.39",
-      "1 (0)": "2.59",
-      "1 (-1)": "6.4",
-      "2 (-1)": "2.63",
-      "1 (+1)": "1.44",
-      "2 (+1)": "1.053",
-      "1 (-1.5)": "7.3",
-      "2 (-1.5)": "3.22",
-      "1 (+1.5)": "1.26",
-      "2 (+1.5)": "1.033"
+      "1 (+1.5)": "1.36",
+      "2 (-1.5)": "2.71",
+      "1 (0)": "3.14",
+      "2 (0)": "1.27",
+      "2 (-1)": "2.17",
+      "1 (+1)": "1.63",
+      "2 (-2)": "4.4",
+      "1 (+2)": "1.139",
+      "2 (-2.5)": "5.1",
+      "1 (+2.5)": "1.099"
     }
   },
   {
@@ -3146,16 +3100,16 @@
     "equipe_1": "Eskisehirspor",
     "equipe_2": "Aksehirspor",
     "1X2": {
-      "V1": "1.069",
-      "X": "8.5",
+      "V1": "1.067",
+      "X": "8.6",
       "V2": "31"
     },
     "Total_2.5": {
-      "Plus de": "1.53",
-      "Moins de": "2.375"
+      "Plus de": "1.47",
+      "Moins de": "2.35"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-07T06:18:29.106820+00:00",
+    "derniere_maj": "2026-10-07T09:16:50.612799+00:00",
     "statut": "ok",
     "debut": "2026-10-07T17:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3165,46 +3119,46 @@
     "equipe_2_en": "Aksehirspor",
     "Double_Chance": {
       "1X": "1.01",
-      "12": "1.034",
-      "2X": "6.7"
+      "12": "1.032",
+      "2X": "6.75"
     },
     "BTTS": {
-      "Non": "1.292",
-      "Oui": "3.26"
+      "Non": "1.296",
+      "Oui": "3.24"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.52",
-        "Plus de": "2.24"
+        "Moins de": "1.58",
+        "Plus de": "2.27"
       },
       "2.5": {
-        "Plus de": "1.53",
-        "Moins de": "2.375"
+        "Plus de": "1.47",
+        "Moins de": "2.35"
       },
       "3": {
-        "Plus de": "1.79",
-        "Moins de": "1.833"
+        "Plus de": "1.76",
+        "Moins de": "1.87"
       },
       "4": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
+        "Plus de": "3.1",
+        "Moins de": "1.28"
       },
       "4.5": {
-        "Plus de": "3.86",
-        "Moins de": "1.181"
+        "Plus de": "3.76",
+        "Moins de": "1.191"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.72",
-      "1 (-2.5)": "1.909",
+      "2 (+2.5)": "1.727",
+      "1 (-2.5)": "1.9",
       "1 (-1.5)": "1.33",
       "2 (+1.5)": "2.83",
-      "1 (-2)": "1.56",
-      "2 (+2)": "2.29",
-      "1 (-3)": "2.59",
-      "2 (+3)": "1.39",
-      "1 (-3.5)": "3.14",
-      "2 (+3.5)": "1.27"
+      "1 (-2)": "1.54",
+      "2 (+2)": "2.33",
+      "1 (-3)": "2.56",
+      "2 (+3)": "1.4",
+      "1 (-3.5)": "3.08",
+      "2 (+3.5)": "1.28"
     }
   }
 ]
