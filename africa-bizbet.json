@@ -1,217 +1,19 @@
 [
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Nadi",
-    "equipe_2": "Lautoka FC",
-    "1X2": {
-      "V2": "1.63",
-      "X": "3.78",
-      "V1": "4.35"
-    },
-    "Total_2.5": {
-      "Plus de": "1.54",
-      "Moins de": "2.27"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T01:30:00+00:00",
-    "competition": "Fidji. Championnat interdistrict",
-    "competition_en": "Fiji. Inter District Championship",
-    "competition_id": 2014658,
-    "equipe_1_en": "Nadi",
-    "equipe_2_en": "Lautoka",
-    "Double_Chance": {
-      "2X": "1.129",
-      "12": "1.168",
-      "1X": "2"
-    },
-    "BTTS": {
-      "Oui": "1.54",
-      "Non": "2.265"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.54",
-        "Moins de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.125",
-        "Moins de": "4.65"
-      },
-      "2": {
-        "Plus de": "1.198",
-        "Moins de": "3.7"
-      },
-      "3": {
-        "Plus de": "1.85",
-        "Moins de": "1.77"
-      },
-      "3.5": {
-        "Plus de": "2.33",
-        "Moins de": "1.48"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.363",
-      "2 (-1.5)": "2.69",
-      "1 (0)": "3.28",
-      "2 (0)": "1.25",
-      "2 (-1)": "2.11",
-      "1 (+1)": "1.61",
-      "2 (-2)": "4.4",
-      "1 (+2)": "1.139",
-      "2 (-2.5)": "5.2",
-      "1 (+2.5)": "1.096"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Guyane",
-    "equipe_2": "Belize",
-    "1X2": {
-      "V1": "2.16",
-      "X": "3.18",
-      "V2": "3.305"
-    },
-    "Total_2.5": {
-      "Plus de": "2.29",
-      "Moins de": "1.57"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T02:00:00+00:00",
-    "competition": "Ligue des Nations CONCACAF",
-    "competition_en": "CONCACAF Nations League",
-    "competition_id": 1804188,
-    "equipe_1_en": "French Guiana",
-    "equipe_2_en": "Belize",
-    "Double_Chance": {
-      "1X": "1.285",
-      "12": "1.3",
-      "2X": "1.62"
-    },
-    "BTTS": {
-      "Non": "1.761",
-      "Oui": "1.95"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.57",
-        "Plus de": "2.29"
-      },
-      "1.5": {
-        "Plus de": "1.37",
-        "Moins de": "2.66"
-      },
-      "2": {
-        "Plus de": "1.66",
-        "Moins de": "2"
-      },
-      "3": {
-        "Plus de": "3.44",
-        "Moins de": "1.23"
-      },
-      "3.5": {
-        "Plus de": "4.3",
-        "Moins de": "1.147"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.53",
-      "2 (0)": "2.36",
-      "1 (-1)": "3.42",
-      "2 (-1)": "6.75",
-      "1 (+1)": "1.044",
-      "2 (+1)": "1.23",
-      "1 (-1.5)": "4.4",
-      "2 (-1.5)": "8",
-      "1 (+1.5)": "1.02",
-      "2 (+1.5)": "1.138"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Mexique",
-    "equipe_2": "Chili",
-    "1X2": {
-      "V1": "1.639",
-      "X": "4.095",
-      "V2": "6.01"
-    },
-    "Total_2.5": {
-      "Plus de": "1.934",
-      "Moins de": "1.987"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T02:30:00+00:00",
-    "competition": "Matchs amicaux. Équipes nationales",
-    "competition_en": "Friendlies. National Teams",
-    "competition_id": 125983,
-    "equipe_1_en": "Mexico",
-    "equipe_2_en": "Chile",
-    "Double_Chance": {
-      "1X": "1.164",
-      "12": "1.279",
-      "2X": "2.406"
-    },
-    "BTTS": {
-      "Non": "1.833",
-      "Oui": "1.87"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.934",
-        "Moins de": "1.987"
-      },
-      "1.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "2": {
-        "Plus de": "1.38",
-        "Moins de": "2.64"
-      },
-      "3": {
-        "Plus de": "2.36",
-        "Moins de": "1.47"
-      },
-      "3.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.55",
-      "1 (-1.5)": "2.666",
-      "1 (0)": "1.166",
-      "2 (0)": "4.05",
-      "1 (-1)": "1.93",
-      "2 (+1)": "1.79",
-      "1 (-2)": "3.9",
-      "2 (+2)": "1.178",
-      "1 (-2.5)": "4.65",
-      "2 (+2.5)": "1.125"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
     "equipe_1": "Ba",
     "equipe_2": "Navua",
     "1X2": {
-      "V1": "1.85",
-      "X": "3.6",
-      "V2": "3.645"
+      "V1": "1.83",
+      "X": "3.52",
+      "V2": "3.59"
     },
     "Total_2.5": {
-      "Plus de": "1.62",
-      "Moins de": "2.16"
+      "Plus de": "1.615",
+      "Moins de": "2.12"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T05:30:00+00:00",
     "competition": "Fidji. Championnat interdistrict",
@@ -220,35 +22,47 @@
     "equipe_1_en": "Ba",
     "equipe_2_en": "Navua",
     "Double_Chance": {
-      "1X": "1.24",
-      "12": "1.24",
-      "2X": "1.87"
+      "12": "1.195",
+      "1X": "1.197",
+      "2X": "1.76"
     },
     "BTTS": {
-      "Oui": "1.652",
-      "Non": "2.221"
+      "Oui": "1.56",
+      "Non": "2.224"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.16"
+        "Plus de": "1.615",
+        "Moins de": "2.12"
+      },
+      "1.5": {
+        "Plus de": "1.164",
+        "Moins de": "4.05"
+      },
+      "2": {
+        "Plus de": "1.26",
+        "Moins de": "3.2"
       },
       "3": {
-        "Plus de": "2",
-        "Moins de": "1.71"
+        "Plus de": "1.98",
+        "Moins de": "1.666"
       },
       "3.5": {
-        "Plus de": "2.55",
-        "Moins de": "1.46"
+        "Plus de": "2.49",
+        "Moins de": "1.42"
       }
     },
     "Handicap": {
-      "1 (0)": "1.4",
-      "2 (0)": "2.75",
-      "1 (-1)": "2.44",
-      "2 (+1)": "1.49",
-      "1 (-1.5)": "3.1",
-      "2 (+1.5)": "1.33"
+      "1 (0)": "1.38",
+      "2 (0)": "2.625",
+      "1 (-1)": "2.5",
+      "2 (-1)": "6.3",
+      "1 (+1)": "1.056",
+      "2 (+1)": "1.44",
+      "1 (-1.5)": "3.08",
+      "2 (-1.5)": "7.1",
+      "1 (+1.5)": "1.037",
+      "2 (+1.5)": "1.28"
     }
   },
   {
@@ -265,7 +79,7 @@
       "Moins de": "2"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T07:30:00+00:00",
     "competition": "Fidji. Championnat interdistrict",
@@ -310,16 +124,16 @@
     "equipe_1": "Géorgie U19 (Femmes)",
     "equipe_2": "Bulgarie U19 (Femmes)",
     "1X2": {
-      "V2": "1.046",
-      "X": "9.1",
+      "V2": "1.045",
+      "X": "9.2",
       "V1": "17.5"
     },
     "Total_2.5": {
-      "Plus de": "1.25",
-      "Moins de": "3.28"
+      "Plus de": "1.23",
+      "Moins de": "3.42"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T08:00:00+00:00",
     "competition": "Championnat d'Europe U19 de l'UEFA. Qualification. Femmes",
@@ -328,43 +142,43 @@
     "equipe_1_en": "Georgia U19 (Women)",
     "equipe_2_en": "Bulgaria U19 (Women)",
     "Double_Chance": {
-      "2X": "1.01",
+      "2X": "1.015",
       "12": "1.05",
-      "1X": "6.05"
+      "1X": "6.1"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.7",
-        "Moins de": "1.99"
+        "Plus de": "1.65",
+        "Moins de": "2.06"
       },
       "2.5": {
-        "Plus de": "1.25",
-        "Moins de": "3.28"
+        "Plus de": "1.23",
+        "Moins de": "3.42"
       },
       "3": {
-        "Plus de": "1.36",
-        "Moins de": "2.7"
+        "Plus de": "1.33",
+        "Moins de": "2.83"
       },
       "4": {
-        "Plus de": "2.05",
-        "Moins de": "1.62"
+        "Plus de": "1.96",
+        "Moins de": "1.68"
       },
       "4.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.42"
+        "Plus de": "2.375",
+        "Moins de": "1.46"
       }
     },
     "Handicap": {
-      "2 (-2.5)": "1.76",
-      "1 (+2.5)": "1.9",
-      "2 (-1.5)": "1.285",
-      "1 (+1.5)": "3.05",
-      "2 (-2)": "1.42",
-      "1 (+2)": "2.49",
-      "2 (-3)": "2.17",
-      "1 (+3)": "1.55",
-      "2 (-3.5)": "2.625",
-      "1 (+3.5)": "1.38"
+      "2 (-2.5)": "1.74",
+      "1 (+2.5)": "1.93",
+      "2 (-1.5)": "1.28",
+      "1 (+1.5)": "3.08",
+      "2 (-2)": "1.41",
+      "1 (+2)": "2.52",
+      "2 (-3)": "2.14",
+      "1 (+3)": "1.57",
+      "2 (-3.5)": "2.59",
+      "1 (+3.5)": "1.39"
     }
   },
   {
@@ -381,7 +195,7 @@
       "Moins de": "2.38"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T08:00:00+00:00",
     "competition": "Championnat d'Ukraine U19",
@@ -437,7 +251,7 @@
       "Moins de": "2.73"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Championnat d'Ukraine U19",
@@ -497,7 +311,7 @@
       "Moins de": "2.375"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Championnat du Myanmar U20",
@@ -563,7 +377,7 @@
       "Moins de": "1.99"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Championnat du Myanmar U20",
@@ -620,16 +434,16 @@
     "equipe_1": "Rangdajied United",
     "equipe_2": "Mawlai",
     "1X2": {
-      "V2": "1.61",
-      "X": "4.05",
-      "V1": "4.14"
+      "V2": "1.59",
+      "X": "4.1",
+      "V1": "4.24"
     },
     "Total_2.5": {
       "Plus de": "1.44",
       "Moins de": "2.43"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:30:00+00:00",
     "competition": "Inde. Première Ligue. Shillong",
@@ -638,9 +452,9 @@
     "equipe_1_en": "Rangdajied United",
     "equipe_2_en": "Mawlai",
     "Double_Chance": {
-      "12": "1.144",
-      "2X": "1.144",
-      "1X": "2.04"
+      "2X": "1.136",
+      "12": "1.14",
+      "1X": "2.07"
     },
     "BTTS": {
       "Oui": "1.49",
@@ -648,8 +462,8 @@
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.571",
-        "Plus de": "2.2"
+        "Moins de": "1.58",
+        "Plus de": "2.18"
       },
       "2.5": {
         "Plus de": "1.44",
@@ -669,16 +483,190 @@
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.39",
-      "2 (-1.5)": "2.59",
-      "1 (0)": "3.14",
-      "2 (0)": "1.27",
-      "2 (-1)": "2.05",
-      "1 (+1)": "1.65",
-      "2 (-2)": "4.15",
-      "1 (+2)": "1.157",
-      "2 (-2.5)": "4.9",
-      "1 (+2.5)": "1.11"
+      "1 (+1.5)": "1.4",
+      "2 (-1.5)": "2.56",
+      "1 (0)": "3.2",
+      "2 (0)": "1.26",
+      "2 (-1)": "2.03",
+      "1 (+1)": "1.666",
+      "2 (-2)": "4.1",
+      "1 (+2)": "1.162",
+      "2 (-2.5)": "4.8",
+      "1 (+2.5)": "1.114"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Kolos Kovalivka U19",
+    "equipe_2": "Dynamo Kyiv U19",
+    "1X2": {
+      "V2": "1.22",
+      "X": "5.79",
+      "V1": "8.35"
+    },
+    "Total_2.5": {
+      "Plus de": "1.29",
+      "Moins de": "3.16"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat d'Ukraine U19",
+    "competition_en": "Ukraine Championship U19",
+    "competition_id": 1181941,
+    "equipe_1_en": "Kolos Kovalivka U19",
+    "equipe_2_en": "Dynamo Kyiv U19",
+    "Double_Chance": {
+      "2X": "1.001",
+      "12": "1.05",
+      "1X": "3.34"
+    },
+    "BTTS": {
+      "Oui": "1.56",
+      "Non": "2.22"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.83",
+        "Moins de": "1.83"
+      },
+      "2.5": {
+        "Plus de": "1.29",
+        "Moins de": "3.16"
+      },
+      "3": {
+        "Plus de": "1.44",
+        "Moins de": "2.5"
+      },
+      "4": {
+        "Plus de": "2.4",
+        "Moins de": "1.48"
+      },
+      "4.5": {
+        "Plus de": "2.98",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "2 (-1.5)": "1.75",
+      "1 (+1.5)": "1.92",
+      "2 (-1)": "1.38",
+      "1 (+1)": "2.71",
+      "2 (-2)": "2.29",
+      "1 (+2)": "1.53"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Obolon Kyiv U19",
+    "equipe_2": "Shakhtar Donetsk U19",
+    "1X2": {
+      "V2": "1.91",
+      "V1": "3.055",
+      "X": "3.84"
+    },
+    "Total_2.5": {
+      "Plus de": "1.49",
+      "Moins de": "2.38"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat d'Ukraine U19",
+    "competition_en": "Ukraine Championship U19",
+    "competition_id": 1181941,
+    "equipe_1_en": "Obolon Kyiv U19",
+    "equipe_2_en": "Shakhtar Donetsk U19",
+    "Double_Chance": {
+      "12": "1.16",
+      "2X": "1.27",
+      "1X": "1.68"
+    },
+    "BTTS": {
+      "Oui": "1.46",
+      "Non": "2.45"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.5",
+        "Plus de": "2.34"
+      },
+      "2.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.38"
+      },
+      "3": {
+        "Plus de": "1.81",
+        "Moins de": "1.85"
+      },
+      "4": {
+        "Plus de": "3.53",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.5",
+      "1 (0)": "2.36",
+      "2 (-1)": "2.82",
+      "1 (+1)": "1.35"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Oleksandriïa U19",
+    "equipe_2": "Levyy Bereg Kyiv U19",
+    "1X2": {
+      "V2": "1.91",
+      "V1": "3.055",
+      "X": "3.84"
+    },
+    "Total_2.5": {
+      "Plus de": "1.49",
+      "Moins de": "2.38"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat d'Ukraine U19",
+    "competition_en": "Ukraine Championship U19",
+    "competition_id": 1181941,
+    "equipe_1_en": "Oleksandriya U19",
+    "equipe_2_en": "Levyy Bereg Kyiv U19",
+    "Double_Chance": {
+      "12": "1.16",
+      "2X": "1.27",
+      "1X": "1.68"
+    },
+    "BTTS": {
+      "Oui": "1.46",
+      "Non": "2.45"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.5",
+        "Plus de": "2.34"
+      },
+      "2.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.38"
+      },
+      "3": {
+        "Plus de": "1.81",
+        "Moins de": "1.85"
+      },
+      "4": {
+        "Plus de": "3.53",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.5",
+      "1 (0)": "2.36",
+      "2 (-1)": "2.82",
+      "1 (+1)": "1.35"
     }
   },
   {
@@ -695,7 +683,7 @@
       "Moins de": "2.03"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat de Thaïlande U21",
@@ -749,264 +737,130 @@
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Fire de Chicago",
-    "equipe_2": "Whitecaps de Vancouver",
+    "equipe_1": "Kitchee U22",
+    "equipe_2": "Hong Kong Football Club U22",
     "1X2": {
-      "V2": "2.3",
-      "V1": "2.81",
-      "X": "3.98"
+      "V2": "2.28",
+      "V1": "2.52",
+      "X": "3.48"
     },
     "Total_2.5": {
-      "Plus de": "1.45",
-      "Moins de": "2.75"
+      "Plus de": "1.54",
+      "Moins de": "2.27"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T00:30:00+00:00",
-    "competition": "Championnat des États-Unis. MLS",
-    "competition_en": "USA. MLS",
-    "competition_id": 828065,
-    "equipe_1_en": "Chicago Fire",
-    "equipe_2_en": "Vancouver Whitecaps",
+    "debut": "2026-10-07T10:30:00+00:00",
+    "competition": "Hong Kong. Premier League U22",
+    "competition_en": "Hong Kong. Premier League U22",
+    "competition_id": 2765014,
+    "equipe_1_en": "Kitchee U22",
+    "equipe_2_en": "Hong Kong Football Club U22",
     "Double_Chance": {
-      "12": "1.248",
-      "2X": "1.43",
-      "1X": "1.616"
+      "12": "1.2",
+      "2X": "1.38",
+      "1X": "1.47"
     },
     "BTTS": {
-      "Oui": "1.432",
-      "Non": "2.816"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.725",
-        "Plus de": "2.185"
-      },
-      "2.5": {
-        "Plus de": "1.45",
-        "Moins de": "2.75"
-      },
-      "3": {
-        "Plus de": "1.67",
-        "Moins de": "2.2"
-      },
-      "4": {
-        "Plus de": "2.704",
-        "Moins de": "1.464"
-      },
-      "4.5": {
-        "Plus de": "3.53",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.24",
-      "2 (-1.5)": "4.06",
-      "1 (-1)": "3.9",
-      "2 (-1)": "3.25",
-      "1 (+1)": "1.34",
-      "2 (+1)": "1.256",
-      "2 (-2)": "7.72",
-      "1 (+2)": "1.085",
-      "2 (-2.5)": "7.55",
-      "1 (+2.5)": "1.035"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Associação Atlética Ponte Preta",
-    "equipe_2": "Esporte Clube Juventude",
-    "1X2": {
-      "V2": "1.275",
-      "X": "4.96",
-      "V1": "11.9"
-    },
-    "Total_2.5": {
-      "Plus de": "2.11",
-      "Moins de": "1.725"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T00:35:00+00:00",
-    "competition": "Brazil. Campeonato Brasileiro B",
-    "competition_en": "Brazil. Campeonato Brasileiro. Serie B",
-    "competition_id": 57265,
-    "equipe_1_en": "Associacao Atletica Ponte Preta",
-    "equipe_2_en": "Esporte Clube Juventude",
-    "Double_Chance": {
-      "2X": "1.02",
-      "12": "1.155",
-      "1X": "3.52"
-    },
-    "BTTS": {
-      "Non": "1.41",
-      "Oui": "2.77"
+      "Oui": "1.46",
+      "Non": "2.464"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.725",
-        "Plus de": "2.11"
-      },
-      "1.5": {
-        "Plus de": "1.31",
-        "Moins de": "3.25"
-      },
-      "2": {
         "Plus de": "1.54",
-        "Moins de": "2.375"
+        "Moins de": "2.27"
+      },
+      "1.5": {
+        "Plus de": "1.137",
+        "Moins de": "4.45"
+      },
+      "2": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
       },
       "3": {
-        "Plus de": "2.845",
-        "Moins de": "1.425"
+        "Plus de": "1.84",
+        "Moins de": "1.78"
       },
       "3.5": {
-        "Plus de": "3.71",
-        "Moins de": "1.25"
+        "Plus de": "2.3",
+        "Moins de": "1.49"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.9",
-      "2 (-1.5)": "1.9",
-      "1 (0)": "9",
-      "2 (0)": "1.045",
-      "2 (-1)": "1.42",
-      "1 (+1)": "2.74",
-      "2 (-2)": "2.66",
-      "1 (+2)": "1.44",
-      "2 (-2.5)": "3.38",
-      "1 (+2.5)": "1.295"
+      "2 (0)": "1.74",
+      "1 (0)": "1.93",
+      "1 (-1)": "4",
+      "2 (-1)": "3.42",
+      "1 (+1)": "1.23",
+      "2 (+1)": "1.168",
+      "1 (-1.5)": "4.8",
+      "2 (-1.5)": "4.2",
+      "1 (+1.5)": "1.154",
+      "2 (+1.5)": "1.116"
     }
   },
   {
     "bookmaker": "africa-bizbet",
-    "equipe_1": "Central Coast Honiara",
-    "equipe_2": "Ghupo",
+    "equipe_1": "Jordan (Femmes)",
+    "equipe_2": "Arménie (Femmes)",
     "1X2": {
-      "V1": "1.026",
-      "X": "9.8",
-      "V2": "22"
+      "V1": "1.39",
+      "X": "4.3",
+      "V2": "6.36"
     },
     "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
+      "Plus de": "1.6",
+      "Moins de": "2.15"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T02:00:00+00:00",
-    "competition": "Championnat des Îles Salomon. S-Ligue",
-    "competition_en": "Solomon Islands. Telekom S-League",
-    "competition_id": 2121593,
-    "equipe_1_en": "Central Coast Honiara",
-    "equipe_2_en": "Ghupo",
+    "debut": "2026-10-07T15:00:00+00:00",
+    "competition": "Matchs amicaux. Équipes nationales. Femmes",
+    "competition_en": "Friendlies. National Teams. Women",
+    "competition_id": 1131987,
+    "equipe_1_en": "Jordan (Women)",
+    "equipe_2_en": "Armenia (Women)",
     "Double_Chance": {
-      "2X": "6.85"
-    },
-    "BTTS": {
-      "Non": "1.51",
-      "Oui": "2.34"
-    },
-    "Totals": {
-      "4.5": {
-        "Moins de": "1.77",
-        "Plus de": "1.9"
-      },
-      "3.5": {
-        "Plus de": "1.42",
-        "Moins de": "2.49"
-      },
-      "4": {
-        "Plus de": "1.59",
-        "Moins de": "2.1"
-      },
-      "5": {
-        "Plus de": "2.33",
-        "Moins de": "1.48"
-      },
-      "5.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "2 (+3.5)": "1.79",
-      "1 (-3.5)": "1.87",
-      "1 (-2.5)": "1.41",
-      "2 (+2.5)": "2.52",
-      "1 (-3)": "1.57",
-      "2 (+3)": "2.14",
-      "1 (-4)": "2.28",
-      "2 (+4)": "1.5",
-      "1 (-4.5)": "2.66",
-      "2 (+4.5)": "1.37"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Soles Sonora",
-    "equipe_2": "La Tribu de Ciudad Juarez",
-    "1X2": {
-      "V2": "2.33",
-      "V1": "2.97",
-      "X": "3.24"
-    },
-    "Total_2.5": {
-      "Plus de": "2.08",
-      "Moins de": "1.75"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T02:00:00+00:00",
-    "competition": "Mexico Promesas Cup",
-    "competition_en": "Mexico Promesas Cup",
-    "competition_id": 2735237,
-    "equipe_1_en": "Soles Sonora",
-    "equipe_2_en": "La Tribu de Ciudad Juarez",
-    "Double_Chance": {
-      "12": "1.3",
-      "2X": "1.35",
-      "1X": "1.55"
-    },
-    "BTTS": {
-      "Oui": "1.8",
-      "Non": "1.923"
+      "1X": "1.046",
+      "12": "1.125",
+      "2X": "2.52"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.75",
-        "Plus de": "2.08"
+        "Plus de": "1.6",
+        "Moins de": "2.15"
       },
       "1.5": {
-        "Plus de": "1.31",
-        "Moins de": "3.04"
+        "Plus de": "1.158",
+        "Moins de": "4.15"
       },
       "2": {
-        "Plus de": "1.53",
-        "Moins de": "2.34"
+        "Plus de": "1.25",
+        "Moins de": "3.28"
       },
       "3": {
-        "Plus de": "2.89",
-        "Moins de": "1.36"
+        "Plus de": "1.95",
+        "Moins de": "1.69"
       },
       "3.5": {
-        "Plus de": "3.56",
-        "Moins de": "1.23"
+        "Plus de": "2.43",
+        "Moins de": "1.44"
       }
     },
     "Handicap": {
-      "2 (0)": "1.7",
-      "1 (0)": "2.15",
-      "1 (-1)": "5.45",
-      "2 (-1)": "3.74",
-      "1 (+1)": "1.22",
-      "2 (+1)": "1.107",
-      "1 (-1.5)": "6.35",
-      "2 (-1.5)": "4.6",
-      "1 (+1.5)": "1.135",
-      "2 (+1.5)": "1.062"
+      "2 (+1.5)": "1.58",
+      "1 (-1.5)": "2.12",
+      "1 (0)": "1.121",
+      "2 (0)": "4.7",
+      "1 (-1)": "1.66",
+      "2 (+1)": "2.03",
+      "1 (-2)": "3.08",
+      "2 (+2)": "1.28",
+      "1 (-2.5)": "3.74",
+      "2 (+2.5)": "1.193"
     }
   },
   {
@@ -1023,7 +877,7 @@
       "Moins de": "1.88"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T05:30:00+00:00",
     "competition": "Championnat d'Inde. Bangalore. Super Division",
@@ -1080,16 +934,16 @@
     "equipe_1": "MEG & Centre",
     "equipe_2": "Bengaluru II",
     "1X2": {
-      "V2": "2.01",
-      "V1": "2.919",
-      "X": "3.72"
+      "V2": "1.98",
+      "V1": "2.971",
+      "X": "3.74"
     },
     "Total_2.5": {
-      "Plus de": "1.4",
-      "Moins de": "2.56"
+      "Plus de": "1.35",
+      "Moins de": "2.74"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T08:00:00+00:00",
     "competition": "Championnat d'Inde. Bangalore. Super Division",
@@ -1098,47 +952,47 @@
     "equipe_1_en": "MEG & Centre",
     "equipe_2_en": "Bengaluru II",
     "Double_Chance": {
-      "12": "1.173",
-      "2X": "1.3",
-      "1X": "1.62"
+      "12": "1.171",
+      "2X": "1.29",
+      "1X": "1.64"
     },
     "BTTS": {
-      "Oui": "1.38",
-      "Non": "2.735"
+      "Oui": "1.34",
+      "Non": "2.904"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.64",
-        "Plus de": "2.08"
+        "Moins de": "1.72",
+        "Plus de": "1.96"
       },
       "2.5": {
-        "Plus de": "1.4",
-        "Moins de": "2.56"
+        "Plus de": "1.35",
+        "Moins de": "2.74"
       },
       "3": {
-        "Plus de": "1.63",
-        "Moins de": "2.03"
+        "Plus de": "1.54",
+        "Moins de": "2.19"
       },
       "4": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
+        "Plus de": "2.59",
+        "Moins de": "1.39"
       },
       "4.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
+        "Plus de": "3.14",
+        "Moins de": "1.27"
       }
     },
     "Handicap": {
-      "2 (0)": "1.56",
-      "1 (0)": "2.21",
-      "1 (-1)": "4.9",
-      "2 (-1)": "2.875",
-      "1 (+1)": "1.32",
-      "2 (+1)": "1.109",
-      "1 (-1.5)": "5.8",
-      "2 (-1.5)": "3.58",
-      "1 (+1.5)": "1.21",
-      "2 (+1.5)": "1.072"
+      "2 (0)": "1.533",
+      "1 (0)": "2.26",
+      "1 (-1)": "4.95",
+      "2 (-1)": "2.74",
+      "1 (+1)": "1.35",
+      "2 (+1)": "1.106",
+      "1 (-1.5)": "5.85",
+      "2 (-1.5)": "3.42",
+      "1 (+1.5)": "1.23",
+      "2 (+1.5)": "1.07"
     }
   },
   {
@@ -1155,7 +1009,7 @@
       "Moins de": "1.62"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T08:00:00+00:00",
     "competition": "Championnat de Chine. Ligue 2",
@@ -1221,7 +1075,7 @@
       "Moins de": "3.23"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T08:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -1283,7 +1137,7 @@
       "Moins de": "1.75"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T08:45:00+00:00",
     "competition": "Malaisie. Coupe du Président",
@@ -1349,7 +1203,7 @@
       "Moins de": "2.01"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1415,7 +1269,7 @@
       "Moins de": "2.29"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Championnat de République tchèque. 3 Liga",
@@ -1481,7 +1335,7 @@
       "Moins de": "3.07"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -1541,7 +1395,7 @@
       "Moins de": "2.31"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -1599,7 +1453,7 @@
       "Moins de": "3.44"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -1659,7 +1513,7 @@
       "Moins de": "1.43"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:30:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1725,7 +1579,7 @@
       "Moins de": "1.98"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:30:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1791,7 +1645,7 @@
       "Moins de": "2.375"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T09:30:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1857,7 +1711,7 @@
       "Moins de": "1.833"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1923,7 +1777,7 @@
       "Moins de": "2.08"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -1989,7 +1843,7 @@
       "Moins de": "2.05"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -2055,7 +1909,7 @@
       "Moins de": "1.69"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -2121,7 +1975,7 @@
       "Moins de": "1.92"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Japon. Coupe de l'Empereur",
@@ -2187,7 +2041,7 @@
       "Moins de": "1.61"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Championnat d'Espagne. Deuxième division RFEF. Groupe 5",
@@ -2241,6 +2095,130 @@
   },
   {
     "bookmaker": "africa-bizbet",
+    "equipe_1": "Sejong Sportstoto (Femmes)",
+    "equipe_2": "Hyundai Steel Red Angels (Femmes)",
+    "1X2": {
+      "V1": "2.26",
+      "V2": "2.954",
+      "X": "3.05"
+    },
+    "Total_2.5": {
+      "Plus de": "2.18",
+      "Moins de": "1.58"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat de Corée du Sud. Femmes",
+    "competition_en": "South Korea. WK-League",
+    "competition_id": 38937,
+    "equipe_1_en": "Sejong Sportstoto (Women)",
+    "equipe_2_en": "Hyundai Steel Red Angels (Women)",
+    "Double_Chance": {
+      "12": "1.26",
+      "1X": "1.3",
+      "2X": "1.49"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.58",
+        "Plus de": "2.18"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "2": {
+        "Plus de": "1.61",
+        "Moins de": "2.07"
+      },
+      "3": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      },
+      "3.5": {
+        "Plus de": "4.1",
+        "Moins de": "1.162"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.63",
+      "2 (0)": "2.08",
+      "1 (-1)": "3.86",
+      "2 (-1)": "5.7",
+      "1 (+1)": "1.076",
+      "2 (+1)": "1.181",
+      "1 (-1.5)": "4.9",
+      "2 (-1.5)": "6.85",
+      "1 (+1.5)": "1.042",
+      "2 (+1.5)": "1.11"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Séoul (Femmes)",
+    "equipe_2": "Mungyeong Sangmu (Femmes)",
+    "1X2": {
+      "V1": "2.19",
+      "V2": "2.874",
+      "X": "3.28"
+    },
+    "Total_2.5": {
+      "Plus de": "1.83",
+      "Moins de": "1.84"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T10:00:00+00:00",
+    "competition": "Championnat de Corée du Sud. Femmes",
+    "competition_en": "South Korea. WK-League",
+    "competition_id": 38937,
+    "equipe_1_en": "Seoul (Women)",
+    "equipe_2_en": "Mungyeong Sangmu (Women)",
+    "Double_Chance": {
+      "12": "1.23",
+      "1X": "1.31",
+      "2X": "1.52"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.83",
+        "Moins de": "1.84"
+      },
+      "1.5": {
+        "Plus de": "1.23",
+        "Moins de": "3.42"
+      },
+      "2": {
+        "Plus de": "1.37",
+        "Moins de": "2.66"
+      },
+      "3": {
+        "Plus de": "2.43",
+        "Moins de": "1.44"
+      },
+      "3.5": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.63",
+      "2 (0)": "2.08",
+      "1 (-1)": "3.5",
+      "2 (-1)": "5.2",
+      "1 (+1)": "1.095",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.45",
+      "2 (-1.5)": "6.25",
+      "1 (+1.5)": "1.058",
+      "2 (+1.5)": "1.137"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
     "equipe_1": "Ordabasy Chymkent II",
     "equipe_2": "Jas Qyran",
     "1X2": {
@@ -2253,7 +2231,7 @@
       "Moins de": "3.07"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -2315,7 +2293,7 @@
       "Moins de": "3.76"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T10:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -2364,16 +2342,16 @@
     "equipe_1": "Hatayspor",
     "equipe_2": "Karakopru Belediyespor",
     "1X2": {
-      "V2": "1.66",
-      "X": "3.84",
-      "V1": "4.635"
+      "V2": "1.65",
+      "X": "3.9",
+      "V1": "4.63"
     },
     "Total_2.5": {
       "Plus de": "1.71",
       "Moins de": "2.05"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2383,8 +2361,8 @@
     "equipe_2_en": "Karakopru Belediyespor",
     "Double_Chance": {
       "2X": "1.149",
-      "12": "1.22",
-      "1X": "2.11"
+      "12": "1.21",
+      "1X": "2.12"
     },
     "BTTS": {
       "Oui": "1.69",
@@ -2396,8 +2374,8 @@
         "Moins de": "2.05"
       },
       "1.5": {
-        "Plus de": "1.175",
-        "Moins de": "3.92"
+        "Plus de": "1.173",
+        "Moins de": "3.95"
       },
       "2": {
         "Plus de": "1.285",
@@ -2413,16 +2391,16 @@
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.35",
-      "2 (-1.5)": "2.74",
+      "1 (+1.5)": "1.36",
+      "2 (-1.5)": "2.7",
       "1 (0)": "3.42",
       "2 (0)": "1.23",
-      "2 (-1)": "2.15",
-      "1 (+1)": "1.63",
-      "2 (-2)": "4.65",
-      "1 (+2)": "1.125",
-      "2 (-2.5)": "5.45",
-      "1 (+2.5)": "1.084"
+      "2 (-1)": "2.12",
+      "1 (+1)": "1.65",
+      "2 (-2)": "4.6",
+      "1 (+2)": "1.127",
+      "2 (-2.5)": "5.4",
+      "1 (+2.5)": "1.086"
     }
   },
   {
@@ -2431,15 +2409,15 @@
     "equipe_2": "Agri 1970 Spor",
     "1X2": {
       "V1": "1.87",
-      "X": "3.22",
-      "V2": "4.27"
+      "X": "3.18",
+      "V2": "4.35"
     },
     "Total_2.5": {
-      "Plus de": "2.14",
-      "Moins de": "1.65"
+      "Plus de": "2.25",
+      "Moins de": "1.59"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2448,43 +2426,43 @@
     "equipe_1_en": "Nigde Beledi̇ye Spor",
     "equipe_2_en": "Agri 1970 Spor",
     "Double_Chance": {
-      "1X": "1.177",
+      "1X": "1.17",
       "12": "1.3",
       "2X": "1.84"
     },
     "BTTS": {
-      "Non": "1.781",
-      "Oui": "1.93"
+      "Non": "1.71",
+      "Oui": "2.02"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.65",
-        "Plus de": "2.14"
+        "Moins de": "1.59",
+        "Plus de": "2.25"
       },
       "1.5": {
-        "Plus de": "1.33",
-        "Moins de": "2.83"
+        "Plus de": "1.36",
+        "Moins de": "2.7"
       },
       "2": {
-        "Plus de": "1.57",
-        "Moins de": "2.14"
+        "Plus de": "1.64",
+        "Moins de": "2.03"
       },
       "3": {
-        "Plus de": "3.08",
-        "Moins de": "1.285"
+        "Plus de": "3.3",
+        "Moins de": "1.25"
       },
       "3.5": {
-        "Plus de": "3.8",
-        "Moins de": "1.188"
+        "Plus de": "4.1",
+        "Moins de": "1.161"
       }
     },
     "Handicap": {
       "1 (0)": "1.3",
       "2 (0)": "2.97",
-      "1 (-1)": "2.68",
-      "2 (-1)": "9.5",
-      "1 (+1)": "1.001",
-      "2 (+1)": "1.42",
+      "1 (-1)": "2.71",
+      "2 (-1)": "8.2",
+      "1 (+1)": "1.03",
+      "2 (+1)": "1.41",
       "1 (-1.5)": "3.42",
       "2 (-1.5)": "9.3",
       "1 (+1.5)": "1.02",
@@ -2505,7 +2483,7 @@
       "Moins de": "2.17"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2571,7 +2549,7 @@
       "Moins de": "2.25"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2637,7 +2615,7 @@
       "Moins de": "1.69"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2703,7 +2681,7 @@
       "Moins de": "2.06"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2760,16 +2738,16 @@
     "equipe_1": "Bursa Yildirimspor",
     "equipe_2": "Amasyaspor",
     "1X2": {
-      "V1": "1.55",
-      "X": "3.68",
-      "V2": "6.14"
+      "V1": "1.635",
+      "X": "3.48",
+      "V2": "5.53"
     },
     "Total_2.5": {
-      "Plus de": "2.03",
-      "Moins de": "1.72"
+      "Plus de": "2.11",
+      "Moins de": "1.666"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2778,47 +2756,47 @@
     "equipe_1_en": "Bursa Yildirimspor",
     "equipe_2_en": "Amasyaspor",
     "Double_Chance": {
-      "1X": "1.082",
-      "12": "1.23",
-      "2X": "2.32"
+      "1X": "1.105",
+      "12": "1.26",
+      "2X": "2.15"
     },
     "BTTS": {
-      "Non": "1.68",
-      "Oui": "2.06"
+      "Non": "1.686",
+      "Oui": "2.05"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.72",
-        "Plus de": "2.03"
+        "Moins de": "1.666",
+        "Plus de": "2.11"
       },
       "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
+        "Plus de": "1.33",
+        "Moins de": "2.83"
       },
       "2": {
-        "Plus de": "1.5",
-        "Moins de": "2.29"
+        "Plus de": "1.55",
+        "Moins de": "2.18"
       },
       "3": {
-        "Plus de": "2.8",
-        "Moins de": "1.34"
+        "Plus de": "2.94",
+        "Moins de": "1.31"
       },
       "3.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
+        "Plus de": "3.58",
+        "Moins de": "1.21"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.42",
-      "1 (-1.5)": "2.49",
-      "1 (0)": "1.136",
-      "2 (0)": "4.45",
-      "1 (-1)": "1.94",
-      "2 (+1)": "1.78",
-      "1 (-2)": "4.1",
-      "2 (+2)": "1.16",
-      "1 (-2.5)": "4.9",
-      "2 (+2.5)": "1.109"
+      "2 (+1.5)": "1.35",
+      "1 (-1.5)": "2.74",
+      "1 (0)": "1.176",
+      "2 (0)": "3.92",
+      "1 (-1)": "2.14",
+      "2 (+1)": "1.64",
+      "1 (-2)": "4.7",
+      "2 (+2)": "1.12",
+      "1 (-2.5)": "5.5",
+      "2 (+2.5)": "1.082"
     }
   },
   {
@@ -2831,11 +2809,11 @@
       "V2": "4.89"
     },
     "Total_2.5": {
-      "Plus de": "2.05",
-      "Moins de": "1.71"
+      "Plus de": "2.03",
+      "Moins de": "1.72"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2854,16 +2832,16 @@
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.71",
-        "Plus de": "2.05"
+        "Moins de": "1.72",
+        "Plus de": "2.03"
       },
       "1.5": {
         "Plus de": "1.31",
         "Moins de": "2.92"
       },
       "2": {
-        "Plus de": "1.52",
-        "Moins de": "2.24"
+        "Plus de": "1.51",
+        "Moins de": "2.27"
       },
       "3": {
         "Plus de": "2.84",
@@ -2877,8 +2855,8 @@
     "Handicap": {
       "2 (+1.5)": "1.333",
       "1 (-1.5)": "2.81",
-      "1 (0)": "1.22",
-      "2 (0)": "3.5",
+      "1 (0)": "1.222",
+      "2 (0)": "3.48",
       "1 (-1)": "2.19",
       "2 (+1)": "1.61",
       "1 (-2)": "4.85",
@@ -2901,7 +2879,7 @@
       "Moins de": "1.7"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2967,7 +2945,7 @@
       "Moins de": "1.76"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3033,7 +3011,7 @@
       "Moins de": "2.08"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T11:30:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3099,7 +3077,7 @@
       "Moins de": "1.98"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T12:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -3165,7 +3143,7 @@
       "Moins de": "1.76"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-07T00:23:06.700901+00:00",
+    "derniere_maj": "2026-10-07T03:16:14.157527+00:00",
     "statut": "ok",
     "debut": "2026-10-07T12:00:00+00:00",
     "competition": "Coupe de Turquie",
