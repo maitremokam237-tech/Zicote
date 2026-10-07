@@ -1,510 +1,200 @@
 [
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Entente Sportive d'Agboville",
-    "equipe_2": "Olympique Adiake",
+    "equipe_1": "SOL Abobo",
+    "equipe_2": "Stade d'Abidjan",
     "1X2": {
-      "V1": "1.74",
-      "X": "3.14",
-      "V2": "4.635"
+      "V2": "2.02",
+      "X": "2.96",
+      "V1": "3.625"
     },
     "Total_2.5": {
-      "Plus de": "2.52",
-      "Moins de": "1.41"
+      "Plus de": "2.44",
+      "Moins de": "1.47"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T15:30:00+00:00",
+    "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Côte d’Ivoire. Ligue 1",
     "competition_en": "Ivory Coast. League 1",
     "competition_id": 156433,
-    "equipe_1_en": "Entente Sportive d'Agboville",
-    "equipe_2_en": "Olympique Adiake",
+    "equipe_1_en": "SOL Abobo",
+    "equipe_2_en": "Stade d'Abidjan",
     "Double_Chance": {
-      "1X": "1.112",
-      "12": "1.25",
-      "2X": "1.86"
+      "2X": "1.195",
+      "12": "1.28",
+      "1X": "1.61"
     },
     "BTTS": {
-      "Non": "1.53",
-      "Oui": "2.29"
+      "Non": "1.639",
+      "Oui": "2.08"
     },
     "Totals": {
+      "2.5": {
+        "Moins de": "1.47",
+        "Plus de": "2.44"
+      },
       "1.5": {
-        "Plus de": "1.51",
-        "Moins de": "2.33"
-      },
-      "0.5": {
-        "Plus de": "1.055",
-        "Moins de": "6.35"
-      },
-      "1": {
-        "Plus de": "1.108",
-        "Moins de": "4.95"
+        "Plus de": "1.45",
+        "Moins de": "2.41"
       },
       "2": {
-        "Plus de": "1.9",
-        "Moins de": "1.727"
-      },
-      "2.5": {
-        "Plus de": "2.52",
-        "Moins de": "1.41"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.26",
-      "2 (0)": "3.2",
-      "1 (-1)": "2.56",
-      "2 (+1)": "1.42",
-      "1 (-1.5)": "3.42",
-      "2 (+1.5)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Inova SCA",
-    "equipe_2": "Bouake",
-    "1X2": {
-      "V1": "2.36",
-      "X": "2.78",
-      "V2": "3.05"
-    },
-    "Total_2.5": {
-      "Plus de": "3.15",
-      "Moins de": "1.29"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T15:30:00+00:00",
-    "competition": "Côte d’Ivoire. Ligue 1",
-    "competition_en": "Ivory Coast. League 1",
-    "competition_id": 156433,
-    "equipe_1_en": "Inova SCA",
-    "equipe_2_en": "Bouake",
-    "Double_Chance": {
-      "1X": "1.27",
-      "12": "1.31",
-      "2X": "1.43"
-    },
-    "BTTS": {
-      "Non": "1.45",
-      "Oui": "2.47"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.08"
-      },
-      "2": {
-        "Plus de": "2.3",
-        "Moins de": "1.52"
-      },
-      "2.5": {
-        "Plus de": "3.15",
-        "Moins de": "1.29"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.64",
-      "2 (0)": "2.07"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Jedinstvo Ub U19",
-    "equipe_2": "Crvena Zvezda U19",
-    "1X2": {
-      "V2": "1.32",
-      "X": "5",
-      "V1": "6.61"
-    },
-    "Total_2.5": {
-      "Plus de": "1.21",
-      "Moins de": "3.58"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Championnat de Sérbie U19",
-    "competition_en": "Serbia Championship U19",
-    "competition_id": 913849,
-    "equipe_1_en": "Jedinstvo Ub U19",
-    "equipe_2_en": "Crvena Zvezda U19",
-    "Double_Chance": {
-      "2X": "1.039",
-      "12": "1.086",
-      "1X": "2.8"
-    },
-    "BTTS": {
-      "Oui": "1.38",
-      "Non": "2.735"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.61",
-        "Moins de": "2.13"
-      },
-      "2.5": {
-        "Plus de": "1.21",
-        "Moins de": "3.58"
+        "Plus de": "1.81",
+        "Moins de": "1.81"
       },
       "3": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
-      },
-      "4": {
-        "Plus de": "1.9",
-        "Moins de": "1.727"
-      },
-      "4.5": {
-        "Plus de": "2.33",
-        "Moins de": "1.48"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.81",
-      "2 (-1.5)": "1.85",
-      "1 (0)": "5.15",
-      "2 (0)": "1.098",
-      "2 (-1)": "1.48",
-      "1 (+1)": "2.33",
-      "2 (-2)": "2.33",
-      "1 (+2)": "1.48",
-      "2 (-2.5)": "2.83",
-      "1 (+2.5)": "1.33"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Ben Aknoun",
-    "equipe_2": "JS El Biar",
-    "1X2": {
-      "V1": "2.1",
-      "X": "2.81",
-      "V2": "3.645"
-    },
-    "Total_2.5": {
-      "Plus de": "2.38",
-      "Moins de": "1.49"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Algérie. Ligue 1",
-    "competition_en": "Algeria. Ligue 1",
-    "competition_id": 28645,
-    "equipe_1_en": "Ben Aknoun",
-    "equipe_2_en": "JS El Biar",
-    "Double_Chance": {
-      "1X": "1.198",
-      "12": "1.32",
-      "2X": "1.57"
-    },
-    "BTTS": {
-      "Non": "1.682",
-      "Oui": "2.04"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.49",
-        "Plus de": "2.38"
-      },
-      "1.5": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
-      },
-      "2": {
-        "Plus de": "1.78",
-        "Moins de": "1.84"
-      },
-      "3": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
+        "Plus de": "3.84",
+        "Moins de": "1.183"
       },
       "3.5": {
-        "Plus de": "4.33",
-        "Moins de": "1.143"
+        "Plus de": "4.6",
+        "Moins de": "1.127"
       }
     },
     "Handicap": {
-      "1 (0)": "1.44",
-      "2 (0)": "2.43",
-      "1 (-1)": "3.25",
-      "2 (-1)": "7.1",
-      "1 (+1)": "1.038",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "4.1",
-      "2 (-1.5)": "7.9",
-      "1 (+1.5)": "1.021",
-      "2 (+1.5)": "1.162"
+      "2 (0)": "1.44",
+      "1 (0)": "2.5",
+      "1 (-1)": "7.2",
+      "2 (-1)": "3.08",
+      "1 (+1)": "1.28",
+      "2 (+1)": "1.034",
+      "1 (-1.5)": "8.2",
+      "2 (-1.5)": "4",
+      "1 (+1.5)": "1.168",
+      "2 (+1.5)": "1.017"
     }
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Constantine",
-    "equipe_2": "Biskra",
+    "equipe_1": "Depotivo Gomera",
+    "equipe_2": "Quiche",
     "1X2": {
-      "V1": "1.74",
-      "X": "2.86",
-      "V2": "5.52"
+      "V1": "1.42",
+      "X": "4.05",
+      "V2": "6.32"
     },
     "Total_2.5": {
-      "Plus de": "2.92",
-      "Moins de": "1.31"
+      "Plus de": "1.76",
+      "Moins de": "1.92"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Algérie. Ligue 1",
-    "competition_en": "Algeria. Ligue 1",
-    "competition_id": 28645,
-    "equipe_1_en": "Constantine",
-    "equipe_2_en": "Biskra",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Guatemala. Primera Division de Ascenso",
+    "competition_en": "Guatemala. Primera Division de Ascenso",
+    "competition_id": 985923,
+    "equipe_1_en": "Depotivo Gomera",
+    "equipe_2_en": "Quiche",
     "Double_Chance": {
-      "1X": "1.075",
-      "12": "1.31",
-      "2X": "1.87"
+      "1X": "1.048",
+      "12": "1.144",
+      "2X": "2.43"
     },
     "BTTS": {
-      "Non": "1.416",
-      "Oui": "2.64"
+      "Non": "1.789",
+      "Oui": "1.88"
     },
     "Totals": {
+      "2.5": {
+        "Plus de": "1.76",
+        "Moins de": "1.92"
+      },
       "1.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.1"
-      },
-      "0.5": {
-        "Plus de": "1.093",
-        "Moins de": "5.25"
-      },
-      "1": {
-        "Plus de": "1.175",
-        "Moins de": "3.92"
+        "Plus de": "1.22",
+        "Moins de": "3.5"
       },
       "2": {
-        "Plus de": "2.19",
-        "Moins de": "1.54"
+        "Plus de": "1.34",
+        "Moins de": "2.78"
       },
-      "2.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
+      "3": {
+        "Plus de": "2.26",
+        "Moins de": "1.51"
+      },
+      "3.5": {
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.23",
-      "1 (-1.5)": "3.42",
-      "1 (0)": "1.195",
-      "2 (0)": "3.72",
-      "1 (-1)": "2.56",
-      "2 (+1)": "1.42",
-      "1 (-2)": "7.1",
-      "2 (+2)": "1.036",
-      "1 (-2.5)": "8.2",
-      "2 (+2.5)": "1.017"
+      "2 (+1.5)": "1.52",
+      "1 (-1.5)": "2.24",
+      "1 (0)": "1.121",
+      "2 (0)": "4.7",
+      "1 (-1)": "1.727",
+      "2 (+1)": "1.94",
+      "1 (-2)": "3.34",
+      "2 (+2)": "1.24",
+      "1 (-2.5)": "4.05",
+      "2 (+2.5)": "1.165"
     }
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
+    "equipe_1": "Gjovik-Lyn U19",
+    "equipe_2": "Sarpsborg U19",
     "1X2": {
-      "V1": "1.315",
-      "V2": "6",
-      "X": "7.55"
+      "V1": "1.97",
+      "V2": "2.73",
+      "X": "4.25"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Algérie. Ligue 1",
-    "competition_en": "Algeria. Ligue 1",
-    "competition_id": 28645,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Norvège. Junior U19",
+    "competition_en": "Norway Championship U19",
+    "competition_id": 38045,
+    "equipe_1_en": "Gjovik-Lyn U19",
+    "equipe_2_en": "Sarpsborg U19",
     "Double_Chance": {
-      "12": "1.069",
-      "1X": "1.104",
-      "2X": "3.785"
+      "12": "1.129",
+      "1X": "1.34",
+      "2X": "1.65"
     },
     "BTTS": {
-      "Oui": "1.102",
-      "Non": "6.88"
+      "Oui": "1.146",
+      "Non": "4.58"
     },
     "Totals": {
-      "6.5": {
-        "Moins de": "1.867",
-        "Plus de": "1.934"
-      },
       "4.5": {
-        "Plus de": "1.238",
-        "Moins de": "4.075"
-      },
-      "5.5": {
-        "Plus de": "1.512",
-        "Moins de": "2.556"
-      },
-      "7.5": {
-        "Plus de": "2.638",
-        "Moins de": "1.485"
-      },
-      "8.5": {
-        "Plus de": "3.935",
-        "Moins de": "1.252"
-      }
-    },
-    "Handicap": {
-      "2 (+2.5)": "1.741",
-      "1 (-2.5)": "2.092",
-      "1 (-1.5)": "1.609",
-      "2 (+1.5)": "2.321",
-      "1 (-2)": "1.808",
-      "2 (+2)": "2.001",
-      "1 (-3)": "2.579",
-      "2 (+3)": "1.504",
-      "1 (-3.5)": "2.975",
-      "2 (+3.5)": "1.396"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Ceramica Cleopatra",
-    "equipe_2": "Al-Masry",
-    "1X2": {
-      "V2": "2.32",
-      "X": "2.82",
-      "V1": "3.09"
-    },
-    "Total_2.5": {
-      "Plus de": "3.14",
-      "Moins de": "1.27"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Egypte. Coupe de la Ligue",
-    "competition_en": "Egypt. League Cup",
-    "competition_id": 2341854,
-    "equipe_1_en": "Ceramica Cleopatra",
-    "equipe_2_en": "Al-Masry",
-    "Double_Chance": {
-      "2X": "1.27",
-      "12": "1.31",
-      "1X": "1.46"
-    },
-    "BTTS": {
-      "Non": "1.463",
-      "Oui": "2.46"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.69",
-        "Moins de": "2.01"
-      },
-      "0.5": {
-        "Plus de": "1.079",
-        "Moins de": "5.6"
-      },
-      "1": {
-        "Plus de": "1.166",
-        "Moins de": "4.05"
-      },
-      "2": {
-        "Plus de": "2.33",
-        "Moins de": "1.48"
-      },
-      "2.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.61",
-      "1 (0)": "2.11",
-      "1 (-1)": "7.1",
-      "2 (-1)": "4.5",
-      "1 (+1)": "1.132",
-      "2 (+1)": "1.038",
-      "1 (-1.5)": "8.5",
-      "2 (-1.5)": "5.8",
-      "1 (+1.5)": "1.072",
-      "2 (+1.5)": "1.013"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Zamalek",
-    "equipe_2": "ZED",
-    "1X2": {
-      "V2": "1.575",
-      "X": "3.96",
-      "V1": "4.51"
-    },
-    "Total_2.5": {
-      "Plus de": "1.82",
-      "Moins de": "1.85"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Egypte. Coupe de la Ligue",
-    "competition_en": "Egypt. League Cup",
-    "competition_id": 2341854,
-    "equipe_1_en": "Zamalek",
-    "equipe_2_en": "ZED",
-    "Double_Chance": {
-      "2X": "1.077",
-      "12": "1.165",
-      "1X": "2.2"
-    },
-    "BTTS": {
-      "Non": "1.819",
-      "Oui": "1.85"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.82",
-        "Moins de": "1.85"
-      },
-      "1.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "2": {
-        "Plus de": "1.38",
-        "Moins de": "2.625"
-      },
-      "3": {
-        "Plus de": "2.375",
-        "Moins de": "1.46"
+        "Moins de": "1.78",
+        "Plus de": "1.89"
       },
       "3.5": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
+        "Plus de": "1.37",
+        "Moins de": "2.66"
+      },
+      "4": {
+        "Plus de": "1.54",
+        "Moins de": "2.19"
+      },
+      "5": {
+        "Plus de": "2.35",
+        "Moins de": "1.47"
+      },
+      "5.5": {
+        "Plus de": "2.81",
+        "Moins de": "1.333"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.43",
-      "2 (-1.5)": "2.46",
-      "1 (0)": "3.98",
-      "2 (0)": "1.171",
-      "2 (-1)": "1.9",
-      "1 (+1)": "1.76",
-      "2 (-2)": "3.95",
-      "1 (+2)": "1.173",
-      "2 (-2.5)": "4.7",
-      "1 (+2.5)": "1.121"
+      "1 (0)": "1.59",
+      "2 (0)": "2.15",
+      "1 (-1)": "2.56",
+      "2 (-1)": "4",
+      "1 (+1)": "1.168",
+      "2 (+1)": "1.4",
+      "1 (-1.5)": "3.08",
+      "2 (-1.5)": "4.65",
+      "1 (+1.5)": "1.123",
+      "2 (+1.5)": "1.28"
     }
   },
   {
@@ -521,7 +211,7 @@
       "Moins de": "1.961"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -587,7 +277,7 @@
       "Moins de": "2.179"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -653,7 +343,7 @@
       "Moins de": "1.46"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -719,7 +409,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -781,7 +471,7 @@
       "Moins de": "2.007"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T23:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -847,7 +537,7 @@
       "Moins de": "2.28"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T23:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -913,7 +603,7 @@
       "Moins de": "1.87"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-08T00:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -967,1036 +657,6 @@
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "AS Tanda",
-    "equipe_2": "Divo",
-    "1X2": {
-      "V1": "2.36",
-      "X": "2.81",
-      "V2": "3.035"
-    },
-    "Total_2.5": {
-      "Plus de": "2.52",
-      "Moins de": "1.41"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T15:30:00+00:00",
-    "competition": "Championnat de Côte d'Ivoire. Deuxième Ligue",
-    "competition_en": "Ivory Coast. League 2",
-    "competition_id": 2365172,
-    "equipe_1_en": "AS Tanda",
-    "equipe_2_en": "Divo",
-    "Double_Chance": {
-      "1X": "1.28",
-      "12": "1.31",
-      "2X": "1.444"
-    },
-    "BTTS": {
-      "Non": "1.634",
-      "Oui": "2.09"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.51",
-        "Moins de": "2.33"
-      },
-      "0.5": {
-        "Plus de": "1.065",
-        "Moins de": "6"
-      },
-      "1": {
-        "Plus de": "1.119",
-        "Moins de": "4.75"
-      },
-      "2": {
-        "Plus de": "1.9",
-        "Moins de": "1.73"
-      },
-      "2.5": {
-        "Plus de": "2.52",
-        "Moins de": "1.41"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.64",
-      "2 (0)": "2.06",
-      "1 (-1)": "4.15",
-      "2 (-1)": "5.95",
-      "1 (+1)": "1.067",
-      "2 (+1)": "1.156",
-      "1 (-1.5)": "5.2",
-      "2 (-1.5)": "7.1",
-      "1 (+1.5)": "1.037",
-      "2 (+1.5)": "1.095"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Biellese",
-    "equipe_2": "Alessandria Calcio 1912",
-    "1X2": {
-      "V1": "1.77",
-      "X": "3.54",
-      "V2": "4.51"
-    },
-    "Total_2.5": {
-      "Plus de": "2.01",
-      "Moins de": "1.8"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T15:30:00+00:00",
-    "competition": "Coupe d'Italie. Série D",
-    "competition_en": "Coppa Italia. Serie D",
-    "competition_id": 156939,
-    "equipe_1_en": "Biellese",
-    "equipe_2_en": "Alessandria Calcio 1912",
-    "Double_Chance": {
-      "1X": "1.184",
-      "12": "1.275",
-      "2X": "1.99"
-    },
-    "BTTS": {
-      "Non": "1.808",
-      "Oui": "1.896"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.8",
-        "Plus de": "2.01"
-      },
-      "1.5": {
-        "Plus de": "1.345",
-        "Moins de": "3.225"
-      },
-      "2": {
-        "Plus de": "1.544",
-        "Moins de": "2.47"
-      },
-      "3": {
-        "Plus de": "2.79",
-        "Moins de": "1.44"
-      },
-      "3.5": {
-        "Plus de": "3.475",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.392",
-      "1 (-1.5)": "2.99",
-      "1 (0)": "1.28",
-      "2 (0)": "3.48",
-      "1 (-1)": "2.3",
-      "2 (+1)": "1.62",
-      "1 (-2)": "5.54",
-      "2 (+2)": "1.145",
-      "1 (-2.5)": "6.63",
-      "2 (+2.5)": "1.11"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Academia Deportiva Cantolao",
-    "equipe_2": "Santos Ica",
-    "1X2": {
-      "V1": "2.04",
-      "X": "3.2",
-      "V2": "3.28"
-    },
-    "Total_2.5": {
-      "Plus de": "2.13",
-      "Moins de": "1.61"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T15:45:00+00:00",
-    "competition": "Pérou. Deuxième division",
-    "competition_en": "Peru. Liga 2",
-    "competition_id": 62893,
-    "equipe_1_en": "Academia Deportiva Cantolao",
-    "equipe_2_en": "Santos Ica",
-    "Double_Chance": {
-      "1X": "1.24",
-      "12": "1.24",
-      "2X": "1.6"
-    },
-    "BTTS": {
-      "Non": "1.799",
-      "Oui": "1.87"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.61",
-        "Plus de": "2.13"
-      },
-      "1.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "2": {
-        "Plus de": "1.59",
-        "Moins de": "2.1"
-      },
-      "3": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
-      },
-      "3.5": {
-        "Plus de": "3.84",
-        "Moins de": "1.183"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.5",
-      "2 (0)": "2.34",
-      "1 (-1)": "3.14",
-      "2 (-1)": "6.15",
-      "1 (+1)": "1.061",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "4",
-      "2 (-1.5)": "7.1",
-      "1 (+1.5)": "1.037",
-      "2 (+1.5)": "1.168"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Gnistan",
-    "equipe_2": "Inter Turku",
-    "1X2": {
-      "V2": "1.72",
-      "X": "3.94",
-      "V1": "4.27"
-    },
-    "Total_2.5": {
-      "Plus de": "1.63",
-      "Moins de": "2.19"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Championnat de Finlande. Veikkausliiga",
-    "competition_en": "Finland. Veikkausliiga",
-    "competition_id": 1554897,
-    "equipe_1_en": "Gnistan",
-    "equipe_2_en": "Inter Turku",
-    "Double_Chance": {
-      "2X": "1.188",
-      "12": "1.22",
-      "1X": "2.06"
-    },
-    "BTTS": {
-      "Oui": "1.61",
-      "Non": "2.182"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.19"
-      },
-      "1.5": {
-        "Plus de": "1.161",
-        "Moins de": "4.1"
-      },
-      "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.26"
-      },
-      "3": {
-        "Plus de": "1.98",
-        "Moins de": "1.68"
-      },
-      "3.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.43"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.36",
-      "2 (-1.5)": "2.71",
-      "1 (0)": "3.08",
-      "2 (0)": "1.28",
-      "2 (-1)": "2.19",
-      "1 (+1)": "1.62",
-      "2 (-2)": "4.4",
-      "1 (+2)": "1.138",
-      "2 (-2.5)": "5.1",
-      "1 (+2.5)": "1.099"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Al Tadamun Buri",
-    "equipe_2": "Etehad Al Reef",
-    "1X2": {
-      "V1": "1.33",
-      "X": "4.6",
-      "V2": "7.16"
-    },
-    "Total_2.5": {
-      "Plus de": "1.41",
-      "Moins de": "2.52"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Bahreïn. Coupe du Roi",
-    "competition_en": "Bahrain. King's Cup",
-    "competition_id": 1648149,
-    "equipe_1_en": "Al Tadamun Buri",
-    "equipe_2_en": "Etehad Al Reef",
-    "Double_Chance": {
-      "1X": "1.027",
-      "12": "1.106",
-      "2X": "2.75"
-    },
-    "BTTS": {
-      "Oui": "1.615",
-      "Non": "2.12"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.65",
-        "Plus de": "2.06"
-      },
-      "2.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.52"
-      },
-      "3": {
-        "Plus de": "1.63",
-        "Moins de": "2.03"
-      },
-      "4": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
-      },
-      "4.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.24"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.727",
-      "1 (-1.5)": "1.94",
-      "1 (0)": "1.087",
-      "2 (0)": "5.4",
-      "1 (-1)": "1.52",
-      "2 (+1)": "2.24",
-      "1 (-2)": "2.59",
-      "2 (+2)": "1.39",
-      "1 (-2.5)": "3.14",
-      "2 (+2.5)": "1.27"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Busaiteen",
-    "equipe_2": "Qalali Club",
-    "1X2": {
-      "V1": "1.29",
-      "X": "4.8",
-      "V2": "7.9"
-    },
-    "Total_2.5": {
-      "Plus de": "1.48",
-      "Moins de": "2.33"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Bahreïn. Coupe du Roi",
-    "competition_en": "Bahrain. King's Cup",
-    "competition_id": 1648149,
-    "equipe_1_en": "Busaiteen Club",
-    "equipe_2_en": "Qalali Club",
-    "Double_Chance": {
-      "1X": "1.012",
-      "12": "1.095",
-      "2X": "2.94"
-    },
-    "BTTS": {
-      "Oui": "1.77",
-      "Non": "1.902"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.533",
-        "Plus de": "2.28"
-      },
-      "2.5": {
-        "Plus de": "1.48",
-        "Moins de": "2.33"
-      },
-      "3": {
-        "Plus de": "1.78",
-        "Moins de": "1.84"
-      },
-      "4": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
-      },
-      "4.5": {
-        "Plus de": "3.84",
-        "Moins de": "1.183"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.77",
-      "1 (-1.5)": "1.89",
-      "1 (0)": "1.063",
-      "2 (0)": "6.05",
-      "1 (-1)": "1.46",
-      "2 (+1)": "2.375",
-      "1 (-2)": "2.52",
-      "2 (+2)": "1.41",
-      "1 (-2.5)": "3.14",
-      "2 (+2.5)": "1.27"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Malov (Women)",
-    "equipe_2": "Farum (Femmes)",
-    "1X2": {
-      "V1": "2.27",
-      "V2": "2.27",
-      "X": "4.13"
-    },
-    "Total_2.5": {
-      "Plus de": "1.26",
-      "Moins de": "3.35"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Danemark. Série 2. Femmes",
-    "competition_en": "Denmark. Serie 2. Women",
-    "competition_id": 3087160,
-    "equipe_1_en": "Malov (Women)",
-    "equipe_2_en": "Farum (Women)",
-    "Double_Chance": {
-      "12": "1.13",
-      "1X": "1.46",
-      "2X": "1.46"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.76",
-        "Moins de": "1.91"
-      },
-      "2.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.35"
-      },
-      "3": {
-        "Plus de": "1.39",
-        "Moins de": "2.66"
-      },
-      "4": {
-        "Plus de": "2.27",
-        "Moins de": "1.53"
-      },
-      "4.5": {
-        "Plus de": "2.81",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.83",
-      "2 (0)": "1.83",
-      "1 (-1)": "3.56",
-      "2 (-1)": "3.56",
-      "1 (+1)": "1.23",
-      "2 (+1)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "KuPS Akatemia",
-    "equipe_2": "Inter Turku II",
-    "1X2": {
-      "V2": "1.6",
-      "V1": "3.64",
-      "X": "4.85"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Finlande. Ykkonen. Division 1",
-    "competition_en": "Finland. Ykkonen. Division 1",
-    "competition_id": 206667,
-    "equipe_1_en": "KuPS Akatemia",
-    "equipe_2_en": "Inter Turku II",
-    "Double_Chance": {
-      "12": "1.097",
-      "2X": "1.193",
-      "1X": "2.07"
-    },
-    "BTTS": {
-      "Oui": "1.193",
-      "Non": "4.045"
-    },
-    "Totals": {
-      "4.5": {
-        "Moins de": "1.74",
-        "Plus de": "1.89"
-      },
-      "3.5": {
-        "Plus de": "1.4",
-        "Moins de": "2.65"
-      },
-      "4": {
-        "Plus de": "1.56",
-        "Moins de": "2.15"
-      },
-      "5": {
-        "Plus de": "2.41",
-        "Moins de": "1.45"
-      },
-      "5.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.48",
-      "2 (-1.5)": "2.33",
-      "1 (0)": "2.875",
-      "2 (0)": "1.32",
-      "2 (-1)": "1.9",
-      "1 (+1)": "1.76",
-      "2 (-2)": "3.28",
-      "1 (+2)": "1.25",
-      "2 (-2.5)": "3.82",
-      "1 (+2.5)": "1.186"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Rwanda (Femmes)",
-    "equipe_2": "Éthiopie (Femmes)",
-    "1X2": {
-      "V2": "2.16",
-      "V1": "3.05",
-      "X": "3.14"
-    },
-    "Total_2.5": {
-      "Plus de": "2.03",
-      "Moins de": "1.67"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:00:00+00:00",
-    "competition": "Jeux olympiques. Femmes",
-    "competition_en": "Olympics. Women",
-    "competition_id": 77263,
-    "equipe_1_en": "Rwanda (Women)",
-    "equipe_2_en": "Ethiopia (Women)",
-    "Double_Chance": {
-      "12": "1.25",
-      "2X": "1.28",
-      "1X": "1.53"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.67",
-        "Plus de": "2.03"
-      },
-      "1.5": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "2": {
-        "Plus de": "1.52",
-        "Moins de": "2.24"
-      },
-      "3": {
-        "Plus de": "2.875",
-        "Moins de": "1.32"
-      },
-      "3.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.58",
-      "1 (0)": "2.17",
-      "1 (-1)": "5.65",
-      "2 (-1)": "3.42",
-      "1 (+1)": "1.23",
-      "2 (+1)": "1.077",
-      "1 (-1.5)": "6.65",
-      "2 (-1.5)": "4.35",
-      "1 (+1.5)": "1.142",
-      "2 (+1.5)": "1.047"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "ASD Seravezza Calcio",
-    "equipe_2": "Lucchese",
-    "1X2": {
-      "V2": "2.37",
-      "V1": "2.91",
-      "X": "2.91"
-    },
-    "Total_2.5": {
-      "Plus de": "1.952",
-      "Moins de": "1.727"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:30:00+00:00",
-    "competition": "Coupe d'Italie. Série D",
-    "competition_en": "Coppa Italia. Serie D",
-    "competition_id": 156939,
-    "equipe_1_en": "ASD Seravezza Calcio",
-    "equipe_2_en": "Lucchese",
-    "Double_Chance": {
-      "12": "1.29",
-      "2X": "1.31",
-      "1X": "1.44"
-    },
-    "BTTS": {
-      "Oui": "1.72",
-      "Non": "1.964"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.727",
-        "Plus de": "1.952"
-      },
-      "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "2": {
-        "Plus de": "1.47",
-        "Moins de": "2.35"
-      },
-      "3": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
-      },
-      "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.68",
-      "1 (0)": "2",
-      "1 (-1)": "5.1",
-      "2 (-1)": "3.82",
-      "1 (+1)": "1.185",
-      "2 (+1)": "1.101",
-      "1 (-1.5)": "6",
-      "2 (-1.5)": "4.7",
-      "1 (+1.5)": "1.121",
-      "2 (+1.5)": "1.065"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Pavia",
-    "equipe_2": "Santangelo",
-    "1X2": {
-      "V1": "1.78",
-      "X": "3.36",
-      "V2": "4.005"
-    },
-    "Total_2.5": {
-      "Plus de": "1.79",
-      "Moins de": "1.88"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T16:30:00+00:00",
-    "competition": "Coupe d'Italie. Série D",
-    "competition_en": "Coppa Italia. Serie D",
-    "competition_id": 156939,
-    "equipe_1_en": "Pavia",
-    "equipe_2_en": "Santangelo",
-    "Double_Chance": {
-      "1X": "1.156",
-      "12": "1.22",
-      "2X": "1.81"
-    },
-    "BTTS": {
-      "Oui": "1.7",
-      "Non": "1.994"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.79",
-        "Moins de": "1.88"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
-      },
-      "2": {
-        "Plus de": "1.36",
-        "Moins de": "2.7"
-      },
-      "3": {
-        "Plus de": "2.3",
-        "Moins de": "1.49"
-      },
-      "3.5": {
-        "Plus de": "2.875",
-        "Moins de": "1.32"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.33",
-      "2 (0)": "2.92",
-      "1 (-1)": "2.375",
-      "2 (-1)": "7.4",
-      "1 (+1)": "1.03",
-      "2 (+1)": "1.46",
-      "1 (-1.5)": "3.05",
-      "2 (-1.5)": "8.3",
-      "1 (+1.5)": "1.016",
-      "2 (+1.5)": "1.285"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Eskisehirspor",
-    "equipe_2": "Aksehirspor",
-    "1X2": {
-      "V1": "1.063",
-      "X": "8.8",
-      "V2": "32"
-    },
-    "Total_2.5": {
-      "Plus de": "1.46",
-      "Moins de": "2.375"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Eskisehirspor",
-    "equipe_2_en": "Aksehirspor",
-    "Double_Chance": {
-      "1X": "1.007",
-      "12": "1.029",
-      "2X": "6.95"
-    },
-    "BTTS": {
-      "Non": "1.302",
-      "Oui": "3.2"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.23"
-      },
-      "2.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
-      },
-      "3": {
-        "Plus de": "1.727",
-        "Moins de": "1.909"
-      },
-      "4": {
-        "Plus de": "3.04",
-        "Moins de": "1.29"
-      },
-      "4.5": {
-        "Plus de": "3.68",
-        "Moins de": "1.2"
-      }
-    },
-    "Handicap": {
-      "2 (+2.5)": "1.76",
-      "1 (-2.5)": "1.86",
-      "1 (-1.5)": "1.32",
-      "2 (+1.5)": "2.875",
-      "1 (-2)": "1.52",
-      "2 (+2)": "2.38",
-      "1 (-3)": "2.49",
-      "2 (+3)": "1.42",
-      "1 (-3.5)": "3.05",
-      "2 (+3.5)": "1.285"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Vigor Lamezia",
-    "equipe_2": "Gelbison",
-    "1X2": {
-      "V2": "2.35",
-      "V1": "2.68",
-      "X": "3.1"
-    },
-    "Total_2.5": {
-      "Plus de": "1.93",
-      "Moins de": "1.75"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Coupe d'Italie. Série D",
-    "competition_en": "Coppa Italia. Serie D",
-    "competition_id": 156939,
-    "equipe_1_en": "Vigor Lamezia",
-    "equipe_2_en": "Gelbison",
-    "Double_Chance": {
-      "12": "1.26",
-      "2X": "1.34",
-      "1X": "1.44"
-    },
-    "BTTS": {
-      "Oui": "1.72",
-      "Non": "1.964"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.75",
-        "Plus de": "1.93"
-      },
-      "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "2": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
-      },
-      "3": {
-        "Plus de": "2.625",
-        "Moins de": "1.38"
-      },
-      "3.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.72",
-      "1 (0)": "1.95",
-      "1 (-1)": "4.65",
-      "2 (-1)": "3.82",
-      "1 (+1)": "1.186",
-      "2 (+1)": "1.125",
-      "1 (-1.5)": "5.45",
-      "2 (-1.5)": "4.65",
-      "1 (+1.5)": "1.123",
-      "2 (+1.5)": "1.084"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Kirke Helsinge Gorlev Love (Women)",
-    "equipe_2": "Terslev G&IF (Women)",
-    "1X2": {
-      "V2": "1.28",
-      "X": "5.26",
-      "V1": "7.24"
-    },
-    "Total_2.5": {
-      "Plus de": "1.35",
-      "Moins de": "2.82"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Danemark. Série 1. Femmes",
-    "competition_en": "Denmark. Serie 1. Women",
-    "competition_id": 3087159,
-    "equipe_1_en": "Kirke Helsinge Gorlev Love (Women)",
-    "equipe_2_en": "Terslev G&IF (Women)",
-    "Double_Chance": {
-      "1X": "2.98"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.69",
-        "Plus de": "1.99"
-      },
-      "2.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.82"
-      },
-      "3": {
-        "Plus de": "1.56",
-        "Moins de": "2.22"
-      },
-      "4": {
-        "Plus de": "2.74",
-        "Moins de": "1.37"
-      },
-      "4.5": {
-        "Plus de": "3.38",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.77",
-      "2 (-1.5)": "1.9",
-      "2 (-1)": "1.48",
-      "1 (+1)": "2.39",
-      "2 (-2)": "2.62",
-      "1 (+2)": "1.41"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Toros Taxisco",
-    "equipe_2": "CSyD Nueva Concepcion",
-    "1X2": {
-      "V2": "1.6",
-      "X": "3.74",
-      "V1": "4.61"
-    },
-    "Total_2.5": {
-      "Plus de": "1.727",
-      "Moins de": "1.952"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Guatemala. Segunda Division",
-    "competition_en": "Guatemala. Segunda Division",
-    "competition_id": 1905833,
-    "equipe_1_en": "Toros Taxisco",
-    "equipe_2_en": "CSyD Nueva Concepcion",
-    "Double_Chance": {
-      "2X": "1.112",
-      "12": "1.171",
-      "1X": "2.05"
-    },
-    "BTTS": {
-      "Oui": "1.72",
-      "Non": "1.964"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.727",
-        "Moins de": "1.952"
-      },
-      "1.5": {
-        "Plus de": "1.191",
-        "Moins de": "3.76"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "3": {
-        "Plus de": "2.24",
-        "Moins de": "1.52"
-      },
-      "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.35",
-      "2 (-1.5)": "2.74",
-      "1 (0)": "3.48",
-      "2 (0)": "1.222",
-      "2 (-1)": "2.11",
-      "1 (+1)": "1.615",
-      "2 (-2)": "4.65",
-      "1 (+2)": "1.123",
-      "2 (-2.5)": "5.5",
-      "1 (+2.5)": "1.082"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Dahle IL II",
-    "equipe_2": "Batnfjord",
-    "1X2": {
-      "V2": "1.08",
-      "X": "9.3",
-      "V1": "11.5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
-    "statut": "ok",
-    "debut": "2026-10-07T17:00:00+00:00",
-    "competition": "Norvège. Division 5",
-    "competition_en": "Norway. Division 5",
-    "competition_id": 3013766,
-    "equipe_1_en": "Dahle IL II",
-    "equipe_2_en": "Batnfjord",
-    "Double_Chance": {
-      "12": "1.001",
-      "2X": "1.001",
-      "1X": "5.16"
-    },
-    "BTTS": {
-      "Oui": "1.24",
-      "Non": "3.5"
-    },
-    "Totals": {
-      "5.5": {
-        "Moins de": "1.68",
-        "Plus de": "2.01"
-      },
-      "4.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.46"
-      },
-      "5": {
-        "Plus de": "1.66",
-        "Moins de": "2.03"
-      },
-      "6": {
-        "Plus de": "2.6",
-        "Moins de": "1.41"
-      },
-      "6.5": {
-        "Plus de": "3.08",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "2 (-2.5)": "1.8",
-      "1 (+2.5)": "1.86",
-      "2 (-2)": "1.49",
-      "1 (+2)": "2.38",
-      "2 (-3)": "2.24",
-      "1 (+3)": "1.54"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
     "equipe_1": "Canuelas II",
     "equipe_2": "Club Defensores de Cambaceres II",
     "1X2": {
@@ -2009,7 +669,7 @@
       "Moins de": "1.77"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T17:30:00+00:00",
     "competition": "Championnat d'Argentine. Primera C. Métropolitaina. Ligue Réserve",
@@ -2075,7 +735,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T17:30:00+00:00",
     "competition": "Norvège. Division 4",
@@ -2135,7 +795,7 @@
       "Moins de": "2.375"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T17:45:00+00:00",
     "competition": "Suisse. 1. Liga Classic",
@@ -2189,6 +849,72 @@
   },
   {
     "bookmaker": "betwinner",
+    "equipe_1": "Standard Liege II",
+    "equipe_2": "R.A.E.C.Mons",
+    "1X2": {
+      "V2": "1.51",
+      "X": "3.75",
+      "V1": "5.56"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "1.87"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Belgique. Division 1",
+    "competition_en": "Belgium. Division 1",
+    "competition_id": 2904342,
+    "equipe_1_en": "Standard Liege II",
+    "equipe_2_en": "R.A.E.C. Mons",
+    "Double_Chance": {
+      "2X": "1.072",
+      "12": "1.17",
+      "1X": "2.2"
+    },
+    "BTTS": {
+      "Oui": "1.83",
+      "Non": "1.84"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "1.87"
+      },
+      "1.5": {
+        "Plus de": "1.22",
+        "Moins de": "3.5"
+      },
+      "2": {
+        "Plus de": "1.36",
+        "Moins de": "2.7"
+      },
+      "3": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
+      },
+      "3.5": {
+        "Plus de": "2.97",
+        "Moins de": "1.3"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.41",
+      "2 (-1.5)": "2.52",
+      "1 (0)": "4.1",
+      "2 (0)": "1.163",
+      "2 (-1)": "1.94",
+      "1 (+1)": "1.73",
+      "2 (-2)": "4.2",
+      "1 (+2)": "1.154",
+      "2 (-2.5)": "5.05",
+      "1 (+2.5)": "1.103"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
     "equipe_1": "Fanatico U20",
     "equipe_2": "Parana Clube Curitiba U20",
     "1X2": {
@@ -2201,7 +927,7 @@
       "Moins de": "2.13"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Championnat du Paraná U20",
@@ -2267,7 +993,7 @@
       "Moins de": "1.75"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa Alagoas U20",
@@ -2333,7 +1059,7 @@
       "Moins de": "2.01"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa do Brasil U20",
@@ -2399,7 +1125,7 @@
       "Moins de": "2.24"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa do Brasil U20",
@@ -2408,7 +1134,7 @@
     "equipe_1_en": "Ceara U20",
     "equipe_2_en": "Ferroviario CE U20",
     "Double_Chance": {
-      "1X": "1.01",
+      "1X": "1.02",
       "12": "1.101",
       "2X": "3.06"
     },
@@ -2465,7 +1191,7 @@
       "Moins de": "2.41"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa do Brasil U20",
@@ -2531,7 +1257,7 @@
       "Moins de": "1.98"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa do Brasil U20",
@@ -2597,7 +1323,7 @@
       "Moins de": "2.59"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa do Brasil U20",
@@ -2654,16 +1380,16 @@
     "equipe_1": "Tuna Luso U20",
     "equipe_2": "Araguainense U20",
     "1X2": {
-      "V1": "1.49",
-      "X": "3.94",
-      "V2": "5.44"
+      "V1": "1.42",
+      "X": "4.15",
+      "V2": "6.09"
     },
     "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.17"
+      "Plus de": "1.55",
+      "Moins de": "2.24"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Brésil. Copa do Brasil U20",
@@ -2672,47 +1398,171 @@
     "equipe_1_en": "Tuna Luso U20",
     "equipe_2_en": "Araguainense U20",
     "Double_Chance": {
-      "1X": "1.077",
-      "12": "1.153",
-      "2X": "2.25"
+      "1X": "1.054",
+      "12": "1.136",
+      "2X": "2.43"
     },
     "BTTS": {
-      "Oui": "1.66",
-      "Non": "2.047"
+      "Oui": "1.68",
+      "Non": "2.025"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.17"
+        "Plus de": "1.55",
+        "Moins de": "2.24"
       },
       "1.5": {
-        "Plus de": "1.148",
-        "Moins de": "4.3"
+        "Plus de": "1.137",
+        "Moins de": "4.45"
       },
       "2": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
+        "Plus de": "1.21",
+        "Moins de": "3.58"
       },
       "3": {
-        "Plus de": "1.92",
-        "Moins de": "1.71"
+        "Plus de": "1.86",
+        "Moins de": "1.76"
       },
       "3.5": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
+        "Plus de": "2.33",
+        "Moins de": "1.48"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.47",
-      "1 (-1.5)": "2.35",
-      "1 (0)": "1.168",
-      "2 (0)": "4",
-      "1 (-1)": "1.833",
-      "2 (+1)": "1.82",
-      "1 (-2)": "3.58",
-      "2 (+2)": "1.21",
-      "1 (-2.5)": "4.3",
-      "2 (+2.5)": "1.145"
+      "2 (+1.5)": "1.56",
+      "1 (-1.5)": "2.15",
+      "1 (0)": "1.124",
+      "2 (0)": "4.65",
+      "1 (-1)": "1.7",
+      "2 (+1)": "1.98",
+      "1 (-2)": "3.14",
+      "2 (+2)": "1.27",
+      "1 (-2.5)": "3.82",
+      "2 (+2.5)": "1.185"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Bahia (Femmes)",
+    "equipe_2": "Jacobina (Women)",
+    "1X2": {
+      "V1": "1.091",
+      "X": "7.28",
+      "V2": "10.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.31",
+      "Moins de": "2.92"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat brésilien. Ligue Baiano. Femmes",
+    "competition_en": "Brazil. Campeonato Baiano. Women",
+    "competition_id": 2036860,
+    "equipe_1_en": "Bahia (Women)",
+    "equipe_2_en": "Jacobina (Women)",
+    "Double_Chance": {
+      "1X": "1.065",
+      "12": "1.099",
+      "2X": "3.955"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.79",
+        "Plus de": "1.88"
+      },
+      "2.5": {
+        "Plus de": "1.31",
+        "Moins de": "2.92"
+      },
+      "3": {
+        "Plus de": "1.48",
+        "Moins de": "2.33"
+      },
+      "4": {
+        "Plus de": "2.43",
+        "Moins de": "1.44"
+      },
+      "4.5": {
+        "Plus de": "2.92",
+        "Moins de": "1.31"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.74",
+      "1 (-2.5)": "1.93",
+      "1 (-1.5)": "1.34",
+      "2 (+1.5)": "2.78",
+      "1 (-2)": "1.53",
+      "2 (+2)": "2.21",
+      "1 (-3)": "2.56",
+      "2 (+3)": "1.4",
+      "1 (-3.5)": "3.08",
+      "2 (+3.5)": "1.28"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Galicia (Women)",
+    "equipe_2": "Camacariense (Women)",
+    "1X2": {
+      "V1": "1.69",
+      "V2": "3.785",
+      "X": "3.94"
+    },
+    "Total_2.5": {
+      "Plus de": "1.36",
+      "Moins de": "2.7"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat brésilien. Ligue Baiano. Femmes",
+    "competition_en": "Brazil. Campeonato Baiano. Women",
+    "competition_id": 2036860,
+    "equipe_1_en": "Galicia (Women)",
+    "equipe_2_en": "Camacariense (Women)",
+    "Double_Chance": {
+      "12": "1.153",
+      "1X": "1.175",
+      "2X": "1.92"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.727",
+        "Plus de": "1.952"
+      },
+      "2.5": {
+        "Plus de": "1.36",
+        "Moins de": "2.7"
+      },
+      "3": {
+        "Plus de": "1.54",
+        "Moins de": "2.19"
+      },
+      "4": {
+        "Plus de": "2.56",
+        "Moins de": "1.4"
+      },
+      "4.5": {
+        "Plus de": "3.05",
+        "Moins de": "1.285"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.37",
+      "1 (-1.5)": "2.66",
+      "1 (0)": "1.33",
+      "2 (0)": "2.83",
+      "1 (-1)": "2.15",
+      "2 (+1)": "1.59",
+      "1 (-2)": "4.15",
+      "2 (+2)": "1.156",
+      "1 (-2.5)": "4.8",
+      "2 (+2.5)": "1.115"
     }
   },
   {
@@ -2729,7 +1579,7 @@
       "Moins de": "1.61"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
     "competition": "Championnat d'Argentine. Ligue de réserve",
@@ -2783,61 +1633,430 @@
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Clodiense SSD",
-    "equipe_2": "Campodarsego",
+    "equipe_1": "Club Atletico Gimnasia y Esgrima II",
+    "equipe_2": "Instituto Atletico Central Cordoba II",
     "1X2": {
-      "V1": "2.08",
-      "X": "3.1",
-      "V2": "3.67"
+      "V1": "2.06",
+      "X": "2.91",
+      "V2": "3.565"
     },
     "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
+      "Plus de": "2.31",
+      "Moins de": "1.52"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
-    "competition": "Coupe d'Italie. Série D",
-    "competition_en": "Coppa Italia. Serie D",
-    "competition_id": 156939,
-    "equipe_1_en": "Clodiense SSD",
-    "equipe_2_en": "ASD Campodarsego",
+    "competition": "Championnat d'Argentine. Ligue de réserve",
+    "competition_en": "Argentina. Reserve League",
+    "competition_id": 67487,
+    "equipe_1_en": "Club Atletico Gimnasia y Esgrima II",
+    "equipe_2_en": "Instituto Atletico Central Cordoba II",
+    "Double_Chance": {
+      "1X": "1.21",
+      "12": "1.29",
+      "2X": "1.59"
+    },
+    "BTTS": {
+      "Non": "1.716",
+      "Oui": "1.97"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.52",
+        "Plus de": "2.31"
+      },
+      "1.5": {
+        "Plus de": "1.39",
+        "Moins de": "2.59"
+      },
+      "2": {
+        "Plus de": "1.7",
+        "Moins de": "1.94"
+      },
+      "3": {
+        "Plus de": "3.5",
+        "Moins de": "1.22"
+      },
+      "3.5": {
+        "Plus de": "4.35",
+        "Moins de": "1.142"
+      }
+    },
     "Handicap": {
-      "1 (0)": "1.44",
-      "2 (0)": "2.46"
+      "1 (0)": "1.45",
+      "2 (0)": "2.47",
+      "1 (-1)": "3.28",
+      "2 (-1)": "7.6",
+      "1 (+1)": "1.027",
+      "2 (+1)": "1.25",
+      "1 (-1.5)": "4.25",
+      "2 (-1.5)": "8.8",
+      "1 (+1.5)": "1.008",
+      "2 (+1.5)": "1.151"
     }
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Paganese Calcio 1926",
-    "equipe_2": "Real Normanna",
+    "equipe_1": "Deportivo Riestra II",
+    "equipe_2": "Independiente Rivadavia II",
     "1X2": {
-      "V1": "1.49",
-      "X": "3.8",
-      "V2": "5.72"
+      "V1": "1.296",
+      "X": "4.64",
+      "V2": "8.2"
+    },
+    "Total_2.5": {
+      "Plus de": "1.77",
+      "Moins de": "1.9"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat d'Argentine. Ligue de réserve",
+    "competition_en": "Argentina. Reserve League",
+    "competition_id": 67487,
+    "equipe_1_en": "Deportivo Riestra II",
+    "equipe_2_en": "Independiente Rivadavia II",
+    "Double_Chance": {
+      "1X": "1.018",
+      "12": "1.125",
+      "2X": "2.7"
+    },
+    "BTTS": {
+      "Non": "1.685",
+      "Oui": "2.01"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.77",
+        "Moins de": "1.9"
+      },
+      "1.5": {
+        "Plus de": "1.222",
+        "Moins de": "3.48"
+      },
+      "2": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "3": {
+        "Plus de": "2.3",
+        "Moins de": "1.49"
+      },
+      "3.5": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.61",
+      "1 (-1.5)": "2.07",
+      "1 (0)": "1.081",
+      "2 (0)": "5.55",
+      "1 (-1)": "1.59",
+      "2 (+1)": "2.15",
+      "1 (-2)": "2.97",
+      "2 (+2)": "1.3",
+      "1 (-2.5)": "3.58",
+      "2 (+2.5)": "1.21"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Estudiantes de Rio Cuarto II",
+    "equipe_2": "Platense II",
+    "1X2": {
+      "V1": "2.15",
+      "X": "2.84",
+      "V2": "3.42"
+    },
+    "Total_2.5": {
+      "Plus de": "2.65",
+      "Moins de": "1.4"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat d'Argentine. Ligue de réserve",
+    "competition_en": "Argentina. Reserve League",
+    "competition_id": 67487,
+    "equipe_1_en": "Estudiantes de Rio Cuarto II",
+    "equipe_2_en": "Platense II",
+    "Double_Chance": {
+      "1X": "1.22",
+      "12": "1.3",
+      "2X": "1.54"
+    },
+    "BTTS": {
+      "Non": "1.582",
+      "Oui": "2.18"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.52",
+        "Moins de": "2.24"
+      },
+      "0.5": {
+        "Plus de": "1.077",
+        "Moins de": "5.65"
+      },
+      "1": {
+        "Plus de": "1.137",
+        "Moins de": "4.45"
+      },
+      "2": {
+        "Plus de": "1.96",
+        "Moins de": "1.68"
+      },
+      "2.5": {
+        "Plus de": "2.65",
+        "Moins de": "1.4"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.5",
+      "2 (0)": "2.34",
+      "1 (-1)": "3.5",
+      "2 (-1)": "6.85",
+      "1 (+1)": "1.042",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.5",
+      "2 (-1.5)": "7.9",
+      "1 (+1.5)": "1.022",
+      "2 (+1.5)": "1.134"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Ferro Carril Oeste II",
+    "equipe_2": "CA Independiente Avellaneda II",
+    "1X2": {
+      "V2": "1.88",
+      "V1": "3.425",
+      "X": "3.5"
+    },
+    "Total_2.5": {
+      "Plus de": "1.49",
+      "Moins de": "2.3"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat d'Argentine. Ligue de réserve",
+    "competition_en": "Argentina. Reserve League",
+    "competition_id": 67487,
+    "equipe_1_en": "Ferro Carril Oeste II",
+    "equipe_2_en": "CA Independiente Avellaneda II",
+    "Double_Chance": {
+      "12": "1.197",
+      "2X": "1.22",
+      "1X": "1.72"
+    },
+    "BTTS": {
+      "Oui": "1.46",
+      "Non": "2.464"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.55",
+        "Plus de": "2.24"
+      },
+      "2.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.3"
+      },
+      "3": {
+        "Plus de": "1.78",
+        "Moins de": "1.84"
+      },
+      "4": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      },
+      "4.5": {
+        "Plus de": "3.74",
+        "Moins de": "1.193"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.42",
+      "1 (0)": "2.49",
+      "1 (-1)": "5.75",
+      "2 (-1)": "2.56",
+      "1 (+1)": "1.42",
+      "2 (+1)": "1.074",
+      "1 (-1.5)": "6.5",
+      "2 (-1.5)": "3.14",
+      "1 (+1.5)": "1.27",
+      "2 (+1.5)": "1.051"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Haute-Ajoie",
+    "equipe_2": "Bosna 2002",
+    "1X2": {
+      "V2": "2.08",
+      "V1": "2.88",
+      "X": "3.56"
+    },
+    "Total_2.5": {
+      "Plus de": "1.43",
+      "Moins de": "2.46"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat de Suisse. 2ème Ligue interrégionale",
+    "competition_en": "Switzerland. 2. Liga Interregional",
+    "competition_id": 2592677,
+    "equipe_1_en": "Haute-Ajoie",
+    "equipe_2_en": "Bosna 2002",
+    "Double_Chance": {
+      "12": "1.19",
+      "2X": "1.31",
+      "1X": "1.58"
+    },
+    "BTTS": {
+      "Oui": "1.39",
+      "Non": "2.694"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.6",
+        "Plus de": "2.15"
+      },
+      "2.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "3": {
+        "Plus de": "1.68",
+        "Moins de": "1.96"
+      },
+      "4": {
+        "Plus de": "2.97",
+        "Moins de": "1.3"
+      },
+      "4.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.59",
+      "1 (0)": "2.15",
+      "1 (-1)": "4.8",
+      "2 (-1)": "3.04",
+      "1 (+1)": "1.29",
+      "2 (+1)": "1.114",
+      "1 (-1.5)": "5.7",
+      "2 (-1.5)": "3.76",
+      "1 (+1.5)": "1.191",
+      "2 (+1.5)": "1.075"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Perolas Negras U20",
+    "equipe_2": "America RJ U20",
+    "1X2": {
+      "V2": "1.853",
+      "X": "3.24",
+      "V1": "3.845"
+    },
+    "Total_2.5": {
+      "Plus de": "1.96",
+      "Moins de": "1.72"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat du Brésil. Ligue Carioca A2 U20",
+    "competition_en": "Brazil. Campeonato Carioca A2 U20",
+    "competition_id": 2261285,
+    "equipe_1_en": "Perolas Negras U20",
+    "equipe_2_en": "America RJ U20",
+    "Double_Chance": {
+      "2X": "1.171",
+      "12": "1.24",
+      "1X": "1.74"
+    },
+    "BTTS": {
+      "Oui": "1.81",
+      "Non": "1.86"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.72",
+        "Plus de": "1.96"
+      },
+      "1.5": {
+        "Plus de": "1.29",
+        "Moins de": "3.04"
+      },
+      "2": {
+        "Plus de": "1.48",
+        "Moins de": "2.33"
+      },
+      "3": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      },
+      "3.5": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.363",
+      "1 (0)": "2.77",
+      "1 (-1)": "7.3",
+      "2 (-1)": "2.59",
+      "1 (+1)": "1.39",
+      "2 (+1)": "1.032",
+      "1 (-1.5)": "8.2",
+      "2 (-1.5)": "3.34",
+      "1 (+1.5)": "1.24",
+      "2 (+1.5)": "1.017"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Resende U20",
+    "equipe_2": "Serrano Petropolis U20",
+    "1X2": {
+      "V1": "1.85",
+      "X": "3.4",
+      "V2": "3.645"
     },
     "Total_2.5": {
       "Plus de": "1.76",
       "Moins de": "1.92"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T18:00:00+00:00",
-    "competition": "Coupe d'Italie. Série D",
-    "competition_en": "Coppa Italia. Serie D",
-    "competition_id": 156939,
-    "equipe_1_en": "Paganese Calcio 1926",
-    "equipe_2_en": "Real Normanna",
+    "competition": "Championnat du Brésil. Ligue Carioca A2 U20",
+    "competition_en": "Brazil. Campeonato Carioca A2 U20",
+    "competition_id": 2261285,
+    "equipe_1_en": "Resende U20",
+    "equipe_2_en": "Serrano Petropolis U20",
     "Double_Chance": {
-      "1X": "1.066",
-      "12": "1.165",
-      "2X": "2.25"
+      "1X": "1.191",
+      "12": "1.21",
+      "2X": "1.74"
     },
     "BTTS": {
-      "Oui": "1.81",
-      "Non": "1.86"
+      "Oui": "1.65",
+      "Non": "2.067"
     },
     "Totals": {
       "2.5": {
@@ -2849,29 +2068,865 @@
         "Moins de": "3.58"
       },
       "2": {
-        "Plus de": "1.33",
-        "Moins de": "2.83"
+        "Plus de": "1.333",
+        "Moins de": "2.81"
       },
       "3": {
-        "Plus de": "2.28",
-        "Moins de": "1.5"
+        "Plus de": "2.26",
+        "Moins de": "1.51"
       },
       "3.5": {
-        "Plus de": "2.875",
-        "Moins de": "1.32"
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.43",
-      "1 (-1.5)": "2.46",
-      "1 (0)": "1.154",
-      "2 (0)": "4.2",
-      "1 (-1)": "1.9",
-      "2 (+1)": "1.76",
-      "1 (-2)": "4",
-      "2 (+2)": "1.168",
-      "1 (-2.5)": "4.8",
-      "2 (+2.5)": "1.114"
+      "1 (0)": "1.39",
+      "2 (0)": "2.67",
+      "1 (-1)": "2.59",
+      "2 (-1)": "6.9",
+      "1 (+1)": "1.041",
+      "2 (+1)": "1.39",
+      "1 (-1.5)": "3.28",
+      "2 (-1.5)": "7.9",
+      "1 (+1.5)": "1.022",
+      "2 (+1.5)": "1.25"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "EC Novo Horizonte",
+    "equipe_2": "Real Sport Club Capao da Canoa",
+    "1X2": {
+      "V2": "1.016",
+      "X": "10.5",
+      "V1": "24"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Championnat du Brésil. Ligue Gaucho. Division 3",
+    "competition_en": "Brazil. Campeonato Gaucho. Division 3",
+    "competition_id": 1904628,
+    "equipe_1_en": "EC Novo Horizonte",
+    "equipe_2_en": "Real Sport Club Capao da Canoa",
+    "Double_Chance": {
+      "12": "1.02",
+      "2X": "1.05",
+      "1X": "7.3"
+    },
+    "BTTS": {
+      "Oui": "1.45",
+      "Non": "2.664"
+    },
+    "Totals": {
+      "4.5": {
+        "Plus de": "1.72",
+        "Moins de": "2"
+      },
+      "3.5": {
+        "Plus de": "1.31",
+        "Moins de": "3.1"
+      },
+      "4": {
+        "Plus de": "1.44",
+        "Moins de": "2.6"
+      },
+      "5": {
+        "Plus de": "2.07",
+        "Moins de": "1.67"
+      },
+      "5.5": {
+        "Plus de": "2.06",
+        "Moins de": "1.65"
+      }
+    },
+    "Handicap": {
+      "1 (+3.5)": "1.81",
+      "2 (-3.5)": "1.85",
+      "2 (-2.5)": "1.54",
+      "1 (+2.5)": "2.3",
+      "2 (-3)": "1.8",
+      "1 (+3)": "1.9",
+      "2 (-4)": "2.9",
+      "1 (+4)": "1.35",
+      "2 (-4.5)": "3.4",
+      "1 (+4.5)": "1.26"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Clodiense SSD",
+    "equipe_2": "Campodarsego",
+    "1X2": {
+      "V1": "2.07",
+      "X": "3.2",
+      "V2": "3.44"
+    },
+    "Total_2.5": {
+      "Plus de": "2",
+      "Moins de": "1.72"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Clodiense SSD",
+    "equipe_2_en": "ASD Campodarsego",
+    "Double_Chance": {
+      "1X": "1.27",
+      "12": "1.3",
+      "2X": "1.69"
+    },
+    "BTTS": {
+      "Oui": "1.84",
+      "Non": "1.881"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.72",
+        "Plus de": "2"
+      },
+      "1.5": {
+        "Plus de": "1.3",
+        "Moins de": "3.15"
+      },
+      "2": {
+        "Plus de": "1.5",
+        "Moins de": "2.4"
+      },
+      "3": {
+        "Plus de": "2.7",
+        "Moins de": "1.4"
+      },
+      "3.5": {
+        "Plus de": "3.3",
+        "Moins de": "1.3"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.5",
+      "2 (0)": "2.45",
+      "1 (-1)": "3",
+      "2 (-1)": "6.2",
+      "1 (+1)": "1.07",
+      "2 (+1)": "1.32",
+      "1 (-1.5)": "3.8",
+      "2 (-1.5)": "7.1",
+      "1 (+1.5)": "1.05",
+      "2 (+1.5)": "1.2"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Paganese Calcio 1926",
+    "equipe_2": "Real Normanna",
+    "1X2": {
+      "V1": "1.39",
+      "X": "4.2",
+      "V2": "6.58"
+    },
+    "Total_2.5": {
+      "Plus de": "1.61",
+      "Moins de": "2.13"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Paganese Calcio 1926",
+    "equipe_2_en": "Real Normanna",
+    "Double_Chance": {
+      "1X": "1.04",
+      "12": "1.132",
+      "2X": "2.52"
+    },
+    "BTTS": {
+      "Oui": "1.76",
+      "Non": "1.913"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.61",
+        "Moins de": "2.13"
+      },
+      "1.5": {
+        "Plus de": "1.152",
+        "Moins de": "4.2"
+      },
+      "2": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "3": {
+        "Plus de": "1.99",
+        "Moins de": "1.66"
+      },
+      "3.5": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.55",
+      "1 (-1.5)": "2.17",
+      "1 (0)": "1.107",
+      "2 (0)": "4.95",
+      "1 (-1)": "1.69",
+      "2 (+1)": "1.99",
+      "1 (-2)": "3.2",
+      "2 (+2)": "1.26",
+      "1 (-2.5)": "3.96",
+      "2 (+2.5)": "1.172"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Flint",
+    "equipe_2": "Tonsberg",
+    "1X2": {
+      "V1": "1.17",
+      "X": "7.02",
+      "V2": "9.05"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Norvège. Division 4",
+    "competition_en": "Norway. Division 4",
+    "competition_id": 208075,
+    "equipe_1_en": "Flint",
+    "equipe_2_en": "Tonsberg",
+    "Double_Chance": {
+      "2X": "3.87"
+    },
+    "BTTS": {
+      "Oui": "1.33",
+      "Non": "2.93"
+    },
+    "Totals": {
+      "4.5": {
+        "Moins de": "1.74",
+        "Plus de": "1.93"
+      },
+      "3.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.72"
+      },
+      "4": {
+        "Plus de": "1.56",
+        "Moins de": "2.2"
+      },
+      "5": {
+        "Plus de": "2.52",
+        "Moins de": "1.44"
+      },
+      "5.5": {
+        "Plus de": "3.04",
+        "Moins de": "1.31"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.55",
+      "2 (+1.5)": "2.24",
+      "1 (-2)": "1.85",
+      "2 (+2)": "1.81",
+      "1 (-2.5)": "2.29",
+      "2 (+2.5)": "1.52"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Hidra Flekkefjord II",
+    "equipe_2": "Donn II",
+    "1X2": {
+      "V1": "1.7",
+      "V2": "2.987",
+      "X": "5.36"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Norvège. Division 5",
+    "competition_en": "Norway. Division 5",
+    "competition_id": 3013766,
+    "equipe_1_en": "Hidra Flekkefjord II",
+    "equipe_2_en": "Donn II",
+    "Double_Chance": {
+      "12": "1.07",
+      "1X": "1.28",
+      "2X": "1.89"
+    },
+    "Totals": {
+      "5.5": {
+        "Plus de": "1.83",
+        "Moins de": "1.83"
+      },
+      "4.5": {
+        "Plus de": "1.37",
+        "Moins de": "2.76"
+      },
+      "5": {
+        "Plus de": "1.52",
+        "Moins de": "2.3"
+      },
+      "6": {
+        "Plus de": "2.26",
+        "Moins de": "1.54"
+      },
+      "6.5": {
+        "Plus de": "2.69",
+        "Moins de": "1.39"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.44",
+      "2 (0)": "2.51",
+      "1 (-1)": "2.11",
+      "2 (+1)": "1.61",
+      "1 (-1.5)": "2.55",
+      "2 (+1.5)": "1.43"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Kosova Zürich",
+    "equipe_2": "Dietikon",
+    "1X2": {
+      "V1": "2.19",
+      "V2": "2.695",
+      "X": "3.55"
+    },
+    "Total_2.5": {
+      "Plus de": "1.45",
+      "Moins de": "2.41"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:00:00+00:00",
+    "competition": "Suisse. 1. Liga Classic",
+    "competition_en": "Switzerland. 1. Liga Classic",
+    "competition_id": 988183,
+    "equipe_1_en": "Kosova Zurich",
+    "equipe_2_en": "Dietikon",
+    "Double_Chance": {
+      "12": "1.191",
+      "1X": "1.35",
+      "2X": "1.52"
+    },
+    "BTTS": {
+      "Oui": "1.41",
+      "Non": "2.621"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.57",
+        "Plus de": "2.2"
+      },
+      "2.5": {
+        "Plus de": "1.45",
+        "Moins de": "2.41"
+      },
+      "3": {
+        "Plus de": "1.727",
+        "Moins de": "1.9"
+      },
+      "4": {
+        "Plus de": "3.08",
+        "Moins de": "1.28"
+      },
+      "4.5": {
+        "Plus de": "3.78",
+        "Moins de": "1.19"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.666",
+      "2 (0)": "2.03",
+      "1 (-1)": "3.28",
+      "2 (-1)": "4.45",
+      "1 (+1)": "1.137",
+      "2 (+1)": "1.25",
+      "1 (-1.5)": "4.1",
+      "2 (-1.5)": "5.3",
+      "1 (+1.5)": "1.091",
+      "2 (+1.5)": "1.163"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Las Rosas",
+    "equipe_2": "Rayo Ciudad Alcobendas",
+    "1X2": {
+      "V1": "1.97",
+      "X": "3.18",
+      "V2": "3.49"
+    },
+    "Total_2.5": {
+      "Plus de": "1.98",
+      "Moins de": "1.71"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:15:00+00:00",
+    "competition": "Championnat d'Espagne. Troisième division RFEF. Groupe 7",
+    "competition_en": "Spain. Tercera Division RFEF. Group 7",
+    "competition_id": 2287263,
+    "equipe_1_en": "Las Rosas",
+    "equipe_2_en": "Rayo Ciudad Alcobendas",
+    "Double_Chance": {
+      "1X": "1.21",
+      "12": "1.24",
+      "2X": "1.65"
+    },
+    "BTTS": {
+      "Oui": "1.79",
+      "Non": "1.881"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.71",
+        "Plus de": "1.98"
+      },
+      "1.5": {
+        "Plus de": "1.285",
+        "Moins de": "3.05"
+      },
+      "2": {
+        "Plus de": "1.48",
+        "Moins de": "2.33"
+      },
+      "3": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      },
+      "3.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.44",
+      "2 (0)": "2.5",
+      "1 (-1)": "2.92",
+      "2 (-1)": "6.75",
+      "1 (+1)": "1.044",
+      "2 (+1)": "1.31",
+      "1 (-1.5)": "3.74",
+      "2 (-1.5)": "7.8",
+      "1 (+1.5)": "1.024",
+      "2 (+1.5)": "1.193"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Skjetten II",
+    "equipe_2": "Bjorkelangen II",
+    "1X2": {
+      "V1": "1.75",
+      "V2": "2.931",
+      "X": "5.04"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:15:00+00:00",
+    "competition": "Norvège. Division 5",
+    "competition_en": "Norway. Division 5",
+    "competition_id": 3013766,
+    "equipe_1_en": "Skjetten II",
+    "equipe_2_en": "Bjorkelangen II",
+    "Double_Chance": {
+      "12": "1.08",
+      "1X": "1.29",
+      "2X": "1.83"
+    },
+    "Totals": {
+      "4.5": {
+        "Plus de": "1.56",
+        "Moins de": "2.22"
+      },
+      "3.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.77"
+      },
+      "4": {
+        "Plus de": "1.29",
+        "Moins de": "3.13"
+      },
+      "5": {
+        "Plus de": "1.83",
+        "Moins de": "1.83"
+      },
+      "5.5": {
+        "Plus de": "2.23",
+        "Moins de": "1.55"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.47",
+      "2 (0)": "2.43",
+      "1 (-1)": "2.24",
+      "2 (+1)": "1.55",
+      "1 (-1.5)": "2.72",
+      "2 (+1.5)": "1.38"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "ASD Villa D'Alme",
+    "equipe_2": "Tritium Calcio 1908",
+    "1X2": {
+      "V1": "2.07",
+      "V2": "3",
+      "X": "3.42"
+    },
+    "Total_2.5": {
+      "Plus de": "1.82",
+      "Moins de": "1.85"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:30:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "ASD Villa D'Alme",
+    "equipe_2_en": "Tritium Calcio 1908",
+    "Double_Chance": {
+      "12": "1.21",
+      "1X": "1.285",
+      "2X": "1.58"
+    },
+    "BTTS": {
+      "Oui": "1.666",
+      "Non": "2.046"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.82",
+        "Moins de": "1.85"
+      },
+      "1.5": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "2": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "3": {
+        "Plus de": "2.42",
+        "Moins de": "1.444"
+      },
+      "3.5": {
+        "Plus de": "3.04",
+        "Moins de": "1.29"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.56",
+      "2 (0)": "2.21",
+      "1 (-1)": "3.08",
+      "2 (-1)": "5.25",
+      "1 (+1)": "1.094",
+      "2 (+1)": "1.28",
+      "1 (-1.5)": "3.9",
+      "2 (-1.5)": "6.1",
+      "1 (+1.5)": "1.062",
+      "2 (+1.5)": "1.177"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Fidelis",
+    "equipe_2": "Bisceglie 1913",
+    "1X2": {
+      "V1": "2.43",
+      "V2": "2.48",
+      "X": "3.25"
+    },
+    "Total_2.5": {
+      "Plus de": "2.04",
+      "Moins de": "1.666"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:30:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Fidelis",
+    "equipe_2_en": "AS Bisceglie 1913 Don Uva APD",
+    "Double_Chance": {
+      "12": "1.23",
+      "1X": "1.4",
+      "2X": "1.41"
+    },
+    "BTTS": {
+      "Oui": "1.8",
+      "Non": "1.871"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.666",
+        "Plus de": "2.04"
+      },
+      "1.5": {
+        "Plus de": "1.32",
+        "Moins de": "2.875"
+      },
+      "2": {
+        "Plus de": "1.53",
+        "Moins de": "2.21"
+      },
+      "3": {
+        "Plus de": "2.92",
+        "Moins de": "1.31"
+      },
+      "3.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.82",
+      "2 (0)": "1.833",
+      "1 (-1)": "4.2",
+      "2 (-1)": "4.3",
+      "1 (+1)": "1.148",
+      "2 (+1)": "1.155",
+      "1 (-1.5)": "5.1",
+      "2 (-1.5)": "5.2",
+      "1 (+1.5)": "1.095",
+      "2 (+1.5)": "1.1"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Nocerina",
+    "equipe_2": "Turris",
+    "1X2": {
+      "V1": "2.21",
+      "V2": "2.991",
+      "X": "3.1"
+    },
+    "Total_2.5": {
+      "Plus de": "1.952",
+      "Moins de": "1.727"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:30:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Nocerina",
+    "equipe_2_en": "Turris",
+    "Double_Chance": {
+      "12": "1.26",
+      "1X": "1.29",
+      "2X": "1.51"
+    },
+    "BTTS": {
+      "Oui": "1.74",
+      "Non": "1.942"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.727",
+        "Plus de": "1.952"
+      },
+      "1.5": {
+        "Plus de": "1.28",
+        "Moins de": "3.08"
+      },
+      "2": {
+        "Plus de": "1.47",
+        "Moins de": "2.35"
+      },
+      "3": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      },
+      "3.5": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.61",
+      "2 (0)": "2.11",
+      "1 (-1)": "3.5",
+      "2 (-1)": "5.35",
+      "1 (+1)": "1.088",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.4",
+      "2 (-1.5)": "6.35",
+      "1 (+1.5)": "1.055",
+      "2 (+1.5)": "1.139"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Virtus Francavilla",
+    "equipe_2": "Gravina",
+    "1X2": {
+      "V1": "1.72",
+      "X": "3.34",
+      "V2": "4.37"
+    },
+    "Total_2.5": {
+      "Plus de": "1.96",
+      "Moins de": "1.72"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:30:00+00:00",
+    "competition": "Coupe d'Italie. Série D",
+    "competition_en": "Coppa Italia. Serie D",
+    "competition_id": 156939,
+    "equipe_1_en": "Virtus Francavilla",
+    "equipe_2_en": "Gravina",
+    "Double_Chance": {
+      "1X": "1.129",
+      "12": "1.22",
+      "2X": "1.88"
+    },
+    "BTTS": {
+      "Non": "1.809",
+      "Oui": "1.86"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.72",
+        "Plus de": "1.96"
+      },
+      "1.5": {
+        "Plus de": "1.285",
+        "Moins de": "3.05"
+      },
+      "2": {
+        "Plus de": "1.48",
+        "Moins de": "2.33"
+      },
+      "3": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      },
+      "3.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.285",
+      "1 (-1.5)": "3.05",
+      "1 (0)": "1.27",
+      "2 (0)": "3.14",
+      "1 (-1)": "2.36",
+      "2 (+1)": "1.49",
+      "1 (-2)": "5.5",
+      "2 (+2)": "1.083",
+      "1 (-2.5)": "6.3",
+      "2 (+2.5)": "1.056"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Cerrito",
+    "equipe_2": "Montevideo Wanderers",
+    "1X2": {
+      "V1": "1.95",
+      "X": "3.25",
+      "V2": "3.47"
+    },
+    "Total_2.5": {
+      "Plus de": "2.12",
+      "Moins de": "1.615"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
+    "statut": "ok",
+    "debut": "2026-10-07T18:30:00+00:00",
+    "competition": "Coupe d'Uruguay",
+    "competition_en": "Uruguay Cup",
+    "competition_id": 1859581,
+    "equipe_1_en": "Cerrito",
+    "equipe_2_en": "Montevideo Wanderers",
+    "Double_Chance": {
+      "1X": "1.22",
+      "12": "1.23",
+      "2X": "1.66"
+    },
+    "BTTS": {
+      "Non": "1.789",
+      "Oui": "1.88"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.615",
+        "Plus de": "2.12"
+      },
+      "1.5": {
+        "Plus de": "1.333",
+        "Moins de": "2.81"
+      },
+      "2": {
+        "Plus de": "1.58",
+        "Moins de": "2.12"
+      },
+      "3": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      },
+      "3.5": {
+        "Plus de": "3.88",
+        "Moins de": "1.179"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.43",
+      "2 (0)": "2.46",
+      "1 (-1)": "2.97",
+      "2 (-1)": "7",
+      "1 (+1)": "1.039",
+      "2 (+1)": "1.32",
+      "1 (-1.5)": "3.84",
+      "2 (-1.5)": "8.1",
+      "1 (+1.5)": "1.019",
+      "2 (+1.5)": "1.183"
     }
   },
   {
@@ -2879,16 +2934,16 @@
     "equipe_1": "Avai",
     "equipe_2": "Londrina",
     "1X2": {
-      "V1": "2.06",
+      "V1": "2.07",
       "X": "3.22",
-      "V2": "3.525"
+      "V2": "3.505"
     },
     "Total_2.5": {
-      "Plus de": "2.23",
-      "Moins de": "1.6"
+      "Plus de": "2.27",
+      "Moins de": "1.58"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T22:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
@@ -2902,42 +2957,42 @@
       "2X": "1.68"
     },
     "BTTS": {
-      "Non": "1.771",
-      "Oui": "1.94"
+      "Non": "1.75",
+      "Oui": "1.97"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.23"
+        "Moins de": "1.58",
+        "Plus de": "2.27"
       },
       "1.5": {
-        "Plus de": "1.36",
-        "Moins de": "2.7"
+        "Plus de": "1.37",
+        "Moins de": "2.66"
       },
       "2": {
-        "Plus de": "1.64",
-        "Moins de": "2.03"
+        "Plus de": "1.65",
+        "Moins de": "2.01"
       },
       "3": {
-        "Plus de": "3.3",
-        "Moins de": "1.25"
+        "Plus de": "3.36",
+        "Moins de": "1.24"
       },
       "3.5": {
-        "Plus de": "4.05",
-        "Moins de": "1.164"
+        "Plus de": "4.15",
+        "Moins de": "1.158"
       }
     },
     "Handicap": {
-      "1 (0)": "1.47",
-      "2 (0)": "2.51",
+      "1 (0)": "1.48",
+      "2 (0)": "2.49",
       "1 (-1)": "3.08",
       "2 (-1)": "7",
       "1 (+1)": "1.039",
       "2 (+1)": "1.28",
-      "1 (-1.5)": "3.98",
+      "1 (-1.5)": "4.05",
       "2 (-1.5)": "8.1",
       "1 (+1.5)": "1.019",
-      "2 (+1.5)": "1.17"
+      "2 (+1.5)": "1.166"
     }
   },
   {
@@ -2954,7 +3009,7 @@
       "Moins de": "1.63"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T22:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
@@ -3020,7 +3075,7 @@
       "Moins de": "1.75"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T23:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
@@ -3086,7 +3141,7 @@
       "Moins de": "2.11"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T23:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
@@ -3152,7 +3207,7 @@
       "Moins de": "1.5"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-07T15:24:55.769965+00:00",
+    "derniere_maj": "2026-10-07T17:09:38.439584+00:00",
     "statut": "ok",
     "debut": "2026-10-07T23:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
