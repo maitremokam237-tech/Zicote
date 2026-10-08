@@ -1,1118 +1,716 @@
 [
   {
     "bookmaker": "megapari",
-    "equipe_1": "Inde (Femmes)",
-    "equipe_2": "Russie (Femmes)",
+    "equipe_1": "Namungo",
+    "equipe_2": "TRA United",
     "1X2": {
-      "V2": "1.001",
-      "X": "10",
-      "V1": "17"
+      "V2": "1.59",
+      "X": "3.28",
+      "V1": "5.71"
+    },
+    "Total_2.5": {
+      "Plus de": "2.17",
+      "Moins de": "1.55"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:30:00+00:00",
+    "competition": "Tanzanie. Première Ligue",
+    "competition_en": "Tanzania. Premier League",
+    "competition_id": 831053,
+    "equipe_1_en": "Namungo",
+    "equipe_2_en": "TRA United",
+    "Double_Chance": {
+      "2X": "1.063",
+      "12": "1.23",
+      "1X": "2.07"
+    },
+    "BTTS": {
+      "Non": "1.593",
+      "Oui": "2.16"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.55",
+        "Plus de": "2.17"
+      },
+      "1.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.65"
+      },
+      "2": {
+        "Plus de": "1.66",
+        "Moins de": "1.99"
+      },
+      "3": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      },
+      "3.5": {
+        "Plus de": "3.95",
+        "Moins de": "1.173"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.35",
+      "2 (-1.5)": "2.74",
+      "1 (0)": "4",
+      "2 (0)": "1.169",
+      "2 (-1)": "2.1",
+      "1 (+1)": "1.62",
+      "2 (-2)": "4.7",
+      "1 (+2)": "1.122",
+      "2 (-2.5)": "5.45",
+      "1 (+2.5)": "1.085"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Al Sadd U20",
+    "equipe_2": "Al-Arabi Doha U20",
+    "1X2": {
+      "V2": "2.36",
+      "V1": "2.41",
+      "X": "3.52"
+    },
+    "Total_2.5": {
+      "Plus de": "1.49",
+      "Moins de": "2.3"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:40:00+00:00",
+    "competition": "Championnat du Qatar U20",
+    "competition_en": "Qatar Championship U20",
+    "competition_id": 2523883,
+    "equipe_1_en": "Al Sadd U20",
+    "equipe_2_en": "Al-Arabi Doha U20",
+    "Double_Chance": {
+      "12": "1.195",
+      "2X": "1.42",
+      "1X": "1.44"
+    },
+    "BTTS": {
+      "Oui": "1.44",
+      "Non": "2.526"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.52",
+        "Plus de": "2.31"
+      },
+      "2.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.3"
+      },
+      "3": {
+        "Plus de": "1.8",
+        "Moins de": "1.82"
+      },
+      "4": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      },
+      "4.5": {
+        "Plus de": "3.92",
+        "Moins de": "1.175"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.81",
+      "1 (0)": "1.85",
+      "1 (-1)": "3.84",
+      "2 (-1)": "3.7",
+      "1 (+1)": "1.197",
+      "2 (+1)": "1.184",
+      "1 (-1.5)": "4.65",
+      "2 (-1.5)": "4.5",
+      "1 (+1.5)": "1.133",
+      "2 (+1.5)": "1.124"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Al-Ahli Doha U20",
+    "equipe_2": "Qatar SC U20",
+    "1X2": {
+      "V2": "2.3",
+      "V1": "2.761",
+      "X": "3.2"
+    },
+    "Total_2.5": {
+      "Plus de": "1.88",
+      "Moins de": "1.79"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:40:00+00:00",
+    "competition": "Championnat du Qatar U20",
+    "competition_en": "Qatar Championship U20",
+    "competition_id": 2523883,
+    "equipe_1_en": "Al-Ahli Doha U20",
+    "equipe_2_en": "Qatar SC U20",
+    "Double_Chance": {
+      "12": "1.24",
+      "2X": "1.34",
+      "1X": "1.47"
+    },
+    "BTTS": {
+      "Oui": "1.69",
+      "Non": "2.005"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.79",
+        "Plus de": "1.88"
+      },
+      "1.5": {
+        "Plus de": "1.26",
+        "Moins de": "3.2"
+      },
+      "2": {
+        "Plus de": "1.42",
+        "Moins de": "2.49"
+      },
+      "3": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      },
+      "3.5": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.69",
+      "1 (0)": "1.99",
+      "1 (-1)": "4.7",
+      "2 (-1)": "3.58",
+      "1 (+1)": "1.21",
+      "2 (+1)": "1.122",
+      "1 (-1.5)": "5.55",
+      "2 (-1.5)": "4.45",
+      "1 (+1.5)": "1.135",
+      "2 (+1.5)": "1.081"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Hapoel Be'er Sheva U19",
+    "equipe_2": "Hapoel Rishon Lezion Yehuda U19",
+    "1X2": {
+      "V1": "1.71",
+      "V2": "3.77",
+      "X": "3.86"
+    },
+    "Total_2.5": {
+      "Plus de": "1.41",
+      "Moins de": "2.52"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Championnat d'Israël U19",
+    "competition_en": "Israel Championship U19",
+    "competition_id": 135331,
+    "equipe_1_en": "Hapoel Be'er Sheva U19",
+    "equipe_2_en": "Hapoel Rishon Lezion Yehuda U19",
+    "Double_Chance": {
+      "12": "1.16",
+      "1X": "1.177",
+      "2X": "1.89"
+    },
+    "BTTS": {
+      "Oui": "1.43",
+      "Non": "2.557"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.64",
+        "Plus de": "2.08"
+      },
+      "2.5": {
+        "Plus de": "1.41",
+        "Moins de": "2.52"
+      },
+      "3": {
+        "Plus de": "1.64",
+        "Moins de": "2.02"
+      },
+      "4": {
+        "Plus de": "2.83",
+        "Moins de": "1.33"
+      },
+      "4.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.34",
+      "1 (-1.5)": "2.78",
+      "1 (0)": "1.33",
+      "2 (0)": "2.83",
+      "1 (-1)": "2.23",
+      "2 (+1)": "1.55",
+      "1 (-2)": "4.5",
+      "2 (+2)": "1.132",
+      "1 (-2.5)": "5.25",
+      "2 (+2.5)": "1.094"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "NEC Bugolobi",
+    "equipe_2": "Express",
+    "1X2": {
+      "V1": "1.46",
+      "X": "3.58",
+      "V2": "6.89"
+    },
+    "Total_2.5": {
+      "Plus de": "2.2",
+      "Moins de": "1.57"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Ouganda. Première Ligue",
+    "competition_en": "Uganda. Premier League",
+    "competition_id": 1156373,
+    "equipe_1_en": "NEC Bugolobi",
+    "equipe_2_en": "Express",
+    "Double_Chance": {
+      "1X": "1.034",
+      "12": "1.188",
+      "2X": "2.32"
+    },
+    "BTTS": {
+      "Non": "1.52",
+      "Oui": "2.31"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.57",
+        "Plus de": "2.2"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "2": {
+        "Plus de": "1.64",
+        "Moins de": "2.02"
+      },
+      "3": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      },
+      "3.5": {
+        "Plus de": "3.95",
+        "Moins de": "1.173"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.44",
+      "1 (-1.5)": "2.43",
+      "1 (0)": "1.111",
+      "2 (0)": "4.9",
+      "1 (-1)": "1.833",
+      "2 (+1)": "1.82",
+      "1 (-2)": "3.98",
+      "2 (+2)": "1.17",
+      "1 (-2.5)": "4.75",
+      "2 (+2.5)": "1.117"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Norvège",
+    "equipe_2": "Portugal U23 (Femmes)",
+    "1X2": {
+      "V1": "1.41",
+      "X": "4.4",
+      "V2": "5.81"
+    },
+    "Total_2.5": {
+      "Plus de": "1.47",
+      "Moins de": "2.35"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Matchs amicaux U23. Equipes nationales. Femmes",
+    "competition_en": "Friendlies U23. National Teams. Women",
+    "competition_id": 1154247,
+    "equipe_1_en": "Norway U23 (Women)",
+    "equipe_2_en": "Portugal U23 (Women)",
+    "Double_Chance": {
+      "1X": "1.063",
+      "12": "1.119",
+      "2X": "2.46"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.54",
+        "Plus de": "2.27"
+      },
+      "2.5": {
+        "Plus de": "1.47",
+        "Moins de": "2.35"
+      },
+      "3": {
+        "Plus de": "1.76",
+        "Moins de": "1.86"
+      },
+      "4": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      },
+      "4.5": {
+        "Plus de": "3.88",
+        "Moins de": "1.18"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.54",
+      "1 (-1.5)": "2.19",
+      "1 (0)": "1.134",
+      "2 (0)": "4.5",
+      "1 (-1)": "1.71",
+      "2 (+1)": "1.96",
+      "1 (-2)": "3.2",
+      "2 (+2)": "1.26",
+      "1 (-2.5)": "3.94",
+      "2 (+2.5)": "1.174"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Suède U23 (Femmes)",
+    "equipe_2": "Finlande U23 (Femmes)",
+    "1X2": {
+      "V1": "1.47",
+      "X": "4.2",
+      "V2": "5.27"
+    },
+    "Total_2.5": {
+      "Plus de": "1.47",
+      "Moins de": "2.35"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Matchs amicaux U23. Equipes nationales. Femmes",
+    "competition_en": "Friendlies U23. National Teams. Women",
+    "competition_id": 1154247,
+    "equipe_1_en": "Sweden U23 (Women)",
+    "equipe_2_en": "Finland U23 (Women)",
+    "Double_Chance": {
+      "1X": "1.083",
+      "12": "1.132",
+      "2X": "2.3"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.54",
+        "Plus de": "2.27"
+      },
+      "2.5": {
+        "Plus de": "1.47",
+        "Moins de": "2.35"
+      },
+      "3": {
+        "Plus de": "1.77",
+        "Moins de": "1.85"
+      },
+      "4": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      },
+      "4.5": {
+        "Plus de": "3.9",
+        "Moins de": "1.178"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.48",
+      "1 (-1.5)": "2.33",
+      "1 (0)": "1.169",
+      "2 (0)": "4",
+      "1 (-1)": "1.82",
+      "2 (+1)": "1.833",
+      "1 (-2)": "3.5",
+      "2 (+2)": "1.22",
+      "1 (-2.5)": "4.3",
+      "2 (+2.5)": "1.146"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Grazer AK (Femmes)",
+    "equipe_2": "SpG Sudburgenland TSV Hartberg (Femmes)",
+    "1X2": {
+      "V2": "1.31",
+      "X": "4.9",
+      "V1": "7.05"
+    },
+    "Total_2.5": {
+      "Plus de": "1.4",
+      "Moins de": "2.56"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Matchs amicaux des clubs. Femmes",
+    "competition_en": "Club Friendlies. Women",
+    "competition_id": 823377,
+    "equipe_1_en": "Grazer AK (Women)",
+    "equipe_2_en": "SpG Sudburgenland TSV Hartberg (Women)",
+    "Double_Chance": {
+      "2X": "1.029",
+      "12": "1.09",
+      "1X": "2.84"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.64",
+        "Plus de": "2.08"
+      },
+      "2.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.56"
+      },
+      "3": {
+        "Plus de": "1.63",
+        "Moins de": "2.03"
+      },
+      "4": {
+        "Plus de": "2.83",
+        "Moins de": "1.33"
+      },
+      "4.5": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.74",
+      "2 (-1.5)": "1.93",
+      "1 (0)": "5.4",
+      "2 (0)": "1.086",
+      "2 (-1)": "1.5",
+      "1 (+1)": "2.28",
+      "2 (-2)": "2.59",
+      "1 (+2)": "1.39",
+      "2 (-2.5)": "3.14",
+      "1 (+2.5)": "1.27"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "SkeidU19",
+    "equipe_2": "Ready U19",
+    "1X2": {
+      "V2": "2.03",
+      "V1": "2.614",
+      "X": "4.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Matchs amicaux. Équipes nationales. Femmes",
-    "competition_en": "Friendlies. National Teams. Women",
-    "competition_id": 1131987,
-    "equipe_1_en": "India (Women)",
-    "equipe_2_en": "Russia (Women)",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Norvège. Junior U19",
+    "competition_en": "Norway Championship U19",
+    "competition_id": 38045,
+    "equipe_1_en": "Skeid U19",
+    "equipe_2_en": "Ready U19",
     "Double_Chance": {
-      "12": "1.001",
-      "2X": "1.001",
-      "1X": "8.5"
+      "12": "1.125",
+      "2X": "1.37",
+      "1X": "1.61"
+    },
+    "BTTS": {
+      "Oui": "1.133",
+      "Non": "4.8"
     },
     "Totals": {
       "4.5": {
-        "Moins de": "1.61",
-        "Plus de": "2.11"
+        "Plus de": "1.833",
+        "Moins de": "1.833"
       },
       "3.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.46"
+        "Plus de": "1.34",
+        "Moins de": "2.78"
       },
       "4": {
-        "Plus de": "1.7",
-        "Moins de": "1.98"
+        "Plus de": "1.49",
+        "Moins de": "2.3"
       },
       "5": {
-        "Plus de": "2.87",
-        "Moins de": "1.34"
+        "Plus de": "2.26",
+        "Moins de": "1.51"
+      },
+      "5.5": {
+        "Plus de": "2.69",
+        "Moins de": "1.363"
       }
     },
     "Handicap": {
-      "1 (+3.5)": "1.7",
-      "2 (-3.5)": "1.99",
-      "2 (-3)": "1.6",
-      "1 (+3)": "2.14",
-      "2 (-4)": "2.65",
-      "1 (+4)": "1.4"
+      "2 (0)": "1.64",
+      "1 (0)": "2.06",
+      "1 (-1)": "3.75",
+      "2 (-1)": "2.66",
+      "1 (+1)": "1.37",
+      "2 (+1)": "1.192",
+      "1 (-1.5)": "4.4",
+      "2 (-1.5)": "3.2",
+      "1 (+1.5)": "1.26",
+      "2 (+1.5)": "1.141"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Alga Bichkek",
-    "equipe_2": "Asiagoal",
+    "equipe_1": "Ghazl El Mahalla",
+    "equipe_2": "Abu Qair Semad",
     "1X2": {
-      "V1": "1.3",
-      "X": "4.79",
-      "V2": "7.7"
+      "V1": "2.37",
+      "X": "2.64",
+      "V2": "3.24"
     },
     "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.15"
+      "Plus de": "2.69",
+      "Moins de": "1.39"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Championnat du Kirghizistan. Ligue supérieure",
-    "competition_en": "Kyrgyzstan Championship. Higher League",
-    "competition_id": 1183069,
-    "equipe_1_en": "Alga Bishkek",
-    "equipe_2_en": "Asiagoal",
+    "debut": "2026-10-08T17:00:00+00:00",
+    "competition": "Egypte. Coupe de la Ligue",
+    "competition_en": "Egypt. League Cup",
+    "competition_id": 2341854,
+    "equipe_1_en": "Ghazl El Mahalla",
+    "equipe_2_en": "Abu Qair Semad",
     "Double_Chance": {
-      "2X": "2.89"
+      "1X": "1.25",
+      "12": "1.35",
+      "2X": "1.44"
     },
     "BTTS": {
-      "Non": "1.79",
-      "Oui": "1.87"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.15"
-      },
-      "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.51"
-      },
-      "3": {
-        "Plus de": "2.04",
-        "Moins de": "1.66"
-      },
-      "3.5": {
-        "Plus de": "2.63",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.67",
-      "1 (-1.5)": "2.02",
-      "1 (-1)": "1.54",
-      "2 (+1)": "2.26"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Ilbirs",
-    "equipe_2": "Bars Karakol",
-    "1X2": {
-      "V2": "1.29",
-      "X": "5.35",
-      "V1": "6.84"
-    },
-    "Total_2.5": {
-      "Plus de": "1.29",
-      "Moins de": "3.16"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Championnat du Kirghizistan. Ligue supérieure",
-    "competition_en": "Kyrgyzstan Championship. Higher League",
-    "competition_id": 1183069,
-    "equipe_1_en": "Ilbirs",
-    "equipe_2_en": "Bars Karakol",
-    "Double_Chance": {
-      "1X": "2.94"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.38"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.83",
-        "Moins de": "1.83"
-      },
-      "2.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.16"
-      },
-      "3": {
-        "Plus de": "1.44",
-        "Moins de": "2.5"
-      },
-      "4": {
-        "Plus de": "2.4",
-        "Moins de": "1.48"
-      },
-      "4.5": {
-        "Plus de": "2.98",
-        "Moins de": "1.32"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.77",
-      "2 (-1.5)": "1.89",
-      "2 (-1)": "1.49",
-      "1 (+1)": "2.38"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Neftci Kockor-Ata",
-    "equipe_2": "Muras United",
-    "1X2": {
-      "V2": "1.27",
-      "X": "5.1",
-      "V1": "7.95"
-    },
-    "Total_2.5": {
-      "Plus de": "1.48",
-      "Moins de": "2.39"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Championnat du Kirghizistan. Ligue supérieure",
-    "competition_en": "Kyrgyzstan Championship. Higher League",
-    "competition_id": 1183069,
-    "equipe_1_en": "Neftci Kockor-Ata",
-    "equipe_2_en": "Muras United",
-    "Double_Chance": {
-      "1X": "3.04"
-    },
-    "BTTS": {
-      "Oui": "1.77",
-      "Non": "1.89"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.34"
-      },
-      "2.5": {
-        "Plus de": "1.48",
-        "Moins de": "2.39"
-      },
-      "3": {
-        "Plus de": "1.81",
-        "Moins de": "1.85"
-      },
-      "4": {
-        "Plus de": "3.52",
-        "Moins de": "1.24"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.75",
-      "2 (-1.5)": "1.92",
-      "2 (-1)": "1.48",
-      "1 (+1)": "2.4"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Ozgon",
-    "equipe_2": "Dordoi Bishkek",
-    "1X2": {
-      "V1": "1.61",
-      "X": "4.08",
-      "V2": "4.095"
-    },
-    "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.37"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Championnat du Kirghizistan. Ligue supérieure",
-    "competition_en": "Kyrgyzstan Championship. Higher League",
-    "competition_id": 1183069,
-    "equipe_1_en": "Ozgon",
-    "equipe_2_en": "Dordoi Bishkek",
-    "Double_Chance": {
-      "1X": "1.14",
-      "12": "1.14",
-      "2X": "2.02"
-    },
-    "BTTS": {
-      "Oui": "1.52",
-      "Non": "2.3"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.5",
-        "Plus de": "2.35"
-      },
-      "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.37"
-      },
-      "3": {
-        "Plus de": "1.82",
-        "Moins de": "1.84"
-      },
-      "4": {
-        "Plus de": "3.57",
-        "Moins de": "1.23"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.28",
-      "2 (0)": "3.2",
-      "1 (-1)": "2.14",
-      "2 (+1)": "1.6"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Clube Ferroviário de Maputo",
-    "equipe_2": "Vilankulo",
-    "1X2": {
-      "V1": "1.62",
-      "X": "3.18",
-      "V2": "5.62"
-    },
-    "Total_2.5": {
-      "Plus de": "2.46",
-      "Moins de": "1.43"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Championnat du Mozambique",
-    "competition_en": "Mozambique Championship",
-    "competition_id": 177397,
-    "equipe_1_en": "Ferroviario Maputo",
-    "equipe_2_en": "Vilankulo",
-    "Double_Chance": {
-      "1X": "1.066",
-      "12": "1.24",
-      "2X": "2.02"
-    },
-    "BTTS": {
-      "Non": "1.5",
-      "Oui": "2.36"
+      "Non": "1.593",
+      "Oui": "2.16"
     },
     "Totals": {
       "1.5": {
-        "Plus de": "1.48",
-        "Moins de": "2.41"
+        "Plus de": "1.53",
+        "Moins de": "2.21"
       },
       "0.5": {
-        "Plus de": "1.057",
-        "Moins de": "6.25"
+        "Plus de": "1.089",
+        "Moins de": "5.35"
       },
       "1": {
-        "Plus de": "1.108",
-        "Moins de": "4.95"
+        "Plus de": "1.155",
+        "Moins de": "4.2"
       },
       "2": {
-        "Plus de": "1.84",
-        "Moins de": "1.78"
+        "Plus de": "1.99",
+        "Moins de": "1.66"
       },
       "2.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.43"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.3",
-      "1 (-1.5)": "2.97",
-      "1 (0)": "1.173",
-      "2 (0)": "3.95",
-      "1 (-1)": "2.23",
-      "2 (+1)": "1.55",
-      "1 (-2)": "5.5",
-      "2 (+2)": "1.083",
-      "1 (-2.5)": "6.4",
-      "2 (+2.5)": "1.053"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Al-Ansar Beyrouth",
-    "equipe_2": "Sagesse",
-    "1X2": {
-      "V1": "1.22",
-      "X": "4.95",
-      "V2": "11.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.65",
-      "Moins de": "2.06"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Liban. Premier League",
-    "competition_en": "Lebanon. Premier League",
-    "competition_id": 2908998,
-    "equipe_1_en": "Al-Ansar Beirut",
-    "equipe_2_en": "Sagesse",
-    "Double_Chance": {
-      "1X": "1.01",
-      "12": "1.088",
-      "2X": "3.4"
-    },
-    "BTTS": {
-      "Non": "1.582",
-      "Oui": "2.18"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.65",
-        "Moins de": "2.06"
-      },
-      "1.5": {
-        "Plus de": "1.176",
-        "Moins de": "3.92"
-      },
-      "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "3": {
-        "Plus de": "2.06",
-        "Moins de": "1.615"
-      },
-      "3.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.75",
-      "2 (+1.5)": "1.909",
-      "1 (0)": "1.012",
-      "2 (0)": "8.5",
-      "1 (-1)": "1.34",
-      "2 (+1)": "2.78",
-      "1 (-2)": "2.26",
-      "2 (+2)": "1.51",
-      "1 (-2.5)": "2.83",
-      "2 (+2.5)": "1.33"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Finlande U19 (Femmes)",
-    "equipe_2": "Belgique U19 (Femmes)",
-    "1X2": {
-      "V2": "2.43",
-      "V1": "2.53",
-      "X": "3.18"
-    },
-    "Total_2.5": {
-      "Plus de": "1.9",
-      "Moins de": "1.77"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Matchs amicaux U19. Équipes nationales. Femmes",
-    "competition_en": "Friendlies U19. National Teams. Women",
-    "competition_id": 1133667,
-    "equipe_1_en": "Finland U19 (Women)",
-    "equipe_2_en": "Belgium U19 (Women)",
-    "Double_Chance": {
-      "12": "1.24",
-      "2X": "1.38",
-      "1X": "1.41"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.77",
-        "Plus de": "1.9"
-      },
-      "1.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.14"
-      },
-      "2": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
-      },
-      "3": {
-        "Plus de": "2.59",
+        "Plus de": "2.69",
         "Moins de": "1.39"
-      },
-      "3.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
       }
     },
     "Handicap": {
-      "2 (0)": "1.79",
-      "1 (0)": "1.87",
-      "1 (-1)": "4.3",
-      "2 (-1)": "4",
-      "1 (+1)": "1.168",
-      "2 (+1)": "1.147",
+      "1 (0)": "1.6",
+      "2 (0)": "2.13",
+      "1 (-1)": "4.15",
+      "2 (-1)": "6.5",
+      "1 (+1)": "1.051",
+      "2 (+1)": "1.158",
       "1 (-1.5)": "5.15",
-      "2 (-1.5)": "4.9",
-      "1 (+1.5)": "1.111",
+      "2 (-1.5)": "7.7",
+      "1 (+1.5)": "1.026",
       "2 (+1.5)": "1.098"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Rosenborg U19",
-    "equipe_2": "Lillestrom U19",
+    "equipe_1": "Modern Sport",
+    "equipe_2": "Banque nationale d'Égypte",
     "1X2": {
-      "V1": "1.57",
-      "V2": "4.215",
-      "X": "4.6"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Norvège. Junior U19",
-    "competition_en": "Norway Championship U19",
-    "competition_id": 38045,
-    "equipe_1_en": "Rosenborg U19",
-    "equipe_2_en": "Lillestrom U19",
-    "Double_Chance": {
-      "12": "1.16",
-      "1X": "1.19",
-      "2X": "2.3"
-    },
-    "BTTS": {
-      "Oui": "1.21",
-      "Non": "4.19"
-    },
-    "Totals": {
-      "4.5": {
-        "Moins de": "1.84",
-        "Plus de": "1.86"
-      },
-      "3.5": {
-        "Plus de": "1.37",
-        "Moins de": "2.8"
-      },
-      "4": {
-        "Plus de": "1.54",
-        "Moins de": "2.3"
-      },
-      "5": {
-        "Plus de": "2.27",
-        "Moins de": "1.55"
-      },
-      "5.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.39"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.62",
-      "1 (-1.5)": "2.16",
-      "1 (0)": "1.27",
-      "2 (0)": "3.4",
-      "1 (-1)": "1.8",
-      "2 (+1)": "1.9",
-      "1 (-2)": "2.9",
-      "2 (+2)": "1.35",
-      "1 (-2.5)": "3.4",
-      "2 (+2.5)": "1.25"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Blacks Power",
-    "equipe_2": "Vipers",
-    "1X2": {
-      "V2": "1.62",
-      "X": "3.2",
-      "V1": "5.57"
+      "V2": "2.2",
+      "X": "2.84",
+      "V1": "3.315"
     },
     "Total_2.5": {
       "Plus de": "2.41",
-      "Moins de": "1.45"
+      "Moins de": "1.48"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Ouganda. Première Ligue",
-    "competition_en": "Uganda. Premier League",
-    "competition_id": 1156373,
-    "equipe_1_en": "Blacks Power",
-    "equipe_2_en": "Vipers",
-    "Double_Chance": {
-      "2X": "1.068",
-      "12": "1.24",
-      "1X": "2.02"
-    },
-    "BTTS": {
-      "Non": "1.52",
-      "Oui": "2.31"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.47",
-        "Moins de": "2.44"
-      },
-      "0.5": {
-        "Plus de": "1.063",
-        "Moins de": "6.05"
-      },
-      "1": {
-        "Plus de": "1.11",
-        "Moins de": "4.9"
-      },
-      "2": {
-        "Plus de": "1.81",
-        "Moins de": "1.81"
-      },
-      "2.5": {
-        "Plus de": "2.41",
-        "Moins de": "1.45"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.32",
-      "2 (-1.5)": "2.875",
-      "1 (0)": "3.9",
-      "2 (0)": "1.177",
-      "2 (-1)": "2.19",
-      "1 (+1)": "1.57",
-      "2 (-2)": "5.2",
-      "1 (+2)": "1.096",
-      "2 (-2.5)": "6",
-      "1 (+2.5)": "1.065"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Al Oruba Fujairah U21",
-    "equipe_2": "Al Dhaid U21",
-    "1X2": {
-      "V1": "2.15",
-      "V2": "2.819",
-      "X": "3.46"
-    },
-    "Total_2.5": {
-      "Plus de": "1.7",
-      "Moins de": "2.03"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:10:00+00:00",
-    "competition": "Championnat des Émirats arabes unis U21",
-    "competition_en": "UAE Championship U21",
-    "competition_id": 902063,
-    "equipe_1_en": "Al Oruba Fujairah U21",
-    "equipe_2_en": "Al Dhaid U21",
-    "Double_Chance": {
-      "12": "1.21",
-      "1X": "1.32",
-      "2X": "1.54"
-    },
-    "BTTS": {
-      "Oui": "1.62",
-      "Non": "2.233"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.7",
-        "Moins de": "2.03"
-      },
-      "1.5": {
-        "Plus de": "1.143",
-        "Moins de": "5"
-      },
-      "2": {
-        "Plus de": "1.32",
-        "Moins de": "3"
-      },
-      "3": {
-        "Plus de": "2.13",
-        "Moins de": "1.63"
-      },
-      "3.5": {
-        "Plus de": "2.52",
-        "Moins de": "1.44"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.63",
-      "2 (0)": "2.08",
-      "1 (-1)": "3.1",
-      "2 (-1)": "4.7",
-      "1 (+1)": "1.14",
-      "2 (+1)": "1.3",
-      "1 (-1.5)": "3.8",
-      "2 (-1.5)": "5.6",
-      "1 (+1.5)": "1.1",
-      "2 (+1.5)": "1.21"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Shabab Al-Ahli Dubai U21",
-    "equipe_2": "Al Sharjah U21",
-    "1X2": {
-      "V1": "1.161",
-      "X": "6.65",
-      "V2": "10.2"
-    },
-    "Total_2.5": {
-      "Plus de": "1.42",
-      "Moins de": "2.65"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:10:00+00:00",
-    "competition": "Championnat des Émirats arabes unis U21",
-    "competition_en": "UAE Championship U21",
-    "competition_id": 902063,
-    "equipe_1_en": "Shabab Al-Ahli Dubai U21",
-    "equipe_2_en": "Al Sharjah U21",
-    "Double_Chance": {
-      "12": "1.03",
-      "1X": "1.05",
-      "2X": "3.96"
-    },
-    "BTTS": {
-      "Oui": "1.85",
-      "Non": "1.907"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.73",
-        "Plus de": "1.95"
-      },
-      "2.5": {
-        "Plus de": "1.42",
-        "Moins de": "2.65"
-      },
-      "3": {
-        "Plus de": "1.65",
-        "Moins de": "2.1"
-      },
-      "4": {
-        "Plus de": "2.7",
-        "Moins de": "1.39"
-      },
-      "4.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.29"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.69",
-      "2 (+1.5)": "2.04",
-      "1 (-1)": "1.31",
-      "2 (+1)": "3",
-      "1 (-2)": "1.99",
-      "2 (+2)": "1.69",
-      "1 (-2.5)": "2.75",
-      "2 (+2.5)": "1.38"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Baniyas U21",
-    "equipe_2": "Al Wasl U21",
-    "1X2": {
-      "V2": "1.13",
-      "X": "6.9",
-      "V1": "10.7"
-    },
-    "Total_2.5": {
-      "Plus de": "1.24",
-      "Moins de": "3.6"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:15:00+00:00",
-    "competition": "Championnat des Émirats arabes unis U21",
-    "competition_en": "UAE Championship U21",
-    "competition_id": 902063,
-    "equipe_1_en": "Baniyas U21",
-    "equipe_2_en": "Al Wasl U21",
-    "Double_Chance": {
-      "12": "1.024",
-      "2X": "1.04",
-      "1X": "4.25"
-    },
-    "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.179"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.1"
-      },
-      "2.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.6"
-      },
-      "3": {
-        "Plus de": "1.33",
-        "Moins de": "3"
-      },
-      "4": {
-        "Plus de": "1.96",
-        "Moins de": "1.76"
-      },
-      "4.5": {
-        "Plus de": "2.35",
-        "Moins de": "1.52"
-      }
-    },
-    "Handicap": {
-      "1 (+2.5)": "1.615",
-      "2 (-2.5)": "2.11",
-      "2 (-1.5)": "1.6",
-      "1 (+1.5)": "2.2",
-      "2 (-2)": "1.95",
-      "1 (+2)": "1.76"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Pamba Jiji",
-    "equipe_2": "Geita Gold",
-    "1X2": {
-      "V1": "2",
-      "X": "3.125",
-      "V2": "3.455"
-    },
-    "Total_2.5": {
-      "Plus de": "2.27",
-      "Moins de": "1.54"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:15:00+00:00",
-    "competition": "Tanzanie. Première Ligue",
-    "competition_en": "Tanzania. Premier League",
-    "competition_id": 831053,
-    "equipe_1_en": "Pamba Jiji",
-    "equipe_2_en": "Geita Gold",
-    "Double_Chance": {
-      "1X": "1.22",
-      "12": "1.25",
-      "2X": "1.63"
-    },
-    "BTTS": {
-      "Non": "1.716",
-      "Oui": "1.97"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.54",
-        "Plus de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.4",
-        "Moins de": "2.56"
-      },
-      "2": {
-        "Plus de": "1.69",
-        "Moins de": "1.95"
-      },
-      "3": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
-      },
-      "3.5": {
-        "Plus de": "4.2",
-        "Moins de": "1.154"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.45",
-      "2 (0)": "2.47",
-      "1 (-1)": "3.05",
-      "2 (-1)": "6.75",
-      "1 (+1)": "1.044",
-      "2 (+1)": "1.285",
-      "1 (-1.5)": "3.92",
-      "2 (-1.5)": "7.8",
-      "1 (+1.5)": "1.024",
-      "2 (+1.5)": "1.175"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Al-Markhiya U20",
-    "equipe_2": "Al-Wakrah U20",
-    "1X2": {
-      "V1": "2.34",
-      "V2": "2.56",
-      "X": "3.28"
-    },
-    "Total_2.5": {
-      "Plus de": "1.79",
-      "Moins de": "1.88"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:30:00+00:00",
-    "competition": "Championnat du Qatar U20",
-    "competition_en": "Qatar Championship U20",
-    "competition_id": 2523883,
-    "equipe_1_en": "Al-Markhiya U20",
-    "equipe_2_en": "Al-Wakrah U20",
-    "Double_Chance": {
-      "12": "1.23",
-      "1X": "1.37",
-      "2X": "1.444"
-    },
-    "BTTS": {
-      "Oui": "1.62",
-      "Non": "2.118"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.79",
-        "Moins de": "1.88"
-      },
-      "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "2": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "3": {
-        "Plus de": "2.35",
-        "Moins de": "1.47"
-      },
-      "3.5": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.75",
-      "2 (0)": "1.909",
-      "1 (-1)": "3.92",
-      "2 (-1)": "4.55",
-      "1 (+1)": "1.131",
-      "2 (+1)": "1.176",
-      "1 (-1.5)": "4.9",
-      "2 (-1.5)": "5.5",
-      "1 (+1.5)": "1.083",
-      "2 (+1.5)": "1.111"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Ecosse U19 (Femmes)",
-    "equipe_2": "Croatie U19 (Femmes)",
-    "1X2": {
-      "V1": "1.23",
-      "X": "5.75",
-      "V2": "8.2"
-    },
-    "Total_2.5": {
-      "Plus de": "1.23",
-      "Moins de": "3.42"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:30:00+00:00",
-    "competition": "Matchs amicaux U19. Équipes nationales. Femmes",
-    "competition_en": "Friendlies U19. National Teams. Women",
-    "competition_id": 1133667,
-    "equipe_1_en": "Scotland U19 (Women)",
-    "equipe_2_en": "Croatia U19 (Women)",
-    "Double_Chance": {
-      "1X": "1.007",
-      "12": "1.056",
-      "2X": "3.32"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.05"
-      },
-      "2.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
-      },
-      "3": {
-        "Plus de": "1.33",
-        "Moins de": "2.83"
-      },
-      "4": {
-        "Plus de": "2",
-        "Moins de": "1.65"
-      },
-      "4.5": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.66",
-      "2 (+1.5)": "1.99",
-      "1 (0)": "1.051",
-      "2 (0)": "6.5",
-      "1 (-1)": "1.333",
-      "2 (+1)": "2.81",
-      "1 (-2)": "2.06",
-      "2 (+2)": "1.64",
-      "1 (-2.5)": "2.49",
-      "2 (+2.5)": "1.42"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Aino Mina",
-    "equipe_2": "Ariana Khost",
-    "1X2": {
-      "V2": "1.75",
-      "X": "3.61",
-      "V1": "3.82"
-    },
-    "Total_2.5": {
-      "Plus de": "1.82",
-      "Moins de": "1.84"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T14:00:00+00:00",
-    "competition": "Afghanistan. Ligue des champions",
-    "competition_en": "Afghanistan. Champions League",
-    "competition_id": 2689522,
-    "equipe_1_en": "Aino Mina",
-    "equipe_2_en": "Ariana Khost",
-    "Double_Chance": {
-      "2X": "1.17",
-      "12": "1.18",
-      "1X": "1.83"
-    },
-    "BTTS": {
-      "Oui": "1.75",
-      "Non": "1.92"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.82",
-        "Moins de": "1.84"
-      },
-      "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.63"
-      },
-      "2": {
-        "Plus de": "1.37",
-        "Moins de": "2.75"
-      },
-      "3": {
-        "Plus de": "2.53",
-        "Moins de": "1.43"
-      },
-      "3.5": {
-        "Plus de": "3.25",
-        "Moins de": "1.27"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.34",
-      "1 (0)": "2.87",
-      "2 (-1)": "2.54",
-      "1 (+1)": "1.43",
-      "2 (-1.5)": "3.33",
-      "1 (+1.5)": "1.26"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Al-Moqaouloun",
-    "equipe_2": "El Gouna",
-    "1X2": {
-      "V1": "2.17",
-      "X": "2.67",
-      "V2": "3.655"
-    },
-    "Total_2.5": {
-      "Plus de": "2.9",
-      "Moins de": "1.34"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T14:00:00+00:00",
+    "debut": "2026-10-08T17:00:00+00:00",
     "competition": "Egypte. Coupe de la Ligue",
     "competition_en": "Egypt. League Cup",
     "competition_id": 2341854,
-    "equipe_1_en": "El Mokawloon",
-    "equipe_2_en": "El Gouna",
+    "equipe_1_en": "Modern Sport",
+    "equipe_2_en": "National Bank of Egypt",
     "Double_Chance": {
-      "1X": "1.192",
-      "12": "1.34",
-      "2X": "1.53"
+      "2X": "1.24",
+      "12": "1.3",
+      "1X": "1.51"
     },
     "BTTS": {
-      "Non": "1.52",
-      "Oui": "2.31"
+      "Non": "1.69",
+      "Oui": "2.01"
     },
     "Totals": {
+      "2.5": {
+        "Moins de": "1.48",
+        "Plus de": "2.41"
+      },
       "1.5": {
-        "Plus de": "1.6",
-        "Moins de": "2.08"
-      },
-      "0.5": {
-        "Plus de": "1.107",
-        "Moins de": "4.95"
-      },
-      "1": {
-        "Plus de": "1.185",
-        "Moins de": "3.82"
+        "Plus de": "1.42",
+        "Moins de": "2.49"
       },
       "2": {
-        "Plus de": "2.14",
-        "Moins de": "1.57"
+        "Plus de": "1.77",
+        "Moins de": "1.85"
       },
-      "2.5": {
-        "Plus de": "2.9",
-        "Moins de": "1.34"
+      "3": {
+        "Plus de": "3.8",
+        "Moins de": "1.188"
+      },
+      "3.5": {
+        "Plus de": "4.65",
+        "Moins de": "1.125"
       }
     },
     "Handicap": {
-      "1 (0)": "1.47",
-      "2 (0)": "2.41",
-      "1 (-1)": "3.58",
-      "2 (-1)": "7.5",
-      "1 (+1)": "1.028",
-      "2 (+1)": "1.21",
-      "1 (-1.5)": "4.55",
-      "2 (-1.5)": "8.5",
-      "1 (+1.5)": "1.012",
-      "2 (+1.5)": "1.13"
+      "2 (0)": "1.53",
+      "1 (0)": "2.27",
+      "1 (-1)": "6.85",
+      "2 (-1)": "3.68",
+      "1 (+1)": "1.2",
+      "2 (+1)": "1.042",
+      "1 (-1.5)": "8.1",
+      "2 (-1.5)": "4.7",
+      "1 (+1.5)": "1.121",
+      "2 (+1.5)": "1.018"
     }
   },
   {
@@ -1120,16 +718,16 @@
     "equipe_1": "Shamrock Rovers",
     "equipe_2": "Drogheda United",
     "1X2": {
-      "V1": "1.35",
-      "X": "4.8",
-      "V2": "8.25"
+      "V1": "1.32",
+      "X": "5",
+      "V2": "8.85"
     },
     "Total_2.5": {
-      "Plus de": "1.66",
-      "Moins de": "2.14"
+      "Plus de": "1.64",
+      "Moins de": "2.17"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T19:00:00+00:00",
     "competition": "Championnat d'Irlande. Première division",
@@ -1138,47 +736,47 @@
     "equipe_1_en": "Shamrock Rovers",
     "equipe_2_en": "Drogheda United",
     "Double_Chance": {
-      "1X": "1.049",
-      "12": "1.155",
-      "2X": "3.05"
+      "1X": "1.04",
+      "12": "1.144",
+      "2X": "3.22"
     },
     "BTTS": {
-      "Non": "1.791",
-      "Oui": "1.92"
+      "Non": "1.761",
+      "Oui": "1.95"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.14"
+        "Plus de": "1.64",
+        "Moins de": "2.17"
       },
       "1.5": {
-        "Plus de": "1.157",
-        "Moins de": "4.15"
+        "Plus de": "1.151",
+        "Moins de": "4.25"
       },
       "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.26"
+        "Plus de": "1.25",
+        "Moins de": "3.34"
       },
       "3": {
-        "Plus de": "2.03",
-        "Moins de": "1.65"
+        "Plus de": "2",
+        "Moins de": "1.666"
       },
       "3.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
+        "Plus de": "2.52",
+        "Moins de": "1.41"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.69",
-      "1 (-1.5)": "1.95",
-      "1 (0)": "1.056",
-      "2 (0)": "6.3",
-      "1 (-1)": "1.54",
-      "2 (+1)": "2.35",
-      "1 (-2)": "2.74",
-      "2 (+2)": "1.35",
-      "1 (-2.5)": "3.42",
-      "2 (+2.5)": "1.23"
+      "2 (+1.5)": "1.74",
+      "1 (-1.5)": "1.89",
+      "1 (0)": "1.044",
+      "2 (0)": "6.75",
+      "1 (-1)": "1.49",
+      "2 (+1)": "2.48",
+      "1 (-2)": "2.625",
+      "2 (+2)": "1.38",
+      "1 (-2.5)": "3.28",
+      "2 (+2.5)": "1.25"
     }
   },
   {
@@ -1195,7 +793,7 @@
       "Moins de": "2.147"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -1252,16 +850,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.503",
-      "V2": "3.62",
-      "X": "8.05"
+      "V1": "1.467",
+      "V2": "3.8",
+      "X": "8.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -1270,43 +868,43 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.06",
-      "1X": "1.253",
-      "2X": "2.748"
+      "12": "1.056",
+      "1X": "1.232",
+      "2X": "2.883"
     },
     "Totals": {
       "11.5": {
-        "Moins de": "1.759",
-        "Plus de": "2.065"
+        "Moins de": "1.856",
+        "Plus de": "1.947"
       },
       "9.5": {
-        "Plus de": "1.421",
-        "Moins de": "2.865"
+        "Plus de": "1.366",
+        "Moins de": "3.115"
       },
       "10.5": {
-        "Plus de": "1.692",
-        "Moins de": "2.167"
+        "Plus de": "1.611",
+        "Moins de": "2.316"
       },
       "12.5": {
-        "Plus de": "2.645",
-        "Moins de": "1.482"
+        "Plus de": "2.447",
+        "Moins de": "1.553"
       },
       "13.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.293"
+        "Plus de": "3.25",
+        "Moins de": "1.342"
       }
     },
     "Handicap": {
-      "1 (-1.5)": "1.788",
-      "2 (+1.5)": "2.028",
-      "1 (-1)": "1.599",
-      "2 (-1)": "4.98",
-      "1 (+1)": "1.174",
-      "2 (+1)": "2.341",
-      "1 (-2)": "1.986",
-      "2 (+2)": "1.821",
-      "1 (-2.5)": "2.215",
-      "2 (+2.5)": "1.663"
+      "1 (-1.5)": "1.734",
+      "2 (+1.5)": "2.101",
+      "1 (-1)": "1.552",
+      "2 (-1)": "5.28",
+      "1 (+1)": "1.158",
+      "2 (+1)": "2.449",
+      "1 (-2)": "1.911",
+      "2 (+2)": "1.889",
+      "1 (-2.5)": "2.127",
+      "2 (+2.5)": "1.717"
     }
   },
   {
@@ -1314,16 +912,16 @@
     "equipe_1": "Clube Atlético Paranaense",
     "equipe_2": "Clube Atlético Mineiro",
     "1X2": {
-      "V1": "2.251",
-      "X": "3.18",
-      "V2": "3.53"
+      "V1": "2.156",
+      "X": "3.22",
+      "V2": "3.735"
     },
     "Total_2.5": {
-      "Plus de": "2.074",
-      "Moins de": "1.787"
+      "Plus de": "2.045",
+      "Moins de": "1.809"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T23:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -1332,667 +930,599 @@
     "equipe_1_en": "Clube Atletico Paranaense",
     "equipe_2_en": "Clube Atletico Mineiro",
     "Double_Chance": {
-      "1X": "1.309",
-      "12": "1.365",
-      "2X": "1.658"
+      "1X": "1.283",
+      "12": "1.357",
+      "2X": "1.714"
     },
     "BTTS": {
-      "Oui": "1.77",
-      "Non": "1.945"
+      "Oui": "1.78",
+      "Non": "1.926"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.787",
-        "Plus de": "2.074"
+        "Moins de": "1.809",
+        "Plus de": "2.045"
       },
       "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
+        "Plus de": "1.285",
+        "Moins de": "3.05"
       },
       "2": {
-        "Plus de": "1.49",
-        "Moins de": "2.33"
-      },
-      "3": {
-        "Plus de": "2.7",
-        "Moins de": "1.37"
-      },
-      "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.578",
-      "2 (0)": "2.45",
-      "1 (-1)": "3.14",
-      "2 (-1)": "6",
-      "1 (+1)": "1.065",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "3.92",
-      "2 (-1.5)": "6.85",
-      "1 (+1.5)": "1.042",
-      "2 (+1.5)": "1.176"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Aluminium Arak",
-    "equipe_2": "Malavan",
-    "1X2": {
-      "V1": "2.24",
-      "X": "2.82",
-      "V2": "3.285"
-    },
-    "Total_2.5": {
-      "Plus de": "2.74",
-      "Moins de": "1.35"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Championnat d'Iran. Ligue Pro",
-    "competition_en": "Iran. Pro League",
-    "competition_id": 32887,
-    "equipe_1_en": "Aluminium Arak",
-    "equipe_2_en": "Malavan",
-    "Double_Chance": {
-      "1X": "1.25",
-      "12": "1.32",
-      "2X": "1.5"
-    },
-    "BTTS": {
-      "Non": "1.559",
-      "Oui": "2.25"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.18"
-      },
-      "0.5": {
-        "Plus de": "1.085",
-        "Moins de": "5.45"
-      },
-      "1": {
-        "Plus de": "1.152",
-        "Moins de": "4.2"
-      },
-      "2": {
-        "Plus de": "2.07",
-        "Moins de": "1.61"
-      },
-      "2.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.55",
-      "2 (0)": "2.23",
-      "1 (-1)": "3.82",
-      "2 (-1)": "6.55",
-      "1 (+1)": "1.049",
-      "2 (+1)": "1.186",
-      "1 (-1.5)": "4.8",
-      "2 (-1.5)": "7.6",
-      "1 (+1.5)": "1.027",
-      "2 (+1.5)": "1.114"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Nassaji Mazandaran",
-    "equipe_2": "Zob Ahan",
-    "1X2": {
-      "V1": "2.37",
-      "X": "2.82",
-      "V2": "3.03"
-    },
-    "Total_2.5": {
-      "Plus de": "2.7",
-      "Moins de": "1.36"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Championnat d'Iran. Ligue Pro",
-    "competition_en": "Iran. Pro League",
-    "competition_id": 32887,
-    "equipe_1_en": "Nassaji Mazandaran",
-    "equipe_2_en": "Zob Ahan",
-    "Double_Chance": {
-      "1X": "1.285",
-      "12": "1.32",
-      "2X": "1.45"
-    },
-    "BTTS": {
-      "Non": "1.58",
-      "Oui": "2.21"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.57",
-        "Moins de": "2.2"
-      },
-      "0.5": {
-        "Plus de": "1.073",
-        "Moins de": "5.75"
-      },
-      "1": {
-        "Plus de": "1.138",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "2.03",
-        "Moins de": "1.63"
-      },
-      "2.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.64",
-      "2 (0)": "2.06",
-      "1 (-1)": "4.3",
-      "2 (-1)": "6.1",
-      "1 (+1)": "1.062",
-      "2 (+1)": "1.147",
-      "1 (-1.5)": "5.35",
-      "2 (-1.5)": "7.3",
-      "1 (+1.5)": "1.033",
-      "2 (+1.5)": "1.088"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Al Nasr Cairo",
-    "equipe_2": "Proxy SC",
-    "1X2": {
-      "V1": "1.77",
-      "X": "3.15",
-      "V2": "4.68"
-    },
-    "Total_2.5": {
-      "Plus de": "2.25",
-      "Moins de": "1.57"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Égypte. Deuxième division",
-    "competition_en": "Egypt. Second Division",
-    "competition_id": 148597,
-    "equipe_1_en": "Al Nasr Cairo",
-    "equipe_2_en": "Proxy SC",
-    "Double_Chance": {
-      "1X": "1.12",
-      "12": "1.25",
-      "2X": "1.85"
-    },
-    "BTTS": {
-      "Non": "1.669",
-      "Oui": "2.08"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.57",
-        "Plus de": "2.25"
-      },
-      "1.5": {
-        "Plus de": "1.42",
-        "Moins de": "2.65"
-      },
-      "2": {
-        "Plus de": "1.7",
-        "Moins de": "2.02"
-      },
-      "3": {
-        "Plus de": "3.3",
-        "Moins de": "1.3"
-      },
-      "3.5": {
-        "Plus de": "3.95",
-        "Moins de": "1.2"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.3",
-      "2 (0)": "3.1",
-      "1 (-1)": "2.7",
-      "2 (+1)": "1.4",
-      "1 (-1.5)": "3.6",
-      "2 (+1.5)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Delta United",
-    "equipe_2": "Dayrout",
-    "1X2": {
-      "V1": "1.9",
-      "X": "2.97",
-      "V2": "4.06"
-    },
-    "Total_2.5": {
-      "Plus de": "2.33",
-      "Moins de": "1.51"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Égypte. Deuxième division",
-    "competition_en": "Egypt. Second Division",
-    "competition_id": 148597,
-    "equipe_1_en": "Delta United",
-    "equipe_2_en": "Dayrout",
-    "Double_Chance": {
-      "1X": "1.153",
-      "12": "1.28",
-      "2X": "1.7"
-    },
-    "BTTS": {
-      "Non": "1.674",
-      "Oui": "2.03"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.51",
-        "Plus de": "2.33"
-      },
-      "1.5": {
-        "Plus de": "1.4",
-        "Moins de": "2.56"
-      },
-      "2": {
-        "Plus de": "1.72",
-        "Moins de": "1.909"
-      },
-      "3": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
-      },
-      "3.5": {
-        "Plus de": "4.4",
-        "Moins de": "1.138"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.35",
-      "2 (0)": "2.83",
-      "1 (-1)": "2.875",
-      "2 (-1)": "9.1",
-      "1 (+1)": "1.004",
-      "2 (+1)": "1.32",
-      "1 (-1.5)": "3.78",
-      "2 (-1.5)": "8.8",
-      "1 (+1.5)": "1.02",
-      "2 (+1.5)": "1.19"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Haras El Hodoud",
-    "equipe_2": "El Sekka El Hadid",
-    "1X2": {
-      "V1": "1.85",
-      "X": "2.875",
-      "V2": "4.545"
-    },
-    "Total_2.5": {
-      "Plus de": "2.56",
-      "Moins de": "1.4"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Égypte. Deuxième division",
-    "competition_en": "Egypt. Second Division",
-    "competition_id": 148597,
-    "equipe_1_en": "Haras El Hodoud",
-    "equipe_2_en": "El Sekka El Hadid",
-    "Double_Chance": {
-      "1X": "1.119",
-      "12": "1.3",
-      "2X": "1.74"
-    },
-    "BTTS": {
-      "Non": "1.551",
-      "Oui": "2.24"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.5",
+        "Plus de": "1.48",
         "Moins de": "2.36"
       },
-      "0.5": {
-        "Plus de": "1.065",
-        "Moins de": "6"
+      "3": {
+        "Plus de": "2.66",
+        "Moins de": "1.38"
       },
-      "1": {
-        "Plus de": "1.123",
-        "Moins de": "4.65"
-      },
-      "2": {
-        "Plus de": "1.9",
-        "Moins de": "1.727"
-      },
-      "2.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
+      "3.5": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
       }
     },
     "Handicap": {
-      "1 (0)": "1.285",
-      "2 (0)": "3.05",
-      "1 (-1)": "2.83",
-      "2 (+1)": "1.35",
+      "1 (0)": "1.526",
+      "2 (0)": "2.588",
+      "1 (-1)": "2.92",
+      "2 (-1)": "6.4",
+      "1 (+1)": "1.053",
+      "2 (+1)": "1.31",
       "1 (-1.5)": "3.7",
-      "2 (-1.5)": "10",
-      "1 (+1.5)": "1.01",
+      "2 (-1.5)": "7.3",
+      "1 (+1.5)": "1.033",
       "2 (+1.5)": "1.197"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Masar",
-    "equipe_2": "El Daklyeh",
+    "equipe_1": "Fluminense",
+    "equipe_2": "Coritiba",
     "1X2": {
-      "V1": "1.63",
-      "X": "3.24",
-      "V2": "5.35"
+      "V1": "1.486",
+      "X": "4.485",
+      "V2": "6.86"
     },
     "Total_2.5": {
-      "Plus de": "2.18",
-      "Moins de": "1.58"
+      "Plus de": "1.757",
+      "Moins de": "2.116"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Égypte. Deuxième division",
-    "competition_en": "Egypt. Second Division",
-    "competition_id": 148597,
-    "equipe_1_en": "Masar",
-    "equipe_2_en": "El Daklyeh",
+    "debut": "2026-10-09T00:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Fluminense",
+    "equipe_2_en": "Coritiba",
     "Double_Chance": {
-      "1X": "1.077",
-      "12": "1.24",
-      "2X": "2"
+      "1X": "1.109",
+      "12": "1.213",
+      "2X": "2.674"
     },
     "BTTS": {
-      "Non": "1.634",
-      "Oui": "2.09"
+      "Oui": "1.85",
+      "Non": "1.854"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.58",
-        "Plus de": "2.18"
+        "Plus de": "1.757",
+        "Moins de": "2.116"
       },
       "1.5": {
-        "Plus de": "1.36",
-        "Moins de": "2.7"
+        "Plus de": "1.189",
+        "Moins de": "3.78"
       },
       "2": {
-        "Plus de": "1.63",
-        "Moins de": "2.03"
+        "Plus de": "1.3",
+        "Moins de": "3.02"
       },
       "3": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
+        "Plus de": "2.12",
+        "Moins de": "1.59"
       },
       "3.5": {
-        "Plus de": "3.95",
-        "Moins de": "1.173"
+        "Plus de": "2.625",
+        "Moins de": "1.38"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.32",
-      "1 (-1.5)": "2.875",
-      "1 (0)": "1.191",
-      "2 (0)": "3.76",
-      "1 (-1)": "2.21",
-      "2 (+1)": "1.56",
-      "1 (-2)": "5.1",
-      "2 (+2)": "1.1",
-      "1 (-2.5)": "5.95",
-      "2 (+2.5)": "1.067"
+      "2 (+1.5)": "1.653",
+      "1 (-1.5)": "2.289",
+      "1 (0)": "1.116",
+      "2 (0)": "4.8",
+      "1 (-1)": "1.71",
+      "2 (+1)": "2.04",
+      "1 (-2)": "3.14",
+      "2 (+2)": "1.27",
+      "1 (-2.5)": "3.85",
+      "2 (+2.5)": "1.182"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Tersana",
-    "equipe_2": "Kahrbaa Alasmalia",
+    "equipe_1": "Sociedade Esportiva Palmeiras",
+    "equipe_2": "Bahia",
     "1X2": {
-      "X": "2.6",
-      "V1": "2.66",
-      "V2": "2.77"
+      "V1": "1.6",
+      "X": "4.335",
+      "V2": "5.36"
     },
     "Total_2.5": {
-      "Plus de": "2.7",
-      "Moins de": "1.36"
+      "Plus de": "1.643",
+      "Moins de": "2.31"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T12:30:00+00:00",
-    "competition": "Égypte. Deuxième division",
-    "competition_en": "Egypt. Second Division",
-    "competition_id": 148597,
-    "equipe_1_en": "Tersana",
-    "equipe_2_en": "Kahrbaa Alasmalia",
+    "debut": "2026-10-09T00:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Sociedade Esportiva Palmeiras",
+    "equipe_2_en": "Bahia",
     "Double_Chance": {
-      "1X": "1.32",
-      "2X": "1.35",
-      "12": "1.36"
+      "1X": "1.162",
+      "12": "1.225",
+      "2X": "2.368"
     },
     "BTTS": {
-      "Non": "1.602",
-      "Oui": "2.15"
+      "Oui": "1.65",
+      "Non": "2.11"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.643",
+        "Moins de": "2.31"
+      },
+      "1.5": {
+        "Plus de": "1.149",
+        "Moins de": "4.25"
+      },
+      "2": {
+        "Plus de": "1.24",
+        "Moins de": "3.4"
+      },
+      "3": {
+        "Plus de": "1.909",
+        "Moins de": "1.74"
+      },
+      "3.5": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.558",
+      "1 (-1.5)": "2.501",
+      "1 (0)": "1.186",
+      "2 (0)": "3.82",
+      "1 (-1)": "1.9",
+      "2 (+1)": "1.83",
+      "1 (-2)": "3.58",
+      "2 (+2)": "1.21",
+      "1 (-2.5)": "4.3",
+      "2 (+2.5)": "1.148"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Foolad Khuzestan",
+    "equipe_2": "Mes Shahr-e Babak",
+    "1X2": {
+      "V1": "1.64",
+      "X": "3.47",
+      "V2": "4.75"
+    },
+    "Total_2.5": {
+      "Plus de": "2.21",
+      "Moins de": "1.56"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:30:00+00:00",
+    "competition": "Championnat d'Iran. Ligue Pro",
+    "competition_en": "Iran. Pro League",
+    "competition_id": 32887,
+    "equipe_1_en": "Foolad Khuzestan",
+    "equipe_2_en": "Mes Shahr-e Babak",
+    "Double_Chance": {
+      "1X": "1.1",
+      "12": "1.2",
+      "2X": "1.98"
+    },
+    "BTTS": {
+      "Non": "1.61",
+      "Oui": "2.11"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.21"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.84"
+      },
+      "2": {
+        "Plus de": "1.62",
+        "Moins de": "2.1"
+      },
+      "3": {
+        "Plus de": "3.48",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.29",
+      "1 (-1.5)": "3.15",
+      "1 (0)": "1.24",
+      "2 (0)": "3.52",
+      "1 (-1)": "2.34",
+      "2 (+1)": "1.5"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "ES Bingerville",
+    "equipe_2": "Deuxplateaux",
+    "1X2": {
+      "V1": "2.14",
+      "X": "2.83",
+      "V2": "3.465"
+    },
+    "Total_2.5": {
+      "Plus de": "2.66",
+      "Moins de": "1.37"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:30:00+00:00",
+    "competition": "Championnat de Côte d'Ivoire. Deuxième Ligue",
+    "competition_en": "Ivory Coast. League 2",
+    "competition_id": 2365172,
+    "equipe_1_en": "ES Bingerville",
+    "equipe_2_en": "Deuxplateaux",
+    "Double_Chance": {
+      "1X": "1.22",
+      "12": "1.31",
+      "2X": "1.54"
+    },
+    "BTTS": {
+      "Non": "1.562",
+      "Oui": "2.22"
     },
     "Totals": {
       "1.5": {
-        "Plus de": "1.54",
-        "Moins de": "2.27"
+        "Plus de": "1.55",
+        "Moins de": "2.24"
       },
       "0.5": {
-        "Plus de": "1.084",
-        "Moins de": "5.45"
+        "Plus de": "1.072",
+        "Moins de": "5.8"
       },
       "1": {
-        "Plus de": "1.15",
-        "Moins de": "4.25"
+        "Plus de": "1.135",
+        "Moins de": "4.45"
       },
       "2": {
         "Plus de": "1.99",
         "Moins de": "1.66"
       },
       "2.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
+        "Plus de": "2.66",
+        "Moins de": "1.37"
       }
     },
     "Handicap": {
-      "1 (0)": "1.81",
-      "2 (0)": "1.85",
-      "1 (-1)": "5.25",
-      "2 (-1)": "5.45",
-      "1 (+1)": "1.084",
-      "2 (+1)": "1.093",
-      "1 (-1.5)": "6.4",
-      "2 (-1.5)": "6.65",
-      "1 (+1.5)": "1.047",
-      "2 (+1.5)": "1.053"
+      "1 (0)": "1.49",
+      "2 (0)": "2.36",
+      "1 (-1)": "3.58",
+      "2 (-1)": "7.4",
+      "1 (+1)": "1.031",
+      "2 (+1)": "1.21",
+      "1 (-1.5)": "4.65",
+      "2 (-1.5)": "8.5",
+      "1 (+1.5)": "1.012",
+      "2 (+1.5)": "1.125"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Mohun Bagan Super Giant",
-    "equipe_2": "East Bengal",
+    "equipe_1": "Al Nasr Dubai",
+    "equipe_2": "Hatta Club",
     "1X2": {
-      "V2": "1.9",
-      "X": "3.3",
-      "V1": "3.575"
+      "V1": "1.179",
+      "X": "5.9",
+      "V2": "10.9"
     },
     "Total_2.5": {
-      "Plus de": "1.96",
-      "Moins de": "1.72"
+      "Plus de": "1.4",
+      "Moins de": "2.56"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T12:45:00+00:00",
-    "competition": "India. IFA Shield Tournament",
-    "competition_en": "India. IFA Shield Tournament",
-    "competition_id": 2914331,
-    "equipe_1_en": "Mohun Bagan Super Giant",
-    "equipe_2_en": "East Bengal",
+    "debut": "2026-10-08T15:45:00+00:00",
+    "competition": "Coupe des Émirats arabes unis",
+    "competition_en": "UAE Cup",
+    "competition_id": 110117,
+    "equipe_1_en": "Al Nasr Dubai",
+    "equipe_2_en": "Hatta Club",
     "Double_Chance": {
-      "2X": "1.2",
-      "12": "1.222",
-      "1X": "1.7"
+      "1X": "1.031",
+      "12": "1.051",
+      "2X": "3.76"
     },
     "BTTS": {
-      "Oui": "1.79",
-      "Non": "1.881"
+      "Non": "1.799",
+      "Oui": "1.87"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.65",
+        "Plus de": "2.06"
+      },
+      "2.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.56"
+      },
+      "3": {
+        "Plus de": "1.63",
+        "Moins de": "2.03"
+      },
+      "4": {
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      },
+      "4.5": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.615",
+      "2 (+1.5)": "2.11",
+      "1 (0)": "1.033",
+      "2 (0)": "8",
+      "1 (-1)": "1.27",
+      "2 (+1)": "3.14",
+      "1 (-2)": "1.98",
+      "2 (+2)": "1.67",
+      "1 (-2.5)": "2.43",
+      "2 (+2.5)": "1.44"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Khor Fakkan",
+    "equipe_2": "Al Wasl",
+    "1X2": {
+      "V2": "1.34",
+      "X": "4.6",
+      "V1": "6.89"
+    },
+    "Total_2.5": {
+      "Plus de": "1.41",
+      "Moins de": "2.52"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:45:00+00:00",
+    "competition": "Coupe des Émirats arabes unis",
+    "competition_en": "UAE Cup",
+    "competition_id": 110117,
+    "equipe_1_en": "Khor Fakkan",
+    "equipe_2_en": "Al Wasl",
+    "Double_Chance": {
+      "2X": "1.033",
+      "12": "1.106",
+      "1X": "2.71"
+    },
+    "BTTS": {
+      "Oui": "1.61",
+      "Non": "2.13"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.62",
+        "Plus de": "2.11"
+      },
+      "2.5": {
+        "Plus de": "1.41",
+        "Moins de": "2.52"
+      },
+      "3": {
+        "Plus de": "1.65",
+        "Moins de": "2"
+      },
+      "4": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      },
+      "4.5": {
+        "Plus de": "3.5",
+        "Moins de": "1.22"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.68",
+      "2 (-1.5)": "2",
+      "1 (0)": "5.3",
+      "2 (0)": "1.092",
+      "2 (-1)": "1.56",
+      "1 (+1)": "2.15",
+      "2 (-2)": "2.74",
+      "1 (+2)": "1.35",
+      "2 (-2.5)": "3.34",
+      "1 (+2.5)": "1.24"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Naft Maysan",
+    "equipe_2": "Erbil",
+    "1X2": {
+      "V2": "1.85",
+      "X": "3.15",
+      "V1": "3.99"
+    },
+    "Total_2.5": {
+      "Plus de": "2.12",
+      "Moins de": "1.615"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T15:45:00+00:00",
+    "competition": "Irak. Stars League",
+    "competition_en": "Iraq. Stars League",
+    "competition_id": 2903875,
+    "equipe_1_en": "Naft Maysan",
+    "equipe_2_en": "Erbil",
+    "Double_Chance": {
+      "2X": "1.158",
+      "12": "1.25",
+      "1X": "1.74"
+    },
+    "BTTS": {
+      "Non": "1.767",
+      "Oui": "1.909"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.72",
-        "Plus de": "1.96"
+        "Moins de": "1.615",
+        "Plus de": "2.12"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.74"
+      },
+      "2": {
+        "Plus de": "1.58",
+        "Moins de": "2.12"
+      },
+      "3": {
+        "Plus de": "3.05",
+        "Moins de": "1.285"
+      },
+      "3.5": {
+        "Plus de": "3.74",
+        "Moins de": "1.193"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.35",
+      "1 (0)": "2.83",
+      "1 (-1)": "7.8",
+      "2 (-1)": "2.625",
+      "1 (+1)": "1.38",
+      "2 (+1)": "1.024",
+      "1 (-1.5)": "8.7",
+      "2 (-1.5)": "3.34",
+      "1 (+1.5)": "1.24",
+      "2 (+1.5)": "1.01"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Kuopion Palloseura",
+    "equipe_2": "AC Oulu",
+    "1X2": {
+      "V1": "1.57",
+      "X": "3.92",
+      "V2": "5.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.94",
+      "Moins de": "1.8"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Championnat de Finlande. Veikkausliiga",
+    "competition_en": "Finland. Veikkausliiga",
+    "competition_id": 1554897,
+    "equipe_1_en": "Kuopion Palloseura",
+    "equipe_2_en": "AC Oulu",
+    "Double_Chance": {
+      "1X": "1.113",
+      "12": "1.222",
+      "2X": "2.33"
+    },
+    "BTTS": {
+      "Non": "1.74",
+      "Oui": "1.98"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.8",
+        "Plus de": "1.94"
       },
       "1.5": {
         "Plus de": "1.28",
         "Moins de": "3.08"
       },
       "2": {
-        "Plus de": "1.47",
-        "Moins de": "2.35"
+        "Plus de": "1.45",
+        "Moins de": "2.44"
       },
       "3": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
+        "Plus de": "2.625",
+        "Moins de": "1.39"
       },
       "3.5": {
-        "Plus de": "3.48",
-        "Moins de": "1.222"
+        "Plus de": "3.2",
+        "Moins de": "1.26"
       }
     },
     "Handicap": {
-      "2 (0)": "1.41",
-      "1 (0)": "2.6",
-      "1 (-1)": "7.4",
-      "2 (-1)": "2.83",
-      "1 (+1)": "1.33",
-      "2 (+1)": "1.031",
-      "1 (-1.5)": "8.6",
-      "2 (-1.5)": "3.68",
-      "1 (+1.5)": "1.2",
-      "2 (+1.5)": "1.011"
+      "2 (+1.5)": "1.42",
+      "1 (-1.5)": "2.5",
+      "1 (0)": "1.162",
+      "2 (0)": "4.1",
+      "1 (-1)": "1.95",
+      "2 (+1)": "1.78",
+      "1 (-2)": "4.05",
+      "2 (+2)": "1.164",
+      "1 (-2.5)": "4.8",
+      "2 (+2.5)": "1.114"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Mighty Polokwane",
-    "equipe_2": "Makotopong Bahumi",
+    "equipe_1": "AlHala",
+    "equipe_2": "Bouri",
     "1X2": {
-      "V2": "2.3",
-      "V1": "2.65",
-      "X": "3.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.571",
-      "Moins de": "2.15"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Championnat d'Afrique du Sud. Division 2",
-    "competition_en": "South Africa. 2nd Division",
-    "competition_id": 2076995,
-    "equipe_1_en": "Mighty Polokwane",
-    "equipe_2_en": "Makotopong Bahumi",
-    "Double_Chance": {
-      "12": "1.26",
-      "2X": "1.42",
-      "1X": "1.55"
-    },
-    "BTTS": {
-      "Oui": "1.5",
-      "Non": "2.51"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.571",
-        "Moins de": "2.15"
-      },
-      "1.5": {
-        "Plus de": "1.167",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.4"
-      },
-      "3": {
-        "Plus de": "1.98",
-        "Moins de": "1.74"
-      },
-      "3.5": {
-        "Plus de": "2.45",
-        "Moins de": "1.444"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.72",
-      "1 (0)": "2",
-      "1 (-1)": "4.1",
-      "2 (-1)": "3.3",
-      "1 (+1)": "1.27",
-      "2 (+1)": "1.18",
-      "1 (-1.5)": "4.9",
-      "2 (-1.5)": "4.1",
-      "1 (+1.5)": "1.19",
-      "2 (+1.5)": "1.13"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Hayy Al-Amir Hassan",
-    "equipe_2": "Al-Turrah",
-    "1X2": {
-      "V1": "1.72",
-      "X": "3.42",
-      "V2": "4.26"
+      "V1": "1.5",
+      "X": "3.84",
+      "V2": "5.5"
     },
     "Total_2.5": {
       "Plus de": "1.79",
       "Moins de": "1.88"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Coupe de Jordanie",
-    "competition_en": "Jordan Cup",
-    "competition_id": 112423,
-    "equipe_1_en": "Hayy Al-Amir Hassan",
-    "equipe_2_en": "Al-Turrah",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Bahreïn. Coupe du Roi",
+    "competition_en": "Bahrain. King's Cup",
+    "competition_id": 1648149,
+    "equipe_1_en": "Al Hala",
+    "equipe_2_en": "Bouri",
     "Double_Chance": {
-      "1X": "1.136",
-      "12": "1.21",
-      "2X": "1.88"
+      "1X": "1.074",
+      "12": "1.162",
+      "2X": "2.23"
     },
     "BTTS": {
-      "Oui": "1.71",
-      "Non": "1.983"
+      "Oui": "1.83",
+      "Non": "1.84"
     },
     "Totals": {
       "2.5": {
@@ -2004,8 +1534,8 @@
         "Moins de": "3.5"
       },
       "2": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
+        "Plus de": "1.36",
+        "Moins de": "2.7"
       },
       "3": {
         "Plus de": "2.35",
@@ -2017,308 +1547,48 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.29",
-      "1 (-1.5)": "3.04",
-      "1 (0)": "1.28",
-      "2 (0)": "3.08",
-      "1 (-1)": "2.36",
-      "2 (+1)": "1.49",
-      "1 (-2)": "5.4",
-      "2 (+2)": "1.086",
-      "1 (-2.5)": "6.25",
-      "2 (+2.5)": "1.057"
+      "2 (+1.5)": "1.43",
+      "1 (-1.5)": "2.46",
+      "1 (0)": "1.163",
+      "2 (0)": "4.1",
+      "1 (-1)": "1.89",
+      "2 (+1)": "1.77",
+      "1 (-2)": "4",
+      "2 (+2)": "1.169",
+      "1 (-2.5)": "4.8",
+      "2 (+2.5)": "1.116"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Sama Al Sarhan",
-    "equipe_2": "Ittihad Al-Ramtha",
+    "equipe_1": "Umm Al Hassam",
+    "equipe_2": "Isa Town",
     "1X2": {
-      "V1": "2.23",
-      "V2": "2.959",
-      "X": "3.1"
-    },
-    "Total_2.5": {
-      "Plus de": "2.15",
-      "Moins de": "1.6"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Coupe de Jordanie",
-    "competition_en": "Jordan Cup",
-    "competition_id": 112423,
-    "equipe_1_en": "Sama Al Sarhan",
-    "equipe_2_en": "Ittihad Al-Ramtha",
-    "Double_Chance": {
-      "12": "1.26",
-      "1X": "1.3",
-      "2X": "1.5"
-    },
-    "BTTS": {
-      "Non": "1.809",
-      "Oui": "1.86"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.15"
-      },
-      "1.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "2": {
-        "Plus de": "1.6",
-        "Moins de": "2.08"
-      },
-      "3": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
-      },
-      "3.5": {
-        "Plus de": "3.96",
-        "Moins de": "1.172"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.62",
-      "2 (0)": "2.1",
-      "1 (-1)": "3.7",
-      "2 (-1)": "5.5",
-      "1 (+1)": "1.082",
-      "2 (+1)": "1.197",
-      "1 (-1.5)": "4.65",
-      "2 (-1.5)": "6.55",
-      "1 (+1.5)": "1.049",
-      "2 (+1.5)": "1.123"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Ouganda (Femmes)",
-    "equipe_2": "Zambia (Femmes)",
-    "1X2": {
-      "V2": "1.38",
-      "X": "4.15",
-      "V1": "6.97"
-    },
-    "Total_2.5": {
-      "Plus de": "1.8",
-      "Moins de": "1.87"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Jeux olympiques. Femmes",
-    "competition_en": "Olympics. Women",
-    "competition_id": 77263,
-    "equipe_1_en": "Uganda (Women)",
-    "equipe_2_en": "Zambia (Women)",
-    "Double_Chance": {
-      "2X": "1.031",
-      "12": "1.136",
-      "1X": "2.56"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.8",
-        "Moins de": "1.87"
-      },
-      "1.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "2": {
-        "Plus de": "1.37",
-        "Moins de": "2.66"
-      },
-      "3": {
-        "Plus de": "2.35",
-        "Moins de": "1.47"
-      },
-      "3.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.56",
-      "2 (-1.5)": "2.15",
-      "1 (0)": "5.1",
-      "2 (0)": "1.1",
-      "2 (-1)": "1.66",
-      "1 (+1)": "2.03",
-      "2 (-2)": "3.2",
-      "1 (+2)": "1.26",
-      "2 (-2.5)": "3.92",
-      "1 (+2.5)": "1.175"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Aral",
-    "equipe_2": "Terdu",
-    "1X2": {
-      "V1": "1.05",
-      "X": "11",
-      "V2": "29"
-    },
-    "Total_2.5": {
-      "Plus de": "1.24",
-      "Moins de": "3.34"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Ouzbékistan. Ligue Pro",
-    "competition_en": "Uzbekistan. Pro League",
-    "competition_id": 1922243,
-    "equipe_1_en": "Aral",
-    "equipe_2_en": "Terdu",
-    "Double_Chance": {
-      "1X": "1.001",
-      "12": "1.01",
-      "2X": "7.8"
-    },
-    "BTTS": {
-      "Non": "1.346",
-      "Oui": "2.875"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.05"
-      },
-      "2.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "3": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "4": {
-        "Plus de": "1.96",
-        "Moins de": "1.68"
-      },
-      "4.5": {
-        "Plus de": "2.375",
-        "Moins de": "1.46"
-      }
-    },
-    "Handicap": {
-      "2 (+3.5)": "1.58",
-      "1 (-3.5)": "2.12",
-      "1 (-2.5)": "1.5",
-      "2 (+2.5)": "2.28",
-      "1 (-3)": "1.77",
-      "2 (+3)": "1.89",
-      "1 (-4)": "2.83",
-      "2 (+4)": "1.33",
-      "1 (-4.5)": "3.34",
-      "2 (+4.5)": "1.24"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Gazalkent",
-    "equipe_2": "Pakhtakor Tashkent II",
-    "1X2": {
-      "V1": "1.149",
-      "X": "6.05",
-      "V2": "11.7"
-    },
-    "Total_2.5": {
-      "Plus de": "1.34",
-      "Moins de": "2.78"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:00:00+00:00",
-    "competition": "Ouzbékistan. Ligue Pro",
-    "competition_en": "Uzbekistan. Pro League",
-    "competition_id": 1922243,
-    "equipe_1_en": "Gazalkent",
-    "equipe_2_en": "Pakhtakor Tashkent II",
-    "Double_Chance": {
-      "1X": "1.003",
-      "12": "1.046",
-      "2X": "4"
-    },
-    "BTTS": {
-      "Oui": "1.82",
-      "Non": "1.85"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.77",
-        "Plus de": "1.9"
-      },
-      "2.5": {
-        "Plus de": "1.34",
-        "Moins de": "2.78"
-      },
-      "3": {
-        "Plus de": "1.52",
-        "Moins de": "2.24"
-      },
-      "4": {
-        "Plus de": "2.46",
-        "Moins de": "1.43"
-      },
-      "4.5": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.54",
-      "2 (+1.5)": "2.19",
-      "1 (0)": "1.004",
-      "2 (0)": "9.1",
-      "1 (-1)": "1.24",
-      "2 (+1)": "3.34",
-      "1 (-2)": "1.87",
-      "2 (+2)": "1.79",
-      "1 (-2.5)": "2.3",
-      "2 (+2.5)": "1.49"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Nizwa",
-    "equipe_2": "Al-Wehda Sur",
-    "1X2": {
-      "V2": "2.35",
-      "V1": "2.836",
-      "X": "3.02"
+      "V1": "2.19",
+      "X": "2.99",
+      "V2": "3.145"
     },
     "Total_2.5": {
       "Plus de": "2.18",
       "Moins de": "1.58"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T13:10:00+00:00",
-    "competition": "Championnat d'Oman. Première division",
-    "competition_en": "Oman. Division 1",
-    "competition_id": 2336812,
-    "equipe_1_en": "Nizwa",
-    "equipe_2_en": "Al-Wehda Sur",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Bahreïn. Coupe du Roi",
+    "competition_en": "Bahrain. King's Cup",
+    "competition_id": 1648149,
+    "equipe_1_en": "Umm Al Hassam",
+    "equipe_2_en": "Isa Town",
     "Double_Chance": {
-      "12": "1.27",
-      "2X": "1.32",
-      "1X": "1.45"
+      "1X": "1.26",
+      "12": "1.28",
+      "2X": "1.52"
     },
     "BTTS": {
-      "Non": "1.799",
-      "Oui": "1.87"
+      "Non": "1.789",
+      "Oui": "1.88"
     },
     "Totals": {
       "2.5": {
@@ -2338,417 +1608,215 @@
         "Moins de": "1.26"
       },
       "3.5": {
-        "Plus de": "3.94",
-        "Moins de": "1.174"
+        "Plus de": "3.9",
+        "Moins de": "1.177"
       }
     },
     "Handicap": {
-      "2 (0)": "1.69",
-      "1 (0)": "1.99",
-      "1 (-1)": "5",
-      "2 (-1)": "3.9",
-      "1 (+1)": "1.178",
-      "2 (+1)": "1.104",
-      "1 (-1.5)": "5.95",
-      "2 (-1.5)": "4.8",
-      "1 (+1.5)": "1.114",
-      "2 (+1.5)": "1.067"
+      "1 (0)": "1.57",
+      "2 (0)": "2.19",
+      "1 (-1)": "3.42",
+      "2 (-1)": "5.75",
+      "1 (+1)": "1.073",
+      "2 (+1)": "1.23",
+      "1 (-1.5)": "4.33",
+      "2 (-1.5)": "6.7",
+      "1 (+1.5)": "1.046",
+      "2 (+1.5)": "1.143"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Al Ain",
-    "equipe_2": "Al Ittihad Kalba",
+    "equipe_1": "Hapoël Marmorek",
+    "equipe_2": "Maccabi Ashdod",
     "1X2": {
-      "V1": "1.65",
-      "X": "3.72",
-      "V2": "4.295"
+      "V1": "2.25",
+      "V2": "2.886",
+      "X": "3.14"
     },
     "Total_2.5": {
-      "Plus de": "1.47",
-      "Moins de": "2.35"
+      "Plus de": "2.01",
+      "Moins de": "1.69"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T13:10:00+00:00",
-    "competition": "Coupe des Émirats arabes unis",
-    "competition_en": "UAE Cup",
-    "competition_id": 110117,
-    "equipe_1_en": "Al Ain",
-    "equipe_2_en": "Al Ittihad Kalba",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Championnat d'Israël. League Alef. Sud",
+    "competition_en": "Israel. Liga Alef. South",
+    "competition_id": 21481,
+    "equipe_1_en": "Hapoel Marmorek",
+    "equipe_2_en": "Maccabi Ashdod",
     "Double_Chance": {
-      "1X": "1.132",
-      "12": "1.173",
-      "2X": "1.97"
+      "12": "1.25",
+      "1X": "1.31",
+      "2X": "1.49"
     },
     "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.389"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.57",
-        "Plus de": "2.2"
-      },
-      "2.5": {
-        "Plus de": "1.47",
-        "Moins de": "2.35"
-      },
-      "3": {
-        "Plus de": "1.74",
-        "Moins de": "1.89"
-      },
-      "4": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
-      },
-      "4.5": {
-        "Plus de": "3.68",
-        "Moins de": "1.2"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.38",
-      "1 (-1.5)": "2.625",
-      "1 (0)": "1.27",
-      "2 (0)": "3.14",
-      "1 (-1)": "2.11",
-      "2 (+1)": "1.615",
-      "1 (-2)": "4.15",
-      "2 (+2)": "1.156",
-      "1 (-2.5)": "4.85",
-      "2 (+2.5)": "1.112"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Shabab Al-Ahli Dubai",
-    "equipe_2": "United FC",
-    "1X2": {
-      "V1": "1.198",
-      "X": "5.6",
-      "V2": "10.4"
-    },
-    "Total_2.5": {
-      "Plus de": "1.29",
-      "Moins de": "3.04"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:10:00+00:00",
-    "competition": "Coupe des Émirats arabes unis",
-    "competition_en": "UAE Cup",
-    "competition_id": 110117,
-    "equipe_1_en": "Shabab Al-Ahli Dubai",
-    "equipe_2_en": "United FC",
-    "Double_Chance": {
-      "1X": "1.01",
-      "12": "1.061",
-      "2X": "3.58"
-    },
-    "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.078"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.81",
-        "Moins de": "1.86"
-      },
-      "2.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "3": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
-      },
-      "4": {
-        "Plus de": "2.26",
-        "Moins de": "1.51"
-      },
-      "4.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.64",
-      "2 (+1.5)": "2.06",
-      "1 (0)": "1.019",
-      "2 (0)": "8.1",
-      "1 (-1)": "1.3",
-      "2 (+1)": "2.97",
-      "1 (-2)": "1.99",
-      "2 (+2)": "1.66",
-      "1 (-2.5)": "2.46",
-      "2 (+2.5)": "1.43"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Gol Gohar",
-    "equipe_2": "Esteghlal Khuzestan",
-    "1X2": {
-      "V1": "1.929",
-      "X": "2.9",
-      "V2": "4.115"
-    },
-    "Total_2.5": {
-      "Plus de": "2.625",
-      "Moins de": "1.38"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:15:00+00:00",
-    "competition": "Championnat d'Iran. Ligue Pro",
-    "competition_en": "Iran. Pro League",
-    "competition_id": 32887,
-    "equipe_1_en": "Gol Gohar",
-    "equipe_2_en": "Esteghlal Khuzestan",
-    "Double_Chance": {
-      "1X": "1.153",
-      "12": "1.3",
-      "2X": "1.69"
-    },
-    "BTTS": {
-      "Non": "1.548",
-      "Oui": "2.28"
-    },
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.53",
-        "Moins de": "2.29"
-      },
-      "0.5": {
-        "Plus de": "1.071",
-        "Moins de": "5.8"
-      },
-      "1": {
-        "Plus de": "1.131",
-        "Moins de": "4.55"
-      },
-      "2": {
-        "Plus de": "1.96",
-        "Moins de": "1.68"
-      },
-      "2.5": {
-        "Plus de": "2.625",
-        "Moins de": "1.38"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.35",
-      "2 (0)": "2.83",
-      "1 (-1)": "2.97",
-      "2 (-1)": "9.2",
-      "1 (+1)": "1.003",
-      "2 (+1)": "1.3",
-      "1 (-1.5)": "3.9",
-      "2 (-1.5)": "9.1",
-      "1 (+1.5)": "1.02",
-      "2 (+1.5)": "1.177"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Tractor",
-    "equipe_2": "Esteghlal",
-    "1X2": {
-      "V1": "2.41",
-      "V2": "2.862",
-      "X": "2.93"
-    },
-    "Total_2.5": {
-      "Plus de": "2.41",
-      "Moins de": "1.48"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T13:30:00+00:00",
-    "competition": "Championnat d'Iran. Ligue Pro",
-    "competition_en": "Iran. Pro League",
-    "competition_id": 32887,
-    "equipe_1_en": "Tractor Tabriz",
-    "equipe_2_en": "Esteghlal",
-    "Double_Chance": {
-      "12": "1.29",
-      "1X": "1.32",
-      "2X": "1.43"
-    },
-    "BTTS": {
-      "Non": "1.702",
-      "Oui": "2.01"
+      "Oui": "1.77",
+      "Non": "1.902"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.48",
-        "Plus de": "2.41"
+        "Moins de": "1.69",
+        "Plus de": "2.01"
       },
       "1.5": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
+        "Plus de": "1.285",
+        "Moins de": "3.05"
       },
       "2": {
-        "Plus de": "1.79",
-        "Moins de": "1.83"
+        "Plus de": "1.49",
+        "Moins de": "2.3"
       },
       "3": {
-        "Plus de": "3.76",
-        "Moins de": "1.191"
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       },
       "3.5": {
-        "Plus de": "4.5",
-        "Moins de": "1.132"
+        "Plus de": "3.58",
+        "Moins de": "1.21"
       }
     },
     "Handicap": {
-      "1 (0)": "1.71",
-      "2 (0)": "1.96",
-      "1 (-1)": "4.15",
-      "2 (-1)": "5.2",
-      "1 (+1)": "1.096",
-      "2 (+1)": "1.157",
-      "1 (-1.5)": "5.1",
-      "2 (-1.5)": "6.15",
-      "1 (+1.5)": "1.06",
-      "2 (+1.5)": "1.1"
+      "1 (0)": "1.64",
+      "2 (0)": "2.06",
+      "1 (-1)": "3.74",
+      "2 (-1)": "5.35",
+      "1 (+1)": "1.088",
+      "2 (+1)": "1.193",
+      "1 (-1.5)": "4.7",
+      "2 (-1.5)": "6.5",
+      "1 (+1.5)": "1.051",
+      "2 (+1.5)": "1.12"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Denizli Idman Yurdu",
-    "equipe_2": "Serikspor",
+    "equipe_1": "Bénin (Femmes)",
+    "equipe_2": "Mali (femmes)",
     "1X2": {
-      "V2": "1.3",
-      "X": "5.15",
-      "V1": "8.65"
+      "V2": "2.02",
+      "X": "3.25",
+      "V1": "3.265"
     },
     "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.25"
+      "Plus de": "1.92",
+      "Moins de": "1.76"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T14:00:00+00:00",
-    "competition": "Coupe de Turquie",
-    "competition_en": "Turkish Cup",
-    "competition_id": 109839,
-    "equipe_1_en": "Denizli Idman Yurdu",
-    "equipe_2_en": "Serikspor",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Jeux olympiques. Femmes",
+    "competition_en": "Olympics. Women",
+    "competition_id": 77263,
+    "equipe_1_en": "Benin (Women)",
+    "equipe_2_en": "Mali (Women)",
     "Double_Chance": {
-      "2X": "1.032",
-      "12": "1.122",
-      "1X": "3.24"
-    },
-    "BTTS": {
-      "Non": "1.803",
-      "Oui": "1.9"
+      "12": "1.23",
+      "2X": "1.24",
+      "1X": "1.61"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.25"
+        "Moins de": "1.76",
+        "Plus de": "1.92"
       },
       "1.5": {
-        "Plus de": "1.143",
-        "Moins de": "4.33"
-      },
-      "2": {
-        "Plus de": "1.23",
-        "Moins de": "3.44"
-      },
-      "3": {
-        "Plus de": "1.92",
-        "Moins de": "1.72"
-      },
-      "3.5": {
-        "Plus de": "2.42",
-        "Moins de": "1.444"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.81",
-      "2 (-1.5)": "1.909",
-      "1 (0)": "6.5",
-      "2 (0)": "1.051",
-      "2 (-1)": "1.43",
-      "1 (+1)": "2.46",
-      "2 (-2)": "2.52",
-      "1 (+2)": "1.41",
-      "2 (-2.5)": "3.14",
-      "1 (+2.5)": "1.27"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "HJK",
-    "equipe_2": "Vaasan Palloseura",
-    "1X2": {
-      "V1": "1.54",
-      "X": "4.25",
-      "V2": "5.4"
-    },
-    "Total_2.5": {
-      "Plus de": "1.666",
-      "Moins de": "2.13"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
-    "statut": "ok",
-    "debut": "2026-10-08T15:00:00+00:00",
-    "competition": "Championnat de Finlande. Veikkausliiga",
-    "competition_en": "Finland. Veikkausliiga",
-    "competition_id": 1554897,
-    "equipe_1_en": "HJK",
-    "equipe_2_en": "Vaasan Palloseura",
-    "Double_Chance": {
-      "1X": "1.121",
-      "12": "1.192",
-      "2X": "2.41"
-    },
-    "BTTS": {
-      "Oui": "1.727",
-      "Non": "1.997"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.666",
-        "Moins de": "2.13"
-      },
-      "1.5": {
-        "Plus de": "1.16",
-        "Moins de": "4.1"
-      },
-      "2": {
-        "Plus de": "1.27",
+        "Plus de": "1.26",
         "Moins de": "3.2"
       },
+      "2": {
+        "Plus de": "1.44",
+        "Moins de": "2.43"
+      },
       "3": {
-        "Plus de": "2.06",
-        "Moins de": "1.63"
+        "Plus de": "2.66",
+        "Moins de": "1.37"
       },
       "3.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
+        "Plus de": "3.34",
+        "Moins de": "1.24"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.46",
-      "1 (-1.5)": "2.39",
-      "1 (0)": "1.157",
-      "2 (0)": "4.15",
-      "1 (-1)": "1.88",
-      "2 (+1)": "1.85",
-      "1 (-2)": "3.78",
-      "2 (+2)": "1.189",
-      "1 (-2.5)": "4.6",
-      "2 (+2.5)": "1.128"
+      "2 (0)": "1.49",
+      "1 (0)": "2.36",
+      "1 (-1)": "6.4",
+      "2 (-1)": "3.08",
+      "1 (+1)": "1.28",
+      "2 (+1)": "1.054",
+      "1 (-1.5)": "7.5",
+      "2 (-1.5)": "3.98",
+      "1 (+1.5)": "1.17",
+      "2 (+1.5)": "1.028"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "UTS Rabat",
+    "equipe_2": "Renaissance Sportive de Berkane",
+    "1X2": {
+      "V2": "2.11",
+      "X": "2.8",
+      "V1": "3.64"
+    },
+    "Total_2.5": {
+      "Plus de": "2.375",
+      "Moins de": "1.46"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Maroc. Botola",
+    "competition_en": "Morocco. Botola",
+    "competition_id": 31429,
+    "equipe_1_en": "UTS Rabat",
+    "equipe_2_en": "Renaissance Sportive de Berkane",
+    "Double_Chance": {
+      "2X": "1.198",
+      "12": "1.32",
+      "1X": "1.57"
+    },
+    "BTTS": {
+      "Non": "1.672",
+      "Oui": "2.05"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.46",
+        "Plus de": "2.375"
+      },
+      "1.5": {
+        "Plus de": "1.46",
+        "Moins de": "2.46"
+      },
+      "2": {
+        "Plus de": "1.8",
+        "Moins de": "1.82"
+      },
+      "3": {
+        "Plus de": "3.72",
+        "Moins de": "1.195"
+      },
+      "3.5": {
+        "Plus de": "4.45",
+        "Moins de": "1.137"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.46",
+      "1 (0)": "2.44",
+      "1 (-1)": "7.1",
+      "2 (-1)": "3.28",
+      "1 (+1)": "1.25",
+      "2 (+1)": "1.038",
+      "1 (-1.5)": "8",
+      "2 (-1.5)": "4.15",
+      "1 (+1.5)": "1.158",
+      "2 (+1.5)": "1.02"
     }
   },
   {
@@ -2756,131 +1824,915 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.307",
-      "V2": "6.5",
-      "X": "7.12"
+      "V1": "1.671",
+      "V2": "3.08",
+      "X": "6.68"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
-    "debut": "2026-10-08T15:00:00+00:00",
-    "competition": "Championnat de Finlande. Veikkausliiga",
-    "competition_en": "Finland. Veikkausliiga",
-    "competition_id": 1554897,
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Maroc. Botola",
+    "competition_en": "Morocco. Botola",
+    "competition_id": 31429,
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.078",
-      "1X": "1.09",
-      "2X": "3.85"
-    },
-    "BTTS": {
-      "Oui": "1.199",
-      "Non": "4.57"
+      "12": "1.087",
+      "1X": "1.331",
+      "2X": "2.303"
     },
     "Totals": {
-      "5.5": {
-        "Moins de": "1.89",
-        "Plus de": "1.91"
-      },
-      "3.5": {
-        "Plus de": "1.194",
-        "Moins de": "4.645"
-      },
-      "4.5": {
-        "Plus de": "1.468",
-        "Moins de": "2.693"
+      "8.5": {
+        "Plus de": "1.809",
+        "Moins de": "2"
       },
       "6.5": {
-        "Plus de": "2.667",
-        "Moins de": "1.476"
+        "Plus de": "1.246",
+        "Moins de": "4"
       },
       "7.5": {
-        "Plus de": "4.13",
-        "Moins de": "1.234"
+        "Plus de": "1.473",
+        "Moins de": "2.674"
+      },
+      "9.5": {
+        "Plus de": "2.308",
+        "Moins de": "1.615"
+      },
+      "10.5": {
+        "Plus de": "3.15",
+        "Moins de": "1.36"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.681",
-      "1 (-2.5)": "2.184",
-      "1 (-1.5)": "1.63",
-      "2 (+1.5)": "2.277",
-      "1 (-2)": "1.863",
-      "2 (+2)": "1.939",
-      "1 (-3)": "2.803",
-      "2 (+3)": "1.437",
-      "1 (-3.5)": "3.26",
-      "2 (+3.5)": "1.34"
+      "2 (+1.5)": "1.756",
+      "1 (-1.5)": "2.07",
+      "1 (-1)": "1.83",
+      "2 (-1)": "4.25",
+      "1 (+1)": "1.223",
+      "2 (+1)": "1.975",
+      "1 (-2)": "2.459",
+      "2 (+2)": "1.548",
+      "1 (-2.5)": "2.782",
+      "2 (+2.5)": "1.443"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Kuopion Palloseura",
-    "equipe_2": "AC Oulu",
+    "equipe_1": "Bokelj",
+    "equipe_2": "Petrovac",
     "1X2": {
-      "V1": "1.53",
-      "X": "4.05",
-      "V2": "5.88"
+      "V2": "2.6",
+      "X": "2.65",
+      "V1": "2.78"
     },
     "Total_2.5": {
-      "Plus de": "1.92",
-      "Moins de": "1.82"
+      "Plus de": "2.66",
+      "Moins de": "1.37"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T16:00:00+00:00",
-    "competition": "Championnat de Finlande. Veikkausliiga",
-    "competition_en": "Finland. Veikkausliiga",
-    "competition_id": 1554897,
-    "equipe_1_en": "Kuopion Palloseura",
-    "equipe_2_en": "AC Oulu",
+    "competition": "Monténégro. Prva Crnogorska League",
+    "competition_en": "Montenegro. First League",
+    "competition_id": 1223427,
+    "equipe_1_en": "Bokelj",
+    "equipe_2_en": "Petrovac",
     "Double_Chance": {
-      "1X": "1.102",
-      "12": "1.21",
-      "2X": "2.43"
+      "2X": "1.32",
+      "12": "1.35",
+      "1X": "1.36"
     },
     "BTTS": {
-      "Non": "1.731",
-      "Oui": "1.99"
+      "Non": "1.602",
+      "Oui": "2.15"
+    },
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.24"
+      },
+      "0.5": {
+        "Plus de": "1.085",
+        "Moins de": "5.45"
+      },
+      "1": {
+        "Plus de": "1.15",
+        "Moins de": "4.25"
+      },
+      "2": {
+        "Plus de": "1.99",
+        "Moins de": "1.66"
+      },
+      "2.5": {
+        "Plus de": "2.66",
+        "Moins de": "1.37"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.77",
+      "1 (0)": "1.89",
+      "1 (-1)": "5.4",
+      "2 (-1)": "4.85",
+      "1 (+1)": "1.112",
+      "2 (+1)": "1.086",
+      "1 (-1.5)": "6.5",
+      "2 (-1.5)": "5.9",
+      "1 (+1.5)": "1.068",
+      "2 (+1.5)": "1.051"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Mornar",
+    "equipe_2": "Jezero Plav",
+    "1X2": {
+      "V1": "1.47",
+      "X": "3.58",
+      "V2": "6.71"
+    },
+    "Total_2.5": {
+      "Plus de": "1.96",
+      "Moins de": "1.72"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:00:00+00:00",
+    "competition": "Monténégro. Prva Crnogorska League",
+    "competition_en": "Montenegro. First League",
+    "competition_id": 1223427,
+    "equipe_1_en": "Mornar",
+    "equipe_2_en": "Jezero Plav",
+    "Double_Chance": {
+      "1X": "1.038",
+      "12": "1.188",
+      "2X": "2.3"
+    },
+    "BTTS": {
+      "Non": "1.654",
+      "Oui": "2.06"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.82",
-        "Plus de": "1.92"
+        "Moins de": "1.72",
+        "Plus de": "1.96"
       },
       "1.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.14"
+        "Plus de": "1.29",
+        "Moins de": "3.04"
       },
       "2": {
-        "Plus de": "1.44",
-        "Moins de": "2.47"
+        "Plus de": "1.48",
+        "Moins de": "2.33"
       },
       "3": {
-        "Plus de": "2.59",
-        "Moins de": "1.4"
+        "Plus de": "2.7",
+        "Moins de": "1.36"
       },
       "3.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
+        "Plus de": "3.34",
+        "Moins de": "1.24"
       }
     },
     "Handicap": {
       "2 (+1.5)": "1.45",
       "1 (-1.5)": "2.41",
-      "1 (0)": "1.143",
-      "2 (0)": "4.33",
-      "1 (-1)": "1.88",
-      "2 (+1)": "1.85",
+      "1 (0)": "1.116",
+      "2 (0)": "4.8",
+      "1 (-1)": "1.833",
+      "2 (+1)": "1.82",
       "1 (-2)": "3.84",
       "2 (+2)": "1.184",
       "1 (-2.5)": "4.6",
-      "2 (+2.5)": "1.128"
+      "2 (+2.5)": "1.126"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Tommerup",
+    "equipe_2": "Glamsbjerg",
+    "1X2": {
+      "V1": "1.22",
+      "X": "5.72",
+      "V2": "8.85"
+    },
+    "Total_2.5": {
+      "Plus de": "1.35",
+      "Moins de": "2.82"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:15:00+00:00",
+    "competition": "Championnat du Danemark. Série 2",
+    "competition_en": "Denmark. Serie 2",
+    "competition_id": 3076577,
+    "equipe_1_en": "Tommerup",
+    "equipe_2_en": "Glamsbjerg",
+    "Double_Chance": {
+      "2X": "3.41"
+    },
+    "BTTS": {
+      "Oui": "1.67",
+      "Non": "2.03"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.69",
+        "Plus de": "1.99"
+      },
+      "2.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.82"
+      },
+      "3": {
+        "Plus de": "1.56",
+        "Moins de": "2.22"
+      },
+      "4": {
+        "Plus de": "2.74",
+        "Moins de": "1.37"
+      },
+      "4.5": {
+        "Plus de": "3.38",
+        "Moins de": "1.25"
+      }
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Alingsas IF (Femmes)",
+    "equipe_2": "Elfsborg (Femmes)",
+    "1X2": {
+      "V2": "1.37",
+      "X": "4.35",
+      "V1": "6.82"
+    },
+    "Total_2.5": {
+      "Plus de": "1.64",
+      "Moins de": "2.08"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Coupe de Suède. Femmes",
+    "competition_en": "Swedish Cup. Women",
+    "competition_id": 168709,
+    "equipe_1_en": "Alingsas IF (Women)",
+    "equipe_2_en": "Elfsborg (Women)",
+    "Double_Chance": {
+      "2X": "1.038",
+      "12": "1.127",
+      "1X": "2.62"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.64",
+        "Moins de": "2.08"
+      },
+      "1.5": {
+        "Plus de": "1.168",
+        "Moins de": "4"
+      },
+      "2": {
+        "Plus de": "1.27",
+        "Moins de": "3.14"
+      },
+      "3": {
+        "Plus de": "2.05",
+        "Moins de": "1.62"
+      },
+      "3.5": {
+        "Plus de": "2.59",
+        "Moins de": "1.39"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.59",
+      "2 (-1.5)": "2.1",
+      "1 (0)": "5.1",
+      "2 (0)": "1.1",
+      "2 (-1)": "1.63",
+      "1 (+1)": "2.08",
+      "2 (-2)": "3.08",
+      "1 (+2)": "1.28",
+      "2 (-2.5)": "3.8",
+      "1 (+2.5)": "1.188"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Flong-Hedehusene (Femmes)",
+    "equipe_2": "Ballerup-Skovlunde Fodbold (Femmes)",
+    "1X2": {
+      "V2": "1.95",
+      "V1": "2.638",
+      "X": "4.57"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Danemark. Série 1. Femmes",
+    "competition_en": "Denmark. Serie 1. Women",
+    "competition_id": 3087159,
+    "equipe_1_en": "Flong-Hedehusene (Women)",
+    "equipe_2_en": "Ballerup-Skovlunde Fodbold (Women)",
+    "Double_Chance": {
+      "12": "1.1",
+      "2X": "1.36",
+      "1X": "1.65"
+    },
+    "Totals": {
+      "4.5": {
+        "Moins de": "1.7",
+        "Plus de": "1.98"
+      },
+      "3.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.64"
+      },
+      "4": {
+        "Plus de": "1.6",
+        "Moins de": "2.13"
+      },
+      "5": {
+        "Plus de": "2.62",
+        "Moins de": "1.41"
+      },
+      "5.5": {
+        "Plus de": "3.16",
+        "Moins de": "1.29"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.6",
+      "1 (0)": "2.14",
+      "2 (-1)": "2.69",
+      "1 (+1)": "1.39"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Hapoel Migdal HaEmek",
+    "equipe_2": "Tzeirey Tamra",
+    "1X2": {
+      "V1": "1.34",
+      "X": "4.45",
+      "V2": "7.23"
+    },
+    "Total_2.5": {
+      "Plus de": "1.43",
+      "Moins de": "2.46"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Israël. Liga Alef. Nord",
+    "competition_en": "Israel. Liga Alef. North",
+    "competition_id": 887225,
+    "equipe_1_en": "Hapoel Migdal HaEmek",
+    "equipe_2_en": "Tzeirey Tamra",
+    "Double_Chance": {
+      "1X": "1.025",
+      "12": "1.115",
+      "2X": "2.71"
+    },
+    "BTTS": {
+      "Oui": "1.64",
+      "Non": "2.078"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.62",
+        "Plus de": "2.11"
+      },
+      "2.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.46"
+      },
+      "3": {
+        "Plus de": "1.67",
+        "Moins de": "1.98"
+      },
+      "4": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      },
+      "4.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.71",
+      "1 (-1.5)": "1.96",
+      "1 (0)": "1.084",
+      "2 (0)": "5.45",
+      "1 (-1)": "1.53",
+      "2 (+1)": "2.21",
+      "1 (-2)": "2.625",
+      "2 (+2)": "1.38",
+      "1 (-2.5)": "3.2",
+      "2 (+2.5)": "1.26"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Stordal",
+    "equipe_2": "Spjelkavik II",
+    "1X2": {
+      "V1": "1.04",
+      "X": "10",
+      "V2": "15"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Norvège. Division 4",
+    "competition_en": "Norway. Division 4",
+    "competition_id": 208075,
+    "equipe_1_en": "Stordal",
+    "equipe_2_en": "Spjelkavik II",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.001",
+      "2X": "6.03"
+    },
+    "BTTS": {
+      "Oui": "1.41",
+      "Non": "2.62"
+    },
+    "Totals": {
+      "4.5": {
+        "Plus de": "1.68",
+        "Moins de": "2.01"
+      },
+      "3.5": {
+        "Plus de": "1.26",
+        "Moins de": "3.31"
+      },
+      "4": {
+        "Plus de": "1.38",
+        "Moins de": "2.72"
+      },
+      "5": {
+        "Plus de": "2.05",
+        "Moins de": "1.66"
+      },
+      "5.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.45"
+      }
+    },
+    "Handicap": {
+      "1 (-2.5)": "1.74",
+      "2 (+2.5)": "1.93",
+      "1 (-2)": "1.42",
+      "2 (+2)": "2.56",
+      "1 (-3)": "2.16",
+      "2 (+3)": "1.59"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Aksla",
+    "equipe_2": "Hasundgot",
+    "1X2": {
+      "V2": "1.001",
+      "X": "10",
+      "V1": "17"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Norvège. Division 5",
+    "competition_en": "Norway. Division 5",
+    "competition_id": 3013766,
+    "equipe_1_en": "Aksla",
+    "equipe_2_en": "Hasundgot",
+    "Double_Chance": {
+      "12": "1.001",
+      "2X": "1.001",
+      "1X": "7.4"
+    },
+    "BTTS": {
+      "Oui": "1.47",
+      "Non": "2.42"
+    },
+    "Totals": {
+      "5.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.21"
+      },
+      "4.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.23"
+      },
+      "5": {
+        "Plus de": "1.82",
+        "Moins de": "1.84"
+      },
+      "6": {
+        "Plus de": "2.96",
+        "Moins de": "1.32"
+      },
+      "6.5": {
+        "Plus de": "3.49",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "1 (+3.5)": "1.59",
+      "2 (-3.5)": "2.15",
+      "2 (-2.5)": "1.51",
+      "1 (+2.5)": "2.32",
+      "2 (-3)": "1.76",
+      "1 (+3)": "1.9"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Blindheim",
+    "equipe_2": "Sykkylven",
+    "1X2": {
+      "V1": "2.11",
+      "V2": "2.3",
+      "X": "4.63"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Norvège. Division 5",
+    "competition_en": "Norway. Division 5",
+    "competition_id": 3013766,
+    "equipe_1_en": "Blindheim",
+    "equipe_2_en": "Sykkylven",
+    "Double_Chance": {
+      "12": "1.1",
+      "1X": "1.45",
+      "2X": "1.54"
+    },
+    "Totals": {
+      "4.5": {
+        "Moins de": "1.82",
+        "Plus de": "1.84"
+      },
+      "3.5": {
+        "Plus de": "1.34",
+        "Moins de": "2.9"
+      },
+      "4": {
+        "Plus de": "1.49",
+        "Moins de": "2.37"
+      },
+      "5": {
+        "Plus de": "2.34",
+        "Moins de": "1.5"
+      },
+      "5.5": {
+        "Plus de": "2.84",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.75",
+      "2 (0)": "1.91",
+      "1 (-1)": "3.04",
+      "2 (-1)": "3.45",
+      "1 (+1)": "1.25",
+      "2 (+1)": "1.31"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Volda II",
+    "equipe_2": "Sande FK",
+    "1X2": {
+      "V1": "2.09",
+      "V2": "2.27",
+      "X": "4.91"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:30:00+00:00",
+    "competition": "Norvège. Division 5",
+    "competition_en": "Norway. Division 5",
+    "competition_id": 3013766,
+    "equipe_1_en": "Volda II",
+    "equipe_2_en": "Sande FK",
+    "Double_Chance": {
+      "12": "1.09",
+      "1X": "1.47",
+      "2X": "1.55"
+    },
+    "Totals": {
+      "5.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.21"
+      },
+      "4.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.23"
+      },
+      "5": {
+        "Plus de": "1.82",
+        "Moins de": "1.84"
+      },
+      "6": {
+        "Plus de": "2.96",
+        "Moins de": "1.32"
+      },
+      "6.5": {
+        "Plus de": "3.49",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.76",
+      "2 (0)": "1.91",
+      "1 (-1)": "2.92",
+      "2 (-1)": "3.28",
+      "1 (+1)": "1.27",
+      "2 (+1)": "1.33"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Holon Yermiyahu",
+    "equipe_2": "AS Nordia Jerusalem",
+    "1X2": {
+      "V1": "1.42",
+      "X": "3.98",
+      "V2": "6.53"
+    },
+    "Total_2.5": {
+      "Plus de": "1.7",
+      "Moins de": "1.99"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:40:00+00:00",
+    "competition": "Championnat d'Israël. League Alef. Sud",
+    "competition_en": "Israel. Liga Alef. South",
+    "competition_id": 21481,
+    "equipe_1_en": "Holon Yermiyahu",
+    "equipe_2_en": "AS Nordia Jerusalem",
+    "Double_Chance": {
+      "1X": "1.042",
+      "12": "1.149",
+      "2X": "2.43"
+    },
+    "BTTS": {
+      "Oui": "1.83",
+      "Non": "1.84"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.7",
+        "Moins de": "1.99"
+      },
+      "1.5": {
+        "Plus de": "1.198",
+        "Moins de": "3.7"
+      },
+      "2": {
+        "Plus de": "1.31",
+        "Moins de": "2.92"
+      },
+      "3": {
+        "Plus de": "2.14",
+        "Moins de": "1.57"
+      },
+      "3.5": {
+        "Plus de": "2.69",
+        "Moins de": "1.363"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.533",
+      "1 (-1.5)": "2.21",
+      "1 (0)": "1.12",
+      "2 (0)": "4.7",
+      "1 (-1)": "1.72",
+      "2 (+1)": "1.95",
+      "1 (-2)": "3.2",
+      "2 (+2)": "1.26",
+      "1 (-2.5)": "3.92",
+      "2 (+2.5)": "1.175"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Hapoël Ashkelon",
+    "equipe_2": "Ihud Tzeirey Abu Gosh",
+    "1X2": {
+      "V1": "1.118",
+      "X": "6.95",
+      "V2": "12"
+    },
+    "Total_2.5": {
+      "Plus de": "1.25",
+      "Moins de": "3.28"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:45:00+00:00",
+    "competition": "Championnat d'Israël. League Bet. Sud",
+    "competition_en": "Israel. Liga Bet. South",
+    "competition_id": 27097,
+    "equipe_1_en": "Hapoel Ashkelon",
+    "equipe_2_en": "Ihud Tzeirey Abu Gosh",
+    "Double_Chance": {
+      "12": "1.023",
+      "1X": "1.05",
+      "2X": "4.45"
+    },
+    "BTTS": {
+      "Oui": "1.71",
+      "Non": "1.983"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.73",
+        "Moins de": "1.95"
+      },
+      "2.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "3": {
+        "Plus de": "1.37",
+        "Moins de": "2.66"
+      },
+      "4": {
+        "Plus de": "2.14",
+        "Moins de": "1.57"
+      },
+      "4.5": {
+        "Plus de": "2.625",
+        "Moins de": "1.38"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.55",
+      "1 (-2.5)": "2.17",
+      "1 (-1.5)": "1.48",
+      "2 (+1.5)": "2.33",
+      "1 (-2)": "1.77",
+      "2 (+2)": "1.89",
+      "1 (-3)": "3.05",
+      "2 (+3)": "1.285",
+      "1 (-3.5)": "3.68",
+      "2 (+3.5)": "1.2"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Haxi",
+    "equipe_2": "EPS-1",
+    "1X2": {
+      "V1": "2.01",
+      "V2": "2.37",
+      "X": "4.93"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:45:00+00:00",
+    "competition": "Finlande. Nelonen. Division 4",
+    "competition_en": "Finland. Nelonen. Division 4",
+    "competition_id": 2858734,
+    "equipe_1_en": "Haxi",
+    "equipe_2_en": "EPS-1",
+    "Double_Chance": {
+      "12": "1.09",
+      "1X": "1.43",
+      "2X": "1.6"
+    },
+    "Totals": {
+      "5.5": {
+        "Moins de": "1.56",
+        "Plus de": "2.21"
+      },
+      "4.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.23"
+      },
+      "5": {
+        "Plus de": "1.82",
+        "Moins de": "1.84"
+      },
+      "6": {
+        "Plus de": "2.96",
+        "Moins de": "1.32"
+      },
+      "6.5": {
+        "Plus de": "3.49",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.69",
+      "2 (0)": "1.99",
+      "1 (-1)": "2.76",
+      "2 (-1)": "3.49",
+      "1 (+1)": "1.24",
+      "2 (+1)": "1.37"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Kurvin Vauhti",
+    "equipe_2": "ST4Y",
+    "1X2": {
+      "V1": "1.88",
+      "V2": "2.663",
+      "X": "4.96"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-08T16:45:00+00:00",
+    "competition": "Finlande. Nelonen. Division 4",
+    "competition_en": "Finland. Nelonen. Division 4",
+    "competition_id": 2858734,
+    "equipe_1_en": "Kurvin Vauhti",
+    "equipe_2_en": "ST4Y",
+    "Double_Chance": {
+      "12": "1.08",
+      "1X": "1.35",
+      "2X": "1.71"
+    },
+    "Totals": {
+      "4.5": {
+        "Plus de": "1.56",
+        "Moins de": "2.22"
+      },
+      "3.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.76"
+      },
+      "4": {
+        "Plus de": "1.29",
+        "Moins de": "3.13"
+      },
+      "5": {
+        "Plus de": "1.83",
+        "Moins de": "1.83"
+      },
+      "5.5": {
+        "Plus de": "2.23",
+        "Moins de": "1.55"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.57",
+      "2 (0)": "2.2",
+      "1 (-1)": "2.47",
+      "2 (+1)": "1.45"
     }
   },
   {
@@ -2888,16 +2740,16 @@
     "equipe_1": "Orduspor 1967",
     "equipe_2": "Karadeniz Eregli Belediye",
     "1X2": {
-      "V1": "1.54",
+      "V1": "1.55",
       "X": "3.8",
-      "V2": "5.98"
+      "V2": "5.84"
     },
     "Total_2.5": {
-      "Plus de": "2.03",
-      "Moins de": "1.72"
+      "Plus de": "1.99",
+      "Moins de": "1.75"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T17:00:00+00:00",
     "competition": "Coupe de Turquie",
@@ -2906,47 +2758,47 @@
     "equipe_1_en": "Orduspor 1967",
     "equipe_2_en": "Karadeniz Eregli Belediye",
     "Double_Chance": {
-      "1X": "1.087",
+      "1X": "1.092",
       "12": "1.22",
-      "2X": "2.34"
+      "2X": "2.32"
     },
     "BTTS": {
-      "Non": "1.669",
-      "Oui": "2.08"
+      "Non": "1.7",
+      "Oui": "2.03"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.72",
-        "Plus de": "2.03"
+        "Moins de": "1.75",
+        "Plus de": "1.99"
       },
       "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
+        "Plus de": "1.285",
+        "Moins de": "3.05"
       },
       "2": {
-        "Plus de": "1.5",
-        "Moins de": "2.29"
+        "Plus de": "1.48",
+        "Moins de": "2.34"
       },
       "3": {
-        "Plus de": "2.83",
-        "Moins de": "1.333"
+        "Plus de": "2.76",
+        "Moins de": "1.35"
       },
       "3.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
+        "Plus de": "3.42",
+        "Moins de": "1.23"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.42",
-      "1 (-1.5)": "2.49",
-      "1 (0)": "1.139",
-      "2 (0)": "4.4",
-      "1 (-1)": "1.93",
-      "2 (+1)": "1.79",
-      "1 (-2)": "4.15",
-      "2 (+2)": "1.157",
-      "1 (-2.5)": "4.95",
-      "2 (+2.5)": "1.107"
+      "2 (+1.5)": "1.41",
+      "1 (-1.5)": "2.52",
+      "1 (0)": "1.148",
+      "2 (0)": "4.3",
+      "1 (-1)": "1.95",
+      "2 (+1)": "1.77",
+      "1 (-2)": "4.2",
+      "2 (+2)": "1.154",
+      "1 (-2.5)": "5",
+      "2 (+2.5)": "1.105"
     }
   },
   {
@@ -2954,16 +2806,16 @@
     "equipe_1": "Ceará",
     "equipe_2": "Criciúma",
     "1X2": {
-      "V1": "2.395",
-      "V2": "2.917",
-      "X": "3.14"
+      "V1": "2.47",
+      "V2": "2.79",
+      "X": "3.1"
     },
     "Total_2.5": {
-      "Plus de": "2.23",
-      "Moins de": "1.6"
+      "Plus de": "2.27",
+      "Moins de": "1.58"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T22:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
@@ -2972,47 +2824,47 @@
     "equipe_1_en": "Ceara",
     "equipe_2_en": "Criciuma",
     "Double_Chance": {
-      "12": "1.31",
-      "1X": "1.36",
-      "2X": "1.51"
+      "12": "1.32",
+      "1X": "1.38",
+      "2X": "1.47"
     },
     "BTTS": {
-      "Non": "1.813",
-      "Oui": "1.89"
+      "Non": "1.781",
+      "Oui": "1.93"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.23"
+        "Moins de": "1.58",
+        "Plus de": "2.27"
       },
       "1.5": {
-        "Plus de": "1.363",
-        "Moins de": "2.69"
+        "Plus de": "1.39",
+        "Moins de": "2.59"
       },
       "2": {
-        "Plus de": "1.63",
-        "Moins de": "2.04"
+        "Plus de": "1.67",
+        "Moins de": "1.98"
       },
       "3": {
-        "Plus de": "3.22",
-        "Moins de": "1.26"
+        "Plus de": "3.36",
+        "Moins de": "1.24"
       },
       "3.5": {
-        "Plus de": "3.94",
-        "Moins de": "1.174"
+        "Plus de": "4.1",
+        "Moins de": "1.162"
       }
     },
     "Handicap": {
-      "1 (0)": "1.69",
-      "2 (0)": "2.06",
-      "1 (-1)": "3.84",
-      "2 (-1)": "5.15",
-      "1 (+1)": "1.098",
-      "2 (+1)": "1.184",
-      "1 (-1.5)": "4.75",
-      "2 (-1.5)": "6.05",
-      "1 (+1.5)": "1.063",
-      "2 (+1.5)": "1.119"
+      "1 (0)": "1.75",
+      "2 (0)": "1.98",
+      "1 (-1)": "4.1",
+      "2 (-1)": "4.9",
+      "1 (+1)": "1.11",
+      "2 (+1)": "1.161",
+      "1 (-1.5)": "5",
+      "2 (-1.5)": "5.85",
+      "1 (+1.5)": "1.07",
+      "2 (+1.5)": "1.104"
     }
   },
   {
@@ -3020,16 +2872,16 @@
     "equipe_1": "Clube Náutico Capibaribe",
     "equipe_2": "Novorizontino",
     "1X2": {
-      "V2": "1.94",
-      "V1": "3.535",
-      "X": "3.55"
+      "V2": "1.77",
+      "X": "3.7",
+      "V1": "4.105"
     },
     "Total_2.5": {
-      "Plus de": "1.77",
-      "Moins de": "1.97"
+      "Plus de": "1.76",
+      "Moins de": "1.98"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T22:30:00+00:00",
     "competition": "Brazil. Campeonato Brasileiro B",
@@ -3038,47 +2890,47 @@
     "equipe_1_en": "Clube Nautico Capibaribe",
     "equipe_2_en": "Novorizontino",
     "Double_Chance": {
-      "12": "1.25",
-      "2X": "1.25",
-      "1X": "1.78"
+      "2X": "1.188",
+      "12": "1.23",
+      "1X": "1.95"
     },
     "BTTS": {
-      "Oui": "1.66",
-      "Non": "2.09"
+      "Oui": "1.69",
+      "Non": "2.049"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.77",
-        "Moins de": "1.97"
+        "Plus de": "1.76",
+        "Moins de": "1.98"
       },
       "1.5": {
-        "Plus de": "1.21",
-        "Moins de": "3.58"
+        "Plus de": "1.198",
+        "Moins de": "3.7"
       },
       "2": {
-        "Plus de": "1.33",
-        "Moins de": "2.84"
+        "Plus de": "1.32",
+        "Moins de": "2.89"
       },
       "3": {
-        "Plus de": "2.27",
-        "Moins de": "1.51"
+        "Plus de": "2.22",
+        "Moins de": "1.53"
       },
       "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
+        "Plus de": "2.81",
+        "Moins de": "1.333"
       }
     },
     "Handicap": {
-      "2 (0)": "1.44",
-      "1 (0)": "2.61",
-      "1 (-1)": "6.5",
-      "2 (-1)": "2.66",
-      "1 (+1)": "1.37",
-      "2 (+1)": "1.051",
-      "1 (-1.5)": "7.5",
-      "2 (-1.5)": "3.42",
-      "1 (+1.5)": "1.23",
-      "2 (+1.5)": "1.029"
+      "1 (+1.5)": "1.3",
+      "2 (-1.5)": "2.97",
+      "1 (0)": "2.97",
+      "2 (0)": "1.3",
+      "2 (-1)": "2.38",
+      "1 (+1)": "1.52",
+      "2 (-2)": "5.2",
+      "1 (+2)": "1.096",
+      "2 (-2.5)": "6",
+      "1 (+2.5)": "1.065"
     }
   },
   {
@@ -3086,16 +2938,16 @@
     "equipe_1": "Club Atletico Nacional SA",
     "equipe_2": "Deportes Tolima",
     "1X2": {
-      "V1": "1.55",
-      "X": "3.95",
-      "V2": "5.5"
+      "V1": "1.63",
+      "X": "3.75",
+      "V2": "5.02"
     },
     "Total_2.5": {
-      "Plus de": "1.75",
-      "Moins de": "1.99"
+      "Plus de": "1.82",
+      "Moins de": "1.909"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T23:05:00+00:00",
     "competition": "Championnat de Colombie. Categoria Primera A",
@@ -3104,47 +2956,47 @@
     "equipe_1_en": "Club Atletico Nacional SA",
     "equipe_2_en": "Deportes Tolima",
     "Double_Chance": {
-      "1X": "1.105",
-      "12": "1.21",
-      "2X": "2.32"
+      "1X": "1.127",
+      "12": "1.222",
+      "2X": "2.16"
     },
     "BTTS": {
-      "Oui": "1.8",
-      "Non": "1.905"
+      "Oui": "1.81",
+      "Non": "1.895"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.75",
-        "Moins de": "1.99"
+        "Plus de": "1.82",
+        "Moins de": "1.909"
       },
       "1.5": {
-        "Plus de": "1.196",
-        "Moins de": "3.72"
+        "Plus de": "1.222",
+        "Moins de": "3.48"
       },
       "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.89"
+        "Plus de": "1.36",
+        "Moins de": "2.71"
       },
       "3": {
-        "Plus de": "2.2",
-        "Moins de": "1.54"
+        "Plus de": "2.36",
+        "Moins de": "1.47"
       },
       "3.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
+        "Plus de": "2.92",
+        "Moins de": "1.31"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.44",
-      "1 (-1.5)": "2.43",
-      "1 (0)": "1.162",
-      "2 (0)": "4.1",
-      "1 (-1)": "1.909",
-      "2 (+1)": "1.81",
-      "1 (-2)": "3.84",
-      "2 (+2)": "1.183",
-      "1 (-2.5)": "4.6",
-      "2 (+2.5)": "1.127"
+      "2 (+1.5)": "1.37",
+      "1 (-1.5)": "2.66",
+      "1 (0)": "1.21",
+      "2 (0)": "3.58",
+      "1 (-1)": "2.09",
+      "2 (+1)": "1.67",
+      "1 (-2)": "4.4",
+      "2 (+2)": "1.139",
+      "1 (-2.5)": "5.2",
+      "2 (+2.5)": "1.096"
     }
   },
   {
@@ -3152,16 +3004,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "2.033",
-      "V2": "2.553",
-      "X": "4.9"
+      "V1": "2.058",
+      "V2": "2.531",
+      "X": "4.825"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-08T12:20:14.232226+00:00",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
     "statut": "ok",
     "debut": "2026-10-08T23:05:00+00:00",
     "competition": "Championnat de Colombie. Categoria Primera A",
@@ -3170,47 +3022,113 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.151",
-      "1X": "1.481",
-      "2X": "1.781"
+      "12": "1.155",
+      "1X": "1.49",
+      "2X": "1.759"
     },
     "BTTS": {
-      "Oui": "1.116",
-      "Non": "6.4"
+      "Oui": "1.129",
+      "Non": "5.99"
     },
     "Totals": {
       "5.5": {
-        "Moins de": "1.758",
-        "Plus de": "2.067"
+        "Moins de": "1.688",
+        "Plus de": "2.173"
       },
       "3.5": {
-        "Plus de": "1.241",
-        "Moins de": "4.045"
+        "Plus de": "1.272",
+        "Moins de": "3.75"
       },
       "4.5": {
-        "Plus de": "1.558",
-        "Moins de": "2.434"
+        "Plus de": "1.616",
+        "Moins de": "2.305"
       },
       "6.5": {
-        "Plus de": "2.995",
-        "Moins de": "1.391"
+        "Plus de": "3.22",
+        "Moins de": "1.348"
       },
       "7.5": {
-        "Plus de": "4.835",
-        "Moins de": "1.182"
+        "Plus de": "5.32",
+        "Moins de": "1.156"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.396",
-      "1 (-1.5)": "2.974",
-      "1 (-1)": "2.524",
-      "2 (-1)": "3.55",
-      "1 (+1)": "1.297",
-      "2 (+1)": "1.523",
-      "1 (-2)": "4.45",
-      "2 (+2)": "1.208",
-      "1 (-2.5)": "5.08",
-      "2 (+2.5)": "1.168"
+      "2 (+1.5)": "1.38",
+      "1 (-1.5)": "3.045",
+      "1 (-1)": "2.583",
+      "2 (-1)": "3.52",
+      "1 (+1)": "1.301",
+      "2 (+1)": "1.503",
+      "1 (-2)": "4.64",
+      "2 (+2)": "1.194",
+      "1 (-2.5)": "5.3",
+      "2 (+2.5)": "1.157"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Fortaleza Zipaquira",
+    "equipe_2": "Millonarios",
+    "1X2": {
+      "V2": "1.85",
+      "X": "3.48",
+      "V1": "3.975"
+    },
+    "Total_2.5": {
+      "Plus de": "2.05",
+      "Moins de": "1.71"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-08T15:23:01.292474+00:00",
+    "statut": "ok",
+    "debut": "2026-10-09T01:10:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Fortaleza Zipaquira",
+    "equipe_2_en": "Millonarios",
+    "Double_Chance": {
+      "2X": "1.21",
+      "12": "1.26",
+      "1X": "1.86"
+    },
+    "BTTS": {
+      "Non": "1.823",
+      "Oui": "1.88"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.71",
+        "Plus de": "2.05"
+      },
+      "1.5": {
+        "Plus de": "1.31",
+        "Moins de": "2.92"
+      },
+      "2": {
+        "Plus de": "1.52",
+        "Moins de": "2.24"
+      },
+      "3": {
+        "Plus de": "2.84",
+        "Moins de": "1.33"
+      },
+      "3.5": {
+        "Plus de": "3.5",
+        "Moins de": "1.22"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.333",
+      "1 (0)": "2.81",
+      "1 (-1)": "7.7",
+      "2 (-1)": "2.61",
+      "1 (+1)": "1.44",
+      "2 (+1)": "1.026",
+      "1 (-1.5)": "8.5",
+      "2 (-1.5)": "3.28",
+      "1 (+1.5)": "1.25",
+      "2 (+1.5)": "1.012"
     }
   }
 ]
