@@ -68,6 +68,13 @@ footer{max-width:760px;margin:0 auto;padding:6px 16px 20px;color:#7d8aa0;font-si
 nav.tab{position:fixed;left:0;right:0;bottom:0;background:#fff;border-radius:22px 22px 0 0;box-shadow:0 -4px 20px rgba(15,36,71,.12);display:flex;justify-content:space-around;padding:10px 6px 14px;z-index:40}
 nav.tab a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 14px;border-radius:18px;font-size:12px;font-weight:700;color:#5d7396}
 nav.tab a span{font-size:20px}nav.tab a.on{background:#e6f1fd;color:#1e63c9}
+  .tg{position:relative;width:44px;height:44px;border-radius:50%;background:#229ED9;display:grid;place-items:center;flex:none}
+.tg::before{content:"";position:absolute;inset:0;border-radius:50%;background:#229ED9;z-index:-1;animation:tgPulse 2s ease-out infinite}
+.tg svg{width:24px;height:24px;fill:#fff;margin-left:-2px;animation:tgWiggle 4s ease-in-out infinite}
+.tg:active{transform:scale(.92)}
+@keyframes tgPulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.7);opacity:0}}
+@keyframes tgWiggle{0%,80%,100%{transform:rotate(0)}85%{transform:rotate(-12deg)}90%{transform:rotate(10deg)}95%{transform:rotate(-6deg)}}
+@media (prefers-reduced-motion:reduce){.tg::before,.tg svg{animation:none}}
 </style>
 </head>
 <body>
@@ -77,6 +84,9 @@ nav.tab a span{font-size:20px}nav.tab a.on{background:#e6f1fd;color:#1e63c9}
   <button class="ib" id="sbtn" aria-label="Rechercher" title="Rechercher">🔍</button>
 </header>
 <div class="search on" id="search"><input id="q" type="search" placeholder="" autocomplete="off" autocapitalize="off" enterkeyhint="search"><div id="sugg"></div></div>
+<a class="tg" href="https://t.me/zicote_site" target="_blank" rel="noopener" aria-label="Telegram">
+  <svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+</a>
 <div class="sports"><span class="chip">⚽ <span id="chipLabel">Football</span><i id="count">0</i></span><span class="upd" id="upd"></span></div>
 <div class="bar"><span id="barTitle">Football</span> <span id="barSubtitle">Meilleures cotes 1X2</span></div>
 <main>
