@@ -1,6 +1,72 @@
 [
   {
     "bookmaker": "africa-bizbet",
+    "equipe_1": "Myawady U20",
+    "equipe_2": "Shan United U20",
+    "1X2": {
+      "V2": "1.043",
+      "X": "8.5",
+      "V1": "22"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
+    "statut": "ok",
+    "debut": "2026-10-21T09:00:00+00:00",
+    "competition": "Championnat du Myanmar U20",
+    "competition_en": "Myanmar Championship U20",
+    "competition_id": 1878263,
+    "equipe_1_en": "Myawady U20",
+    "equipe_2_en": "Shan United U20",
+    "Double_Chance": {
+      "2X": "1.01",
+      "12": "1.04",
+      "1X": "6.15"
+    },
+    "BTTS": {
+      "Non": "1.602",
+      "Oui": "2.15"
+    },
+    "Totals": {
+      "4.5": {
+        "Moins de": "1.571",
+        "Plus de": "2.13"
+      },
+      "3.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.24"
+      },
+      "4": {
+        "Plus de": "1.78",
+        "Moins de": "1.84"
+      },
+      "5": {
+        "Plus de": "2.78",
+        "Moins de": "1.34"
+      },
+      "5.5": {
+        "Plus de": "3.4",
+        "Moins de": "1.25"
+      }
+    },
+    "Handicap": {
+      "2 (-2.5)": "1.57",
+      "1 (+2.5)": "2.14",
+      "2 (-1.5)": "1.23",
+      "1 (+1.5)": "3.42",
+      "2 (-2)": "1.32",
+      "1 (+2)": "2.875",
+      "2 (-3)": "1.86",
+      "1 (+3)": "1.8",
+      "2 (-3.5)": "2.21",
+      "1 (+3.5)": "1.533"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
     "equipe_1": "15 de Agosto de Akonibe",
     "equipe_2": "Simba SC",
     "1X2": {
@@ -13,7 +79,7 @@
       "Moins de": "2.27"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T12:00:00+00:00",
     "competition": "CAF Ligue des champions",
@@ -79,7 +145,7 @@
       "Moins de": "1.26"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T14:00:00+00:00",
     "competition": "Championnat d'Égypte. Première Ligue",
@@ -136,16 +202,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.325",
-      "V2": "5.67",
-      "X": "7.7"
+      "V1": "1.368",
+      "V2": "5.15",
+      "X": "7.32"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T14:00:00+00:00",
     "competition": "Championnat d'Égypte. Première Ligue",
@@ -154,43 +220,105 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.066",
-      "1X": "1.115",
-      "2X": "3.7"
+      "12": "1.073",
+      "1X": "1.138",
+      "2X": "3.395"
     },
     "Totals": {
-      "7.5": {
-        "Moins de": "1.703",
-        "Plus de": "2.148"
+      "6.5": {
+        "Plus de": "1.696",
+        "Moins de": "2.159"
+      },
+      "4.5": {
+        "Plus de": "1.158",
+        "Moins de": "5.29"
       },
       "5.5": {
-        "Plus de": "1.348",
-        "Moins de": "3.215"
+        "Plus de": "1.366",
+        "Moins de": "3.12"
       },
-      "6.5": {
-        "Plus de": "1.667",
-        "Moins de": "2.208"
+      "7.5": {
+        "Plus de": "2.197",
+        "Moins de": "1.674"
       },
       "8.5": {
-        "Plus de": "2.981",
-        "Moins de": "1.394"
-      },
-      "9.5": {
-        "Plus de": "4.5",
-        "Moins de": "1.204"
+        "Plus de": "3.075",
+        "Moins de": "1.375"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.762",
-      "1 (-2.5)": "2.062",
-      "1 (-1.5)": "1.607",
-      "2 (+1.5)": "2.323",
-      "1 (-2)": "1.795",
-      "2 (+2)": "2.018",
-      "1 (-3)": "2.501",
-      "2 (+3)": "1.532",
-      "1 (-3.5)": "2.868",
-      "2 (+3.5)": "1.421"
+      "2 (+2.5)": "1.684",
+      "1 (-2.5)": "2.179",
+      "1 (-1.5)": "1.677",
+      "2 (+1.5)": "2.191",
+      "1 (-2)": "1.895",
+      "2 (+2)": "1.905",
+      "1 (-3)": "2.706",
+      "2 (+3)": "1.464",
+      "1 (-3.5)": "3.095",
+      "2 (+3.5)": "1.37"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Young Africans",
+    "equipe_2": "CFFA",
+    "1X2": {
+      "V1": "1.001",
+      "X": "10",
+      "V2": "17"
+    },
+    "Total_2.5": {
+      "Plus de": "1.36",
+      "Moins de": "2.79"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
+    "statut": "ok",
+    "debut": "2026-10-21T16:00:00+00:00",
+    "competition": "CAF Ligue des champions",
+    "competition_en": "CAF Champions League",
+    "competition_id": 38317,
+    "equipe_1_en": "Young Africans",
+    "equipe_2_en": "CFFA",
+    "Double_Chance": {
+      "1X": "1.001",
+      "12": "1.001",
+      "2X": "6.75"
+    },
+    "BTTS": {
+      "Non": "1.31",
+      "Oui": "3.05"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.68",
+        "Plus de": "2.01"
+      },
+      "2.5": {
+        "Plus de": "1.36",
+        "Moins de": "2.79"
+      },
+      "3": {
+        "Plus de": "1.57",
+        "Moins de": "2.19"
+      },
+      "4": {
+        "Plus de": "2.79",
+        "Moins de": "1.36"
+      },
+      "4.5": {
+        "Plus de": "3.43",
+        "Moins de": "1.25"
+      }
+    },
+    "Handicap": {
+      "1 (-2.5)": "1.77",
+      "2 (+2.5)": "1.89",
+      "1 (-2)": "1.39",
+      "2 (+2)": "2.68",
+      "1 (-3)": "2.34",
+      "2 (+3)": "1.5"
     }
   },
   {
@@ -198,16 +326,16 @@
     "equipe_1": "Como",
     "equipe_2": "Manchester United",
     "1X2": {
-      "V1": "2.24",
-      "V2": "3.21",
-      "X": "3.88"
+      "V1": "2.313",
+      "V2": "3.02",
+      "X": "3.965"
     },
     "Total_2.5": {
-      "Plus de": "1.631",
-      "Moins de": "2.487"
+      "Plus de": "1.46",
+      "Moins de": "2.49"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T16:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -216,47 +344,47 @@
     "equipe_1_en": "Como",
     "equipe_2_en": "Manchester United",
     "Double_Chance": {
-      "12": "1.302",
-      "1X": "1.4",
-      "2X": "1.726"
+      "12": "1.293",
+      "1X": "1.439",
+      "2X": "1.685"
     },
     "BTTS": {
-      "Oui": "1.48",
-      "Non": "2.498"
+      "Oui": "1.43",
+      "Non": "2.662"
     },
     "Totals": {
+      "3.5": {
+        "Moins de": "1.712",
+        "Plus de": "2.32"
+      },
       "2.5": {
-        "Plus de": "1.631",
-        "Moins de": "2.487"
-      },
-      "1.5": {
-        "Plus de": "1.147",
-        "Moins de": "4.65"
-      },
-      "2": {
-        "Plus de": "1.23",
-        "Moins de": "3.8"
+        "Plus de": "1.46",
+        "Moins de": "2.49"
       },
       "3": {
-        "Plus de": "1.86",
-        "Moins de": "1.86"
+        "Plus de": "1.74",
+        "Moins de": "2"
       },
-      "3.5": {
-        "Plus de": "2.31",
-        "Moins de": "1.53"
+      "4": {
+        "Plus de": "3.04",
+        "Moins de": "1.34"
+      },
+      "4.5": {
+        "Plus de": "3.56",
+        "Moins de": "1.24"
       }
     },
     "Handicap": {
-      "1 (0)": "1.68",
-      "2 (0)": "2.381",
-      "1 (-1)": "3.02",
-      "2 (-1)": "5.05",
-      "1 (+1)": "1.134",
-      "2 (+1)": "1.333",
-      "1 (-1.5)": "3.66",
-      "2 (-1.5)": "5.7",
-      "1 (+1.5)": "1.09",
-      "2 (+1.5)": "1.22"
+      "1 (0)": "1.742",
+      "2 (0)": "2.267",
+      "1 (-1)": "3.1",
+      "2 (-1)": "4.6",
+      "1 (+1)": "1.159",
+      "2 (+1)": "1.32",
+      "1 (-1.5)": "3.75",
+      "2 (-1.5)": "5.25",
+      "1 (+1.5)": "1.108",
+      "2 (+1.5)": "1.21"
     }
   },
   {
@@ -264,16 +392,16 @@
     "equipe_1": "Lille OSC",
     "equipe_2": "Galatasaray",
     "1X2": {
-      "V1": "2.225",
-      "V2": "3.27",
-      "X": "3.84"
+      "V1": "2.328",
+      "V2": "3.09",
+      "X": "3.81"
     },
     "Total_2.5": {
-      "Plus de": "1.665",
-      "Moins de": "2.412"
+      "Plus de": "1.67",
+      "Moins de": "2.402"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T16:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -282,18 +410,18 @@
     "equipe_1_en": "Lille OSC",
     "equipe_2_en": "Galatasaray",
     "Double_Chance": {
-      "12": "1.307",
-      "1X": "1.389",
-      "2X": "1.735"
+      "12": "1.31",
+      "1X": "1.424",
+      "2X": "1.677"
     },
     "BTTS": {
-      "Oui": "1.5",
-      "Non": "2.446"
+      "Oui": "1.49",
+      "Non": "2.476"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.665",
-        "Moins de": "2.412"
+        "Plus de": "1.67",
+        "Moins de": "2.402"
       },
       "1.5": {
         "Plus de": "1.159",
@@ -313,16 +441,16 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.668",
-      "2 (0)": "2.404",
-      "1 (-1)": "3.1",
-      "2 (-1)": "5.55",
-      "1 (+1)": "1.118",
-      "2 (+1)": "1.33",
-      "1 (-1.5)": "3.84",
-      "2 (-1.5)": "6.4",
-      "1 (+1.5)": "1.074",
-      "2 (+1.5)": "1.21"
+      "1 (0)": "1.729",
+      "2 (0)": "2.288",
+      "1 (-1)": "3.34",
+      "2 (-1)": "5.1",
+      "1 (+1)": "1.137",
+      "2 (+1)": "1.29",
+      "1 (-1.5)": "4.1",
+      "2 (-1.5)": "6",
+      "1 (+1.5)": "1.087",
+      "2 (+1.5)": "1.186"
     }
   },
   {
@@ -330,16 +458,16 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "1.886",
-      "V2": "2.722",
-      "X": "5.42"
+      "V1": "1.951",
+      "V2": "2.583",
+      "X": "5.43"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T16:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -349,42 +477,174 @@
     "equipe_2_en": "Away (Special bets)",
     "Double_Chance": {
       "12": "1.127",
-      "1X": "1.422",
-      "2X": "1.942"
+      "1X": "1.467",
+      "2X": "1.864"
     },
     "Totals": {
       "6.5": {
-        "Moins de": "1.77",
-        "Plus de": "2.05"
+        "Moins de": "1.838",
+        "Plus de": "1.966"
       },
       "4.5": {
-        "Plus de": "1.278",
-        "Moins de": "3.7"
+        "Plus de": "1.249",
+        "Moins de": "3.965"
       },
       "5.5": {
-        "Plus de": "1.582",
-        "Moins de": "2.378"
+        "Plus de": "1.531",
+        "Moins de": "2.503"
       },
       "7.5": {
-        "Plus de": "2.867",
-        "Moins de": "1.421"
+        "Plus de": "2.7",
+        "Moins de": "1.466"
       },
       "8.5": {
-        "Plus de": "4.4",
-        "Moins de": "1.212"
+        "Plus de": "4.06",
+        "Moins de": "1.24"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.508",
-      "1 (-1.5)": "2.568",
-      "1 (-1)": "2.208",
-      "2 (-1)": "3.78",
-      "1 (+1)": "1.269",
-      "2 (+1)": "1.667",
-      "1 (-2)": "3.48",
-      "2 (+2)": "1.307",
-      "1 (-2.5)": "3.98",
-      "2 (+2.5)": "1.248"
+      "2 (+1.5)": "1.471",
+      "1 (-1.5)": "2.683",
+      "1 (-1)": "2.313",
+      "2 (-1)": "3.48",
+      "1 (+1)": "1.306",
+      "2 (+1)": "1.612",
+      "1 (-2)": "3.685",
+      "2 (+2)": "1.28",
+      "1 (-2.5)": "4.195",
+      "2 (+2.5)": "1.228"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Al Ahly le Caire",
+    "equipe_2": "Al Qanah",
+    "1X2": {
+      "V1": "1.25",
+      "X": "4.8",
+      "V2": "10.2"
+    },
+    "Total_2.5": {
+      "Plus de": "1.727",
+      "Moins de": "1.952"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
+    "statut": "ok",
+    "debut": "2026-10-21T17:00:00+00:00",
+    "competition": "Championnat d'Égypte. Première Ligue",
+    "competition_en": "Egypt. Premier League",
+    "competition_id": 147087,
+    "equipe_1_en": "Al Ahly Cairo",
+    "equipe_2_en": "Al Qanah",
+    "Double_Chance": {
+      "1X": "1.022",
+      "12": "1.1",
+      "2X": "3.22"
+    },
+    "BTTS": {
+      "Non": "1.6",
+      "Oui": "2.17"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.727",
+        "Moins de": "1.952"
+      },
+      "1.5": {
+        "Plus de": "1.192",
+        "Moins de": "3.75"
+      },
+      "2": {
+        "Plus de": "1.31",
+        "Moins de": "2.92"
+      },
+      "3": {
+        "Plus de": "2.21",
+        "Moins de": "1.53"
+      },
+      "3.5": {
+        "Plus de": "2.81",
+        "Moins de": "1.333"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.78",
+      "1 (-1.5)": "1.88",
+      "1 (0)": "1.025",
+      "2 (0)": "7.7",
+      "1 (-1)": "1.42",
+      "2 (+1)": "2.49",
+      "1 (-2)": "2.59",
+      "2 (+2)": "1.39",
+      "1 (-2.5)": "3.2",
+      "2 (+2.5)": "1.26"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Ceramica Cleopatra",
+    "equipe_2": "Petrojet",
+    "1X2": {
+      "V1": "1.972",
+      "X": "2.79",
+      "V2": "4.17"
+    },
+    "Total_2.5": {
+      "Plus de": "2.1",
+      "Moins de": "1.63"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
+    "statut": "ok",
+    "debut": "2026-10-21T17:00:00+00:00",
+    "competition": "Championnat d'Égypte. Première Ligue",
+    "competition_en": "Egypt. Premier League",
+    "competition_id": 147087,
+    "equipe_1_en": "Ceramica Cleopatra",
+    "equipe_2_en": "Petrojet",
+    "Double_Chance": {
+      "1X": "1.149",
+      "12": "1.32",
+      "2X": "1.66"
+    },
+    "BTTS": {
+      "Non": "1.826",
+      "Oui": "1.86"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.63",
+        "Plus de": "2.1"
+      },
+      "1.5": {
+        "Plus de": "1.34",
+        "Moins de": "2.78"
+      },
+      "2": {
+        "Plus de": "1.57",
+        "Moins de": "2.14"
+      },
+      "3": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      },
+      "3.5": {
+        "Plus de": "3.5",
+        "Moins de": "1.22"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.36",
+      "2 (0)": "2.78",
+      "1 (-1)": "2.78",
+      "2 (-1)": "7.7",
+      "1 (+1)": "1.025",
+      "2 (+1)": "1.34",
+      "1 (-1.5)": "3.5",
+      "2 (-1.5)": "8.5",
+      "1 (+1.5)": "1.012",
+      "2 (+1.5)": "1.22"
     }
   },
   {
@@ -401,7 +661,7 @@
       "Moins de": "1.92"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T18:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -467,7 +727,7 @@
       "Moins de": "3.48"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -524,16 +784,16 @@
     "equipe_1": "Bayern Munich",
     "equipe_2": "Arsenal",
     "1X2": {
-      "V1": "2.132",
+      "V1": "2.113",
       "V2": "3.39",
-      "X": "3.98"
+      "X": "4.04"
     },
     "Total_2.5": {
-      "Plus de": "1.657",
-      "Moins de": "2.429"
+      "Plus de": "1.51",
+      "Moins de": "2.375"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -542,47 +802,47 @@
     "equipe_1_en": "Bayern Munich",
     "equipe_2_en": "Arsenal",
     "Double_Chance": {
-      "12": "1.291",
+      "12": "1.285",
       "1X": "1.368",
-      "2X": "1.797"
+      "2X": "1.81"
     },
     "BTTS": {
-      "Oui": "1.51",
-      "Non": "2.423"
+      "Oui": "1.47",
+      "Non": "2.529"
     },
     "Totals": {
+      "3.5": {
+        "Moins de": "1.657",
+        "Plus de": "2.429"
+      },
       "2.5": {
-        "Plus de": "1.657",
-        "Moins de": "2.429"
-      },
-      "1.5": {
-        "Plus de": "1.156",
-        "Moins de": "4.55"
-      },
-      "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.74"
+        "Plus de": "1.51",
+        "Moins de": "2.375"
       },
       "3": {
-        "Plus de": "1.909",
-        "Moins de": "1.82"
+        "Plus de": "1.82",
+        "Moins de": "1.909"
       },
-      "3.5": {
-        "Plus de": "2.375",
-        "Moins de": "1.51"
+      "4": {
+        "Plus de": "3.3",
+        "Moins de": "1.3"
+      },
+      "4.5": {
+        "Plus de": "3.86",
+        "Moins de": "1.21"
       }
     },
     "Handicap": {
-      "1 (0)": "1.614",
-      "2 (0)": "2.528",
-      "1 (-1)": "2.83",
-      "2 (-1)": "5.5",
-      "1 (+1)": "1.116",
-      "2 (+1)": "1.38",
-      "1 (-1.5)": "3.45",
-      "2 (-1.5)": "6.2",
-      "1 (+1.5)": "1.077",
-      "2 (+1.5)": "1.25"
+      "1 (0)": "1.604",
+      "2 (0)": "2.551",
+      "1 (-1)": "2.75",
+      "2 (-1)": "5.45",
+      "1 (+1)": "1.118",
+      "2 (+1)": "1.4",
+      "1 (-1.5)": "3.38",
+      "2 (-1.5)": "6.15",
+      "1 (+1.5)": "1.079",
+      "2 (+1.5)": "1.26"
     }
   },
   {
@@ -590,16 +850,16 @@
     "equipe_1": "Club Bruges",
     "equipe_2": "RC Lens",
     "1X2": {
-      "V1": "2.082",
-      "V2": "3.365",
-      "X": "4.205"
+      "V1": "2.015",
+      "V2": "3.515",
+      "X": "4.265"
     },
     "Total_2.5": {
-      "Plus de": "1.38",
-      "Moins de": "2.76"
+      "Plus de": "1.34",
+      "Moins de": "2.93"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -608,47 +868,47 @@
     "equipe_1_en": "Club Brugge",
     "equipe_2_en": "RC Lens",
     "Double_Chance": {
-      "12": "1.269",
-      "1X": "1.373",
-      "2X": "1.833"
+      "12": "1.264",
+      "1X": "1.349",
+      "2X": "1.889"
     },
     "BTTS": {
-      "Oui": "1.37",
-      "Non": "2.891"
+      "Oui": "1.35",
+      "Non": "2.984"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.836",
-        "Plus de": "2.125"
+        "Moins de": "1.92",
+        "Plus de": "2.023"
       },
       "2.5": {
-        "Plus de": "1.38",
-        "Moins de": "2.76"
+        "Plus de": "1.34",
+        "Moins de": "2.93"
       },
       "3": {
-        "Plus de": "1.59",
-        "Moins de": "2.24"
+        "Plus de": "1.53",
+        "Moins de": "2.375"
       },
       "4": {
-        "Plus de": "2.69",
-        "Moins de": "1.42"
+        "Plus de": "2.53",
+        "Moins de": "1.47"
       },
       "4.5": {
-        "Plus de": "3.26",
-        "Moins de": "1.28"
+        "Plus de": "3.04",
+        "Moins de": "1.32"
       }
     },
     "Handicap": {
-      "1 (0)": "1.598",
-      "2 (0)": "2.567",
-      "1 (-1)": "2.69",
-      "2 (-1)": "5.55",
-      "1 (+1)": "1.111",
-      "2 (+1)": "1.41",
-      "1 (-1.5)": "3.34",
-      "2 (-1.5)": "6.35",
-      "1 (+1.5)": "1.069",
-      "2 (+1.5)": "1.26"
+      "1 (0)": "1.557",
+      "2 (0)": "2.681",
+      "1 (-1)": "2.56",
+      "2 (-1)": "5.75",
+      "1 (+1)": "1.102",
+      "2 (+1)": "1.45",
+      "1 (-1.5)": "3.15",
+      "2 (-1.5)": "6.55",
+      "1 (+1.5)": "1.063",
+      "2 (+1.5)": "1.29"
     }
   },
   {
@@ -656,16 +916,16 @@
     "equipe_1": "Inter Milan",
     "equipe_2": "Shakhtar Donetsk",
     "1X2": {
-      "V1": "1.229",
-      "X": "7.9",
-      "V2": "13.2"
+      "V1": "1.239",
+      "X": "7.7",
+      "V2": "12.6"
     },
     "Total_2.5": {
-      "Plus de": "1.24",
-      "Moins de": "3.72"
+      "Plus de": "1.26",
+      "Moins de": "3.54"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -674,9 +934,9 @@
     "equipe_1_en": "Internazionale Milano",
     "equipe_2_en": "Shakhtar Donetsk",
     "Double_Chance": {
-      "1X": "1.048",
-      "12": "1.112",
-      "2X": "4.7"
+      "1X": "1.046",
+      "12": "1.116",
+      "2X": "4.56"
     },
     "BTTS": {
       "Oui": "1.66",
@@ -684,37 +944,37 @@
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.753",
-        "Moins de": "2.248"
+        "Plus de": "1.806",
+        "Moins de": "2.167"
       },
       "2.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.72"
+        "Plus de": "1.26",
+        "Moins de": "3.54"
       },
       "3": {
-        "Plus de": "1.36",
-        "Moins de": "3.04"
+        "Plus de": "1.39",
+        "Moins de": "2.9"
       },
       "4": {
-        "Plus de": "2.03",
-        "Moins de": "1.75"
+        "Plus de": "2.1",
+        "Moins de": "1.7"
       },
       "4.5": {
-        "Plus de": "2.45",
-        "Moins de": "1.5"
+        "Plus de": "2.56",
+        "Moins de": "1.46"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.726",
-      "1 (-2.5)": "2.294",
-      "1 (-1.5)": "1.51",
-      "2 (+1.5)": "2.46",
-      "1 (-2)": "1.8",
-      "2 (+2)": "2.01",
-      "1 (-3)": "2.94",
-      "2 (+3)": "1.35",
-      "1 (-3.5)": "3.42",
-      "2 (+3.5)": "1.25"
+      "2 (+2.5)": "1.675",
+      "1 (-2.5)": "2.391",
+      "1 (-1.5)": "1.55",
+      "2 (+1.5)": "2.36",
+      "1 (-2)": "1.87",
+      "2 (+2)": "1.93",
+      "1 (-3)": "3.15",
+      "2 (+3)": "1.31",
+      "1 (-3.5)": "3.66",
+      "2 (+3.5)": "1.22"
     }
   },
   {
@@ -722,16 +982,16 @@
     "equipe_1": "Real Betis Balompié",
     "equipe_2": "Feyenoord",
     "1X2": {
-      "V1": "1.614",
-      "X": "4.88",
-      "V2": "5.24"
+      "V1": "1.653",
+      "X": "4.77",
+      "V2": "4.98"
     },
     "Total_2.5": {
-      "Plus de": "1.333",
-      "Moins de": "2.96"
+      "Plus de": "1.34",
+      "Moins de": "2.93"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -740,47 +1000,47 @@
     "equipe_1_en": "Real Betis",
     "equipe_2_en": "Feyenoord",
     "Double_Chance": {
-      "1X": "1.198",
-      "12": "1.218",
-      "2X": "2.463"
+      "1X": "1.212",
+      "12": "1.225",
+      "2X": "2.377"
     },
     "BTTS": {
-      "Oui": "1.43",
-      "Non": "2.662"
+      "Oui": "1.42",
+      "Non": "2.694"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.949",
-        "Plus de": "1.991"
+        "Moins de": "1.939",
+        "Plus de": "2.001"
       },
       "2.5": {
-        "Plus de": "1.333",
-        "Moins de": "2.96"
+        "Plus de": "1.34",
+        "Moins de": "2.93"
       },
       "3": {
-        "Plus de": "1.51",
-        "Moins de": "2.42"
+        "Plus de": "1.52",
+        "Moins de": "2.39"
       },
       "4": {
-        "Plus de": "2.42",
-        "Moins de": "1.51"
+        "Plus de": "2.45",
+        "Moins de": "1.5"
       },
       "4.5": {
-        "Plus de": "2.88",
-        "Moins de": "1.35"
+        "Plus de": "2.93",
+        "Moins de": "1.34"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.663",
-      "1 (-1.5)": "2.415",
-      "1 (0)": "1.22",
-      "2 (0)": "3.82",
-      "1 (-1)": "1.87",
-      "2 (+1)": "1.95",
-      "1 (-2)": "3.24",
-      "2 (+2)": "1.285",
-      "1 (-2.5)": "3.8",
-      "2 (+2.5)": "1.197"
+      "2 (+1.5)": "1.619",
+      "1 (-1.5)": "2.514",
+      "1 (0)": "1.25",
+      "2 (0)": "3.56",
+      "1 (-1)": "1.93",
+      "2 (+1)": "1.89",
+      "1 (-2)": "3.42",
+      "2 (+2)": "1.26",
+      "1 (-2.5)": "3.98",
+      "2 (+2.5)": "1.179"
     }
   },
   {
@@ -788,16 +1048,16 @@
     "equipe_1": "Real Madrid",
     "equipe_2": "RasenBallsport Leipzig",
     "1X2": {
-      "V1": "1.278",
-      "X": "7.3",
-      "V2": "10.4"
+      "V1": "1.259",
+      "X": "7.6",
+      "V2": "11.1"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -806,47 +1066,47 @@
     "equipe_1_en": "Real Madrid",
     "equipe_2_en": "RasenBallsport Leipzig",
     "Double_Chance": {
-      "1X": "1.064",
-      "12": "1.125",
-      "2X": "4.1"
+      "1X": "1.058",
+      "12": "1.118",
+      "2X": "4.32"
     },
     "BTTS": {
-      "Oui": "1.45",
-      "Non": "2.591"
+      "Oui": "1.47",
+      "Non": "2.529"
     },
     "Totals": {
       "4.5": {
-        "Moins de": "1.76",
-        "Plus de": "2.237"
+        "Moins de": "1.78",
+        "Plus de": "2.204"
       },
       "3.5": {
-        "Plus de": "1.54",
-        "Moins de": "2.51"
+        "Plus de": "1.53",
+        "Moins de": "2.54"
       },
       "4": {
-        "Plus de": "1.76",
-        "Moins de": "2.02"
+        "Plus de": "1.74",
+        "Moins de": "2.04"
       },
       "5": {
-        "Plus de": "2.72",
-        "Moins de": "1.39"
+        "Plus de": "2.68",
+        "Moins de": "1.4"
       },
       "5.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.28"
+        "Plus de": "3.125",
+        "Moins de": "1.285"
       }
     },
     "Handicap": {
-      "1 (-1.5)": "1.675",
-      "2 (+1.5)": "2.391",
-      "1 (0)": "1.066",
-      "2 (0)": "6.25",
-      "1 (-1)": "1.29",
-      "2 (+1)": "3.28",
-      "1 (-2)": "1.9",
-      "2 (+2)": "1.9",
-      "1 (-2.5)": "2.27",
-      "2 (+2.5)": "1.59"
+      "2 (+2.5)": "1.715",
+      "1 (-2.5)": "2.314",
+      "1 (-1.5)": "1.55",
+      "2 (+1.5)": "2.36",
+      "1 (-2)": "1.83",
+      "2 (+2)": "1.98",
+      "1 (-3)": "2.89",
+      "2 (+3)": "1.36",
+      "1 (-3.5)": "3.34",
+      "2 (+3.5)": "1.26"
     }
   },
   {
@@ -854,16 +1114,16 @@
     "equipe_1": "Sporting Clube de Portugal",
     "equipe_2": "LASK Linz",
     "1X2": {
-      "V1": "1.197",
-      "X": "8.85",
-      "V2": "14.8"
+      "V1": "1.2",
+      "X": "8.75",
+      "V2": "14.6"
     },
     "Total_2.5": {
-      "Plus de": "1.24",
-      "Moins de": "3.56"
+      "Plus de": "1.26",
+      "Moins de": "3.4"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T19:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -872,438 +1132,47 @@
     "equipe_1_en": "Sporting Clube de Portugal",
     "equipe_2_en": "LASK Linz",
     "Double_Chance": {
-      "1X": "1.038",
-      "12": "1.095",
-      "2X": "5.25"
+      "1X": "1.039",
+      "12": "1.097",
+      "2X": "5.15"
     },
     "BTTS": {
-      "Oui": "1.69",
-      "Non": "2.066"
+      "Oui": "1.74",
+      "Non": "1.999"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.78",
-        "Moins de": "2.205"
-      },
-      "2.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.56"
-      },
-      "3": {
-        "Plus de": "1.36",
-        "Moins de": "2.94"
-      },
-      "4": {
-        "Plus de": "2.07",
-        "Moins de": "1.69"
-      },
-      "4.5": {
-        "Plus de": "2.51",
-        "Moins de": "1.45"
-      }
-    },
-    "Handicap": {
-      "2 (+2.5)": "1.723",
-      "1 (-2.5)": "2.3",
-      "1 (-1.5)": "1.53",
-      "2 (+1.5)": "2.54",
-      "1 (-2)": "1.76",
-      "2 (+2)": "1.97",
-      "1 (-3)": "2.93",
-      "2 (+3)": "1.32",
-      "1 (-3.5)": "3.5",
-      "2 (+3.5)": "1.22"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Green Shield",
-    "equipe_2": "Ghupo",
-    "1X2": {
-      "V1": "1.07",
-      "X": "8.1",
-      "V2": "16"
-    },
-    "Total_2.5": {
-      "Plus de": "1.26",
-      "Moins de": "3.2"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
-    "statut": "ok",
-    "debut": "2026-10-21T04:00:00+00:00",
-    "competition": "Championnat des Îles Salomon. S-Ligue",
-    "competition_en": "Solomon Islands. Telekom S-League",
-    "competition_id": 2121593,
-    "equipe_1_en": "Green Shield",
-    "equipe_2_en": "Ghupo",
-    "Double_Chance": {
-      "12": "1.002",
-      "2X": "5.4"
-    },
-    "BTTS": {
-      "Non": "1.747",
-      "Oui": "1.93"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.73",
-        "Moins de": "1.95"
+        "Plus de": "1.858",
+        "Moins de": "2.096"
       },
       "2.5": {
         "Plus de": "1.26",
-        "Moins de": "3.2"
+        "Moins de": "3.4"
       },
       "3": {
-        "Plus de": "1.38",
-        "Moins de": "2.625"
+        "Plus de": "1.4",
+        "Moins de": "2.77"
       },
       "4": {
-        "Plus de": "2.13",
-        "Moins de": "1.571"
+        "Plus de": "2.19",
+        "Moins de": "1.615"
       },
       "4.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
+        "Plus de": "2.64",
+        "Moins de": "1.41"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.74",
-      "1 (-2.5)": "1.93",
-      "1 (-1.5)": "1.36",
-      "2 (+1.5)": "2.7",
-      "1 (-2)": "1.54",
-      "2 (+2)": "2.19",
-      "1 (-3)": "2.52",
-      "2 (+3)": "1.41",
-      "1 (-3.5)": "3.04",
-      "2 (+3.5)": "1.29"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Montedio Yamagata",
-    "equipe_2": "Consadole Sapporo",
-    "1X2": {
-      "V1": "2.25",
-      "V2": "2.794",
-      "X": "3.3"
-    },
-    "Total_2.5": {
-      "Plus de": "1.8",
-      "Moins de": "1.87"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
-    "statut": "ok",
-    "debut": "2026-10-21T04:00:00+00:00",
-    "competition": "Championnat du Japon. Division 2",
-    "competition_en": "Japan. J-League Division 2",
-    "competition_id": 30005,
-    "equipe_1_en": "Montedio Yamagata",
-    "equipe_2_en": "Consadole Sapporo",
-    "Double_Chance": {
-      "12": "1.23",
-      "1X": "1.333",
-      "2X": "1.5"
-    },
-    "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.104"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.8",
-        "Moins de": "1.87"
-      },
-      "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "2": {
-        "Plus de": "1.36",
-        "Moins de": "2.7"
-      },
-      "3": {
-        "Plus de": "2.35",
-        "Moins de": "1.47"
-      },
-      "3.5": {
-        "Plus de": "2.97",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.666",
-      "2 (0)": "2.03",
-      "1 (-1)": "3.5",
-      "2 (-1)": "4.8",
-      "1 (+1)": "1.115",
-      "2 (+1)": "1.22",
-      "1 (-1.5)": "4.4",
-      "2 (-1.5)": "5.7",
-      "1 (+1.5)": "1.075",
-      "2 (+1.5)": "1.139"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Fukushima United",
-    "equipe_2": "Giravanz Kitakyushu",
-    "1X2": {
-      "V1": "1.84",
-      "V2": "3.295",
-      "X": "3.82"
-    },
-    "Total_2.5": {
-      "Plus de": "1.43",
-      "Moins de": "2.46"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
-    "statut": "ok",
-    "debut": "2026-10-21T04:00:00+00:00",
-    "competition": "Championnat du Japon. Division 3",
-    "competition_en": "Japan. J3 League",
-    "competition_id": 32869,
-    "equipe_1_en": "Fukushima United",
-    "equipe_2_en": "Giravanz Kitakyushu",
-    "Double_Chance": {
-      "12": "1.164",
-      "1X": "1.24",
-      "2X": "1.75"
-    },
-    "BTTS": {
-      "Oui": "1.43",
-      "Non": "2.557"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.15"
-      },
-      "2.5": {
-        "Plus de": "1.43",
-        "Moins de": "2.46"
-      },
-      "3": {
-        "Plus de": "1.69",
-        "Moins de": "1.95"
-      },
-      "4": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
-      },
-      "4.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.44",
-      "2 (0)": "2.5",
-      "1 (-1)": "2.43",
-      "2 (-1)": "5.55",
-      "1 (+1)": "1.081",
-      "2 (+1)": "1.44",
-      "1 (-1.5)": "3.05",
-      "2 (-1.5)": "6.3",
-      "1 (+1.5)": "1.056",
-      "2 (+1.5)": "1.285"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Nagano Parceiro",
-    "equipe_2": "Ryukyu",
-    "1X2": {
-      "V2": "2.08",
-      "V1": "3.075",
-      "X": "3.3"
-    },
-    "Total_2.5": {
-      "Plus de": "1.71",
-      "Moins de": "1.98"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
-    "statut": "ok",
-    "debut": "2026-10-21T04:00:00+00:00",
-    "competition": "Championnat du Japon. Division 3",
-    "competition_en": "Japan. J3 League",
-    "competition_id": 32869,
-    "equipe_1_en": "Nagano Parceiro",
-    "equipe_2_en": "Ryukyu",
-    "Double_Chance": {
-      "12": "1.222",
-      "2X": "1.27",
-      "1X": "1.58"
-    },
-    "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.191"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.71",
-        "Moins de": "1.98"
-      },
-      "1.5": {
-        "Plus de": "1.19",
-        "Moins de": "3.78"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "3": {
-        "Plus de": "2.17",
-        "Moins de": "1.55"
-      },
-      "3.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.55",
-      "1 (0)": "2.23",
-      "1 (-1)": "5.4",
-      "2 (-1)": "3.08",
-      "1 (+1)": "1.28",
-      "2 (+1)": "1.087",
-      "1 (-1.5)": "6.3",
-      "2 (-1.5)": "3.86",
-      "1 (+1.5)": "1.181",
-      "2 (+1.5)": "1.056"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "Tochigi",
-    "equipe_2": "Reilac Shiga",
-    "1X2": {
-      "V2": "2.34",
-      "V1": "2.54",
-      "X": "3.32"
-    },
-    "Total_2.5": {
-      "Plus de": "1.74",
-      "Moins de": "1.94"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
-    "statut": "ok",
-    "debut": "2026-10-21T04:00:00+00:00",
-    "competition": "Championnat du Japon. Division 3",
-    "competition_en": "Japan. J3 League",
-    "competition_id": 32869,
-    "equipe_1_en": "Tochigi",
-    "equipe_2_en": "Reilac Shiga",
-    "Double_Chance": {
-      "12": "1.22",
-      "2X": "1.38",
-      "1X": "1.444"
-    },
-    "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.171"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.74",
-        "Moins de": "1.94"
-      },
-      "1.5": {
-        "Plus de": "1.195",
-        "Moins de": "3.72"
-      },
-      "2": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
-      },
-      "3": {
-        "Plus de": "2.26",
-        "Moins de": "1.51"
-      },
-      "3.5": {
-        "Plus de": "2.875",
-        "Moins de": "1.32"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.76",
-      "1 (0)": "1.9",
-      "1 (-1)": "4.45",
-      "2 (-1)": "3.9",
-      "1 (+1)": "1.178",
-      "2 (+1)": "1.137",
-      "1 (-1.5)": "5.4",
-      "2 (-1.5)": "4.8",
-      "1 (+1.5)": "1.114",
-      "2 (+1.5)": "1.087"
-    }
-  },
-  {
-    "bookmaker": "africa-bizbet",
-    "equipe_1": "AS Elfen Saitama (Femmes)",
-    "equipe_2": "MyNavi Sendai (Femmes)",
-    "1X2": {
-      "V1": "2.46",
-      "V2": "2.52",
-      "X": "3.14"
-    },
-    "Total_2.5": {
-      "Plus de": "1.99",
-      "Moins de": "1.7"
-    },
-    "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
-    "statut": "ok",
-    "debut": "2026-10-21T04:00:00+00:00",
-    "competition": "Japon. WE Ligue. Femmes",
-    "competition_en": "Japan. WE League. Women",
-    "competition_id": 2292019,
-    "equipe_1_en": "AS Elfen Saitama (Women)",
-    "equipe_2_en": "MyNavi Sendai (Women)",
-    "Double_Chance": {
-      "12": "1.25",
-      "1X": "1.38",
-      "2X": "1.4"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.7",
-        "Plus de": "1.99"
-      },
-      "1.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "2": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
-      },
-      "3": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      },
-      "3.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.81",
-      "2 (0)": "1.85",
-      "1 (-1)": "4.25",
-      "2 (-1)": "4.45",
-      "1 (+1)": "1.137",
-      "2 (+1)": "1.149",
-      "1 (-1.5)": "5.2",
-      "2 (-1.5)": "5.4",
-      "1 (+1.5)": "1.087",
-      "2 (+1.5)": "1.095"
+      "2 (+2.5)": "1.692",
+      "1 (-2.5)": "2.356",
+      "1 (-1.5)": "1.55",
+      "2 (+1.5)": "2.49",
+      "1 (-2)": "1.79",
+      "2 (+2)": "1.94",
+      "1 (-3)": "3.04",
+      "2 (+3)": "1.3",
+      "1 (-3.5)": "3.58",
+      "2 (+3.5)": "1.21"
     }
   },
   {
@@ -1312,15 +1181,15 @@
     "equipe_2": "Songkhla",
     "1X2": {
       "V2": "1.22",
-      "X": "5.15",
-      "V1": "10.4"
+      "X": "5.2",
+      "V1": "10.2"
     },
     "Total_2.5": {
       "Plus de": "1.51",
       "Moins de": "2.33"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T08:00:00+00:00",
     "competition": "Coupe de Thaïlande",
@@ -1330,12 +1199,12 @@
     "equipe_2_en": "Songkhla",
     "Double_Chance": {
       "2X": "1.02",
-      "12": "1.079",
+      "12": "1.077",
       "1X": "3.4"
     },
     "BTTS": {
-      "Non": "1.726",
-      "Oui": "1.96"
+      "Non": "1.736",
+      "Oui": "1.95"
     },
     "Totals": {
       "3.5": {
@@ -1362,8 +1231,8 @@
     "Handicap": {
       "2 (-1.5)": "1.7",
       "1 (+1.5)": "1.98",
-      "1 (0)": "7.8",
-      "2 (0)": "1.024",
+      "1 (0)": "7.7",
+      "2 (0)": "1.025",
       "2 (-1)": "1.33",
       "1 (+1)": "2.83",
       "2 (-2)": "2.12",
@@ -1386,7 +1255,7 @@
       "Moins de": "2.52"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T08:00:00+00:00",
     "competition": "Coupe de Thaïlande",
@@ -1443,16 +1312,16 @@
     "equipe_1": "Bali United Pusam",
     "equipe_2": "Garuda Yaksa",
     "1X2": {
-      "V1": "1.43",
-      "X": "4.33",
-      "V2": "5.59"
+      "V1": "1.42",
+      "X": "4.4",
+      "V2": "5.65"
     },
     "Total_2.5": {
-      "Plus de": "1.44",
-      "Moins de": "2.43"
+      "Plus de": "1.43",
+      "Moins de": "2.46"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T08:30:00+00:00",
     "competition": "Indonésie. Super Ligue",
@@ -1461,47 +1330,108 @@
     "equipe_1_en": "Bali United Pusam",
     "equipe_2_en": "Garuda Yaksa",
     "Double_Chance": {
-      "1X": "1.07",
-      "12": "1.123",
-      "2X": "2.4"
+      "1X": "1.068",
+      "12": "1.119",
+      "2X": "2.43"
     },
     "BTTS": {
-      "Oui": "1.57",
-      "Non": "2.203"
+      "Oui": "1.56",
+      "Non": "2.224"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.58",
-        "Plus de": "2.18"
+        "Moins de": "1.61",
+        "Plus de": "2.13"
       },
       "2.5": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
+        "Plus de": "1.43",
+        "Moins de": "2.46"
       },
       "3": {
-        "Plus de": "1.71",
-        "Moins de": "1.92"
+        "Plus de": "1.68",
+        "Moins de": "1.96"
       },
       "4": {
-        "Plus de": "3.04",
-        "Moins de": "1.29"
+        "Plus de": "2.92",
+        "Moins de": "1.31"
       },
       "4.5": {
-        "Plus de": "3.58",
-        "Moins de": "1.21"
+        "Plus de": "3.5",
+        "Moins de": "1.22"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.56",
-      "1 (-1.5)": "2.21",
-      "1 (0)": "1.149",
-      "2 (0)": "4.25",
-      "1 (-1)": "1.71",
-      "2 (+1)": "1.92",
+      "2 (+1.5)": "1.57",
+      "1 (-1.5)": "2.19",
+      "1 (0)": "1.148",
+      "2 (0)": "4.3",
+      "1 (-1)": "1.69",
+      "2 (+1)": "1.95",
       "1 (-2)": "3.14",
       "2 (+2)": "1.27",
-      "1 (-2.5)": "3.85",
-      "2 (+2.5)": "1.182"
+      "1 (-2.5)": "3.8",
+      "2 (+2.5)": "1.188"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Shakhter Karagandy II",
+    "equipe_2": "Okzhetpes II",
+    "1X2": {
+      "V1": "1.46",
+      "V2": "4.525",
+      "X": "4.88"
+    },
+    "Total_2.5": {
+      "Plus de": "1.21",
+      "Moins de": "3.8"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
+    "statut": "ok",
+    "debut": "2026-10-21T09:00:00+00:00",
+    "competition": "Kazakhstan. Ligue 2",
+    "competition_en": "Kazakhstan. League 2",
+    "competition_id": 1217107,
+    "equipe_1_en": "Shakhter Karagandy II",
+    "equipe_2_en": "Okzhetpes II",
+    "Double_Chance": {
+      "1X": "1.12",
+      "2X": "2.3"
+    },
+    "BTTS": {
+      "Oui": "1.3",
+      "Non": "3.1"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.62",
+        "Moins de": "2.1"
+      },
+      "2.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.8"
+      },
+      "3": {
+        "Plus de": "1.31",
+        "Moins de": "3.06"
+      },
+      "4": {
+        "Plus de": "2",
+        "Moins de": "1.69"
+      },
+      "4.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.45"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.54",
+      "1 (-1.5)": "2.25",
+      "1 (0)": "1.22",
+      "2 (0)": "3.63",
+      "1 (-1)": "1.79",
+      "2 (+1)": "1.87"
     }
   },
   {
@@ -1518,7 +1448,7 @@
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T09:00:00+00:00",
     "competition": "Kazakhstan. Ligue 2",
@@ -1565,16 +1495,16 @@
     "equipe_1": "Avispa Fukuoka",
     "equipe_2": "Gamba Osaka",
     "1X2": {
-      "V1": "2.587",
-      "V2": "2.71",
-      "X": "3.425"
+      "V1": "2.595",
+      "V2": "2.729",
+      "X": "3.385"
     },
     "Total_2.5": {
-      "Plus de": "1.931",
-      "Moins de": "1.89"
+      "Plus de": "2.012",
+      "Moins de": "1.818"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -1583,47 +1513,47 @@
     "equipe_1_en": "Avispa Fukuoka",
     "equipe_2_en": "Gamba Osaka",
     "Double_Chance": {
-      "12": "1.314",
-      "1X": "1.463",
-      "2X": "1.501"
+      "12": "1.32",
+      "1X": "1.457",
+      "2X": "1.498"
     },
     "BTTS": {
-      "Oui": "1.68",
-      "Non": "2.06"
+      "Oui": "1.73",
+      "Non": "1.996"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.89",
-        "Plus de": "1.931"
+        "Moins de": "1.818",
+        "Plus de": "2.012"
       },
       "1.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
+        "Plus de": "1.27",
+        "Moins de": "3.14"
       },
       "2": {
-        "Plus de": "1.4",
-        "Moins de": "2.59"
+        "Plus de": "1.45",
+        "Moins de": "2.44"
       },
       "3": {
-        "Plus de": "2.53",
-        "Moins de": "1.42"
+        "Plus de": "2.7",
+        "Moins de": "1.37"
       },
       "3.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.27"
+        "Plus de": "3.34",
+        "Moins de": "1.24"
       }
     },
     "Handicap": {
       "1 (0)": "1.865",
       "2 (0)": "1.957",
-      "1 (-1)": "4.15",
-      "2 (-1)": "4.45",
-      "1 (+1)": "1.135",
-      "2 (+1)": "1.156",
-      "1 (-1.5)": "5.15",
-      "2 (-1.5)": "5.45",
-      "1 (+1.5)": "1.084",
-      "2 (+1.5)": "1.098"
+      "1 (-1)": "4.2",
+      "2 (-1)": "4.6",
+      "1 (+1)": "1.127",
+      "2 (+1)": "1.152",
+      "1 (-1.5)": "5.2",
+      "2 (-1.5)": "5.6",
+      "1 (+1.5)": "1.079",
+      "2 (+1.5)": "1.095"
     }
   },
   {
@@ -1640,7 +1570,7 @@
       "Moins de": "1.778"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -1697,16 +1627,16 @@
     "equipe_1": "Kawasaki Frontale",
     "equipe_2": "Vissel Kobe",
     "1X2": {
-      "V1": "2.34",
-      "V2": "2.853",
-      "X": "3.715"
+      "V1": "2.455",
+      "V2": "2.742",
+      "X": "3.635"
     },
     "Total_2.5": {
-      "Plus de": "1.655",
-      "Moins de": "2.258"
+      "Plus de": "1.677",
+      "Moins de": "2.219"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -1715,9 +1645,9 @@
     "equipe_1_en": "Kawasaki Frontale",
     "equipe_2_en": "Vissel Kobe",
     "Double_Chance": {
-      "12": "1.276",
-      "1X": "1.424",
-      "2X": "1.599"
+      "12": "1.286",
+      "1X": "1.453",
+      "2X": "1.55"
     },
     "BTTS": {
       "Oui": "1.52",
@@ -1725,37 +1655,37 @@
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.655",
-        "Moins de": "2.258"
+        "Plus de": "1.677",
+        "Moins de": "2.219"
       },
       "1.5": {
-        "Plus de": "1.158",
-        "Moins de": "4.15"
+        "Plus de": "1.163",
+        "Moins de": "4.1"
       },
       "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.34"
+        "Plus de": "1.26",
+        "Moins de": "3.26"
       },
       "3": {
-        "Plus de": "1.952",
-        "Moins de": "1.7"
+        "Plus de": "1.98",
+        "Moins de": "1.68"
       },
       "3.5": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
+        "Plus de": "2.46",
+        "Moins de": "1.43"
       }
     },
     "Handicap": {
-      "1 (0)": "1.743",
-      "2 (0)": "2.112",
-      "1 (-1)": "3.28",
-      "2 (-1)": "4.4",
-      "1 (+1)": "1.14",
-      "2 (+1)": "1.25",
-      "1 (-1.5)": "4.05",
-      "2 (-1.5)": "5.15",
-      "1 (+1.5)": "1.097",
-      "2 (+1.5)": "1.166"
+      "1 (0)": "1.817",
+      "2 (0)": "2.012",
+      "1 (-1)": "3.5",
+      "2 (-1)": "4.15",
+      "1 (+1)": "1.158",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.3",
+      "2 (-1.5)": "4.9",
+      "1 (+1.5)": "1.109",
+      "2 (+1.5)": "1.147"
     }
   },
   {
@@ -1772,7 +1702,7 @@
       "Moins de": "1.996"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -1829,16 +1759,16 @@
     "equipe_1": "Nagoya Grampus",
     "equipe_2": "Cerezo Osaka",
     "1X2": {
-      "V1": "2.391",
-      "V2": "2.853",
-      "X": "3.59"
+      "V1": "2.278",
+      "V2": "3.015",
+      "X": "3.61"
     },
     "Total_2.5": {
       "Plus de": "1.688",
       "Moins de": "2.199"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -1847,9 +1777,9 @@
     "equipe_1_en": "Nagoya Grampus",
     "equipe_2_en": "Cerezo Osaka",
     "Double_Chance": {
-      "12": "1.292",
-      "1X": "1.424",
-      "2X": "1.576"
+      "12": "1.289",
+      "1X": "1.386",
+      "2X": "1.629"
     },
     "BTTS": {
       "Oui": "1.53",
@@ -1870,7 +1800,7 @@
       },
       "3": {
         "Plus de": "2",
-        "Moins de": "1.666"
+        "Moins de": "1.67"
       },
       "3.5": {
         "Plus de": "2.49",
@@ -1878,16 +1808,16 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.764",
-      "2 (0)": "2.082",
-      "1 (-1)": "3.34",
-      "2 (-1)": "4.35",
-      "1 (+1)": "1.142",
-      "2 (+1)": "1.24",
-      "1 (-1.5)": "4.15",
-      "2 (-1.5)": "5.15",
-      "1 (+1.5)": "1.098",
-      "2 (+1.5)": "1.157"
+      "1 (0)": "1.683",
+      "2 (0)": "2.207",
+      "1 (-1)": "3.14",
+      "2 (-1)": "4.75",
+      "1 (+1)": "1.119",
+      "2 (+1)": "1.27",
+      "1 (-1.5)": "3.88",
+      "2 (-1.5)": "5.5",
+      "1 (+1.5)": "1.082",
+      "2 (+1.5)": "1.18"
     }
   },
   {
@@ -1904,7 +1834,7 @@
       "Moins de": "1.727"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -1970,7 +1900,7 @@
       "Moins de": "2.052"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -2027,16 +1957,16 @@
     "equipe_1": "V-Varen Nagasaki",
     "equipe_2": "Sanfrecce Hiroshima",
     "1X2": {
-      "V2": "1.479",
-      "X": "4.825",
-      "V1": "6.11"
+      "V2": "1.447",
+      "X": "4.925",
+      "V1": "6.51"
     },
     "Total_2.5": {
-      "Plus de": "1.583",
-      "Moins de": "2.407"
+      "Plus de": "1.603",
+      "Moins de": "2.362"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -2045,47 +1975,47 @@
     "equipe_1_en": "V-Varen Nagasaki",
     "equipe_2_en": "Sanfrecce Hiroshima",
     "Double_Chance": {
-      "2X": "1.125",
-      "12": "1.183",
-      "1X": "2.657"
+      "2X": "1.106",
+      "12": "1.177",
+      "1X": "2.764"
     },
     "BTTS": {
-      "Oui": "1.66",
-      "Non": "2.09"
+      "Oui": "1.72",
+      "Non": "2.007"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.583",
-        "Moins de": "2.407"
+        "Plus de": "1.603",
+        "Moins de": "2.362"
       },
       "1.5": {
-        "Plus de": "1.116",
-        "Moins de": "4.8"
+        "Plus de": "1.125",
+        "Moins de": "4.65"
       },
       "2": {
-        "Plus de": "1.183",
-        "Moins de": "3.84"
+        "Plus de": "1.197",
+        "Moins de": "3.7"
       },
       "3": {
-        "Plus de": "1.83",
-        "Moins de": "1.81"
+        "Plus de": "1.87",
+        "Moins de": "1.77"
       },
       "3.5": {
-        "Plus de": "2.4",
-        "Moins de": "1.53"
+        "Plus de": "2.45",
+        "Moins de": "1.51"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.623",
-      "2 (-1.5)": "2.319",
-      "1 (0)": "4.55",
-      "2 (0)": "1.131",
-      "2 (-1)": "1.727",
-      "1 (+1)": "2.02",
-      "2 (-2)": "3.28",
-      "1 (+2)": "1.25",
-      "2 (-2.5)": "4",
-      "1 (+2.5)": "1.168"
+      "1 (+1.5)": "1.667",
+      "2 (-1.5)": "2.236",
+      "1 (0)": "4.9",
+      "2 (0)": "1.109",
+      "2 (-1)": "1.666",
+      "1 (+1)": "2.11",
+      "2 (-2)": "3.08",
+      "1 (+2)": "1.28",
+      "2 (-2.5)": "3.84",
+      "1 (+2.5)": "1.183"
     }
   },
   {
@@ -2093,16 +2023,16 @@
     "equipe_1": "Yokohama F-Marinos",
     "equipe_2": "Tokyo Verdy",
     "1X2": {
-      "V1": "1.805",
-      "X": "3.585",
-      "V2": "4.665"
+      "V1": "1.867",
+      "X": "3.445",
+      "V2": "4.51"
     },
     "Total_2.5": {
-      "Plus de": "2.123",
-      "Moins de": "1.735"
+      "Plus de": "2.199",
+      "Moins de": "1.688"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -2111,47 +2041,47 @@
     "equipe_1_en": "Yokohama F. Marinos",
     "equipe_2_en": "Tokyo Verdy",
     "Double_Chance": {
-      "1X": "1.193",
-      "12": "1.292",
-      "2X": "2.006"
+      "1X": "1.203",
+      "12": "1.311",
+      "2X": "1.934"
     },
     "BTTS": {
-      "Non": "1.781",
-      "Oui": "1.93"
+      "Non": "1.761",
+      "Oui": "1.95"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.735",
-        "Plus de": "2.123"
+        "Moins de": "1.688",
+        "Plus de": "2.199"
       },
       "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
+        "Plus de": "1.33",
+        "Moins de": "2.83"
       },
       "2": {
-        "Plus de": "1.53",
-        "Moins de": "2.24"
+        "Plus de": "1.57",
+        "Moins de": "2.16"
       },
       "3": {
-        "Plus de": "2.97",
-        "Moins de": "1.31"
+        "Plus de": "3.125",
+        "Moins de": "1.285"
       },
       "3.5": {
-        "Plus de": "3.68",
-        "Moins de": "1.2"
+        "Plus de": "3.84",
+        "Moins de": "1.183"
       }
     },
     "Handicap": {
-      "1 (0)": "1.26",
-      "2 (0)": "3.2",
-      "1 (-1)": "2.45",
-      "2 (-1)": "7.6",
-      "1 (+1)": "1.04",
-      "2 (+1)": "1.5",
-      "1 (-1.5)": "3.62",
-      "2 (-1.5)": "8.7",
+      "1 (0)": "1.313",
+      "2 (0)": "3.495",
+      "1 (-1)": "2.6",
+      "2 (-1)": "8.2",
+      "1 (+1)": "1.03",
+      "2 (+1)": "1.45",
+      "1 (-1.5)": "3.28",
+      "2 (-1.5)": "9.4",
       "1 (+1.5)": "1.02",
-      "2 (+1.5)": "1.297"
+      "2 (+1.5)": "1.25"
     }
   },
   {
@@ -2159,16 +2089,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.822",
-      "V2": "2.326",
-      "X": "11.1"
+      "V1": "1.843",
+      "V2": "2.294",
+      "X": "11"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -2179,41 +2109,41 @@
     "Double_Chance": {
       "12": "1.08",
       "1X": "1.49",
-      "2X": "1.87"
+      "2X": "1.88"
     },
     "Totals": {
       "27.5": {
-        "Plus de": "1.804",
-        "Moins de": "2.007"
+        "Plus de": "1.852",
+        "Moins de": "1.95"
       },
       "25.5": {
-        "Plus de": "1.441",
-        "Moins de": "2.789"
+        "Plus de": "1.471",
+        "Moins de": "2.681"
       },
       "26.5": {
-        "Plus de": "1.603",
-        "Moins de": "2.331"
+        "Plus de": "1.642",
+        "Moins de": "2.254"
       },
       "28.5": {
-        "Plus de": "2.052",
-        "Moins de": "1.769"
+        "Plus de": "2.116",
+        "Moins de": "1.724"
       },
       "29.5": {
-        "Plus de": "2.384",
-        "Moins de": "1.579"
+        "Plus de": "2.473",
+        "Moins de": "1.543"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.77",
-      "1 (-1.5)": "2.051",
-      "1 (-1)": "1.92",
-      "2 (-1)": "2.604",
-      "1 (+1)": "1.496",
-      "2 (+1)": "1.881",
-      "1 (-2)": "2.235",
-      "2 (+2)": "1.652",
-      "1 (-2.5)": "2.39",
-      "2 (+2.5)": "1.577"
+      "2 (+1.5)": "1.749",
+      "1 (-1.5)": "2.08",
+      "1 (-1)": "1.945",
+      "2 (-1)": "2.561",
+      "1 (+1)": "1.51",
+      "2 (+1)": "1.857",
+      "1 (-2)": "2.273",
+      "2 (+2)": "1.632",
+      "1 (-2.5)": "2.431",
+      "2 (+2.5)": "1.56"
     }
   },
   {
@@ -2221,16 +2151,16 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "2.01",
-      "V2": "2.067",
-      "X": "10.4"
+      "V2": "2.021",
+      "V1": "2.056",
+      "X": "10.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:00:00+00:00",
     "competition": "Championnat du Japon",
@@ -2239,38 +2169,38 @@
     "equipe_1_en": "Home (Special bets)",
     "equipe_2_en": "Away (Special bets)",
     "Totals": {
-      "25.5": {
-        "Moins de": "1.807",
-        "Plus de": "2.003"
+      "24.5": {
+        "Plus de": "1.814",
+        "Moins de": "1.995"
+      },
+      "22.5": {
+        "Plus de": "1.43",
+        "Moins de": "2.831"
       },
       "23.5": {
-        "Plus de": "1.553",
-        "Moins de": "2.446"
+        "Plus de": "1.601",
+        "Moins de": "2.337"
       },
-      "24.5": {
-        "Plus de": "1.754",
-        "Moins de": "2.072"
+      "25.5": {
+        "Plus de": "2.082",
+        "Moins de": "1.747"
       },
       "26.5": {
-        "Plus de": "2.338",
-        "Moins de": "1.6"
-      },
-      "27.5": {
-        "Plus de": "2.801",
-        "Moins de": "1.438"
+        "Plus de": "2.449",
+        "Moins de": "1.552"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.593",
-      "1 (-1.5)": "2.354",
-      "1 (-1)": "2.192",
-      "2 (-1)": "2.267",
-      "1 (+1)": "1.635",
-      "2 (+1)": "1.676",
-      "1 (-2)": "2.65",
-      "2 (+2)": "1.481",
-      "1 (-2.5)": "2.839",
-      "2 (+2.5)": "1.428"
+      "1 (+1.5)": "1.585",
+      "2 (-1.5)": "2.372",
+      "1 (-1)": "2.255",
+      "2 (-1)": "2.208",
+      "1 (+1)": "1.667",
+      "2 (+1)": "1.642",
+      "2 (-2)": "2.676",
+      "1 (+2)": "1.473",
+      "2 (-2.5)": "2.868",
+      "1 (+2.5)": "1.421"
     }
   },
   {
@@ -2278,16 +2208,16 @@
     "equipe_1": "Urawa Red Diamonds",
     "equipe_2": "JEF United Ichihara Chiba",
     "1X2": {
-      "V1": "1.694",
-      "X": "3.94",
-      "V2": "4.925"
+      "V1": "1.653",
+      "X": "4.045",
+      "V2": "5.13"
     },
     "Total_2.5": {
-      "Plus de": "1.851",
-      "Moins de": "1.973"
+      "Plus de": "1.809",
+      "Moins de": "2.023"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T10:30:00+00:00",
     "competition": "Championnat du Japon",
@@ -2296,47 +2226,47 @@
     "equipe_1_en": "Urawa Red Diamonds",
     "equipe_2_en": "JEF United Ichihara Chiba",
     "Double_Chance": {
-      "1X": "1.177",
-      "12": "1.252",
-      "2X": "2.164"
+      "1X": "1.166",
+      "12": "1.242",
+      "2X": "2.234"
     },
     "BTTS": {
-      "Oui": "1.78",
-      "Non": "1.926"
+      "Oui": "1.77",
+      "Non": "1.945"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.851",
-        "Moins de": "1.973"
+        "Plus de": "1.809",
+        "Moins de": "2.023"
       },
       "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
+        "Plus de": "1.21",
+        "Moins de": "3.58"
       },
       "2": {
-        "Plus de": "1.36",
-        "Moins de": "2.74"
+        "Plus de": "1.33",
+        "Moins de": "2.875"
       },
       "3": {
-        "Plus de": "2.33",
-        "Moins de": "1.49"
+        "Plus de": "2.26",
+        "Moins de": "1.52"
       },
       "3.5": {
-        "Plus de": "2.92",
-        "Moins de": "1.31"
+        "Plus de": "2.83",
+        "Moins de": "1.33"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.396",
-      "1 (-1.5)": "3.02",
-      "1 (0)": "1.23",
-      "2 (0)": "3.42",
-      "1 (-1)": "2.15",
-      "2 (+1)": "1.64",
-      "1 (-2)": "4.65",
-      "2 (+2)": "1.125",
-      "1 (-2.5)": "5.4",
-      "2 (+2.5)": "1.086"
+      "2 (+1.5)": "1.453",
+      "1 (-1.5)": "2.787",
+      "1 (0)": "1.21",
+      "2 (0)": "3.58",
+      "1 (-1)": "2.06",
+      "2 (+1)": "1.7",
+      "1 (-2)": "4.3",
+      "2 (+2)": "1.145",
+      "1 (-2.5)": "5.1",
+      "2 (+2.5)": "1.1"
     }
   },
   {
@@ -2344,16 +2274,16 @@
     "equipe_1": "Como U19",
     "equipe_2": "Manchester United U19",
     "1X2": {
-      "V2": "2.2",
-      "V1": "2.732",
-      "X": "3.5"
+      "V2": "2.08",
+      "V1": "2.916",
+      "X": "3.54"
     },
     "Total_2.5": {
-      "Plus de": "1.39",
-      "Moins de": "2.59"
+      "Plus de": "1.38",
+      "Moins de": "2.625"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T11:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2362,30 +2292,30 @@
     "equipe_1_en": "Como U19",
     "equipe_2_en": "Manchester United U19",
     "Double_Chance": {
-      "12": "1.21",
-      "2X": "1.35",
-      "1X": "1.52"
+      "12": "1.198",
+      "2X": "1.31",
+      "1X": "1.59"
     },
     "BTTS": {
-      "Oui": "1.363",
-      "Non": "2.843"
+      "Oui": "1.36",
+      "Non": "2.854"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.68",
-        "Plus de": "2.02"
+        "Moins de": "1.7",
+        "Plus de": "1.99"
       },
       "2.5": {
-        "Plus de": "1.39",
-        "Moins de": "2.59"
+        "Plus de": "1.38",
+        "Moins de": "2.625"
       },
       "3": {
-        "Plus de": "1.6",
-        "Moins de": "2.08"
+        "Plus de": "1.58",
+        "Moins de": "2.12"
       },
       "4": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
+        "Plus de": "2.66",
+        "Moins de": "1.37"
       },
       "4.5": {
         "Plus de": "3.2",
@@ -2393,16 +2323,16 @@
       }
     },
     "Handicap": {
-      "2 (0)": "1.66",
-      "1 (0)": "2.03",
-      "1 (-1)": "4.3",
-      "2 (-1)": "3.14",
-      "1 (+1)": "1.27",
-      "2 (+1)": "1.147",
-      "1 (-1.5)": "5.05",
-      "2 (-1.5)": "3.86",
-      "1 (+1.5)": "1.181",
-      "2 (+1.5)": "1.103"
+      "2 (0)": "1.58",
+      "1 (0)": "2.17",
+      "1 (-1)": "4.7",
+      "2 (-1)": "2.92",
+      "1 (+1)": "1.31",
+      "2 (+1)": "1.122",
+      "1 (-1.5)": "5.45",
+      "2 (-1.5)": "3.5",
+      "1 (+1.5)": "1.22",
+      "2 (+1.5)": "1.085"
     }
   },
   {
@@ -2410,16 +2340,16 @@
     "equipe_1": "Lille OSC U19",
     "equipe_2": "Galatasaray U19",
     "1X2": {
-      "V1": "1.54",
-      "X": "4.15",
-      "V2": "4.635"
+      "V1": "1.57",
+      "X": "4.1",
+      "V2": "4.435"
     },
     "Total_2.5": {
       "Plus de": "1.33",
       "Moins de": "2.83"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T12:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2428,9 +2358,9 @@
     "equipe_1_en": "Lille OSC U19",
     "equipe_2_en": "Galatasaray U19",
     "Double_Chance": {
-      "1X": "1.114",
-      "12": "1.141",
-      "2X": "2.18"
+      "1X": "1.127",
+      "12": "1.145",
+      "2X": "2.12"
     },
     "BTTS": {
       "Oui": "1.4",
@@ -2446,12 +2376,12 @@
         "Moins de": "2.83"
       },
       "3": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
+        "Plus de": "1.5",
+        "Moins de": "2.28"
       },
       "4": {
-        "Plus de": "2.43",
-        "Moins de": "1.44"
+        "Plus de": "2.46",
+        "Moins de": "1.43"
       },
       "4.5": {
         "Plus de": "2.97",
@@ -2459,16 +2389,16 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.47",
-      "1 (-1.5)": "2.35",
-      "1 (0)": "1.21",
-      "2 (0)": "3.58",
-      "1 (-1)": "1.88",
-      "2 (+1)": "1.78",
-      "1 (-2)": "3.5",
-      "2 (+2)": "1.22",
-      "1 (-2.5)": "4.2",
-      "2 (+2.5)": "1.154"
+      "2 (+1.5)": "1.44",
+      "1 (-1.5)": "2.43",
+      "1 (0)": "1.23",
+      "2 (0)": "3.42",
+      "1 (-1)": "1.94",
+      "2 (+1)": "1.727",
+      "1 (-2)": "3.68",
+      "2 (+2)": "1.2",
+      "1 (-2.5)": "4.35",
+      "2 (+2.5)": "1.142"
     }
   },
   {
@@ -2485,7 +2415,7 @@
       "Moins de": "3.42"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T12:00:00+00:00",
     "competition": "Angleterre U21. Development League",
@@ -2551,7 +2481,7 @@
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T13:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2608,16 +2538,16 @@
     "equipe_1": "Club Bruges U19",
     "equipe_2": "RC Lens U19",
     "1X2": {
-      "V1": "1.67",
-      "X": "3.78",
-      "V2": "4.135"
+      "V1": "1.64",
+      "X": "3.9",
+      "V2": "4.18"
     },
     "Total_2.5": {
-      "Plus de": "1.39",
-      "Moins de": "2.59"
+      "Plus de": "1.333",
+      "Moins de": "2.81"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T13:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2626,47 +2556,47 @@
     "equipe_1_en": "Club Brugge U19",
     "equipe_2_en": "RC Lens U19",
     "Double_Chance": {
-      "1X": "1.149",
-      "12": "1.173",
-      "2X": "1.96"
+      "1X": "1.145",
+      "12": "1.161",
+      "2X": "2"
     },
     "BTTS": {
-      "Oui": "1.43",
-      "Non": "2.592"
+      "Oui": "1.39",
+      "Non": "2.729"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.68",
-        "Plus de": "2.02"
+        "Moins de": "1.78",
+        "Plus de": "1.89"
       },
       "2.5": {
-        "Plus de": "1.39",
-        "Moins de": "2.59"
+        "Plus de": "1.333",
+        "Moins de": "2.81"
       },
       "3": {
-        "Plus de": "1.6",
-        "Moins de": "2.08"
+        "Plus de": "1.51",
+        "Moins de": "2.26"
       },
       "4": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
+        "Plus de": "2.43",
+        "Moins de": "1.44"
       },
       "4.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
+        "Plus de": "2.97",
+        "Moins de": "1.3"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.38",
-      "1 (-1.5)": "2.625",
-      "1 (0)": "1.28",
-      "2 (0)": "3.08",
-      "1 (-1)": "2.11",
-      "2 (+1)": "1.61",
-      "1 (-2)": "4.1",
-      "2 (+2)": "1.162",
-      "1 (-2.5)": "4.75",
-      "2 (+2.5)": "1.117"
+      "2 (+1.5)": "1.41",
+      "1 (-1.5)": "2.52",
+      "1 (0)": "1.27",
+      "2 (0)": "3.14",
+      "1 (-1)": "2.05",
+      "2 (+1)": "1.65",
+      "1 (-2)": "3.86",
+      "2 (+2)": "1.181",
+      "1 (-2.5)": "4.5",
+      "2 (+2.5)": "1.132"
     }
   },
   {
@@ -2674,16 +2604,16 @@
     "equipe_1": "Real Betis (19)",
     "equipe_2": "Feyenoord U19",
     "1X2": {
-      "V1": "1.6",
-      "X": "3.84",
-      "V2": "4.54"
+      "V1": "1.42",
+      "X": "4.3",
+      "V2": "5.9"
     },
     "Total_2.5": {
-      "Plus de": "1.41",
-      "Moins de": "2.52"
+      "Plus de": "1.3",
+      "Moins de": "2.97"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T13:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2692,47 +2622,47 @@
     "equipe_1_en": "Real Betis U19",
     "equipe_2_en": "Feyenoord U19",
     "Double_Chance": {
-      "1X": "1.12",
-      "12": "1.168",
-      "2X": "2.07"
+      "1X": "1.063",
+      "12": "1.13",
+      "2X": "2.45"
     },
     "BTTS": {
-      "Oui": "1.47",
-      "Non": "2.468"
+      "Oui": "1.44",
+      "Non": "2.561"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.65",
-        "Plus de": "2.06"
+        "Plus de": "1.81",
+        "Moins de": "1.86"
       },
       "2.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.52"
+        "Plus de": "1.3",
+        "Moins de": "2.97"
       },
       "3": {
-        "Plus de": "1.64",
-        "Moins de": "2.02"
+        "Plus de": "1.444",
+        "Moins de": "2.42"
       },
       "4": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
+        "Plus de": "2.26",
+        "Moins de": "1.51"
       },
       "4.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.24"
+        "Plus de": "2.74",
+        "Moins de": "1.35"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.42",
-      "1 (-1.5)": "2.49",
-      "1 (0)": "1.24",
-      "2 (0)": "3.34",
-      "1 (-1)": "1.99",
-      "2 (+1)": "1.69",
-      "1 (-2)": "3.78",
-      "2 (+2)": "1.189",
-      "1 (-2.5)": "4.45",
-      "2 (+2.5)": "1.136"
+      "2 (+1.5)": "1.63",
+      "1 (-1.5)": "2.03",
+      "1 (0)": "1.134",
+      "2 (0)": "4.5",
+      "1 (-1)": "1.65",
+      "2 (+1)": "2.05",
+      "1 (-2)": "2.78",
+      "2 (+2)": "1.34",
+      "1 (-2.5)": "3.28",
+      "2 (+2.5)": "1.25"
     }
   },
   {
@@ -2749,7 +2679,7 @@
       "Moins de": null
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T13:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2772,16 +2702,16 @@
         "Plus de": "2.17"
       },
       "3.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
+        "Plus de": "1.5",
+        "Moins de": "2.28"
       },
       "4": {
         "Plus de": "1.75",
         "Moins de": "1.88"
       },
       "5": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
+        "Plus de": "2.875",
+        "Moins de": "1.32"
       },
       "5.5": {
         "Plus de": "3.34",
@@ -2791,12 +2721,12 @@
     "Handicap": {
       "1 (-1.5)": "1.78",
       "2 (+1.5)": "1.84",
-      "1 (0)": "1.083",
-      "2 (0)": "5.5",
+      "1 (0)": "1.084",
+      "2 (0)": "5.45",
       "1 (-1)": "1.44",
       "2 (+1)": "2.43",
-      "1 (-2)": "2.26",
-      "2 (+2)": "1.533",
+      "1 (-2)": "2.27",
+      "2 (+2)": "1.53",
       "1 (-2.5)": "2.7",
       "2 (+2.5)": "1.36"
     }
@@ -2815,7 +2745,7 @@
       "Moins de": "3.8"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T14:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2872,16 +2802,16 @@
     "equipe_1": "Internazionale Milano U19",
     "equipe_2": "Shakhtar Donetsk U19",
     "1X2": {
-      "V1": "1.43",
-      "X": "4.25",
-      "V2": "5.84"
+      "V1": "1.44",
+      "X": "4.2",
+      "V2": "5.79"
     },
     "Total_2.5": {
-      "Plus de": "1.32",
-      "Moins de": "2.875"
+      "Plus de": "1.34",
+      "Moins de": "2.78"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T14:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2890,47 +2820,47 @@
     "equipe_1_en": "Internazionale Milano U19",
     "equipe_2_en": "Shakhtar Donetsk U19",
     "Double_Chance": {
-      "1X": "1.065",
-      "12": "1.134",
-      "2X": "2.42"
+      "1X": "1.067",
+      "12": "1.137",
+      "2X": "2.4"
     },
     "BTTS": {
-      "Oui": "1.44",
-      "Non": "2.561"
+      "Oui": "1.46",
+      "Non": "2.498"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.82",
-        "Plus de": "1.85"
+        "Moins de": "1.77",
+        "Plus de": "1.9"
       },
       "2.5": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
+        "Plus de": "1.34",
+        "Moins de": "2.78"
       },
       "3": {
-        "Plus de": "1.47",
-        "Moins de": "2.35"
+        "Plus de": "1.52",
+        "Moins de": "2.24"
       },
       "4": {
-        "Plus de": "2.35",
-        "Moins de": "1.47"
+        "Plus de": "2.49",
+        "Moins de": "1.42"
       },
       "4.5": {
-        "Plus de": "2.875",
-        "Moins de": "1.32"
+        "Plus de": "3.04",
+        "Moins de": "1.29"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.61",
-      "1 (-1.5)": "2.11",
-      "1 (0)": "1.136",
-      "2 (0)": "4.45",
-      "1 (-1)": "1.67",
-      "2 (+1)": "1.98",
-      "1 (-2)": "2.92",
-      "2 (+2)": "1.31",
-      "1 (-2.5)": "3.5",
-      "2 (+2.5)": "1.22"
+      "2 (+1.5)": "1.59",
+      "1 (-1.5)": "2.15",
+      "1 (0)": "1.138",
+      "2 (0)": "4.4",
+      "1 (-1)": "1.69",
+      "2 (+1)": "1.95",
+      "1 (-2)": "2.97",
+      "2 (+2)": "1.3",
+      "1 (-2.5)": "3.58",
+      "2 (+2.5)": "1.21"
     }
   },
   {
@@ -2938,16 +2868,16 @@
     "equipe_1": "Real Madrid U19",
     "equipe_2": "RB Leipzig U19",
     "1X2": {
-      "V1": "1.133",
-      "X": "6.4",
-      "V2": "12.7"
+      "V1": "1.127",
+      "X": "6.5",
+      "V2": "13"
     },
     "Total_2.5": {
       "Plus de": "1.22",
       "Moins de": "3.5"
     },
     "url": "https://africa-bizbet.com/fr/line/football",
-    "derniere_maj": "2026-10-21T03:27:04.635224+00:00",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
     "statut": "ok",
     "debut": "2026-10-21T14:00:00+00:00",
     "competition": "Ligue des jeunes de l'UEFA",
@@ -2957,17 +2887,17 @@
     "equipe_2_en": "RB Leipzig U19",
     "Double_Chance": {
       "1X": "1.03",
-      "12": "1.04",
-      "2X": "4.3"
+      "12": "1.038",
+      "2X": "4.35"
     },
     "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.104"
+      "Oui": "1.65",
+      "Non": "2.084"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.11"
+        "Plus de": "1.615",
+        "Moins de": "2.12"
       },
       "2.5": {
         "Plus de": "1.22",
@@ -2978,25 +2908,91 @@
         "Moins de": "2.92"
       },
       "4": {
-        "Plus de": "1.92",
-        "Moins de": "1.71"
+        "Plus de": "1.909",
+        "Moins de": "1.72"
       },
       "4.5": {
-        "Plus de": "2.35",
-        "Moins de": "1.47"
+        "Plus de": "2.33",
+        "Moins de": "1.48"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.61",
-      "1 (-2.5)": "2.11",
-      "1 (-1.5)": "1.47",
-      "2 (+1.5)": "2.35",
-      "1 (-2)": "1.71",
-      "2 (+2)": "1.92",
-      "1 (-3)": "2.83",
-      "2 (+3)": "1.33",
-      "1 (-3.5)": "3.34",
-      "2 (+3.5)": "1.24"
+      "2 (+2.5)": "1.63",
+      "1 (-2.5)": "2.08",
+      "1 (-1.5)": "1.45",
+      "2 (+1.5)": "2.41",
+      "1 (-2)": "1.68",
+      "2 (+2)": "1.96",
+      "1 (-3)": "2.74",
+      "2 (+3)": "1.35",
+      "1 (-3.5)": "3.28",
+      "2 (+3.5)": "1.25"
+    }
+  },
+  {
+    "bookmaker": "africa-bizbet",
+    "equipe_1": "Vanlose",
+    "equipe_2": "Nykobing",
+    "1X2": {
+      "V2": "1.49",
+      "X": "4.45",
+      "V1": "5.46"
+    },
+    "Total_2.5": {
+      "Plus de": "1.5",
+      "Moins de": "2.46"
+    },
+    "url": "https://africa-bizbet.com/fr/line/football",
+    "derniere_maj": "2026-10-21T06:33:24.338663+00:00",
+    "statut": "ok",
+    "debut": "2026-10-21T17:00:00+00:00",
+    "competition": "Coupe du Danemark",
+    "competition_en": "Denmark. Landspokal",
+    "competition_id": 90613,
+    "equipe_1_en": "Vanlose",
+    "equipe_2_en": "Nykobing",
+    "Double_Chance": {
+      "2X": "1.111",
+      "12": "1.162",
+      "1X": "2.44"
+    },
+    "BTTS": {
+      "Oui": "1.6",
+      "Non": "2.194"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.55",
+        "Plus de": "2.17"
+      },
+      "2.5": {
+        "Plus de": "1.5",
+        "Moins de": "2.46"
+      },
+      "3": {
+        "Plus de": "1.74",
+        "Moins de": "1.89"
+      },
+      "4": {
+        "Plus de": "3.05",
+        "Moins de": "1.285"
+      },
+      "4.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.53",
+      "2 (-1.5)": "2.21",
+      "1 (0)": "4.05",
+      "2 (0)": "1.164",
+      "2 (-1)": "1.78",
+      "1 (+1)": "1.94",
+      "2 (-2)": "3.2",
+      "1 (+2)": "1.26",
+      "2 (-2.5)": "3.86",
+      "1 (+2.5)": "1.181"
     }
   }
 ]
