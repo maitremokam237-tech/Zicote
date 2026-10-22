@@ -1,6 +1,66 @@
 [
   {
     "bookmaker": "betwinner",
+    "equipe_1": "Sbornaya Zaporizhzhia Oblast",
+    "equipe_2": "Syla Donbassa",
+    "1X2": {
+      "V2": "2.1",
+      "V1": "2.619",
+      "X": "3.98"
+    },
+    "Total_2.5": {
+      "Plus de": "1.35",
+      "Moins de": "2.82"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T12:00:00+00:00",
+    "competition": "Championnat amical des clubs",
+    "competition_en": "Friendly Club Tournament",
+    "competition_id": 1377703,
+    "equipe_1_en": "Sbornaya Zaporizhzhia Oblast",
+    "equipe_2_en": "Syla Donbassa",
+    "Double_Chance": {
+      "12": "1.15",
+      "2X": "1.37",
+      "1X": "1.56"
+    },
+    "BTTS": {
+      "Oui": "1.35",
+      "Non": "2.86"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.69",
+        "Plus de": "1.99"
+      },
+      "2.5": {
+        "Plus de": "1.35",
+        "Moins de": "2.82"
+      },
+      "3": {
+        "Plus de": "1.56",
+        "Moins de": "2.21"
+      },
+      "4": {
+        "Plus de": "2.76",
+        "Moins de": "1.37"
+      },
+      "4.5": {
+        "Plus de": "3.39",
+        "Moins de": "1.25"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.66",
+      "1 (0)": "2.04",
+      "2 (-1)": "3.18",
+      "1 (+1)": "1.28"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
     "equipe_1": "Kairat",
     "equipe_2": "Panathinaikos",
     "1X2": {
@@ -13,7 +73,7 @@
       "Moins de": "2.005"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T14:30:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -67,6 +127,68 @@
   },
   {
     "bookmaker": "betwinner",
+    "equipe_1": "à domicile",
+    "equipe_2": "à l'extérieur",
+    "1X2": {
+      "V1": "1.65",
+      "V2": "2.726",
+      "X": "7.9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T14:30:00+00:00",
+    "competition": "Ligue Conférence de l'UEFA",
+    "competition_en": "UEFA Conference League",
+    "competition_id": 2252762,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
+    "Double_Chance": {
+      "12": "1.05",
+      "1X": "1.41",
+      "2X": "2.14"
+    },
+    "Totals": {
+      "53.5": {
+        "Moins de": "1.823",
+        "Plus de": "1.984"
+      },
+      "51.5": {
+        "Plus de": "1.66",
+        "Moins de": "2.222"
+      },
+      "52.5": {
+        "Plus de": "1.81",
+        "Moins de": "2"
+      },
+      "54.5": {
+        "Plus de": "2.198",
+        "Moins de": "1.673"
+      },
+      "55.5": {
+        "Plus de": "2.467",
+        "Moins de": "1.545"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.839",
+      "1 (-2.5)": "1.965",
+      "1 (-1.5)": "1.794",
+      "2 (+1.5)": "2.02",
+      "1 (-2)": "1.875",
+      "2 (+2)": "1.926",
+      "1 (-3)": "2.075",
+      "2 (+3)": "1.752",
+      "1 (-3.5)": "2.177",
+      "2 (+3.5)": "1.685"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
     "equipe_1": "Ararat - Armenie",
     "equipe_2": "AZ Alkmaar",
     "1X2": {
@@ -79,7 +201,7 @@
       "Moins de": "2.42"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -145,7 +267,7 @@
       "Moins de": "2.31"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -211,7 +333,7 @@
       "Moins de": "2.374"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -277,7 +399,7 @@
       "Moins de": "2.265"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -343,7 +465,7 @@
       "Moins de": "2.036"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -409,7 +531,7 @@
       "Moins de": "3"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -475,7 +597,7 @@
       "Moins de": "2.47"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -541,7 +663,7 @@
       "Moins de": "2.159"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -607,7 +729,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -621,24 +743,24 @@
     },
     "Totals": {
       "55.5": {
-        "Moins de": "1.884",
-        "Plus de": "1.916"
+        "Moins de": "1.896",
+        "Plus de": "1.904"
       },
       "53.5": {
-        "Plus de": "1.616",
-        "Moins de": "2.305"
+        "Plus de": "1.606",
+        "Moins de": "2.325"
       },
       "54.5": {
-        "Plus de": "1.756",
-        "Moins de": "2.07"
+        "Plus de": "1.745",
+        "Moins de": "2.086"
       },
       "56.5": {
-        "Plus de": "2.11",
-        "Moins de": "1.728"
+        "Plus de": "2.094",
+        "Moins de": "1.739"
       },
       "57.5": {
-        "Plus de": "2.35",
-        "Moins de": "1.595"
+        "Plus de": "2.33",
+        "Moins de": "1.604"
       }
     },
     "Handicap": {
@@ -648,8 +770,8 @@
       "2 (-1)": "2.047",
       "1 (+1)": "1.772",
       "2 (+1)": "1.696",
-      "1 (-1.5)": "2.264",
-      "2 (-1.5)": "2.146",
+      "1 (-1.5)": "2.263",
+      "2 (-1.5)": "2.145",
       "1 (+1.5)": "1.705",
       "2 (+1.5)": "1.637"
     }
@@ -668,7 +790,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -725,7 +847,7 @@
       "Moins de": "2.222"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -782,16 +904,16 @@
     "equipe_1": "Getafe",
     "equipe_2": "Lugano",
     "1X2": {
-      "V1": "1.847",
-      "X": "3.59",
-      "V2": "4.615"
+      "V1": "1.918",
+      "X": "3.505",
+      "V2": "4.355"
     },
     "Total_2.5": {
-      "Plus de": "2.115",
-      "Moins de": "1.775"
+      "Plus de": "2.146",
+      "Moins de": "1.754"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -800,9 +922,9 @@
     "equipe_1_en": "Getafe",
     "equipe_2_en": "Lugano",
     "Double_Chance": {
-      "1X": "1.212",
-      "12": "1.31",
-      "2X": "1.998"
+      "1X": "1.231",
+      "12": "1.322",
+      "2X": "1.922"
     },
     "BTTS": {
       "Non": "1.813",
@@ -810,37 +932,37 @@
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.775",
-        "Plus de": "2.115"
+        "Moins de": "1.754",
+        "Plus de": "2.146"
       },
       "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "2.97"
+        "Plus de": "1.31",
+        "Moins de": "2.92"
       },
       "2": {
-        "Plus de": "1.51",
-        "Moins de": "2.29"
+        "Plus de": "1.53",
+        "Moins de": "2.24"
       },
       "3": {
-        "Plus de": "2.86",
-        "Moins de": "1.333"
+        "Plus de": "2.92",
+        "Moins de": "1.32"
       },
       "3.5": {
-        "Plus de": "3.5",
-        "Moins de": "1.22"
+        "Plus de": "3.58",
+        "Moins de": "1.21"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.28",
-      "1 (-1.5)": "3.1",
-      "1 (0)": "1.308",
-      "2 (0)": "3.68",
-      "1 (-1)": "2.48",
-      "2 (+1)": "1.49",
-      "1 (-2)": "5.7",
-      "2 (+2)": "1.076",
-      "1 (-2.5)": "6.55",
-      "2 (+2.5)": "1.05"
+      "1 (0)": "1.341",
+      "2 (0)": "3.44",
+      "1 (-1)": "2.63",
+      "2 (-1)": "8.5",
+      "1 (+1)": "1.012",
+      "2 (+1)": "1.44",
+      "1 (-1.5)": "3.28",
+      "2 (-1.5)": "10",
+      "1 (+1.5)": "1.02",
+      "2 (+1.5)": "1.25"
     }
   },
   {
@@ -857,7 +979,7 @@
       "Moins de": "1.93"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -923,7 +1045,7 @@
       "Moins de": "1.93"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -980,16 +1102,16 @@
     "equipe_1": "Jablonec",
     "equipe_2": "Brighton & Hove Albion",
     "1X2": {
-      "V2": "1.264",
-      "X": "6.17",
-      "V1": "12"
+      "V2": "1.242",
+      "X": "6.49",
+      "V1": "12.9"
     },
     "Total_2.5": {
-      "Plus de": "1.45",
-      "Moins de": "2.41"
+      "Plus de": "1.43",
+      "Moins de": "2.46"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -998,47 +1120,47 @@
     "equipe_1_en": "Jablonec",
     "equipe_2_en": "Brighton & Hove Albion",
     "Double_Chance": {
-      "2X": "1.036",
-      "12": "1.137",
-      "1X": "3.98"
+      "2X": "1.03",
+      "12": "1.126",
+      "1X": "4.22"
     },
     "BTTS": {
-      "Non": "1.803",
-      "Oui": "1.9"
+      "Non": "1.771",
+      "Oui": "1.94"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.662",
-        "Plus de": "2.302"
+        "Moins de": "1.683",
+        "Plus de": "2.261"
       },
       "2.5": {
-        "Plus de": "1.45",
-        "Moins de": "2.41"
+        "Plus de": "1.43",
+        "Moins de": "2.46"
       },
       "3": {
-        "Plus de": "1.727",
-        "Moins de": "1.92"
+        "Plus de": "1.69",
+        "Moins de": "1.97"
       },
       "4": {
-        "Plus de": "3.08",
-        "Moins de": "1.29"
+        "Plus de": "2.97",
+        "Moins de": "1.31"
       },
       "4.5": {
-        "Plus de": "3.7",
-        "Moins de": "1.198"
+        "Plus de": "3.58",
+        "Moins de": "1.21"
       }
     },
     "Handicap": {
-      "2 (-1.5)": "1.791",
-      "1 (+1.5)": "2.092",
-      "1 (0)": "8.2",
-      "2 (0)": "1.031",
-      "2 (-1)": "1.32",
-      "1 (+1)": "2.88",
-      "2 (-2)": "2.14",
-      "1 (+2)": "1.57",
-      "2 (-2.5)": "2.69",
-      "1 (+2.5)": "1.363"
+      "2 (-1.5)": "1.732",
+      "1 (+1.5)": "2.178",
+      "1 (0)": "8.6",
+      "2 (0)": "1.024",
+      "2 (-1)": "1.28",
+      "1 (+1)": "3.1",
+      "2 (-2)": "2.04",
+      "1 (+2)": "1.63",
+      "2 (-2.5)": "2.56",
+      "1 (+2.5)": "1.4"
     }
   },
   {
@@ -1046,16 +1168,16 @@
     "equipe_1": "Nordsjaelland",
     "equipe_2": "CSKA Sofia",
     "1X2": {
-      "V1": "1.428",
-      "X": "5.07",
-      "V2": "7.21"
+      "V1": "1.448",
+      "X": "4.955",
+      "V2": "6.94"
     },
     "Total_2.5": {
-      "Plus de": "1.46",
-      "Moins de": "2.375"
+      "Plus de": "1.47",
+      "Moins de": "2.35"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -1064,13 +1186,13 @@
     "equipe_1_en": "Nordsjaelland",
     "equipe_2_en": "CSKA Sofia",
     "Double_Chance": {
-      "1X": "1.099",
-      "12": "1.184",
-      "2X": "2.93"
+      "1X": "1.106",
+      "12": "1.19",
+      "2X": "2.847"
     },
     "BTTS": {
-      "Oui": "1.69",
-      "Non": "2.049"
+      "Oui": "1.67",
+      "Non": "2.079"
     },
     "Totals": {
       "3.5": {
@@ -1078,8 +1200,8 @@
         "Plus de": "2.364"
       },
       "2.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
+        "Plus de": "1.47",
+        "Moins de": "2.35"
       },
       "3": {
         "Plus de": "1.76",
@@ -1095,16 +1217,16 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.761",
-      "1 (-1.5)": "2.134",
-      "1 (0)": "1.1",
-      "2 (0)": "5.35",
-      "1 (-1)": "1.56",
-      "2 (+1)": "2.16",
-      "1 (-2)": "2.84",
-      "2 (+2)": "1.33",
-      "1 (-2.5)": "3.48",
-      "2 (+2.5)": "1.222"
+      "2 (+1.5)": "1.732",
+      "1 (-1.5)": "2.178",
+      "1 (0)": "1.107",
+      "2 (0)": "5.15",
+      "1 (-1)": "1.59",
+      "2 (+1)": "2.11",
+      "1 (-2)": "2.88",
+      "2 (+2)": "1.32",
+      "1 (-2.5)": "3.5",
+      "2 (+2.5)": "1.22"
     }
   },
   {
@@ -1121,7 +1243,7 @@
       "Moins de": "2.127"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -1187,7 +1309,7 @@
       "Moins de": "2.625"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -1253,7 +1375,7 @@
       "Moins de": "2.177"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T16:45:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -1307,6 +1429,63 @@
   },
   {
     "bookmaker": "betwinner",
+    "equipe_1": "Domicile (Paris spéciaux)",
+    "equipe_2": "Extérieur (Paris spéciaux)",
+    "1X2": {
+      "V1": "1.802",
+      "V2": "2.381",
+      "X": "10.9"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T16:45:00+00:00",
+    "competition": "Ligue Conférence de l'UEFA",
+    "competition_en": "UEFA Conference League",
+    "competition_id": 2252762,
+    "equipe_1_en": "Home (Special bets)",
+    "equipe_2_en": "Away (Special bets)",
+    "Totals": {
+      "26.5": {
+        "Moins de": "1.889",
+        "Plus de": "1.912"
+      },
+      "24.5": {
+        "Plus de": "1.503",
+        "Moins de": "2.581"
+      },
+      "25.5": {
+        "Plus de": "1.687",
+        "Moins de": "2.175"
+      },
+      "27.5": {
+        "Plus de": "2.203",
+        "Moins de": "1.67"
+      },
+      "28.5": {
+        "Plus de": "2.602",
+        "Moins de": "1.496"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.783",
+      "1 (-1.5)": "2.033",
+      "1 (-1)": "1.899",
+      "2 (-1)": "2.674",
+      "1 (+1)": "1.474",
+      "2 (+1)": "1.901",
+      "1 (-2)": "2.217",
+      "2 (+2)": "1.662",
+      "1 (-2.5)": "2.376",
+      "2 (+2.5)": "1.583"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
     "equipe_1": "AC Omonia",
     "equipe_2": "Benfica",
     "1X2": {
@@ -1319,7 +1498,7 @@
       "Moins de": "2.443"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1385,7 +1564,7 @@
       "Moins de": "2.44"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1451,7 +1630,7 @@
       "Moins de": "2.188"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1517,7 +1696,7 @@
       "Moins de": "2.395"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1574,16 +1753,16 @@
     "equipe_1": "Celtic",
     "equipe_2": "Celta de Vigo",
     "1X2": {
-      "V2": "2.603",
-      "V1": "2.743",
-      "X": "3.54"
+      "V2": "2.572",
+      "V1": "2.742",
+      "X": "3.6"
     },
     "Total_2.5": {
-      "Plus de": "1.848",
-      "Moins de": "2.041"
+      "Plus de": "1.778",
+      "Moins de": "2.134"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1592,47 +1771,47 @@
     "equipe_1_en": "Celtic",
     "equipe_2_en": "Celta",
     "Double_Chance": {
-      "12": "1.326",
+      "12": "1.318",
       "2X": "1.489",
-      "1X": "1.533"
+      "1X": "1.544"
     },
     "BTTS": {
-      "Oui": "1.61",
-      "Non": "2.2"
+      "Oui": "1.57",
+      "Non": "2.281"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.848",
-        "Moins de": "2.041"
+        "Plus de": "1.778",
+        "Moins de": "2.134"
       },
       "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.8"
+        "Plus de": "1.21",
+        "Moins de": "4.05"
       },
       "2": {
-        "Plus de": "1.37",
-        "Moins de": "2.99"
+        "Plus de": "1.33",
+        "Moins de": "3.2"
       },
       "3": {
-        "Plus de": "2.34",
-        "Moins de": "1.57"
+        "Plus de": "2.22",
+        "Moins de": "1.63"
       },
       "3.5": {
-        "Plus de": "2.94",
-        "Moins de": "1.36"
+        "Plus de": "2.77",
+        "Moins de": "1.4"
       }
     },
     "Handicap": {
       "2 (0)": "1.889",
       "1 (0)": "1.993",
-      "1 (-1)": "4.55",
-      "2 (-1)": "4.15",
-      "1 (+1)": "1.198",
-      "2 (+1)": "1.17",
-      "1 (-1.5)": "5.45",
-      "2 (-1.5)": "5.05",
-      "1 (+1.5)": "1.125",
-      "2 (+1.5)": "1.107"
+      "1 (-1)": "4.5",
+      "2 (-1)": "4.05",
+      "1 (+1)": "1.21",
+      "2 (+1)": "1.174",
+      "1 (-1.5)": "5.4",
+      "2 (-1.5)": "4.9",
+      "1 (+1.5)": "1.132",
+      "2 (+1.5)": "1.11"
     }
   },
   {
@@ -1649,7 +1828,7 @@
       "Moins de": "2.116"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1715,7 +1894,7 @@
       "Moins de": "2.363"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1781,7 +1960,7 @@
       "Moins de": "2.116"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1847,7 +2026,7 @@
       "Moins de": "2.53"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1913,7 +2092,7 @@
       "Moins de": "2.141"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1971,7 +2150,7 @@
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
       "V2": "1.8",
-      "V1": "2.348",
+      "V1": "2.347",
       "X": "11.6"
     },
     "Total_2.5": {
@@ -1979,7 +2158,7 @@
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -1989,36 +2168,36 @@
     "equipe_2_en": "Away (Special bets)",
     "Totals": {
       "30.5": {
-        "Moins de": "1.849",
-        "Plus de": "1.954"
+        "Moins de": "1.865",
+        "Plus de": "1.936"
       },
       "28.5": {
-        "Plus de": "1.554",
-        "Moins de": "2.445"
+        "Plus de": "1.542",
+        "Moins de": "2.474"
       },
       "29.5": {
-        "Plus de": "1.735",
-        "Moins de": "2.1"
+        "Plus de": "1.72",
+        "Moins de": "2.121"
       },
       "31.5": {
-        "Plus de": "2.239",
-        "Moins de": "1.65"
+        "Plus de": "2.214",
+        "Moins de": "1.664"
       },
       "32.5": {
-        "Plus de": "2.62",
-        "Moins de": "1.49"
+        "Plus de": "2.587",
+        "Moins de": "1.501"
       }
     },
     "Handicap": {
       "1 (+1.5)": "1.8",
       "2 (-1.5)": "2.011",
-      "1 (-1)": "2.622",
+      "1 (-1)": "2.621",
       "2 (-1)": "1.888",
       "1 (+1)": "1.912",
       "2 (+1)": "1.49",
-      "2 (-2)": "2.176",
-      "1 (+2)": "1.686",
-      "2 (-2.5)": "2.32",
+      "2 (-2)": "2.175",
+      "1 (+2)": "1.687",
+      "2 (-2.5)": "2.319",
       "1 (+2.5)": "1.609"
     }
   },
@@ -2027,16 +2206,16 @@
     "equipe_1": "AGF Aarhus",
     "equipe_2": "Egnatia",
     "1X2": {
-      "V1": "1.567",
-      "X": "4.305",
-      "V2": "6.02"
+      "V1": "1.514",
+      "X": "4.46",
+      "V2": "6.58"
     },
     "Total_2.5": {
-      "Plus de": "1.782",
-      "Moins de": "2.105"
+      "Plus de": "1.775",
+      "Moins de": "2.115"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2045,30 +2224,30 @@
     "equipe_1_en": "AGF Aarhus",
     "equipe_2_en": "Egnatia",
     "Double_Chance": {
-      "1X": "1.142",
-      "12": "1.235",
-      "2X": "2.477"
+      "1X": "1.118",
+      "12": "1.223",
+      "2X": "2.622"
     },
     "BTTS": {
-      "Oui": "1.8",
-      "Non": "1.905"
+      "Oui": "1.83",
+      "Non": "1.874"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.782",
-        "Moins de": "2.105"
+        "Plus de": "1.775",
+        "Moins de": "2.115"
       },
       "1.5": {
-        "Plus de": "1.179",
-        "Moins de": "3.88"
+        "Plus de": "1.178",
+        "Moins de": "3.9"
       },
       "2": {
         "Plus de": "1.3",
         "Moins de": "3.02"
       },
       "3": {
-        "Plus de": "2.18",
-        "Moins de": "1.56"
+        "Plus de": "2.16",
+        "Moins de": "1.57"
       },
       "3.5": {
         "Plus de": "2.74",
@@ -2076,16 +2255,16 @@
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.554",
-      "1 (-1.5)": "2.545",
-      "1 (0)": "1.143",
-      "2 (0)": "4.33",
-      "1 (-1)": "1.87",
-      "2 (+1)": "1.87",
-      "1 (-2)": "3.76",
-      "2 (+2)": "1.191",
-      "1 (-2.5)": "4.55",
-      "2 (+2.5)": "1.129"
+      "2 (+1.5)": "1.61",
+      "1 (-1.5)": "2.409",
+      "1 (0)": "1.12",
+      "2 (0)": "4.7",
+      "1 (-1)": "1.78",
+      "2 (+1)": "1.95",
+      "1 (-2)": "3.5",
+      "2 (+2)": "1.22",
+      "1 (-2.5)": "4.3",
+      "2 (+2.5)": "1.147"
     }
   },
   {
@@ -2102,7 +2281,7 @@
       "Moins de": "2.428"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2168,7 +2347,7 @@
       "Moins de": "2.161"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2234,7 +2413,7 @@
       "Moins de": "1.891"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2300,7 +2479,7 @@
       "Moins de": "1.725"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2366,7 +2545,7 @@
       "Moins de": "2.52"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2432,7 +2611,7 @@
       "Moins de": "2.26"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
     "debut": "2026-10-22T19:00:00+00:00",
     "competition": "Ligue Conférence de l'UEFA",
@@ -2486,785 +2665,516 @@
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Sociedade Esportiva Palmeiras",
-    "equipe_2": "Fluminense",
+    "equipe_1": "Thun",
+    "equipe_2": "Hajduk Split",
     "1X2": {
-      "V1": "1.704",
-      "X": "3.51",
-      "V2": "5.52"
+      "V2": "2.519",
+      "V1": "2.799",
+      "X": "3.545"
     },
     "Total_2.5": {
-      "Plus de": "2.3",
-      "Moins de": "1.632"
+      "Plus de": "1.651",
+      "Moins de": "2.322"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
-    "debut": "2026-10-22T00:30:00+00:00",
-    "competition": "Copa Libertadores",
-    "competition_en": "Copa Libertadores",
-    "competition_id": 142091,
-    "equipe_1_en": "Sociedade Esportiva Palmeiras",
-    "equipe_2_en": "Fluminense",
+    "debut": "2026-10-22T19:00:00+00:00",
+    "competition": "Ligue Conférence de l'UEFA",
+    "competition_en": "UEFA Conference League",
+    "competition_id": 2252762,
+    "equipe_1_en": "Thun",
+    "equipe_2_en": "Hajduk Split",
     "Double_Chance": {
-      "1X": "1.15",
-      "12": "1.304",
-      "2X": "2.125"
+      "12": "1.316",
+      "2X": "1.461",
+      "1X": "1.551"
     },
     "BTTS": {
-      "Non": "1.72",
-      "Oui": "2.15"
+      "Oui": "1.48",
+      "Non": "2.472"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.632",
-        "Plus de": "2.3"
+        "Plus de": "1.651",
+        "Moins de": "2.322"
       },
       "1.5": {
-        "Plus de": "1.45",
-        "Moins de": "2.792"
+        "Plus de": "1.137",
+        "Moins de": "4.45"
       },
       "2": {
-        "Plus de": "1.7",
-        "Moins de": "2.18"
+        "Plus de": "1.222",
+        "Moins de": "3.55"
       },
       "3": {
-        "Plus de": "3.33",
-        "Moins de": "1.33"
+        "Plus de": "1.909",
+        "Moins de": "1.74"
       },
       "3.5": {
-        "Plus de": "4.41",
-        "Moins de": "1.22"
+        "Plus de": "2.375",
+        "Moins de": "1.46"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.41",
-      "1 (-1.5)": "2.9",
-      "1 (0)": "1.275",
-      "2 (0)": "3.82",
-      "1 (-1)": "2.33",
-      "2 (+1)": "1.62",
-      "1 (-2)": "5.41",
-      "2 (+2)": "1.15",
-      "1 (-2.5)": "6.53",
-      "2 (+2.5)": "1.11"
+      "2 (0)": "1.836",
+      "1 (0)": "2.033",
+      "1 (-1)": "4.33",
+      "2 (-1)": "3.7",
+      "1 (+1)": "1.198",
+      "2 (+1)": "1.143",
+      "1 (-1.5)": "5.2",
+      "2 (-1.5)": "4.55",
+      "1 (+1.5)": "1.131",
+      "2 (+1.5)": "1.095"
     }
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "C.D. Luis Angel Firpo",
-    "equipe_2": "Deportivo Saprissa",
+    "equipe_1": "Domicile (Paris spéciaux)",
+    "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V2": "2.01",
-      "X": "3.42",
-      "V1": "3.58"
+      "V1": "1.583",
+      "V2": "2.925",
+      "X": "11"
     },
     "Total_2.5": {
-      "Plus de": "1.685",
-      "Moins de": "2.1"
+      "Plus de": null,
+      "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
     "statut": "ok",
-    "debut": "2026-10-22T00:30:00+00:00",
-    "competition": "Coupe d'Amérique centrale CONCACAF",
-    "competition_en": "CONCACAF Central American Cup",
-    "competition_id": 2582178,
-    "equipe_1_en": "C.D. Luis Angel Firpo",
-    "equipe_2_en": "Deportivo Saprissa",
+    "debut": "2026-10-22T19:00:00+00:00",
+    "competition": "Ligue Conférence de l'UEFA",
+    "competition_en": "UEFA Conference League",
+    "competition_id": 2252762,
+    "equipe_1_en": "Home (Special bets)",
+    "equipe_2_en": "Away (Special bets)",
+    "Totals": {
+      "23.5": {
+        "Plus de": "1.854",
+        "Moins de": "1.948"
+      },
+      "21.5": {
+        "Plus de": "1.448",
+        "Moins de": "2.763"
+      },
+      "22.5": {
+        "Plus de": "1.628",
+        "Moins de": "2.281"
+      },
+      "24.5": {
+        "Plus de": "2.143",
+        "Moins de": "1.707"
+      },
+      "25.5": {
+        "Plus de": "2.544",
+        "Moins de": "1.516"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.782",
+      "1 (-2.5)": "2.035",
+      "1 (-1.5)": "1.771",
+      "2 (+1.5)": "2.049",
+      "1 (-2)": "1.894",
+      "2 (+2)": "1.906",
+      "1 (-3)": "2.232",
+      "2 (+3)": "1.654",
+      "1 (-3.5)": "2.401",
+      "2 (+3.5)": "1.572"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Ateneo Blue Eagles",
+    "equipe_2": "UE Red Warriors",
+    "1X2": {
+      "V1": "1.129",
+      "X": "6.8",
+      "V2": "11.2"
+    },
+    "Total_2.5": {
+      "Plus de": "1.24",
+      "Moins de": "3.34"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T06:00:00+00:00",
+    "competition": "Championnat des Philippines. UAAP",
+    "competition_en": "Philippines. UAAP",
+    "competition_id": 274069,
+    "equipe_1_en": "Ateneo Blue Eagles",
+    "equipe_2_en": "UE Red Warriors",
     "Double_Chance": {
-      "2X": "1.27",
-      "12": "1.29",
-      "1X": "1.755"
+      "12": "1.027",
+      "2X": "4.25"
     },
     "BTTS": {
-      "Oui": "1.675",
-      "Non": "2.112"
+      "Oui": "1.66",
+      "Non": "2.047"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.72",
+        "Moins de": "1.96"
+      },
+      "2.5": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "3": {
+        "Plus de": "1.36",
+        "Moins de": "2.7"
+      },
+      "4": {
+        "Plus de": "2.1",
+        "Moins de": "1.59"
+      },
+      "4.5": {
+        "Plus de": "2.59",
+        "Moins de": "1.39"
+      }
+    },
+    "Handicap": {
+      "2 (+2.5)": "1.53",
+      "1 (-2.5)": "2.21",
+      "1 (-1.5)": "1.51",
+      "2 (+1.5)": "2.26",
+      "1 (-2)": "1.81",
+      "2 (+2)": "1.85",
+      "1 (-3)": "3.14",
+      "2 (+3)": "1.27",
+      "1 (-3.5)": "3.76",
+      "2 (+3.5)": "1.191"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Tigers Mumbai",
+    "equipe_2": "Kopana",
+    "1X2": {
+      "V1": "2.14",
+      "V2": "2.693",
+      "X": "3.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.34",
+      "Moins de": "2.78"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T07:30:00+00:00",
+    "competition": "Inde. Mumbai. Super League",
+    "competition_en": "India. Mumbai. Super League",
+    "competition_id": 1738729,
+    "equipe_1_en": "Tigers Mumbai",
+    "equipe_2_en": "Kopana",
+    "Double_Chance": {
+      "12": "1.175",
+      "1X": "1.35",
+      "2X": "1.54"
+    },
+    "BTTS": {
+      "Oui": "1.33",
+      "Non": "2.952"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.75",
+        "Plus de": "1.93"
+      },
+      "2.5": {
+        "Plus de": "1.34",
+        "Moins de": "2.78"
+      },
+      "3": {
+        "Plus de": "1.52",
+        "Moins de": "2.24"
+      },
+      "4": {
+        "Plus de": "2.52",
+        "Moins de": "1.41"
+      },
+      "4.5": {
+        "Plus de": "3.05",
+        "Moins de": "1.285"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.66",
+      "2 (0)": "2.03",
+      "1 (-1)": "3.05",
+      "2 (-1)": "4.2",
+      "1 (+1)": "1.154",
+      "2 (+1)": "1.285",
+      "1 (-1.5)": "3.75",
+      "2 (-1.5)": "4.95",
+      "1 (+1.5)": "1.108",
+      "2 (+1.5)": "1.192"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "VRN Muangnont",
+    "equipe_2": "Samui United",
+    "1X2": {
+      "V2": "1.77",
+      "X": "3.56",
+      "V1": "3.795"
+    },
+    "Total_2.5": {
+      "Plus de": "1.7",
+      "Moins de": "1.99"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T08:00:00+00:00",
+    "competition": "Coupe de Thaïlande",
+    "competition_en": "Thailand. FA Cup",
+    "competition_id": 215201,
+    "equipe_1_en": "VRN Muangnont",
+    "equipe_2_en": "Samui United",
+    "Double_Chance": {
+      "2X": "1.175",
+      "12": "1.19",
+      "1X": "1.82"
+    },
+    "BTTS": {
+      "Oui": "1.64",
+      "Non": "2.078"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.685",
-        "Moins de": "2.1"
+        "Plus de": "1.7",
+        "Moins de": "1.99"
       },
       "1.5": {
-        "Plus de": "1.19",
-        "Moins de": "4.33"
+        "Plus de": "1.188",
+        "Moins de": "3.8"
       },
       "2": {
-        "Plus de": "1.344",
-        "Moins de": "3.235"
+        "Plus de": "1.3",
+        "Moins de": "2.97"
       },
       "3": {
-        "Plus de": "2.112",
-        "Moins de": "1.725"
+        "Plus de": "2.17",
+        "Moins de": "1.55"
       },
       "3.5": {
-        "Plus de": "2.48",
+        "Plus de": "2.74",
+        "Moins de": "1.35"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.34",
+      "1 (0)": "2.78",
+      "1 (-1)": "7.3",
+      "2 (-1)": "2.44",
+      "1 (+1)": "1.46",
+      "2 (+1)": "1.032",
+      "1 (-1.5)": "8.3",
+      "2 (-1.5)": "3.08",
+      "1 (+1.5)": "1.28",
+      "2 (+1.5)": "1.016"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Al Hazem Rass",
+    "equipe_2": "Al Feiha",
+    "1X2": {
+      "V1": "2.258",
+      "V2": "3.105",
+      "X": "3.28"
+    },
+    "Total_2.5": {
+      "Plus de": "1.955",
+      "Moins de": "1.792"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T13:40:00+00:00",
+    "competition": "Championnat d'Arabie saoudite de football",
+    "competition_en": "Saudi Arabia. Saudi Professional League",
+    "competition_id": 16819,
+    "equipe_1_en": "Al Hazem Rass",
+    "equipe_2_en": "Al Feiha",
+    "Double_Chance": {
+      "12": "1.298",
+      "1X": "1.328",
+      "2X": "1.581"
+    },
+    "BTTS": {
+      "Oui": "1.727",
+      "Non": "1.98"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.792",
+        "Plus de": "1.955"
+      },
+      "1.5": {
+        "Plus de": "1.27",
+        "Moins de": "3.14"
+      },
+      "2": {
+        "Plus de": "1.44",
+        "Moins de": "2.43"
+      },
+      "3": {
+        "Plus de": "2.59",
+        "Moins de": "1.39"
+      },
+      "3.5": {
+        "Plus de": "3.2",
+        "Moins de": "1.26"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.626",
+      "2 (0)": "2.199",
+      "1 (-1)": "3.28",
+      "2 (-1)": "5.3",
+      "1 (+1)": "1.092",
+      "2 (+1)": "1.25",
+      "1 (-1.5)": "4.15",
+      "2 (-1.5)": "6.15",
+      "1 (+1.5)": "1.06",
+      "2 (+1.5)": "1.158"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "à domicile",
+    "equipe_2": "à l'extérieur",
+    "1X2": {
+      "V1": "1.483",
+      "V2": "3.88",
+      "X": "7.45"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T13:40:00+00:00",
+    "competition": "Championnat d'Arabie saoudite de football",
+    "competition_en": "Saudi Arabia. Saudi Professional League",
+    "competition_id": 16819,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
+    "Double_Chance": {
+      "12": "1.071",
+      "1X": "1.224",
+      "2X": "2.82"
+    },
+    "Totals": {
+      "9.5": {
+        "Moins de": "1.743",
+        "Plus de": "2.088"
+      },
+      "7.5": {
+        "Plus de": "1.385",
+        "Moins de": "3.02"
+      },
+      "8.5": {
+        "Plus de": "1.674",
+        "Moins de": "2.196"
+      },
+      "10.5": {
+        "Plus de": "2.757",
+        "Moins de": "1.449"
+      },
+      "11.5": {
+        "Plus de": "3.895",
+        "Moins de": "1.256"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.798",
+      "2 (+1.5)": "2.015",
+      "1 (-1)": "1.587",
+      "2 (-1)": "5.68",
+      "1 (+1)": "1.141",
+      "2 (+1)": "2.366",
+      "1 (-2)": "2.028",
+      "2 (+2)": "1.787",
+      "1 (-2.5)": "2.291",
+      "2 (+2.5)": "1.623"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Al-Fateh Al-Ahsa",
+    "equipe_2": "Al Shabab Riyadh",
+    "1X2": {
+      "V2": "2.113",
+      "V1": "3.065",
+      "X": "3.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.55",
+      "Moins de": "2.356"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-22T03:26:05.016990+00:00",
+    "statut": "ok",
+    "debut": "2026-10-22T14:45:00+00:00",
+    "competition": "Championnat d'Arabie saoudite de football",
+    "competition_en": "Saudi Arabia. Saudi Professional League",
+    "competition_id": 16819,
+    "equipe_1_en": "Al-Fateh Al-Ahsa",
+    "equipe_2_en": "Al Shabab Riyadh",
+    "Double_Chance": {
+      "12": "1.242",
+      "2X": "1.335",
+      "1X": "1.661"
+    },
+    "BTTS": {
+      "Oui": "1.46",
+      "Non": "2.498"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.356"
+      },
+      "1.5": {
+        "Plus de": "1.116",
+        "Moins de": "4.8"
+      },
+      "2": {
+        "Plus de": "1.183",
+        "Moins de": "3.84"
+      },
+      "3": {
+        "Plus de": "1.81",
+        "Moins de": "1.81"
+      },
+      "3.5": {
+        "Plus de": "2.28",
         "Moins de": "1.5"
       }
     },
     "Handicap": {
-      "2 (0)": "1.45",
-      "1 (0)": "2.635",
-      "1 (-1)": "5.95",
-      "2 (-1)": "2.62",
-      "1 (+1)": "1.49",
-      "2 (+1)": "1.13",
-      "1 (-1.5)": "7.09",
-      "2 (-1.5)": "3.49",
-      "1 (+1.5)": "1.304",
-      "2 (+1.5)": "1.096"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V2": "2.05",
-      "V1": "2.531",
-      "X": "4.88"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T00:30:00+00:00",
-    "competition": "Coupe d'Amérique centrale CONCACAF",
-    "competition_en": "CONCACAF Central American Cup",
-    "competition_id": 2582178,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Double_Chance": {
-      "12": "1.152",
-      "2X": "1.489",
-      "1X": "1.767"
-    },
-    "BTTS": {
-      "Oui": "1.119",
-      "Non": "6.3"
-    },
-    "Totals": {
-      "5.5": {
-        "Moins de": "1.74",
-        "Plus de": "2.093"
-      },
-      "3.5": {
-        "Plus de": "1.249",
-        "Moins de": "3.965"
-      },
-      "4.5": {
-        "Plus de": "1.573",
-        "Moins de": "2.399"
-      },
-      "6.5": {
-        "Plus de": "3.05",
-        "Moins de": "1.38"
-      },
-      "7.5": {
-        "Plus de": "4.955",
-        "Moins de": "1.175"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.387",
-      "2 (-1.5)": "3.015",
-      "1 (-1)": "3.51",
-      "2 (-1)": "2.558",
-      "1 (+1)": "1.511",
-      "2 (+1)": "1.302",
-      "2 (-2)": "4.545",
-      "1 (+2)": "1.201",
-      "2 (-2.5)": "5.18",
-      "1 (+2.5)": "1.163"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Barranquilla FC",
-    "equipe_2": "America de Cali",
-    "1X2": {
-      "V2": "1.344",
-      "X": "4.79",
-      "V1": "8.57"
-    },
-    "Total_2.5": {
-      "Plus de": "1.45",
-      "Moins de": "2.625"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T00:30:00+00:00",
-    "competition": "Coupe de Colombie",
-    "competition_en": "Copa Colombia",
-    "competition_id": 150983,
-    "equipe_1_en": "Barranquilla",
-    "equipe_2_en": "America de Cali",
-    "Double_Chance": {
-      "2X": "1.056",
-      "12": "1.168",
-      "1X": "3.088"
-    },
-    "BTTS": {
-      "Oui": "1.74",
-      "Non": "2.02"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.665",
-        "Plus de": "2.13"
-      },
-      "2.5": {
-        "Plus de": "1.45",
-        "Moins de": "2.625"
-      },
-      "3": {
-        "Plus de": "1.736",
-        "Moins de": "2.1"
-      },
-      "4": {
-        "Plus de": "2.816",
-        "Moins de": "1.432"
-      },
-      "4.5": {
-        "Plus de": "3.425",
-        "Moins de": "1.288"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.875",
-      "2 (-1.5)": "1.925",
-      "1 (0)": "6.4",
-      "2 (0)": "1.096",
-      "2 (-1)": "1.496",
-      "1 (+1)": "2.495",
-      "2 (-2)": "2.495",
-      "1 (+2)": "1.496",
-      "2 (-2.5)": "2.95",
-      "1 (+2.5)": "1.4"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Atlas Guadalajara",
-    "equipe_2": "Club America",
-    "1X2": {
-      "V2": "1.99",
-      "V1": "3.34",
-      "X": "3.6"
-    },
-    "Total_2.5": {
-      "Plus de": "1.61",
-      "Moins de": "2.21"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T01:00:00+00:00",
-    "competition": "Championnat du Mexique. Ligue MX",
-    "competition_en": "Mexico. Liga MX",
-    "competition_id": 2306111,
-    "equipe_1_en": "Atlas Guadalajara",
-    "equipe_2_en": "Club America",
-    "Double_Chance": {
-      "12": "1.24",
-      "2X": "1.28",
-      "1X": "1.74"
-    },
-    "BTTS": {
-      "Oui": "1.53",
-      "Non": "2.347"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.61",
-        "Moins de": "2.21"
-      },
-      "1.5": {
-        "Plus de": "1.155",
-        "Moins de": "4.2"
-      },
-      "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.36"
-      },
-      "3": {
-        "Plus de": "1.93",
-        "Moins de": "1.71"
-      },
-      "3.5": {
-        "Plus de": "2.42",
-        "Moins de": "1.444"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.49",
-      "1 (0)": "2.46",
-      "1 (-1)": "5.6",
-      "2 (-1)": "2.66",
-      "1 (+1)": "1.37",
-      "2 (+1)": "1.079",
-      "1 (-1.5)": "6.4",
-      "2 (-1.5)": "3.34",
-      "1 (+1.5)": "1.24",
-      "2 (+1.5)": "1.054"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Deportivo Toluca",
-    "equipe_2": "Tijuana",
-    "1X2": {
-      "V1": "1.187",
-      "X": "6.6",
-      "V2": "11.7"
-    },
-    "Total_2.5": {
-      "Plus de": "1.27",
-      "Moins de": "3.14"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T01:00:00+00:00",
-    "competition": "Championnat du Mexique. Ligue MX",
-    "competition_en": "Mexico. Liga MX",
-    "competition_id": 2306111,
-    "equipe_1_en": "Deportivo Toluca",
-    "equipe_2_en": "Tijuana",
-    "Double_Chance": {
-      "1X": "1.003",
-      "12": "1.071",
-      "2X": "4.25"
-    },
-    "BTTS": {
-      "Oui": "1.71",
-      "Non": "2.018"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.81",
-        "Moins de": "1.92"
-      },
-      "2.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.14"
-      },
-      "3": {
-        "Plus de": "1.41",
-        "Moins de": "2.54"
-      },
-      "4": {
-        "Plus de": "2.22",
-        "Moins de": "1.53"
-      },
-      "4.5": {
-        "Plus de": "2.7",
-        "Moins de": "1.36"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.57",
-      "2 (+1.5)": "2.27",
-      "1 (0)": "1.004",
-      "2 (0)": "9.1",
-      "1 (-1)": "1.24",
-      "2 (+1)": "3.34",
-      "1 (-2)": "1.84",
-      "2 (+2)": "1.78",
-      "1 (-2.5)": "2.28",
-      "2 (+2.5)": "1.5"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Puebla",
-    "equipe_2": "Monterrey",
-    "1X2": {
-      "V2": "1.83",
-      "X": "3.6",
-      "V1": "3.91"
-    },
-    "Total_2.5": {
-      "Plus de": "1.74",
-      "Moins de": "2.01"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T01:00:00+00:00",
-    "competition": "Championnat du Mexique. Ligue MX",
-    "competition_en": "Mexico. Liga MX",
-    "competition_id": 2306111,
-    "equipe_1_en": "Puebla",
-    "equipe_2_en": "Monterrey",
-    "Double_Chance": {
-      "2X": "1.21",
-      "12": "1.24",
-      "1X": "1.88"
-    },
-    "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.11"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.74",
-        "Moins de": "2.01"
-      },
-      "1.5": {
-        "Plus de": "1.186",
-        "Moins de": "3.82"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "2.94"
-      },
-      "3": {
-        "Plus de": "2.2",
-        "Moins de": "1.54"
-      },
-      "3.5": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.36",
-      "1 (0)": "2.92",
-      "1 (-1)": "7.9",
-      "2 (-1)": "2.43",
-      "1 (+1)": "1.44",
-      "2 (+1)": "1.022",
-      "1 (-1.5)": "9",
-      "2 (-1.5)": "3.14",
-      "1 (+1.5)": "1.27",
-      "2 (+1.5)": "1.006"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.759",
-      "V2": "2.591",
-      "X": "8.55"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T01:00:00+00:00",
-    "competition": "Championnat du Mexique. Ligue MX",
-    "competition_en": "Mexico. Liga MX",
-    "competition_id": 2306111,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Totals": {
-      "15.5": {
-        "Plus de": "1.846",
-        "Moins de": "1.957"
-      },
-      "13.5": {
-        "Plus de": "1.373",
-        "Moins de": "3.085"
-      },
-      "14.5": {
-        "Plus de": "1.577",
-        "Moins de": "2.39"
-      },
-      "16.5": {
-        "Plus de": "2.211",
-        "Moins de": "1.666"
-      },
-      "17.5": {
-        "Plus de": "2.755",
-        "Moins de": "1.45"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.76",
-      "1 (-1.5)": "2.064",
-      "1 (-1)": "1.887",
-      "2 (-1)": "3.11",
-      "1 (+1)": "1.367",
-      "2 (+1)": "1.913",
-      "1 (-2)": "2.329",
-      "2 (+2)": "1.604",
-      "1 (-2.5)": "2.551",
-      "2 (+2.5)": "1.514"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Club Independiente Santa Fe",
-    "equipe_2": "Jaguares de Cordoba",
-    "1X2": {
-      "V1": "1.23",
-      "X": "5.85",
-      "V2": "10.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.41",
-      "Moins de": "2.52"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T01:20:00+00:00",
-    "competition": "Championnat de Colombie. Categoria Primera A",
-    "competition_en": "Colombia. Categoria Primera A",
-    "competition_id": 214147,
-    "equipe_1_en": "Club Independiente Santa Fe",
-    "equipe_2_en": "Jaguares de Cordoba",
-    "Double_Chance": {
-      "1X": "1.01",
-      "12": "1.094",
-      "2X": "3.78"
-    },
-    "BTTS": {
-      "Non": "1.823",
-      "Oui": "1.88"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.68",
-        "Plus de": "2.09"
-      },
-      "2.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.52"
-      },
-      "3": {
-        "Plus de": "1.63",
-        "Moins de": "2.04"
-      },
-      "4": {
-        "Plus de": "2.76",
-        "Moins de": "1.35"
-      },
-      "4.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.66",
-      "2 (+1.5)": "2.1",
-      "1 (0)": "1.023",
-      "2 (0)": "7.8",
-      "1 (-1)": "1.29",
-      "2 (+1)": "3.04",
-      "1 (-2)": "2",
-      "2 (+2)": "1.65",
-      "1 (-2.5)": "2.49",
-      "2 (+2.5)": "1.42"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Cartagines",
-    "equipe_2": "Club Deportivo Olimpia",
-    "1X2": {
-      "V1": "2.33",
-      "V2": "2.803",
-      "X": "3.1"
-    },
-    "Total_2.5": {
-      "Plus de": "2.08",
-      "Moins de": "1.64"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T02:30:00+00:00",
-    "competition": "Coupe d'Amérique centrale CONCACAF",
-    "competition_en": "CONCACAF Central American Cup",
-    "competition_id": 2582178,
-    "equipe_1_en": "Cartagines",
-    "equipe_2_en": "Club Deportivo Olimpia",
-    "Double_Chance": {
-      "12": "1.26",
-      "1X": "1.33",
-      "2X": "1.46"
-    },
-    "BTTS": {
-      "Oui": "1.82",
-      "Non": "1.85"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.64",
-        "Plus de": "2.08"
-      },
-      "1.5": {
-        "Plus de": "1.32",
-        "Moins de": "2.875"
-      },
-      "2": {
-        "Plus de": "1.55",
-        "Moins de": "2.17"
-      },
-      "3": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
-      },
-      "3.5": {
-        "Plus de": "3.82",
-        "Moins de": "1.185"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.69",
-      "2 (0)": "1.99",
-      "1 (-1)": "4",
-      "2 (-1)": "5.2",
-      "1 (+1)": "1.095",
-      "2 (+1)": "1.168",
-      "1 (-1.5)": "5.05",
-      "2 (-1.5)": "6.3",
-      "1 (+1.5)": "1.056",
-      "2 (+1.5)": "1.103"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Pachuca",
-    "equipe_2": "Cruz Azul",
-    "1X2": {
-      "V2": "2.22",
-      "V1": "2.913",
-      "X": "3.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.25"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T03:00:00+00:00",
-    "competition": "Championnat du Mexique. Ligue MX",
-    "competition_en": "Mexico. Liga MX",
-    "competition_id": 2306111,
-    "equipe_1_en": "Pachuca",
-    "equipe_2_en": "Cruz Azul",
-    "Double_Chance": {
-      "12": "1.26",
-      "2X": "1.36",
-      "1X": "1.59"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.441"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.25"
-      },
-      "1.5": {
-        "Plus de": "1.135",
-        "Moins de": "4.45"
-      },
-      "2": {
-        "Plus de": "1.22",
-        "Moins de": "3.52"
-      },
-      "3": {
-        "Plus de": "1.909",
-        "Moins de": "1.727"
-      },
-      "3.5": {
-        "Plus de": "2.41",
-        "Moins de": "1.45"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.64",
-      "1 (0)": "2.14",
-      "1 (-1)": "4.9",
-      "2 (-1)": "3.2",
-      "1 (+1)": "1.26",
-      "2 (+1)": "1.11",
-      "1 (-1.5)": "5.8",
-      "2 (-1.5)": "4.05",
-      "1 (+1.5)": "1.165",
-      "2 (+1.5)": "1.071"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Santos Laguna",
-    "equipe_2": "Pumas UNAM",
-    "1X2": {
-      "V1": "2.15",
-      "V2": "3.06",
-      "X": "3.48"
-    },
-    "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.27"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-22T00:29:20.494163+00:00",
-    "statut": "ok",
-    "debut": "2026-10-22T03:10:00+00:00",
-    "competition": "Championnat du Mexique. Ligue MX",
-    "competition_en": "Mexico. Liga MX",
-    "competition_id": 2306111,
-    "equipe_1_en": "Santos Laguna",
-    "equipe_2_en": "Pumas UNAM",
-    "Double_Chance": {
-      "12": "1.26",
-      "1X": "1.33",
-      "2X": "1.63"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.441"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.27"
-      },
-      "1.5": {
-        "Plus de": "1.132",
-        "Moins de": "4.5"
-      },
-      "2": {
-        "Plus de": "1.21",
-        "Moins de": "3.6"
-      },
-      "3": {
-        "Plus de": "1.88",
-        "Moins de": "1.75"
-      },
-      "3.5": {
-        "Plus de": "2.35",
-        "Moins de": "1.47"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.58",
-      "2 (0)": "2.25",
-      "1 (-1)": "3.05",
-      "2 (-1)": "5.25",
-      "1 (+1)": "1.093",
-      "2 (+1)": "1.285",
-      "1 (-1.5)": "3.84",
-      "2 (-1.5)": "6.15",
-      "1 (+1.5)": "1.06",
-      "2 (+1.5)": "1.184"
+      "2 (0)": "1.585",
+      "1 (0)": "2.28",
+      "1 (-1)": "5.2",
+      "2 (-1)": "2.92",
+      "1 (+1)": "1.31",
+      "2 (+1)": "1.095",
+      "1 (-1.5)": "6.15",
+      "2 (-1.5)": "3.7",
+      "1 (+1.5)": "1.197",
+      "2 (+1.5)": "1.061"
     }
   }
 ]
