@@ -1,349 +1,19 @@
 [
   {
     "bookmaker": "melbet",
-    "equipe_1": "SSC Naples",
-    "equipe_2": "Roma",
-    "1X2": {
-      "V2": "2.741",
-      "V1": "2.812",
-      "X": "3.39"
-    },
-    "Total_2.5": {
-      "Plus de": "1.858",
-      "Moins de": "2.096"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T16:00:00+00:00",
-    "competition": "Italie. Série A",
-    "competition_en": "Italy. Serie A",
-    "competition_id": 110163,
-    "equipe_1_en": "Napoli",
-    "equipe_2_en": "Roma",
-    "Double_Chance": {
-      "12": "1.368",
-      "2X": "1.492",
-      "1X": "1.513"
-    },
-    "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.261"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.858",
-        "Moins de": "2.096"
-      },
-      "1.5": {
-        "Plus de": "1.235",
-        "Moins de": "3.945"
-      },
-      "2": {
-        "Plus de": "1.385",
-        "Moins de": "3.095"
-      },
-      "3": {
-        "Plus de": "2.338",
-        "Moins de": "1.641"
-      },
-      "3.5": {
-        "Plus de": "2.878",
-        "Moins de": "1.423"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.949",
-      "1 (0)": "1.991",
-      "1 (-1)": "4.62",
-      "2 (-1)": "4.42",
-      "1 (+1)": "1.221",
-      "2 (+1)": "1.206",
-      "1 (-1.5)": "5.47",
-      "2 (-1.5)": "5.26",
-      "1 (+1.5)": "1.145",
-      "2 (+1.5)": "1.136"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Chelsea",
-    "equipe_2": "Tottenham Hotspur",
-    "1X2": {
-      "V1": "1.919",
-      "X": "3.98",
-      "V2": "4.11"
-    },
-    "Total_2.5": {
-      "Plus de": "1.551",
-      "Moins de": "2.439"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T16:30:00+00:00",
-    "competition": "Angleterre. Premier League",
-    "competition_en": "England. Premier League",
-    "competition_id": 88637,
-    "equipe_1_en": "Chelsea",
-    "equipe_2_en": "Tottenham Hotspur",
-    "Double_Chance": {
-      "1X": "1.278",
-      "12": "1.291",
-      "2X": "1.981"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.476"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.665",
-        "Plus de": "2.412"
-      },
-      "2.5": {
-        "Plus de": "1.551",
-        "Moins de": "2.439"
-      },
-      "3": {
-        "Plus de": "1.873",
-        "Moins de": "1.976"
-      },
-      "4": {
-        "Plus de": "3.335",
-        "Moins de": "1.351"
-      },
-      "4.5": {
-        "Plus de": "3.98",
-        "Moins de": "1.245"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.448",
-      "2 (0)": "3.08",
-      "1 (-1)": "2.483",
-      "2 (-1)": "7.22",
-      "1 (+1)": "1.086",
-      "2 (+1)": "1.564",
-      "1 (-1.5)": "3.07",
-      "2 (-1.5)": "7.8",
-      "1 (+1.5)": "1.044",
-      "2 (+1.5)": "1.365"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Borussia Dortmund",
-    "equipe_2": "Eintracht Frankfurt",
-    "1X2": {
-      "V1": "1.535",
-      "X": "5.18",
-      "V2": "5.84"
-    },
-    "Total_2.5": {
-      "Plus de": "1.359",
-      "Moins de": "3.135"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T16:30:00+00:00",
-    "competition": "Allemagne. Bundesliga",
-    "competition_en": "Germany. Bundesliga",
-    "competition_id": 96463,
-    "equipe_1_en": "Borussia Dortmund",
-    "equipe_2_en": "Eintracht Frankfurt",
-    "Double_Chance": {
-      "1X": "1.17",
-      "12": "1.201",
-      "2X": "2.672"
-    },
-    "BTTS": {
-      "Oui": "1.45",
-      "Non": "2.591"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.949",
-        "Plus de": "1.991"
-      },
-      "2.5": {
-        "Plus de": "1.359",
-        "Moins de": "3.135"
-      },
-      "3": {
-        "Plus de": "1.556",
-        "Moins de": "2.518"
-      },
-      "4": {
-        "Plus de": "2.554",
-        "Moins de": "1.549"
-      },
-      "4.5": {
-        "Plus de": "3.055",
-        "Moins de": "1.384"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.71",
-      "1 (-1.5)": "2.322",
-      "1 (0)": "1.195",
-      "2 (0)": "4.425",
-      "1 (-1)": "1.767",
-      "2 (+1)": "2.087",
-      "1 (-2)": "3.21",
-      "2 (+2)": "1.363",
-      "1 (-2.5)": "3.8",
-      "2 (+2.5)": "1.25"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Valencia",
-    "equipe_2": "Villarreal",
-    "1X2": {
-      "V2": "2.167",
-      "V1": "3.49",
-      "X": "3.735"
-    },
-    "Total_2.5": {
-      "Plus de": "1.793",
-      "Moins de": "2.185"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T16:30:00+00:00",
-    "competition": "Espagne. La Liga",
-    "competition_en": "Spain. La Liga",
-    "competition_id": 127733,
-    "equipe_1_en": "Valencia",
-    "equipe_2_en": "Villarreal",
-    "Double_Chance": {
-      "12": "1.319",
-      "2X": "1.353",
-      "1X": "1.772"
-    },
-    "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.24"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.793",
-        "Moins de": "2.185"
-      },
-      "1.5": {
-        "Plus de": "1.213",
-        "Moins de": "4.185"
-      },
-      "2": {
-        "Plus de": "1.348",
-        "Moins de": "3.29"
-      },
-      "3": {
-        "Plus de": "2.248",
-        "Moins de": "1.688"
-      },
-      "3.5": {
-        "Plus de": "2.816",
-        "Moins de": "1.439"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.61",
-      "1 (0)": "2.538",
-      "1 (-1)": "6.32",
-      "2 (-1)": "3.09",
-      "1 (+1)": "1.386",
-      "2 (+1)": "1.11",
-      "1 (-1.5)": "7.15",
-      "2 (-1.5)": "3.855",
-      "1 (+1.5)": "1.244",
-      "2 (+1.5)": "1.058"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Krasnodar",
-    "equipe_2": "Baltika Kaliningrad",
-    "1X2": {
-      "V1": "1.875",
-      "X": "3.585",
-      "V2": "4.915"
-    },
-    "Total_2.5": {
-      "Plus de": "2.369",
-      "Moins de": "1.686"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T16:30:00+00:00",
-    "competition": "Championnat de Russie. Première Ligue",
-    "competition_en": "Russia. Premier League",
-    "competition_id": 225733,
-    "equipe_1_en": "Krasnodar",
-    "equipe_2_en": "Baltika Kaliningrad",
-    "Double_Chance": {
-      "1X": "1.216",
-      "12": "1.339",
-      "2X": "2.031"
-    },
-    "BTTS": {
-      "Non": "1.696",
-      "Oui": "2.06"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.686",
-        "Plus de": "2.369"
-      },
-      "1.5": {
-        "Plus de": "1.427",
-        "Moins de": "2.762"
-      },
-      "2": {
-        "Plus de": "1.733",
-        "Moins de": "2.136"
-      },
-      "3": {
-        "Plus de": "3.475",
-        "Moins de": "1.329"
-      },
-      "3.5": {
-        "Plus de": "4.185",
-        "Moins de": "1.226"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.315",
-      "2 (0)": "3.3",
-      "1 (-1)": "2.562",
-      "2 (-1)": "9.4",
-      "1 (+1)": "1.032",
-      "2 (+1)": "1.527",
-      "1 (-1.5)": "3.795",
-      "2 (-1.5)": "11.6",
-      "1 (+1.5)": "1.001",
-      "2 (+1.5)": "1.33"
-    }
-  },
-  {
-    "bookmaker": "melbet",
     "equipe_1": "Lazio",
     "equipe_2": "Parma",
     "1X2": {
-      "V1": "1.524",
-      "X": "4.425",
-      "V2": "7.5"
+      "V1": "1.463",
+      "X": "4.685",
+      "V2": "8.4"
     },
     "Total_2.5": {
-      "Plus de": "1.996",
-      "Moins de": "1.944"
+      "Plus de": "1.944",
+      "Moins de": "1.996"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T18:45:00+00:00",
     "competition": "Italie. Série A",
@@ -352,47 +22,47 @@
     "equipe_1_en": "Lazio",
     "equipe_2_en": "Parma",
     "Double_Chance": {
-      "1X": "1.112",
-      "12": "1.25",
-      "2X": "2.707"
+      "1X": "1.089",
+      "12": "1.231",
+      "2X": "2.923"
     },
     "BTTS": {
-      "Non": "1.708",
-      "Oui": "2.04"
+      "Non": "1.683",
+      "Oui": "2.08"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.944",
-        "Plus de": "1.996"
+        "Plus de": "1.944",
+        "Moins de": "1.996"
       },
       "1.5": {
-        "Plus de": "1.292",
-        "Moins de": "3.465"
+        "Plus de": "1.272",
+        "Moins de": "3.61"
       },
       "2": {
-        "Plus de": "1.475",
-        "Moins de": "2.723"
+        "Plus de": "1.435",
+        "Moins de": "2.87"
       },
       "3": {
-        "Plus de": "2.705",
-        "Moins de": "1.498"
+        "Plus de": "2.55",
+        "Moins de": "1.551"
       },
       "3.5": {
-        "Plus de": "3.36",
-        "Moins de": "1.329"
+        "Plus de": "3.175",
+        "Moins de": "1.36"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.629",
-      "1 (-1.5)": "2.491",
-      "1 (0)": "1.115",
-      "2 (0)": "5.3",
-      "1 (-1)": "1.785",
-      "2 (+1)": "2.004",
-      "1 (-2)": "3.815",
-      "2 (+2)": "1.277",
-      "1 (-2.5)": "4.615",
-      "2 (+2.5)": "1.182"
+      "2 (+1.5)": "1.718",
+      "1 (-1.5)": "2.308",
+      "1 (0)": "1.09",
+      "2 (0)": "6.1",
+      "1 (-1)": "1.668",
+      "2 (+1)": "2.175",
+      "1 (-2)": "3.36",
+      "2 (+2)": "1.337",
+      "1 (-2.5)": "4.075",
+      "2 (+2.5)": "1.223"
     }
   },
   {
@@ -400,16 +70,16 @@
     "equipe_1": "RC Lens",
     "equipe_2": "Paris",
     "1X2": {
-      "V2": "2.633",
-      "V1": "2.705",
-      "X": "3.76"
+      "V1": "2.541",
+      "V2": "2.922",
+      "X": "3.575"
     },
     "Total_2.5": {
-      "Plus de": "1.68",
-      "Moins de": "2.381"
+      "Plus de": "1.717",
+      "Moins de": "2.309"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T18:45:00+00:00",
     "competition": "France. Ligue 1",
@@ -418,47 +88,47 @@
     "equipe_1_en": "RC Lens",
     "equipe_2_en": "Paris",
     "Double_Chance": {
-      "12": "1.316",
-      "2X": "1.524",
-      "1X": "1.548"
+      "12": "1.34",
+      "1X": "1.463",
+      "2X": "1.582"
     },
     "BTTS": {
-      "Oui": "1.5",
-      "Non": "2.446"
+      "Oui": "1.51",
+      "Non": "2.423"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.68",
-        "Moins de": "2.381"
+        "Plus de": "1.717",
+        "Moins de": "2.309"
       },
       "1.5": {
-        "Plus de": "1.186",
-        "Moins de": "4.555"
+        "Plus de": "1.198",
+        "Moins de": "4.38"
       },
       "2": {
-        "Plus de": "1.283",
-        "Moins de": "3.765"
+        "Plus de": "1.308",
+        "Moins de": "3.56"
       },
       "3": {
-        "Plus de": "2.004",
-        "Moins de": "1.858"
+        "Plus de": "2.071",
+        "Moins de": "1.804"
       },
       "3.5": {
-        "Plus de": "2.508",
-        "Moins de": "1.535"
+        "Plus de": "2.561",
+        "Moins de": "1.516"
       }
     },
     "Handicap": {
-      "2 (0)": "1.949",
-      "1 (0)": "1.991",
-      "1 (-1)": "4.155",
-      "2 (-1)": "3.925",
-      "1 (+1)": "1.265",
-      "2 (+1)": "1.243",
-      "1 (-1.5)": "4.855",
-      "2 (-1.5)": "4.705",
-      "1 (+1.5)": "1.176",
-      "2 (+1.5)": "1.167"
+      "1 (0)": "1.853",
+      "2 (0)": "2.102",
+      "1 (-1)": "3.74",
+      "2 (-1)": "4.555",
+      "1 (+1)": "1.204",
+      "2 (+1)": "1.285",
+      "1 (-1.5)": "4.45",
+      "2 (-1.5)": "5.27",
+      "1 (+1.5)": "1.135",
+      "2 (+1.5)": "1.193"
     }
   },
   {
@@ -466,16 +136,16 @@
     "equipe_1": "Atlético de Madrid",
     "equipe_2": "Deportivo de A Coruna",
     "1X2": {
-      "V1": "1.341",
-      "X": "6.09",
-      "V2": "9.45"
+      "V1": "1.355",
+      "X": "6.04",
+      "V2": "8.9"
     },
     "Total_2.5": {
-      "Plus de": "1.653",
-      "Moins de": "2.437"
+      "Plus de": "1.54",
+      "Moins de": "2.468"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -484,45 +154,45 @@
     "equipe_1_en": "Atletico Madrid",
     "equipe_2_en": "Deportivo de A Coruna",
     "Double_Chance": {
-      "1X": "1.077",
-      "12": "1.16",
-      "2X": "3.56"
+      "1X": "1.084",
+      "12": "1.162",
+      "2X": "3.46"
     },
     "BTTS": {
-      "Non": "1.657",
-      "Oui": "2.12"
+      "Non": "1.738",
+      "Oui": "2"
     },
     "Totals": {
+      "3.5": {
+        "Moins de": "1.68",
+        "Plus de": "2.381"
+      },
       "2.5": {
-        "Plus de": "1.653",
-        "Moins de": "2.437"
-      },
-      "1.5": {
-        "Plus de": "1.183",
-        "Moins de": "4.6"
-      },
-      "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.785"
+        "Plus de": "1.54",
+        "Moins de": "2.468"
       },
       "3": {
-        "Plus de": "1.949",
-        "Moins de": "1.908"
+        "Plus de": "1.864",
+        "Moins de": "1.987"
       },
-      "3.5": {
-        "Plus de": "2.432",
-        "Moins de": "1.565"
+      "4": {
+        "Plus de": "3.28",
+        "Moins de": "1.363"
+      },
+      "4.5": {
+        "Plus de": "3.885",
+        "Moins de": "1.258"
       }
     },
     "Handicap": {
-      "1 (-1.5)": "1.844",
-      "2 (+1.5)": "2.114",
-      "1 (0)": "1.079",
-      "2 (0)": "6.3",
-      "1 (-1)": "1.413",
-      "2 (+1)": "2.846",
-      "1 (-2)": "2.259",
-      "2 (+2)": "1.674",
+      "1 (-1.5)": "1.853",
+      "2 (+1.5)": "2.102",
+      "1 (0)": "1.085",
+      "2 (0)": "6.1",
+      "1 (-1)": "1.433",
+      "2 (+1)": "2.766",
+      "1 (-2)": "2.273",
+      "2 (+2)": "1.666",
       "1 (-2.5)": "2.757",
       "2 (+2.5)": "1.445"
     }
@@ -541,7 +211,7 @@
       "Moins de": "1.9"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -607,7 +277,7 @@
       "Moins de": "1.787"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -673,7 +343,7 @@
       "Moins de": "2.074"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -739,7 +409,7 @@
       "Moins de": "1.851"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T21:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -793,72 +463,6 @@
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Sociedade Esportiva Palmeiras",
-    "equipe_2": "Red Bull Bragantino",
-    "1X2": {
-      "V1": "1.549",
-      "X": "4.335",
-      "V2": "6.04"
-    },
-    "Total_2.5": {
-      "Plus de": "1.724",
-      "Moins de": "2.166"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T21:30:00+00:00",
-    "competition": "Championnat du Brésil. Série A",
-    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
-    "competition_id": 1268397,
-    "equipe_1_en": "Sociedade Esportiva Palmeiras",
-    "equipe_2_en": "Red Bull Bragantino",
-    "Double_Chance": {
-      "1X": "1.134",
-      "12": "1.225",
-      "2X": "2.49"
-    },
-    "BTTS": {
-      "Oui": "1.76",
-      "Non": "1.956"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.724",
-        "Moins de": "2.166"
-      },
-      "1.5": {
-        "Plus de": "1.203",
-        "Moins de": "4.18"
-      },
-      "2": {
-        "Plus de": "1.318",
-        "Moins de": "3.32"
-      },
-      "3": {
-        "Plus de": "2.18",
-        "Moins de": "1.679"
-      },
-      "3.5": {
-        "Plus de": "2.731",
-        "Moins de": "1.436"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.57",
-      "1 (-1.5)": "2.471",
-      "1 (0)": "1.171",
-      "2 (0)": "4.515",
-      "1 (-1)": "1.857",
-      "2 (+1)": "1.908",
-      "1 (-2)": "3.735",
-      "2 (+2)": "1.263",
-      "1 (-2.5)": "4.585",
-      "2 (+2.5)": "1.172"
-    }
-  },
-  {
-    "bookmaker": "melbet",
     "equipe_1": "Rostov",
     "equipe_2": "Lokomotiv Moscou",
     "1X2": {
@@ -871,7 +475,7 @@
       "Moins de": "1.787"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T10:45:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -937,7 +541,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T10:45:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -990,16 +594,16 @@
     "equipe_1": "Inter Milan",
     "equipe_2": "Fiorentina",
     "1X2": {
-      "V1": "1.409",
-      "X": "5.56",
-      "V2": "7.9"
+      "V1": "1.374",
+      "X": "5.87",
+      "V2": "8.5"
     },
     "Total_2.5": {
-      "Plus de": "1.447",
-      "Moins de": "2.75"
+      "Plus de": "1.417",
+      "Moins de": "2.866"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T11:30:00+00:00",
     "competition": "Italie. Série A",
@@ -1008,9 +612,9 @@
     "equipe_1_en": "Internazionale Milano",
     "equipe_2_en": "Fiorentina",
     "Double_Chance": {
-      "1X": "1.106",
-      "12": "1.182",
-      "2X": "3.16"
+      "1X": "1.096",
+      "12": "1.169",
+      "2X": "3.34"
     },
     "BTTS": {
       "Oui": "1.64",
@@ -1018,37 +622,37 @@
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.801",
-        "Plus de": "2.174"
+        "Moins de": "1.849",
+        "Plus de": "2.107"
       },
       "2.5": {
-        "Plus de": "1.447",
-        "Moins de": "2.75"
+        "Plus de": "1.417",
+        "Moins de": "2.866"
       },
       "3": {
-        "Plus de": "1.691",
-        "Moins de": "2.23"
+        "Plus de": "1.637",
+        "Moins de": "2.331"
       },
       "4": {
-        "Plus de": "2.889",
-        "Moins de": "1.445"
+        "Plus de": "2.741",
+        "Moins de": "1.485"
       },
       "4.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.316"
+        "Plus de": "3.29",
+        "Moins de": "1.336"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.895",
-      "1 (-1.5)": "2.051",
-      "1 (0)": "1.107",
-      "2 (0)": "5.51",
-      "1 (-1)": "1.541",
-      "2 (+1)": "2.438",
-      "1 (-2)": "2.691",
-      "2 (+2)": "1.496",
-      "1 (-2.5)": "3.26",
-      "2 (+2.5)": "1.337"
+      "2 (+1.5)": "1.965",
+      "1 (-1.5)": "1.975",
+      "1 (0)": "1.097",
+      "2 (0)": "5.76",
+      "1 (-1)": "1.489",
+      "2 (+1)": "2.58",
+      "1 (-2)": "2.536",
+      "2 (+2)": "1.549",
+      "1 (-2.5)": "3.045",
+      "2 (+2.5)": "1.377"
     }
   },
   {
@@ -1056,16 +660,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.843",
-      "V2": "2.44",
-      "X": "8.25"
+      "V1": "1.816",
+      "V2": "2.489",
+      "X": "8.3"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T11:30:00+00:00",
     "competition": "Italie. Série A",
@@ -1075,42 +679,42 @@
     "equipe_2_en": "Away",
     "Double_Chance": {
       "12": "1.057",
-      "1X": "1.516",
-      "2X": "2"
+      "1X": "1.496",
+      "2X": "2.04"
     },
     "Totals": {
-      "14.5": {
-        "Plus de": "1.757",
-        "Moins de": "2.069"
-      },
-      "12.5": {
-        "Plus de": "1.315",
-        "Moins de": "3.42"
+      "15.5": {
+        "Moins de": "1.76",
+        "Plus de": "2.064"
       },
       "13.5": {
-        "Plus de": "1.503",
-        "Moins de": "2.582"
+        "Plus de": "1.488",
+        "Moins de": "2.628"
       },
-      "15.5": {
-        "Plus de": "2.094",
-        "Moins de": "1.739"
+      "14.5": {
+        "Plus de": "1.736",
+        "Moins de": "2.098"
       },
       "16.5": {
-        "Plus de": "2.593",
-        "Moins de": "1.499"
+        "Plus de": "2.547",
+        "Moins de": "1.515"
+      },
+      "17.5": {
+        "Plus de": "3.275",
+        "Moins de": "1.337"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.675",
-      "1 (-1.5)": "2.195",
-      "1 (-1)": "2",
-      "2 (-1)": "2.892",
-      "1 (+1)": "1.415",
-      "2 (+1)": "1.81",
-      "1 (-2)": "2.527",
-      "2 (+2)": "1.522",
-      "1 (-2.5)": "2.77",
-      "2 (+2.5)": "1.446"
+      "2 (+1.5)": "1.7",
+      "1 (-1.5)": "2.154",
+      "1 (-1)": "1.963",
+      "2 (-1)": "2.966",
+      "1 (+1)": "1.398",
+      "2 (+1)": "1.841",
+      "1 (-2)": "2.466",
+      "2 (+2)": "1.545",
+      "1 (-2.5)": "2.703",
+      "2 (+2.5)": "1.465"
     }
   },
   {
@@ -1127,7 +731,7 @@
       "Moins de": "1.68"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T13:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -1193,7 +797,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T13:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -1255,7 +859,7 @@
       "Moins de": "2.223"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T13:00:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -1321,7 +925,7 @@
       "Moins de": "2.487"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1387,7 +991,7 @@
       "Moins de": "2.281"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1453,7 +1057,7 @@
       "Moins de": "2.497"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1519,7 +1123,7 @@
       "Moins de": "2.331"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1585,7 +1189,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1647,7 +1251,7 @@
       "Moins de": "2.896"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Italie. Série A",
@@ -1713,7 +1317,7 @@
       "Moins de": "1.9"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "Italie. Série A",
@@ -1779,7 +1383,7 @@
       "Moins de": "2.061"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:00:00+00:00",
     "competition": "France. Ligue 1",
@@ -1845,7 +1449,7 @@
       "Moins de": "3.07"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1911,7 +1515,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1973,7 +1577,7 @@
       "Moins de": "2.113"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T15:15:00+00:00",
     "competition": "Espagne. La Liga",
@@ -2027,259 +1631,662 @@
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Willem II",
-    "equipe_2": "Cambuur",
+    "equipe_1": "Zénith Saint-Pétersbourg",
+    "equipe_2": "Dynamo Makhachkala",
     "1X2": {
-      "V1": "2.548",
-      "V2": "2.621",
-      "X": "3.735"
+      "V1": "1.33",
+      "X": "5.71",
+      "V2": "11.3"
     },
     "Total_2.5": {
-      "Plus de": "1.547",
-      "Moins de": "2.387"
+      "Plus de": "1.737",
+      "Moins de": "2.275"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
-    "debut": "2026-10-24T16:45:00+00:00",
-    "competition": "Pays-Bas. Eredivisie",
-    "competition_en": "Netherlands. Eredivisie",
-    "competition_id": 2018750,
-    "equipe_1_en": "Willem II",
-    "equipe_2_en": "Cambuur",
+    "debut": "2026-10-25T15:30:00+00:00",
+    "competition": "Championnat de Russie. Première Ligue",
+    "competition_en": "Russia. Premier League",
+    "competition_id": 225733,
+    "equipe_1_en": "Zenit Saint Petersburg",
+    "equipe_2_en": "Dynamo Makhachkala",
     "Double_Chance": {
-      "12": "1.283",
-      "1X": "1.502",
-      "2X": "1.527"
+      "1X": "1.062",
+      "12": "1.176",
+      "2X": "3.64"
     },
     "BTTS": {
-      "Oui": "1.44",
-      "Non": "2.596"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.622",
-        "Plus de": "2.351"
-      },
-      "2.5": {
-        "Plus de": "1.547",
-        "Moins de": "2.387"
-      },
-      "3": {
-        "Plus de": "1.853",
-        "Moins de": "1.936"
-      },
-      "4": {
-        "Plus de": "3.27",
-        "Moins de": "1.333"
-      },
-      "4.5": {
-        "Plus de": "3.875",
-        "Moins de": "1.238"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.895",
-      "2 (0)": "1.946",
-      "1 (-1)": "3.735",
-      "2 (-1)": "3.92",
-      "1 (+1)": "1.243",
-      "2 (+1)": "1.263",
-      "1 (-1.5)": "4.49",
-      "2 (-1.5)": "4.64",
-      "1 (+1.5)": "1.169",
-      "2 (+1.5)": "1.179"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Alverca",
-    "equipe_2": "Arouca",
-    "1X2": {
-      "V1": "2.127",
-      "X": "3.315",
-      "V2": "3.855"
-    },
-    "Total_2.5": {
-      "Plus de": "1.95",
-      "Moins de": "1.93"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T17:00:00+00:00",
-    "competition": "Portugal. Primeira Liga",
-    "competition_en": "Portugal. Primeira Liga",
-    "competition_id": 3007689,
-    "equipe_1_en": "Alverca",
-    "equipe_2_en": "Arouca",
-    "Double_Chance": {
-      "1X": "1.287",
-      "12": "1.361",
-      "2X": "1.766"
-    },
-    "BTTS": {
-      "Oui": "1.7",
-      "Non": "2.038"
+      "Non": "1.676",
+      "Oui": "2.09"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.93",
-        "Plus de": "1.95"
+        "Plus de": "1.737",
+        "Moins de": "2.275"
       },
       "1.5": {
-        "Plus de": "1.284",
-        "Moins de": "3.46"
+        "Plus de": "1.199",
+        "Moins de": "4.365"
       },
       "2": {
-        "Plus de": "1.462",
-        "Moins de": "2.705"
+        "Plus de": "1.322",
+        "Moins de": "3.46"
       },
       "3": {
-        "Plus de": "2.572",
-        "Moins de": "1.516"
+        "Plus de": "2.128",
+        "Moins de": "1.754"
       },
       "3.5": {
-        "Plus de": "3.165",
-        "Moins de": "1.345"
+        "Plus de": "2.678",
+        "Moins de": "1.468"
       }
     },
     "Handicap": {
-      "1 (0)": "1.505",
-      "2 (0)": "2.73",
-      "1 (-1)": "3.015",
-      "2 (-1)": "7.37",
-      "1 (+1)": "1.076",
-      "2 (+1)": "1.385",
-      "1 (-1.5)": "3.705",
-      "2 (-1.5)": "8.35",
-      "1 (+1.5)": "1.036",
-      "2 (+1.5)": "1.253"
+      "1 (-1.5)": "1.955",
+      "2 (+1.5)": "1.986",
+      "1 (0)": "1.063",
+      "2 (0)": "6.91",
+      "1 (-1)": "1.425",
+      "2 (+1)": "2.799",
+      "1 (-2)": "2.544",
+      "2 (+2)": "1.541",
+      "1 (-2.5)": "3.15",
+      "2 (+2.5)": "1.35"
     }
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "CF Montreal",
-    "equipe_2": "Nashville",
+    "equipe_1": "Angers SCO",
+    "equipe_2": "Lorient",
     "1X2": {
-      "V2": "1.564",
-      "X": "4.64",
-      "V1": "5.68"
+      "V2": "2.515",
+      "V1": "3.1",
+      "X": "3.385"
     },
     "Total_2.5": {
-      "Plus de": "1.568",
-      "Moins de": "2.327"
+      "Plus de": "2.084",
+      "Moins de": "1.867"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
-    "debut": "2026-10-24T17:30:00+00:00",
-    "competition": "Championnat des États-Unis. MLS",
-    "competition_en": "USA. MLS",
-    "competition_id": 828065,
-    "equipe_1_en": "CF Montreal",
-    "equipe_2_en": "Nashville",
+    "debut": "2026-10-25T16:15:00+00:00",
+    "competition": "France. Ligue 1",
+    "competition_en": "France. Ligue 1",
+    "competition_id": 12821,
+    "equipe_1_en": "Angers SCO",
+    "equipe_2_en": "Lorient",
     "Double_Chance": {
-      "2X": "1.162",
-      "12": "1.218",
-      "1X": "2.52"
+      "12": "1.369",
+      "2X": "1.422",
+      "1X": "1.592"
     },
     "BTTS": {
-      "Oui": "1.62",
-      "Non": "2.162"
+      "Oui": "1.75",
+      "Non": "1.984"
     },
     "Totals": {
-      "3.5": {
-        "Moins de": "1.625",
-        "Plus de": "2.406"
-      },
       "2.5": {
-        "Plus de": "1.568",
-        "Moins de": "2.327"
+        "Moins de": "1.867",
+        "Plus de": "2.084"
+      },
+      "1.5": {
+        "Plus de": "1.33",
+        "Moins de": "3.21"
+      },
+      "2": {
+        "Plus de": "1.543",
+        "Moins de": "2.519"
       },
       "3": {
-        "Plus de": "1.897",
-        "Moins de": "1.899"
+        "Plus de": "2.828",
+        "Moins de": "1.46"
       },
-      "4": {
-        "Plus de": "3.405",
-        "Moins de": "1.316"
-      },
-      "4.5": {
-        "Plus de": "4.02",
-        "Moins de": "1.221"
+      "3.5": {
+        "Plus de": "3.45",
+        "Moins de": "1.312"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.649",
-      "2 (-1.5)": "2.355",
-      "2 (-1)": "1.785",
-      "1 (+1)": "1.905",
-      "2 (-2)": "3.42",
-      "1 (+2)": "1.313",
-      "2 (-2.5)": "4.11",
-      "1 (+2.5)": "1.213"
+      "2 (0)": "1.793",
+      "1 (0)": "2.185",
+      "1 (-1)": "5.25",
+      "2 (-1)": "3.865",
+      "1 (+1)": "1.271",
+      "2 (+1)": "1.151",
+      "1 (-1.5)": "5.94",
+      "2 (-1.5)": "4.68",
+      "1 (+1.5)": "1.178",
+      "2 (+1.5)": "1.091"
     }
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
+    "equipe_1": "Auxerre",
+    "equipe_2": "Le Mans",
     "1X2": {
-      "V1": "1.51",
-      "V2": "2.853",
-      "X": "11.5"
+      "V1": "2.075",
+      "V2": "3.715",
+      "X": "3.78"
     },
     "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
+      "Plus de": "1.773",
+      "Moins de": "2.216"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
-    "debut": "2026-10-24T17:30:00+00:00",
-    "competition": "Championnat des États-Unis. MLS",
-    "competition_en": "USA. MLS",
-    "competition_id": 828065,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
+    "debut": "2026-10-25T16:15:00+00:00",
+    "competition": "France. Ligue 1",
+    "competition_en": "France. Ligue 1",
+    "competition_id": 12821,
+    "equipe_1_en": "Auxerre",
+    "equipe_2_en": "Le Mans",
     "Double_Chance": {
-      "1X": "1.38",
-      "2X": "2.4"
+      "12": "1.314",
+      "1X": "1.321",
+      "2X": "1.839"
+    },
+    "BTTS": {
+      "Oui": "1.59",
+      "Non": "2.24"
     },
     "Totals": {
-      "48.5": {
-        "Moins de": "1.87",
-        "Plus de": "1.931"
+      "2.5": {
+        "Plus de": "1.773",
+        "Moins de": "2.216"
       },
-      "46.5": {
-        "Plus de": "1.608",
-        "Moins de": "2.321"
+      "1.5": {
+        "Plus de": "1.213",
+        "Moins de": "4.185"
       },
-      "47.5": {
-        "Plus de": "1.758",
-        "Moins de": "2.067"
+      "2": {
+        "Plus de": "1.348",
+        "Moins de": "3.29"
       },
-      "49.5": {
-        "Plus de": "2.143",
-        "Moins de": "1.706"
+      "3": {
+        "Plus de": "2.209",
+        "Moins de": "1.711"
       },
-      "50.5": {
-        "Plus de": "2.412",
-        "Moins de": "1.567"
+      "3.5": {
+        "Plus de": "2.735",
+        "Moins de": "1.461"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.884",
-      "1 (-2.5)": "1.916",
-      "1 (-1.5)": "1.745",
-      "2 (+1.5)": "2.085",
-      "1 (-2)": "1.823",
-      "2 (+2)": "1.984",
-      "1 (-3)": "2.022",
-      "2 (+3)": "1.792",
-      "1 (-3.5)": "2.126",
-      "2 (+3.5)": "1.717"
+      "1 (0)": "1.548",
+      "2 (0)": "2.709",
+      "1 (-1)": "2.863",
+      "2 (-1)": "6.63",
+      "1 (+1)": "1.101",
+      "2 (+1)": "1.437",
+      "1 (-1.5)": "3.515",
+      "2 (-1.5)": "7.34",
+      "1 (+1.5)": "1.054",
+      "2 (+1.5)": "1.285"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Olympique de Marseille",
+    "equipe_2": "Le Havre",
+    "1X2": {
+      "V1": "1.602",
+      "X": "4.825",
+      "V2": "5.44"
+    },
+    "Total_2.5": {
+      "Plus de": "1.537",
+      "Moins de": "2.476"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T16:15:00+00:00",
+    "competition": "France. Ligue 1",
+    "competition_en": "France. Ligue 1",
+    "competition_id": 12821,
+    "equipe_1_en": "Olympique de Marseille",
+    "equipe_2_en": "Le Havre",
+    "Double_Chance": {
+      "1X": "1.188",
+      "12": "1.222",
+      "2X": "2.491"
+    },
+    "BTTS": {
+      "Oui": "1.59",
+      "Non": "2.24"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.64",
+        "Plus de": "2.465"
+      },
+      "2.5": {
+        "Plus de": "1.537",
+        "Moins de": "2.476"
+      },
+      "3": {
+        "Plus de": "1.883",
+        "Moins de": "1.965"
+      },
+      "4": {
+        "Plus de": "3.52",
+        "Moins de": "1.326"
+      },
+      "4.5": {
+        "Plus de": "4.18",
+        "Moins de": "1.23"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.6",
+      "1 (-1.5)": "2.564",
+      "1 (0)": "1.231",
+      "2 (0)": "3.985",
+      "1 (-1)": "1.919",
+      "2 (+1)": "1.908",
+      "1 (-2)": "3.865",
+      "2 (+2)": "1.271",
+      "1 (-2.5)": "4.595",
+      "2 (+2.5)": "1.183"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Stade Rennais",
+    "equipe_2": "Strasbourg",
+    "1X2": {
+      "V1": "1.83",
+      "V2": "4.215",
+      "X": "4.315"
+    },
+    "Total_2.5": {
+      "Plus de": "1.433",
+      "Moins de": "2.804"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T16:15:00+00:00",
+    "competition": "France. Ligue 1",
+    "competition_en": "France. Ligue 1",
+    "competition_id": 12821,
+    "equipe_1_en": "Stade Rennais",
+    "equipe_2_en": "Strasbourg",
+    "Double_Chance": {
+      "12": "1.259",
+      "1X": "1.268",
+      "2X": "2.087"
+    },
+    "BTTS": {
+      "Oui": "1.42",
+      "Non": "2.694"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.827",
+        "Plus de": "2.137"
+      },
+      "2.5": {
+        "Plus de": "1.433",
+        "Moins de": "2.804"
+      },
+      "3": {
+        "Plus de": "1.665",
+        "Moins de": "2.275"
+      },
+      "4": {
+        "Plus de": "2.828",
+        "Moins de": "1.46"
+      },
+      "4.5": {
+        "Plus de": "3.37",
+        "Moins de": "1.324"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.458",
+      "1 (-1.5)": "3.035",
+      "1 (0)": "1.363",
+      "2 (0)": "3.04",
+      "1 (-1)": "2.293",
+      "2 (+1)": "1.642",
+      "1 (-2)": "4.62",
+      "2 (+2)": "1.207",
+      "1 (-2.5)": "5.22",
+      "2 (+2.5)": "1.148"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Toulouse",
+    "equipe_2": "Troyes AC",
+    "1X2": {
+      "V1": "1.654",
+      "X": "4.365",
+      "V2": "5.49"
+    },
+    "Total_2.5": {
+      "Plus de": "1.67",
+      "Moins de": "2.402"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T16:15:00+00:00",
+    "competition": "France. Ligue 1",
+    "competition_en": "France. Ligue 1",
+    "competition_id": 12821,
+    "equipe_1_en": "Toulouse",
+    "equipe_2_en": "Troyes AC",
+    "Double_Chance": {
+      "1X": "1.185",
+      "12": "1.255",
+      "2X": "2.374"
+    },
+    "BTTS": {
+      "Oui": "1.64",
+      "Non": "2.148"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.67",
+        "Moins de": "2.402"
+      },
+      "1.5": {
+        "Plus de": "1.189",
+        "Moins de": "4.5"
+      },
+      "2": {
+        "Plus de": "1.287",
+        "Moins de": "3.725"
+      },
+      "3": {
+        "Plus de": "2.009",
+        "Moins de": "1.854"
+      },
+      "3.5": {
+        "Plus de": "2.486",
+        "Moins de": "1.544"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.577",
+      "1 (-1.5)": "2.624",
+      "1 (0)": "1.241",
+      "2 (0)": "3.885",
+      "1 (-1)": "1.992",
+      "2 (+1)": "1.841",
+      "1 (-2)": "3.89",
+      "2 (+2)": "1.269",
+      "1 (-2.5)": "4.545",
+      "2 (+2.5)": "1.186"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sunderland",
+    "equipe_2": "Leeds United",
+    "1X2": {
+      "V2": "2.577",
+      "V1": "3.08",
+      "X": "3.305"
+    },
+    "Total_2.5": {
+      "Plus de": "2.167",
+      "Moins de": "1.806"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T16:30:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Sunderland",
+    "equipe_2_en": "Leeds United",
+    "Double_Chance": {
+      "12": "1.383",
+      "2X": "1.426",
+      "1X": "1.568"
+    },
+    "BTTS": {
+      "Oui": "1.8",
+      "Non": "1.923"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.806",
+        "Plus de": "2.167"
+      },
+      "1.5": {
+        "Plus de": "1.349",
+        "Moins de": "3.105"
+      },
+      "2": {
+        "Plus de": "1.596",
+        "Moins de": "2.389"
+      },
+      "3": {
+        "Plus de": "3.04",
+        "Moins de": "1.406"
+      },
+      "3.5": {
+        "Plus de": "3.67",
+        "Moins de": "1.279"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.814",
+      "1 (0)": "2.155",
+      "1 (-1)": "5.4",
+      "2 (-1)": "4.055",
+      "1 (+1)": "1.252",
+      "2 (+1)": "1.144",
+      "1 (-1.5)": "6.24",
+      "2 (-1.5)": "5.03",
+      "1 (+1.5)": "1.157",
+      "2 (+1.5)": "1.081"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Fribourg",
+    "equipe_2": "Bayern Munich",
+    "1X2": {
+      "V2": "1.413",
+      "X": "5.99",
+      "V1": "7.11"
+    },
+    "Total_2.5": {
+      "Plus de": "1.241",
+      "Moins de": "3.965"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T16:30:00+00:00",
+    "competition": "Allemagne. Bundesliga",
+    "competition_en": "Germany. Bundesliga",
+    "competition_id": 96463,
+    "equipe_1_en": "Freiburg",
+    "equipe_2_en": "Bayern Munich",
+    "Double_Chance": {
+      "2X": "1.13",
+      "12": "1.164",
+      "1X": "3.145"
+    },
+    "BTTS": {
+      "Oui": "1.39",
+      "Non": "2.808"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.712",
+        "Moins de": "2.32"
+      },
+      "2.5": {
+        "Plus de": "1.241",
+        "Moins de": "3.965"
+      },
+      "3": {
+        "Plus de": "1.358",
+        "Moins de": "3.265"
+      },
+      "4": {
+        "Plus de": "2.021",
+        "Moins de": "1.847"
+      },
+      "4.5": {
+        "Plus de": "2.454",
+        "Moins de": "1.56"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.96",
+      "2 (-1.5)": "1.98",
+      "1 (0)": "5.26",
+      "2 (0)": "1.145",
+      "2 (-1)": "1.544",
+      "1 (+1)": "2.515",
+      "2 (-2)": "2.499",
+      "1 (+2)": "1.563",
+      "2 (-2.5)": "3.01",
+      "1 (+2.5)": "1.384"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Lecce",
+    "equipe_2": "Juventus",
+    "1X2": {
+      "V2": "1.503",
+      "X": "4.53",
+      "V1": "7.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.924",
+      "Moins de": "2.018"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T17:00:00+00:00",
+    "competition": "Italie. Série A",
+    "competition_en": "Italy. Serie A",
+    "competition_id": 110163,
+    "equipe_1_en": "Lecce",
+    "equipe_2_en": "Juventus",
+    "Double_Chance": {
+      "2X": "1.113",
+      "12": "1.242",
+      "1X": "2.773"
+    },
+    "BTTS": {
+      "Non": "1.738",
+      "Oui": "2"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.924",
+        "Moins de": "2.018"
+      },
+      "1.5": {
+        "Plus de": "1.283",
+        "Moins de": "3.53"
+      },
+      "2": {
+        "Plus de": "1.446",
+        "Moins de": "2.829"
+      },
+      "3": {
+        "Plus de": "2.497",
+        "Moins de": "1.571"
+      },
+      "3.5": {
+        "Plus de": "3.065",
+        "Moins de": "1.382"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.69",
+      "2 (-1.5)": "2.36",
+      "1 (0)": "5.3",
+      "2 (0)": "1.115",
+      "2 (-1)": "1.718",
+      "1 (+1)": "2.096",
+      "2 (-2)": "3.36",
+      "1 (+2)": "1.337",
+      "2 (-2.5)": "4.05",
+      "1 (+2.5)": "1.225"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Real Sociedad",
+    "equipe_2": "Levante UD",
+    "1X2": {
+      "V1": "1.673",
+      "X": "4.41",
+      "V2": "5.23"
+    },
+    "Total_2.5": {
+      "Plus de": "1.64",
+      "Moins de": "2.465"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T17:30:00+00:00",
+    "competition": "Espagne. La Liga",
+    "competition_en": "Spain. La Liga",
+    "competition_id": 127733,
+    "equipe_1_en": "Real Sociedad",
+    "equipe_2_en": "Levante UD",
+    "Double_Chance": {
+      "1X": "1.198",
+      "12": "1.251",
+      "2X": "2.336"
+    },
+    "BTTS": {
+      "Oui": "1.59",
+      "Non": "2.24"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.64",
+        "Moins de": "2.465"
+      },
+      "1.5": {
+        "Plus de": "1.164",
+        "Moins de": "4.91"
+      },
+      "2": {
+        "Plus de": "1.258",
+        "Moins de": "3.995"
+      },
+      "3": {
+        "Plus de": "1.958",
+        "Moins de": "1.899"
+      },
+      "3.5": {
+        "Plus de": "2.434",
+        "Moins de": "1.564"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.547",
+      "1 (-1.5)": "2.712",
+      "1 (0)": "1.25",
+      "2 (0)": "3.8",
+      "1 (-1)": "2.041",
+      "2 (+1)": "1.801",
+      "1 (-2)": "4.21",
+      "2 (+2)": "1.238",
+      "1 (-2.5)": "4.91",
+      "2 (+2.5)": "1.164"
     }
   },
   {
@@ -2296,7 +2303,7 @@
       "Moins de": "2.616"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:00:00+00:00",
     "competition": "Pays-Bas. Eredivisie",
@@ -2339,12 +2346,12 @@
       "2 (0)": "1.537",
       "1 (0)": "2.558",
       "1 (-1)": "5.64",
-      "2 (-1)": "2.711",
-      "1 (+1)": "1.455",
+      "2 (-1)": "2.708",
+      "1 (+1)": "1.453",
       "2 (+1)": "1.122",
       "1 (-1.5)": "6.37",
-      "2 (-1.5)": "3.32",
-      "1 (+1.5)": "1.308",
+      "2 (-1.5)": "3.315",
+      "1 (+1.5)": "1.305",
       "2 (+1.5)": "1.077"
     }
   },
@@ -2362,7 +2369,7 @@
       "Moins de": "1.94"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Portugal. Primeira Liga",
@@ -2393,12 +2400,12 @@
         "Moins de": "2.705"
       },
       "3": {
-        "Plus de": "2.572",
-        "Moins de": "1.516"
+        "Plus de": "2.575",
+        "Moins de": "1.517"
       },
       "3.5": {
-        "Plus de": "3.165",
-        "Moins de": "1.345"
+        "Plus de": "3.17",
+        "Moins de": "1.347"
       }
     },
     "Handicap": {
@@ -2428,7 +2435,7 @@
       "Moins de": "2.672"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2494,7 +2501,7 @@
       "Moins de": "3.45"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T21:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2560,7 +2567,7 @@
       "Moins de": "2.67"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T23:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2626,7 +2633,7 @@
       "Moins de": "3.175"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T23:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2692,7 +2699,7 @@
       "Moins de": "2.888"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T23:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2758,7 +2765,7 @@
       "Moins de": "2.887"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-24T23:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2822,7 +2829,7 @@
       "Moins de": "2.661"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T00:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2888,7 +2895,7 @@
       "Moins de": "2.297"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T00:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2954,7 +2961,7 @@
       "Moins de": "2.58"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T00:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3020,7 +3027,7 @@
       "Moins de": "2.23"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T01:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3077,16 +3084,16 @@
     "equipe_1": "Real Salt Lake",
     "equipe_2": "St. Louis City",
     "1X2": {
-      "V1": "2.326",
-      "V2": "2.879",
-      "X": "3.94"
+      "V1": "2.107",
+      "V2": "3.275",
+      "X": "3.98"
     },
     "Total_2.5": {
-      "Plus de": "1.472",
-      "Moins de": "2.574"
+      "Plus de": "1.483",
+      "Moins de": "2.544"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T01:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3095,47 +3102,47 @@
     "equipe_1_en": "Real Salt Lake",
     "equipe_2_en": "St. Louis City",
     "Double_Chance": {
-      "12": "1.278",
-      "1X": "1.451",
-      "2X": "1.649"
+      "12": "1.273",
+      "1X": "1.368",
+      "2X": "1.78"
     },
     "BTTS": {
-      "Oui": "1.42",
-      "Non": "2.659"
+      "Oui": "1.44",
+      "Non": "2.596"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.744",
-        "Plus de": "2.185"
+        "Moins de": "1.73",
+        "Plus de": "2.208"
       },
       "2.5": {
-        "Plus de": "1.472",
-        "Moins de": "2.574"
+        "Plus de": "1.483",
+        "Moins de": "2.544"
       },
       "3": {
-        "Plus de": "1.731",
-        "Moins de": "2.101"
+        "Plus de": "1.748",
+        "Moins de": "2.076"
       },
       "4": {
-        "Plus de": "2.91",
-        "Moins de": "1.408"
+        "Plus de": "2.959",
+        "Moins de": "1.397"
       },
       "4.5": {
-        "Plus de": "3.46",
-        "Moins de": "1.284"
+        "Plus de": "3.515",
+        "Moins de": "1.277"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.236",
-      "1 (-1.5)": "4.5",
-      "1 (-1)": "3.17",
-      "2 (-1)": "4.04",
-      "1 (+1)": "1.21",
-      "2 (+1)": "1.347",
-      "1 (-2)": "7.55",
-      "2 (+2)": "1.072",
-      "1 (-2.5)": "8.45",
-      "2 (+2.5)": "1.034"
+      "2 (+1.5)": "1.328",
+      "1 (-1.5)": "3.6",
+      "1 (-1)": "2.665",
+      "2 (-1)": "5.12",
+      "1 (+1)": "1.138",
+      "2 (+1)": "1.465",
+      "1 (-2)": "5.9",
+      "2 (+2)": "1.117",
+      "1 (-2.5)": "6.73",
+      "2 (+2.5)": "1.068"
     }
   },
   {
@@ -3152,7 +3159,7 @@
       "Moins de": "2.9"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T02:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3218,7 +3225,7 @@
       "Moins de": "3.1"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:21:35.231315+00:00",
+    "derniere_maj": "2026-10-24T18:20:57.202108+00:00",
     "statut": "ok",
     "debut": "2026-10-25T02:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3272,6 +3279,72 @@
   },
   {
     "bookmaker": "melbet",
+    "equipe_1": "Sociedade Esportiva Palmeiras",
+    "equipe_2": "Red Bull Bragantino",
+    "1X2": {
+      "V1": "1.53",
+      "X": "4.28",
+      "V2": "5.95"
+    },
+    "Total_2.5": {
+      "Plus de": "1.704",
+      "Moins de": "2.144"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T21:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Sociedade Esportiva Palmeiras",
+    "equipe_2_en": "Red Bull Bragantino",
+    "Double_Chance": {
+      "1X": "1.134",
+      "12": "1.225",
+      "2X": "2.49"
+    },
+    "BTTS": {
+      "Oui": "1.76",
+      "Non": "1.956"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.704",
+        "Moins de": "2.144"
+      },
+      "1.5": {
+        "Plus de": "1.203",
+        "Moins de": "4.18"
+      },
+      "2": {
+        "Plus de": "1.318",
+        "Moins de": "3.32"
+      },
+      "3": {
+        "Plus de": "2.18",
+        "Moins de": "1.679"
+      },
+      "3.5": {
+        "Plus de": "2.731",
+        "Moins de": "1.436"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "2.445",
+      "2 (+1.5)": "1.552",
+      "1 (-2.5)": "4.585",
+      "1 (-2)": "3.735",
+      "1 (-1)": "1.857",
+      "1 (0)": "1.171",
+      "2 (+2.5)": "1.172",
+      "2 (+2)": "1.263",
+      "2 (+1)": "1.908",
+      "2 (0)": "4.515"
+    }
+  },
+  {
+    "bookmaker": "melbet",
     "equipe_1": "Chapecoense",
     "equipe_2": "Fluminense",
     "1X2": {
@@ -3284,7 +3357,7 @@
       "Moins de": "1.94"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-24T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -3350,7 +3423,7 @@
       "Moins de": "2.387"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-25T00:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -3404,666 +3477,6 @@
   },
   {
     "bookmaker": "melbet",
-    "equipe_1": "Zénith Saint-Pétersbourg",
-    "equipe_2": "Dynamo Makhachkala",
-    "1X2": {
-      "V1": "1.28",
-      "X": "5.5",
-      "V2": "10.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.675",
-      "Moins de": "2.192"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T15:30:00+00:00",
-    "competition": "Championnat de Russie. Première Ligue",
-    "competition_en": "Russia. Premier League",
-    "competition_id": 225733,
-    "equipe_1_en": "Zenit Saint Petersburg",
-    "equipe_2_en": "Dynamo Makhachkala",
-    "Double_Chance": {
-      "1X": "1.062",
-      "12": "1.176",
-      "2X": "3.64"
-    },
-    "BTTS": {
-      "Oui": "2.09",
-      "Non": "1.676"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.675",
-        "Moins de": "2.192"
-      },
-      "1.5": {
-        "Plus de": "1.199",
-        "Moins de": "4.365"
-      },
-      "2": {
-        "Plus de": "1.31",
-        "Moins de": "3.42"
-      },
-      "3": {
-        "Plus de": "2.1",
-        "Moins de": "1.735"
-      },
-      "3.5": {
-        "Plus de": "2.678",
-        "Moins de": "1.468"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.885",
-      "2 (+1.5)": "1.912",
-      "1 (-2.5)": "3.15",
-      "1 (-2)": "2.515",
-      "1 (-1)": "1.425",
-      "1 (0)": "1.063",
-      "2 (+2.5)": "1.35",
-      "2 (+2)": "1.525",
-      "2 (+1)": "2.799",
-      "2 (0)": "6.91"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Angers SCO",
-    "equipe_2": "Lorient",
-    "1X2": {
-      "V1": "2.99",
-      "X": "3.26",
-      "V2": "2.425"
-    },
-    "Total_2.5": {
-      "Plus de": "2.01",
-      "Moins de": "1.8"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:15:00+00:00",
-    "competition": "France. Ligue 1",
-    "competition_en": "France. Ligue 1",
-    "competition_id": 12821,
-    "equipe_1_en": "Angers SCO",
-    "equipe_2_en": "Lorient",
-    "Double_Chance": {
-      "1X": "1.592",
-      "12": "1.369",
-      "2X": "1.422"
-    },
-    "BTTS": {
-      "Oui": "1.75",
-      "Non": "1.984"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "2.01",
-        "Moins de": "1.8"
-      },
-      "1.5": {
-        "Plus de": "1.33",
-        "Moins de": "3.21"
-      },
-      "2": {
-        "Plus de": "1.53",
-        "Moins de": "2.5"
-      },
-      "3": {
-        "Plus de": "2.79",
-        "Moins de": "1.44"
-      },
-      "3.5": {
-        "Plus de": "3.44",
-        "Moins de": "1.31"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "2.11",
-      "2 (0)": "1.73",
-      "1 (-1.5)": "5.94",
-      "1 (-1)": "5.25",
-      "1 (+1)": "1.26",
-      "1 (+1.5)": "1.178",
-      "2 (+1.5)": "1.091",
-      "2 (+1)": "1.151",
-      "2 (-1)": "3.82",
-      "2 (-1.5)": "4.68"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Olympique de Marseille",
-    "equipe_2": "Le Havre",
-    "1X2": {
-      "V1": "1.544",
-      "X": "4.64",
-      "V2": "5.2"
-    },
-    "Total_2.5": {
-      "Plus de": "1.537",
-      "Moins de": "2.476"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:15:00+00:00",
-    "competition": "France. Ligue 1",
-    "competition_en": "France. Ligue 1",
-    "competition_id": 12821,
-    "equipe_1_en": "Olympique de Marseille",
-    "equipe_2_en": "Le Havre",
-    "Double_Chance": {
-      "1X": "1.188",
-      "12": "1.222",
-      "2X": "2.491"
-    },
-    "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.24"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "2.38",
-        "Moins de": "1.58"
-      },
-      "2.5": {
-        "Plus de": "1.537",
-        "Moins de": "2.476"
-      },
-      "3": {
-        "Plus de": "1.86",
-        "Moins de": "1.94"
-      },
-      "4": {
-        "Plus de": "3.46",
-        "Moins de": "1.305"
-      },
-      "4.5": {
-        "Plus de": "4.17",
-        "Moins de": "1.227"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "2.47",
-      "2 (+1.5)": "1.54",
-      "1 (-2.5)": "4.595",
-      "1 (-2)": "3.82",
-      "1 (-1)": "1.904",
-      "1 (0)": "1.231",
-      "2 (+2.5)": "1.183",
-      "2 (+2)": "1.26",
-      "2 (+1)": "1.896",
-      "2 (0)": "3.985"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Auxerre",
-    "equipe_2": "Le Mans",
-    "1X2": {
-      "V1": "2.07",
-      "X": "3.64",
-      "V2": "3.38"
-    },
-    "Total_2.5": {
-      "Plus de": "1.68",
-      "Moins de": "2.184"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:15:00+00:00",
-    "competition": "France. Ligue 1",
-    "competition_en": "France. Ligue 1",
-    "competition_id": 12821,
-    "equipe_1_en": "Auxerre",
-    "equipe_2_en": "Le Mans",
-    "Double_Chance": {
-      "1X": "1.35",
-      "12": "1.314",
-      "2X": "1.786"
-    },
-    "BTTS": {
-      "Oui": "1.56",
-      "Non": "2.302"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.68",
-        "Moins de": "2.184"
-      },
-      "1.5": {
-        "Plus de": "1.205",
-        "Moins de": "4.29"
-      },
-      "2": {
-        "Plus de": "1.312",
-        "Moins de": "3.42"
-      },
-      "3": {
-        "Plus de": "2.112",
-        "Moins de": "1.725"
-      },
-      "3.5": {
-        "Plus de": "2.664",
-        "Moins de": "1.475"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.54",
-      "2 (0)": "2.475",
-      "1 (-1.5)": "3.68",
-      "1 (-1)": "2.97",
-      "1 (+1)": "1.116",
-      "1 (+1.5)": "1.066",
-      "2 (+1.5)": "1.264",
-      "2 (+1)": "1.395",
-      "2 (-1)": "6.12",
-      "2 (-1.5)": "6.8"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Stade Rennais",
-    "equipe_2": "Strasbourg",
-    "1X2": {
-      "V1": "1.765",
-      "X": "4.16",
-      "V2": "4.06"
-    },
-    "Total_2.5": {
-      "Plus de": "1.433",
-      "Moins de": "2.804"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:15:00+00:00",
-    "competition": "France. Ligue 1",
-    "competition_en": "France. Ligue 1",
-    "competition_id": 12821,
-    "equipe_1_en": "Stade Rennais",
-    "equipe_2_en": "Strasbourg",
-    "Double_Chance": {
-      "1X": "1.268",
-      "12": "1.259",
-      "2X": "2.087"
-    },
-    "BTTS": {
-      "Oui": "1.42",
-      "Non": "2.694"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "2.06",
-        "Moins de": "1.76"
-      },
-      "2.5": {
-        "Plus de": "1.433",
-        "Moins de": "2.804"
-      },
-      "3": {
-        "Plus de": "1.645",
-        "Moins de": "2.248"
-      },
-      "4": {
-        "Plus de": "2.79",
-        "Moins de": "1.44"
-      },
-      "4.5": {
-        "Plus de": "3.36",
-        "Moins de": "1.32"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "2.925",
-      "2 (+1.5)": "1.408",
-      "1 (-2.5)": "5.22",
-      "1 (-2)": "4.58",
-      "1 (-1)": "2.275",
-      "1 (0)": "1.363",
-      "2 (+2.5)": "1.148",
-      "2 (+2)": "1.195",
-      "2 (+1)": "1.63",
-      "2 (0)": "3.04"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Toulouse",
-    "equipe_2": "Troyes AC",
-    "1X2": {
-      "V1": "1.595",
-      "X": "4.2",
-      "V2": "5.25"
-    },
-    "Total_2.5": {
-      "Plus de": "1.61",
-      "Moins de": "2.315"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:15:00+00:00",
-    "competition": "France. Ligue 1",
-    "competition_en": "France. Ligue 1",
-    "competition_id": 12821,
-    "equipe_1_en": "Toulouse",
-    "equipe_2_en": "Troyes AC",
-    "Double_Chance": {
-      "1X": "1.185",
-      "12": "1.255",
-      "2X": "2.374"
-    },
-    "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.148"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.61",
-        "Moins de": "2.315"
-      },
-      "1.5": {
-        "Plus de": "1.189",
-        "Moins de": "4.5"
-      },
-      "2": {
-        "Plus de": "1.275",
-        "Moins de": "3.7"
-      },
-      "3": {
-        "Plus de": "1.98",
-        "Moins de": "1.825"
-      },
-      "3.5": {
-        "Plus de": "2.48",
-        "Moins de": "1.54"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "2.53",
-      "2 (+1.5)": "1.52",
-      "1 (-2.5)": "4.545",
-      "1 (-2)": "3.86",
-      "1 (-1)": "1.98",
-      "1 (0)": "1.241",
-      "2 (+2.5)": "1.186",
-      "2 (+2)": "1.26",
-      "2 (+1)": "1.825",
-      "2 (0)": "3.885"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Sunderland",
-    "equipe_2": "Leeds United",
-    "1X2": {
-      "V1": "2.97",
-      "X": "3.185",
-      "V2": "2.488"
-    },
-    "Total_2.5": {
-      "Plus de": "2.09",
-      "Moins de": "1.74"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:30:00+00:00",
-    "competition": "Angleterre. Premier League",
-    "competition_en": "England. Premier League",
-    "competition_id": 88637,
-    "equipe_1_en": "Sunderland",
-    "equipe_2_en": "Leeds United",
-    "Double_Chance": {
-      "1X": "1.568",
-      "12": "1.383",
-      "2X": "1.426"
-    },
-    "BTTS": {
-      "Oui": "1.8",
-      "Non": "1.923"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "2.09",
-        "Moins de": "1.74"
-      },
-      "1.5": {
-        "Plus de": "1.349",
-        "Moins de": "3.105"
-      },
-      "2": {
-        "Plus de": "1.584",
-        "Moins de": "2.37"
-      },
-      "3": {
-        "Plus de": "3.005",
-        "Moins de": "1.39"
-      },
-      "3.5": {
-        "Plus de": "3.67",
-        "Moins de": "1.279"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "2.08",
-      "2 (0)": "1.75",
-      "1 (-1.5)": "6.24",
-      "1 (-1)": "5.4",
-      "1 (+1)": "1.245",
-      "1 (+1.5)": "1.157",
-      "2 (+1.5)": "1.081",
-      "2 (+1)": "1.144",
-      "2 (-1)": "4.02",
-      "2 (-1.5)": "5.03"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Fribourg",
-    "equipe_2": "Bayern Munich",
-    "1X2": {
-      "V1": "6.85",
-      "X": "5.75",
-      "V2": "1.365"
-    },
-    "Total_2.5": {
-      "Plus de": "1.241",
-      "Moins de": "3.965"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T16:30:00+00:00",
-    "competition": "Allemagne. Bundesliga",
-    "competition_en": "Germany. Bundesliga",
-    "competition_id": 96463,
-    "equipe_1_en": "Freiburg",
-    "equipe_2_en": "Bayern Munich",
-    "Double_Chance": {
-      "1X": "3.145",
-      "12": "1.164",
-      "2X": "1.13"
-    },
-    "BTTS": {
-      "Oui": "1.39",
-      "Non": "2.808"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.65",
-        "Moins de": "2.235"
-      },
-      "2.5": {
-        "Plus de": "1.241",
-        "Moins de": "3.965"
-      },
-      "3": {
-        "Plus de": "1.344",
-        "Moins de": "3.22"
-      },
-      "4": {
-        "Plus de": "1.99",
-        "Moins de": "1.816"
-      },
-      "4.5": {
-        "Plus de": "2.445",
-        "Moins de": "1.552"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.89",
-      "2 (-1.5)": "1.91",
-      "1 (0)": "5.23",
-      "1 (+1)": "2.496",
-      "1 (+2)": "1.544",
-      "1 (+2.5)": "1.384",
-      "2 (0)": "1.137",
-      "2 (-1)": "1.53",
-      "2 (-2)": "2.47",
-      "2 (-2.5)": "3.01"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Lecce",
-    "equipe_2": "Juventus",
-    "1X2": {
-      "V1": "7.4",
-      "X": "4.36",
-      "V2": "1.45"
-    },
-    "Total_2.5": {
-      "Plus de": "1.856",
-      "Moins de": "1.944"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T17:00:00+00:00",
-    "competition": "Italie. Série A",
-    "competition_en": "Italy. Serie A",
-    "competition_id": 110163,
-    "equipe_1_en": "Lecce",
-    "equipe_2_en": "Juventus",
-    "Double_Chance": {
-      "1X": "2.773",
-      "12": "1.242",
-      "2X": "1.113"
-    },
-    "BTTS": {
-      "Oui": "2",
-      "Non": "1.738"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.856",
-        "Moins de": "1.944"
-      },
-      "1.5": {
-        "Plus de": "1.283",
-        "Moins de": "3.53"
-      },
-      "2": {
-        "Plus de": "1.435",
-        "Moins de": "2.81"
-      },
-      "3": {
-        "Plus de": "2.46",
-        "Moins de": "1.545"
-      },
-      "3.5": {
-        "Plus de": "3.056",
-        "Moins de": "1.38"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.63",
-      "2 (-1.5)": "2.275",
-      "1 (0)": "5.3",
-      "1 (+1)": "2.096",
-      "1 (+2)": "1.325",
-      "1 (+2.5)": "1.225",
-      "2 (0)": "1.115",
-      "2 (-1)": "1.718",
-      "2 (-2)": "3.32",
-      "2 (-2.5)": "4.05"
-    }
-  },
-  {
-    "bookmaker": "melbet",
-    "equipe_1": "Real Sociedad",
-    "equipe_2": "Levante UD",
-    "1X2": {
-      "V1": "1.615",
-      "X": "4.24",
-      "V2": "5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.38"
-    },
-    "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
-    "statut": "ok",
-    "debut": "2026-10-25T17:30:00+00:00",
-    "competition": "Espagne. La Liga",
-    "competition_en": "Spain. La Liga",
-    "competition_id": 127733,
-    "equipe_1_en": "Real Sociedad",
-    "equipe_2_en": "Levante UD",
-    "Double_Chance": {
-      "1X": "1.198",
-      "12": "1.251",
-      "2X": "2.336"
-    },
-    "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.24"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.38"
-      },
-      "1.5": {
-        "Plus de": "1.164",
-        "Moins de": "4.91"
-      },
-      "2": {
-        "Plus de": "1.25",
-        "Moins de": "3.96"
-      },
-      "3": {
-        "Plus de": "1.93",
-        "Moins de": "1.87"
-      },
-      "3.5": {
-        "Plus de": "2.425",
-        "Moins de": "1.56"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "2.616",
-      "2 (+1.5)": "1.49",
-      "1 (-2.5)": "4.91",
-      "1 (-2)": "4.18",
-      "1 (-1)": "2.025",
-      "1 (0)": "1.25",
-      "2 (+2.5)": "1.164",
-      "2 (+2)": "1.23",
-      "2 (+1)": "1.785",
-      "2 (0)": "3.8"
-    }
-  },
-  {
-    "bookmaker": "melbet",
     "equipe_1": "Udinese Calcio",
     "equipe_2": "Milan",
     "1X2": {
@@ -4076,7 +3489,7 @@
       "Moins de": "1.9"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-25T19:45:00+00:00",
     "competition": "Italie. Série A",
@@ -4142,7 +3555,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-25T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -4187,11 +3600,11 @@
       "1 (-2.5)": "3.86",
       "1 (-2)": "3.26",
       "1 (-1)": "1.88",
-      "1 (0)": "1.317",
+      "1 (0)": "1.306",
       "2 (+2.5)": "1.257",
       "2 (+2)": "1.34",
       "2 (+1)": "1.92",
-      "2 (0)": "3.385"
+      "2 (0)": "3.36"
     }
   },
   {
@@ -4208,7 +3621,7 @@
       "Moins de": "2.949"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-26T19:30:00+00:00",
     "competition": "France. Ligue 1",
@@ -4274,7 +3687,7 @@
       "Moins de": "1.73"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-26T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -4340,7 +3753,7 @@
       "Moins de": "1.9"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-26T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -4406,7 +3819,7 @@
       "Moins de": "2.37"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-26T23:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -4463,16 +3876,16 @@
     "equipe_1": "Sassuolo Calcio",
     "equipe_2": "Lazio",
     "1X2": {
-      "V1": "2.856",
+      "V1": "2.975",
       "X": "3.4",
-      "V2": "2.44"
+      "V2": "2.36"
     },
     "Total_2.5": {
-      "Plus de": "1.752",
-      "Moins de": "2.07"
+      "Plus de": "1.725",
+      "Moins de": "2.112"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-27T17:30:00+00:00",
     "competition": "Italie. Série A",
@@ -4481,47 +3894,47 @@
     "equipe_1_en": "Sassuolo Calcio",
     "equipe_2_en": "Lazio",
     "Double_Chance": {
-      "1X": "1.585",
+      "1X": "1.622",
       "12": "1.345",
-      "2X": "1.454"
+      "2X": "1.425"
     },
     "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.261"
+      "Oui": "1.56",
+      "Non": "2.302"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.752",
-        "Moins de": "2.07"
+        "Plus de": "1.725",
+        "Moins de": "2.112"
       },
       "1.5": {
-        "Plus de": "1.242",
-        "Moins de": "3.88"
+        "Plus de": "1.221",
+        "Moins de": "4.1"
       },
       "2": {
-        "Plus de": "1.365",
-        "Moins de": "3.13"
+        "Plus de": "1.34",
+        "Moins de": "3.24"
       },
       "3": {
-        "Plus de": "2.26",
-        "Moins de": "1.64"
+        "Plus de": "2.184",
+        "Moins de": "1.68"
       },
       "3.5": {
-        "Plus de": "2.83",
-        "Moins de": "1.43"
+        "Plus de": "2.712",
+        "Moins de": "1.46"
       }
     },
     "Handicap": {
-      "1 (0)": "2.056",
-      "2 (0)": "1.768",
-      "1 (-1.5)": "5.63",
-      "1 (-1)": "4.84",
-      "1 (+1)": "1.27",
-      "1 (+1.5)": "1.18",
-      "2 (+1.5)": "1.12",
-      "2 (+1)": "1.18",
-      "2 (-1)": "3.76",
-      "2 (-1.5)": "4.645"
+      "1 (0)": "2.14",
+      "2 (0)": "1.71",
+      "1 (-1.5)": "5.85",
+      "1 (-1)": "5.1",
+      "1 (+1)": "1.29",
+      "1 (+1.5)": "1.198",
+      "2 (+1.5)": "1.112",
+      "2 (+1)": "1.168",
+      "2 (-1)": "3.6",
+      "2 (-1.5)": "4.385"
     }
   },
   {
@@ -4538,7 +3951,7 @@
       "Moins de": "2.125"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-27T19:45:00+00:00",
     "competition": "Italie. Série A",
@@ -4604,7 +4017,7 @@
       "Moins de": "2.16"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-27T19:45:00+00:00",
     "competition": "Italie. Série A",
@@ -4670,7 +4083,7 @@
       "Moins de": "3.345"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T17:30:00+00:00",
     "competition": "Italie. Série A",
@@ -4736,7 +4149,7 @@
       "Moins de": "1.992"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T17:30:00+00:00",
     "competition": "Italie. Série A",
@@ -4802,7 +4215,7 @@
       "Moins de": "1.704"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T17:30:00+00:00",
     "competition": "Italie. Série A",
@@ -4868,7 +4281,7 @@
       "Moins de": "1.784"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T19:45:00+00:00",
     "competition": "Italie. Série A",
@@ -4934,7 +4347,7 @@
       "Moins de": "2.096"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T19:45:00+00:00",
     "competition": "Italie. Série A",
@@ -5000,7 +4413,7 @@
       "Moins de": "2.39"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5066,7 +4479,7 @@
       "Moins de": "1.84"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5132,7 +4545,7 @@
       "Moins de": "1.68"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-28T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5198,7 +4611,7 @@
       "Moins de": "1.808"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-29T00:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5264,7 +4677,7 @@
       "Moins de": "2.04"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-29T00:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5330,7 +4743,7 @@
       "Moins de": "2.41"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-29T17:30:00+00:00",
     "competition": "Italie. Série A",
@@ -5396,7 +4809,7 @@
       "Moins de": "2.125"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-29T19:45:00+00:00",
     "competition": "Italie. Série A",
@@ -5462,7 +4875,7 @@
       "Moins de": "1.85"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-29T22:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5528,7 +4941,7 @@
       "Moins de": "1.95"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-29T23:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5594,7 +5007,7 @@
       "Moins de": "1.696"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-30T00:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5660,7 +5073,7 @@
       "Moins de": "3.225"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "France. Ligue 1",
@@ -5726,7 +5139,7 @@
       "Moins de": "2.505"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-30T19:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -5792,7 +5205,7 @@
       "Moins de": "2.336"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-30T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -5858,7 +5271,7 @@
       "Moins de": "2.168"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-30T20:05:00+00:00",
     "competition": "France. Ligue 1",
@@ -5924,7 +5337,7 @@
       "Moins de": "1.77"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-30T23:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -5981,16 +5394,16 @@
     "equipe_1": "Rubin Kazan",
     "equipe_2": "Fakel Voronej",
     "1X2": {
-      "V1": "2.01",
-      "X": "3.36",
-      "V2": "3.86"
+      "V1": "1.99",
+      "X": "3.26",
+      "V2": "4.1"
     },
     "Total_2.5": {
-      "Plus de": "2.385",
-      "Moins de": "1.575"
+      "Plus de": "2.36",
+      "Moins de": "1.59"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T12:15:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -5999,46 +5412,46 @@
     "equipe_1_en": "Rubin Kazan",
     "equipe_2_en": "Fakel Voronezh",
     "Double_Chance": {
-      "1X": "1.287",
-      "12": "1.353",
-      "2X": "1.833"
+      "1X": "1.265",
+      "12": "1.369",
+      "2X": "1.849"
     },
     "BTTS": {
-      "Oui": "2.06",
-      "Non": "1.696"
+      "Oui": "2.04",
+      "Non": "1.708"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "2.385",
-        "Moins de": "1.575"
+        "Plus de": "2.36",
+        "Moins de": "1.59"
       },
       "1.5": {
-        "Plus de": "1.457",
-        "Moins de": "2.657"
+        "Plus de": "1.433",
+        "Moins de": "2.738"
       },
       "2": {
-        "Plus de": "1.792",
-        "Moins de": "2.02"
+        "Plus de": "1.77",
+        "Moins de": "2.05"
       },
       "3": {
-        "Plus de": "3.74",
-        "Moins de": "1.27"
+        "Plus de": "3.6",
+        "Moins de": "1.29"
       },
       "3.5": {
-        "Plus de": "4.565",
-        "Moins de": "1.185"
+        "Plus de": "4.415",
+        "Moins de": "1.196"
       }
     },
     "Handicap": {
-      "1 (0)": "1.445",
-      "2 (0)": "2.77",
-      "1 (-1.5)": "3.995",
-      "1 (-1)": "3.09",
-      "1 (+1)": "1.064",
+      "1 (0)": "1.416",
+      "2 (0)": "2.885",
+      "1 (-1.5)": "3.83",
+      "1 (-1)": "2.992",
+      "1 (+1)": "1.056",
       "1 (+1.5)": "1.001",
-      "2 (+1.5)": "1.23",
-      "2 (+1)": "1.37",
-      "2 (-1)": "8.35",
+      "2 (+1.5)": "1.247",
+      "2 (+1)": "1.39",
+      "2 (-1)": "8.9",
       "2 (-1.5)": "11.6"
     }
   },
@@ -6047,16 +5460,16 @@
     "equipe_1": "Chelsea",
     "equipe_2": "Manchester United",
     "1X2": {
-      "V1": "1.832",
-      "X": "3.94",
-      "V2": "3.94"
+      "V1": "1.94",
+      "X": "3.84",
+      "V2": "3.6"
     },
     "Total_2.5": {
-      "Plus de": "1.515",
-      "Moins de": "2.535"
+      "Plus de": "1.526",
+      "Moins de": "2.505"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T12:30:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -6065,47 +5478,47 @@
     "equipe_1_en": "Chelsea",
     "equipe_2_en": "Manchester United",
     "Double_Chance": {
-      "1X": "1.28",
-      "12": "1.28",
-      "2X": "2.002"
+      "1X": "1.319",
+      "12": "1.291",
+      "2X": "1.891"
     },
     "BTTS": {
-      "Oui": "1.47",
-      "Non": "2.529"
+      "Oui": "1.46",
+      "Non": "2.56"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "2.256",
-        "Moins de": "1.64"
+        "Plus de": "2.296",
+        "Moins de": "1.62"
       },
       "2.5": {
-        "Plus de": "1.515",
-        "Moins de": "2.535"
+        "Plus de": "1.526",
+        "Moins de": "2.505"
       },
       "3": {
-        "Plus de": "1.8",
-        "Moins de": "2.015"
+        "Plus de": "1.816",
+        "Moins de": "1.99"
       },
       "4": {
-        "Plus de": "3.2",
-        "Moins de": "1.35"
+        "Plus de": "3.26",
+        "Moins de": "1.34"
       },
       "4.5": {
-        "Plus de": "3.86",
-        "Moins de": "1.26"
+        "Plus de": "3.96",
+        "Moins de": "1.25"
       }
     },
     "Handicap": {
-      "1 (0)": "1.4",
-      "2 (0)": "2.944",
-      "1 (-1.5)": "3.085",
-      "1 (-1)": "2.425",
-      "1 (+1)": "1.079",
-      "1 (+1.5)": "1.037",
-      "2 (+1.5)": "1.368",
-      "2 (+1)": "1.56",
-      "2 (-1)": "7.5",
-      "2 (-1.5)": "8.25"
+      "1 (0)": "1.475",
+      "2 (0)": "2.675",
+      "1 (-1.5)": "3.305",
+      "1 (-1)": "2.66",
+      "1 (+1)": "1.101",
+      "1 (+1.5)": "1.052",
+      "2 (+1.5)": "1.315",
+      "2 (+1)": "1.48",
+      "2 (-1)": "6.63",
+      "2 (-1.5)": "7.44"
     }
   },
   {
@@ -6122,7 +5535,7 @@
       "Moins de": "2.464"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T13:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -6188,7 +5601,7 @@
       "Moins de": "2.627"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -6254,7 +5667,7 @@
       "Moins de": "3.36"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -6311,16 +5724,16 @@
     "equipe_1": "Borussia Monchengladbach",
     "equipe_2": "Paderborn 07",
     "1X2": {
-      "V1": "1.816",
-      "X": "4.2",
-      "V2": "3.78"
+      "V1": "1.89",
+      "X": "4.1",
+      "V2": "3.56"
     },
     "Total_2.5": {
-      "Plus de": "1.444",
-      "Moins de": "2.764"
+      "Plus de": "1.474",
+      "Moins de": "2.659"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -6329,47 +5742,47 @@
     "equipe_1_en": "Borussia Monchengladbach",
     "equipe_2_en": "Paderborn 07",
     "Double_Chance": {
-      "1X": "1.297",
-      "12": "1.255",
-      "2X": "2.022"
+      "1X": "1.322",
+      "12": "1.265",
+      "2X": "1.942"
     },
     "BTTS": {
-      "Oui": "1.42",
-      "Non": "2.694"
+      "Oui": "1.43",
+      "Non": "2.662"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "2.08",
-        "Moins de": "1.75"
+        "Plus de": "2.15",
+        "Moins de": "1.7"
       },
       "2.5": {
-        "Plus de": "1.444",
-        "Moins de": "2.764"
+        "Plus de": "1.474",
+        "Moins de": "2.659"
       },
       "3": {
-        "Plus de": "1.65",
-        "Moins de": "2.235"
+        "Plus de": "1.715",
+        "Moins de": "2.125"
       },
       "4": {
-        "Plus de": "2.79",
-        "Moins de": "1.44"
+        "Plus de": "2.952",
+        "Moins de": "1.4"
       },
       "4.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.325"
+        "Plus de": "3.5",
+        "Moins de": "1.3"
       }
     },
     "Handicap": {
-      "1 (0)": "1.41",
-      "2 (0)": "2.91",
-      "1 (-1.5)": "2.956",
-      "1 (-1)": "2.38",
-      "1 (+1)": "1.109",
-      "1 (+1.5)": "1.064",
-      "2 (+1.5)": "1.396",
-      "2 (+1)": "1.58",
-      "2 (-1)": "6.33",
-      "2 (-1.5)": "6.88"
+      "1 (0)": "1.47",
+      "2 (0)": "2.69",
+      "1 (-1.5)": "3.155",
+      "1 (-1)": "2.525",
+      "1 (+1)": "1.122",
+      "1 (+1.5)": "1.073",
+      "2 (+1.5)": "1.355",
+      "2 (+1)": "1.52",
+      "2 (-1)": "5.96",
+      "2 (-1.5)": "6.52"
     }
   },
   {
@@ -6386,7 +5799,7 @@
       "Moins de": "2.886"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -6431,11 +5844,11 @@
       "1 (-1.5)": "5.55",
       "1 (-1)": "4.82",
       "1 (+1)": "1.384",
-      "1 (+1.5)": "1.274",
+      "1 (+1.5)": "1.27",
       "2 (+1.5)": "1.133",
       "2 (+1)": "1.18",
-      "2 (-1)": "3.02",
-      "2 (-1.5)": "3.705"
+      "2 (-1)": "3.016",
+      "2 (-1.5)": "3.695"
     }
   },
   {
@@ -6443,16 +5856,16 @@
     "equipe_1": "Schalke 04",
     "equipe_2": "RasenBallsport Leipzig",
     "1X2": {
-      "V1": "3.64",
+      "V1": "3.74",
       "X": "4.2",
-      "V2": "1.85"
+      "V2": "1.825"
     },
     "Total_2.5": {
-      "Plus de": "1.412",
-      "Moins de": "2.886"
+      "Plus de": "1.422",
+      "Moins de": "2.845"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -6461,47 +5874,47 @@
     "equipe_1_en": "Schalke 04",
     "equipe_2_en": "RasenBallsport Leipzig",
     "Double_Chance": {
-      "1X": "1.982",
-      "12": "1.256",
-      "2X": "1.314"
+      "1X": "2.013",
+      "12": "1.255",
+      "2X": "1.302"
     },
     "BTTS": {
-      "Oui": "1.39",
-      "Non": "2.808"
+      "Oui": "1.4",
+      "Non": "2.767"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "2.04",
-        "Moins de": "1.78"
+        "Plus de": "2.06",
+        "Moins de": "1.76"
       },
       "2.5": {
-        "Plus de": "1.412",
-        "Moins de": "2.886"
+        "Plus de": "1.422",
+        "Moins de": "2.845"
       },
       "3": {
-        "Plus de": "1.615",
-        "Moins de": "2.31"
+        "Plus de": "1.632",
+        "Moins de": "2.265"
       },
       "4": {
-        "Plus de": "2.75",
-        "Moins de": "1.45"
+        "Plus de": "2.79",
+        "Moins de": "1.44"
       },
       "4.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.325"
+        "Plus de": "3.36",
+        "Moins de": "1.32"
       }
     },
     "Handicap": {
-      "1 (0)": "2.765",
-      "2 (0)": "1.448",
-      "1 (-1.5)": "7.23",
-      "1 (-1)": "6.48",
-      "1 (+1)": "1.54",
-      "1 (+1.5)": "1.366",
-      "2 (+1.5)": "1.056",
-      "2 (+1)": "1.105",
-      "2 (-1)": "2.475",
-      "2 (-1.5)": "3.1"
+      "1 (0)": "2.91",
+      "2 (0)": "1.41",
+      "1 (-1.5)": "7.5",
+      "1 (-1)": "6.84",
+      "1 (+1)": "1.57",
+      "1 (+1.5)": "1.376",
+      "2 (+1.5)": "1.05",
+      "2 (+1)": "1.095",
+      "2 (-1)": "2.405",
+      "2 (-1.5)": "3.045"
     }
   },
   {
@@ -6509,16 +5922,16 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "1.968",
-      "X": "8.8",
-      "V2": "2.177"
+      "V1": "2.017",
+      "X": "8.75",
+      "V2": "2.12"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -6528,37 +5941,37 @@
     "equipe_2_en": "Away (Special bets)",
     "Totals": {
       "17.5": {
-        "Plus de": "1.825",
-        "Moins de": "1.98"
+        "Plus de": "1.86",
+        "Moins de": "1.941"
       },
       "15.5": {
-        "Plus de": "1.382",
-        "Moins de": "3.035"
+        "Plus de": "1.4",
+        "Moins de": "2.945"
       },
       "16.5": {
-        "Plus de": "1.574",
-        "Moins de": "2.396"
+        "Plus de": "1.601",
+        "Moins de": "2.336"
       },
       "18.5": {
-        "Plus de": "2.152",
-        "Moins de": "1.7"
+        "Plus de": "2.208",
+        "Moins de": "1.665"
       },
       "19.5": {
-        "Plus de": "2.632",
-        "Moins de": "1.485"
+        "Plus de": "2.712",
+        "Moins de": "1.462"
       }
     },
     "Handicap": {
-      "1 (-1.5)": "2.371",
-      "2 (+1.5)": "1.585",
-      "1 (-2.5)": "2.98",
-      "1 (-2)": "2.744",
-      "1 (-1)": "2.175",
-      "1 (+1)": "1.544",
-      "2 (+2.5)": "1.392",
-      "2 (+2)": "1.453",
-      "2 (+1)": "1.685",
-      "2 (-1)": "2.469"
+      "1 (-1.5)": "2.448",
+      "2 (+1.5)": "1.55",
+      "1 (-2.5)": "3.095",
+      "1 (-2)": "2.856",
+      "1 (-1)": "2.246",
+      "1 (+1)": "1.575",
+      "2 (+2.5)": "1.37",
+      "2 (+2)": "1.425",
+      "2 (+1)": "1.646",
+      "2 (-1)": "2.39"
     }
   },
   {
@@ -6575,7 +5988,7 @@
       "Moins de": "2.208"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T14:30:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -6641,7 +6054,7 @@
       "Moins de": "1.95"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T15:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -6707,7 +6120,7 @@
       "Moins de": "2.125"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T15:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -6773,7 +6186,7 @@
       "Moins de": "1.93"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T15:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -6839,7 +6252,7 @@
       "Moins de": "2.659"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T15:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -6905,7 +6318,7 @@
       "Moins de": "2.09"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T15:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -6971,7 +6384,7 @@
       "Moins de": "1.78"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T15:15:00+00:00",
     "competition": "Espagne. La Liga",
@@ -7037,7 +6450,7 @@
       "Moins de": "2.36"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T16:15:00+00:00",
     "competition": "France. Ligue 1",
@@ -7094,16 +6507,16 @@
     "equipe_1": "Rodina Moscow",
     "equipe_2": "Krasnodar",
     "1X2": {
-      "V1": "5.65",
-      "X": "4",
+      "V1": "5.55",
+      "X": "4.04",
       "V2": "1.592"
     },
     "Total_2.5": {
-      "Plus de": "1.84",
-      "Moins de": "1.968"
+      "Plus de": "1.76",
+      "Moins de": "2.064"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T16:45:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -7113,46 +6526,46 @@
     "equipe_2_en": "Krasnodar",
     "Double_Chance": {
       "1X": "2.378",
-      "12": "1.274",
-      "2X": "1.168"
+      "12": "1.269",
+      "2X": "1.172"
     },
     "BTTS": {
-      "Oui": "1.84",
-      "Non": "1.881"
+      "Oui": "1.77",
+      "Non": "1.961"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.84",
-        "Moins de": "1.968"
+        "Plus de": "1.76",
+        "Moins de": "2.064"
       },
       "1.5": {
-        "Plus de": "1.272",
-        "Moins de": "3.61"
+        "Plus de": "1.242",
+        "Moins de": "3.88"
       },
       "2": {
-        "Plus de": "1.416",
-        "Moins de": "2.89"
+        "Plus de": "1.368",
+        "Moins de": "3.112"
       },
       "3": {
-        "Plus de": "2.41",
-        "Moins de": "1.57"
+        "Plus de": "2.256",
+        "Moins de": "1.64"
       },
       "3.5": {
-        "Plus de": "3",
-        "Moins de": "1.386"
+        "Plus de": "2.783",
+        "Moins de": "1.438"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.496",
-      "2 (-1.5)": "2.6",
-      "1 (0)": "4.1",
-      "1 (+1)": "1.805",
-      "1 (+2)": "1.23",
-      "1 (+2.5)": "1.169",
-      "2 (0)": "1.21",
-      "2 (-1)": "2.005",
-      "2 (-2)": "4.18",
-      "2 (-2.5)": "4.82"
+      "1 (+1.5)": "1.504",
+      "2 (-1.5)": "2.57",
+      "1 (0)": "4.125",
+      "1 (+1)": "1.825",
+      "1 (+2)": "1.255",
+      "1 (+2.5)": "1.179",
+      "2 (0)": "1.219",
+      "2 (-1)": "1.984",
+      "2 (-2)": "3.92",
+      "2 (-2.5)": "4.665"
     }
   },
   {
@@ -7169,7 +6582,7 @@
       "Moins de": "2.296"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T17:30:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -7235,7 +6648,7 @@
       "Moins de": "2.476"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T17:30:00+00:00",
     "competition": "Espagne. La Liga",
@@ -7301,7 +6714,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T17:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -7367,7 +6780,7 @@
       "Moins de": "1.86"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T19:00:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -7433,7 +6846,7 @@
       "Moins de": "2.38"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T19:45:00+00:00",
     "competition": "France. Ligue 1",
@@ -7499,7 +6912,7 @@
       "Moins de": "1.9"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T19:45:00+00:00",
     "competition": "France. Ligue 1",
@@ -7565,7 +6978,7 @@
       "Moins de": "2"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T19:45:00+00:00",
     "competition": "France. Ligue 1",
@@ -7631,7 +7044,7 @@
       "Moins de": "2.08"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T20:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -7697,7 +7110,7 @@
       "Moins de": "3.74"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-10-31T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -7754,16 +7167,16 @@
     "equipe_1": "Orenbourg",
     "equipe_2": "CSKA Moscou",
     "1X2": {
-      "V1": "3.92",
-      "X": "3.68",
-      "V2": "1.9"
+      "V1": "3.74",
+      "X": "3.7",
+      "V2": "1.94"
     },
     "Total_2.5": {
-      "Plus de": "1.9",
-      "Moins de": "1.9"
+      "Plus de": "1.825",
+      "Moins de": "1.98"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T10:00:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -7772,47 +7185,47 @@
     "equipe_1_en": "Orenburg",
     "equipe_2_en": "CSKA Moscow",
     "Double_Chance": {
-      "1X": "1.929",
-      "12": "1.309",
-      "2X": "1.283"
+      "1X": "1.892",
+      "12": "1.307",
+      "2X": "1.302"
     },
     "BTTS": {
-      "Oui": "1.76",
-      "Non": "1.973"
+      "Oui": "1.69",
+      "Non": "2.066"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.9",
-        "Moins de": "1.9"
+        "Plus de": "1.825",
+        "Moins de": "1.98"
       },
       "1.5": {
-        "Plus de": "1.294",
-        "Moins de": "3.45"
+        "Plus de": "1.272",
+        "Moins de": "3.61"
       },
       "2": {
-        "Plus de": "1.456",
-        "Moins de": "2.736"
+        "Plus de": "1.416",
+        "Moins de": "2.89"
       },
       "3": {
-        "Plus de": "2.57",
-        "Moins de": "1.504"
+        "Plus de": "2.41",
+        "Moins de": "1.568"
       },
       "3.5": {
-        "Plus de": "3.215",
-        "Moins de": "1.338"
+        "Plus de": "2.991",
+        "Moins de": "1.382"
       }
     },
     "Handicap": {
-      "1 (0)": "2.936",
-      "2 (0)": "1.405",
-      "1 (-1.5)": "8",
-      "1 (-1)": "7.38",
-      "1 (+1)": "1.475",
-      "1 (+1.5)": "1.303",
-      "2 (+1.5)": "1.041",
-      "2 (+1)": "1.082",
-      "2 (-1)": "2.664",
-      "2 (-1.5)": "3.385"
+      "1 (0)": "2.75",
+      "2 (0)": "1.45",
+      "1 (-1.5)": "7.5",
+      "1 (-1)": "6.81",
+      "1 (+1)": "1.456",
+      "1 (+1.5)": "1.297",
+      "2 (+1.5)": "1.05",
+      "2 (+1)": "1.096",
+      "2 (-1)": "2.73",
+      "2 (-1.5)": "3.425"
     }
   },
   {
@@ -7829,7 +7242,7 @@
       "Moins de": "1.595"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T12:15:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -7895,7 +7308,7 @@
       "Moins de": "1.465"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T13:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -7961,7 +7374,7 @@
       "Moins de": "2.336"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T14:00:00+00:00",
     "competition": "France. Ligue 1",
@@ -8027,7 +7440,7 @@
       "Moins de": "2.256"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T14:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -8084,16 +7497,16 @@
     "equipe_1": "Baltika Kaliningrad",
     "equipe_2": "Akron Tolyatti",
     "1X2": {
-      "V1": "1.85",
-      "X": "3.54",
-      "V2": "4.34"
+      "V1": "1.74",
+      "X": "3.64",
+      "V2": "4.88"
     },
     "Total_2.5": {
       "Plus de": "2.144",
       "Moins de": "1.704"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T14:30:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -8102,13 +7515,13 @@
     "equipe_1_en": "Baltika Kaliningrad",
     "equipe_2_en": "Akron Tolyatti",
     "Double_Chance": {
-      "1X": "1.244",
-      "12": "1.327",
-      "2X": "1.983"
+      "1X": "1.207",
+      "12": "1.312",
+      "2X": "2.122"
     },
     "BTTS": {
-      "Oui": "1.94",
-      "Non": "1.787"
+      "Oui": "1.99",
+      "Non": "1.745"
     },
     "Totals": {
       "2.5": {
@@ -8133,16 +7546,16 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.315",
-      "2 (0)": "3.42",
-      "1 (-1.5)": "3.425",
-      "1 (-1)": "2.63",
-      "1 (+1)": "1.053",
-      "1 (+1.5)": "1.001",
-      "2 (+1.5)": "1.297",
-      "2 (+1)": "1.485",
-      "2 (-1)": "9.15",
-      "2 (-1.5)": "11.6"
+      "1 (-1.5)": "3.42",
+      "2 (+1.5)": "1.315",
+      "1 (-2.5)": "6.44",
+      "1 (-2)": "5.71",
+      "1 (-1)": "2.39",
+      "1 (0)": "1.285",
+      "2 (+2.5)": "1.075",
+      "2 (+2)": "1.131",
+      "2 (+1)": "1.575",
+      "2 (0)": "3.51"
     }
   },
   {
@@ -8159,7 +7572,7 @@
       "Moins de": "4.09"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T15:15:00+00:00",
     "competition": "Espagne. La Liga",
@@ -8225,7 +7638,7 @@
       "Moins de": "2.168"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T16:15:00+00:00",
     "competition": "France. Ligue 1",
@@ -8291,7 +7704,7 @@
       "Moins de": "2.08"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T16:30:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -8357,7 +7770,7 @@
       "Moins de": "2.845"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T16:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -8423,7 +7836,7 @@
       "Moins de": "2.064"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T16:45:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -8489,7 +7902,7 @@
       "Moins de": "1.86"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T17:30:00+00:00",
     "competition": "Espagne. La Liga",
@@ -8555,7 +7968,7 @@
       "Moins de": "2.38"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T19:45:00+00:00",
     "competition": "France. Ligue 1",
@@ -8621,7 +8034,7 @@
       "Moins de": "1.93"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-01T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -8687,7 +8100,7 @@
       "Moins de": "2.155"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-02T15:00:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -8753,7 +8166,7 @@
       "Moins de": "2.15"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-02T20:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -8819,7 +8232,7 @@
       "Moins de": "1.61"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-02T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -8885,7 +8298,7 @@
       "Moins de": "2.804"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T17:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -8951,7 +8364,7 @@
       "Moins de": "2.255"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T17:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9017,7 +8430,7 @@
       "Moins de": "2.971"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9083,7 +8496,7 @@
       "Moins de": null
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9149,7 +8562,7 @@
       "Moins de": "2.566"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9215,7 +8628,7 @@
       "Moins de": "3.13"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9281,7 +8694,7 @@
       "Moins de": "2.724"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9347,7 +8760,7 @@
       "Moins de": "2.45"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9413,7 +8826,7 @@
       "Moins de": "2.845"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-03T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9479,7 +8892,7 @@
       "Moins de": "3.175"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T17:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9545,7 +8958,7 @@
       "Moins de": "2.566"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T17:45:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9611,7 +9024,7 @@
       "Moins de": "2.566"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9677,7 +9090,7 @@
       "Moins de": "2.61"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9743,7 +9156,7 @@
       "Moins de": "2.476"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9809,7 +9222,7 @@
       "Moins de": "2.01"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9875,7 +9288,7 @@
       "Moins de": "3.02"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9937,11 +9350,11 @@
       "V2": "1.544"
     },
     "Total_2.5": {
-      "Plus de": "1.36",
-      "Moins de": "3.13"
+      "Plus de": "1.356",
+      "Moins de": "3.12"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -9964,8 +9377,8 @@
         "Moins de": "1.9"
       },
       "2.5": {
-        "Plus de": "1.36",
-        "Moins de": "3.13"
+        "Plus de": "1.356",
+        "Moins de": "3.12"
       },
       "3": {
         "Plus de": "1.53",
@@ -10007,7 +9420,7 @@
       "Moins de": "2.476"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-04T20:00:00+00:00",
     "competition": "Ligue des champions de l'UEFA",
@@ -10073,7 +9486,7 @@
       "Moins de": "2.37"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10139,7 +9552,7 @@
       "Moins de": "2.416"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10205,7 +9618,7 @@
       "Moins de": "2.016"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10271,7 +9684,7 @@
       "Moins de": "2.416"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10337,7 +9750,7 @@
       "Moins de": "2.477"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10377,8 +9790,8 @@
       }
     },
     "Handicap": {
-      "1 (-1.5)": "1.875",
-      "2 (+1.5)": "1.925",
+      "1 (-1.5)": "1.885",
+      "2 (+1.5)": "1.912",
       "1 (-2.5)": "3.025",
       "1 (-2)": "2.485",
       "1 (-1)": "1.452",
@@ -10403,7 +9816,7 @@
       "Moins de": "2.507"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10469,7 +9882,7 @@
       "Moins de": "2.285"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10535,7 +9948,7 @@
       "Moins de": "2.096"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10601,7 +10014,7 @@
       "Moins de": "2.344"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T17:45:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10667,7 +10080,7 @@
       "Moins de": "1.936"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10733,7 +10146,7 @@
       "Moins de": "2.537"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10799,7 +10212,7 @@
       "Moins de": "2.897"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10865,7 +10278,7 @@
       "Moins de": "2.325"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10931,7 +10344,7 @@
       "Moins de": "2.225"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -10997,7 +10410,7 @@
       "Moins de": "2.192"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -11063,7 +10476,7 @@
       "Moins de": "1.768"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -11120,16 +10533,16 @@
     "equipe_1": "Hapoël Beer-Sheva",
     "equipe_2": "OFI Crete",
     "1X2": {
-      "V1": "1.98",
-      "X": "3.72",
-      "V2": "3.56"
+      "V1": "2.05",
+      "X": "3.62",
+      "V2": "3.44"
     },
     "Total_2.5": {
-      "Plus de": "1.625",
-      "Moins de": "2.285"
+      "Plus de": "1.66",
+      "Moins de": "2.216"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -11138,47 +10551,47 @@
     "equipe_1_en": "Hapoel Be'er Sheva",
     "equipe_2_en": "OFI Crete",
     "Double_Chance": {
-      "1X": "1.311",
-      "12": "1.292",
-      "2X": "1.848"
+      "1X": "1.328",
+      "12": "1.304",
+      "2X": "1.793"
     },
     "BTTS": {
-      "Oui": "1.53",
-      "Non": "2.373"
+      "Oui": "1.55",
+      "Non": "2.323"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.625",
-        "Moins de": "2.285"
+        "Plus de": "1.66",
+        "Moins de": "2.216"
       },
       "1.5": {
-        "Plus de": "1.173",
-        "Moins de": "4.64"
+        "Plus de": "1.188",
+        "Moins de": "4.425"
       },
       "2": {
-        "Plus de": "1.278",
-        "Moins de": "3.68"
+        "Plus de": "1.299",
+        "Moins de": "3.52"
       },
       "3": {
-        "Plus de": "2.008",
-        "Moins de": "1.8"
+        "Plus de": "2.08",
+        "Moins de": "1.75"
       },
       "3.5": {
-        "Plus de": "2.537",
-        "Moins de": "1.499"
+        "Plus de": "2.598",
+        "Moins de": "1.479"
       }
     },
     "Handicap": {
-      "1 (0)": "1.48",
-      "2 (0)": "2.656",
-      "1 (-1.5)": "3.445",
-      "1 (-1)": "2.772",
-      "1 (+1)": "1.093",
-      "1 (+1.5)": "1.049",
-      "2 (+1.5)": "1.286",
-      "2 (+1)": "1.443",
-      "2 (-1)": "6.68",
-      "2 (-1.5)": "7.55"
+      "1 (0)": "1.52",
+      "2 (0)": "2.54",
+      "1 (-1.5)": "3.68",
+      "1 (-1)": "2.938",
+      "1 (+1)": "1.101",
+      "1 (+1.5)": "1.057",
+      "2 (+1.5)": "1.256",
+      "2 (+1)": "1.402",
+      "2 (-1)": "6.37",
+      "2 (-1.5)": "7.19"
     }
   },
   {
@@ -11195,7 +10608,7 @@
       "Moins de": "2.325"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-05T20:00:00+00:00",
     "competition": "Ligue Europa de l'UEFA",
@@ -11249,6 +10662,666 @@
   },
   {
     "bookmaker": "melbet",
+    "equipe_1": "Everton",
+    "equipe_2": "Coventry City",
+    "1X2": {
+      "V1": "1.645",
+      "X": "3.98",
+      "V2": "5.15"
+    },
+    "Total_2.5": {
+      "Plus de": "1.625",
+      "Moins de": "2.29"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-06T20:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Everton",
+    "equipe_2_en": "Coventry City",
+    "Double_Chance": {
+      "1X": "1.191",
+      "12": "1.276",
+      "2X": "2.279"
+    },
+    "BTTS": {
+      "Oui": "1.65",
+      "Non": "2.132"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.625",
+        "Moins de": "2.29"
+      },
+      "1.5": {
+        "Plus de": "1.167",
+        "Moins de": "4.685"
+      },
+      "2": {
+        "Plus de": "1.27",
+        "Moins de": "3.76"
+      },
+      "3": {
+        "Plus de": "1.99",
+        "Moins de": "1.82"
+      },
+      "3.5": {
+        "Plus de": "2.506",
+        "Moins de": "1.526"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "2.584",
+      "2 (+1.5)": "1.5",
+      "1 (-2.5)": "4.83",
+      "1 (-2)": "4.06",
+      "1 (-1)": "2.016",
+      "1 (0)": "1.237",
+      "2 (+2.5)": "1.168",
+      "2 (+2)": "1.24",
+      "2 (+1)": "1.792",
+      "2 (0)": "3.925"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Leeds United",
+    "equipe_2": "Tottenham Hotspur",
+    "1X2": {
+      "V1": "2.37",
+      "X": "3.38",
+      "V2": "2.984"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "2.01"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-07T12:30:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Leeds United",
+    "equipe_2_en": "Tottenham Hotspur",
+    "Double_Chance": {
+      "1X": "1.423",
+      "12": "1.35",
+      "2X": "1.617"
+    },
+    "BTTS": {
+      "Oui": "1.64",
+      "Non": "2.149"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "2.01"
+      },
+      "1.5": {
+        "Plus de": "1.23",
+        "Moins de": "4"
+      },
+      "2": {
+        "Plus de": "1.38",
+        "Moins de": "3.045"
+      },
+      "3": {
+        "Plus de": "2.325",
+        "Moins de": "1.608"
+      },
+      "3.5": {
+        "Plus de": "2.879",
+        "Moins de": "1.414"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.7",
+      "2 (0)": "2.15",
+      "1 (-1.5)": "4.42",
+      "1 (-1)": "3.54",
+      "1 (+1)": "1.168",
+      "1 (+1.5)": "1.095",
+      "2 (+1.5)": "1.195",
+      "2 (+1)": "1.296",
+      "2 (-1)": "4.93",
+      "2 (-1.5)": "5.82"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Arsenal",
+    "equipe_2": "Hull City",
+    "1X2": {
+      "V1": "1.185",
+      "X": "7.4",
+      "V2": "13"
+    },
+    "Total_2.5": {
+      "Plus de": "1.425",
+      "Moins de": "2.809"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-07T15:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Arsenal",
+    "equipe_2_en": "Hull City",
+    "Double_Chance": {
+      "1X": "1.038",
+      "12": "1.116",
+      "2X": "4.68"
+    },
+    "BTTS": {
+      "Oui": "1.9",
+      "Non": "1.822"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "2.11",
+        "Moins de": "1.73"
+      },
+      "2.5": {
+        "Plus de": "1.425",
+        "Moins de": "2.809"
+      },
+      "3": {
+        "Plus de": "1.66",
+        "Moins de": "2.216"
+      },
+      "4": {
+        "Plus de": "2.825",
+        "Moins de": "1.43"
+      },
+      "4.5": {
+        "Plus de": "3.415",
+        "Moins de": "1.307"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.608",
+      "2 (+1.5)": "2.325",
+      "1 (-2.5)": "2.529",
+      "1 (-2)": "1.99",
+      "1 (-1)": "1.277",
+      "1 (0)": "1.013",
+      "2 (+2.5)": "1.517",
+      "2 (+2)": "1.82",
+      "2 (+1)": "3.62",
+      "2 (0)": "11.6"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Fulham",
+    "equipe_2": "Newcastle United",
+    "1X2": {
+      "V1": "2.384",
+      "X": "3.56",
+      "V2": "2.83"
+    },
+    "Total_2.5": {
+      "Plus de": "1.67",
+      "Moins de": "2.2"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-07T15:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Fulham",
+    "equipe_2_en": "Newcastle United",
+    "Double_Chance": {
+      "1X": "1.46",
+      "12": "1.323",
+      "2X": "1.61"
+    },
+    "BTTS": {
+      "Oui": "1.55",
+      "Non": "2.382"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.67",
+        "Moins de": "2.2"
+      },
+      "1.5": {
+        "Plus de": "1.205",
+        "Moins de": "4.15"
+      },
+      "2": {
+        "Plus de": "1.31",
+        "Moins de": "3.44"
+      },
+      "3": {
+        "Plus de": "2.06",
+        "Moins de": "1.76"
+      },
+      "3.5": {
+        "Plus de": "2.542",
+        "Moins de": "1.505"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.76",
+      "2 (0)": "2.06",
+      "1 (-1.5)": "4.095",
+      "1 (-1)": "3.49",
+      "1 (+1)": "1.209",
+      "1 (+1.5)": "1.143",
+      "2 (+1.5)": "1.189",
+      "2 (+1)": "1.294",
+      "2 (-1)": "4.305",
+      "2 (-1.5)": "4.755"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Nottingham Forest",
+    "equipe_2": "Manchester City",
+    "1X2": {
+      "V1": "5.05",
+      "X": "4.26",
+      "V2": "1.61"
+    },
+    "Total_2.5": {
+      "Plus de": "1.57",
+      "Moins de": "2.405"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-07T17:30:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Nottingham Forest",
+    "equipe_2_en": "Manchester City",
+    "Double_Chance": {
+      "1X": "2.345",
+      "12": "1.25",
+      "2X": "1.197"
+    },
+    "BTTS": {
+      "Oui": "1.61",
+      "Non": "2.203"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.57",
+        "Moins de": "2.405"
+      },
+      "1.5": {
+        "Plus de": "1.149",
+        "Moins de": "4.995"
+      },
+      "2": {
+        "Plus de": "1.25",
+        "Moins de": "3.92"
+      },
+      "3": {
+        "Plus de": "1.9",
+        "Moins de": "1.9"
+      },
+      "3.5": {
+        "Plus de": "2.404",
+        "Moins de": "1.566"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.52",
+      "2 (-1.5)": "2.535",
+      "1 (0)": "3.925",
+      "1 (+1)": "1.825",
+      "1 (+2)": "1.25",
+      "1 (+2.5)": "1.175",
+      "2 (0)": "1.237",
+      "2 (-1)": "1.98",
+      "2 (-2)": "3.92",
+      "2 (-2.5)": "4.72"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Brighton & Hove Albion",
+    "equipe_2": "Brentford",
+    "1X2": {
+      "V1": "1.82",
+      "X": "3.86",
+      "V2": "4.06"
+    },
+    "Total_2.5": {
+      "Plus de": "1.562",
+      "Moins de": "2.393"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-08T14:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Brighton & Hove Albion",
+    "equipe_2_en": "Brentford",
+    "Double_Chance": {
+      "1X": "1.267",
+      "12": "1.287",
+      "2X": "2.017"
+    },
+    "BTTS": {
+      "Oui": "1.54",
+      "Non": "2.349"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "2.385",
+        "Moins de": "1.575"
+      },
+      "2.5": {
+        "Plus de": "1.562",
+        "Moins de": "2.393"
+      },
+      "3": {
+        "Plus de": "1.89",
+        "Moins de": "1.91"
+      },
+      "4": {
+        "Plus de": "3.44",
+        "Moins de": "1.31"
+      },
+      "4.5": {
+        "Plus de": "4.205",
+        "Moins de": "1.212"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "3.04",
+      "2 (+1.5)": "1.38",
+      "1 (-2.5)": "5.73",
+      "1 (-2)": "4.88",
+      "1 (-1)": "2.365",
+      "1 (0)": "1.36",
+      "2 (+2.5)": "1.126",
+      "2 (+2)": "1.18",
+      "2 (+1)": "1.585",
+      "2 (0)": "3.055"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Ipswich Town",
+    "equipe_2": "Bournemouth",
+    "1X2": {
+      "V1": "3.08",
+      "X": "3.46",
+      "V2": "2.27"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "2.01"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-08T14:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Ipswich Town",
+    "equipe_2_en": "Bournemouth",
+    "Double_Chance": {
+      "1X": "1.666",
+      "12": "1.336",
+      "2X": "1.403"
+    },
+    "BTTS": {
+      "Oui": "1.65",
+      "Non": "2.132"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "2.01"
+      },
+      "1.5": {
+        "Plus de": "1.238",
+        "Moins de": "3.92"
+      },
+      "2": {
+        "Plus de": "1.38",
+        "Moins de": "3.045"
+      },
+      "3": {
+        "Plus de": "2.325",
+        "Moins de": "1.608"
+      },
+      "3.5": {
+        "Plus de": "2.893",
+        "Moins de": "1.411"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "2.256",
+      "2 (0)": "1.64",
+      "1 (-1.5)": "6.11",
+      "1 (-1)": "5.25",
+      "1 (+1)": "1.325",
+      "1 (+1.5)": "1.219",
+      "2 (+1.5)": "1.085",
+      "2 (+1)": "1.151",
+      "2 (-1)": "3.34",
+      "2 (-1.5)": "4.125"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Crystal Palace",
+    "equipe_2": "Liverpool",
+    "1X2": {
+      "V1": "4.58",
+      "X": "4.28",
+      "V2": "1.664"
+    },
+    "Total_2.5": {
+      "Plus de": "1.48",
+      "Moins de": "2.615"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-08T14:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Crystal Palace",
+    "equipe_2_en": "Liverpool",
+    "Double_Chance": {
+      "1X": "2.242",
+      "12": "1.249",
+      "2X": "1.227"
+    },
+    "BTTS": {
+      "Oui": "1.52",
+      "Non": "2.397"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "2.216",
+        "Moins de": "1.66"
+      },
+      "2.5": {
+        "Plus de": "1.48",
+        "Moins de": "2.615"
+      },
+      "3": {
+        "Plus de": "1.75",
+        "Moins de": "2.075"
+      },
+      "4": {
+        "Plus de": "3.13",
+        "Moins de": "1.365"
+      },
+      "4.5": {
+        "Plus de": "3.7",
+        "Moins de": "1.261"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.49",
+      "2 (-1.5)": "2.62",
+      "1 (0)": "3.545",
+      "1 (+1)": "1.77",
+      "1 (+2)": "1.24",
+      "1 (+2.5)": "1.17",
+      "2 (0)": "1.281",
+      "2 (-1)": "2.05",
+      "2 (-2)": "4.02",
+      "2 (-2.5)": "4.8"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Sunderland",
+    "equipe_2": "Chelsea",
+    "1X2": {
+      "V1": "4.18",
+      "X": "3.58",
+      "V2": "1.87"
+    },
+    "Total_2.5": {
+      "Plus de": "1.91",
+      "Moins de": "1.89"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-08T14:00:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Sunderland",
+    "equipe_2_en": "Chelsea",
+    "Double_Chance": {
+      "1X": "1.96",
+      "12": "1.322",
+      "2X": "1.258"
+    },
+    "BTTS": {
+      "Oui": "1.79",
+      "Non": "1.937"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.91",
+        "Moins de": "1.89"
+      },
+      "1.5": {
+        "Plus de": "1.273",
+        "Moins de": "3.605"
+      },
+      "2": {
+        "Plus de": "1.445",
+        "Moins de": "2.775"
+      },
+      "3": {
+        "Plus de": "2.535",
+        "Moins de": "1.52"
+      },
+      "3.5": {
+        "Plus de": "3.14",
+        "Moins de": "1.358"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "3.09",
+      "2 (0)": "1.37",
+      "1 (-1.5)": "11.6",
+      "1 (-1)": "8",
+      "1 (+1)": "1.52",
+      "1 (+1.5)": "1.329",
+      "2 (+1.5)": "1.001",
+      "2 (+1)": "1.07",
+      "2 (-1)": "2.53",
+      "2 (-1.5)": "3.22"
+    }
+  },
+  {
+    "bookmaker": "melbet",
+    "equipe_1": "Manchester United",
+    "equipe_2": "Aston Villa",
+    "1X2": {
+      "V1": "2.21",
+      "X": "3.76",
+      "V2": "2.98"
+    },
+    "Total_2.5": {
+      "Plus de": "1.562",
+      "Moins de": "2.393"
+    },
+    "url": "https://melbet-cm.com/fr/line/football",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
+    "statut": "ok",
+    "debut": "2026-11-08T16:30:00+00:00",
+    "competition": "Angleterre. Premier League",
+    "competition_en": "England. Premier League",
+    "competition_id": 88637,
+    "equipe_1_en": "Manchester United",
+    "equipe_2_en": "Aston Villa",
+    "Double_Chance": {
+      "1X": "1.424",
+      "12": "1.298",
+      "2X": "1.698"
+    },
+    "BTTS": {
+      "Oui": "1.49",
+      "Non": "2.476"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "2.385",
+        "Moins de": "1.575"
+      },
+      "2.5": {
+        "Plus de": "1.562",
+        "Moins de": "2.393"
+      },
+      "3": {
+        "Plus de": "1.89",
+        "Moins de": "1.91"
+      },
+      "4": {
+        "Plus de": "3.44",
+        "Moins de": "1.31"
+      },
+      "4.5": {
+        "Plus de": "4.205",
+        "Moins de": "1.212"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.64",
+      "2 (0)": "2.256",
+      "1 (-1.5)": "3.82",
+      "1 (-1)": "3.15",
+      "1 (+1)": "1.175",
+      "1 (+1.5)": "1.114",
+      "2 (+1.5)": "1.248",
+      "2 (+1)": "1.36",
+      "2 (-1)": "4.96",
+      "2 (-1.5)": "5.77"
+    }
+  },
+  {
+    "bookmaker": "melbet",
     "equipe_1": "Turquie",
     "equipe_2": "Belgique",
     "1X2": {
@@ -11261,7 +11334,7 @@
       "Moins de": "2.64"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T17:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11323,7 +11396,7 @@
       "Moins de": "1.77"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T17:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11383,7 +11456,7 @@
       "Moins de": "2.32"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11441,7 +11514,7 @@
       "Moins de": "2.63"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11502,7 +11575,7 @@
       "Moins de": "2.47"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11558,7 +11631,7 @@
       "Moins de": "1.65"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11614,7 +11687,7 @@
       "Moins de": "2.66"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11674,7 +11747,7 @@
       "Moins de": "1.944"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-12T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11735,7 +11808,7 @@
       "Moins de": "1.46"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T17:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11785,7 +11858,7 @@
       "Moins de": "2.32"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11843,7 +11916,7 @@
       "Moins de": "2.87"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11904,7 +11977,7 @@
       "Moins de": "1.66"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -11962,7 +12035,7 @@
       "Moins de": "1.91"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12023,7 +12096,7 @@
       "Moins de": "2.05"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12080,7 +12153,7 @@
       "Moins de": "1.955"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12142,7 +12215,7 @@
       "Moins de": "1.58"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12200,7 +12273,7 @@
       "Moins de": "1.34"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12252,7 +12325,7 @@
       "Moins de": "1.69"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-13T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12309,7 +12382,7 @@
       "Moins de": "1.91"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T14:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12369,7 +12442,7 @@
       "Moins de": "2.67"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T17:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12430,7 +12503,7 @@
       "Moins de": "1.73"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T17:00:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12490,7 +12563,7 @@
       "Moins de": "2.39"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12548,7 +12621,7 @@
       "Moins de": "1.45"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12598,7 +12671,7 @@
       "Moins de": "1.87"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12658,7 +12731,7 @@
       "Moins de": "2.11"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12714,7 +12787,7 @@
       "Moins de": "2.01"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-14T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12774,7 +12847,7 @@
       "Moins de": "2.14"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-15T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12830,7 +12903,7 @@
       "Moins de": "2.97"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-15T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12891,7 +12964,7 @@
       "Moins de": "2.19"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-15T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -12947,7 +13020,7 @@
       "Moins de": "2.15"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-15T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -13005,7 +13078,7 @@
       "Moins de": "2.51"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-16T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -13067,7 +13140,7 @@
       "Moins de": "2.26"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-16T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -13125,7 +13198,7 @@
       "Moins de": "2.47"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-17T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -13183,7 +13256,7 @@
       "Moins de": "2.67"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-17T19:45:00+00:00",
     "competition": "Ligue des nations de l'UEFA",
@@ -13244,7 +13317,7 @@
       "Moins de": "2.16"
     },
     "url": "https://melbet-cm.com/fr/line/football",
-    "derniere_maj": "2026-10-24T15:22:44.114506+00:00",
+    "derniere_maj": "2026-10-24T18:22:39.350836+00:00",
     "statut": "ok",
     "debut": "2026-11-22T16:30:00+00:00",
     "competition": "Angleterre. Premier League",
