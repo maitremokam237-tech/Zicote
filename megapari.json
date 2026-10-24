@@ -1,601 +1,19 @@
 [
   {
     "bookmaker": "megapari",
-    "equipe_1": "Akron Tolyatti",
-    "equipe_2": "Dynamo Moscou",
-    "1X2": {
-      "V2": "1.691",
-      "X": "4.2",
-      "V1": "5.38"
-    },
-    "Total_2.5": {
-      "Plus de": "1.81",
-      "Moins de": "2.161"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T09:45:00+00:00",
-    "competition": "Championnat de Russie. Première Ligue",
-    "competition_en": "Russia. Premier League",
-    "competition_id": 225733,
-    "equipe_1_en": "Akron Tolyatti",
-    "equipe_2_en": "Dynamo Moscow",
-    "Double_Chance": {
-      "2X": "1.191",
-      "12": "1.27",
-      "1X": "2.303"
-    },
-    "BTTS": {
-      "Oui": "1.74",
-      "Non": "1.999"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.81",
-        "Moins de": "2.161"
-      },
-      "1.5": {
-        "Plus de": "1.242",
-        "Moins de": "3.88"
-      },
-      "2": {
-        "Plus de": "1.374",
-        "Moins de": "3.15"
-      },
-      "3": {
-        "Plus de": "2.264",
-        "Moins de": "1.672"
-      },
-      "3.5": {
-        "Plus de": "2.783",
-        "Moins de": "1.438"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.528",
-      "2 (-1.5)": "2.77",
-      "1 (0)": "3.77",
-      "2 (0)": "1.254",
-      "2 (-1)": "2.07",
-      "1 (+1)": "1.779",
-      "2 (-2)": "4.325",
-      "1 (+2)": "1.229",
-      "2 (-2.5)": "4.97",
-      "1 (+2.5)": "1.161"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.936",
-      "V2": "2.406",
-      "X": "6.8"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T09:45:00+00:00",
-    "competition": "Championnat de Russie. Première Ligue",
-    "competition_en": "Russia. Premier League",
-    "competition_id": 225733,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Double_Chance": {
-      "12": "1.084",
-      "1X": "1.535",
-      "2X": "1.881"
-    },
-    "Totals": {
-      "10.5": {
-        "Moins de": "1.803",
-        "Plus de": "2.008"
-      },
-      "8.5": {
-        "Plus de": "1.375",
-        "Moins de": "3.075"
-      },
-      "9.5": {
-        "Plus de": "1.639",
-        "Moins de": "2.26"
-      },
-      "11.5": {
-        "Plus de": "2.58",
-        "Moins de": "1.504"
-      },
-      "12.5": {
-        "Plus de": "3.52",
-        "Moins de": "1.301"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.65",
-      "2 (0)": "2.1",
-      "1 (-1)": "2.186",
-      "2 (-1)": "2.946",
-      "1 (+1)": "1.402",
-      "2 (+1)": "1.68",
-      "1 (-1.5)": "2.451",
-      "2 (-1.5)": "3.285",
-      "1 (+1.5)": "1.336",
-      "2 (+1.5)": "1.551"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Aston Villa",
-    "equipe_2": "Manchester City",
-    "1X2": {
-      "V2": "1.675",
-      "X": "4.515",
-      "V1": "5.07"
-    },
-    "Total_2.5": {
-      "Plus de": "1.458",
-      "Moins de": "2.712"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T11:30:00+00:00",
-    "competition": "Angleterre. Premier League",
-    "competition_en": "England. Premier League",
-    "competition_id": 88637,
-    "equipe_1_en": "Aston Villa",
-    "equipe_2_en": "Manchester City",
-    "Double_Chance": {
-      "2X": "1.207",
-      "12": "1.243",
-      "1X": "2.332"
-    },
-    "BTTS": {
-      "Oui": "1.48",
-      "Non": "2.498"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.806",
-        "Plus de": "2.167"
-      },
-      "2.5": {
-        "Plus de": "1.458",
-        "Moins de": "2.712"
-      },
-      "3": {
-        "Plus de": "1.697",
-        "Moins de": "2.219"
-      },
-      "4": {
-        "Plus de": "2.893",
-        "Moins de": "1.446"
-      },
-      "4.5": {
-        "Plus de": "3.44",
-        "Moins de": "1.317"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.59",
-      "2 (-1.5)": "2.59",
-      "1 (0)": "3.68",
-      "2 (0)": "1.264",
-      "2 (-1)": "1.992",
-      "1 (+1)": "1.841",
-      "2 (-2)": "3.765",
-      "1 (+2)": "1.283",
-      "2 (-2.5)": "4.365",
-      "1 (+2.5)": "1.199"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.92",
-      "V2": "2.638",
-      "X": "5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T11:30:00+00:00",
-    "competition": "Angleterre. Premier League",
-    "competition_en": "England. Premier League",
-    "competition_id": 88637,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Double_Chance": {
-      "12": "1.13",
-      "1X": "1.44",
-      "2X": "1.8"
-    },
-    "Totals": {
-      "12.5": {
-        "Moins de": "1.75",
-        "Plus de": "1.96"
-      },
-      "10.5": {
-        "Plus de": "1.41",
-        "Moins de": "2.55"
-      },
-      "11.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.1"
-      },
-      "13.5": {
-        "Plus de": "2.4",
-        "Moins de": "1.46"
-      },
-      "14.5": {
-        "Plus de": "3.1",
-        "Moins de": "1.29"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.66",
-      "1 (-1.5)": "2.1",
-      "2 (-1.5)": "2.85",
-      "1 (+1.5)": "1.34",
-      "1 (-2.5)": "2.65",
-      "2 (-2.5)": "3.8",
-      "1 (+2.5)": "1.19",
-      "2 (+2.5)": "1.38",
-      "1 (-3.5)": "3.5",
-      "2 (+3.5)": "1.23"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Charlton Athletic",
-    "equipe_2": "Norwich City",
-    "1X2": {
-      "V2": "2.12",
-      "V1": "3.305",
-      "X": "3.38"
-    },
-    "Total_2.5": {
-      "Plus de": "1.86",
-      "Moins de": "1.88"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T11:30:00+00:00",
-    "competition": "Angleterre. Championship",
-    "competition_en": "England. Championship",
-    "competition_id": 105759,
-    "equipe_1_en": "Charlton Athletic",
-    "equipe_2_en": "Norwich City",
-    "Double_Chance": {
-      "12": "1.285",
-      "2X": "1.3",
-      "1X": "1.68"
-    },
-    "BTTS": {
-      "Oui": "1.68",
-      "Non": "2.06"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.86",
-        "Moins de": "1.88"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "3.42"
-      },
-      "2": {
-        "Plus de": "1.38",
-        "Moins de": "2.66"
-      },
-      "3": {
-        "Plus de": "2.44",
-        "Moins de": "1.45"
-      },
-      "3.5": {
-        "Plus de": "3.05",
-        "Moins de": "1.285"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.53",
-      "1 (0)": "2.375",
-      "1 (-1)": "6.15",
-      "2 (-1)": "3.08",
-      "1 (+1)": "1.28",
-      "2 (+1)": "1.06",
-      "1 (-1.5)": "7.2",
-      "2 (-1.5)": "3.92",
-      "1 (+1.5)": "1.176",
-      "2 (+1.5)": "1.034"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Portsmouth",
-    "equipe_2": "Millwall",
-    "1X2": {
-      "V1": "2.49",
-      "V2": "2.76",
-      "X": "3.22"
-    },
-    "Total_2.5": {
-      "Plus de": "1.952",
-      "Moins de": "1.79"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T11:30:00+00:00",
-    "competition": "Angleterre. Championship",
-    "competition_en": "England. Championship",
-    "competition_id": 105759,
-    "equipe_1_en": "Portsmouth",
-    "equipe_2_en": "Millwall",
-    "Double_Chance": {
-      "12": "1.31",
-      "1X": "1.41",
-      "2X": "1.49"
-    },
-    "BTTS": {
-      "Oui": "1.72",
-      "Non": "2.007"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.79",
-        "Plus de": "1.952"
-      },
-      "1.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.2"
-      },
-      "2": {
-        "Plus de": "1.44",
-        "Moins de": "2.47"
-      },
-      "3": {
-        "Plus de": "2.625",
-        "Moins de": "1.39"
-      },
-      "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.78",
-      "2 (0)": "1.95",
-      "1 (-1)": "4.1",
-      "2 (-1)": "4.8",
-      "1 (+1)": "1.116",
-      "2 (+1)": "1.163",
-      "1 (-1.5)": "5.05",
-      "2 (-1.5)": "5.8",
-      "1 (+1.5)": "1.072",
-      "2 (+1.5)": "1.103"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Rayo Vallecano",
-    "equipe_2": "Elche",
-    "1X2": {
-      "V1": "1.809",
-      "X": "3.945",
-      "V2": "4.78"
-    },
-    "Total_2.5": {
-      "Plus de": "1.877",
-      "Moins de": "2.073"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T12:00:00+00:00",
-    "competition": "Espagne. La Liga",
-    "competition_en": "Spain. La Liga",
-    "competition_id": 127733,
-    "equipe_1_en": "Rayo Vallecano",
-    "equipe_2_en": "Elche",
-    "Double_Chance": {
-      "1X": "1.225",
-      "12": "1.295",
-      "2X": "2.114"
-    },
-    "BTTS": {
-      "Oui": "1.727",
-      "Non": "2.015"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.877",
-        "Moins de": "2.073"
-      },
-      "1.5": {
-        "Plus de": "1.259",
-        "Moins de": "3.725"
-      },
-      "2": {
-        "Plus de": "1.403",
-        "Moins de": "3.005"
-      },
-      "3": {
-        "Plus de": "2.386",
-        "Moins de": "1.618"
-      },
-      "3.5": {
-        "Plus de": "2.941",
-        "Moins de": "1.408"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.436",
-      "1 (-1.5)": "3.13",
-      "1 (0)": "1.311",
-      "2 (0)": "3.33",
-      "1 (-1)": "2.333",
-      "2 (+1)": "1.622",
-      "1 (-2)": "5.01",
-      "2 (+2)": "1.176",
-      "1 (-2.5)": "5.59",
-      "2 (+2.5)": "1.121"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.395",
-      "V2": "4.275",
-      "X": "9"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T12:00:00+00:00",
-    "competition": "Espagne. La Liga",
-    "competition_en": "Spain. La Liga",
-    "competition_id": 127733,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Double_Chance": {
-      "12": "1.07",
-      "1X": "1.16",
-      "2X": "2.9"
-    },
-    "Totals": {
-      "11.5": {
-        "Plus de": "1.791",
-        "Moins de": "2.023"
-      },
-      "9.5": {
-        "Plus de": "1.293",
-        "Moins de": "3.58"
-      },
-      "10.5": {
-        "Plus de": "1.501",
-        "Moins de": "2.588"
-      },
-      "12.5": {
-        "Plus de": "2.196",
-        "Moins de": "1.674"
-      },
-      "13.5": {
-        "Plus de": "2.832",
-        "Moins de": "1.43"
-      }
-    },
-    "Handicap": {
-      "2 (+2.5)": "1.843",
-      "1 (-2.5)": "1.961",
-      "1 (-1.5)": "1.625",
-      "2 (+1.5)": "2.287",
-      "1 (-2)": "1.766",
-      "2 (+2)": "2.056",
-      "1 (-3)": "2.226",
-      "2 (+3)": "1.657",
-      "1 (-3.5)": "2.475",
-      "2 (+3.5)": "1.542"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Fakel Voronej",
-    "equipe_2": "Rodina Moscow",
-    "1X2": {
-      "V1": "2.175",
-      "X": "3.53",
-      "V2": "3.67"
-    },
-    "Total_2.5": {
-      "Plus de": "2.09",
-      "Moins de": "1.863"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T12:00:00+00:00",
-    "competition": "Championnat de Russie. Première Ligue",
-    "competition_en": "Russia. Premier League",
-    "competition_id": 225733,
-    "equipe_1_en": "Fakel Voronezh",
-    "equipe_2_en": "Rodina Moscow",
-    "Double_Chance": {
-      "1X": "1.327",
-      "12": "1.347",
-      "2X": "1.767"
-    },
-    "BTTS": {
-      "Oui": "1.79",
-      "Non": "1.937"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.863",
-        "Plus de": "2.09"
-      },
-      "1.5": {
-        "Plus de": "1.332",
-        "Moins de": "3.2"
-      },
-      "2": {
-        "Plus de": "1.55",
-        "Moins de": "2.5"
-      },
-      "3": {
-        "Plus de": "2.838",
-        "Moins de": "1.45"
-      },
-      "3.5": {
-        "Plus de": "3.465",
-        "Moins de": "1.3"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.572",
-      "2 (0)": "2.637",
-      "1 (-1)": "3.125",
-      "2 (-1)": "6.7",
-      "1 (+1)": "1.099",
-      "2 (+1)": "1.378",
-      "1 (-1.5)": "3.83",
-      "2 (-1.5)": "7.36",
-      "1 (+1.5)": "1.053",
-      "2 (+1.5)": "1.247"
-    }
-  },
-  {
-    "bookmaker": "megapari",
     "equipe_1": "Cagliari Calcio",
     "equipe_2": "Bologna1909",
     "1X2": {
-      "V2": "2.67",
-      "X": "3.05",
-      "V1": "3.195"
+      "V2": "2.782",
+      "V1": "3.05",
+      "X": "3.05"
     },
     "Total_2.5": {
       "Plus de": "2.389",
       "Moins de": "1.676"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:00:00+00:00",
     "competition": "Italie. Série A",
@@ -604,9 +22,9 @@
     "equipe_1_en": "Cagliari Calcio",
     "equipe_2_en": "Bologna 1909",
     "Double_Chance": {
-      "2X": "1.403",
+      "2X": "1.433",
       "12": "1.433",
-      "1X": "1.536"
+      "1X": "1.501"
     },
     "BTTS": {
       "Non": "1.83",
@@ -626,25 +44,25 @@
         "Moins de": "2.123"
       },
       "3": {
-        "Plus de": "3.46",
-        "Moins de": "1.331"
+        "Plus de": "3.42",
+        "Moins de": "1.337"
       },
       "3.5": {
-        "Plus de": "4.085",
-        "Moins de": "1.235"
+        "Plus de": "4.075",
+        "Moins de": "1.236"
       }
     },
     "Handicap": {
-      "2 (0)": "1.801",
-      "1 (0)": "2.174",
-      "1 (-1)": "5.54",
-      "2 (-1)": "4.285",
-      "1 (+1)": "1.224",
-      "2 (+1)": "1.138",
-      "1 (-1.5)": "6.27",
-      "2 (-1.5)": "5.02",
-      "1 (+1.5)": "1.147",
-      "2 (+1.5)": "1.08"
+      "2 (0)": "1.886",
+      "1 (0)": "2.062",
+      "1 (-1)": "5.17",
+      "2 (-1)": "4.545",
+      "1 (+1)": "1.204",
+      "2 (+1)": "1.155",
+      "1 (-1.5)": "5.91",
+      "2 (-1.5)": "5.33",
+      "1 (+1.5)": "1.132",
+      "2 (+1.5)": "1.092"
     }
   },
   {
@@ -661,7 +79,7 @@
       "Moins de": "2.915"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:00:00+00:00",
     "competition": "Italie. Série A",
@@ -718,16 +136,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.377",
-      "V2": "4.5",
-      "X": "8.95"
+      "V1": "1.366",
+      "V2": "4.57",
+      "X": "9.1"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:00:00+00:00",
     "competition": "Italie. Série A",
@@ -738,41 +156,41 @@
     "Double_Chance": {
       "12": "1.07",
       "1X": "1.15",
-      "2X": "3"
+      "2X": "3.1"
     },
     "Totals": {
       "11.5": {
-        "Moins de": "1.824",
+        "Moins de": "1.825",
         "Plus de": "1.982"
       },
       "9.5": {
         "Plus de": "1.383",
-        "Moins de": "3.03"
+        "Moins de": "3.035"
       },
       "10.5": {
         "Plus de": "1.635",
-        "Moins de": "2.267"
+        "Moins de": "2.268"
       },
       "12.5": {
-        "Plus de": "2.507",
+        "Plus de": "2.506",
         "Moins de": "1.53"
       },
       "13.5": {
-        "Plus de": "3.35",
+        "Plus de": "3.345",
         "Moins de": "1.326"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.859",
-      "1 (-2.5)": "1.943",
-      "1 (-1.5)": "1.606",
-      "2 (+1.5)": "2.326",
-      "1 (-2)": "1.745",
-      "2 (+2)": "2.086",
-      "1 (-3)": "2.207",
-      "2 (+3)": "1.668",
-      "1 (-3.5)": "2.46",
-      "2 (+3.5)": "1.548"
+      "2 (+2.5)": "1.88",
+      "1 (-2.5)": "1.921",
+      "1 (-1.5)": "1.59",
+      "2 (+1.5)": "2.36",
+      "1 (-2)": "1.724",
+      "2 (+2)": "2.116",
+      "1 (-3)": "2.174",
+      "2 (+3)": "1.687",
+      "1 (-3.5)": "2.423",
+      "2 (+3.5)": "1.563"
     }
   },
   {
@@ -780,16 +198,16 @@
     "equipe_1": "1. FSV Mayence 05",
     "equipe_2": "Werder Bremen",
     "1X2": {
-      "V1": "1.801",
-      "X": "4.345",
-      "V2": "4.345"
+      "V1": "1.746",
+      "X": "4.415",
+      "V2": "4.62"
     },
     "Total_2.5": {
-      "Plus de": "1.515",
-      "Moins de": "2.535"
+      "Plus de": "1.526",
+      "Moins de": "2.505"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -798,34 +216,100 @@
     "equipe_1_en": "1. FSV Mainz 05",
     "equipe_2_en": "Werder Bremen",
     "Double_Chance": {
-      "12": "1.257",
-      "1X": "1.257",
-      "2X": "2.126"
+      "1X": "1.235",
+      "12": "1.251",
+      "2X": "2.207"
     },
     "BTTS": {
-      "Oui": "1.5",
-      "Non": "2.446"
+      "Oui": "1.52",
+      "Non": "2.395"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.69",
-        "Plus de": "2.36"
+        "Moins de": "1.68",
+        "Plus de": "2.381"
       },
       "2.5": {
-        "Plus de": "1.515",
-        "Moins de": "2.535"
+        "Plus de": "1.526",
+        "Moins de": "2.505"
       },
       "3": {
-        "Plus de": "1.821",
-        "Moins de": "2.038"
+        "Plus de": "1.839",
+        "Moins de": "2.015"
       },
       "4": {
-        "Plus de": "3.205",
-        "Moins de": "1.376"
+        "Plus de": "3.25",
+        "Moins de": "1.368"
       },
       "4.5": {
-        "Plus de": "3.76",
-        "Moins de": "1.272"
+        "Plus de": "3.84",
+        "Moins de": "1.263"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.514",
+      "1 (-1.5)": "2.817",
+      "1 (0)": "1.311",
+      "2 (0)": "3.33",
+      "1 (-1)": "2.153",
+      "2 (+1)": "1.722",
+      "1 (-2)": "4.315",
+      "2 (+2)": "1.229",
+      "1 (-2.5)": "4.91",
+      "2 (+2.5)": "1.164"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Augsbourg",
+    "equipe_2": "Union Berlin",
+    "1X2": {
+      "V1": "1.806",
+      "V2": "4.255",
+      "X": "4.41"
+    },
+    "Total_2.5": {
+      "Plus de": "1.455",
+      "Moins de": "2.724"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T13:30:00+00:00",
+    "competition": "Allemagne. Bundesliga",
+    "competition_en": "Germany. Bundesliga",
+    "competition_id": 96463,
+    "equipe_1_en": "Augsburg",
+    "equipe_2_en": "Union Berlin",
+    "Double_Chance": {
+      "12": "1.251",
+      "1X": "1.264",
+      "2X": "2.119"
+    },
+    "BTTS": {
+      "Oui": "1.44",
+      "Non": "2.622"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.785",
+        "Plus de": "2.198"
+      },
+      "2.5": {
+        "Plus de": "1.455",
+        "Moins de": "2.724"
+      },
+      "3": {
+        "Plus de": "1.695",
+        "Moins de": "2.222"
+      },
+      "4": {
+        "Plus de": "2.91",
+        "Moins de": "1.439"
+      },
+      "4.5": {
+        "Plus de": "3.45",
+        "Moins de": "1.312"
       }
     },
     "Handicap": {
@@ -835,76 +319,10 @@
       "2 (0)": "3.09",
       "1 (-1)": "2.254",
       "2 (+1)": "1.663",
-      "1 (-2)": "4.575",
+      "1 (-2)": "4.57",
       "2 (+2)": "1.21",
-      "1 (-2.5)": "5.16",
-      "2 (+2.5)": "1.15"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Augsbourg",
-    "equipe_2": "Union Berlin",
-    "1X2": {
-      "V1": "1.881",
-      "V2": "4.01",
-      "X": "4.265"
-    },
-    "Total_2.5": {
-      "Plus de": "1.484",
-      "Moins de": "2.627"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T13:30:00+00:00",
-    "competition": "Allemagne. Bundesliga",
-    "competition_en": "Germany. Bundesliga",
-    "competition_id": 96463,
-    "equipe_1_en": "Augsburg",
-    "equipe_2_en": "Union Berlin",
-    "Double_Chance": {
-      "12": "1.264",
-      "1X": "1.288",
-      "2X": "2.024"
-    },
-    "BTTS": {
-      "Oui": "1.45",
-      "Non": "2.591"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.734",
-        "Plus de": "2.281"
-      },
-      "2.5": {
-        "Plus de": "1.484",
-        "Moins de": "2.627"
-      },
-      "3": {
-        "Plus de": "1.759",
-        "Moins de": "2.121"
-      },
-      "4": {
-        "Plus de": "3.085",
-        "Moins de": "1.399"
-      },
-      "4.5": {
-        "Plus de": "3.68",
-        "Moins de": "1.282"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.442",
-      "2 (0)": "3.105",
-      "1 (-1)": "2.407",
-      "2 (-1)": "6.85",
-      "1 (+1)": "1.095",
-      "2 (+1)": "1.601",
-      "1 (-1.5)": "2.998",
-      "2 (-1.5)": "7.5",
-      "1 (+1.5)": "1.05",
-      "2 (+1.5)": "1.387"
+      "1 (-2.5)": "5.21",
+      "2 (+2.5)": "1.148"
     }
   },
   {
@@ -912,16 +330,16 @@
     "equipe_1": "Cologne",
     "equipe_2": "Schalke 04",
     "1X2": {
-      "V1": "2.116",
-      "V2": "3.47",
+      "V1": "2.056",
+      "V2": "3.645",
       "X": "3.925"
     },
     "Total_2.5": {
-      "Plus de": "1.701",
-      "Moins de": "2.34"
+      "Plus de": "1.734",
+      "Moins de": "2.281"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -931,46 +349,46 @@
     "equipe_2_en": "Schalke 04",
     "Double_Chance": {
       "12": "1.297",
-      "1X": "1.355",
-      "2X": "1.808"
+      "1X": "1.33",
+      "2X": "1.855"
     },
     "BTTS": {
-      "Oui": "1.54",
-      "Non": "2.349"
+      "Oui": "1.57",
+      "Non": "2.281"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.701",
-        "Moins de": "2.34"
+        "Plus de": "1.734",
+        "Moins de": "2.281"
       },
       "1.5": {
-        "Plus de": "1.197",
-        "Moins de": "4.395"
+        "Plus de": "1.209",
+        "Moins de": "4.245"
       },
       "2": {
-        "Plus de": "1.306",
-        "Moins de": "3.575"
+        "Plus de": "1.323",
+        "Moins de": "3.455"
       },
       "3": {
-        "Plus de": "2.061",
-        "Moins de": "1.812"
+        "Plus de": "2.127",
+        "Moins de": "1.764"
       },
       "3.5": {
-        "Plus de": "2.577",
-        "Moins de": "1.511"
+        "Plus de": "2.639",
+        "Moins de": "1.49"
       }
     },
     "Handicap": {
-      "1 (0)": "1.607",
-      "2 (0)": "2.544",
-      "1 (-1)": "2.924",
-      "2 (-1)": "5.7",
-      "1 (+1)": "1.131",
-      "2 (+1)": "1.422",
-      "1 (-1.5)": "3.59",
-      "2 (-1.5)": "6.31",
-      "1 (+1.5)": "1.079",
-      "2 (+1.5)": "1.275"
+      "1 (0)": "1.553",
+      "2 (0)": "2.692",
+      "1 (-1)": "2.825",
+      "2 (-1)": "6.07",
+      "1 (+1)": "1.118",
+      "2 (+1)": "1.447",
+      "1 (-1.5)": "3.44",
+      "2 (-1.5)": "6.72",
+      "1 (+1.5)": "1.068",
+      "2 (+1.5)": "1.295"
     }
   },
   {
@@ -987,7 +405,7 @@
       "Moins de": "2.377"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1044,16 +462,16 @@
     "equipe_1": "RasenBallsport Leipzig",
     "equipe_2": "Elversberg",
     "1X2": {
-      "V1": "1.449",
-      "X": "5.7",
-      "V2": "6.67"
+      "V1": "1.521",
+      "X": "5.39",
+      "V2": "5.8"
     },
     "Total_2.5": {
-      "Plus de": "1.279",
-      "Moins de": "3.67"
+      "Plus de": "1.285",
+      "Moins de": "3.575"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1062,47 +480,47 @@
     "equipe_1_en": "RasenBallsport Leipzig",
     "equipe_2_en": "Elversberg",
     "Double_Chance": {
-      "1X": "1.142",
-      "12": "1.176",
-      "2X": "2.981"
+      "1X": "1.172",
+      "12": "1.19",
+      "2X": "2.717"
     },
     "BTTS": {
-      "Oui": "1.41",
-      "Non": "2.734"
+      "Oui": "1.38",
+      "Non": "2.849"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.765",
-        "Moins de": "2.229"
+        "Plus de": "1.78",
+        "Moins de": "2.205"
       },
       "2.5": {
-        "Plus de": "1.279",
-        "Moins de": "3.67"
+        "Plus de": "1.285",
+        "Moins de": "3.575"
       },
       "3": {
-        "Plus de": "1.397",
-        "Moins de": "3.08"
+        "Plus de": "1.414",
+        "Moins de": "2.984"
       },
       "4": {
-        "Plus de": "2.094",
-        "Moins de": "1.79"
+        "Plus de": "2.129",
+        "Moins de": "1.765"
       },
       "4.5": {
-        "Plus de": "2.52",
-        "Moins de": "1.535"
+        "Plus de": "2.58",
+        "Moins de": "1.513"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.905",
-      "1 (-1.5)": "2.039",
-      "1 (0)": "1.162",
-      "2 (0)": "4.935",
-      "1 (-1)": "1.584",
-      "2 (+1)": "2.417",
-      "1 (-2)": "2.586",
-      "2 (+2)": "1.531",
-      "1 (-2.5)": "3.07",
-      "2 (+2.5)": "1.371"
+      "2 (+1.5)": "1.78",
+      "1 (-1.5)": "2.205",
+      "1 (0)": "1.203",
+      "2 (0)": "4.31",
+      "1 (-1)": "1.712",
+      "2 (+1)": "2.169",
+      "1 (-2)": "2.899",
+      "2 (+2)": "1.434",
+      "1 (-2.5)": "3.43",
+      "2 (+2.5)": "1.305"
     }
   },
   {
@@ -1110,16 +528,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.12",
-      "V2": "7.6",
-      "X": "11.5"
+      "V1": "1.11",
+      "V2": "7.9",
+      "X": "12"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1129,41 +547,41 @@
     "equipe_2_en": "Away",
     "Double_Chance": {
       "1X": "1.05",
-      "2X": "5.3"
+      "2X": "5.5"
     },
     "Totals": {
       "20.5": {
-        "Moins de": "1.89",
-        "Plus de": "1.91"
+        "Moins de": "1.875",
+        "Plus de": "1.925"
       },
       "18.5": {
-        "Plus de": "1.459",
-        "Moins de": "2.724"
+        "Plus de": "1.467",
+        "Moins de": "2.694"
       },
       "19.5": {
-        "Plus de": "1.658",
-        "Moins de": "2.225"
+        "Plus de": "1.67",
+        "Moins de": "2.204"
       },
       "21.5": {
-        "Plus de": "2.248",
-        "Moins de": "1.645"
+        "Plus de": "2.27",
+        "Moins de": "1.634"
       },
       "22.5": {
-        "Plus de": "2.73",
-        "Moins de": "1.457"
+        "Plus de": "2.762",
+        "Moins de": "1.448"
       }
     },
     "Handicap": {
-      "1 (-4.5)": "1.827",
-      "2 (+4.5)": "1.979",
-      "1 (-3.5)": "1.592",
-      "2 (+3.5)": "2.355",
-      "1 (-4)": "1.687",
-      "2 (+4)": "2.175",
-      "1 (-5)": "1.974",
-      "2 (+5)": "1.831",
-      "1 (-5.5)": "2.135",
-      "2 (+5.5)": "1.711"
+      "1 (-4.5)": "1.799",
+      "2 (+4.5)": "2.013",
+      "1 (-3.5)": "1.57",
+      "2 (+3.5)": "2.406",
+      "1 (-4)": "1.659",
+      "2 (+4)": "2.222",
+      "1 (-5)": "1.939",
+      "2 (+5)": "1.863",
+      "1 (-5.5)": "2.097",
+      "2 (+5.5)": "1.737"
     }
   },
   {
@@ -1171,16 +589,16 @@
     "equipe_1": "Domicile (Paris spéciaux)",
     "equipe_2": "Extérieur (Paris spéciaux)",
     "1X2": {
-      "V1": "1.274",
-      "V2": "5.25",
-      "X": "12.2"
+      "V1": "1.26",
+      "V2": "5.45",
+      "X": "12.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T13:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1190,37 +608,37 @@
     "equipe_2_en": "Away (Special bets)",
     "Totals": {
       "16.5": {
-        "Plus de": "1.808",
-        "Moins de": "2.002"
+        "Plus de": "1.823",
+        "Moins de": "1.984"
       },
       "14.5": {
-        "Plus de": "1.363",
-        "Moins de": "3.135"
+        "Plus de": "1.371",
+        "Moins de": "3.09"
       },
       "15.5": {
-        "Plus de": "1.555",
-        "Moins de": "2.441"
+        "Plus de": "1.566",
+        "Moins de": "2.414"
       },
       "17.5": {
-        "Plus de": "2.142",
-        "Moins de": "1.707"
+        "Plus de": "2.164",
+        "Moins de": "1.693"
       },
       "18.5": {
-        "Plus de": "2.631",
-        "Moins de": "1.487"
+        "Plus de": "2.664",
+        "Moins de": "1.476"
       }
     },
     "Handicap": {
-      "1 (-3.5)": "1.892",
-      "2 (+3.5)": "1.908",
-      "1 (-2.5)": "1.621",
-      "2 (+2.5)": "2.295",
-      "1 (-3)": "1.733",
-      "2 (+3)": "2.102",
-      "1 (-4)": "2.079",
-      "2 (+4)": "1.749",
-      "1 (-4.5)": "2.27",
-      "2 (+4.5)": "1.634"
+      "1 (-3.5)": "1.859",
+      "2 (+3.5)": "1.943",
+      "1 (-2.5)": "1.595",
+      "2 (+2.5)": "2.349",
+      "1 (-3)": "1.702",
+      "2 (+3)": "2.151",
+      "1 (-4)": "2.035",
+      "2 (+4)": "1.782",
+      "1 (-4.5)": "2.221",
+      "2 (+4.5)": "1.66"
     }
   },
   {
@@ -1237,7 +655,7 @@
       "Moins de": "2.125"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1303,7 +721,7 @@
       "Moins de": "2.155"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:00:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1369,7 +787,7 @@
       "Moins de": "2.34"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:15:00+00:00",
     "competition": "Espagne. La Liga",
@@ -1435,7 +853,7 @@
       "Moins de": "1.84"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:15:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -1501,7 +919,7 @@
       "Moins de": "2.012"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T16:00:00+00:00",
     "competition": "Italie. Série A",
@@ -1567,7 +985,7 @@
       "Moins de": "2.408"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T16:30:00+00:00",
     "competition": "Angleterre. Premier League",
@@ -1598,12 +1016,12 @@
         "Moins de": "1.933"
       },
       "4": {
-        "Plus de": "3.48",
-        "Moins de": "1.331"
+        "Plus de": "3.475",
+        "Moins de": "1.329"
       },
       "4.5": {
-        "Plus de": "4.13",
-        "Moins de": "1.234"
+        "Plus de": "4.12",
+        "Moins de": "1.232"
       }
     },
     "Handicap": {
@@ -1633,7 +1051,7 @@
       "Moins de": "3.135"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T16:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1699,7 +1117,7 @@
       "Moins de": "2.185"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T16:30:00+00:00",
     "competition": "Espagne. La Liga",
@@ -1765,7 +1183,7 @@
       "Moins de": "1.686"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T16:30:00+00:00",
     "competition": "Championnat de Russie. Première Ligue",
@@ -1831,7 +1249,7 @@
       "Moins de": "1.944"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T18:45:00+00:00",
     "competition": "Italie. Série A",
@@ -1862,12 +1280,12 @@
         "Moins de": "2.723"
       },
       "3": {
-        "Plus de": "2.702",
-        "Moins de": "1.496"
+        "Plus de": "2.705",
+        "Moins de": "1.498"
       },
       "3.5": {
-        "Plus de": "3.355",
-        "Moins de": "1.326"
+        "Plus de": "3.36",
+        "Moins de": "1.329"
       }
     },
     "Handicap": {
@@ -1897,7 +1315,7 @@
       "Moins de": "2.381"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T18:45:00+00:00",
     "competition": "France. Ligue 1",
@@ -1963,7 +1381,7 @@
       "Moins de": "2.437"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -2029,7 +1447,7 @@
       "Moins de": "1.9"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -2095,7 +1513,7 @@
       "Moins de": "1.787"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -2161,7 +1579,7 @@
       "Moins de": "2.074"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -2227,7 +1645,7 @@
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat du Brésil. Série A",
@@ -2277,68 +1695,332 @@
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Eyüpspor",
-    "equipe_2": "Kasimpasa",
+    "equipe_1": "Club de Regatas Vasco da Gama",
+    "equipe_2": "Corinthians Paulista",
     "1X2": {
-      "V2": "1.7",
-      "X": "3.9",
-      "V1": "5.37"
+      "V1": "1.713",
+      "X": "3.815",
+      "V2": "5.1"
     },
     "Total_2.5": {
-      "Plus de": "2.055",
-      "Moins de": "1.837"
+      "Plus de": "1.995",
+      "Moins de": "1.851"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
-    "debut": "2026-10-24T10:30:00+00:00",
-    "competition": "Championnat de Turquie. Süper Lig",
-    "competition_en": "Turkey. SuperLiga",
-    "competition_id": 11113,
-    "equipe_1_en": "Eyupspor",
-    "equipe_2_en": "Kasimpasa",
+    "debut": "2026-10-24T21:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "CR Vasco da Gama",
+    "equipe_2_en": "Corinthians Paulista",
     "Double_Chance": {
-      "2X": "1.176",
-      "12": "1.282",
-      "1X": "2.232"
+      "1X": "1.175",
+      "12": "1.274",
+      "2X": "2.159"
     },
     "BTTS": {
-      "Non": "1.771",
-      "Oui": "1.94"
+      "Non": "1.833",
+      "Oui": "1.87"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.837",
-        "Plus de": "2.055"
+        "Moins de": "1.851",
+        "Plus de": "1.995"
       },
       "1.5": {
-        "Plus de": "1.331",
-        "Moins de": "3.16"
+        "Plus de": "1.302",
+        "Moins de": "3.305"
       },
       "2": {
-        "Plus de": "1.535",
-        "Moins de": "2.486"
+        "Plus de": "1.494",
+        "Moins de": "2.563"
       },
       "3": {
-        "Plus de": "2.834",
-        "Moins de": "1.438"
+        "Plus de": "2.738",
+        "Moins de": "1.45"
       },
       "3.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.304"
+        "Plus de": "3.325",
+        "Moins de": "1.31"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.396",
-      "2 (-1.5)": "3.175",
-      "1 (0)": "3.705",
-      "2 (0)": "1.253",
-      "2 (-1)": "2.161",
-      "1 (+1)": "1.692",
-      "2 (-2)": "4.72",
-      "1 (+2)": "1.172",
-      "2 (-2.5)": "5.39",
-      "1 (+2.5)": "1.111"
+      "2 (+1.5)": "1.374",
+      "1 (-1.5)": "3.185",
+      "1 (0)": "1.259",
+      "2 (0)": "3.61",
+      "1 (-1)": "2.23",
+      "2 (+1)": "1.637",
+      "1 (-2)": "5.04",
+      "2 (+2)": "1.157",
+      "1 (-2.5)": "5.8",
+      "2 (+2.5)": "1.107"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Sociedade Esportiva Palmeiras",
+    "equipe_2": "Red Bull Bragantino",
+    "1X2": {
+      "V1": "1.589",
+      "X": "4.175",
+      "V2": "5.77"
+    },
+    "Total_2.5": {
+      "Plus de": "1.773",
+      "Moins de": "2.094"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T21:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Sociedade Esportiva Palmeiras",
+    "equipe_2_en": "Red Bull Bragantino",
+    "Double_Chance": {
+      "1X": "1.144",
+      "12": "1.238",
+      "2X": "2.393"
+    },
+    "BTTS": {
+      "Oui": "1.77",
+      "Non": "1.945"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.773",
+        "Moins de": "2.094"
+      },
+      "1.5": {
+        "Plus de": "1.218",
+        "Moins de": "4.005"
+      },
+      "2": {
+        "Plus de": "1.35",
+        "Moins de": "3.135"
+      },
+      "3": {
+        "Plus de": "2.254",
+        "Moins de": "1.638"
+      },
+      "3.5": {
+        "Plus de": "2.81",
+        "Moins de": "1.415"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.526",
+      "1 (-1.5)": "2.587",
+      "1 (0)": "1.194",
+      "2 (0)": "4.28",
+      "1 (-1)": "1.945",
+      "2 (+1)": "1.834",
+      "1 (-2)": "4.065",
+      "2 (+2)": "1.229",
+      "1 (-2.5)": "4.85",
+      "2 (+2.5)": "1.157"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Chapecoense",
+    "equipe_2": "Fluminense",
+    "1X2": {
+      "V2": "1.846",
+      "X": "3.71",
+      "V1": "4.33"
+    },
+    "Total_2.5": {
+      "Plus de": "1.88",
+      "Moins de": "1.961"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T22:30:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Chapecoense",
+    "equipe_2_en": "Fluminense",
+    "Double_Chance": {
+      "2X": "1.225",
+      "12": "1.286",
+      "1X": "1.978"
+    },
+    "BTTS": {
+      "Oui": "1.74",
+      "Non": "1.977"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.88",
+        "Moins de": "1.961"
+      },
+      "1.5": {
+        "Plus de": "1.27",
+        "Moins de": "3.53"
+      },
+      "2": {
+        "Plus de": "1.423",
+        "Moins de": "2.804"
+      },
+      "3": {
+        "Plus de": "2.461",
+        "Moins de": "1.543"
+      },
+      "3.5": {
+        "Plus de": "3.035",
+        "Moins de": "1.363"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.341",
+      "2 (-1.5)": "3.075",
+      "1 (0)": "3.45",
+      "2 (0)": "1.33",
+      "2 (-1)": "2.434",
+      "1 (+1)": "1.542",
+      "2 (-2)": "5.22",
+      "1 (+2)": "1.127",
+      "2 (-2.5)": "5.96",
+      "1 (+2.5)": "1.09"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Santos",
+    "equipe_2": "Bahia",
+    "1X2": {
+      "V1": "1.889",
+      "X": "3.9",
+      "V2": "3.9"
+    },
+    "Total_2.5": {
+      "Plus de": "1.632",
+      "Moins de": "2.33"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T00:00:00+00:00",
+    "competition": "Championnat du Brésil. Série A",
+    "competition_en": "Brazil. Campeonato Brasileiro. Serie A",
+    "competition_id": 1268397,
+    "equipe_1_en": "Santos",
+    "equipe_2_en": "Bahia",
+    "Double_Chance": {
+      "12": "1.264",
+      "1X": "1.264",
+      "2X": "1.931"
+    },
+    "BTTS": {
+      "Oui": "1.533",
+      "Non": "2.337"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.632",
+        "Moins de": "2.33"
+      },
+      "1.5": {
+        "Plus de": "1.175",
+        "Moins de": "4.545"
+      },
+      "2": {
+        "Plus de": "1.267",
+        "Moins de": "3.695"
+      },
+      "3": {
+        "Plus de": "1.973",
+        "Moins de": "1.827"
+      },
+      "3.5": {
+        "Plus de": "2.472",
+        "Moins de": "1.52"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.432",
+      "2 (0)": "2.913",
+      "1 (-1)": "2.479",
+      "2 (-1)": "6.98",
+      "1 (+1)": "1.081",
+      "2 (+1)": "1.524",
+      "1 (-1.5)": "3.135",
+      "2 (-1.5)": "7.7",
+      "1 (+1.5)": "1.046",
+      "2 (+1.5)": "1.33"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Rostov",
+    "equipe_2": "Lokomotiv Moscou",
+    "1X2": {
+      "V1": "2.338",
+      "X": "3.4",
+      "V2": "3.4"
+    },
+    "Total_2.5": {
+      "Plus de": "2.194",
+      "Moins de": "1.787"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T10:45:00+00:00",
+    "competition": "Championnat de Russie. Première Ligue",
+    "competition_en": "Russia. Premier League",
+    "competition_id": 225733,
+    "equipe_1_en": "Rostov",
+    "equipe_2_en": "Lokomotiv Moscow",
+    "Double_Chance": {
+      "12": "1.366",
+      "1X": "1.366",
+      "2X": "1.672"
+    },
+    "BTTS": {
+      "Oui": "1.83",
+      "Non": "1.891"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.787",
+        "Plus de": "2.194"
+      },
+      "1.5": {
+        "Plus de": "1.365",
+        "Moins de": "3.025"
+      },
+      "2": {
+        "Plus de": "1.611",
+        "Moins de": "2.355"
+      },
+      "3": {
+        "Plus de": "3.045",
+        "Moins de": "1.395"
+      },
+      "3.5": {
+        "Plus de": "3.695",
+        "Moins de": "1.262"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.666",
+      "2 (0)": "2.41",
+      "1 (-1)": "3.5",
+      "2 (-1)": "6.08",
+      "1 (+1)": "1.117",
+      "2 (+1)": "1.316",
+      "1 (-1.5)": "4.33",
+      "2 (-1.5)": "6.76",
+      "1 (+1.5)": "1.067",
+      "2 (+1.5)": "1.202"
     }
   },
   {
@@ -2346,127 +2028,189 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V2": "1.73",
-      "V1": "3.345",
-      "X": "4.5"
+      "V1": "1.485",
+      "V2": "3.945",
+      "X": "7.17"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
-    "debut": "2026-10-24T10:30:00+00:00",
-    "competition": "Championnat de Turquie. Süper Lig",
-    "competition_en": "Turkey. SuperLiga",
-    "competition_id": 11113,
+    "debut": "2026-10-25T10:45:00+00:00",
+    "competition": "Championnat de Russie. Première Ligue",
+    "competition_en": "Russia. Premier League",
+    "competition_id": 225733,
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.16",
-      "2X": "1.29",
-      "1X": "2"
+      "12": "1.076",
+      "1X": "1.218",
+      "2X": "2.812"
     },
     "Totals": {
-      "7.5": {
-        "Plus de": "1.81",
-        "Moins de": "1.9"
-      },
-      "5.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.4"
+      "8.5": {
+        "Moins de": "1.843",
+        "Plus de": "1.961"
       },
       "6.5": {
-        "Plus de": "1.46",
-        "Moins de": "2.4"
+        "Plus de": "1.308",
+        "Moins de": "3.47"
       },
-      "8.5": {
-        "Plus de": "2.33",
-        "Moins de": "1.49"
+      "7.5": {
+        "Plus de": "1.574",
+        "Moins de": "2.397"
       },
       "9.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.27"
+        "Plus de": "2.576",
+        "Moins de": "1.505"
+      },
+      "10.5": {
+        "Plus de": "3.635",
+        "Moins de": "1.286"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.72",
-      "2 (-1.5)": "2",
-      "1 (-1.5)": "3.8",
-      "2 (+1.5)": "1.19",
-      "1 (-2.5)": "5.5",
-      "2 (-2.5)": "2.7",
-      "1 (+2.5)": "1.37",
-      "2 (+2.5)": "1.08",
-      "2 (-3.5)": "3.9",
-      "1 (+3.5)": "1.19"
+      "1 (-1.5)": "1.818",
+      "2 (+1.5)": "1.99",
+      "1 (-1)": "1.597",
+      "2 (-1)": "5.91",
+      "1 (+1)": "1.132",
+      "2 (+1)": "2.346",
+      "1 (-2)": "2.071",
+      "2 (+2)": "1.755",
+      "1 (-2.5)": "2.353",
+      "2 (+2.5)": "1.593"
     }
   },
   {
     "bookmaker": "megapari",
-    "equipe_1": "Gaziantep",
-    "equipe_2": "BB Erzurumspor",
+    "equipe_1": "Inter Milan",
+    "equipe_2": "Fiorentina",
     "1X2": {
-      "V1": "2.555",
-      "V2": "3.045",
-      "X": "3.21"
+      "V1": "1.409",
+      "X": "5.56",
+      "V2": "7.9"
     },
     "Total_2.5": {
-      "Plus de": "2.126",
-      "Moins de": "1.784"
+      "Plus de": "1.447",
+      "Moins de": "2.75"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
-    "debut": "2026-10-24T13:00:00+00:00",
-    "competition": "Championnat de Turquie. Süper Lig",
-    "competition_en": "Turkey. SuperLiga",
-    "competition_id": 11113,
-    "equipe_1_en": "Gaziantep",
-    "equipe_2_en": "BB Erzurumspor",
+    "debut": "2026-10-25T11:30:00+00:00",
+    "competition": "Italie. Série A",
+    "competition_en": "Italy. Serie A",
+    "competition_id": 110163,
+    "equipe_1_en": "Internazionale Milano",
+    "equipe_2_en": "Fiorentina",
     "Double_Chance": {
-      "12": "1.379",
-      "1X": "1.412",
-      "2X": "1.55"
+      "1X": "1.106",
+      "12": "1.182",
+      "2X": "3.16"
     },
     "BTTS": {
-      "Oui": "1.78",
-      "Non": "1.926"
+      "Oui": "1.64",
+      "Non": "2.148"
     },
     "Totals": {
+      "3.5": {
+        "Moins de": "1.801",
+        "Plus de": "2.174"
+      },
       "2.5": {
-        "Moins de": "1.784",
-        "Plus de": "2.126"
-      },
-      "1.5": {
-        "Plus de": "1.357",
-        "Moins de": "3.025"
-      },
-      "2": {
-        "Plus de": "1.575",
-        "Moins de": "2.388"
+        "Plus de": "1.447",
+        "Moins de": "2.75"
       },
       "3": {
-        "Plus de": "2.918",
-        "Moins de": "1.417"
+        "Plus de": "1.691",
+        "Moins de": "2.23"
       },
-      "3.5": {
-        "Plus de": "3.485",
-        "Moins de": "1.295"
+      "4": {
+        "Plus de": "2.889",
+        "Moins de": "1.445"
+      },
+      "4.5": {
+        "Plus de": "3.42",
+        "Moins de": "1.316"
       }
     },
     "Handicap": {
-      "1 (0)": "1.792",
-      "2 (0)": "2.115",
-      "1 (-1)": "3.97",
-      "2 (-1)": "5.08",
-      "1 (+1)": "1.152",
-      "2 (+1)": "1.241",
-      "1 (-1.5)": "4.785",
-      "2 (-1.5)": "5.86",
-      "1 (+1.5)": "1.094",
-      "2 (+1.5)": "1.157"
+      "2 (+1.5)": "1.895",
+      "1 (-1.5)": "2.051",
+      "1 (0)": "1.107",
+      "2 (0)": "5.51",
+      "1 (-1)": "1.541",
+      "2 (+1)": "2.438",
+      "1 (-2)": "2.691",
+      "2 (+2)": "1.496",
+      "1 (-2.5)": "3.26",
+      "2 (+2.5)": "1.337"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "à domicile",
+    "equipe_2": "à l'extérieur",
+    "1X2": {
+      "V1": "1.891",
+      "V2": "2.36",
+      "X": "8.2"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-25T11:30:00+00:00",
+    "competition": "Italie. Série A",
+    "competition_en": "Italy. Serie A",
+    "competition_id": 110163,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
+    "Double_Chance": {
+      "12": "1.058",
+      "1X": "1.553",
+      "2X": "1.936"
+    },
+    "Totals": {
+      "14.5": {
+        "Plus de": "1.754",
+        "Moins de": "2.073"
+      },
+      "12.5": {
+        "Plus de": "1.313",
+        "Moins de": "3.435"
+      },
+      "13.5": {
+        "Plus de": "1.501",
+        "Moins de": "2.588"
+      },
+      "15.5": {
+        "Plus de": "2.089",
+        "Moins de": "1.742"
+      },
+      "16.5": {
+        "Plus de": "2.586",
+        "Moins de": "1.502"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.636",
+      "1 (-1.5)": "2.266",
+      "1 (-1)": "2.064",
+      "2 (-1)": "2.768",
+      "1 (+1)": "1.446",
+      "2 (+1)": "1.76",
+      "1 (-2)": "2.63",
+      "2 (+2)": "1.487",
+      "1 (-2.5)": "2.881",
+      "2 (+2.5)": "1.417"
     }
   },
   {
@@ -2483,7 +2227,7 @@
       "Moins de": "2.365"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:30:00+00:00",
     "competition": "Pays-Bas. Eredivisie",
@@ -2549,7 +2293,7 @@
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:30:00+00:00",
     "competition": "Pays-Bas. Eredivisie",
@@ -2585,8 +2329,8 @@
       }
     },
     "Handicap": {
-      "1 (0)": "1.65",
-      "2 (0)": "2.1",
+      "1 (0)": "1.67",
+      "2 (0)": "2.07",
       "1 (-1)": "2.165",
       "2 (-1)": "3.05",
       "1 (+1)": "1.38",
@@ -2611,7 +2355,7 @@
       "Moins de": "1.919"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:30:00+00:00",
     "competition": "Portugal. Primeira Liga",
@@ -2668,8 +2412,8 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V2": "2.09",
-      "V1": "2.249",
+      "V2": "2.128",
+      "V1": "2.207",
       "X": "5.92"
     },
     "Total_2.5": {
@@ -2677,7 +2421,7 @@
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T14:30:00+00:00",
     "competition": "Portugal. Primeira Liga",
@@ -2687,108 +2431,42 @@
     "equipe_2_en": "Away",
     "Double_Chance": {
       "12": "1.109",
-      "2X": "1.61",
-      "1X": "1.717"
+      "2X": "1.636",
+      "1X": "1.688"
     },
     "Totals": {
       "7.5": {
-        "Plus de": "1.759",
-        "Moins de": "2.065"
+        "Plus de": "1.758",
+        "Moins de": "2.066"
       },
       "5.5": {
         "Plus de": "1.204",
-        "Moins de": "4.505"
+        "Moins de": "4.51"
       },
       "6.5": {
-        "Plus de": "1.424",
-        "Moins de": "2.854"
+        "Plus de": "1.423",
+        "Moins de": "2.857"
       },
       "8.5": {
-        "Plus de": "2.262",
-        "Moins de": "1.638"
+        "Plus de": "2.26",
+        "Moins de": "1.639"
       },
       "9.5": {
-        "Plus de": "3.125",
+        "Plus de": "3.12",
         "Moins de": "1.365"
       }
     },
     "Handicap": {
-      "1 (0)": "1.83",
-      "2 (0)": "1.87",
-      "1 (-1)": "2.797",
-      "2 (-1)": "2.525",
-      "1 (+1)": "1.523",
-      "2 (+1)": "1.439",
-      "1 (-1.5)": "3.175",
-      "2 (-1.5)": "2.879",
-      "1 (+1.5)": "1.418",
-      "2 (+1.5)": "1.355"
-    }
-  },
-  {
-    "bookmaker": "megapari",
-    "equipe_1": "Samsunspor",
-    "equipe_2": "Amedspor",
-    "1X2": {
-      "V2": "2.261",
-      "V1": "3.175",
-      "X": "3.645"
-    },
-    "Total_2.5": {
-      "Plus de": "1.889",
-      "Moins de": "1.993"
-    },
-    "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
-    "statut": "ok",
-    "debut": "2026-10-24T16:00:00+00:00",
-    "competition": "Championnat de Turquie. Süper Lig",
-    "competition_en": "Turkey. SuperLiga",
-    "competition_id": 11113,
-    "equipe_1_en": "Samsunspor",
-    "equipe_2_en": "Amedspor",
-    "Double_Chance": {
-      "12": "1.312",
-      "2X": "1.386",
-      "1X": "1.683"
-    },
-    "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.11"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.889",
-        "Moins de": "1.993"
-      },
-      "1.5": {
-        "Plus de": "1.253",
-        "Moins de": "3.705"
-      },
-      "2": {
-        "Plus de": "1.41",
-        "Moins de": "2.903"
-      },
-      "3": {
-        "Plus de": "2.477",
-        "Moins de": "1.553"
-      },
-      "3.5": {
-        "Plus de": "3.105",
-        "Moins de": "1.359"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.666",
-      "1 (0)": "2.322",
-      "1 (-1)": "5.7",
-      "2 (-1)": "3.435",
-      "1 (+1)": "1.311",
-      "2 (+1)": "1.124",
-      "1 (-1.5)": "6.67",
-      "2 (-1.5)": "4.295",
-      "1 (+1.5)": "1.198",
-      "2 (+1.5)": "1.069"
+      "1 (0)": "1.79",
+      "2 (0)": "1.9",
+      "1 (-1)": "2.723",
+      "2 (-1)": "2.589",
+      "1 (+1)": "1.501",
+      "2 (+1)": "1.459",
+      "1 (-1.5)": "3.095",
+      "2 (-1.5)": "2.949",
+      "1 (+1.5)": "1.401",
+      "2 (+1.5)": "1.37"
     }
   },
   {
@@ -2805,7 +2483,7 @@
       "Moins de": "2.387"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T16:45:00+00:00",
     "competition": "Pays-Bas. Eredivisie",
@@ -2862,16 +2540,16 @@
     "equipe_1": "Alverca",
     "equipe_2": "Arouca",
     "1X2": {
-      "V1": "2.21",
-      "X": "3.28",
-      "V2": "3.645"
+      "V1": "2.127",
+      "X": "3.315",
+      "V2": "3.855"
     },
     "Total_2.5": {
       "Plus de": "1.95",
       "Moins de": "1.93"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T17:00:00+00:00",
     "competition": "Portugal. Primeira Liga",
@@ -2880,13 +2558,13 @@
     "equipe_1_en": "Alverca",
     "equipe_2_en": "Arouca",
     "Double_Chance": {
-      "1X": "1.312",
-      "12": "1.366",
-      "2X": "1.713"
+      "1X": "1.287",
+      "12": "1.361",
+      "2X": "1.766"
     },
     "BTTS": {
-      "Oui": "1.69",
-      "Non": "2.049"
+      "Oui": "1.7",
+      "Non": "2.038"
     },
     "Totals": {
       "2.5": {
@@ -2902,25 +2580,25 @@
         "Moins de": "2.705"
       },
       "3": {
-        "Plus de": "2.59",
-        "Moins de": "1.51"
+        "Plus de": "2.572",
+        "Moins de": "1.516"
       },
       "3.5": {
-        "Plus de": "3.185",
-        "Moins de": "1.342"
+        "Plus de": "3.165",
+        "Moins de": "1.345"
       }
     },
     "Handicap": {
-      "1 (0)": "1.564",
-      "2 (0)": "2.554",
-      "1 (-1)": "3.2",
-      "2 (-1)": "6.85",
-      "1 (+1)": "1.088",
-      "2 (+1)": "1.349",
-      "1 (-1.5)": "4.015",
-      "2 (-1.5)": "7.8",
-      "1 (+1.5)": "1.044",
-      "2 (+1.5)": "1.222"
+      "1 (0)": "1.505",
+      "2 (0)": "2.73",
+      "1 (-1)": "3.015",
+      "2 (-1)": "7.37",
+      "1 (+1)": "1.076",
+      "2 (+1)": "1.385",
+      "1 (-1.5)": "3.705",
+      "2 (-1.5)": "8.35",
+      "1 (+1.5)": "1.036",
+      "2 (+1.5)": "1.253"
     }
   },
   {
@@ -2937,7 +2615,7 @@
       "Moins de": "2.327"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T17:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -2992,16 +2670,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.54",
-      "V2": "2.819",
-      "X": "10.5"
+      "V1": "1.51",
+      "V2": "2.853",
+      "X": "11.5"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T17:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3010,43 +2688,42 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.01",
       "1X": "1.38",
-      "2X": "2.36"
+      "2X": "2.4"
     },
     "Totals": {
       "48.5": {
-        "Plus de": "1.877",
-        "Moins de": "1.924"
+        "Moins de": "1.896",
+        "Plus de": "1.904"
       },
       "46.5": {
-        "Plus de": "1.569",
-        "Moins de": "2.407"
+        "Plus de": "1.588",
+        "Moins de": "2.363"
       },
       "47.5": {
-        "Plus de": "1.711",
-        "Moins de": "2.135"
+        "Plus de": "1.734",
+        "Moins de": "2.101"
       },
       "49.5": {
-        "Plus de": "2.075",
-        "Moins de": "1.752"
+        "Plus de": "2.108",
+        "Moins de": "1.729"
       },
       "50.5": {
-        "Plus de": "2.324",
-        "Moins de": "1.607"
+        "Plus de": "2.367",
+        "Moins de": "1.587"
       }
     },
     "Handicap": {
-      "2 (+2.5)": "1.882",
-      "1 (-2.5)": "1.918",
-      "1 (-1.5)": "1.747",
-      "2 (+1.5)": "2.082",
-      "1 (-2)": "1.826",
-      "2 (+2)": "1.981",
-      "1 (-3)": "2.024",
-      "2 (+3)": "1.79",
-      "1 (-3.5)": "2.128",
-      "2 (+3.5)": "1.716"
+      "2 (+2.5)": "1.89",
+      "1 (-2.5)": "1.91",
+      "1 (-1.5)": "1.739",
+      "2 (+1.5)": "2.093",
+      "1 (-2)": "1.817",
+      "2 (+2)": "1.991",
+      "1 (-3)": "2.014",
+      "2 (+3)": "1.798",
+      "1 (-3.5)": "2.117",
+      "2 (+3.5)": "1.723"
     }
   },
   {
@@ -3063,7 +2740,7 @@
       "Moins de": "2.616"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:00:00+00:00",
     "competition": "Pays-Bas. Eredivisie",
@@ -3129,7 +2806,7 @@
       "Moins de": "1.9"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Portugal. Primeira Liga",
@@ -3195,7 +2872,7 @@
       "Moins de": "2.672"
     },
     "url": "https://5572183mp.pro/fr/line/football",
-    "derniere_maj": "2026-10-24T09:23:45.498603+00:00",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
     "statut": "ok",
     "debut": "2026-10-24T19:30:00+00:00",
     "competition": "Championnat des États-Unis. MLS",
@@ -3245,6 +2922,334 @@
       "2 (+2)": "1.265",
       "1 (-2.5)": "4.425",
       "2 (+2.5)": "1.18"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "New York Red Bulls",
+    "equipe_2": "Inter Miami",
+    "1X2": {
+      "V2": "1.94",
+      "V1": "3.48",
+      "X": "4.38"
+    },
+    "Total_2.5": {
+      "Plus de": "1.285",
+      "Moins de": "3.45"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T21:30:00+00:00",
+    "competition": "Championnat des États-Unis. MLS",
+    "competition_en": "USA. MLS",
+    "competition_id": 828065,
+    "equipe_1_en": "New York Red Bulls",
+    "equipe_2_en": "Inter Miami",
+    "Double_Chance": {
+      "12": "1.238",
+      "2X": "1.335",
+      "1X": "1.92"
+    },
+    "BTTS": {
+      "Oui": "1.285",
+      "Non": "3.315"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.787",
+        "Moins de": "2.121"
+      },
+      "2.5": {
+        "Plus de": "1.285",
+        "Moins de": "3.45"
+      },
+      "3": {
+        "Plus de": "1.421",
+        "Moins de": "2.855"
+      },
+      "4": {
+        "Plus de": "2.118",
+        "Moins de": "1.732"
+      },
+      "4.5": {
+        "Plus de": "2.532",
+        "Moins de": "1.501"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.443",
+      "2 (-1.5)": "2.958",
+      "1 (-1)": "5.18",
+      "2 (-1)": "2.342",
+      "1 (+1)": "1.586",
+      "2 (+1)": "1.135",
+      "2 (-2)": "4.53",
+      "1 (+2)": "1.185",
+      "2 (-2.5)": "5.2",
+      "1 (+2.5)": "1.12"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Atlanta United",
+    "equipe_2": "Fire de Chicago",
+    "1X2": {
+      "V2": "2.475",
+      "V1": "2.699",
+      "X": "3.895"
+    },
+    "Total_2.5": {
+      "Plus de": "1.443",
+      "Moins de": "2.67"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T23:30:00+00:00",
+    "competition": "Championnat des États-Unis. MLS",
+    "competition_en": "USA. MLS",
+    "competition_id": 828065,
+    "equipe_1_en": "Atlanta United",
+    "equipe_2_en": "Chicago Fire",
+    "Double_Chance": {
+      "12": "1.282",
+      "2X": "1.502",
+      "1X": "1.581"
+    },
+    "BTTS": {
+      "Oui": "1.36",
+      "Non": "2.898"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.789",
+        "Plus de": "2.119"
+      },
+      "2.5": {
+        "Plus de": "1.443",
+        "Moins de": "2.67"
+      },
+      "3": {
+        "Plus de": "1.68",
+        "Moins de": "2.181"
+      },
+      "4": {
+        "Plus de": "2.769",
+        "Moins de": "1.444"
+      },
+      "4.5": {
+        "Plus de": "3.295",
+        "Moins de": "1.308"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.213",
+      "2 (-1.5)": "4.835",
+      "1 (-1)": "3.73",
+      "2 (-1)": "3.37",
+      "1 (+1)": "1.321",
+      "2 (+1)": "1.251",
+      "2 (-2)": "8.05",
+      "1 (+2)": "1.062",
+      "2 (-2.5)": "11.6",
+      "1 (+2.5)": "1.001"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "D.C.United",
+    "equipe_2": "Cincinnati",
+    "1X2": {
+      "V2": "2.273",
+      "V1": "2.888",
+      "X": "4.085"
+    },
+    "Total_2.5": {
+      "Plus de": "1.328",
+      "Moins de": "3.175"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T23:30:00+00:00",
+    "competition": "Championnat des États-Unis. MLS",
+    "competition_en": "USA. MLS",
+    "competition_id": 828065,
+    "equipe_1_en": "D.C. United",
+    "equipe_2_en": "Cincinnati",
+    "Double_Chance": {
+      "12": "1.263",
+      "2X": "1.449",
+      "1X": "1.677"
+    },
+    "BTTS": {
+      "Oui": "1.3",
+      "Non": "3.21"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.878",
+        "Moins de": "2.006"
+      },
+      "2.5": {
+        "Plus de": "1.328",
+        "Moins de": "3.175"
+      },
+      "3": {
+        "Plus de": "1.49",
+        "Moins de": "2.613"
+      },
+      "4": {
+        "Plus de": "2.285",
+        "Moins de": "1.634"
+      },
+      "4.5": {
+        "Plus de": "2.734",
+        "Moins de": "1.438"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.288",
+      "2 (-1.5)": "3.925",
+      "1 (-1)": "3.99",
+      "2 (-1)": "2.9",
+      "1 (+1)": "1.403",
+      "2 (+1)": "1.215",
+      "2 (-2)": "6.28",
+      "1 (+2)": "1.104",
+      "2 (-2.5)": "7.07",
+      "1 (+2.5)": "1.06"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Orlando City",
+    "equipe_2": "New York City",
+    "1X2": {
+      "V1": "2.139",
+      "V2": "3.17",
+      "X": "4.025"
+    },
+    "Total_2.5": {
+      "Plus de": "1.386",
+      "Moins de": "2.888"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T23:30:00+00:00",
+    "competition": "Championnat des États-Unis. MLS",
+    "competition_en": "USA. MLS",
+    "competition_id": 828065,
+    "equipe_1_en": "Orlando City",
+    "equipe_2_en": "New York City",
+    "Double_Chance": {
+      "12": "1.269",
+      "1X": "1.387",
+      "2X": "1.758"
+    },
+    "BTTS": {
+      "Oui": "1.363",
+      "Non": "2.887"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.885",
+        "Plus de": "1.998"
+      },
+      "2.5": {
+        "Plus de": "1.386",
+        "Moins de": "2.888"
+      },
+      "3": {
+        "Plus de": "1.585",
+        "Moins de": "2.364"
+      },
+      "4": {
+        "Plus de": "2.516",
+        "Moins de": "1.524"
+      },
+      "4.5": {
+        "Plus de": "3",
+        "Moins de": "1.361"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.318",
+      "1 (-1.5)": "3.675",
+      "1 (-1)": "2.734",
+      "2 (-1)": "4.54",
+      "1 (+1)": "1.172",
+      "2 (+1)": "1.445",
+      "1 (-2)": "5.91",
+      "2 (+2)": "1.116",
+      "1 (-2.5)": "6.7",
+      "2 (+2.5)": "1.068"
+    }
+  },
+  {
+    "bookmaker": "megapari",
+    "equipe_1": "Union de Philadelphie",
+    "equipe_2": "Revolution de la Nouvelle-Angleterre",
+    "1X2": {
+      "V1": "1.532",
+      "X": "4.95",
+      "V2": "5.67"
+    },
+    "Total_2.5": {
+      "Plus de": "1.386",
+      "Moins de": "2.887"
+    },
+    "url": "https://5572183mp.pro/fr/line/football",
+    "derniere_maj": "2026-10-24T12:27:17.799457+00:00",
+    "statut": "ok",
+    "debut": "2026-10-24T23:30:00+00:00",
+    "competition": "Championnat des États-Unis. MLS",
+    "competition_en": "USA. MLS",
+    "competition_id": 828065,
+    "equipe_1_en": "Philadelphia Union",
+    "equipe_2_en": "New England Revolution",
+    "Double_Chance": {
+      "1X": "1.162",
+      "12": "1.199",
+      "2X": "2.608"
+    },
+    "BTTS": {
+      "Oui": "1.48",
+      "Non": "2.472"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.885",
+        "Plus de": "1.998"
+      },
+      "2.5": {
+        "Plus de": "1.386",
+        "Moins de": "2.887"
+      },
+      "3": {
+        "Plus de": "1.586",
+        "Moins de": "2.363"
+      },
+      "4": {
+        "Plus de": "2.516",
+        "Moins de": "1.524"
+      },
+      "4.5": {
+        "Plus de": "3.005",
+        "Moins de": "1.361"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.727",
+      "1 (-1.5)": "2.212",
+      "1 (-1)": "1.705",
+      "2 (+1)": "2.006",
+      "1 (-2)": "3.01",
+      "2 (+2)": "1.385",
+      "1 (-2.5)": "3.605",
+      "2 (+2.5)": "1.265"
     }
   }
 ]
