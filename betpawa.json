@@ -1,362 +1,40 @@
 [
   {
     "bookmaker": "betpawa",
-    "equipe_1": "Athletic Bilbao",
-    "equipe_2": "Getafe CF",
+    "equipe_1": "SC Freiburg",
+    "equipe_2": "Bayern Munich",
     "1X2": {
-      "V1": "1.54",
-      "X": "4.15",
-      "V2": "6.33"
+      "V1": "5.58",
+      "X": "5.27",
+      "V2": "1.47"
     },
     "Total_2.5": {
-      "Plus de": "2.03",
-      "Moins de": "1.76"
+      "Plus de": "1.3",
+      "Moins de": "3.46"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.05",
-        "Moins de": "9.36"
-      },
-      "1.5": {
-        "Plus de": "1.33",
-        "Moins de": "3.26"
-      },
-      "2.5": {
-        "Plus de": "2.03",
-        "Moins de": "1.76"
-      },
-      "3.5": {
-        "Plus de": "3.62",
-        "Moins de": "1.28"
-      },
-      "4.5": {
-        "Plus de": "7.23",
-        "Moins de": "1.08"
-      },
-      "5.5": {
-        "Plus de": "14.36",
-        "Moins de": "1.01"
-      }
-    },
-    "debut": "2026-10-25T13:00:00Z",
-    "competition": "LaLiga",
-    "competition_id": "12039"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Liverpool FC",
-    "equipe_2": "Brighton & Hove Albion",
-    "1X2": {
-      "V1": "2.12",
-      "X": "3.8",
-      "V2": "3.18"
-    },
-    "Total_2.5": {
-      "Plus de": "1.53",
-      "Moins de": "2.46"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "14.17"
-      },
-      "1.5": {
-        "Plus de": "1.15",
-        "Moins de": "5.17"
-      },
-      "2.5": {
-        "Plus de": "1.53",
-        "Moins de": "2.46"
-      },
-      "3.5": {
-        "Plus de": "2.3",
-        "Moins de": "1.6"
-      },
-      "4.5": {
-        "Plus de": "4.02",
-        "Moins de": "1.23"
-      },
-      "5.5": {
-        "Plus de": "7.49",
-        "Moins de": "1.08"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "11965"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Hull City",
-    "equipe_2": "Brentford FC",
-    "1X2": {
-      "V1": "4.84",
-      "X": "4.13",
-      "V2": "1.66"
-    },
-    "Total_2.5": {
-      "Plus de": "1.66",
-      "Moins de": "2.19"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.02",
-        "Moins de": "12.46"
-      },
-      "1.5": {
-        "Plus de": "1.2",
-        "Moins de": "4.42"
-      },
-      "2.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.19"
-      },
-      "3.5": {
-        "Plus de": "2.64",
-        "Moins de": "1.47"
-      },
-      "4.5": {
-        "Plus de": "4.8",
-        "Moins de": "1.17"
-      },
-      "5.5": {
-        "Plus de": "9.28",
-        "Moins de": "1.05"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "11965"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Crystal Palace",
-    "equipe_2": "Newcastle United",
-    "1X2": {
-      "V1": "2.79",
-      "X": "3.61",
-      "V2": "2.41"
-    },
-    "Total_2.5": {
-      "Plus de": "1.57",
-      "Moins de": "2.37"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "13.48"
-      },
-      "1.5": {
-        "Plus de": "1.16",
-        "Moins de": "4.98"
-      },
-      "2.5": {
-        "Plus de": "1.57",
-        "Moins de": "2.37"
-      },
-      "3.5": {
-        "Plus de": "2.38",
-        "Moins de": "1.56"
-      },
-      "4.5": {
-        "Plus de": "4.22",
-        "Moins de": "1.21"
-      },
-      "5.5": {
-        "Plus de": "7.88",
-        "Moins de": "1.07"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "11965"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Manchester United",
-    "equipe_2": "AFC Bournemouth",
-    "1X2": {
-      "V1": "2.39",
-      "X": "3.43",
-      "V2": "2.94"
-    },
-    "Total_2.5": {
-      "Plus de": "1.77",
-      "Moins de": "2.02"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "11.02"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "4.05"
-      },
-      "2.5": {
-        "Plus de": "1.77",
-        "Moins de": "2.02"
-      },
-      "3.5": {
-        "Plus de": "2.88",
-        "Moins de": "1.4"
-      },
-      "4.5": {
-        "Plus de": "5.47",
-        "Moins de": "1.14"
-      },
-      "5.5": {
-        "Plus de": "10.5",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "11965"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "TSG Hoffenheim",
-    "equipe_2": "Bayer Leverkusen",
-    "1X2": {
-      "V1": "3.11",
-      "X": "4.13",
-      "V2": "2.06"
-    },
-    "Total_2.5": {
-      "Plus de": "1.29",
-      "Moins de": "3.52"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
         "Plus de": "1.07",
-        "Moins de": "8.02"
+        "Moins de": "7.77"
       },
       "2.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.52"
+        "Plus de": "1.3",
+        "Moins de": "3.46"
       },
       "3.5": {
-        "Plus de": "1.73",
-        "Moins de": "2.08"
-      },
-      "4.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.46"
-      },
-      "5.5": {
-        "Plus de": "4.42",
-        "Moins de": "1.2"
-      },
-      "6.5": {
-        "Plus de": "8.02",
-        "Moins de": "1.07"
-      }
-    },
-    "debut": "2026-10-25T14:30:00Z",
-    "competition": "Bundesliga",
-    "competition_id": "12110"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "RC Celta de Vigo",
-    "equipe_2": "Real Betis Seville",
-    "1X2": {
-      "V1": "3.09",
-      "X": "3.45",
-      "V2": "2.29"
-    },
-    "Total_2.5": {
-      "Plus de": "1.76",
-      "Moins de": "2.04"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "11.12"
-      },
-      "1.5": {
-        "Plus de": "1.23",
-        "Moins de": "4.07"
-      },
-      "2.5": {
         "Plus de": "1.76",
-        "Moins de": "2.04"
-      },
-      "3.5": {
-        "Plus de": "2.85",
-        "Moins de": "1.41"
+        "Moins de": "2.03"
       },
       "4.5": {
-        "Plus de": "5.42",
-        "Moins de": "1.14"
+        "Plus de": "2.72",
+        "Moins de": "1.44"
       },
       "5.5": {
-        "Plus de": "10.41",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T15:15:00Z",
-    "competition": "LaLiga",
-    "competition_id": "12039"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "SC Freiburg",
-    "equipe_2": "Bayern Munich",
-    "1X2": {
-      "V1": "5.4",
-      "X": "5.19",
-      "V2": "1.49"
-    },
-    "Total_2.5": {
-      "Plus de": "1.31",
-      "Moins de": "3.39"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.08",
-        "Moins de": "7.55"
-      },
-      "2.5": {
-        "Plus de": "1.31",
-        "Moins de": "3.39"
-      },
-      "3.5": {
-        "Plus de": "1.79",
-        "Moins de": "2.0"
-      },
-      "4.5": {
-        "Plus de": "2.77",
-        "Moins de": "1.43"
-      },
-      "5.5": {
-        "Plus de": "4.73",
-        "Moins de": "1.18"
+        "Plus de": "4.6",
+        "Moins de": "1.19"
       }
     },
     "debut": "2026-10-25T16:30:00Z",
@@ -368,37 +46,37 @@
     "equipe_1": "Sunderland AFC",
     "equipe_2": "Leeds United",
     "1X2": {
-      "V1": "2.88",
-      "X": "3.17",
-      "V2": "2.59"
+      "V1": "2.84",
+      "X": "3.13",
+      "V2": "2.64"
     },
     "Total_2.5": {
       "Plus de": "2.19",
       "Moins de": "1.66"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.07",
-        "Moins de": "8.12"
+        "Moins de": "8.06"
       },
       "1.5": {
         "Plus de": "1.37",
-        "Moins de": "3.02"
+        "Moins de": "3.01"
       },
       "2.5": {
         "Plus de": "2.19",
         "Moins de": "1.66"
       },
       "3.5": {
-        "Plus de": "3.97",
+        "Plus de": "3.98",
         "Moins de": "1.24"
       },
       "4.5": {
-        "Plus de": "8.21",
-        "Moins de": "1.07"
+        "Plus de": "8.34",
+        "Moins de": "1.06"
       }
     },
     "debut": "2026-10-25T16:30:00Z",
@@ -410,16 +88,16 @@
     "equipe_1": "Real Sociedad San Sebastian",
     "equipe_2": "Levante UD",
     "1X2": {
-      "V1": "1.56",
-      "X": "4.71",
-      "V2": "5.12"
+      "V1": "1.54",
+      "X": "4.76",
+      "V2": "5.25"
     },
     "Total_2.5": {
       "Plus de": "1.45",
       "Moins de": "2.7"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
@@ -452,40 +130,40 @@
     "equipe_1": "FC Barcelona",
     "equipe_2": "Real Madrid",
     "1X2": {
-      "V1": "1.56",
-      "X": "5.61",
-      "V2": "4.34"
+      "V1": "1.57",
+      "X": "5.54",
+      "V2": "4.32"
     },
     "Total_2.5": {
       "Plus de": "1.19",
-      "Moins de": "4.55"
+      "Moins de": "4.59"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
         "Plus de": "1.04",
-        "Moins de": "10.23"
+        "Moins de": "10.33"
       },
       "2.5": {
         "Plus de": "1.19",
-        "Moins de": "4.55"
+        "Moins de": "4.59"
       },
       "3.5": {
-        "Plus de": "1.52",
-        "Moins de": "2.48"
+        "Plus de": "1.51",
+        "Moins de": "2.51"
       },
       "4.5": {
-        "Plus de": "2.16",
-        "Moins de": "1.68"
+        "Plus de": "2.14",
+        "Moins de": "1.69"
       },
       "5.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.3"
+        "Plus de": "3.38",
+        "Moins de": "1.31"
       },
       "6.5": {
-        "Plus de": "5.83",
+        "Plus de": "5.74",
         "Moins de": "1.13"
       }
     },
@@ -507,7 +185,7 @@
       "Moins de": "1.67"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -537,1414 +215,132 @@
   },
   {
     "bookmaker": "betpawa",
-    "equipe_1": "VfL 1899 Osnabruck",
-    "equipe_2": "Greuther Furth",
+    "equipe_1": "SV 07 Elversberg",
+    "equipe_2": "FSV Mainz",
     "1X2": {
-      "V1": "2.2",
-      "X": "3.57",
-      "V2": "3.07"
+      "V1": "3.18",
+      "X": "3.83",
+      "V2": "2.11"
     },
     "Total_2.5": {
-      "Plus de": "1.64",
-      "Moins de": "2.17"
+      "Plus de": "1.52",
+      "Moins de": "2.5"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "12.19"
-      },
-      "1.5": {
-        "Plus de": "1.18",
-        "Moins de": "4.43"
-      },
-      "2.5": {
-        "Plus de": "1.64",
-        "Moins de": "2.17"
-      },
-      "3.5": {
-        "Plus de": "2.58",
-        "Moins de": "1.47"
-      },
-      "4.5": {
-        "Plus de": "4.74",
-        "Moins de": "1.16"
-      },
-      "5.5": {
-        "Plus de": "9.07",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T12:30:00Z",
-    "competition": "2. Bundesliga",
-    "competition_id": "12091"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Eintracht Braunschweig",
-    "equipe_2": "Hannover 96",
-    "1X2": {
-      "V1": "2.93",
-      "X": "3.65",
-      "V2": "2.25"
-    },
-    "Total_2.5": {
-      "Plus de": "1.56",
-      "Moins de": "2.32"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.16",
-        "Moins de": "4.86"
-      },
-      "2.5": {
-        "Plus de": "1.56",
-        "Moins de": "2.32"
-      },
-      "3.5": {
-        "Plus de": "2.39",
-        "Moins de": "1.53"
-      },
-      "4.5": {
-        "Plus de": "4.26",
-        "Moins de": "1.2"
-      },
-      "5.5": {
-        "Plus de": "7.95",
-        "Moins de": "1.06"
-      }
-    },
-    "debut": "2026-10-25T12:30:00Z",
-    "competition": "2. Bundesliga",
-    "competition_id": "12091"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Holstein Kiel",
-    "equipe_2": "Dynamo Dresden",
-    "1X2": {
-      "V1": "2.29",
-      "X": "3.67",
-      "V2": "2.85"
-    },
-    "Total_2.5": {
-      "Plus de": "1.55",
-      "Moins de": "2.36"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.15",
-        "Moins de": "4.94"
-      },
-      "2.5": {
-        "Plus de": "1.55",
-        "Moins de": "2.36"
-      },
-      "3.5": {
-        "Plus de": "2.35",
-        "Moins de": "1.55"
-      },
-      "4.5": {
-        "Plus de": "4.16",
-        "Moins de": "1.21"
-      },
-      "5.5": {
-        "Plus de": "7.79",
-        "Moins de": "1.06"
-      }
-    },
-    "debut": "2026-10-25T12:30:00Z",
-    "competition": "2. Bundesliga",
-    "competition_id": "12091"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Middlesbrough FC U21",
-    "equipe_2": "Tottenham Hotspur FC U21",
-    "1X2": {
-      "V1": "2.69",
-      "X": "3.93",
-      "V2": "2.21"
-    },
-    "Total_2.5": {
-      "Plus de": "1.3",
-      "Moins de": "3.24"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.07",
-        "Moins de": "6.87"
-      },
-      "2.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.24"
-      },
-      "3.5": {
-        "Plus de": "1.75",
-        "Moins de": "1.96"
-      },
-      "4.5": {
-        "Plus de": "2.71",
-        "Moins de": "1.41"
-      },
-      "5.5": {
-        "Plus de": "4.51",
-        "Moins de": "1.17"
-      }
-    },
-    "debut": "2026-10-25T12:30:00Z",
-    "competition": "Premier League 2",
-    "competition_id": "12048"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "FC Sudburgenland Femmes",
-    "equipe_2": "First Vienna FC 1894 Femmes",
-    "1X2": {
-      "V1": "6.49",
-      "X": "5.34",
-      "V2": "1.34"
-    },
-    "Total_2.5": {
-      "Plus de": "1.32",
-      "Moins de": "3.09"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.08",
-        "Moins de": "6.48"
-      },
-      "2.5": {
-        "Plus de": "1.32",
-        "Moins de": "3.09"
-      },
-      "3.5": {
-        "Plus de": "1.83",
-        "Moins de": "1.87"
-      },
-      "4.5": {
-        "Plus de": "2.84",
-        "Moins de": "1.37"
-      },
-      "5.5": {
-        "Plus de": "4.8",
-        "Moins de": "1.15"
-      }
-    },
-    "debut": "2026-10-25T13:00:00Z",
-    "competition": "Bundesliga, Women",
-    "competition_id": "13124"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "FC Aktobe",
-    "equipe_2": "FC Kairat Almaty",
-    "1X2": {
-      "V1": "3.48",
-      "X": "3.63",
-      "V2": "1.93"
-    },
-    "Total_2.5": {
-      "Plus de": "1.76",
-      "Moins de": "1.95"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.02",
-        "Moins de": "9.65"
-      },
-      "1.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.42"
-      },
-      "2.5": {
-        "Plus de": "1.76",
-        "Moins de": "1.95"
-      },
-      "3.5": {
-        "Plus de": "3.12",
-        "Moins de": "1.32"
-      },
-      "4.5": {
-        "Plus de": "5.84",
-        "Moins de": "1.1"
-      },
-      "5.5": {
-        "Plus de": "9.65",
-        "Moins de": "1.02"
-      }
-    },
-    "debut": "2026-10-25T13:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12911"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "CSKA Moscow",
-    "equipe_2": "FK Spartak Moscow",
-    "1X2": {
-      "V1": "3.11",
-      "X": "3.65",
-      "V2": "2.15"
-    },
-    "Total_2.5": {
-      "Plus de": "1.61",
-      "Moins de": "2.24"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "12.74"
-      },
-      "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "4.6"
-      },
-      "2.5": {
-        "Plus de": "1.61",
-        "Moins de": "2.24"
-      },
-      "3.5": {
-        "Plus de": "2.49",
-        "Moins de": "1.49"
-      },
-      "4.5": {
-        "Plus de": "4.52",
-        "Moins de": "1.18"
-      },
-      "5.5": {
-        "Plus de": "8.55",
-        "Moins de": "1.05"
-      }
-    },
-    "debut": "2026-10-25T13:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12563"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Kruger United",
-    "equipe_2": "AmaZulu FC",
-    "1X2": {
-      "V1": "2.57",
-      "X": "2.95",
-      "V2": "2.76"
-    },
-    "Total_2.5": {
-      "Plus de": "1.99",
-      "Moins de": "1.73"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.05",
-        "Moins de": "7.85"
-      },
-      "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.24"
-      },
-      "2.5": {
-        "Plus de": "1.99",
-        "Moins de": "1.73"
-      },
-      "3.5": {
-        "Plus de": "3.38",
-        "Moins de": "1.27"
-      },
-      "4.5": {
-        "Plus de": "6.65",
-        "Moins de": "1.08"
-      },
-      "5.5": {
-        "Plus de": "11.71",
-        "Moins de": "1.01"
-      }
-    },
-    "debut": "2026-10-25T13:00:00Z",
-    "competition": "League Cup",
-    "competition_id": "15075"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "CE Sabadell FC",
-    "equipe_2": "Tenerife CD",
-    "1X2": {
-      "V1": "1.85",
-      "X": "3.23",
-      "V2": "4.79"
-    },
-    "Total_2.5": {
-      "Plus de": "2.6",
-      "Moins de": "1.46"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.09",
-        "Moins de": "6.54"
-      },
-      "1.5": {
-        "Plus de": "1.51",
-        "Moins de": "2.46"
-      },
-      "2.5": {
-        "Plus de": "2.6",
-        "Moins de": "1.46"
-      },
-      "3.5": {
-        "Plus de": "5.22",
-        "Moins de": "1.14"
-      },
-      "4.5": {
-        "Plus de": "11.21",
-        "Moins de": "1.02"
-      }
-    },
-    "debut": "2026-10-25T13:00:00Z",
-    "competition": "LaLiga 2",
-    "competition_id": "12142"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Leopards SC",
-    "equipe_2": "Shabana FC",
-    "1X2": {
-      "V1": "2.12",
-      "X": "2.69",
-      "V2": "3.62"
-    },
-    "Total_2.5": {
-      "Plus de": "2.66",
-      "Moins de": "1.38"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.53",
-        "Moins de": "2.25"
-      },
-      "2.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.38"
-      }
-    },
-    "debut": "2026-10-25T13:15:00Z",
-    "competition": "Premier League",
-    "competition_id": "12068"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "SK Sturm Graz",
-    "equipe_2": "SV Ried",
-    "1X2": {
-      "V1": "1.63",
-      "X": "4.49",
-      "V2": "4.71"
-    },
-    "Total_2.5": {
-      "Plus de": "1.45",
-      "Moins de": "2.7"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.13",
-        "Moins de": "5.78"
-      },
-      "2.5": {
-        "Plus de": "1.45",
-        "Moins de": "2.7"
-      },
-      "3.5": {
-        "Plus de": "2.12",
-        "Moins de": "1.7"
-      },
-      "4.5": {
-        "Plus de": "3.56",
-        "Moins de": "1.28"
-      },
-      "5.5": {
-        "Plus de": "6.46",
-        "Moins de": "1.1"
-      }
-    },
-    "debut": "2026-10-25T13:30:00Z",
-    "competition": "Bundesliga",
-    "competition_id": "12339"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Burnley FC Femmes",
-    "equipe_2": "Sheffield United LFC Femmes",
-    "1X2": {
-      "V1": "2.14",
-      "X": "3.44",
-      "V2": "3.01"
-    },
-    "Total_2.5": {
-      "Plus de": "1.63",
-      "Moins de": "2.15"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "10.81"
-      },
-      "1.5": {
-        "Plus de": "1.18",
-        "Moins de": "4.32"
-      },
-      "2.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.15"
-      },
-      "3.5": {
-        "Plus de": "2.51",
-        "Moins de": "1.47"
-      },
-      "4.5": {
-        "Plus de": "4.51",
-        "Moins de": "1.17"
-      },
-      "5.5": {
-        "Plus de": "8.02",
-        "Moins de": "1.05"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Championship, Women",
-    "competition_id": "12440"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Genoa CFC",
-    "equipe_2": "Venezia FC",
-    "1X2": {
-      "V1": "2.2",
-      "X": "3.3",
-      "V2": "3.41"
-    },
-    "Total_2.5": {
-      "Plus de": "1.98",
-      "Moins de": "1.8"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.05",
-        "Moins de": "9.28"
-      },
-      "1.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.42"
-      },
-      "2.5": {
-        "Plus de": "1.98",
-        "Moins de": "1.8"
-      },
-      "3.5": {
-        "Plus de": "3.41",
-        "Moins de": "1.3"
-      },
-      "4.5": {
-        "Plus de": "6.81",
-        "Moins de": "1.09"
-      },
-      "5.5": {
-        "Plus de": "13.2",
-        "Moins de": "1.02"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Serie A",
-    "competition_id": "12097"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Atalanta BC",
-    "equipe_2": "Frosinone Calcio",
-    "1X2": {
-      "V1": "1.88",
-      "X": "4.24",
-      "V2": "3.56"
-    },
-    "Total_2.5": {
-      "Plus de": "1.33",
-      "Moins de": "3.22"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.09",
-        "Moins de": "7.2"
-      },
-      "2.5": {
-        "Plus de": "1.33",
-        "Moins de": "3.22"
-      },
-      "3.5": {
-        "Plus de": "1.83",
-        "Moins de": "1.94"
-      },
-      "4.5": {
-        "Plus de": "2.91",
-        "Moins de": "1.4"
-      },
-      "5.5": {
-        "Plus de": "4.96",
-        "Moins de": "1.16"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Serie A",
-    "competition_id": "12097"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Como 1907 Femmes",
-    "equipe_2": "Sassuolo Calcio Femmes",
-    "1X2": {
-      "V1": "1.37",
-      "X": "4.81",
-      "V2": "7.12"
-    },
-    "Total_2.5": {
-      "Plus de": "1.56",
-      "Moins de": "2.27"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "11.71"
-      },
-      "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "4.51"
-      },
-      "2.5": {
-        "Plus de": "1.56",
-        "Moins de": "2.27"
-      },
-      "3.5": {
-        "Plus de": "2.41",
-        "Moins de": "1.5"
-      },
-      "4.5": {
-        "Plus de": "4.22",
-        "Moins de": "1.19"
-      },
-      "5.5": {
-        "Plus de": "7.68",
-        "Moins de": "1.05"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Serie A féminine",
-    "competition_id": "12412"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Bristol City WFC Femmes",
-    "equipe_2": "Wolverhampton Wanderers WFC Femmes",
-    "1X2": {
-      "V1": "1.58",
-      "X": "4.11",
-      "V2": "4.69"
-    },
-    "Total_2.5": {
-      "Plus de": "1.53",
-      "Moins de": "2.35"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "11.71"
+        "Moins de": "13.12"
       },
       "1.5": {
         "Plus de": "1.15",
-        "Moins de": "4.72"
+        "Moins de": "5.22"
       },
       "2.5": {
-        "Plus de": "1.53",
-        "Moins de": "2.35"
-      },
-      "3.5": {
-        "Plus de": "2.31",
-        "Moins de": "1.54"
-      },
-      "4.5": {
-        "Plus de": "3.94",
-        "Moins de": "1.21"
-      },
-      "5.5": {
-        "Plus de": "7.1",
-        "Moins de": "1.06"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Championship, Women",
-    "competition_id": "12440"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "AS Monaco",
-    "equipe_2": "Lille OSC",
-    "1X2": {
-      "V1": "1.92",
-      "X": "3.64",
-      "V2": "3.92"
-    },
-    "Total_2.5": {
-      "Plus de": "1.73",
-      "Moins de": "2.08"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "11.44"
-      },
-      "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "4.17"
-      },
-      "2.5": {
-        "Plus de": "1.73",
-        "Moins de": "2.08"
-      },
-      "3.5": {
-        "Plus de": "2.79",
-        "Moins de": "1.43"
-      },
-      "4.5": {
-        "Plus de": "5.24",
-        "Moins de": "1.15"
-      },
-      "5.5": {
-        "Plus de": "10.07",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Ligue 1",
-    "competition_id": "12127"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Sabah Masazir",
-    "equipe_2": "Qarabag FK",
-    "1X2": {
-      "V1": "2.49",
-      "X": "3.5",
-      "V2": "2.54"
-    },
-    "Total_2.5": {
-      "Plus de": "1.63",
-      "Moins de": "2.15"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "10.81"
-      },
-      "1.5": {
-        "Plus de": "1.19",
-        "Moins de": "4.22"
-      },
-      "2.5": {
-        "Plus de": "1.63",
-        "Moins de": "2.15"
-      },
-      "3.5": {
-        "Plus de": "2.55",
-        "Moins de": "1.45"
-      },
-      "4.5": {
-        "Plus de": "4.54",
-        "Moins de": "1.16"
-      },
-      "5.5": {
-        "Plus de": "8.26",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12586"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Nottingham Forest Lfc Femmes",
-    "equipe_2": "Newcastle United WFC Femmes",
-    "1X2": {
-      "V1": "3.29",
-      "X": "3.43",
-      "V2": "2.02"
-    },
-    "Total_2.5": {
-      "Plus de": "1.8",
-      "Moins de": "1.9"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "9.22"
-      },
-      "1.5": {
-        "Plus de": "1.24",
-        "Moins de": "3.62"
-      },
-      "2.5": {
-        "Plus de": "1.8",
-        "Moins de": "1.9"
-      },
-      "3.5": {
-        "Plus de": "2.99",
-        "Moins de": "1.34"
-      },
-      "4.5": {
-        "Plus de": "5.51",
-        "Moins de": "1.11"
-      },
-      "5.5": {
-        "Plus de": "9.83",
-        "Moins de": "1.02"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Championship, Women",
-    "competition_id": "12440"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "FC Astana",
-    "equipe_2": "Kaisar Kyzylorda",
-    "1X2": {
-      "V1": "1.38",
-      "X": "4.61",
-      "V2": "7.28"
-    },
-    "Total_2.5": {
-      "Plus de": "1.6",
-      "Moins de": "2.19"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "10.81"
-      },
-      "1.5": {
-        "Plus de": "1.19",
-        "Moins de": "4.11"
-      },
-      "2.5": {
-        "Plus de": "1.6",
-        "Moins de": "2.19"
-      },
-      "3.5": {
-        "Plus de": "2.5",
-        "Moins de": "1.47"
-      },
-      "4.5": {
-        "Plus de": "4.62",
-        "Moins de": "1.16"
-      },
-      "5.5": {
-        "Plus de": "8.26",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12911"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Ipswich Town Lfc Femmes",
-    "equipe_2": "Sunderland AFC Femmes",
-    "1X2": {
-      "V1": "4.48",
-      "X": "3.9",
-      "V2": "1.64"
-    },
-    "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.22"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "10.81"
-      },
-      "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "4.43"
-      },
-      "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.22"
-      },
-      "3.5": {
-        "Plus de": "2.45",
-        "Moins de": "1.49"
-      },
-      "4.5": {
-        "Plus de": "4.32",
-        "Moins de": "1.18"
-      },
-      "5.5": {
-        "Plus de": "7.85",
-        "Moins de": "1.05"
-      }
-    },
-    "debut": "2026-10-25T14:00:00Z",
-    "competition": "Championship, Women",
-    "competition_id": "12440"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Valletta FC",
-    "equipe_2": "Hamrun Spartans FC",
-    "1X2": {
-      "V1": "2.67",
-      "X": "3.05",
-      "V2": "2.58"
-    },
-    "Total_2.5": {
-      "Plus de": "2.08",
-      "Moins de": "1.67"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.05",
-        "Moins de": "7.68"
-      },
-      "1.5": {
-        "Plus de": "1.33",
-        "Moins de": "3.04"
-      },
-      "2.5": {
-        "Plus de": "2.08",
-        "Moins de": "1.67"
-      },
-      "3.5": {
-        "Plus de": "3.64",
-        "Moins de": "1.24"
-      },
-      "4.5": {
-        "Plus de": "7.1",
-        "Moins de": "1.06"
-      }
-    },
-    "debut": "2026-10-25T14:30:00Z",
-    "competition": "Premier League",
-    "competition_id": "12336"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Colombe Sportive Du Dja Et Lobo",
-    "equipe_2": "Teungueth FC",
-    "1X2": {
-      "V1": "1.52",
-      "X": "3.65",
-      "V2": "6.0"
-    },
-    "Total_2.5": {
-      "Plus de": "2.1",
-      "Moins de": "1.63"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.06",
-        "Moins de": "6.8"
-      },
-      "1.5": {
-        "Plus de": "1.36",
-        "Moins de": "2.85"
-      },
-      "2.5": {
-        "Plus de": "2.1",
-        "Moins de": "1.63"
-      },
-      "3.5": {
-        "Plus de": "3.65",
-        "Moins de": "1.22"
-      },
-      "4.5": {
-        "Plus de": "6.6",
-        "Moins de": "1.07"
-      },
-      "5.5": {
-        "Plus de": "9.8",
-        "Moins de": "1.01"
-      }
-    },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Ligue des Champions CAF",
-    "competition_id": "12743"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Vikingur Gota",
-    "equipe_2": "Eb/Streymur",
-    "1X2": {
-      "V1": "1.35",
-      "X": "4.96",
-      "V2": "6.87"
-    },
-    "Total_2.5": {
-      "Plus de": "1.5",
-      "Moins de": "2.43"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.14",
-        "Moins de": "4.92"
-      },
-      "2.5": {
-        "Plus de": "1.5",
-        "Moins de": "2.43"
+        "Plus de": "1.52",
+        "Moins de": "2.5"
       },
       "3.5": {
         "Plus de": "2.25",
-        "Moins de": "1.57"
+        "Moins de": "1.62"
       },
       "4.5": {
-        "Plus de": "3.81",
-        "Moins de": "1.22"
+        "Plus de": "3.87",
+        "Moins de": "1.25"
       },
       "5.5": {
-        "Plus de": "6.87",
-        "Moins de": "1.07"
+        "Plus de": "7.0",
+        "Moins de": "1.09"
       }
     },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12976"
+    "debut": "2026-10-30T19:30:00Z",
+    "competition": "Bundesliga",
+    "competition_id": "12110"
   },
   {
     "bookmaker": "betpawa",
-    "equipe_1": "07 Vestur Sorvagur",
-    "equipe_2": "Tofta Itrottarfelag B68",
+    "equipe_1": "Villarreal CF",
+    "equipe_2": "Espanyol Barcelona",
     "1X2": {
-      "V1": "2.04",
-      "X": "3.34",
-      "V2": "3.34"
+      "V1": "1.51",
+      "X": "4.71",
+      "V2": "5.76"
     },
     "Total_2.5": {
-      "Plus de": "1.75",
-      "Moins de": "1.96"
+      "Plus de": "1.54",
+      "Moins de": "2.44"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "9.39"
-      },
-      "1.5": {
-        "Plus de": "1.22",
-        "Moins de": "3.81"
-      },
-      "2.5": {
-        "Plus de": "1.75",
-        "Moins de": "1.96"
-      },
-      "3.5": {
-        "Plus de": "2.84",
-        "Moins de": "1.37"
-      },
-      "4.5": {
-        "Plus de": "5.27",
-        "Moins de": "1.12"
-      },
-      "5.5": {
-        "Plus de": "9.39",
-        "Moins de": "1.03"
-      }
-    },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12976"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "NSI Runavik",
-    "equipe_2": "HB Torshavn",
-    "1X2": {
-      "V1": "1.75",
-      "X": "3.81",
-      "V2": "3.9"
-    },
-    "Total_2.5": {
-      "Plus de": "1.55",
-      "Moins de": "2.29"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "11.71"
+        "Plus de": "1.02",
+        "Moins de": "13.11"
       },
       "1.5": {
         "Plus de": "1.16",
-        "Moins de": "4.61"
+        "Moins de": "5.0"
       },
       "2.5": {
-        "Plus de": "1.55",
-        "Moins de": "2.29"
+        "Plus de": "1.54",
+        "Moins de": "2.44"
       },
       "3.5": {
-        "Plus de": "2.37",
-        "Moins de": "1.52"
+        "Plus de": "2.33",
+        "Moins de": "1.58"
       },
       "4.5": {
-        "Plus de": "4.11",
-        "Moins de": "1.19"
+        "Plus de": "4.03",
+        "Moins de": "1.23"
       },
       "5.5": {
-        "Plus de": "7.44",
-        "Moins de": "1.06"
+        "Plus de": "7.43",
+        "Moins de": "1.08"
       }
     },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12976"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "B36 Torshavn",
-    "equipe_2": "KI Klaksvik",
-    "1X2": {
-      "V1": "5.52",
-      "X": "4.09",
-      "V2": "1.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.69",
-      "Moins de": "2.05"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.02",
-        "Moins de": "9.83"
-      },
-      "1.5": {
-        "Plus de": "1.2",
-        "Moins de": "4.01"
-      },
-      "2.5": {
-        "Plus de": "1.69",
-        "Moins de": "2.05"
-      },
-      "3.5": {
-        "Plus de": "2.71",
-        "Moins de": "1.41"
-      },
-      "4.5": {
-        "Plus de": "4.92",
-        "Moins de": "1.14"
-      },
-      "5.5": {
-        "Plus de": "8.86",
-        "Moins de": "1.03"
-      }
-    },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12976"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Skala IF",
-    "equipe_2": "AB Argir",
-    "1X2": {
-      "V1": "2.37",
-      "X": "3.39",
-      "V2": "2.68"
-    },
-    "Total_2.5": {
-      "Plus de": "1.67",
-      "Moins de": "2.08"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.02",
-        "Moins de": "9.83"
-      },
-      "1.5": {
-        "Plus de": "1.19",
-        "Moins de": "4.11"
-      },
-      "2.5": {
-        "Plus de": "1.67",
-        "Moins de": "2.08"
-      },
-      "3.5": {
-        "Plus de": "2.65",
-        "Moins de": "1.42"
-      },
-      "4.5": {
-        "Plus de": "4.8",
-        "Moins de": "1.15"
-      },
-      "5.5": {
-        "Plus de": "8.61",
-        "Moins de": "1.04"
-      }
-    },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Premier League",
-    "competition_id": "12976"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Leicester City WFC Femmes",
-    "equipe_2": "Southampton FC Femmes",
-    "1X2": {
-      "V1": "2.48",
-      "X": "3.53",
-      "V2": "2.48"
-    },
-    "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.21"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "10.81"
-      },
-      "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "4.43"
-      },
-      "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.21"
-      },
-      "3.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.49"
-      },
-      "4.5": {
-        "Plus de": "4.32",
-        "Moins de": "1.18"
-      },
-      "5.5": {
-        "Plus de": "7.85",
-        "Moins de": "1.05"
-      }
-    },
-    "debut": "2026-10-25T15:00:00Z",
-    "competition": "Championship, Women",
-    "competition_id": "12440"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Albacete Balompie",
-    "equipe_2": "Club Deportivo Eldense",
-    "1X2": {
-      "V1": "2.28",
-      "X": "3.48",
-      "V2": "3.0"
-    },
-    "Total_2.5": {
-      "Plus de": "1.71",
-      "Moins de": "2.07"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.02",
-        "Moins de": "11.44"
-      },
-      "1.5": {
-        "Plus de": "1.21",
-        "Moins de": "4.16"
-      },
-      "2.5": {
-        "Plus de": "1.71",
-        "Moins de": "2.07"
-      },
-      "3.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.42"
-      },
-      "4.5": {
-        "Plus de": "5.12",
-        "Moins de": "1.14"
-      },
-      "5.5": {
-        "Plus de": "9.9",
-        "Moins de": "1.03"
-      }
-    },
-    "debut": "2026-10-25T15:15:00Z",
-    "competition": "LaLiga 2",
-    "competition_id": "12142"
-  },
-  {
-    "bookmaker": "betpawa",
-    "equipe_1": "Cadiz CF",
-    "equipe_2": "AD Ceuta",
-    "1X2": {
-      "V1": "2.08",
-      "X": "3.42",
-      "V2": "3.49"
-    },
-    "Total_2.5": {
-      "Plus de": "1.9",
-      "Moins de": "1.84"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "9.8"
-      },
-      "1.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.52"
-      },
-      "2.5": {
-        "Plus de": "1.9",
-        "Moins de": "1.84"
-      },
-      "3.5": {
-        "Plus de": "3.24",
-        "Moins de": "1.31"
-      },
-      "4.5": {
-        "Plus de": "6.37",
-        "Moins de": "1.1"
-      },
-      "5.5": {
-        "Plus de": "12.47",
-        "Moins de": "1.01"
-      }
-    },
-    "debut": "2026-10-25T15:15:00Z",
-    "competition": "LaLiga 2",
-    "competition_id": "12142"
+    "debut": "2026-10-30T20:00:00Z",
+    "competition": "LaLiga",
+    "competition_id": "12039"
   },
   {
     "bookmaker": "betpawa",
     "equipe_1": "FK Zenit Saint Petersburg",
     "equipe_2": "FC Dynamo-Makhachkala",
     "1X2": {
-      "V1": "1.23",
-      "X": "6.32",
-      "V2": "11.37"
+      "V1": "1.22",
+      "X": "6.39",
+      "V2": "12.0"
     },
     "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.28"
+      "Plus de": "1.61",
+      "Moins de": "2.24"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "4.58"
+        "Plus de": "1.18",
+        "Moins de": "4.5"
       },
       "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.28"
+        "Plus de": "1.61",
+        "Moins de": "2.24"
       },
       "3.5": {
-        "Plus de": "2.51",
-        "Moins de": "1.49"
+        "Plus de": "2.57",
+        "Moins de": "1.47"
       },
       "4.5": {
-        "Plus de": "4.46",
-        "Moins de": "1.18"
+        "Plus de": "4.6",
+        "Moins de": "1.17"
       },
       "5.5": {
-        "Plus de": "8.61",
-        "Moins de": "1.05"
+        "Plus de": "8.94",
+        "Moins de": "1.04"
       }
     },
     "debut": "2026-10-25T15:30:00Z",
@@ -1965,7 +361,7 @@
       "Moins de": "1.76"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
@@ -1999,7 +395,7 @@
       "Moins de": "1.6"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2033,78 +429,40 @@
   },
   {
     "bookmaker": "betpawa",
-    "equipe_1": "Hibernian LFC Femmes",
-    "equipe_2": "Celtic LFC Femmes",
-    "1X2": {
-      "V1": "2.44",
-      "X": "3.71",
-      "V2": "2.44"
-    },
-    "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.44"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "1.5": {
-        "Plus de": "1.15",
-        "Moins de": "4.72"
-      },
-      "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.44"
-      },
-      "3.5": {
-        "Plus de": "2.33",
-        "Moins de": "1.54"
-      },
-      "4.5": {
-        "Plus de": "3.96",
-        "Moins de": "1.21"
-      }
-    },
-    "debut": "2026-10-25T16:00:00Z",
-    "competition": "Premier League 1 féminine",
-    "competition_id": "12495"
-  },
-  {
-    "bookmaker": "betpawa",
     "equipe_1": "LASK Linz",
     "equipe_2": "FC Salzburg",
     "1X2": {
-      "V1": "2.19",
-      "X": "4.02",
-      "V2": "2.91"
+      "V1": "2.09",
+      "X": "4.06",
+      "V2": "3.09"
     },
     "Total_2.5": {
-      "Plus de": "1.4",
-      "Moins de": "2.89"
+      "Plus de": "1.37",
+      "Moins de": "3.01"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
-        "Plus de": "1.11",
-        "Moins de": "6.34"
+        "Plus de": "1.1",
+        "Moins de": "6.69"
       },
       "2.5": {
-        "Plus de": "1.4",
-        "Moins de": "2.89"
+        "Plus de": "1.37",
+        "Moins de": "3.01"
       },
       "3.5": {
-        "Plus de": "2.0",
-        "Moins de": "1.79"
+        "Plus de": "1.93",
+        "Moins de": "1.85"
       },
       "4.5": {
-        "Plus de": "3.27",
-        "Moins de": "1.33"
+        "Plus de": "3.11",
+        "Moins de": "1.35"
       },
       "5.5": {
-        "Plus de": "5.78",
-        "Moins de": "1.13"
+        "Plus de": "5.46",
+        "Moins de": "1.14"
       }
     },
     "debut": "2026-10-25T16:00:00Z",
@@ -2125,7 +483,7 @@
       "Moins de": "1.48"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2162,16 +520,16 @@
     "equipe_1": "Sekhukhune United",
     "equipe_2": "Richards Bay FC",
     "1X2": {
-      "V1": "1.79",
-      "X": "3.24",
-      "V2": "4.48"
+      "V1": "1.56",
+      "X": "3.48",
+      "V2": "6.11"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "debut": "2026-10-25T16:00:00Z",
     "competition": "League Cup",
@@ -2191,7 +549,7 @@
       "Moins de": "1.51"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
@@ -2209,77 +567,39 @@
   },
   {
     "bookmaker": "betpawa",
-    "equipe_1": "Partick Thistle LFC Femmes",
-    "equipe_2": "Glasgow City LFC Femmes",
-    "1X2": {
-      "V1": "19.43",
-      "X": "8.99",
-      "V2": "1.08"
-    },
-    "Total_2.5": {
-      "Plus de": "1.3",
-      "Moins de": "3.24"
-    },
-    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
-    "statut": "ok",
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.3",
-        "Moins de": "3.24"
-      },
-      "3.5": {
-        "Plus de": "1.74",
-        "Moins de": "1.98"
-      },
-      "4.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.44"
-      },
-      "5.5": {
-        "Plus de": "4.54",
-        "Moins de": "1.16"
-      }
-    },
-    "debut": "2026-10-25T16:10:00Z",
-    "competition": "Premier League 1 féminine",
-    "competition_id": "12495"
-  },
-  {
-    "bookmaker": "betpawa",
     "equipe_1": "Stade Rennais FC",
     "equipe_2": "Strasbourg Alsace",
     "1X2": {
-      "V1": "1.77",
-      "X": "4.25",
-      "V2": "4.0"
+      "V1": "1.75",
+      "X": "4.29",
+      "V2": "4.06"
     },
     "Total_2.5": {
-      "Plus de": "1.44",
-      "Moins de": "2.73"
+      "Plus de": "1.43",
+      "Moins de": "2.76"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
         "Plus de": "1.12",
-        "Moins de": "5.85"
+        "Moins de": "5.96"
       },
       "2.5": {
-        "Plus de": "1.44",
-        "Moins de": "2.73"
+        "Plus de": "1.43",
+        "Moins de": "2.76"
       },
       "3.5": {
-        "Plus de": "2.1",
-        "Moins de": "1.71"
+        "Plus de": "2.08",
+        "Moins de": "1.73"
       },
       "4.5": {
-        "Plus de": "3.53",
-        "Moins de": "1.29"
+        "Plus de": "3.47",
+        "Moins de": "1.3"
       },
       "5.5": {
-        "Plus de": "6.37",
+        "Plus de": "6.29",
         "Moins de": "1.11"
       }
     },
@@ -2301,7 +621,7 @@
       "Moins de": "1.79"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2338,40 +658,40 @@
     "equipe_1": "AJ Auxerre",
     "equipe_2": "Le Mans FC",
     "1X2": {
-      "V1": "2.12",
-      "X": "3.63",
-      "V2": "3.31"
+      "V1": "2.07",
+      "X": "3.64",
+      "V2": "3.42"
     },
     "Total_2.5": {
       "Plus de": "1.68",
-      "Moins de": "2.16"
+      "Moins de": "2.15"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.02",
-        "Moins de": "12.16"
+        "Moins de": "12.06"
       },
       "1.5": {
         "Plus de": "1.2",
-        "Moins de": "4.41"
+        "Moins de": "4.36"
       },
       "2.5": {
         "Plus de": "1.68",
-        "Moins de": "2.16"
+        "Moins de": "2.15"
       },
       "3.5": {
-        "Plus de": "2.65",
+        "Plus de": "2.67",
         "Moins de": "1.46"
       },
       "4.5": {
-        "Plus de": "4.89",
+        "Plus de": "4.92",
         "Moins de": "1.17"
       },
       "5.5": {
-        "Plus de": "9.35",
+        "Plus de": "9.42",
         "Moins de": "1.05"
       }
     },
@@ -2384,41 +704,37 @@
     "equipe_1": "Olympique Marseille",
     "equipe_2": "Le Havre AC",
     "1X2": {
-      "V1": "1.46",
-      "X": "4.97",
-      "V2": "6.05"
+      "V1": "1.45",
+      "X": "5.06",
+      "V2": "6.12"
     },
     "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.56"
+      "Plus de": "1.46",
+      "Moins de": "2.67"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
-      "0.5": {
-        "Plus de": "1.01",
-        "Moins de": "15.02"
-      },
       "1.5": {
-        "Plus de": "1.14",
-        "Moins de": "5.36"
+        "Plus de": "1.13",
+        "Moins de": "5.68"
       },
       "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.56"
+        "Plus de": "1.46",
+        "Moins de": "2.67"
       },
       "3.5": {
-        "Plus de": "2.24",
-        "Moins de": "1.63"
+        "Plus de": "2.16",
+        "Moins de": "1.68"
       },
       "4.5": {
-        "Plus de": "3.82",
-        "Moins de": "1.25"
+        "Plus de": "3.63",
+        "Moins de": "1.27"
       },
       "5.5": {
-        "Plus de": "7.11",
-        "Moins de": "1.09"
+        "Plus de": "6.66",
+        "Moins de": "1.1"
       }
     },
     "debut": "2026-10-25T16:15:00Z",
@@ -2430,40 +746,40 @@
     "equipe_1": "Toulouse FC",
     "equipe_2": "ESTAC Troyes",
     "1X2": {
-      "V1": "1.5",
-      "X": "4.7",
-      "V2": "5.85"
+      "V1": "1.51",
+      "X": "4.67",
+      "V2": "5.72"
     },
     "Total_2.5": {
-      "Plus de": "1.56",
-      "Moins de": "2.38"
+      "Plus de": "1.57",
+      "Moins de": "2.36"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.01",
-        "Moins de": "14.0"
+        "Moins de": "13.83"
       },
       "1.5": {
         "Plus de": "1.17",
-        "Moins de": "4.9"
+        "Moins de": "4.85"
       },
       "2.5": {
-        "Plus de": "1.56",
-        "Moins de": "2.38"
+        "Plus de": "1.57",
+        "Moins de": "2.36"
       },
       "3.5": {
-        "Plus de": "2.41",
-        "Moins de": "1.55"
+        "Plus de": "2.44",
+        "Moins de": "1.54"
       },
       "4.5": {
-        "Plus de": "4.24",
+        "Plus de": "4.31",
         "Moins de": "1.21"
       },
       "5.5": {
-        "Plus de": "8.06",
+        "Plus de": "8.17",
         "Moins de": "1.07"
       }
     },
@@ -2473,19 +789,101 @@
   },
   {
     "bookmaker": "betpawa",
+    "equipe_1": "AS Pikine",
+    "equipe_2": "Essamaye FC",
+    "1X2": {
+      "V1": "2.65",
+      "X": "2.85",
+      "V2": "2.55"
+    },
+    "Total_2.5": {
+      "Plus de": "2.62",
+      "Moins de": "1.39"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.53",
+        "Moins de": "2.25"
+      },
+      "2.5": {
+        "Plus de": "2.62",
+        "Moins de": "1.39"
+      }
+    },
+    "debut": "2026-10-25T16:30:00Z",
+    "competition": "Premier League",
+    "competition_id": "12780"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "US Ouakam",
+    "equipe_2": "ASC Jaraaf",
+    "1X2": {
+      "V1": "2.37",
+      "X": "2.6",
+      "V2": "3.19"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.59",
+        "Moins de": "2.13"
+      }
+    },
+    "debut": "2026-10-25T16:30:00Z",
+    "competition": "Premier League",
+    "competition_id": "12780"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Stade de Mbour",
+    "equipe_2": "Guediawaye FC",
+    "1X2": {
+      "V1": "2.04",
+      "X": "2.69",
+      "V2": "3.86"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.69",
+        "Moins de": "1.97"
+      }
+    },
+    "debut": "2026-10-25T16:30:00Z",
+    "competition": "Premier League",
+    "competition_id": "12780"
+  },
+  {
+    "bookmaker": "betpawa",
     "equipe_1": "US Lecce",
     "equipe_2": "Juventus Turin",
     "1X2": {
-      "V1": "6.31",
-      "X": "4.27",
-      "V2": "1.52"
+      "V1": "6.11",
+      "X": "4.23",
+      "V2": "1.54"
     },
     "Total_2.5": {
       "Plus de": "1.78",
       "Moins de": "2.01"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2494,22 +892,22 @@
       },
       "1.5": {
         "Plus de": "1.24",
-        "Moins de": "3.96"
+        "Moins de": "3.95"
       },
       "2.5": {
         "Plus de": "1.78",
         "Moins de": "2.01"
       },
       "3.5": {
-        "Plus de": "2.92",
+        "Plus de": "2.93",
         "Moins de": "1.39"
       },
       "4.5": {
-        "Plus de": "5.53",
+        "Plus de": "5.54",
         "Moins de": "1.14"
       },
       "5.5": {
-        "Plus de": "10.82",
+        "Plus de": "10.89",
         "Moins de": "1.03"
       }
     },
@@ -2531,7 +929,7 @@
       "Moins de": "1.73"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2577,7 +975,7 @@
       "Moins de": "1.55"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2614,16 +1012,16 @@
     "equipe_1": "Deportivo Achuapa",
     "equipe_2": "Champs Academy Guatemala",
     "1X2": {
-      "V1": "1.21",
-      "X": "5.4",
-      "V2": "11.0"
+      "V1": "1.23",
+      "X": "5.2",
+      "V2": "10.0"
     },
     "Total_2.5": {
       "Plus de": "1.57",
       "Moins de": "2.2"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2669,7 +1067,7 @@
       "Moins de": "1.57"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2706,21 +1104,21 @@
     "equipe_1": "Parma Calcio Femmes",
     "equipe_2": "ACF Fiorentina Femmes",
     "1X2": {
-      "V1": "4.24",
-      "X": "3.61",
-      "V2": "1.76"
+      "V1": "4.06",
+      "X": "3.53",
+      "V2": "1.82"
     },
     "Total_2.5": {
       "Plus de": "1.9",
       "Moins de": "1.8"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
-        "Plus de": "1.03",
-        "Moins de": "8.79"
+        "Plus de": "1.04",
+        "Moins de": "8.61"
       },
       "1.5": {
         "Plus de": "1.28",
@@ -2761,7 +1159,7 @@
       "Moins de": "1.71"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2798,16 +1196,16 @@
     "equipe_1": "AFF Guatemala",
     "equipe_2": "San Benito FC",
     "1X2": {
-      "V1": "2.45",
+      "V1": "2.29",
       "X": "3.25",
-      "V2": "2.6"
+      "V2": "2.8"
     },
     "Total_2.5": {
       "Plus de": "1.88",
       "Moins de": "1.79"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2853,7 +1251,7 @@
       "Moins de": "2.17"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2890,16 +1288,16 @@
     "equipe_1": "CD Fuerte San Francisco U20",
     "equipe_2": "CD Atletico Balboa U20",
     "1X2": {
-      "V1": "1.45",
+      "V1": "1.46",
       "X": "4.3",
-      "V2": "5.6"
+      "V2": "5.4"
     },
     "Total_2.5": {
       "Plus de": "1.51",
       "Moins de": "2.29"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -2945,7 +1343,7 @@
       "Moins de": "1.91"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
@@ -2970,37 +1368,37 @@
     "equipe_1": "Hapoel Petah Tikva FC",
     "equipe_2": "Beitar Jerusalem FC",
     "1X2": {
-      "V1": "6.55",
-      "X": "4.72",
-      "V2": "1.4"
+      "V1": "7.72",
+      "X": "5.02",
+      "V2": "1.33"
     },
     "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.21"
+      "Plus de": "1.58",
+      "Moins de": "2.24"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.01",
-        "Moins de": "10.81"
+        "Moins de": "11.71"
       },
       "1.5": {
-        "Plus de": "1.18",
-        "Moins de": "4.32"
+        "Plus de": "1.17",
+        "Moins de": "4.43"
       },
       "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.21"
+        "Plus de": "1.58",
+        "Moins de": "2.24"
       },
       "3.5": {
-        "Plus de": "2.5",
-        "Moins de": "1.47"
+        "Plus de": "2.45",
+        "Moins de": "1.49"
       },
       "4.5": {
-        "Plus de": "4.4",
-        "Moins de": "1.17"
+        "Plus de": "4.32",
+        "Moins de": "1.18"
       },
       "5.5": {
         "Plus de": "7.85",
@@ -3016,16 +1414,16 @@
     "equipe_1": "Gzira United FC",
     "equipe_2": "Birzebbuga St. Peters FC",
     "1X2": {
-      "V1": "2.59",
+      "V1": "2.49",
       "X": "3.4",
-      "V2": "2.44"
+      "V2": "2.54"
     },
     "Total_2.5": {
       "Plus de": "1.9",
       "Moins de": "1.8"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3062,40 +1460,40 @@
     "equipe_1": "Udinese Calcio",
     "equipe_2": "AC Milan",
     "1X2": {
-      "V1": "4.41",
-      "X": "3.62",
-      "V2": "1.83"
+      "V1": "4.47",
+      "X": "3.63",
+      "V2": "1.82"
     },
     "Total_2.5": {
-      "Plus de": "1.89",
-      "Moins de": "1.88"
+      "Plus de": "1.9",
+      "Moins de": "1.87"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.04",
-        "Moins de": "10.05"
+        "Moins de": "9.99"
       },
       "1.5": {
         "Plus de": "1.28",
-        "Moins de": "3.62"
+        "Moins de": "3.61"
       },
       "2.5": {
-        "Plus de": "1.89",
-        "Moins de": "1.88"
+        "Plus de": "1.9",
+        "Moins de": "1.87"
       },
       "3.5": {
-        "Plus de": "3.21",
-        "Moins de": "1.34"
+        "Plus de": "3.23",
+        "Moins de": "1.33"
       },
       "4.5": {
-        "Plus de": "6.29",
+        "Plus de": "6.34",
         "Moins de": "1.11"
       },
       "5.5": {
-        "Plus de": "12.3",
+        "Plus de": "12.43",
         "Moins de": "1.02"
       }
     },
@@ -3108,41 +1506,41 @@
     "equipe_1": "Portmore United",
     "equipe_2": "Chapelton Maroons FC",
     "1X2": {
-      "V1": "1.45",
-      "X": "4.0",
-      "V2": "6.2"
+      "V1": "1.59",
+      "X": "3.7",
+      "V2": "5.0"
     },
     "Total_2.5": {
-      "Plus de": "1.82",
-      "Moins de": "1.84"
+      "Plus de": "1.88",
+      "Moins de": "1.79"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
         "Plus de": "1.04",
-        "Moins de": "7.8"
+        "Moins de": "7.6"
       },
       "1.5": {
-        "Plus de": "1.26",
-        "Moins de": "3.35"
+        "Plus de": "1.28",
+        "Moins de": "3.25"
       },
       "2.5": {
-        "Plus de": "1.82",
-        "Moins de": "1.84"
+        "Plus de": "1.88",
+        "Moins de": "1.79"
       },
       "3.5": {
-        "Plus de": "3.0",
-        "Moins de": "1.32"
+        "Plus de": "3.15",
+        "Moins de": "1.3"
       },
       "4.5": {
-        "Plus de": "5.4",
-        "Moins de": "1.11"
+        "Plus de": "5.6",
+        "Moins de": "1.1"
       },
       "5.5": {
-        "Plus de": "8.6",
-        "Moins de": "1.03"
+        "Plus de": "8.8",
+        "Moins de": "1.02"
       }
     },
     "debut": "2026-10-25T20:00:00Z",
@@ -3154,41 +1552,41 @@
     "equipe_1": "Treasure Beach FC",
     "equipe_2": "Tru-Juice FC",
     "1X2": {
-      "V1": "4.0",
-      "X": "3.7",
-      "V2": "1.73"
+      "V1": "3.9",
+      "X": "3.65",
+      "V2": "1.76"
     },
     "Total_2.5": {
-      "Plus de": "1.58",
-      "Moins de": "2.19"
+      "Plus de": "1.66",
+      "Moins de": "2.06"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
-        "Plus de": "1.02",
-        "Moins de": "8.8"
+        "Plus de": "1.03",
+        "Moins de": "8.6"
       },
       "1.5": {
-        "Plus de": "1.17",
-        "Moins de": "4.2"
+        "Plus de": "1.2",
+        "Moins de": "3.9"
       },
       "2.5": {
-        "Plus de": "1.58",
-        "Moins de": "2.19"
+        "Plus de": "1.66",
+        "Moins de": "2.06"
       },
       "3.5": {
-        "Plus de": "2.39",
-        "Moins de": "1.49"
+        "Plus de": "2.6",
+        "Moins de": "1.42"
       },
       "4.5": {
-        "Plus de": "4.1",
-        "Moins de": "1.19"
+        "Plus de": "4.5",
+        "Moins de": "1.15"
       },
       "5.5": {
-        "Plus de": "6.8",
-        "Moins de": "1.06"
+        "Plus de": "7.4",
+        "Moins de": "1.05"
       }
     },
     "debut": "2026-10-25T20:00:00Z",
@@ -3200,16 +1598,16 @@
     "equipe_1": "Humble Lions FC",
     "equipe_2": "Racing United FC",
     "1X2": {
-      "V1": "7.4",
-      "X": "4.9",
-      "V2": "1.31"
+      "V1": "7.2",
+      "X": "4.8",
+      "V2": "1.32"
     },
     "Total_2.5": {
       "Plus de": "1.57",
       "Moins de": "2.2"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3233,7 +1631,7 @@
         "Moins de": "1.18"
       },
       "5.5": {
-        "Plus de": "6.8",
+        "Plus de": "7.0",
         "Moins de": "1.06"
       }
     },
@@ -3255,7 +1653,7 @@
       "Moins de": "1.79"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3301,7 +1699,7 @@
       "Moins de": "2.23"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "1.5": {
@@ -3331,11 +1729,11 @@
       "V2": "2.81"
     },
     "Total_2.5": {
-      "Plus de": "1.88",
-      "Moins de": "1.83"
+      "Plus de": "1.85",
+      "Moins de": "1.85"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3344,23 +1742,23 @@
       },
       "1.5": {
         "Plus de": "1.26",
-        "Moins de": "3.47"
+        "Moins de": "3.53"
       },
       "2.5": {
-        "Plus de": "1.88",
-        "Moins de": "1.83"
+        "Plus de": "1.85",
+        "Moins de": "1.85"
       },
       "3.5": {
-        "Plus de": "3.14",
-        "Moins de": "1.31"
+        "Plus de": "3.04",
+        "Moins de": "1.33"
       },
       "4.5": {
-        "Plus de": "5.89",
+        "Plus de": "5.72",
         "Moins de": "1.1"
       },
       "5.5": {
-        "Plus de": "10.81",
-        "Moins de": "1.01"
+        "Plus de": "9.83",
+        "Moins de": "1.02"
       }
     },
     "debut": "2026-10-25T21:00:00Z",
@@ -3381,7 +1779,7 @@
       "Moins de": "1.83"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3427,7 +1825,7 @@
       "Moins de": "1.79"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3473,7 +1871,7 @@
       "Moins de": "2.28"
     },
     "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
-    "derniere_maj": "2026-10-25T12:24:54.612504+00:00",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
     "statut": "ok",
     "Totals": {
       "0.5": {
@@ -3504,5 +1902,1531 @@
     "debut": "2026-10-25T23:00:00Z",
     "competition": "Primera Division",
     "competition_id": "12576"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Universidad de Concepcion",
+    "equipe_2": "Deportes Limache",
+    "1X2": {
+      "V1": "2.67",
+      "X": "3.54",
+      "V2": "2.37"
+    },
+    "Total_2.5": {
+      "Plus de": "1.6",
+      "Moins de": "2.19"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.17",
+        "Moins de": "4.48"
+      },
+      "2.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.19"
+      },
+      "3.5": {
+        "Plus de": "2.48",
+        "Moins de": "1.48"
+      }
+    },
+    "debut": "2026-10-25T23:00:00Z",
+    "competition": "Primera Division",
+    "competition_id": "12199"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Liga Deportiva Alajuelense",
+    "equipe_2": "Perez Zeledon",
+    "1X2": {
+      "V1": "1.27",
+      "X": "5.35",
+      "V2": "8.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.55",
+      "Moins de": "2.3"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.01",
+        "Moins de": "11.71"
+      },
+      "1.5": {
+        "Plus de": "1.16",
+        "Moins de": "4.54"
+      },
+      "2.5": {
+        "Plus de": "1.55",
+        "Moins de": "2.3"
+      },
+      "3.5": {
+        "Plus de": "2.39",
+        "Moins de": "1.51"
+      },
+      "4.5": {
+        "Plus de": "4.14",
+        "Moins de": "1.19"
+      },
+      "5.5": {
+        "Plus de": "7.44",
+        "Moins de": "1.06"
+      }
+    },
+    "debut": "2026-10-26T00:00:00Z",
+    "competition": "Primera Division, Apertura",
+    "competition_id": "13812"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Real Esteli FC",
+    "equipe_2": "Managua FC",
+    "1X2": {
+      "V1": "2.17",
+      "X": "3.25",
+      "V2": "3.05"
+    },
+    "Total_2.5": {
+      "Plus de": "1.81",
+      "Moins de": "1.87"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.04",
+        "Moins de": "7.6"
+      },
+      "1.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.45"
+      },
+      "2.5": {
+        "Plus de": "1.81",
+        "Moins de": "1.87"
+      },
+      "3.5": {
+        "Plus de": "2.9",
+        "Moins de": "1.34"
+      },
+      "4.5": {
+        "Plus de": "5.2",
+        "Moins de": "1.11"
+      },
+      "5.5": {
+        "Plus de": "8.4",
+        "Moins de": "1.03"
+      }
+    },
+    "debut": "2026-10-26T01:00:00Z",
+    "competition": "Primera Division",
+    "competition_id": "12576"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Geylang International FC",
+    "equipe_2": "Hougang United FC",
+    "1X2": {
+      "V1": "1.96",
+      "X": "3.82",
+      "V2": "3.15"
+    },
+    "Total_2.5": {
+      "Plus de": "1.41",
+      "Moins de": "2.69"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.11",
+        "Moins de": "5.68"
+      },
+      "2.5": {
+        "Plus de": "1.41",
+        "Moins de": "2.69"
+      },
+      "3.5": {
+        "Plus de": "2.03",
+        "Moins de": "1.7"
+      },
+      "4.5": {
+        "Plus de": "3.33",
+        "Moins de": "1.28"
+      },
+      "5.5": {
+        "Plus de": "5.89",
+        "Moins de": "1.1"
+      }
+    },
+    "debut": "2026-10-26T11:30:00Z",
+    "competition": "Premier League",
+    "competition_id": "12754"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "FK Neftchi Fargona",
+    "equipe_2": "Al-Ittihad Club",
+    "1X2": {
+      "V1": "4.77",
+      "X": "4.44",
+      "V2": "1.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.53",
+      "Moins de": "2.4"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.15",
+        "Moins de": "5.0"
+      },
+      "2.5": {
+        "Plus de": "1.53",
+        "Moins de": "2.4"
+      },
+      "3.5": {
+        "Plus de": "2.34",
+        "Moins de": "1.56"
+      },
+      "4.5": {
+        "Plus de": "4.07",
+        "Moins de": "1.21"
+      },
+      "5.5": {
+        "Plus de": "7.74",
+        "Moins de": "1.06"
+      }
+    },
+    "debut": "2026-10-26T13:45:00Z",
+    "competition": "Ligue des Champions AFC",
+    "competition_id": "12400"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Zabbar Saint Patrick FC",
+    "equipe_2": "Floriana FC",
+    "1X2": {
+      "V1": "5.33",
+      "X": "4.0",
+      "V2": "1.53"
+    },
+    "Total_2.5": {
+      "Plus de": "1.73",
+      "Moins de": "1.99"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.02",
+        "Moins de": "9.83"
+      },
+      "1.5": {
+        "Plus de": "1.22",
+        "Moins de": "3.81"
+      },
+      "2.5": {
+        "Plus de": "1.73",
+        "Moins de": "1.99"
+      },
+      "3.5": {
+        "Plus de": "2.84",
+        "Moins de": "1.37"
+      },
+      "4.5": {
+        "Plus de": "5.11",
+        "Moins de": "1.13"
+      },
+      "5.5": {
+        "Plus de": "9.39",
+        "Moins de": "1.03"
+      }
+    },
+    "debut": "2026-10-26T17:00:00Z",
+    "competition": "Premier League",
+    "competition_id": "12336"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Maccabi Haifa FC",
+    "equipe_2": "Hapoel Be`er Sheva FC",
+    "1X2": {
+      "V1": "2.38",
+      "X": "3.62",
+      "V2": "2.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.49",
+      "Moins de": "2.44"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.13",
+        "Moins de": "5.08"
+      },
+      "2.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.44"
+      },
+      "3.5": {
+        "Plus de": "2.21",
+        "Moins de": "1.59"
+      },
+      "4.5": {
+        "Plus de": "3.78",
+        "Moins de": "1.23"
+      },
+      "5.5": {
+        "Plus de": "6.65",
+        "Moins de": "1.08"
+      }
+    },
+    "debut": "2026-10-26T17:00:00Z",
+    "competition": "Premier League",
+    "competition_id": "12164"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Al Nassr Club",
+    "equipe_2": "Al Wasl FC",
+    "1X2": {
+      "V1": "1.3",
+      "X": "5.78",
+      "V2": "8.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.4",
+      "Moins de": "2.8"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.11",
+        "Moins de": "6.03"
+      },
+      "2.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.8"
+      },
+      "3.5": {
+        "Plus de": "2.02",
+        "Moins de": "1.74"
+      },
+      "4.5": {
+        "Plus de": "3.33",
+        "Moins de": "1.3"
+      },
+      "5.5": {
+        "Plus de": "6.0",
+        "Moins de": "1.11"
+      }
+    },
+    "debut": "2026-10-26T18:15:00Z",
+    "competition": "Ligue des Champions AFC",
+    "competition_id": "12400"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Derby County U21",
+    "equipe_2": "Norwich City FC U21",
+    "1X2": {
+      "V1": "2.4",
+      "X": "4.04",
+      "V2": "2.4"
+    },
+    "Total_2.5": {
+      "Plus de": "1.34",
+      "Moins de": "2.99"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.09",
+        "Moins de": "6.26"
+      },
+      "2.5": {
+        "Plus de": "1.34",
+        "Moins de": "2.99"
+      },
+      "3.5": {
+        "Plus de": "1.87",
+        "Moins de": "1.84"
+      },
+      "4.5": {
+        "Plus de": "2.94",
+        "Moins de": "1.35"
+      },
+      "5.5": {
+        "Plus de": "5.08",
+        "Moins de": "1.13"
+      }
+    },
+    "debut": "2026-10-26T19:00:00Z",
+    "competition": "Premier League 2",
+    "competition_id": "12048"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Blackburn Rovers U21",
+    "equipe_2": "West Bromwich Albion U21",
+    "1X2": {
+      "V1": "2.75",
+      "X": "3.95",
+      "V2": "2.16"
+    },
+    "Total_2.5": {
+      "Plus de": "1.36",
+      "Moins de": "2.89"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.09",
+        "Moins de": "6.1"
+      },
+      "2.5": {
+        "Plus de": "1.36",
+        "Moins de": "2.89"
+      },
+      "3.5": {
+        "Plus de": "1.91",
+        "Moins de": "1.79"
+      },
+      "4.5": {
+        "Plus de": "3.05",
+        "Moins de": "1.33"
+      },
+      "5.5": {
+        "Plus de": "5.27",
+        "Moins de": "1.12"
+      }
+    },
+    "debut": "2026-10-26T19:00:00Z",
+    "competition": "Premier League 2",
+    "competition_id": "12048"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Crystal Palace FC U21",
+    "equipe_2": "Southampton FC U21",
+    "1X2": {
+      "V1": "2.65",
+      "X": "3.81",
+      "V2": "2.27"
+    },
+    "Total_2.5": {
+      "Plus de": "1.49",
+      "Moins de": "2.46"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.13",
+        "Moins de": "5.08"
+      },
+      "2.5": {
+        "Plus de": "1.49",
+        "Moins de": "2.46"
+      },
+      "3.5": {
+        "Plus de": "2.2",
+        "Moins de": "1.6"
+      },
+      "4.5": {
+        "Plus de": "3.74",
+        "Moins de": "1.23"
+      },
+      "5.5": {
+        "Plus de": "6.65",
+        "Moins de": "1.08"
+      }
+    },
+    "debut": "2026-10-26T19:00:00Z",
+    "competition": "Premier League 2",
+    "competition_id": "12048"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Bournemouth U21",
+    "equipe_2": "Brentford U21",
+    "1X2": {
+      "V1": "2.28",
+      "X": "4.03",
+      "V2": "2.55"
+    },
+    "Total_2.5": {
+      "Plus de": "1.33",
+      "Moins de": "3.05"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.08",
+        "Moins de": "6.48"
+      },
+      "2.5": {
+        "Plus de": "1.33",
+        "Moins de": "3.05"
+      },
+      "3.5": {
+        "Plus de": "1.83",
+        "Moins de": "1.87"
+      },
+      "4.5": {
+        "Plus de": "2.86",
+        "Moins de": "1.37"
+      },
+      "5.5": {
+        "Plus de": "4.8",
+        "Moins de": "1.15"
+      }
+    },
+    "debut": "2026-10-26T19:00:00Z",
+    "competition": "Premier League 2",
+    "competition_id": "12048"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Newcastle United FC U21",
+    "equipe_2": "Sunderland U21",
+    "1X2": {
+      "V1": "2.79",
+      "X": "4.03",
+      "V2": "2.11"
+    },
+    "Total_2.5": {
+      "Plus de": "1.33",
+      "Moins de": "3.04"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.08",
+        "Moins de": "6.48"
+      },
+      "2.5": {
+        "Plus de": "1.33",
+        "Moins de": "3.04"
+      },
+      "3.5": {
+        "Plus de": "1.84",
+        "Moins de": "1.87"
+      },
+      "4.5": {
+        "Plus de": "2.89",
+        "Moins de": "1.36"
+      },
+      "5.5": {
+        "Plus de": "4.92",
+        "Moins de": "1.14"
+      }
+    },
+    "debut": "2026-10-26T19:00:00Z",
+    "competition": "Premier League 2",
+    "competition_id": "12048"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Mosta FC",
+    "equipe_2": "Hibernians FC Paola",
+    "1X2": {
+      "V1": "3.33",
+      "X": "3.61",
+      "V2": "1.95"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "1.9"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "9.39"
+      },
+      "1.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.59"
+      },
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "1.9"
+      },
+      "3.5": {
+        "Plus de": "3.0",
+        "Moins de": "1.34"
+      },
+      "4.5": {
+        "Plus de": "5.68",
+        "Moins de": "1.11"
+      },
+      "5.5": {
+        "Plus de": "9.83",
+        "Moins de": "1.02"
+      }
+    },
+    "debut": "2026-10-26T19:30:00Z",
+    "competition": "Premier League",
+    "competition_id": "12336"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Paris Saint-Germain",
+    "equipe_2": "Olympique Lyon",
+    "1X2": {
+      "V1": "1.38",
+      "X": "5.59",
+      "V2": "6.77"
+    },
+    "Total_2.5": {
+      "Plus de": "1.38",
+      "Moins de": "3.01"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.1",
+        "Moins de": "6.54"
+      },
+      "2.5": {
+        "Plus de": "1.38",
+        "Moins de": "3.01"
+      },
+      "3.5": {
+        "Plus de": "1.95",
+        "Moins de": "1.83"
+      },
+      "4.5": {
+        "Plus de": "3.15",
+        "Moins de": "1.35"
+      },
+      "5.5": {
+        "Plus de": "5.6",
+        "Moins de": "1.13"
+      }
+    },
+    "debut": "2026-10-26T19:30:00Z",
+    "competition": "Ligue 1",
+    "competition_id": "12127"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "FC Andorra",
+    "equipe_2": "Burgos CF",
+    "1X2": {
+      "V1": "2.12",
+      "X": "3.38",
+      "V2": "3.43"
+    },
+    "Total_2.5": {
+      "Plus de": "1.98",
+      "Moins de": "1.77"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.04",
+        "Moins de": "9.2"
+      },
+      "1.5": {
+        "Plus de": "1.3",
+        "Moins de": "3.32"
+      },
+      "2.5": {
+        "Plus de": "1.98",
+        "Moins de": "1.77"
+      },
+      "3.5": {
+        "Plus de": "3.46",
+        "Moins de": "1.28"
+      },
+      "4.5": {
+        "Plus de": "6.95",
+        "Moins de": "1.08"
+      }
+    },
+    "debut": "2026-10-26T19:30:00Z",
+    "competition": "LaLiga 2",
+    "competition_id": "12142"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Universidad de Chile",
+    "equipe_2": "CD Everton Vina del Mar",
+    "1X2": {
+      "V1": "1.61",
+      "X": "3.99",
+      "V2": "4.77"
+    },
+    "Total_2.5": {
+      "Plus de": "1.6",
+      "Moins de": "2.19"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.17",
+        "Moins de": "4.48"
+      },
+      "2.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.19"
+      },
+      "3.5": {
+        "Plus de": "2.48",
+        "Moins de": "1.48"
+      }
+    },
+    "debut": "2026-10-26T21:00:00Z",
+    "competition": "Primera Division",
+    "competition_id": "12199"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Arnett Gardens FC",
+    "equipe_2": "Molynes",
+    "1X2": {
+      "V1": "1.66",
+      "X": "3.75",
+      "V2": "4.3"
+    },
+    "Total_2.5": {
+      "Plus de": "1.71",
+      "Moins de": "1.98"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "8.2"
+      },
+      "1.5": {
+        "Plus de": "1.22",
+        "Moins de": "3.7"
+      },
+      "2.5": {
+        "Plus de": "1.71",
+        "Moins de": "1.98"
+      },
+      "3.5": {
+        "Plus de": "2.75",
+        "Moins de": "1.38"
+      },
+      "4.5": {
+        "Plus de": "4.8",
+        "Moins de": "1.14"
+      },
+      "5.5": {
+        "Plus de": "7.8",
+        "Moins de": "1.04"
+      }
+    },
+    "debut": "2026-10-26T22:05:00Z",
+    "competition": "Premier League",
+    "competition_id": "11983"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Coritiba FC PR",
+    "equipe_2": "Gremio FB Porto Alegrense RS",
+    "1X2": {
+      "V1": "2.16",
+      "X": "3.4",
+      "V2": "3.29"
+    },
+    "Total_2.5": {
+      "Plus de": "1.85",
+      "Moins de": "1.89"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "10.14"
+      },
+      "1.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.68"
+      },
+      "2.5": {
+        "Plus de": "1.85",
+        "Moins de": "1.89"
+      },
+      "3.5": {
+        "Plus de": "3.09",
+        "Moins de": "1.34"
+      },
+      "4.5": {
+        "Plus de": "6.03",
+        "Moins de": "1.11"
+      },
+      "5.5": {
+        "Plus de": "11.78",
+        "Moins de": "1.02"
+      }
+    },
+    "debut": "2026-10-26T22:30:00Z",
+    "competition": "Brasileiro Serie A",
+    "competition_id": "13234"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "CR Flamengo RJ",
+    "equipe_2": "Atletico Mineiro MG",
+    "1X2": {
+      "V1": "1.31",
+      "X": "5.5",
+      "V2": "8.64"
+    },
+    "Total_2.5": {
+      "Plus de": "1.56",
+      "Moins de": "2.32"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.16",
+        "Moins de": "4.73"
+      },
+      "2.5": {
+        "Plus de": "1.56",
+        "Moins de": "2.32"
+      },
+      "3.5": {
+        "Plus de": "2.44",
+        "Moins de": "1.52"
+      },
+      "4.5": {
+        "Plus de": "4.32",
+        "Moins de": "1.19"
+      },
+      "5.5": {
+        "Plus de": "8.27",
+        "Moins de": "1.05"
+      }
+    },
+    "debut": "2026-10-26T23:00:00Z",
+    "competition": "Brasileiro Serie A",
+    "competition_id": "13234"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Mount Pleasant FC",
+    "equipe_2": "Montego Bay United",
+    "1X2": {
+      "V1": "2.19",
+      "X": "3.25",
+      "V2": "3.0"
+    },
+    "Total_2.5": {
+      "Plus de": "1.98",
+      "Moins de": "1.71"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.05",
+        "Moins de": "7.0"
+      },
+      "1.5": {
+        "Plus de": "1.32",
+        "Moins de": "3.05"
+      },
+      "2.5": {
+        "Plus de": "1.98",
+        "Moins de": "1.71"
+      },
+      "3.5": {
+        "Plus de": "3.4",
+        "Moins de": "1.26"
+      },
+      "4.5": {
+        "Plus de": "6.0",
+        "Moins de": "1.08"
+      },
+      "5.5": {
+        "Plus de": "9.4",
+        "Moins de": "1.02"
+      }
+    },
+    "debut": "2026-10-27T01:00:00Z",
+    "competition": "Premier League",
+    "competition_id": "11983"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Sassuolo Calcio",
+    "equipe_2": "Lazio Rome",
+    "1X2": {
+      "V1": "3.13",
+      "X": "3.56",
+      "V2": "2.23"
+    },
+    "Total_2.5": {
+      "Plus de": "1.7",
+      "Moins de": "2.12"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "11.08"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "4.25"
+      },
+      "2.5": {
+        "Plus de": "1.7",
+        "Moins de": "2.12"
+      },
+      "3.5": {
+        "Plus de": "2.69",
+        "Moins de": "1.45"
+      },
+      "4.5": {
+        "Plus de": "4.93",
+        "Moins de": "1.17"
+      },
+      "5.5": {
+        "Plus de": "9.17",
+        "Moins de": "1.05"
+      }
+    },
+    "debut": "2026-10-27T17:30:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Torino FC",
+    "equipe_2": "Como 1907",
+    "1X2": {
+      "V1": "4.49",
+      "X": "3.87",
+      "V2": "1.76"
+    },
+    "Total_2.5": {
+      "Plus de": "1.67",
+      "Moins de": "2.16"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "11.31"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "4.32"
+      },
+      "2.5": {
+        "Plus de": "1.67",
+        "Moins de": "2.16"
+      },
+      "3.5": {
+        "Plus de": "2.65",
+        "Moins de": "1.47"
+      },
+      "4.5": {
+        "Plus de": "4.78",
+        "Moins de": "1.18"
+      },
+      "5.5": {
+        "Plus de": "8.88",
+        "Moins de": "1.06"
+      }
+    },
+    "debut": "2026-10-27T19:45:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "AS Roma",
+    "equipe_2": "Cagliari Calcio",
+    "1X2": {
+      "V1": "1.34",
+      "X": "5.27",
+      "V2": "8.75"
+    },
+    "Total_2.5": {
+      "Plus de": "1.71",
+      "Moins de": "2.1"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "11.4"
+      },
+      "1.5": {
+        "Plus de": "1.23",
+        "Moins de": "4.08"
+      },
+      "2.5": {
+        "Plus de": "1.71",
+        "Moins de": "2.1"
+      },
+      "3.5": {
+        "Plus de": "2.79",
+        "Moins de": "1.43"
+      },
+      "4.5": {
+        "Plus de": "5.09",
+        "Moins de": "1.16"
+      },
+      "5.5": {
+        "Plus de": "9.59",
+        "Moins de": "1.05"
+      }
+    },
+    "debut": "2026-10-27T19:45:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Stenhousemuir FC",
+    "equipe_2": "Dunfermline Athletic FC",
+    "1X2": {
+      "V1": "3.63",
+      "X": "3.34",
+      "V2": "2.06"
+    },
+    "Total_2.5": {
+      "Plus de": "2.12",
+      "Moins de": "1.67"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.06",
+        "Moins de": "7.86"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.9"
+      },
+      "2.5": {
+        "Plus de": "2.12",
+        "Moins de": "1.67"
+      },
+      "3.5": {
+        "Plus de": "3.93",
+        "Moins de": "1.23"
+      },
+      "4.5": {
+        "Plus de": "8.01",
+        "Moins de": "1.06"
+      }
+    },
+    "debut": "2026-10-27T19:45:00Z",
+    "competition": "Championship",
+    "competition_id": "12282"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Zamalek SC",
+    "equipe_2": "Al Mokawloon Al Arab",
+    "1X2": {
+      "V1": "1.93",
+      "X": "3.13",
+      "V2": "4.14"
+    },
+    "Total_2.5": {
+      "Plus de": "2.34",
+      "Moins de": "1.53"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.08",
+        "Moins de": "6.65"
+      },
+      "1.5": {
+        "Plus de": "1.42",
+        "Moins de": "2.65"
+      },
+      "2.5": {
+        "Plus de": "2.34",
+        "Moins de": "1.53"
+      },
+      "3.5": {
+        "Plus de": "4.32",
+        "Moins de": "1.18"
+      },
+      "4.5": {
+        "Plus de": "8.61",
+        "Moins de": "1.04"
+      }
+    },
+    "debut": "2026-10-28T17:00:00Z",
+    "competition": "Premier League",
+    "competition_id": "12001"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Venezia FC",
+    "equipe_2": "Inter Milano",
+    "1X2": {
+      "V1": "7.95",
+      "X": "6.15",
+      "V2": "1.31"
+    },
+    "Total_2.5": {
+      "Plus de": "1.32",
+      "Moins de": "3.31"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.09",
+        "Moins de": "7.14"
+      },
+      "2.5": {
+        "Plus de": "1.32",
+        "Moins de": "3.31"
+      },
+      "3.5": {
+        "Plus de": "1.81",
+        "Moins de": "1.97"
+      },
+      "4.5": {
+        "Plus de": "2.8",
+        "Moins de": "1.42"
+      },
+      "5.5": {
+        "Plus de": "4.76",
+        "Moins de": "1.18"
+      }
+    },
+    "debut": "2026-10-28T17:30:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "AC Milan",
+    "equipe_2": "Bologna FC",
+    "1X2": {
+      "V1": "1.63",
+      "X": "4.03",
+      "V2": "5.31"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "1.98"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.04",
+        "Moins de": "10.32"
+      },
+      "1.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.83"
+      },
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "1.98"
+      },
+      "3.5": {
+        "Plus de": "2.98",
+        "Moins de": "1.38"
+      },
+      "4.5": {
+        "Plus de": "5.56",
+        "Moins de": "1.14"
+      },
+      "5.5": {
+        "Plus de": "10.49",
+        "Moins de": "1.04"
+      }
+    },
+    "debut": "2026-10-28T17:30:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Parma Calcio",
+    "equipe_2": "Udinese Calcio",
+    "1X2": {
+      "V1": "2.99",
+      "X": "3.2",
+      "V2": "2.48"
+    },
+    "Total_2.5": {
+      "Plus de": "2.19",
+      "Moins de": "1.66"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.07",
+        "Moins de": "7.84"
+      },
+      "1.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.99"
+      },
+      "2.5": {
+        "Plus de": "2.19",
+        "Moins de": "1.66"
+      },
+      "3.5": {
+        "Plus de": "3.96",
+        "Moins de": "1.24"
+      },
+      "4.5": {
+        "Plus de": "7.99",
+        "Moins de": "1.07"
+      },
+      "5.5": {
+        "Plus de": "14.4",
+        "Moins de": "1.01"
+      }
+    },
+    "debut": "2026-10-28T17:30:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Servette FC Chenois Feminin Femmes",
+    "equipe_2": "Oud-Heverlee Leuven Femmes",
+    "1X2": {
+      "V1": "2.85",
+      "X": "3.65",
+      "V2": "2.12"
+    },
+    "Total_2.5": {
+      "Plus de": "1.4",
+      "Moins de": "2.65"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.01",
+        "Moins de": "9.8"
+      },
+      "1.5": {
+        "Plus de": "1.11",
+        "Moins de": "5.2"
+      },
+      "2.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.65"
+      },
+      "3.5": {
+        "Plus de": "1.97",
+        "Moins de": "1.72"
+      },
+      "4.5": {
+        "Plus de": "3.15",
+        "Moins de": "1.29"
+      },
+      "5.5": {
+        "Plus de": "5.2",
+        "Moins de": "1.11"
+      }
+    },
+    "debut": "2026-10-28T17:45:00Z",
+    "competition": "Ligue des Champions féminine UEFA",
+    "competition_id": "12902"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Chelsea FC Femmes",
+    "equipe_2": "AS Roma Femmes",
+    "1X2": {
+      "V1": "1.05",
+      "X": "11.0",
+      "V2": "19.0"
+    },
+    "Total_2.5": {
+      "Plus de": "1.21",
+      "Moins de": "3.75"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "1.5": {
+        "Plus de": "1.05",
+        "Moins de": "7.2"
+      },
+      "2.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.75"
+      },
+      "3.5": {
+        "Plus de": "1.58",
+        "Moins de": "2.18"
+      },
+      "4.5": {
+        "Plus de": "2.28",
+        "Moins de": "1.54"
+      },
+      "5.5": {
+        "Plus de": "3.6",
+        "Moins de": "1.23"
+      },
+      "6.5": {
+        "Plus de": "5.8",
+        "Moins de": "1.09"
+      }
+    },
+    "debut": "2026-10-28T17:45:00Z",
+    "competition": "Ligue des Champions féminine UEFA",
+    "competition_id": "12902"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Bayern Munich Femmes",
+    "equipe_2": "Real Madrid Femmes",
+    "1X2": {
+      "V1": "1.66",
+      "X": "3.9",
+      "V2": "4.1"
+    },
+    "Total_2.5": {
+      "Plus de": "1.46",
+      "Moins de": "2.48"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.02",
+        "Moins de": "9.6"
+      },
+      "1.5": {
+        "Plus de": "1.13",
+        "Moins de": "4.9"
+      },
+      "2.5": {
+        "Plus de": "1.46",
+        "Moins de": "2.48"
+      },
+      "3.5": {
+        "Plus de": "2.11",
+        "Moins de": "1.62"
+      },
+      "4.5": {
+        "Plus de": "3.45",
+        "Moins de": "1.25"
+      },
+      "5.5": {
+        "Plus de": "5.8",
+        "Moins de": "1.09"
+      }
+    },
+    "debut": "2026-10-28T17:45:00Z",
+    "competition": "Ligue des Champions féminine UEFA",
+    "competition_id": "12902"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Genoa CFC",
+    "equipe_2": "Juventus Turin",
+    "1X2": {
+      "V1": "5.48",
+      "X": "3.78",
+      "V2": "1.66"
+    },
+    "Total_2.5": {
+      "Plus de": "2.09",
+      "Moins de": "1.72"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.06",
+        "Moins de": "8.46"
+      },
+      "1.5": {
+        "Plus de": "1.35",
+        "Moins de": "3.13"
+      },
+      "2.5": {
+        "Plus de": "2.09",
+        "Moins de": "1.72"
+      },
+      "3.5": {
+        "Plus de": "3.74",
+        "Moins de": "1.26"
+      },
+      "4.5": {
+        "Plus de": "7.4",
+        "Moins de": "1.08"
+      },
+      "5.5": {
+        "Plus de": "13.69",
+        "Moins de": "1.01"
+      }
+    },
+    "debut": "2026-10-28T19:45:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "AC Monza",
+    "equipe_2": "SSC Napoli",
+    "1X2": {
+      "V1": "4.43",
+      "X": "3.97",
+      "V2": "1.75"
+    },
+    "Total_2.5": {
+      "Plus de": "1.72",
+      "Moins de": "2.09"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.03",
+        "Moins de": "11.09"
+      },
+      "1.5": {
+        "Plus de": "1.23",
+        "Moins de": "4.1"
+      },
+      "2.5": {
+        "Plus de": "1.72",
+        "Moins de": "2.09"
+      },
+      "3.5": {
+        "Plus de": "2.77",
+        "Moins de": "1.43"
+      },
+      "4.5": {
+        "Plus de": "5.07",
+        "Moins de": "1.16"
+      },
+      "5.5": {
+        "Plus de": "9.51",
+        "Moins de": "1.05"
+      }
+    },
+    "debut": "2026-10-28T19:45:00Z",
+    "competition": "Serie A",
+    "competition_id": "12097"
+  },
+  {
+    "bookmaker": "betpawa",
+    "equipe_1": "Olympique Lyon Femmes",
+    "equipe_2": "Inter Milano Femmes",
+    "1X2": {
+      "V1": "1.08",
+      "X": "8.4",
+      "V2": "18.0"
+    },
+    "Total_2.5": {
+      "Plus de": "1.31",
+      "Moins de": "3.05"
+    },
+    "url": "https://www.betpawa.cm/events?categoryId=2&marketId=1X2",
+    "derniere_maj": "2026-10-25T15:21:37.259544+00:00",
+    "statut": "ok",
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.01",
+        "Moins de": "10.0"
+      },
+      "1.5": {
+        "Plus de": "1.09",
+        "Moins de": "6.0"
+      },
+      "2.5": {
+        "Plus de": "1.31",
+        "Moins de": "3.05"
+      },
+      "3.5": {
+        "Plus de": "1.81",
+        "Moins de": "1.86"
+      },
+      "4.5": {
+        "Plus de": "2.75",
+        "Moins de": "1.37"
+      },
+      "5.5": {
+        "Plus de": "4.5",
+        "Moins de": "1.15"
+      }
+    },
+    "debut": "2026-10-28T20:00:00Z",
+    "competition": "Ligue des Champions féminine UEFA",
+    "competition_id": "12902"
   }
 ]
