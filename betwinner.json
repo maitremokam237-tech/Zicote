@@ -1,777 +1,6 @@
 [
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Shanghai Port U20",
-    "equipe_2": "Shandong Taishan U20",
-    "1X2": {
-      "V1": "1.91",
-      "V2": "3.36",
-      "X": "3.68"
-    },
-    "Total_2.5": {
-      "Plus de": "1.54",
-      "Moins de": "2.36"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:00:00+00:00",
-    "competition": "Championnat de Chine U20",
-    "competition_en": "China Championship U20",
-    "competition_id": 2924494,
-    "equipe_1_en": "Shanghai Port U20",
-    "equipe_2_en": "Shandong Taishan U20",
-    "Double_Chance": {
-      "12": "1.21",
-      "1X": "1.26",
-      "2X": "1.75"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.42"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.54",
-        "Moins de": "2.36"
-      },
-      "1.5": {
-        "Plus de": "1.132",
-        "Moins de": "4.5"
-      },
-      "2": {
-        "Plus de": "1.21",
-        "Moins de": "3.68"
-      },
-      "3": {
-        "Plus de": "1.83",
-        "Moins de": "1.83"
-      },
-      "3.5": {
-        "Plus de": "2.28",
-        "Moins de": "1.5"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.44",
-      "2 (0)": "2.51",
-      "1 (-1)": "2.65",
-      "2 (-1)": "5.65",
-      "1 (+1)": "1.077",
-      "2 (+1)": "1.45",
-      "1 (-1.5)": "3.26",
-      "2 (-1.5)": "6.4",
-      "1 (+1.5)": "1.053",
-      "2 (+1.5)": "1.28"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Oural (Jeunesse)",
-    "equipe_2": "Nijni Novgorod (Jeunesse)",
-    "1X2": {
-      "V1": "1.91",
-      "V2": "3.355",
-      "X": "3.52"
-    },
-    "Total_2.5": {
-      "Plus de": "1.29",
-      "Moins de": "3.04"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:00:00+00:00",
-    "competition": "Russie. Championnat des jeunes. Division A",
-    "competition_en": "Russia. Youth Championship. Division A",
-    "competition_id": 2916716,
-    "equipe_1_en": "Ural (Youth)",
-    "equipe_2_en": "Nizhny Novgorod (Youth)",
-    "Double_Chance": {
-      "12": "1.2",
-      "1X": "1.24",
-      "2X": "1.7"
-    },
-    "BTTS": {
-      "Oui": "1.3",
-      "Non": "3.155"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.74",
-        "Moins de": "1.94"
-      },
-      "2.5": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "3": {
-        "Plus de": "1.42",
-        "Moins de": "2.49"
-      },
-      "4": {
-        "Plus de": "2.14",
-        "Moins de": "1.57"
-      },
-      "4.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.45",
-      "2 (0)": "2.47",
-      "1 (-1)": "2.46",
-      "2 (-1)": "5.2",
-      "1 (+1)": "1.095",
-      "2 (+1)": "1.43",
-      "1 (-1.5)": "2.97",
-      "2 (-1.5)": "5.9",
-      "1 (+1.5)": "1.069",
-      "2 (+1.5)": "1.3"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.462",
-      "V2": "3.3",
-      "X": "13.6"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:00:00+00:00",
-    "competition": "Russie. Championnat des jeunes. Division A",
-    "competition_en": "Russia. Youth Championship. Division A",
-    "competition_id": 2916716,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Totals": {
-      "32.5": {
-        "Plus de": "1.87",
-        "Moins de": "1.931"
-      },
-      "30.5": {
-        "Plus de": "1.508",
-        "Moins de": "2.566"
-      },
-      "31.5": {
-        "Plus de": "1.672",
-        "Moins de": "2.199"
-      },
-      "33.5": {
-        "Plus de": "2.115",
-        "Moins de": "1.724"
-      },
-      "34.5": {
-        "Plus de": "2.44",
-        "Moins de": "1.556"
-      }
-    },
-    "Handicap": {
-      "2 (+3.5)": "1.805",
-      "1 (-3.5)": "2.006",
-      "1 (-2.5)": "1.783",
-      "2 (+2.5)": "2.033",
-      "1 (-3)": "1.887",
-      "2 (+3)": "1.913",
-      "1 (-4)": "2.161",
-      "2 (+4)": "1.695",
-      "1 (-4.5)": "2.299",
-      "2 (+4.5)": "1.619"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "CR Belouizdad (Femmes)",
-    "equipe_2": "MC Oran (Femmes)",
-    "1X2": {
-      "V1": "2.15",
-      "V2": "2.757",
-      "X": "3.55"
-    },
-    "Total_2.5": {
-      "Plus de": "1.49",
-      "Moins de": "2.3"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:30:00+00:00",
-    "competition": "Championnat d'Algérie. Femmes",
-    "competition_en": "Algerian Championship. Women",
-    "competition_id": 1675948,
-    "equipe_1_en": "CR Belouizdad (Women)",
-    "equipe_2_en": "MC Oran (Women)",
-    "Double_Chance": {
-      "12": "1.191",
-      "1X": "1.34",
-      "2X": "1.54"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.52",
-        "Plus de": "2.31"
-      },
-      "2.5": {
-        "Plus de": "1.49",
-        "Moins de": "2.3"
-      },
-      "3": {
-        "Plus de": "1.8",
-        "Moins de": "1.82"
-      },
-      "4": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      },
-      "4.5": {
-        "Plus de": "3.92",
-        "Moins de": "1.175"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.64",
-      "2 (0)": "2.06",
-      "1 (-1)": "3.14",
-      "2 (-1)": "4.5",
-      "1 (+1)": "1.132",
-      "2 (+1)": "1.27",
-      "1 (-1.5)": "3.92",
-      "2 (-1.5)": "5.3",
-      "1 (+1.5)": "1.09",
-      "2 (+1.5)": "1.175"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Magic de Broadmeadow",
-    "equipe_2": "Adelaide City",
-    "1X2": {
-      "V2": "2.49",
-      "V1": "2.55",
-      "X": "3.42"
-    },
-    "Total_2.5": {
-      "Plus de": "1.55",
-      "Moins de": "2.17"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:30:00+00:00",
-    "competition": "Championnat d'Australie",
-    "competition_en": "Australian Championship",
-    "competition_id": 104509,
-    "equipe_1_en": "Broadmeadow Magic",
-    "equipe_2_en": "Adelaide City",
-    "Double_Chance": {
-      "12": "1.27",
-      "2X": "1.444",
-      "1X": "1.47"
-    },
-    "BTTS": {
-      "Oui": "1.48",
-      "Non": "2.472"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.55",
-        "Moins de": "2.17"
-      },
-      "1.5": {
-        "Plus de": "1.141",
-        "Moins de": "4.4"
-      },
-      "2": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "3": {
-        "Plus de": "1.89",
-        "Moins de": "1.74"
-      },
-      "3.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.5"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.83",
-      "1 (0)": "1.88",
-      "1 (-1)": "3.96",
-      "2 (-1)": "3.8",
-      "1 (+1)": "1.188",
-      "2 (+1)": "1.172",
-      "1 (-1.5)": "4.75",
-      "2 (-1.5)": "4.6",
-      "1 (+1.5)": "1.127",
-      "2 (+1.5)": "1.117"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Sydney Olympic",
-    "equipe_2": "Marconi Stallions",
-    "1X2": {
-      "V2": "1.87",
-      "V1": "3.41",
-      "X": "3.98"
-    },
-    "Total_2.5": {
-      "Plus de": "1.5",
-      "Moins de": "2.28"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:30:00+00:00",
-    "competition": "Championnat d'Australie",
-    "competition_en": "Australian Championship",
-    "competition_id": 104509,
-    "equipe_1_en": "Sydney Olympic",
-    "equipe_2_en": "Marconi Stallions",
-    "Double_Chance": {
-      "12": "1.2",
-      "2X": "1.27",
-      "1X": "1.84"
-    },
-    "BTTS": {
-      "Oui": "1.51",
-      "Non": "2.39"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.5",
-        "Moins de": "2.28"
-      },
-      "1.5": {
-        "Plus de": "1.131",
-        "Moins de": "4.55"
-      },
-      "2": {
-        "Plus de": "1.197",
-        "Moins de": "3.7"
-      },
-      "3": {
-        "Plus de": "1.82",
-        "Moins de": "1.81"
-      },
-      "3.5": {
-        "Plus de": "2.375",
-        "Moins de": "1.53"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.41",
-      "1 (0)": "2.52",
-      "1 (-1)": "5.8",
-      "2 (-1)": "2.51",
-      "1 (+1)": "1.47",
-      "2 (+1)": "1.072",
-      "1 (-1.5)": "6.6",
-      "2 (-1.5)": "3.08",
-      "1 (+1.5)": "1.28",
-      "2 (+1.5)": "1.048"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Persiku Kudus",
-    "equipe_2": "Persiraja Aceh",
-    "1X2": {
-      "V2": "1.5",
-      "X": "3.92",
-      "V1": "5.34"
-    },
-    "Total_2.5": {
-      "Plus de": "1.42",
-      "Moins de": "2.49"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:30:00+00:00",
-    "competition": "Indonésie. Championship",
-    "competition_en": "Indonesia. Championship",
-    "competition_id": 2903305,
-    "equipe_1_en": "Persiku Kudus",
-    "equipe_2_en": "Persiraja Aceh",
-    "Double_Chance": {
-      "2X": "1.081",
-      "12": "1.155",
-      "1X": "2.23"
-    },
-    "BTTS": {
-      "Oui": "1.5",
-      "Non": "2.359"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.64",
-        "Plus de": "2.08"
-      },
-      "2.5": {
-        "Plus de": "1.42",
-        "Moins de": "2.49"
-      },
-      "3": {
-        "Plus de": "1.65",
-        "Moins de": "2"
-      },
-      "4": {
-        "Plus de": "2.83",
-        "Moins de": "1.33"
-      },
-      "4.5": {
-        "Plus de": "3.42",
-        "Moins de": "1.23"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.49",
-      "2 (-1.5)": "2.3",
-      "1 (0)": "3.98",
-      "2 (0)": "1.171",
-      "2 (-1)": "1.833",
-      "1 (+1)": "1.82",
-      "2 (-2)": "3.42",
-      "1 (+2)": "1.23",
-      "2 (-2.5)": "4.1",
-      "1 (+2.5)": "1.16"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "PS Barito Putera",
-    "equipe_2": "Persis Solo",
-    "1X2": {
-      "V1": "1.76",
-      "X": "3.32",
-      "V2": "4.165"
-    },
-    "Total_2.5": {
-      "Plus de": "1.94",
-      "Moins de": "1.74"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:30:00+00:00",
-    "competition": "Indonésie. Championship",
-    "competition_en": "Indonesia. Championship",
-    "competition_id": 2903305,
-    "equipe_1_en": "PS Barito Putera",
-    "equipe_2_en": "Persis Solo",
-    "Double_Chance": {
-      "1X": "1.144",
-      "12": "1.22",
-      "2X": "1.83"
-    },
-    "BTTS": {
-      "Oui": "1.82",
-      "Non": "1.85"
-    },
-    "Totals": {
-      "2.5": {
-        "Moins de": "1.74",
-        "Plus de": "1.94"
-      },
-      "1.5": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "2": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
-      },
-      "3": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
-      },
-      "3.5": {
-        "Plus de": "3.28",
-        "Moins de": "1.25"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.3",
-      "2 (0)": "2.97",
-      "1 (-1)": "2.44",
-      "2 (-1)": "8.5",
-      "1 (+1)": "1.012",
-      "2 (+1)": "1.46",
-      "1 (-1.5)": "3.14",
-      "2 (-1.5)": "8.2",
-      "1 (+1.5)": "1.03",
-      "2 (+1.5)": "1.27"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Myawady",
-    "equipe_2": "Yangon City",
-    "1X2": {
-      "V2": "1.076",
-      "X": "7.1",
-      "V1": "19"
-    },
-    "Total_2.5": {
-      "Plus de": "1.27",
-      "Moins de": "3.14"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Birmanie. Première Ligue",
-    "competition_en": "Myanmar. Premier League",
-    "competition_id": 181251,
-    "equipe_1_en": "Myawady",
-    "equipe_2_en": "Yangon City",
-    "Double_Chance": {
-      "2X": "1.015",
-      "12": "1.02",
-      "1X": "5.25"
-    },
-    "BTTS": {
-      "Non": "1.654",
-      "Oui": "2.06"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.7",
-        "Moins de": "1.99"
-      },
-      "2.5": {
-        "Plus de": "1.27",
-        "Moins de": "3.14"
-      },
-      "3": {
-        "Plus de": "1.39",
-        "Moins de": "2.59"
-      },
-      "4": {
-        "Plus de": "2.05",
-        "Moins de": "1.62"
-      },
-      "4.5": {
-        "Plus de": "2.46",
-        "Moins de": "1.43"
-      }
-    },
-    "Handicap": {
-      "2 (-2.5)": "1.81",
-      "1 (+2.5)": "1.85",
-      "2 (-1.5)": "1.33",
-      "1 (+1.5)": "2.83",
-      "2 (-2)": "1.47",
-      "1 (+2)": "2.35",
-      "2 (-3)": "2.24",
-      "1 (+3)": "1.52",
-      "2 (-3.5)": "2.69",
-      "1 (+3.5)": "1.363"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "ISPE",
-    "equipe_2": "Yadanarbon",
-    "1X2": {
-      "V2": "1.373",
-      "X": "4.35",
-      "V1": "6.63"
-    },
-    "Total_2.5": {
-      "Plus de": "1.31",
-      "Moins de": "2.92"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Birmanie. Première Ligue",
-    "competition_en": "Myanmar. Premier League",
-    "competition_id": 181251,
-    "equipe_1_en": "ISPE",
-    "equipe_2_en": "Yadanarbon",
-    "Double_Chance": {
-      "2X": "1.039",
-      "12": "1.122",
-      "1X": "2.58"
-    },
-    "BTTS": {
-      "Oui": "1.46",
-      "Non": "2.464"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.79",
-        "Moins de": "1.88"
-      },
-      "2.5": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "3": {
-        "Plus de": "1.44",
-        "Moins de": "2.43"
-      },
-      "4": {
-        "Plus de": "2.21",
-        "Moins de": "1.53"
-      },
-      "4.5": {
-        "Plus de": "2.66",
-        "Moins de": "1.37"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.71",
-      "2 (-1.5)": "1.92",
-      "1 (0)": "4.9",
-      "2 (0)": "1.109",
-      "2 (-1)": "1.57",
-      "1 (+1)": "2.19",
-      "2 (-2)": "2.52",
-      "1 (+2)": "1.41",
-      "2 (-2.5)": "2.97",
-      "1 (+2.5)": "1.3"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "AFAK Relizane (Femmes)",
-    "equipe_2": "ASEAC (Femmes)",
-    "1X2": {
-      "V1": "1.114",
-      "X": "6.95",
-      "V2": "12.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.285",
-      "Moins de": "3.05"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Championnat d'Algérie. Femmes",
-    "competition_en": "Algerian Championship. Women",
-    "competition_id": 1675948,
-    "equipe_1_en": "AFAK Relizane (Women)",
-    "equipe_2_en": "ASEAC (Women)",
-    "Double_Chance": {
-      "12": "1.023",
-      "1X": "1.03",
-      "2X": "4.5"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.81",
-        "Moins de": "1.86"
-      },
-      "2.5": {
-        "Plus de": "1.285",
-        "Moins de": "3.05"
-      },
-      "3": {
-        "Plus de": "1.43",
-        "Moins de": "2.46"
-      },
-      "4": {
-        "Plus de": "2.26",
-        "Moins de": "1.51"
-      },
-      "4.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "2 (+2.5)": "1.58",
-      "1 (-2.5)": "2.17",
-      "1 (-1.5)": "1.47",
-      "2 (+1.5)": "2.35",
-      "1 (-2)": "1.727",
-      "2 (+2)": "1.9",
-      "1 (-3)": "2.97",
-      "2 (+3)": "1.3",
-      "1 (-3.5)": "3.5",
-      "2 (+3.5)": "1.22"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Constantine (Femmes)",
-    "equipe_2": "CF Akbou (Femmes)",
-    "1X2": {
-      "V2": "1.038",
-      "X": "9.2",
-      "V1": "19.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.31",
-      "Moins de": "2.92"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Championnat d'Algérie. Femmes",
-    "competition_en": "Algerian Championship. Women",
-    "competition_id": 1675948,
-    "equipe_1_en": "Constantine (Women)",
-    "equipe_2_en": "CF Akbou (Women)",
-    "Double_Chance": {
-      "12": "1.01",
-      "2X": "1.03",
-      "1X": "6.35"
-    },
-    "Totals": {
-      "3.5": {
-        "Plus de": "1.833",
-        "Moins de": "1.833"
-      },
-      "2.5": {
-        "Plus de": "1.31",
-        "Moins de": "2.92"
-      },
-      "3": {
-        "Plus de": "1.46",
-        "Moins de": "2.375"
-      },
-      "4": {
-        "Plus de": "2.3",
-        "Moins de": "1.49"
-      },
-      "4.5": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
-      }
-    },
-    "Handicap": {
-      "2 (-2.5)": "1.76",
-      "1 (+2.5)": "1.86",
-      "2 (-1.5)": "1.28",
-      "1 (+1.5)": "3.08",
-      "2 (-2)": "1.42",
-      "1 (+2)": "2.49",
-      "2 (-3)": "2.25",
-      "1 (+3)": "1.54",
-      "2 (-3.5)": "2.7",
-      "1 (+3.5)": "1.36"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
     "equipe_1": "Arsenal Dzerzhinsk",
     "equipe_2": "BATE Borisov",
     "1X2": {
@@ -784,7 +13,7 @@
       "Moins de": "1.69"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T15:00:00+00:00",
     "competition": "Championnat du Bélarus. Ligue supérieure",
@@ -850,7 +79,7 @@
       "Moins de": "1.731"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T15:00:00+00:00",
     "competition": "Championnat de Russie. 1ère ligue",
@@ -907,16 +136,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.661",
-      "V2": "3.53",
-      "X": "5.28"
+      "V1": "1.629",
+      "V2": "3.645",
+      "X": "5.39"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T15:00:00+00:00",
     "competition": "Championnat de Russie. 1ère ligue",
@@ -925,47 +154,47 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.133",
-      "1X": "1.262",
-      "2X": "2.325"
+      "12": "1.128",
+      "1X": "1.246",
+      "2X": "2.4"
     },
     "BTTS": {
-      "Oui": "1.147",
-      "Non": "4.92"
+      "Oui": "1.142",
+      "Non": "5.01"
     },
     "Totals": {
       "5.5": {
-        "Moins de": "1.727",
-        "Plus de": "2.112"
+        "Moins de": "1.77",
+        "Plus de": "2.051"
       },
       "3.5": {
-        "Plus de": "1.254",
-        "Moins de": "3.915"
+        "Plus de": "1.237",
+        "Moins de": "4.1"
       },
       "4.5": {
-        "Plus de": "1.583",
-        "Moins de": "2.376"
+        "Plus de": "1.549",
+        "Moins de": "2.457"
       },
       "6.5": {
-        "Plus de": "3.09",
-        "Moins de": "1.372"
+        "Plus de": "2.961",
+        "Moins de": "1.399"
       },
       "7.5": {
-        "Plus de": "5.04",
-        "Moins de": "1.171"
+        "Plus de": "4.76",
+        "Moins de": "1.187"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.655",
-      "1 (-1.5)": "2.229",
+      "2 (+1.5)": "1.692",
+      "1 (-1.5)": "2.166",
       "1 (0)": "1.27",
       "2 (0)": "3.3",
-      "1 (-1)": "1.889",
-      "2 (+1)": "1.911",
-      "1 (-2)": "2.93",
-      "2 (+2)": "1.406",
-      "1 (-2.5)": "3.425",
-      "2 (+2.5)": "1.314"
+      "1 (-1)": "1.839",
+      "2 (+1)": "1.965",
+      "1 (-2)": "2.8",
+      "2 (+2)": "1.438",
+      "1 (-2.5)": "3.275",
+      "2 (+2.5)": "1.338"
     }
   },
   {
@@ -973,16 +202,16 @@
     "equipe_1": "Assiout Petroleum",
     "equipe_2": "El Gouna",
     "1X2": {
-      "V2": "2.33",
-      "X": "2.83",
-      "V1": "3.1"
+      "V2": "2.27",
+      "X": "2.79",
+      "V1": "3.265"
     },
     "Total_2.5": {
-      "Plus de": "2.375",
-      "Moins de": "1.46"
+      "Plus de": "2.49",
+      "Moins de": "1.42"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T15:00:00+00:00",
     "competition": "Championnat d'Égypte. Première Ligue",
@@ -991,47 +220,47 @@
     "equipe_1_en": "Asyut Petroleum",
     "equipe_2_en": "El Gouna",
     "Double_Chance": {
-      "2X": "1.28",
-      "12": "1.31",
-      "1X": "1.47"
+      "2X": "1.25",
+      "12": "1.32",
+      "1X": "1.49"
     },
     "BTTS": {
-      "Non": "1.702",
-      "Oui": "2.01"
+      "Non": "1.651",
+      "Oui": "2.09"
     },
     "Totals": {
-      "2.5": {
-        "Moins de": "1.46",
-        "Plus de": "2.375"
-      },
       "1.5": {
-        "Plus de": "1.44",
-        "Moins de": "2.52"
+        "Plus de": "1.48",
+        "Moins de": "2.41"
+      },
+      "0.5": {
+        "Plus de": "1.058",
+        "Moins de": "6.25"
+      },
+      "1": {
+        "Plus de": "1.111",
+        "Moins de": "4.9"
       },
       "2": {
-        "Plus de": "1.77",
-        "Moins de": "1.85"
+        "Plus de": "1.85",
+        "Moins de": "1.77"
       },
-      "3": {
-        "Plus de": "3.8",
-        "Moins de": "1.188"
-      },
-      "3.5": {
-        "Plus de": "4.65",
-        "Moins de": "1.125"
+      "2.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.42"
       }
     },
     "Handicap": {
-      "2 (0)": "1.61",
-      "1 (0)": "2.11",
-      "1 (-1)": "6.2",
-      "2 (-1)": "4",
-      "1 (+1)": "1.168",
-      "2 (+1)": "1.059",
-      "1 (-1.5)": "7.4",
-      "2 (-1.5)": "5.1",
-      "1 (+1.5)": "1.101",
-      "2 (+1.5)": "1.031"
+      "2 (0)": "1.56",
+      "1 (0)": "2.21",
+      "1 (-1)": "6.8",
+      "2 (-1)": "3.9",
+      "1 (+1)": "1.178",
+      "2 (+1)": "1.043",
+      "1 (-1.5)": "8.1",
+      "2 (-1.5)": "4.95",
+      "1 (+1.5)": "1.107",
+      "2 (+1.5)": "1.019"
     }
   },
   {
@@ -1039,16 +268,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V2": "2.191",
-      "V1": "2.217",
-      "X": "5.31"
+      "V2": "2.161",
+      "V1": "2.255",
+      "X": "5.28"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T15:00:00+00:00",
     "competition": "Championnat d'Égypte. Première Ligue",
@@ -1057,43 +286,43 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.132",
-      "2X": "1.629",
-      "1X": "1.645"
+      "12": "1.133",
+      "2X": "1.607",
+      "1X": "1.666"
     },
     "Totals": {
       "6.5": {
-        "Moins de": "1.793",
-        "Plus de": "2.02"
+        "Moins de": "1.761",
+        "Plus de": "2.063"
       },
       "4.5": {
-        "Plus de": "1.268",
-        "Moins de": "3.79"
+        "Plus de": "1.282",
+        "Moins de": "3.665"
       },
       "5.5": {
-        "Plus de": "1.564",
-        "Moins de": "2.42"
+        "Plus de": "1.589",
+        "Moins de": "2.362"
       },
       "7.5": {
-        "Plus de": "2.807",
-        "Moins de": "1.436"
+        "Plus de": "2.892",
+        "Moins de": "1.415"
       },
       "8.5": {
-        "Plus de": "4.275",
-        "Moins de": "1.221"
+        "Plus de": "4.45",
+        "Moins de": "1.208"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.348",
-      "2 (-1.5)": "3.215",
-      "1 (-1)": "2.83",
-      "2 (-1)": "2.782",
-      "1 (+1)": "1.443",
-      "2 (+1)": "1.43",
-      "2 (-2)": "4.765",
-      "1 (+2)": "1.186",
-      "2 (-2.5)": "5.35",
-      "1 (+2.5)": "1.155"
+      "1 (+1.5)": "1.358",
+      "2 (-1.5)": "3.16",
+      "1 (-1)": "2.904",
+      "2 (-1)": "2.73",
+      "1 (+1)": "1.457",
+      "2 (+1)": "1.412",
+      "2 (-2)": "4.665",
+      "1 (+2)": "1.193",
+      "2 (-2.5)": "5.25",
+      "1 (+2.5)": "1.16"
     }
   },
   {
@@ -1110,7 +339,7 @@
       "Moins de": "2.25"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T16:00:00+00:00",
     "competition": "Championnat d'Ukraine. Premier-Liha",
@@ -1167,16 +396,16 @@
     "equipe_1": "Nijni Novgorod",
     "equipe_2": "Arsenal Tula",
     "1X2": {
-      "V1": "1.493",
-      "X": "4.455",
-      "V2": "6.53"
+      "V1": "1.449",
+      "X": "4.695",
+      "V2": "6.94"
     },
     "Total_2.5": {
-      "Plus de": "1.782",
-      "Moins de": "2.058"
+      "Plus de": "1.723",
+      "Moins de": "2.143"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:15:00+00:00",
     "competition": "Championnat de Russie. 1ère ligue",
@@ -1185,47 +414,47 @@
     "equipe_1_en": "Nizhny Novgorod",
     "equipe_2_en": "Arsenal Tula",
     "Double_Chance": {
-      "1X": "1.112",
-      "12": "1.207",
-      "2X": "2.612"
+      "1X": "1.1",
+      "12": "1.191",
+      "2X": "2.76"
     },
     "BTTS": {
-      "Non": "1.833",
-      "Oui": "1.87"
+      "Oui": "1.85",
+      "Non": "1.854"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.782",
-        "Moins de": "2.058"
+        "Plus de": "1.723",
+        "Moins de": "2.143"
       },
       "1.5": {
-        "Plus de": "1.237",
-        "Moins de": "3.79"
+        "Plus de": "1.216",
+        "Moins de": "4"
       },
       "2": {
-        "Plus de": "1.371",
-        "Moins de": "3"
+        "Plus de": "1.33",
+        "Moins de": "3.22"
       },
       "3": {
-        "Plus de": "2.272",
-        "Moins de": "1.615"
+        "Plus de": "2.154",
+        "Moins de": "1.681"
       },
       "3.5": {
-        "Plus de": "2.838",
-        "Moins de": "1.398"
+        "Plus de": "2.682",
+        "Moins de": "1.439"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.626",
-      "1 (-1.5)": "2.313",
-      "1 (0)": "1.141",
-      "2 (0)": "4.785",
-      "1 (-1)": "1.737",
-      "2 (+1)": "2.022",
-      "1 (-2)": "3.41",
-      "2 (+2)": "1.3",
-      "1 (-2.5)": "4.08",
-      "2 (+2.5)": "1.208"
+      "2 (+1.5)": "1.678",
+      "1 (-1.5)": "2.216",
+      "1 (0)": "1.128",
+      "2 (0)": "5.04",
+      "1 (-1)": "1.673",
+      "2 (+1)": "2.116",
+      "1 (-2)": "3.175",
+      "2 (+2)": "1.338",
+      "1 (-2.5)": "3.835",
+      "2 (+2.5)": "1.232"
     }
   },
   {
@@ -1233,16 +462,16 @@
     "equipe_1": "Arminia Bielefeld",
     "equipe_2": "Eintracht Brunswick",
     "1X2": {
-      "V1": "1.83",
-      "X": "3.72",
-      "V2": "3.925"
+      "V1": "1.89",
+      "X": "3.6",
+      "V2": "3.795"
     },
     "Total_2.5": {
-      "Plus de": "1.6",
-      "Moins de": "2.08"
+      "Plus de": "1.65",
+      "Moins de": "2"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:30:00+00:00",
     "competition": "Allemagne. 2. Bundesliga",
@@ -1251,47 +480,47 @@
     "equipe_1_en": "Arminia Bielefeld",
     "equipe_2_en": "Eintracht Braunschweig",
     "Double_Chance": {
-      "1X": "1.22",
-      "12": "1.25",
-      "2X": "1.92"
+      "1X": "1.24",
+      "12": "1.26",
+      "2X": "1.86"
     },
     "BTTS": {
-      "Oui": "1.59",
-      "Non": "2.214"
+      "Oui": "1.61",
+      "Non": "2.182"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.6",
-        "Moins de": "2.08"
+        "Plus de": "1.65",
+        "Moins de": "2"
       },
       "1.5": {
-        "Plus de": "1.166",
-        "Moins de": "4.05"
+        "Plus de": "1.183",
+        "Moins de": "3.84"
       },
       "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.2"
+        "Plus de": "1.285",
+        "Moins de": "3.05"
       },
       "3": {
-        "Plus de": "2",
-        "Moins de": "1.67"
+        "Plus de": "2.08",
+        "Moins de": "1.615"
       },
       "3.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.46"
+        "Plus de": "2.69",
+        "Moins de": "1.43"
       }
     },
     "Handicap": {
-      "1 (0)": "1.33",
-      "2 (0)": "2.83",
-      "1 (-1)": "2.4",
-      "2 (-1)": "6.9",
-      "1 (+1)": "1.041",
-      "2 (+1)": "1.52",
-      "1 (-1.5)": "2.93",
-      "2 (-1.5)": "7.7",
-      "1 (+1.5)": "1.025",
-      "2 (+1.5)": "1.31"
+      "1 (0)": "1.36",
+      "2 (0)": "2.7",
+      "1 (-1)": "2.54",
+      "2 (-1)": "6.6",
+      "1 (+1)": "1.048",
+      "2 (+1)": "1.47",
+      "1 (-1.5)": "3.1",
+      "2 (-1.5)": "7.4",
+      "1 (+1.5)": "1.03",
+      "2 (+1.5)": "1.28"
     }
   },
   {
@@ -1299,16 +528,16 @@
     "equipe_1": "Energie",
     "equipe_2": "VfL Bochum",
     "1X2": {
-      "V2": "2.29",
-      "V1": "2.862",
-      "X": "3.52"
+      "V2": "2.21",
+      "V1": "2.981",
+      "X": "3.54"
     },
     "Total_2.5": {
       "Plus de": "1.42",
       "Moins de": "2.49"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:30:00+00:00",
     "competition": "Allemagne. 2. Bundesliga",
@@ -1318,8 +547,8 @@
     "equipe_2_en": "VfL Bochum",
     "Double_Chance": {
       "12": "1.27",
-      "2X": "1.39",
-      "1X": "1.58"
+      "2X": "1.36",
+      "1X": "1.62"
     },
     "BTTS": {
       "Oui": "1.39",
@@ -1327,8 +556,8 @@
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.66",
-        "Plus de": "2.14"
+        "Moins de": "1.666",
+        "Plus de": "2.13"
       },
       "2.5": {
         "Plus de": "1.42",
@@ -1343,21 +572,21 @@
         "Moins de": "1.33"
       },
       "4.5": {
-        "Plus de": "3.48",
-        "Moins de": "1.222"
+        "Plus de": "3.42",
+        "Moins de": "1.23"
       }
     },
     "Handicap": {
-      "2 (0)": "1.68",
-      "1 (0)": "2.09",
-      "1 (-1)": "4.55",
-      "2 (-1)": "3.2",
-      "1 (+1)": "1.26",
-      "2 (+1)": "1.129",
-      "1 (-1.5)": "5.4",
-      "2 (-1.5)": "3.96",
-      "1 (+1.5)": "1.172",
-      "2 (+1.5)": "1.087"
+      "2 (0)": "1.615",
+      "1 (0)": "2.2",
+      "1 (-1)": "4.85",
+      "2 (-1)": "3.05",
+      "1 (+1)": "1.285",
+      "2 (+1)": "1.113",
+      "1 (-1.5)": "5.7",
+      "2 (-1.5)": "3.78",
+      "1 (+1.5)": "1.19",
+      "2 (+1.5)": "1.076"
     }
   },
   {
@@ -1365,16 +594,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.937",
-      "V2": "2.625",
-      "X": "5.36"
+      "V1": "2.018",
+      "V2": "2.493",
+      "X": "5.29"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:30:00+00:00",
     "competition": "Allemagne. 2. Bundesliga",
@@ -1383,43 +612,43 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.13",
-      "1X": "1.453",
-      "2X": "1.88"
+      "12": "1.133",
+      "1X": "1.503",
+      "2X": "1.796"
     },
     "Totals": {
       "6.5": {
-        "Moins de": "1.75",
-        "Plus de": "2.078"
+        "Moins de": "1.724",
+        "Plus de": "2.116"
       },
       "4.5": {
-        "Plus de": "1.287",
-        "Moins de": "3.625"
+        "Plus de": "1.299",
+        "Moins de": "3.53"
       },
       "5.5": {
-        "Plus de": "1.598",
-        "Moins de": "2.342"
+        "Plus de": "1.62",
+        "Moins de": "2.297"
       },
       "7.5": {
-        "Plus de": "2.922",
-        "Moins de": "1.408"
+        "Plus de": "2.997",
+        "Moins de": "1.391"
       },
       "8.5": {
-        "Plus de": "4.51",
-        "Moins de": "1.203"
+        "Plus de": "4.665",
+        "Moins de": "1.193"
       }
     },
     "Handicap": {
-      "1 (0)": "1.58",
-      "2 (0)": "2.24",
-      "1 (-1)": "2.297",
-      "2 (-1)": "3.585",
-      "1 (+1)": "1.292",
-      "2 (+1)": "1.62",
-      "1 (-1.5)": "2.672",
-      "2 (-1.5)": "4.105",
-      "1 (+1.5)": "1.236",
-      "2 (+1.5)": "1.474"
+      "1 (0)": "1.68",
+      "2 (0)": "2.07",
+      "1 (-1)": "2.442",
+      "2 (-1)": "3.325",
+      "1 (+1)": "1.329",
+      "2 (+1)": "1.555",
+      "1 (-1.5)": "2.84",
+      "2 (-1.5)": "3.825",
+      "1 (+1.5)": "1.264",
+      "2 (+1.5)": "1.428"
     }
   },
   {
@@ -1427,16 +656,16 @@
     "equipe_1": "Le Havre",
     "equipe_2": "Paris Saint-Germain",
     "1X2": {
-      "V2": "1.332",
-      "X": "6.35",
-      "V1": "9.35"
+      "V2": "1.362",
+      "X": "6.09",
+      "V1": "8.5"
     },
     "Total_2.5": {
       "Plus de": "1.378",
       "Moins de": "3.04"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "France. Ligue 1",
@@ -1445,47 +674,47 @@
     "equipe_1_en": "Le Havre",
     "equipe_2_en": "Paris Saint-Germain",
     "Double_Chance": {
-      "2X": "1.088",
-      "12": "1.152",
-      "1X": "3.64"
+      "2X": "1.101",
+      "12": "1.16",
+      "1X": "3.42"
     },
     "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.132"
+      "Oui": "1.61",
+      "Non": "2.2"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.92",
-        "Plus de": "2.023"
+        "Moins de": "1.91",
+        "Plus de": "2.034"
       },
       "2.5": {
         "Plus de": "1.378",
         "Moins de": "3.04"
       },
       "3": {
-        "Plus de": "1.576",
-        "Moins de": "2.466"
+        "Plus de": "1.585",
+        "Moins de": "2.444"
       },
       "4": {
         "Plus de": "2.608",
         "Moins de": "1.53"
       },
       "4.5": {
-        "Plus de": "3.15",
-        "Moins de": "1.364"
+        "Plus de": "3.17",
+        "Moins de": "1.361"
       }
     },
     "Handicap": {
-      "2 (-1.5)": "1.865",
-      "1 (+1.5)": "2.087",
-      "1 (0)": "5.91",
-      "2 (0)": "1.092",
-      "2 (-1)": "1.418",
-      "1 (+1)": "2.826",
-      "2 (-2)": "2.337",
-      "1 (+2)": "1.634",
-      "2 (-2.5)": "2.858",
-      "1 (+2.5)": "1.419"
+      "2 (-1.5)": "1.924",
+      "1 (+1.5)": "2.018",
+      "1 (0)": "5.56",
+      "2 (0)": "1.104",
+      "2 (-1)": "1.459",
+      "1 (+1)": "2.674",
+      "2 (-2)": "2.438",
+      "1 (+2)": "1.588",
+      "2 (-2.5)": "2.983",
+      "1 (+2.5)": "1.39"
     }
   },
   {
@@ -1502,7 +731,7 @@
       "Moins de": "2.399"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "France. Ligue 1",
@@ -1568,7 +797,7 @@
       "Moins de": "1.39"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "Championnat d'Égypte. Première Ligue",
@@ -1634,7 +863,7 @@
       "Moins de": "1.43"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "Championnat d'Égypte. Première Ligue",
@@ -1691,16 +920,16 @@
     "equipe_1": "Grazer AK",
     "equipe_2": "Hartberg",
     "1X2": {
-      "V1": "2.44",
-      "V2": "2.854",
-      "X": "3.24"
+      "V1": "2.52",
+      "V2": "2.72",
+      "X": "3.22"
     },
     "Total_2.5": {
-      "Plus de": "1.89",
-      "Moins de": "1.85"
+      "Plus de": "1.9",
+      "Moins de": "1.84"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:30:00+00:00",
     "competition": "Autriche. Bundesliga",
@@ -1710,46 +939,46 @@
     "equipe_2_en": "Hartberg",
     "Double_Chance": {
       "12": "1.31",
-      "1X": "1.39",
-      "2X": "1.52"
+      "1X": "1.42",
+      "2X": "1.48"
     },
     "BTTS": {
-      "Oui": "1.67",
-      "Non": "2.079"
+      "Oui": "1.68",
+      "Non": "2.06"
     },
     "Totals": {
       "2.5": {
-        "Moins de": "1.85",
-        "Plus de": "1.89"
+        "Moins de": "1.84",
+        "Plus de": "1.9"
       },
       "1.5": {
         "Plus de": "1.24",
         "Moins de": "3.34"
       },
       "2": {
-        "Plus de": "1.4",
-        "Moins de": "2.59"
+        "Plus de": "1.41",
+        "Moins de": "2.56"
       },
       "3": {
-        "Plus de": "2.5",
-        "Moins de": "1.43"
+        "Plus de": "2.53",
+        "Moins de": "1.42"
       },
       "3.5": {
-        "Plus de": "3.08",
-        "Moins de": "1.28"
+        "Plus de": "3.14",
+        "Moins de": "1.27"
       }
     },
     "Handicap": {
-      "1 (0)": "1.727",
-      "2 (0)": "2.02",
-      "1 (-1)": "3.85",
-      "2 (-1)": "4.9",
-      "1 (+1)": "1.109",
-      "2 (+1)": "1.182",
-      "1 (-1.5)": "4.8",
-      "2 (-1.5)": "5.9",
-      "1 (+1.5)": "1.068",
-      "2 (+1.5)": "1.116"
+      "1 (0)": "1.8",
+      "2 (0)": "1.93",
+      "1 (-1)": "4.1",
+      "2 (-1)": "4.65",
+      "1 (+1)": "1.125",
+      "2 (+1)": "1.161",
+      "1 (-1.5)": "5.05",
+      "2 (-1.5)": "5.6",
+      "1 (+1.5)": "1.079",
+      "2 (+1.5)": "1.102"
     }
   },
   {
@@ -1766,7 +995,7 @@
       "Moins de": "2.662"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T19:30:00+00:00",
     "competition": "Allemagne. Bundesliga",
@@ -1820,19 +1049,349 @@
   },
   {
     "bookmaker": "betwinner",
+    "equipe_1": "Stenhousemuir",
+    "equipe_2": "Livingston FC",
+    "1X2": {
+      "V2": "1.635",
+      "X": "3.68",
+      "V1": "4.495"
+    },
+    "Total_2.5": {
+      "Plus de": "1.74",
+      "Moins de": "1.94"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:30:00+00:00",
+    "competition": "Écosse. Championship",
+    "competition_en": "Scotland. Championship",
+    "competition_id": 281713,
+    "equipe_1_en": "Stenhousemuir",
+    "equipe_2_en": "Livingston",
+    "Double_Chance": {
+      "2X": "1.123",
+      "12": "1.182",
+      "1X": "2.01"
+    },
+    "BTTS": {
+      "Oui": "1.727",
+      "Non": "1.98"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.74",
+        "Moins de": "1.94"
+      },
+      "1.5": {
+        "Plus de": "1.21",
+        "Moins de": "3.58"
+      },
+      "2": {
+        "Plus de": "1.33",
+        "Moins de": "2.83"
+      },
+      "3": {
+        "Plus de": "2.24",
+        "Moins de": "1.52"
+      },
+      "3.5": {
+        "Plus de": "2.81",
+        "Moins de": "1.333"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.36",
+      "2 (-1.5)": "2.7",
+      "1 (0)": "3.28",
+      "2 (0)": "1.25",
+      "2 (-1)": "2.13",
+      "1 (+1)": "1.6",
+      "2 (-2)": "4.5",
+      "1 (+2)": "1.132",
+      "2 (-2.5)": "5.25",
+      "1 (+2.5)": "1.094"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Drogheda United",
+    "equipe_2": "Galway",
+    "1X2": {
+      "V1": "2.24",
+      "V2": "2.934",
+      "X": "3.6"
+    },
+    "Total_2.5": {
+      "Plus de": "1.75",
+      "Moins de": "2.01"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:45:00+00:00",
+    "competition": "Championnat d'Irlande. Première division",
+    "competition_en": "Ireland. Premier League",
+    "competition_id": 119445,
+    "equipe_1_en": "Drogheda United",
+    "equipe_2_en": "Galway",
+    "Double_Chance": {
+      "12": "1.26",
+      "1X": "1.37",
+      "2X": "1.61"
+    },
+    "BTTS": {
+      "Oui": "1.6",
+      "Non": "2.194"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.75",
+        "Moins de": "2.01"
+      },
+      "1.5": {
+        "Plus de": "1.186",
+        "Moins de": "3.82"
+      },
+      "2": {
+        "Plus de": "1.31",
+        "Moins de": "2.97"
+      },
+      "3": {
+        "Plus de": "2.22",
+        "Moins de": "1.54"
+      },
+      "3.5": {
+        "Plus de": "2.81",
+        "Moins de": "1.333"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.64",
+      "2 (0)": "2.15",
+      "1 (-1)": "3.34",
+      "2 (-1)": "5.15",
+      "1 (+1)": "1.098",
+      "2 (+1)": "1.24",
+      "1 (-1.5)": "4.2",
+      "2 (-1.5)": "6.15",
+      "1 (+1.5)": "1.061",
+      "2 (+1.5)": "1.152"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Dundalk",
+    "equipe_2": "Shamrock Rovers",
+    "1X2": {
+      "V2": "2.01",
+      "V1": "3.3",
+      "X": "3.7"
+    },
+    "Total_2.5": {
+      "Plus de": "1.62",
+      "Moins de": "2.21"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:45:00+00:00",
+    "competition": "Championnat d'Irlande. Première division",
+    "competition_en": "Ireland. Premier League",
+    "competition_id": 119445,
+    "equipe_1_en": "Dundalk",
+    "equipe_2_en": "Shamrock Rovers",
+    "Double_Chance": {
+      "12": "1.25",
+      "2X": "1.3",
+      "1X": "1.75"
+    },
+    "BTTS": {
+      "Oui": "1.533",
+      "Non": "2.337"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.62",
+        "Moins de": "2.21"
+      },
+      "1.5": {
+        "Plus de": "1.151",
+        "Moins de": "4.25"
+      },
+      "2": {
+        "Plus de": "1.24",
+        "Moins de": "3.4"
+      },
+      "3": {
+        "Plus de": "1.97",
+        "Moins de": "1.69"
+      },
+      "3.5": {
+        "Plus de": "2.46",
+        "Moins de": "1.43"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.5",
+      "1 (0)": "2.45",
+      "1 (-1)": "5.7",
+      "2 (-1)": "2.74",
+      "1 (+1)": "1.35",
+      "2 (+1)": "1.075",
+      "1 (-1.5)": "6.6",
+      "2 (-1.5)": "3.42",
+      "1 (+1.5)": "1.23",
+      "2 (+1.5)": "1.048"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Sligo Rovers",
+    "equipe_2": "Derry City",
+    "1X2": {
+      "V2": "1.56",
+      "X": "4.2",
+      "V1": "5.26"
+    },
+    "Total_2.5": {
+      "Plus de": "1.64",
+      "Moins de": "2.17"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:45:00+00:00",
+    "competition": "Championnat d'Irlande. Première division",
+    "competition_en": "Ireland. Premier League",
+    "competition_id": 119445,
+    "equipe_1_en": "Sligo Rovers",
+    "equipe_2_en": "Derry City",
+    "Double_Chance": {
+      "2X": "1.127",
+      "12": "1.196",
+      "1X": "2.36"
+    },
+    "BTTS": {
+      "Oui": "1.7",
+      "Non": "2.038"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.64",
+        "Moins de": "2.17"
+      },
+      "1.5": {
+        "Plus de": "1.165",
+        "Moins de": "4.05"
+      },
+      "2": {
+        "Plus de": "1.26",
+        "Moins de": "3.26"
+      },
+      "3": {
+        "Plus de": "2",
+        "Moins de": "1.67"
+      },
+      "3.5": {
+        "Plus de": "2.49",
+        "Moins de": "1.42"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.46",
+      "2 (-1.5)": "2.39",
+      "1 (0)": "3.85",
+      "2 (0)": "1.182",
+      "2 (-1)": "1.9",
+      "1 (+1)": "1.83",
+      "2 (-2)": "3.58",
+      "1 (+2)": "1.21",
+      "2 (-2.5)": "4.33",
+      "1 (+2.5)": "1.143"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "St Patrick's Athletic",
+    "equipe_2": "Bohemian",
+    "1X2": {
+      "V1": "1.99",
+      "V2": "3.42",
+      "X": "3.64"
+    },
+    "Total_2.5": {
+      "Plus de": "1.71",
+      "Moins de": "2.06"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:45:00+00:00",
+    "competition": "Championnat d'Irlande. Première division",
+    "competition_en": "Ireland. Premier League",
+    "competition_id": 119445,
+    "equipe_1_en": "St Patrick's Athletic",
+    "equipe_2_en": "Bohemian Dublin",
+    "Double_Chance": {
+      "12": "1.26",
+      "1X": "1.28",
+      "2X": "1.77"
+    },
+    "BTTS": {
+      "Oui": "1.6",
+      "Non": "2.194"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.71",
+        "Moins de": "2.06"
+      },
+      "1.5": {
+        "Plus de": "1.173",
+        "Moins de": "3.95"
+      },
+      "2": {
+        "Plus de": "1.285",
+        "Moins de": "3.125"
+      },
+      "3": {
+        "Plus de": "2.14",
+        "Moins de": "1.58"
+      },
+      "3.5": {
+        "Plus de": "2.7",
+        "Moins de": "1.36"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.48",
+      "2 (0)": "2.51",
+      "1 (-1)": "2.74",
+      "2 (-1)": "6.35",
+      "1 (+1)": "1.055",
+      "2 (+1)": "1.35",
+      "1 (-1.5)": "3.5",
+      "2 (-1.5)": "7.4",
+      "1 (+1.5)": "1.031",
+      "2 (+1.5)": "1.22"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
     "equipe_1": "Villarreal",
     "equipe_2": "Espanyol",
     "1X2": {
-      "V1": "1.464",
-      "X": "5.23",
-      "V2": "7.06"
+      "V1": "1.452",
+      "X": "5.33",
+      "V2": "7.2"
     },
     "Total_2.5": {
-      "Plus de": "1.499",
-      "Moins de": "2.58"
+      "Plus de": "1.458",
+      "Moins de": "2.712"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T20:00:00+00:00",
     "competition": "Espagne. La Liga",
@@ -1841,47 +1400,113 @@
     "equipe_1_en": "Villarreal",
     "equipe_2_en": "Espanyol",
     "Double_Chance": {
-      "1X": "1.12",
-      "12": "1.198",
-      "2X": "2.917"
+      "1X": "1.113",
+      "12": "1.193",
+      "2X": "2.969"
     },
     "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.132"
+      "Oui": "1.62",
+      "Non": "2.185"
     },
     "Totals": {
       "3.5": {
-        "Moins de": "1.701",
-        "Plus de": "2.34"
+        "Moins de": "1.765",
+        "Plus de": "2.229"
       },
       "2.5": {
-        "Plus de": "1.499",
-        "Moins de": "2.58"
+        "Plus de": "1.458",
+        "Moins de": "2.712"
       },
       "3": {
-        "Plus de": "1.799",
-        "Moins de": "2.065"
+        "Plus de": "1.72",
+        "Moins de": "2.181"
       },
       "4": {
-        "Plus de": "3.22",
-        "Moins de": "1.374"
+        "Plus de": "3.015",
+        "Moins de": "1.417"
       },
       "4.5": {
-        "Plus de": "3.8",
-        "Moins de": "1.267"
+        "Plus de": "3.56",
+        "Moins de": "1.3"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.79",
-      "1 (-1.5)": "2.19",
-      "1 (0)": "1.122",
-      "2 (0)": "5.15",
-      "1 (-1)": "1.64",
-      "2 (+1)": "2.226",
-      "1 (-2)": "2.99",
-      "2 (+2)": "1.407",
-      "1 (-2.5)": "3.595",
-      "2 (+2.5)": "1.274"
+      "2 (+1.5)": "1.82",
+      "1 (-1.5)": "2.146",
+      "1 (0)": "1.116",
+      "2 (0)": "5.3",
+      "1 (-1)": "1.599",
+      "2 (+1)": "2.305",
+      "1 (-2)": "2.863",
+      "2 (+2)": "1.437",
+      "1 (-2.5)": "3.435",
+      "2 (+2.5)": "1.296"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Sheffield United",
+    "equipe_2": "Wrexham",
+    "1X2": {
+      "V1": "2.31",
+      "V2": "2.922",
+      "X": "3.4"
+    },
+    "Total_2.5": {
+      "Plus de": "1.89",
+      "Moins de": "1.85"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T20:00:00+00:00",
+    "competition": "Angleterre. Championship",
+    "competition_en": "England. Championship",
+    "competition_id": 105759,
+    "equipe_1_en": "Sheffield United",
+    "equipe_2_en": "Wrexham",
+    "Double_Chance": {
+      "12": "1.285",
+      "1X": "1.37",
+      "2X": "1.57"
+    },
+    "BTTS": {
+      "Oui": "1.69",
+      "Non": "2.049"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.85",
+        "Plus de": "1.89"
+      },
+      "1.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.28"
+      },
+      "2": {
+        "Plus de": "1.41",
+        "Moins de": "2.56"
+      },
+      "3": {
+        "Plus de": "2.5",
+        "Moins de": "1.43"
+      },
+      "3.5": {
+        "Plus de": "3.14",
+        "Moins de": "1.27"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.666",
+      "2 (0)": "2.11",
+      "1 (-1)": "3.5",
+      "2 (-1)": "5.05",
+      "1 (+1)": "1.103",
+      "2 (+1)": "1.22",
+      "1 (-1.5)": "4.4",
+      "2 (-1.5)": "5.95",
+      "1 (+1.5)": "1.066",
+      "2 (+1.5)": "1.14"
     }
   },
   {
@@ -1898,7 +1523,7 @@
       "Moins de": "2.001"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T20:05:00+00:00",
     "competition": "France. Ligue 1",
@@ -1952,609 +1577,19 @@
   },
   {
     "bookmaker": "betwinner",
-    "equipe_1": "Roots Bengaluru",
-    "equipe_2": "Agniputhra",
-    "1X2": {
-      "V2": "2.2",
-      "V1": "2.59",
-      "X": "3.55"
-    },
-    "Total_2.5": {
-      "Plus de": "1.62",
-      "Moins de": "2.11"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:00:00+00:00",
-    "competition": "Championnat d'Inde. Bangalore. Super Division",
-    "competition_en": "India. Bangalore. Super Division",
-    "competition_id": 330475,
-    "equipe_1_en": "Roots Bengaluru",
-    "equipe_2_en": "Agniputhra",
-    "Double_Chance": {
-      "12": "1.191",
-      "2X": "1.36",
-      "1X": "1.5"
-    },
-    "BTTS": {
-      "Oui": "1.53",
-      "Non": "2.286"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.62",
-        "Moins de": "2.11"
-      },
-      "1.5": {
-        "Plus de": "1.168",
-        "Moins de": "4"
-      },
-      "2": {
-        "Plus de": "1.26",
-        "Moins de": "3.2"
-      },
-      "3": {
-        "Plus de": "2.02",
-        "Moins de": "1.64"
-      },
-      "3.5": {
-        "Plus de": "2.56",
-        "Moins de": "1.4"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.7",
-      "1 (0)": "1.98",
-      "1 (-1)": "4.3",
-      "2 (-1)": "3.34",
-      "1 (+1)": "1.24",
-      "2 (+1)": "1.147",
-      "1 (-1.5)": "5.1",
-      "2 (-1.5)": "4.15",
-      "1 (+1.5)": "1.158",
-      "2 (+1.5)": "1.1"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Brunei DPMM",
-    "equipe_2": "Negeri Sembilan",
-    "1X2": {
-      "V1": "2.22",
-      "V2": "2.709",
-      "X": "3.5"
-    },
-    "Total_2.5": {
-      "Plus de": "1.57",
-      "Moins de": "2.2"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:00:00+00:00",
-    "competition": "Championnat de Malaisie. Super League",
-    "competition_en": "Malaysia. SuperLeague",
-    "competition_id": 16323,
-    "equipe_1_en": "Brunei DPMM",
-    "equipe_2_en": "Negeri Sembilan",
-    "Double_Chance": {
-      "12": "1.21",
-      "1X": "1.36",
-      "2X": "1.51"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.42"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.57",
-        "Moins de": "2.2"
-      },
-      "1.5": {
-        "Plus de": "1.142",
-        "Moins de": "4.35"
-      },
-      "2": {
-        "Plus de": "1.22",
-        "Moins de": "3.5"
-      },
-      "3": {
-        "Plus de": "1.909",
-        "Moins de": "1.72"
-      },
-      "3.5": {
-        "Plus de": "2.41",
-        "Moins de": "1.45"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.68",
-      "2 (0)": "2",
-      "1 (-1)": "3.34",
-      "2 (-1)": "4.4",
-      "1 (+1)": "1.138",
-      "2 (+1)": "1.24",
-      "1 (-1.5)": "4.15",
-      "2 (-1.5)": "5.25",
-      "1 (+1.5)": "1.093",
-      "2 (+1.5)": "1.157"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Java United",
-    "equipe_2": "Bhayangkara",
-    "1X2": {
-      "V1": "2.023",
-      "V2": "3.135",
-      "X": "3.385"
-    },
-    "Total_2.5": {
-      "Plus de": "1.59",
-      "Moins de": "2.17"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:30:00+00:00",
-    "competition": "Indonésie. Super Ligue",
-    "competition_en": "Indonesia. Super League",
-    "competition_id": 11249,
-    "equipe_1_en": "Java United",
-    "equipe_2_en": "Bhayangkara",
-    "Double_Chance": {
-      "12": "1.23",
-      "1X": "1.28",
-      "2X": "1.56"
-    },
-    "BTTS": {
-      "Oui": "1.49",
-      "Non": "2.389"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.59",
-        "Moins de": "2.17"
-      },
-      "1.5": {
-        "Plus de": "1.15",
-        "Moins de": "4.25"
-      },
-      "2": {
-        "Plus de": "1.24",
-        "Moins de": "3.34"
-      },
-      "3": {
-        "Plus de": "1.92",
-        "Moins de": "1.71"
-      },
-      "3.5": {
-        "Plus de": "2.42",
-        "Moins de": "1.444"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "1.57",
-      "2 (0)": "2.19",
-      "1 (-1)": "3.05",
-      "2 (-1)": "5.1",
-      "1 (+1)": "1.099",
-      "2 (+1)": "1.285",
-      "1 (-1.5)": "3.8",
-      "2 (-1.5)": "5.95",
-      "1 (+1.5)": "1.066",
-      "2 (+1.5)": "1.188"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Kababir",
-    "equipe_2": "Ironi Ariel",
-    "1X2": {
-      "V2": "1.32",
-      "X": "5.05",
-      "V1": "6.5"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:45:00+00:00",
-    "competition": "Championnat d'Israël. League Bet. Nord",
-    "competition_en": "Israel. Liga Bet. North",
-    "competition_id": 27133,
-    "equipe_1_en": "Kababir",
-    "equipe_2_en": "Ironi Ariel",
-    "Double_Chance": {
-      "2X": "1.042",
-      "12": "1.083",
-      "1X": "2.8"
-    },
-    "BTTS": {
-      "Oui": "1.34",
-      "Non": "2.904"
-    },
-    "Totals": {
-      "4.5": {
-        "Moins de": "1.6",
-        "Plus de": "2.15"
-      },
-      "3.5": {
-        "Plus de": "1.5",
-        "Moins de": "2.28"
-      },
-      "4": {
-        "Plus de": "1.74",
-        "Moins de": "1.89"
-      },
-      "5": {
-        "Plus de": "2.78",
-        "Moins de": "1.34"
-      },
-      "5.5": {
-        "Plus de": "3.2",
-        "Moins de": "1.26"
-      }
-    },
-    "Handicap": {
-      "2 (-1.5)": "1.8",
-      "1 (+1.5)": "1.86",
-      "1 (0)": "5.1",
-      "2 (0)": "1.101",
-      "2 (-1)": "1.45",
-      "1 (+1)": "2.41",
-      "2 (-2)": "2.21",
-      "1 (+2)": "1.53",
-      "2 (-2.5)": "2.66",
-      "1 (+2.5)": "1.37"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Beitar Tel Aviv Holon",
-    "equipe_2": "Beitar Ramat Gan",
-    "1X2": {
-      "V1": "1.71",
-      "X": "3.6",
-      "V2": "4.05"
-    },
-    "Total_2.5": {
-      "Plus de": "1.67",
-      "Moins de": "2.03"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T08:45:00+00:00",
-    "competition": "Championnat d'Israël. League Bet. Sud",
-    "competition_en": "Israel. Liga Bet. South",
-    "competition_id": 27097,
-    "equipe_1_en": "Beitar Tel Aviv Holon",
-    "equipe_2_en": "Beitar Ramat Gan",
-    "Double_Chance": {
-      "1X": "1.152",
-      "12": "1.186",
-      "2X": "1.89"
-    },
-    "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.098"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.67",
-        "Moins de": "2.03"
-      },
-      "1.5": {
-        "Plus de": "1.185",
-        "Moins de": "3.82"
-      },
-      "2": {
-        "Plus de": "1.29",
-        "Moins de": "3.04"
-      },
-      "3": {
-        "Plus de": "2.08",
-        "Moins de": "1.6"
-      },
-      "3.5": {
-        "Plus de": "2.625",
-        "Moins de": "1.38"
-      }
-    },
-    "Handicap": {
-      "2 (+1.5)": "1.33",
-      "1 (-1.5)": "2.83",
-      "1 (0)": "1.3",
-      "2 (0)": "2.97",
-      "1 (-1)": "2.26",
-      "2 (+1)": "1.533",
-      "1 (-2)": "4.75",
-      "2 (+2)": "1.117",
-      "1 (-2.5)": "5.45",
-      "2 (+2.5)": "1.084"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Brisbane Roar",
-    "equipe_2": "Auckland",
-    "1X2": {
-      "V2": "2.583",
-      "V1": "2.687",
-      "X": "3.61"
-    },
-    "Total_2.5": {
-      "Plus de": "1.828",
-      "Moins de": "2.044"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Australie. A League",
-    "competition_en": "Australia. A League",
-    "competition_id": 2905446,
-    "equipe_1_en": "Brisbane Roar",
-    "equipe_2_en": "Auckland",
-    "Double_Chance": {
-      "12": "1.308",
-      "2X": "1.494",
-      "1X": "1.528"
-    },
-    "BTTS": {
-      "Oui": "1.61",
-      "Non": "2.182"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.828",
-        "Moins de": "2.044"
-      },
-      "1.5": {
-        "Plus de": "1.251",
-        "Moins de": "3.7"
-      },
-      "2": {
-        "Plus de": "1.384",
-        "Moins de": "2.992"
-      },
-      "3": {
-        "Plus de": "2.343",
-        "Moins de": "1.6"
-      },
-      "3.5": {
-        "Plus de": "2.897",
-        "Moins de": "1.396"
-      }
-    },
-    "Handicap": {
-      "2 (0)": "1.894",
-      "1 (0)": "1.967",
-      "1 (-1)": "4.265",
-      "2 (-1)": "4.015",
-      "1 (+1)": "1.238",
-      "2 (+1)": "1.211",
-      "1 (-1.5)": "5.03",
-      "2 (-1.5)": "4.805",
-      "1 (+1.5)": "1.161",
-      "2 (+1.5)": "1.141"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "à domicile",
-    "equipe_2": "à l'extérieur",
-    "1X2": {
-      "V1": "1.563",
-      "V2": "3.09",
-      "X": "9.75"
-    },
-    "Total_2.5": {
-      "Plus de": null,
-      "Moins de": null
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Australie. Ligue A. Statistiques du tour",
-    "competition_en": "Australia. A League. Statistics Round",
-    "competition_id": 2905471,
-    "equipe_1_en": "Home",
-    "equipe_2_en": "Away",
-    "Double_Chance": {
-      "12": "1.03",
-      "1X": "1.25",
-      "2X": "2.55"
-    },
-    "Totals": {
-      "18.5": {
-        "Moins de": "1.762",
-        "Plus de": "2.061"
-      },
-      "16.5": {
-        "Plus de": "1.524",
-        "Moins de": "2.522"
-      },
-      "17.5": {
-        "Plus de": "1.758",
-        "Moins de": "2.067"
-      },
-      "19.5": {
-        "Plus de": "2.494",
-        "Moins de": "1.535"
-      },
-      "20.5": {
-        "Plus de": "3.125",
-        "Moins de": "1.364"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "1.781",
-      "2 (+1.5)": "2.036",
-      "1 (-1)": "1.633",
-      "2 (-1)": "3.86",
-      "1 (+1)": "1.26",
-      "2 (+1)": "2.27",
-      "1 (-2)": "1.927",
-      "2 (+2)": "1.874",
-      "1 (-2.5)": "2.095",
-      "2 (+2.5)": "1.738"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Maccabi Ashkelon",
-    "equipe_2": "Arad",
-    "1X2": {
-      "V2": "1.68",
-      "X": "3.68",
-      "V1": "4.145"
-    },
-    "Total_2.5": {
-      "Plus de": "1.66",
-      "Moins de": "2.05"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Championnat d'Israël. League Bet. Sud",
-    "competition_en": "Israel. Liga Bet. South",
-    "competition_id": 27097,
-    "equipe_1_en": "Maccabi Ashkelon",
-    "equipe_2_en": "Arad",
-    "Double_Chance": {
-      "2X": "1.144",
-      "12": "1.177",
-      "1X": "1.93"
-    },
-    "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.098"
-    },
-    "Totals": {
-      "2.5": {
-        "Plus de": "1.66",
-        "Moins de": "2.05"
-      },
-      "1.5": {
-        "Plus de": "1.18",
-        "Moins de": "3.88"
-      },
-      "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.08"
-      },
-      "3": {
-        "Plus de": "2.07",
-        "Moins de": "1.61"
-      },
-      "3.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
-      }
-    },
-    "Handicap": {
-      "1 (+1.5)": "1.333",
-      "2 (-1.5)": "2.81",
-      "1 (0)": "3.05",
-      "2 (0)": "1.285",
-      "2 (-1)": "2.21",
-      "1 (+1)": "1.56",
-      "2 (-2)": "4.65",
-      "1 (+2)": "1.123",
-      "2 (-2.5)": "5.35",
-      "1 (+2.5)": "1.088"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
-    "equipe_1": "Maccabi Ironi Amishav Petah Tikva",
-    "equipe_2": "Bnei Jaljulia",
-    "1X2": {
-      "V1": "1.089",
-      "X": "6.7",
-      "V2": "18"
-    },
-    "Total_2.5": {
-      "Plus de": "1.35",
-      "Moins de": "2.74"
-    },
-    "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
-    "statut": "ok",
-    "debut": "2026-10-30T09:00:00+00:00",
-    "competition": "Championnat d'Israël. League Bet. Sud",
-    "competition_en": "Israel. Liga Bet. South",
-    "competition_id": 27097,
-    "equipe_1_en": "Maccabi Ironi Amishav PT",
-    "equipe_2_en": "Bnei Jaljulia",
-    "Double_Chance": {
-      "1X": "1.015",
-      "12": "1.029",
-      "2X": "4.95"
-    },
-    "BTTS": {
-      "Non": "1.541",
-      "Oui": "2.27"
-    },
-    "Totals": {
-      "3.5": {
-        "Moins de": "1.82",
-        "Plus de": "1.85"
-      },
-      "2.5": {
-        "Plus de": "1.35",
-        "Moins de": "2.74"
-      },
-      "3": {
-        "Plus de": "1.5",
-        "Moins de": "2.28"
-      },
-      "4": {
-        "Plus de": "2.3",
-        "Moins de": "1.49"
-      },
-      "4.5": {
-        "Plus de": "2.74",
-        "Moins de": "1.35"
-      }
-    },
-    "Handicap": {
-      "2 (+2.5)": "1.78",
-      "1 (-2.5)": "1.84",
-      "1 (-1.5)": "1.36",
-      "2 (+1.5)": "2.7",
-      "1 (-2)": "1.53",
-      "2 (+2)": "2.27",
-      "1 (-3)": "2.35",
-      "2 (+3)": "1.47",
-      "1 (-3.5)": "2.81",
-      "2 (+3.5)": "1.333"
-    }
-  },
-  {
-    "bookmaker": "betwinner",
     "equipe_1": "Abha",
     "equipe_2": "Ittihad FC",
     "1X2": {
-      "V2": "1.526",
-      "X": "4.44",
-      "V1": "5.28"
+      "V2": "1.569",
+      "X": "4.285",
+      "V1": "5.02"
     },
     "Total_2.5": {
-      "Plus de": "1.514",
-      "Moins de": "2.421"
+      "Plus de": "1.56",
+      "Moins de": "2.334"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T12:30:00+00:00",
     "competition": "Championnat d'Arabie saoudite de football",
@@ -2563,47 +1598,47 @@
     "equipe_1_en": "Abha",
     "equipe_2_en": "Al-Ittihad Jeddah",
     "Double_Chance": {
-      "2X": "1.129",
-      "12": "1.176",
-      "1X": "2.38"
+      "2X": "1.141",
+      "12": "1.187",
+      "1X": "2.283"
     },
     "BTTS": {
-      "Oui": "1.58",
-      "Non": "2.208"
+      "Oui": "1.6",
+      "Non": "2.176"
     },
     "Totals": {
-      "3.5": {
-        "Moins de": "1.592",
-        "Plus de": "2.265"
-      },
       "2.5": {
-        "Plus de": "1.514",
-        "Moins de": "2.421"
+        "Plus de": "1.56",
+        "Moins de": "2.334"
+      },
+      "1.5": {
+        "Plus de": "1.145",
+        "Moins de": "4.705"
+      },
+      "2": {
+        "Plus de": "1.218",
+        "Moins de": "3.865"
       },
       "3": {
-        "Plus de": "1.801",
-        "Moins de": "1.935"
+        "Plus de": "1.848",
+        "Moins de": "1.848"
       },
-      "4": {
-        "Plus de": "3.14",
-        "Moins de": "1.305"
-      },
-      "4.5": {
-        "Plus de": "3.715",
-        "Moins de": "1.213"
+      "3.5": {
+        "Plus de": "2.313",
+        "Moins de": "1.522"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.569",
-      "2 (-1.5)": "2.313",
-      "1 (0)": "4.175",
-      "2 (0)": "1.189",
-      "2 (-1)": "1.809",
-      "1 (+1)": "1.91",
-      "2 (-2)": "3.34",
-      "1 (+2)": "1.273",
-      "2 (-2.5)": "3.99",
-      "1 (+2.5)": "1.185"
+      "1 (+1.5)": "1.52",
+      "2 (-1.5)": "2.43",
+      "1 (0)": "3.84",
+      "2 (0)": "1.212",
+      "2 (-1)": "1.884",
+      "1 (+1)": "1.823",
+      "2 (-2)": "3.575",
+      "1 (+2)": "1.242",
+      "2 (-2.5)": "4.29",
+      "1 (+2.5)": "1.162"
     }
   },
   {
@@ -2611,16 +1646,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V2": "1.476",
-      "V1": "3.925",
-      "X": "7.55"
+      "V2": "1.5",
+      "V1": "3.78",
+      "X": "7.4"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T12:30:00+00:00",
     "competition": "Championnat d'Arabie saoudite de football",
@@ -2629,43 +1664,43 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.069",
-      "2X": "1.221",
-      "1X": "2.851"
+      "12": "1.072",
+      "2X": "1.235",
+      "1X": "2.759"
     },
     "Totals": {
       "9.5": {
-        "Moins de": "1.81",
-        "Plus de": "2"
+        "Moins de": "1.774",
+        "Plus de": "2.045"
       },
       "7.5": {
-        "Plus de": "1.349",
-        "Moins de": "3.21"
+        "Plus de": "1.368",
+        "Moins de": "3.11"
       },
       "8.5": {
-        "Plus de": "1.617",
-        "Moins de": "2.302"
+        "Plus de": "1.647",
+        "Moins de": "2.245"
       },
       "10.5": {
-        "Plus de": "2.603",
-        "Moins de": "1.496"
+        "Plus de": "2.682",
+        "Moins de": "1.471"
       },
       "11.5": {
-        "Plus de": "3.62",
-        "Moins de": "1.288"
+        "Plus de": "3.76",
+        "Moins de": "1.271"
       }
     },
     "Handicap": {
-      "2 (-1.5)": "1.782",
-      "1 (+1.5)": "2.034",
-      "1 (-1)": "5.72",
-      "2 (-1)": "1.576",
-      "1 (+1)": "2.392",
-      "2 (+1)": "1.139",
-      "2 (-2)": "2.003",
-      "1 (+2)": "1.807",
-      "2 (-2.5)": "2.26",
-      "1 (+2.5)": "1.639"
+      "2 (-1.5)": "1.819",
+      "1 (+1.5)": "1.988",
+      "1 (-1)": "5.47",
+      "2 (-1)": "1.608",
+      "1 (+1)": "2.321",
+      "2 (+1)": "1.149",
+      "2 (-2)": "2.058",
+      "1 (+2)": "1.764",
+      "2 (-2.5)": "2.324",
+      "1 (+2.5)": "1.607"
     }
   },
   {
@@ -2673,16 +1708,16 @@
     "equipe_1": "Al Draih",
     "equipe_2": "Neom SC",
     "1X2": {
-      "V2": "2.55",
-      "V1": "2.592",
-      "X": "3.425"
+      "V1": "2.574",
+      "V2": "2.584",
+      "X": "3.4"
     },
     "Total_2.5": {
-      "Plus de": "1.825",
-      "Moins de": "1.917"
+      "Plus de": "1.865",
+      "Moins de": "1.875"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T14:50:00+00:00",
     "competition": "Championnat d'Arabie saoudite de football",
@@ -2691,46 +1726,46 @@
     "equipe_1_en": "Al Draih",
     "equipe_2_en": "Neom SC",
     "Double_Chance": {
-      "12": "1.276",
-      "2X": "1.45",
-      "1X": "1.464"
+      "12": "1.28",
+      "1X": "1.453",
+      "2X": "1.456"
     },
     "BTTS": {
-      "Oui": "1.64",
-      "Non": "2.104"
+      "Oui": "1.66",
+      "Non": "2.073"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.825",
-        "Moins de": "1.917"
+        "Plus de": "1.865",
+        "Moins de": "1.875"
       },
       "1.5": {
-        "Plus de": "1.243",
-        "Moins de": "3.455"
+        "Plus de": "1.253",
+        "Moins de": "3.375"
       },
       "2": {
-        "Plus de": "1.386",
-        "Moins de": "2.752"
+        "Plus de": "1.416",
+        "Moins de": "2.639"
       },
       "3": {
-        "Plus de": "2.377",
-        "Moins de": "1.51"
+        "Plus de": "2.481",
+        "Moins de": "1.481"
       },
       "3.5": {
-        "Plus de": "2.959",
+        "Plus de": "3.03",
         "Moins de": "1.327"
       }
     },
     "Handicap": {
-      "2 (0)": "1.863",
-      "1 (0)": "1.877",
-      "1 (-1)": "4.315",
-      "2 (-1)": "4.21",
-      "1 (+1)": "1.189",
-      "2 (+1)": "1.181",
+      "1 (0)": "1.87",
+      "2 (0)": "1.87",
+      "1 (-1)": "4.3",
+      "2 (-1)": "4.325",
+      "1 (+1)": "1.18",
+      "2 (+1)": "1.183",
       "1 (-1.5)": "5.2",
-      "2 (-1.5)": "5.1",
-      "1 (+1.5)": "1.126",
+      "2 (-1.5)": "5.22",
+      "1 (+1.5)": "1.121",
       "2 (+1.5)": "1.122"
     }
   },
@@ -2739,16 +1774,16 @@
     "equipe_1": "Konyaspor",
     "equipe_2": "Galatasaray",
     "1X2": {
-      "V2": "1.575",
-      "X": "4.535",
-      "V1": "5.68"
+      "V2": "1.648",
+      "X": "4.38",
+      "V1": "5.11"
     },
     "Total_2.5": {
-      "Plus de": "1.629",
-      "Moins de": "2.397"
+      "Plus de": "1.649",
+      "Moins de": "2.355"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:00:00+00:00",
     "competition": "Championnat de Turquie. Süper Lig",
@@ -2757,47 +1792,47 @@
     "equipe_1_en": "Konyaspor",
     "equipe_2_en": "Galatasaray",
     "Double_Chance": {
-      "2X": "1.162",
-      "12": "1.225",
-      "1X": "2.49"
+      "2X": "1.19",
+      "12": "1.238",
+      "1X": "2.329"
     },
     "BTTS": {
-      "Oui": "1.65",
-      "Non": "2.11"
+      "Oui": "1.63",
+      "Non": "2.142"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.629",
-        "Moins de": "2.397"
+        "Plus de": "1.649",
+        "Moins de": "2.355"
       },
       "1.5": {
-        "Plus de": "1.179",
-        "Moins de": "4.555"
+        "Plus de": "1.186",
+        "Moins de": "4.445"
       },
       "2": {
-        "Plus de": "1.274",
-        "Moins de": "3.715"
+        "Plus de": "1.284",
+        "Moins de": "3.63"
       },
       "3": {
-        "Plus de": "1.941",
-        "Moins de": "1.879"
+        "Plus de": "1.986",
+        "Moins de": "1.839"
       },
       "3.5": {
-        "Plus de": "2.405",
-        "Moins de": "1.558"
+        "Plus de": "2.484",
+        "Moins de": "1.527"
       }
     },
     "Handicap": {
-      "1 (+1.5)": "1.618",
-      "2 (-1.5)": "2.422",
-      "1 (0)": "4.145",
-      "2 (0)": "1.21",
-      "2 (-1)": "1.854",
-      "1 (+1)": "1.944",
-      "2 (-2)": "3.505",
-      "1 (+2)": "1.301",
-      "2 (-2.5)": "4.19",
-      "1 (+2.5)": "1.206"
+      "1 (+1.5)": "1.542",
+      "2 (-1.5)": "2.614",
+      "1 (0)": "3.705",
+      "2 (0)": "1.253",
+      "2 (-1)": "2",
+      "1 (+1)": "1.806",
+      "2 (-2)": "3.985",
+      "1 (+2)": "1.246",
+      "2 (-2.5)": "4.605",
+      "1 (+2.5)": "1.176"
     }
   },
   {
@@ -2805,16 +1840,16 @@
     "equipe_1": "KS Cracovia",
     "equipe_2": "Motor Lublin",
     "1X2": {
-      "V1": "2.14",
-      "V2": "3.02",
-      "X": "3.55"
+      "V1": "2.17",
+      "V2": "2.992",
+      "X": "3.52"
     },
     "Total_2.5": {
-      "Plus de": "1.68",
-      "Moins de": "2.09"
+      "Plus de": "1.71",
+      "Moins de": "2.05"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:00:00+00:00",
     "competition": "Championnat de Pologne",
@@ -2824,46 +1859,46 @@
     "equipe_2_en": "Motor Lublin",
     "Double_Chance": {
       "12": "1.25",
-      "1X": "1.33",
-      "2X": "1.63"
+      "1X": "1.34",
+      "2X": "1.615"
     },
     "BTTS": {
-      "Oui": "1.57",
-      "Non": "2.255"
+      "Oui": "1.59",
+      "Non": "2.214"
     },
     "Totals": {
       "2.5": {
-        "Plus de": "1.68",
-        "Moins de": "2.09"
+        "Plus de": "1.71",
+        "Moins de": "2.05"
       },
       "1.5": {
-        "Plus de": "1.178",
-        "Moins de": "3.9"
+        "Plus de": "1.188",
+        "Moins de": "3.8"
       },
       "2": {
-        "Plus de": "1.28",
-        "Moins de": "3.1"
+        "Plus de": "1.3",
+        "Moins de": "2.99"
       },
       "3": {
-        "Plus de": "2.07",
-        "Moins de": "1.615"
+        "Plus de": "2.13",
+        "Moins de": "1.58"
       },
       "3.5": {
-        "Plus de": "2.59",
-        "Moins de": "1.39"
+        "Plus de": "2.66",
+        "Moins de": "1.37"
       }
     },
     "Handicap": {
-      "1 (0)": "1.59",
-      "2 (0)": "2.23",
-      "1 (-1)": "3.04",
+      "1 (0)": "1.61",
+      "2 (0)": "2.19",
+      "1 (-1)": "3.08",
       "2 (-1)": "4.95",
-      "1 (+1)": "1.106",
-      "2 (+1)": "1.29",
-      "1 (-1.5)": "3.78",
-      "2 (-1.5)": "5.8",
-      "1 (+1.5)": "1.072",
-      "2 (+1.5)": "1.19"
+      "1 (+1)": "1.108",
+      "2 (+1)": "1.28",
+      "1 (-1.5)": "3.85",
+      "2 (-1.5)": "5.75",
+      "1 (+1.5)": "1.073",
+      "2 (+1.5)": "1.182"
     }
   },
   {
@@ -2871,16 +1906,16 @@
     "equipe_1": "à domicile",
     "equipe_2": "à l'extérieur",
     "1X2": {
-      "V1": "1.796",
-      "V2": "3.025",
-      "X": "5.2"
+      "V1": "1.829",
+      "V2": "2.969",
+      "X": "5.05"
     },
     "Total_2.5": {
       "Plus de": null,
       "Moins de": null
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T17:00:00+00:00",
     "competition": "Championnat de Pologne",
@@ -2889,47 +1924,47 @@
     "equipe_1_en": "Home",
     "equipe_2_en": "Away",
     "Double_Chance": {
-      "12": "1.137",
-      "1X": "1.347",
-      "2X": "2.071"
+      "12": "1.143",
+      "1X": "1.359",
+      "2X": "2.02"
     },
     "BTTS": {
-      "Oui": "1.104",
-      "Non": "6.81"
+      "Oui": "1.123",
+      "Non": "6.16"
     },
     "Totals": {
       "5.5": {
-        "Moins de": "1.888",
-        "Plus de": "1.912"
+        "Moins de": "1.766",
+        "Plus de": "2.056"
       },
       "3.5": {
-        "Plus de": "1.195",
-        "Moins de": "4.635"
+        "Plus de": "1.238",
+        "Moins de": "4.08"
       },
       "4.5": {
-        "Plus de": "1.469",
-        "Moins de": "2.689"
+        "Plus de": "1.552",
+        "Moins de": "2.449"
       },
       "6.5": {
-        "Plus de": "2.671",
-        "Moins de": "1.474"
+        "Plus de": "2.972",
+        "Moins de": "1.396"
       },
       "7.5": {
-        "Plus de": "4.14",
-        "Moins de": "1.233"
+        "Plus de": "4.785",
+        "Moins de": "1.185"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.55",
-      "1 (-1.5)": "2.455",
-      "1 (-1)": "2.088",
-      "2 (-1)": "4.545",
-      "1 (+1)": "1.201",
-      "2 (+1)": "1.743",
-      "1 (-2)": "3.34",
-      "2 (+2)": "1.328",
-      "1 (-2.5)": "3.86",
-      "2 (+2.5)": "1.26"
+      "2 (+1.5)": "1.516",
+      "1 (-1.5)": "2.543",
+      "1 (-1)": "2.154",
+      "2 (-1)": "4.465",
+      "1 (+1)": "1.207",
+      "2 (+1)": "1.7",
+      "1 (-2)": "3.545",
+      "2 (+2)": "1.298",
+      "1 (-2.5)": "4.1",
+      "2 (+2.5)": "1.236"
     }
   },
   {
@@ -2946,7 +1981,7 @@
       "Moins de": "2.504"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "Championnat d'Arabie saoudite de football",
@@ -3012,7 +2047,7 @@
       "Moins de": "2.33"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "Championnat du Danemark. Superliga",
@@ -3069,16 +2104,16 @@
     "equipe_1": "Bodo-Glimt",
     "equipe_2": "Viking",
     "1X2": {
-      "V1": "1.599",
-      "X": "4.665",
-      "V2": "4.815"
+      "V1": "1.57",
+      "X": "4.77",
+      "V2": "4.975"
     },
     "Total_2.5": {
-      "Plus de": "1.315",
-      "Moins de": "3.25"
+      "Plus de": "1.284",
+      "Moins de": "3.46"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "Championnat de Norvège. Eliteserien",
@@ -3087,47 +2122,47 @@
     "equipe_1_en": "Bodo-Glimt",
     "equipe_2_en": "Viking",
     "Double_Chance": {
-      "1X": "1.183",
-      "12": "1.193",
-      "2X": "2.34"
+      "1X": "1.174",
+      "12": "1.186",
+      "2X": "2.404"
     },
     "BTTS": {
-      "Oui": "1.36",
-      "Non": "2.898"
+      "Oui": "1.35",
+      "Non": "2.94"
     },
     "Totals": {
       "3.5": {
-        "Plus de": "1.809",
-        "Moins de": "2.023"
+        "Plus de": "1.756",
+        "Moins de": "2.093"
       },
       "2.5": {
-        "Plus de": "1.315",
-        "Moins de": "3.25"
+        "Plus de": "1.284",
+        "Moins de": "3.46"
       },
       "3": {
-        "Plus de": "1.454",
-        "Moins de": "2.69"
+        "Plus de": "1.413",
+        "Moins de": "2.846"
       },
       "4": {
-        "Plus de": "2.246",
-        "Moins de": "1.633"
+        "Plus de": "2.142",
+        "Moins de": "1.695"
       },
       "4.5": {
-        "Plus de": "2.688",
-        "Moins de": "1.443"
+        "Plus de": "2.588",
+        "Moins de": "1.476"
       }
     },
     "Handicap": {
-      "2 (+1.5)": "1.58",
-      "1 (-1.5)": "2.413",
-      "1 (0)": "1.258",
-      "2 (0)": "3.605",
-      "1 (-1)": "1.888",
-      "2 (+1)": "1.878",
-      "1 (-2)": "3.41",
-      "2 (+2)": "1.3",
-      "1 (-2.5)": "3.995",
-      "2 (+2.5)": "1.216"
+      "2 (+1.5)": "1.623",
+      "1 (-1.5)": "2.319",
+      "1 (0)": "1.232",
+      "2 (0)": "3.83",
+      "1 (-1)": "1.829",
+      "2 (+1)": "1.94",
+      "1 (-2)": "3.205",
+      "2 (+2)": "1.333",
+      "1 (-2.5)": "3.69",
+      "2 (+2.5)": "1.248"
     }
   },
   {
@@ -3144,7 +2179,7 @@
       "Moins de": "2.25"
     },
     "url": "https://betwinner.cm/fr/line/football",
-    "derniere_maj": "2026-10-30T06:42:10.512727+00:00",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
     "statut": "ok",
     "debut": "2026-10-30T18:00:00+00:00",
     "competition": "Suède. Superettan",
@@ -3194,6 +2229,1053 @@
       "2 (+2)": "1.136",
       "1 (-2.5)": "5.25",
       "2 (+2.5)": "1.093"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Grenoble Foot 38",
+    "equipe_2": "Dijon FCO",
+    "1X2": {
+      "V2": "2.24",
+      "V1": "3.09",
+      "X": "3.34"
+    },
+    "Total_2.5": {
+      "Plus de": "1.98",
+      "Moins de": "1.77"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "France. Ligue 2",
+    "competition_en": "France. Ligue 2",
+    "competition_id": 12829,
+    "equipe_1_en": "Grenoble Foot 38",
+    "equipe_2_en": "Dijon FCO",
+    "Double_Chance": {
+      "12": "1.3",
+      "2X": "1.34",
+      "1X": "1.61"
+    },
+    "BTTS": {
+      "Oui": "1.76",
+      "Non": "1.956"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.77",
+        "Plus de": "1.98"
+      },
+      "1.5": {
+        "Plus de": "1.28",
+        "Moins de": "3.08"
+      },
+      "2": {
+        "Plus de": "1.47",
+        "Moins de": "2.38"
+      },
+      "3": {
+        "Plus de": "2.73",
+        "Moins de": "1.363"
+      },
+      "3.5": {
+        "Plus de": "3.34",
+        "Moins de": "1.24"
+      }
+    },
+    "Handicap": {
+      "2 (0)": "1.61",
+      "1 (0)": "2.21",
+      "1 (-1)": "5.5",
+      "2 (-1)": "3.34",
+      "1 (+1)": "1.24",
+      "2 (+1)": "1.082",
+      "1 (-1.5)": "6.5",
+      "2 (-1.5)": "4.25",
+      "1 (+1.5)": "1.149",
+      "2 (+1.5)": "1.051"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Metz",
+    "equipe_2": "Pau",
+    "1X2": {
+      "V1": "2.09",
+      "V2": "3.285",
+      "X": "3.48"
+    },
+    "Total_2.5": {
+      "Plus de": "1.83",
+      "Moins de": "1.909"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "France. Ligue 2",
+    "competition_en": "France. Ligue 2",
+    "competition_id": 12829,
+    "equipe_1_en": "Metz",
+    "equipe_2_en": "Pau",
+    "Double_Chance": {
+      "12": "1.28",
+      "1X": "1.3",
+      "2X": "1.7"
+    },
+    "BTTS": {
+      "Oui": "1.67",
+      "Non": "2.079"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.83",
+        "Moins de": "1.909"
+      },
+      "1.5": {
+        "Plus de": "1.222",
+        "Moins de": "3.48"
+      },
+      "2": {
+        "Plus de": "1.363",
+        "Moins de": "2.73"
+      },
+      "3": {
+        "Plus de": "2.38",
+        "Moins de": "1.47"
+      },
+      "3.5": {
+        "Plus de": "2.97",
+        "Moins de": "1.3"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.53",
+      "2 (0)": "2.375",
+      "1 (-1)": "2.97",
+      "2 (-1)": "5.85",
+      "1 (+1)": "1.07",
+      "2 (+1)": "1.3",
+      "1 (-1.5)": "3.78",
+      "2 (-1.5)": "6.8",
+      "1 (+1.5)": "1.043",
+      "2 (+1.5)": "1.189"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Nantes",
+    "equipe_2": "Clermont Foot 63",
+    "1X2": {
+      "V1": "1.46",
+      "X": "4.3",
+      "V2": "6.57"
+    },
+    "Total_2.5": {
+      "Plus de": "1.8",
+      "Moins de": "1.94"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "France. Ligue 2",
+    "competition_en": "France. Ligue 2",
+    "competition_id": 12829,
+    "equipe_1_en": "Nantes",
+    "equipe_2_en": "Clermont Foot",
+    "Double_Chance": {
+      "1X": "1.085",
+      "12": "1.188",
+      "2X": "2.6"
+    },
+    "BTTS": {
+      "Non": "1.781",
+      "Oui": "1.93"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.8",
+        "Moins de": "1.94"
+      },
+      "1.5": {
+        "Plus de": "1.22",
+        "Moins de": "3.5"
+      },
+      "2": {
+        "Plus de": "1.36",
+        "Moins de": "2.74"
+      },
+      "3": {
+        "Plus de": "2.31",
+        "Moins de": "1.5"
+      },
+      "3.5": {
+        "Plus de": "2.875",
+        "Moins de": "1.32"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.53",
+      "1 (-1.5)": "2.22",
+      "1 (0)": "1.12",
+      "2 (0)": "4.7",
+      "1 (-1)": "1.75",
+      "2 (+1)": "1.99",
+      "1 (-2)": "3.34",
+      "2 (+2)": "1.24",
+      "1 (-2.5)": "4.1",
+      "2 (+2.5)": "1.163"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Rodez Aveyron",
+    "equipe_2": "USL Dunkerque",
+    "1X2": {
+      "V1": "1.96",
+      "V2": "3.375",
+      "X": "3.8"
+    },
+    "Total_2.5": {
+      "Plus de": "1.51",
+      "Moins de": "2.26"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "France. Ligue 2",
+    "competition_en": "France. Ligue 2",
+    "competition_id": 12829,
+    "equipe_1_en": "Rodez Aveyron",
+    "equipe_2_en": "USL Dunkerque",
+    "Double_Chance": {
+      "12": "1.24",
+      "1X": "1.285",
+      "2X": "1.79"
+    },
+    "BTTS": {
+      "Oui": "1.5",
+      "Non": "2.415"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.51",
+        "Moins de": "2.26"
+      },
+      "1.5": {
+        "Plus de": "1.122",
+        "Moins de": "4.7"
+      },
+      "2": {
+        "Plus de": "1.193",
+        "Moins de": "3.74"
+      },
+      "3": {
+        "Plus de": "1.85",
+        "Moins de": "1.79"
+      },
+      "3.5": {
+        "Plus de": "2.42",
+        "Moins de": "1.52"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.47",
+      "2 (0)": "2.54",
+      "1 (-1)": "2.625",
+      "2 (-1)": "6.05",
+      "1 (+1)": "1.064",
+      "2 (+1)": "1.38",
+      "1 (-1.5)": "3.34",
+      "2 (-1.5)": "7.1",
+      "1 (+1.5)": "1.038",
+      "2 (+1.5)": "1.24"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Stade Lavallois",
+    "equipe_2": "Boulogne",
+    "1X2": {
+      "V1": "2.49",
+      "V2": "2.82",
+      "X": "3.14"
+    },
+    "Total_2.5": {
+      "Plus de": "2.15",
+      "Moins de": "1.65"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "France. Ligue 2",
+    "competition_en": "France. Ligue 2",
+    "competition_id": 12829,
+    "equipe_1_en": "Stade Lavallois",
+    "equipe_2_en": "Boulogne",
+    "Double_Chance": {
+      "12": "1.33",
+      "1X": "1.39",
+      "2X": "1.49"
+    },
+    "BTTS": {
+      "Oui": "1.84",
+      "Non": "1.864"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.65",
+        "Plus de": "2.15"
+      },
+      "1.5": {
+        "Plus de": "1.33",
+        "Moins de": "2.83"
+      },
+      "2": {
+        "Plus de": "1.571",
+        "Moins de": "2.16"
+      },
+      "3": {
+        "Plus de": "3.08",
+        "Moins de": "1.29"
+      },
+      "3.5": {
+        "Plus de": "3.78",
+        "Moins de": "1.19"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.76",
+      "2 (0)": "1.98",
+      "1 (-1)": "4.1",
+      "2 (-1)": "4.95",
+      "1 (+1)": "1.108",
+      "2 (+1)": "1.162",
+      "1 (-1.5)": "5.05",
+      "2 (-1.5)": "5.9",
+      "1 (+1.5)": "1.068",
+      "2 (+1.5)": "1.103"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Helmond Sport",
+    "equipe_2": "Eindhoven",
+    "1X2": {
+      "V1": "2.08",
+      "V2": "3.08",
+      "X": "3.65"
+    },
+    "Total_2.5": {
+      "Plus de": "1.59",
+      "Moins de": "2.25"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "Pays-Bas. Eerste Divisie",
+    "competition_en": "Netherlands. Eerste Divisie",
+    "competition_id": 2018747,
+    "equipe_1_en": "Helmond Sport",
+    "equipe_2_en": "Eindhoven",
+    "Double_Chance": {
+      "12": "1.24",
+      "1X": "1.32",
+      "2X": "1.67"
+    },
+    "BTTS": {
+      "Oui": "1.51",
+      "Non": "2.39"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.59",
+        "Moins de": "2.25"
+      },
+      "1.5": {
+        "Plus de": "1.146",
+        "Moins de": "4.3"
+      },
+      "2": {
+        "Plus de": "1.23",
+        "Moins de": "3.44"
+      },
+      "3": {
+        "Plus de": "1.88",
+        "Moins de": "1.75"
+      },
+      "3.5": {
+        "Plus de": "2.375",
+        "Moins de": "1.46"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.56",
+      "2 (0)": "2.29",
+      "1 (-1)": "2.83",
+      "2 (-1)": "5.05",
+      "1 (+1)": "1.103",
+      "2 (+1)": "1.33",
+      "1 (-1.5)": "3.5",
+      "2 (-1.5)": "5.8",
+      "1 (+1.5)": "1.071",
+      "2 (+1.5)": "1.22"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Roda JC Kerkrade",
+    "equipe_2": "Alkmaar Zaanstreek II",
+    "1X2": {
+      "V1": "1.686",
+      "V2": "4.09",
+      "X": "4.15"
+    },
+    "Total_2.5": {
+      "Plus de": "1.38",
+      "Moins de": "2.625"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "Pays-Bas. Eerste Divisie",
+    "competition_en": "Netherlands. Eerste Divisie",
+    "competition_id": 2018747,
+    "equipe_1_en": "Roda JC Kerkrade",
+    "equipe_2_en": "AZ Alkmaar II",
+    "Double_Chance": {
+      "12": "1.184",
+      "1X": "1.189",
+      "2X": "2.07"
+    },
+    "BTTS": {
+      "Oui": "1.43",
+      "Non": "2.627"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.7",
+        "Plus de": "2.06"
+      },
+      "2.5": {
+        "Plus de": "1.38",
+        "Moins de": "2.625"
+      },
+      "3": {
+        "Plus de": "1.59",
+        "Moins de": "2.11"
+      },
+      "4": {
+        "Plus de": "2.71",
+        "Moins de": "1.36"
+      },
+      "4.5": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.38",
+      "1 (-1.5)": "2.625",
+      "1 (0)": "1.32",
+      "2 (0)": "3.125",
+      "1 (-1)": "2.07",
+      "2 (+1)": "1.61",
+      "1 (-2)": "4.1",
+      "2 (+2)": "1.16",
+      "1 (-2.5)": "4.8",
+      "2 (+2.5)": "1.115"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Volendam",
+    "equipe_2": "De Graafschap",
+    "1X2": {
+      "V1": "1.97",
+      "V2": "2.995",
+      "X": "4.2"
+    },
+    "Total_2.5": {
+      "Plus de": "1.196",
+      "Moins de": "3.72"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "Pays-Bas. Eerste Divisie",
+    "competition_en": "Netherlands. Eerste Divisie",
+    "competition_id": 2018747,
+    "equipe_1_en": "Volendam",
+    "equipe_2_en": "De Graafschap",
+    "Double_Chance": {
+      "12": "1.18",
+      "1X": "1.34",
+      "2X": "1.75"
+    },
+    "BTTS": {
+      "Oui": "1.24",
+      "Non": "3.65"
+    },
+    "Totals": {
+      "3.5": {
+        "Plus de": "1.6",
+        "Moins de": "2.23"
+      },
+      "2.5": {
+        "Plus de": "1.196",
+        "Moins de": "3.72"
+      },
+      "3": {
+        "Plus de": "1.28",
+        "Moins de": "3.1"
+      },
+      "4": {
+        "Plus de": "1.85",
+        "Moins de": "1.78"
+      },
+      "4.5": {
+        "Plus de": "2.26",
+        "Moins de": "1.51"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.54",
+      "2 (0)": "2.33",
+      "1 (-1)": "2.46",
+      "2 (-1)": "4.45",
+      "1 (+1)": "1.135",
+      "2 (+1)": "1.43",
+      "1 (-1.5)": "2.97",
+      "2 (-1.5)": "5.1",
+      "1 (+1.5)": "1.099",
+      "2 (+1.5)": "1.3"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Waalwijk",
+    "equipe_2": "Almere City",
+    "1X2": {
+      "V1": "2.15",
+      "V2": "2.85",
+      "X": "3.8"
+    },
+    "Total_2.5": {
+      "Plus de": "1.4",
+      "Moins de": "2.56"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "Pays-Bas. Eerste Divisie",
+    "competition_en": "Netherlands. Eerste Divisie",
+    "competition_id": 2018747,
+    "equipe_1_en": "Waalwijk",
+    "equipe_2_en": "Almere City",
+    "Double_Chance": {
+      "12": "1.22",
+      "1X": "1.37",
+      "2X": "1.63"
+    },
+    "BTTS": {
+      "Oui": "1.39",
+      "Non": "2.772"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.68",
+        "Plus de": "2.09"
+      },
+      "2.5": {
+        "Plus de": "1.4",
+        "Moins de": "2.56"
+      },
+      "3": {
+        "Plus de": "1.63",
+        "Moins de": "2.04"
+      },
+      "4": {
+        "Plus de": "2.76",
+        "Moins de": "1.35"
+      },
+      "4.5": {
+        "Plus de": "3.28",
+        "Moins de": "1.25"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.63",
+      "2 (0)": "2.15",
+      "1 (-1)": "2.92",
+      "2 (-1)": "4.4",
+      "1 (+1)": "1.139",
+      "2 (+1)": "1.31",
+      "1 (-1.5)": "3.58",
+      "2 (-1.5)": "5.15",
+      "1 (+1.5)": "1.098",
+      "2 (+1.5)": "1.21"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "à domicile",
+    "equipe_2": "à l'extérieur",
+    "1X2": {
+      "V1": "1.544",
+      "V2": "3.28",
+      "X": "8.8"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:00:00+00:00",
+    "competition": "Pays-Bas. Eerste Divisie",
+    "competition_en": "Netherlands. Eerste Divisie",
+    "competition_id": 2018747,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
+    "Totals": {
+      "14.5": {
+        "Moins de": "1.757",
+        "Plus de": "2.068"
+      },
+      "12.5": {
+        "Plus de": "1.475",
+        "Moins de": "2.668"
+      },
+      "13.5": {
+        "Plus de": "1.729",
+        "Moins de": "2.109"
+      },
+      "15.5": {
+        "Plus de": "2.572",
+        "Moins de": "1.506"
+      },
+      "16.5": {
+        "Plus de": "3.345",
+        "Moins de": "1.326"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "1.791",
+      "2 (+1.5)": "2.023",
+      "1 (-1)": "1.624",
+      "2 (-1)": "4.3",
+      "1 (+1)": "1.219",
+      "2 (+1)": "2.29",
+      "1 (-2)": "1.964",
+      "2 (+2)": "1.84",
+      "1 (-2.5)": "2.162",
+      "2 (+2.5)": "1.695"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Gornik Zabrze",
+    "equipe_2": "Legia Varsovie",
+    "1X2": {
+      "V1": "2.08",
+      "X": "3.28",
+      "V2": "3.405"
+    },
+    "Total_2.5": {
+      "Plus de": "2.09",
+      "Moins de": "1.68"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:30:00+00:00",
+    "competition": "Championnat de Pologne",
+    "competition_en": "Poland. Ekstraklasa",
+    "competition_id": 27731,
+    "equipe_1_en": "Gornik Zabrze",
+    "equipe_2_en": "Legia Warsaw",
+    "Double_Chance": {
+      "1X": "1.27",
+      "12": "1.285",
+      "2X": "1.67"
+    },
+    "BTTS": {
+      "Oui": "1.85",
+      "Non": "1.854"
+    },
+    "Totals": {
+      "2.5": {
+        "Moins de": "1.68",
+        "Plus de": "2.09"
+      },
+      "1.5": {
+        "Plus de": "1.32",
+        "Moins de": "2.875"
+      },
+      "2": {
+        "Plus de": "1.55",
+        "Moins de": "2.18"
+      },
+      "3": {
+        "Plus de": "2.94",
+        "Moins de": "1.31"
+      },
+      "3.5": {
+        "Plus de": "3.58",
+        "Moins de": "1.21"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.5",
+      "2 (0)": "2.43",
+      "1 (-1)": "3.04",
+      "2 (-1)": "6.25",
+      "1 (+1)": "1.058",
+      "2 (+1)": "1.29",
+      "1 (-1.5)": "3.85",
+      "2 (-1.5)": "7.2",
+      "1 (+1.5)": "1.035",
+      "2 (+1.5)": "1.182"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Newport County",
+    "equipe_2": "Chesterfield",
+    "1X2": {
+      "V2": "1.73",
+      "X": "3.7",
+      "V1": "4.33"
+    },
+    "Total_2.5": {
+      "Plus de": "1.76",
+      "Moins de": "1.98"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:45:00+00:00",
+    "competition": "Angleterre. Ligue 2",
+    "competition_en": "England. League Two",
+    "competition_id": 24637,
+    "equipe_1_en": "Newport County",
+    "equipe_2_en": "Chesterfield",
+    "Double_Chance": {
+      "2X": "1.17",
+      "12": "1.23",
+      "1X": "2"
+    },
+    "BTTS": {
+      "Oui": "1.71",
+      "Non": "2.018"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.76",
+        "Moins de": "1.98"
+      },
+      "1.5": {
+        "Plus de": "1.2",
+        "Moins de": "3.68"
+      },
+      "2": {
+        "Plus de": "1.33",
+        "Moins de": "2.84"
+      },
+      "3": {
+        "Plus de": "2.24",
+        "Moins de": "1.52"
+      },
+      "3.5": {
+        "Plus de": "2.81",
+        "Moins de": "1.333"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.32",
+      "2 (-1.5)": "2.875",
+      "1 (0)": "3.24",
+      "2 (0)": "1.3",
+      "2 (-1)": "2.21",
+      "1 (+1)": "1.53",
+      "2 (-2)": "4.9",
+      "1 (+2)": "1.109",
+      "2 (-2.5)": "5.7",
+      "1 (+2.5)": "1.075"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Zulte Waregem",
+    "equipe_2": "Club Bruges",
+    "1X2": {
+      "V2": "1.416",
+      "X": "5.08",
+      "V1": "6.92"
+    },
+    "Total_2.5": {
+      "Plus de": "1.408",
+      "Moins de": "2.796"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T19:45:00+00:00",
+    "competition": "Belgique. Jupiler Pro League",
+    "competition_en": "Belgium. Jupiler League",
+    "competition_id": 28787,
+    "equipe_1_en": "Zulte Waregem",
+    "equipe_2_en": "Club Brugge",
+    "Double_Chance": {
+      "2X": "1.101",
+      "12": "1.168",
+      "1X": "2.885"
+    },
+    "BTTS": {
+      "Oui": "1.56",
+      "Non": "2.276"
+    },
+    "Totals": {
+      "3.5": {
+        "Moins de": "1.778",
+        "Plus de": "2.064"
+      },
+      "2.5": {
+        "Plus de": "1.408",
+        "Moins de": "2.796"
+      },
+      "3": {
+        "Plus de": "1.63",
+        "Moins de": "2.243"
+      },
+      "4": {
+        "Plus de": "2.729",
+        "Moins de": "1.445"
+      },
+      "4.5": {
+        "Plus de": "3.32",
+        "Moins de": "1.307"
+      }
+    },
+    "Handicap": {
+      "1 (+1.5)": "1.783",
+      "2 (-1.5)": "2.057",
+      "1 (0)": "5.34",
+      "2 (0)": "1.113",
+      "2 (-1)": "1.585",
+      "1 (+1)": "2.277",
+      "2 (-2)": "2.799",
+      "1 (+2)": "1.418",
+      "2 (-2.5)": "3.38",
+      "1 (+2.5)": "1.288"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Casa Pia",
+    "equipe_2": "Sporting Clube de Portugal",
+    "1X2": {
+      "V2": "1.308",
+      "X": "5.91",
+      "V1": "10.2"
+    },
+    "Total_2.5": {
+      "Plus de": "1.641",
+      "Moins de": "2.371"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T20:15:00+00:00",
+    "competition": "Portugal. Primeira Liga",
+    "competition_en": "Portugal. Primeira Liga",
+    "competition_id": 3007689,
+    "equipe_1_en": "Casa Pia",
+    "equipe_2_en": "Sporting Clube de Portugal",
+    "Double_Chance": {
+      "2X": "1.06",
+      "12": "1.153",
+      "1X": "3.68"
+    },
+    "BTTS": {
+      "Non": "1.761",
+      "Oui": "1.95"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.641",
+        "Moins de": "2.371"
+      },
+      "1.5": {
+        "Plus de": "1.184",
+        "Moins de": "4.485"
+      },
+      "2": {
+        "Plus de": "1.28",
+        "Moins de": "3.67"
+      },
+      "3": {
+        "Plus de": "1.963",
+        "Moins de": "1.858"
+      },
+      "3.5": {
+        "Plus de": "2.451",
+        "Moins de": "1.539"
+      }
+    },
+    "Handicap": {
+      "2 (-1.5)": "1.903",
+      "1 (+1.5)": "1.978",
+      "1 (0)": "6.98",
+      "2 (0)": "1.062",
+      "2 (-1)": "1.433",
+      "1 (+1)": "2.726",
+      "2 (-2)": "2.453",
+      "1 (+2)": "1.554",
+      "2 (-2.5)": "2.991",
+      "1 (+2.5)": "1.371"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "Deportivo Pereira",
+    "equipe_2": "Jaguares de Cordoba",
+    "1X2": {
+      "V1": "2.46",
+      "V2": "2.67",
+      "X": "3.28"
+    },
+    "Total_2.5": {
+      "Plus de": "1.84",
+      "Moins de": "1.89"
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T21:00:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Deportivo Pereira",
+    "equipe_2_en": "Jaguares de Cordoba",
+    "Double_Chance": {
+      "12": "1.285",
+      "1X": "1.41",
+      "2X": "1.48"
+    },
+    "BTTS": {
+      "Oui": "1.65",
+      "Non": "2.11"
+    },
+    "Totals": {
+      "2.5": {
+        "Plus de": "1.84",
+        "Moins de": "1.89"
+      },
+      "1.5": {
+        "Plus de": "1.24",
+        "Moins de": "3.34"
+      },
+      "2": {
+        "Plus de": "1.38",
+        "Moins de": "2.64"
+      },
+      "3": {
+        "Plus de": "2.36",
+        "Moins de": "1.47"
+      },
+      "3.5": {
+        "Plus de": "2.92",
+        "Moins de": "1.31"
+      }
+    },
+    "Handicap": {
+      "1 (0)": "1.79",
+      "2 (0)": "1.93",
+      "1 (-1)": "3.84",
+      "2 (-1)": "4.3",
+      "1 (+1)": "1.146",
+      "2 (+1)": "1.184",
+      "1 (-1.5)": "4.65",
+      "2 (-1.5)": "5.15",
+      "1 (+1.5)": "1.098",
+      "2 (+1.5)": "1.124"
+    }
+  },
+  {
+    "bookmaker": "betwinner",
+    "equipe_1": "à domicile",
+    "equipe_2": "à l'extérieur",
+    "1X2": {
+      "V1": "1.7",
+      "V2": "3.37",
+      "X": "5.21"
+    },
+    "Total_2.5": {
+      "Plus de": null,
+      "Moins de": null
+    },
+    "url": "https://betwinner.cm/fr/line/football",
+    "derniere_maj": "2026-10-30T09:44:13.275785+00:00",
+    "statut": "ok",
+    "debut": "2026-10-30T21:00:00+00:00",
+    "competition": "Championnat de Colombie. Categoria Primera A",
+    "competition_en": "Colombia. Categoria Primera A",
+    "competition_id": 214147,
+    "equipe_1_en": "Home",
+    "equipe_2_en": "Away",
+    "Double_Chance": {
+      "12": "1.136",
+      "1X": "1.284",
+      "2X": "2.241"
+    },
+    "BTTS": {
+      "Oui": "1.14",
+      "Non": "5.69"
+    },
+    "Totals": {
+      "5.5": {
+        "Moins de": "1.736",
+        "Plus de": "2.098"
+      },
+      "3.5": {
+        "Plus de": "1.25",
+        "Moins de": "3.955"
+      },
+      "4.5": {
+        "Plus de": "1.575",
+        "Moins de": "2.393"
+      },
+      "6.5": {
+        "Plus de": "3.06",
+        "Moins de": "1.378"
+      },
+      "7.5": {
+        "Plus de": "4.975",
+        "Moins de": "1.174"
+      }
+    },
+    "Handicap": {
+      "2 (+1.5)": "1.618",
+      "1 (-1.5)": "2.301",
+      "1 (-1)": "1.948",
+      "2 (-1)": "5.44",
+      "1 (+1)": "1.151",
+      "2 (+1)": "1.854",
+      "1 (-2)": "3.065",
+      "2 (+2)": "1.376",
+      "1 (-2.5)": "3.58",
+      "2 (+2.5)": "1.293"
     }
   }
 ]
