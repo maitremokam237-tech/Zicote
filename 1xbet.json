@@ -1,152 +1,6 @@
 [
   {
     "bookmaker": "1xbet",
-    "equipe_1": "Le Havre",
-    "equipe_2": "Paris Saint-Germain",
-    "1X2": {
-      "V1": "8.9",
-      "X": "6.04",
-      "V2": "1.355"
-    },
-    "Total_2.5": {
-      "Plus de": "1.417",
-      "Moins de": "2.865"
-    },
-    "Double_Chance": {
-      "1X": "3.46",
-      "12": "1.162",
-      "2X": "1.094"
-    },
-    "BTTS": {
-      "Oui": "1.666",
-      "Non": "2.106"
-    },
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.001",
-        "Moins de": "11.6"
-      },
-      "1": {
-        "Plus de": "1.021",
-        "Moins de": "9.95"
-      },
-      "1.5": {
-        "Plus de": "1.104",
-        "Moins de": "5.99"
-      },
-      "2": {
-        "Plus de": "1.15",
-        "Moins de": "5.1"
-      },
-      "2.5": {
-        "Plus de": "1.417",
-        "Moins de": "2.865"
-      },
-      "3": {
-        "Plus de": "1.647",
-        "Moins de": "2.311"
-      },
-      "3.5": {
-        "Plus de": "2.125",
-        "Moins de": "1.836"
-      },
-      "4": {
-        "Plus de": "2.812",
-        "Moins de": "1.467"
-      },
-      "4.5": {
-        "Plus de": "3.34",
-        "Moins de": "1.332"
-      },
-      "5": {
-        "Plus de": "5.28",
-        "Moins de": "1.149"
-      },
-      "5.5": {
-        "Plus de": "5.87",
-        "Moins de": "1.116"
-      },
-      "6": {
-        "Plus de": "9.8",
-        "Moins de": "1.031"
-      },
-      "6.5": {
-        "Plus de": "9.35",
-        "Moins de": "1.031"
-      },
-      "7.5": {
-        "Plus de": "9.8",
-        "Moins de": "1.021"
-      },
-      "8.5": {
-        "Plus de": "11.6",
-        "Moins de": "1.001"
-      }
-    },
-    "Handicap": {
-      "1 (0)": "5.76",
-      "2 (0)": "1.097",
-      "1 (+1)": "2.674",
-      "2 (-1)": "1.459",
-      "1 (+1.5)": "2.002",
-      "2 (-1.5)": "1.939",
-      "1 (+2)": "1.579",
-      "2 (-2)": "2.459",
-      "1 (+2.5)": "1.382",
-      "2 (-2.5)": "3.02",
-      "1 (+3)": "1.169",
-      "2 (-3)": "4.77",
-      "1 (+3.5)": "1.126",
-      "2 (-3.5)": "5.39",
-      "1 (+4)": "1.021",
-      "2 (-4)": "9.95",
-      "1 (+4.5)": "1.001",
-      "2 (-4.5)": "11.6"
-    },
-    "Score_Exact": {
-      "1-0": "23",
-      "0-0": "11.6",
-      "0-1": "9.5",
-      "2-0": "50",
-      "1-1": "10",
-      "0-2": "7.5",
-      "2-1": "20",
-      "2-2": "15",
-      "1-2": "8.5",
-      "3-0": "100",
-      "3-3": "50",
-      "0-3": "9",
-      "3-1": "60",
-      "4-4": "100",
-      "1-3": "9.5",
-      "3-2": "46",
-      "5-5": "100",
-      "2-3": "15",
-      "4-0": "100",
-      "6-6": "100",
-      "0-4": "13",
-      "4-1": "100",
-      "7-7": "100",
-      "1-4": "13",
-      "4-2": "100",
-      "8-8": "100",
-      "2-4": "23",
-      "4-3": "100",
-      "9-9": "100",
-      "3-4": "80"
-    },
-    "url": "https://1xbet.cm/fr/line/football/12821-france-ligue-1/381244036-le-havre-paris-saint-germain",
-    "derniere_maj": "2026-10-30T15:46:24.299070+00:00",
-    "statut": "ok",
-    "competition_id": 12821,
-    "competition": "France. Ligue 1",
-    "equipe_1_en": "Le Havre",
-    "equipe_2_en": "Paris Saint-Germain",
-    "debut": "2026-10-30T18:00:00+00:00",
-    "competition_en": "France. Ligue 1"
-  },
-  {
-    "bookmaker": "1xbet",
     "equipe_1": "Villarreal",
     "equipe_2": "Espanyol",
     "1X2": {
@@ -213,12 +67,12 @@
         "Moins de": "1.116"
       },
       "6": {
-        "Plus de": "9.8",
-        "Moins de": "1.031"
+        "Plus de": "7.7",
+        "Moins de": "1.061"
       },
       "6.5": {
-        "Plus de": "9.35",
-        "Moins de": "1.031"
+        "Plus de": "8.55",
+        "Moins de": "1.041"
       },
       "7.5": {
         "Plus de": "9.8",
@@ -248,22 +102,22 @@
       "2 (0)": "5.3"
     },
     "Score_Exact": {
-      "1-0": "10",
+      "1-0": "9.5",
       "0-0": "11.6",
       "0-1": "21",
-      "2-0": "8.5",
-      "1-1": "9.5",
+      "2-0": "8",
+      "1-1": "10",
       "0-2": "46",
       "2-1": "8",
       "2-2": "13",
       "1-2": "17",
       "3-0": "10",
-      "3-3": "36",
-      "0-3": "90",
-      "3-1": "9.5",
+      "3-3": "41",
+      "0-3": "100",
+      "3-1": "10",
       "4-4": "100",
-      "1-3": "46",
-      "3-2": "14",
+      "1-3": "50",
+      "3-2": "15",
       "5-5": "100",
       "2-3": "36",
       "4-0": "14",
@@ -272,15 +126,15 @@
       "4-1": "14",
       "7-7": "100",
       "1-4": "100",
-      "4-2": "21",
+      "4-2": "23",
       "8-8": "100",
       "2-4": "100",
-      "4-3": "65",
+      "4-3": "60",
       "9-9": "100",
       "3-4": "100"
     },
     "url": "https://1xbet.cm/fr/line/football/127733-spain-la-liga/381250506-villarreal-espanyol",
-    "derniere_maj": "2026-10-30T15:46:11.057487+00:00",
+    "derniere_maj": "2026-10-30T18:40:50.167649+00:00",
     "statut": "ok",
     "competition_id": 127733,
     "competition": "Espagne. La Liga",
@@ -288,144 +142,6 @@
     "equipe_2_en": "Espanyol",
     "debut": "2026-10-30T20:00:00+00:00",
     "competition_en": "Spain. La Liga"
-  },
-  {
-    "bookmaker": "1xbet",
-    "equipe_1": "Konyaspor",
-    "equipe_2": "Galatasaray",
-    "1X2": {
-      "V1": "5.11",
-      "X": "4.38",
-      "V2": "1.648"
-    },
-    "Total_2.5": {
-      "Plus de": "1.649",
-      "Moins de": "2.355"
-    },
-    "Double_Chance": {
-      "1X": "2.329",
-      "12": "1.238",
-      "2X": "1.19"
-    },
-    "BTTS": {
-      "Oui": "1.63",
-      "Non": "2.142"
-    },
-    "Totals": {
-      "0.5": {
-        "Plus de": "1.001",
-        "Moins de": "11.6"
-      },
-      "1": {
-        "Plus de": "1.021",
-        "Moins de": "10.2"
-      },
-      "1.5": {
-        "Plus de": "1.186",
-        "Moins de": "4.445"
-      },
-      "2": {
-        "Plus de": "1.284",
-        "Moins de": "3.63"
-      },
-      "2.5": {
-        "Plus de": "1.649",
-        "Moins de": "2.355"
-      },
-      "3": {
-        "Plus de": "1.986",
-        "Moins de": "1.839"
-      },
-      "3.5": {
-        "Plus de": "2.484",
-        "Moins de": "1.527"
-      },
-      "4": {
-        "Plus de": "3.63",
-        "Moins de": "1.267"
-      },
-      "4.5": {
-        "Plus de": "4.235",
-        "Moins de": "1.199"
-      },
-      "5": {
-        "Plus de": "7.04",
-        "Moins de": "1.072"
-      },
-      "5.5": {
-        "Plus de": "7.55",
-        "Moins de": "1.056"
-      },
-      "6.5": {
-        "Plus de": "9.7",
-        "Moins de": "1.021"
-      },
-      "7.5": {
-        "Plus de": "11.6",
-        "Moins de": "1.001"
-      }
-    },
-    "Handicap": {
-      "1 (-1.5)": "11.6",
-      "2 (+1.5)": "1.001",
-      "1 (-1)": "9",
-      "2 (+1)": "1.034",
-      "1 (0)": "3.705",
-      "2 (0)": "1.253",
-      "1 (+1)": "1.806",
-      "2 (-1)": "2",
-      "1 (+1.5)": "1.542",
-      "2 (-1.5)": "2.614",
-      "1 (+2)": "1.246",
-      "2 (-2)": "3.985",
-      "1 (+2.5)": "1.176",
-      "2 (-2.5)": "4.605",
-      "1 (+3)": "1.048",
-      "2 (-3)": "8.1",
-      "1 (+3.5)": "1.031",
-      "2 (-3.5)": "8.65"
-    },
-    "Score_Exact": {
-      "1-0": "15",
-      "0-0": "11.6",
-      "0-1": "8.5",
-      "2-0": "26",
-      "1-1": "8",
-      "0-2": "8",
-      "2-1": "14",
-      "2-2": "13",
-      "1-2": "7.5",
-      "3-0": "70",
-      "3-3": "41",
-      "0-3": "12",
-      "3-1": "36",
-      "4-4": "100",
-      "1-3": "11",
-      "3-2": "31",
-      "5-5": "100",
-      "2-3": "15",
-      "4-0": "100",
-      "6-6": "100",
-      "0-4": "18",
-      "4-1": "100",
-      "7-7": "100",
-      "1-4": "18",
-      "4-2": "100",
-      "8-8": "100",
-      "2-4": "31",
-      "4-3": "100",
-      "9-9": "100",
-      "3-4": "80"
-    },
-    "url": "https://1xbet.cm/fr/line/football/11113-turkey-superliga/382925448-konyaspor-galatasaray",
-    "derniere_maj": "2026-10-30T15:46:10.912564+00:00",
-    "statut": "ok",
-    "competition_id": 11113,
-    "competition": "Championnat de Turquie. Süper Lig",
-    "equipe_1_en": "Konyaspor",
-    "equipe_2_en": "Galatasaray",
-    "debut": "2026-10-30T17:00:00+00:00",
-    "competition_en": "Turkey. SuperLiga"
   },
   {
     "bookmaker": "1xbet",
@@ -560,7 +276,7 @@
       "3-4": "100"
     },
     "url": "https://1xbet.cm/fr/line/football/3007689-portugal-primeira-liga/383653744-casa-pia-sporting-clube-de-portugal",
-    "derniere_maj": "2026-10-30T15:46:11.103396+00:00",
+    "derniere_maj": "2026-10-30T18:40:50.063519+00:00",
     "statut": "ok",
     "competition_id": 3007689,
     "competition": "Portugal. Primeira Liga",
@@ -642,55 +358,55 @@
       }
     },
     "Handicap": {
-      "1 (-2)": "11.6",
-      "2 (+2)": "1.001",
-      "1 (-1.5)": "5.58",
-      "2 (+1.5)": "1.122",
-      "1 (-1)": "4.655",
-      "2 (+1)": "1.197",
+      "1 (-2.5)": "11.6",
+      "2 (+2.5)": "1.001",
+      "1 (-2)": "10.4",
+      "2 (+2)": "1.021",
+      "1 (-1.5)": "5.62",
+      "2 (+1.5)": "1.13",
+      "1 (-1)": "4.68",
+      "2 (+1)": "1.203",
       "1 (0)": "1.96",
       "2 (0)": "1.98",
-      "1 (+1)": "1.19",
-      "2 (-1)": "4.76",
-      "1 (+1.5)": "1.116",
-      "2 (-1.5)": "5.73",
-      "1 (+2)": "1.001",
-      "2 (-2)": "11.6"
+      "1 (+1)": "1.18",
+      "2 (-1)": "4.72",
+      "1 (+1.5)": "1.101",
+      "2 (-1.5)": "5.65"
     },
     "Score_Exact": {
       "1-0": "8",
       "0-0": "11.6",
-      "0-1": "8.5",
-      "2-0": "13",
+      "0-1": "8",
+      "2-0": "12",
       "1-1": "6",
       "0-2": "13",
       "2-1": "9",
       "2-2": "12",
       "1-2": "9.5",
-      "3-0": "26",
+      "3-0": "23",
       "3-3": "50",
       "0-3": "26",
       "3-1": "18",
       "4-4": "100",
-      "1-3": "19",
+      "1-3": "26",
       "3-2": "23",
       "5-5": "100",
-      "2-3": "23",
-      "4-0": "70",
+      "2-3": "26",
+      "4-0": "65",
       "6-6": "100",
-      "0-4": "80",
+      "0-4": "75",
       "4-1": "50",
       "7-7": "100",
       "1-4": "60",
-      "4-2": "70",
+      "4-2": "80",
       "8-8": "100",
-      "2-4": "75",
+      "2-4": "80",
       "4-3": "100",
       "9-9": "100",
       "3-4": "100"
     },
     "url": "https://1xbet.cm/fr/line/football/12821-france-ligue-1/381244362-lille-osc-rc-lens",
-    "derniere_maj": "2026-10-30T15:46:24.272849+00:00",
+    "derniere_maj": "2026-10-30T18:40:50.261206+00:00",
     "statut": "ok",
     "competition_id": 12821,
     "competition": "France. Ligue 1",
@@ -698,6 +414,288 @@
     "equipe_2_en": "RC Lens",
     "debut": "2026-10-30T20:05:00+00:00",
     "competition_en": "France. Ligue 1"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Elversberg",
+    "equipe_2": "1. FSV Mayence 05",
+    "1X2": {
+      "V1": "3.4",
+      "X": "4.065",
+      "V2": "2.103"
+    },
+    "Total_2.5": {
+      "Plus de": "1.54",
+      "Moins de": "2.468"
+    },
+    "Double_Chance": {
+      "1X": "1.817",
+      "12": "1.283",
+      "2X": "1.366"
+    },
+    "BTTS": {
+      "Oui": "1.47",
+      "Non": "2.529"
+    },
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.001",
+        "Moins de": "11.6"
+      },
+      "1": {
+        "Plus de": "1.021",
+        "Moins de": "9.95"
+      },
+      "1.5": {
+        "Plus de": "1.15",
+        "Moins de": "4.91"
+      },
+      "2": {
+        "Plus de": "1.219",
+        "Moins de": "4.085"
+      },
+      "2.5": {
+        "Plus de": "1.54",
+        "Moins de": "2.468"
+      },
+      "3": {
+        "Plus de": "1.864",
+        "Moins de": "1.987"
+      },
+      "3.5": {
+        "Plus de": "2.412",
+        "Moins de": "1.665"
+      },
+      "4": {
+        "Plus de": "3.335",
+        "Moins de": "1.351"
+      },
+      "4.5": {
+        "Plus de": "3.875",
+        "Moins de": "1.255"
+      },
+      "5": {
+        "Plus de": "6.38",
+        "Moins de": "1.101"
+      },
+      "5.5": {
+        "Plus de": "6.81",
+        "Moins de": "1.08"
+      },
+      "6.5": {
+        "Plus de": "9.95",
+        "Moins de": "1.021"
+      },
+      "7.5": {
+        "Plus de": "11.6",
+        "Moins de": "1.001"
+      }
+    },
+    "Handicap": {
+      "1 (-1.5)": "6.21",
+      "2 (+1.5)": "1.082",
+      "1 (-1)": "5.58",
+      "2 (+1)": "1.136",
+      "1 (0)": "2.548",
+      "2 (0)": "1.606",
+      "1 (+1)": "1.44",
+      "2 (-1)": "2.85",
+      "1 (+1.5)": "1.287",
+      "2 (-1.5)": "3.495",
+      "1 (+2)": "1.105",
+      "2 (-2)": "5.87",
+      "1 (+2.5)": "1.075",
+      "2 (-2.5)": "6.46"
+    },
+    "Score_Exact": {
+      "1-0": "13",
+      "0-0": "11.6",
+      "0-1": "10",
+      "2-0": "19",
+      "1-1": "7.5",
+      "0-2": "11",
+      "2-1": "11",
+      "2-2": "10",
+      "1-2": "8",
+      "3-0": "41",
+      "3-3": "26",
+      "0-3": "15",
+      "3-1": "26",
+      "4-4": "100",
+      "1-3": "13",
+      "3-2": "20",
+      "5-5": "100",
+      "2-3": "15",
+      "4-0": "100",
+      "6-6": "100",
+      "0-4": "34",
+      "4-1": "60",
+      "7-7": "100",
+      "1-4": "23",
+      "4-2": "60",
+      "8-8": "100",
+      "2-4": "34",
+      "4-3": "80",
+      "9-9": "100",
+      "3-4": "60"
+    },
+    "url": "https://1xbet.cm/fr/line/football/96463-germany-bundesliga/381256530-elversberg-1-fsv-mainz-05",
+    "derniere_maj": "2026-10-30T18:40:50.062140+00:00",
+    "statut": "ok",
+    "competition_id": 96463,
+    "competition": "Allemagne. Bundesliga",
+    "equipe_1_en": "Elversberg",
+    "equipe_2_en": "1. FSV Mainz 05",
+    "debut": "2026-10-30T19:30:00+00:00",
+    "competition_en": "Germany. Bundesliga"
+  },
+  {
+    "bookmaker": "1xbet",
+    "equipe_1": "Barcelone",
+    "equipe_2": "Deportivo Alavés",
+    "1X2": {
+      "V1": "1.118",
+      "X": "12.2",
+      "V2": "25"
+    },
+    "Total_2.5": {
+      "Plus de": "1.228",
+      "Moins de": "4.105"
+    },
+    "Double_Chance": {
+      "1X": "1.002",
+      "12": "1.059",
+      "2X": "7.6"
+    },
+    "BTTS": {
+      "Oui": "1.94",
+      "Non": "1.787"
+    },
+    "Totals": {
+      "0.5": {
+        "Plus de": "1.001",
+        "Moins de": "11.6"
+      },
+      "1.5": {
+        "Plus de": "1.036",
+        "Moins de": "8.85"
+      },
+      "2": {
+        "Plus de": "1.057",
+        "Moins de": "8.1"
+      },
+      "2.5": {
+        "Plus de": "1.228",
+        "Moins de": "4.105"
+      },
+      "3": {
+        "Plus de": "1.326",
+        "Moins de": "3.465"
+      },
+      "3.5": {
+        "Plus de": "1.665",
+        "Moins de": "2.412"
+      },
+      "4": {
+        "Plus de": "1.93",
+        "Moins de": "1.93"
+      },
+      "4.5": {
+        "Plus de": "2.339",
+        "Moins de": "1.611"
+      },
+      "5": {
+        "Plus de": "3.17",
+        "Moins de": "1.348"
+      },
+      "5.5": {
+        "Plus de": "3.695",
+        "Moins de": "1.26"
+      },
+      "6": {
+        "Plus de": "5.68",
+        "Moins de": "1.119"
+      },
+      "6.5": {
+        "Plus de": "5.89",
+        "Moins de": "1.105"
+      },
+      "7.5": {
+        "Plus de": "8.5",
+        "Moins de": "1.041"
+      },
+      "8.5": {
+        "Plus de": "9.75",
+        "Moins de": "1.021"
+      },
+      "9.5": {
+        "Plus de": "11.6",
+        "Moins de": "1.001"
+      }
+    },
+    "Handicap": {
+      "1 (-5.5)": "7.6",
+      "2 (+5.5)": "1.048",
+      "1 (-5)": "7.06",
+      "2 (+5)": "1.066",
+      "1 (-4.5)": "4.37",
+      "2 (+4.5)": "1.184",
+      "1 (-4)": "3.755",
+      "2 (+4)": "1.252",
+      "1 (-3.5)": "2.654",
+      "2 (+3.5)": "1.475",
+      "1 (-3)": "2.22",
+      "2 (+3)": "1.696",
+      "1 (-2.5)": "1.844",
+      "2 (+2.5)": "2.114",
+      "1 (-2)": "1.463",
+      "2 (+2)": "2.763",
+      "1 (-1.5)": "1.311",
+      "2 (+1.5)": "3.33",
+      "1 (-1)": "1.124",
+      "2 (+1)": "5.37"
+    },
+    "Score_Exact": {
+      "1-0": "14",
+      "0-0": "11.6",
+      "0-1": "60",
+      "2-0": "9",
+      "1-1": "15",
+      "0-2": "100",
+      "2-1": "11",
+      "2-2": "21",
+      "1-2": "46",
+      "3-0": "8",
+      "3-3": "65",
+      "0-3": "100",
+      "3-1": "9.5",
+      "4-4": "100",
+      "1-3": "100",
+      "3-2": "19",
+      "5-5": "100",
+      "2-3": "90",
+      "4-0": "9",
+      "6-6": "100",
+      "0-4": "100",
+      "4-1": "11",
+      "7-7": "100",
+      "1-4": "100",
+      "4-2": "21",
+      "8-8": "100",
+      "2-4": "100",
+      "4-3": "75",
+      "9-9": "100",
+      "3-4": "100"
+    },
+    "url": "https://1xbet.cm/fr/line/football/127733-spain-la-liga/381250556-barcelona-deportivo-alaves",
+    "derniere_maj": "2026-10-30T18:40:50.255419+00:00",
+    "statut": "ok",
+    "competition_id": 127733,
+    "competition": "Espagne. La Liga",
+    "equipe_1_en": "Barcelona",
+    "equipe_2_en": "Deportivo Alaves",
+    "debut": "2026-10-31T20:00:00+00:00",
+    "competition_en": "Spain. La Liga"
   },
   {
     "bookmaker": "1xbet",
@@ -775,7 +773,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274786-city--united-",
-    "derniere_maj": "2026-10-30T15:46:10.906013+00:00",
+    "derniere_maj": "2026-10-30T18:40:50.051501+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -859,7 +857,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274836-city--real-",
-    "derniere_maj": "2026-10-30T15:46:10.847205+00:00",
+    "derniere_maj": "2026-10-30T18:40:50.258938+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -940,7 +938,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274810-indy--louisville-",
-    "derniere_maj": "2026-10-30T15:46:10.842181+00:00",
+    "derniere_maj": "2026-10-30T18:40:50.226327+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1024,7 +1022,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274774-indy--rowdies-",
-    "derniere_maj": "2026-10-30T15:46:22.409403+00:00",
+    "derniere_maj": "2026-10-30T18:41:06.251257+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1105,7 +1103,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274802-indy--tulsa-",
-    "derniere_maj": "2026-10-30T15:46:22.389927+00:00",
+    "derniere_maj": "2026-10-30T18:41:06.541072+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1189,7 +1187,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274798-louisville--tulsa-",
-    "derniere_maj": "2026-10-30T15:46:22.414830+00:00",
+    "derniere_maj": "2026-10-30T18:41:06.549564+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1270,7 +1268,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274812-louisville--rowdies-",
-    "derniere_maj": "2026-10-30T15:46:22.268764+00:00",
+    "derniere_maj": "2026-10-30T18:41:06.274979+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1351,7 +1349,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274816-revolution--real-",
-    "derniere_maj": "2026-10-30T15:46:22.389346+00:00",
+    "derniere_maj": "2026-10-30T18:41:06.552634+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1432,7 +1430,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274724-revolution--city-",
-    "derniere_maj": "2026-10-30T15:46:22.411401+00:00",
+    "derniere_maj": "2026-10-30T18:41:07.110818+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1513,7 +1511,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274788-revolution--united-",
-    "derniere_maj": "2026-10-30T15:46:33.311262+00:00",
+    "derniere_maj": "2026-10-30T18:41:07.123866+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1597,7 +1595,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274756-rowdies--tulsa-",
-    "derniere_maj": "2026-10-30T15:47:20.286081+00:00",
+    "derniere_maj": "2026-10-30T18:41:07.303275+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1681,7 +1679,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274794-united--real-",
-    "derniere_maj": "2026-10-30T15:46:33.785885+00:00",
+    "derniere_maj": "2026-10-30T18:41:20.782615+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1766,7 +1764,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274648-sounders--bulls-",
-    "derniere_maj": "2026-10-30T15:46:33.784932+00:00",
+    "derniere_maj": "2026-10-30T18:41:20.570332+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1847,7 +1845,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274708-sounders--timber-",
-    "derniere_maj": "2026-10-30T15:46:33.784347+00:00",
+    "derniere_maj": "2026-10-30T18:41:22.648285+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -1931,7 +1929,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274688-timber--bulls-",
-    "derniere_maj": "2026-10-30T15:46:35.818060+00:00",
+    "derniere_maj": "2026-10-30T18:41:20.596721+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2012,7 +2010,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274674-whitecaps--sounders-",
-    "derniere_maj": "2026-10-30T15:47:23.298435+00:00",
+    "derniere_maj": "2026-10-30T18:41:21.780351+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2096,7 +2094,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274670-whitecaps--timber-",
-    "derniere_maj": "2026-10-30T15:46:35.788343+00:00",
+    "derniere_maj": "2026-10-30T18:41:21.780959+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2180,7 +2178,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274672-whitecaps--bulls-",
-    "derniere_maj": "2026-10-30T15:46:42.237772+00:00",
+    "derniere_maj": "2026-10-30T18:41:21.779819+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2263,7 +2261,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274666-inter--dynamo-",
-    "derniere_maj": "2026-10-30T15:46:43.288651+00:00",
+    "derniere_maj": "2026-10-30T18:41:22.013843+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2346,7 +2344,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274632-inter--union-",
-    "derniere_maj": "2026-10-30T15:46:43.289527+00:00",
+    "derniere_maj": "2026-10-30T18:41:38.475982+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2429,7 +2427,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274550-sporting--inter-",
-    "derniere_maj": "2026-10-30T15:46:43.289119+00:00",
+    "derniere_maj": "2026-10-30T18:41:38.961088+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2512,7 +2510,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274572-sporting--union-",
-    "derniere_maj": "2026-10-30T15:46:46.556748+00:00",
+    "derniere_maj": "2026-10-30T18:41:38.975830+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2595,7 +2593,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274552-sporting--dynamo-",
-    "derniere_maj": "2026-10-30T15:46:47.867759+00:00",
+    "derniere_maj": "2026-10-30T18:41:40.181945+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2678,7 +2676,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274554-union--dynamo-",
-    "derniere_maj": "2026-10-30T15:46:51.299785+00:00",
+    "derniere_maj": "2026-10-30T18:41:38.155201+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2759,7 +2757,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274548-crew--minnesota-",
-    "derniere_maj": "2026-10-30T15:46:52.606417+00:00",
+    "derniere_maj": "2026-10-30T18:41:40.182695+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2843,7 +2841,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274574-dcunited--minnesota-",
-    "derniere_maj": "2026-10-30T15:46:52.616425+00:00",
+    "derniere_maj": "2026-10-30T18:41:40.187192+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -2924,7 +2922,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274564-dcunited--crew-",
-    "derniere_maj": "2026-10-30T15:46:52.851969+00:00",
+    "derniere_maj": "2026-10-30T18:41:40.518254+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3005,7 +3003,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274558-dallas--dcunited-",
-    "derniere_maj": "2026-10-30T15:46:57.928068+00:00",
+    "derniere_maj": "2026-10-30T18:41:53.246381+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3089,7 +3087,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274578-dallas--crew-",
-    "derniere_maj": "2026-10-30T15:46:59.471402+00:00",
+    "derniere_maj": "2026-10-30T18:41:53.435701+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3169,7 +3167,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274546-dallas--minnesota-",
-    "derniere_maj": "2026-10-30T15:47:03.013070+00:00",
+    "derniere_maj": "2026-10-30T18:41:55.455803+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3252,7 +3250,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274544-chivas--detroit-",
-    "derniere_maj": "2026-10-30T15:47:05.054960+00:00",
+    "derniere_maj": "2026-10-30T18:41:53.436565+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3335,7 +3333,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274588-chivas--las-vegas-",
-    "derniere_maj": "2026-10-30T15:47:05.022939+00:00",
+    "derniere_maj": "2026-10-30T18:41:55.253453+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3418,7 +3416,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274560-chivas--memphis-",
-    "derniere_maj": "2026-10-30T15:47:05.037597+00:00",
+    "derniere_maj": "2026-10-30T18:41:55.269289+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3501,7 +3499,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274530-detroit--memphis-",
-    "derniere_maj": "2026-10-30T15:47:13.729130+00:00",
+    "derniere_maj": "2026-10-30T18:41:55.251321+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3584,7 +3582,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274556-detroit--las-vegas-",
-    "derniere_maj": "2026-10-30T15:47:13.018130+00:00",
+    "derniere_maj": "2026-10-30T18:41:55.438730+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3667,7 +3665,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274528-las-vegas--memphis-",
-    "derniere_maj": "2026-10-30T15:47:18.280871+00:00",
+    "derniere_maj": "2026-10-30T18:42:04.804733+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3748,7 +3746,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274766-cincinnati--orlando-",
-    "derniere_maj": "2026-10-30T15:47:19.039432+00:00",
+    "derniere_maj": "2026-10-30T18:42:04.793963+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3833,7 +3831,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274784-cincinnati--nashville-",
-    "derniere_maj": "2026-10-30T15:47:21.145620+00:00",
+    "derniere_maj": "2026-10-30T18:42:08.895781+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -3918,7 +3916,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274806-nashville--orlando-",
-    "derniere_maj": "2026-10-30T15:47:23.100487+00:00",
+    "derniere_maj": "2026-10-30T18:42:11.383597+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -4002,7 +4000,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274820-toronto-cincinnati-",
-    "derniere_maj": "2026-10-30T15:47:27.368941+00:00",
+    "derniere_maj": "2026-10-30T18:42:11.672940+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -4083,7 +4081,7 @@
       "5-2": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274800-toronto-nashville-",
-    "derniere_maj": "2026-10-30T15:47:27.336956+00:00",
+    "derniere_maj": "2026-10-30T18:42:11.681291+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -4168,7 +4166,7 @@
       "5-2": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274730-toronto-orlando-",
-    "derniere_maj": "2026-10-30T15:47:30.191100+00:00",
+    "derniere_maj": "2026-10-30T18:42:11.710872+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -4253,7 +4251,7 @@
       "2-5": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274792-austin--fusion-",
-    "derniere_maj": "2026-10-30T15:47:30.190772+00:00",
+    "derniere_maj": "2026-10-30T18:42:09.666973+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -4334,7 +4332,7 @@
       "3-4": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274776-austin--st-louis-",
-    "derniere_maj": "2026-10-30T15:47:31.417839+00:00",
+    "derniere_maj": "2026-10-30T18:42:15.378432+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
@@ -4417,7 +4415,7 @@
       "4-3": "10"
     },
     "url": "https://1xbet.cm/fr/line/football/2590430-mls/385274742-birmingham--charleston-",
-    "derniere_maj": "2026-10-30T15:47:31.585213+00:00",
+    "derniere_maj": "2026-10-30T18:42:15.085644+00:00",
     "statut": "ok",
     "competition_id": "2590430",
     "competition": "Mls"
